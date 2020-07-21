@@ -1,0 +1,1078 @@
+# translation of NetworkManager-anyconnect.HEAD.po to
+# Copyright (C) 2007 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Kostas Papadimas <pkst@gnome.org>, 2007.
+# Jennie Petoumenou <epetoumenou@gmail.com>, 2008, 2009.
+# Michael Kotsarinis <mk73628@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: NetworkManager-anyconnect.HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-30 22:41+0100\n"
+"PO-Revision-Date: 2016-04-17 21:54+0300\n"
+"Last-Translator: Tom Tryfonidis <tomtryf@gmail.com>\n"
+"Language-Team: team@gnome.gr\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.7.1\n"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:1
+msgid "Anyconnect client"
+msgstr "Πελάτης Anyconnect"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:2
+msgid "Client for Anyconnect virtual private networks"
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:3
+msgid "Support for configuring Anyconnect virtual private network connections."
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:4
+msgid "Anyconnect is a popular and flexible free-software VPN solution."
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:5
+msgid "The NetworkManager Developers"
+msgstr "Οι προγραμματιστές του NetworkManager"
+
+#: ../properties/nm-anyconnect-editor-plugin.c:35
+#, fuzzy
+msgid "Cisco AnyConnect"
+msgstr "Anyconnect"
+
+#: ../properties/nm-anyconnect-editor-plugin.c:36
+msgid "Runs the proprietary Cisco AnyConnect VPN."
+msgstr ""
+
+#: ../properties/nm-anyconnect-editor.c:299
+msgid "could not load UI widget"
+msgstr "αδυναμία φόρτωσης γραφικού στοιχείου του περιβάλλοντος"
+
+#: ../shared/nm-utils/nm-shared-utils.c:946
+#, c-format
+msgid "object class '%s' has no property named '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:953
+#, c-format
+msgid "property '%s' of object class '%s' is not writable"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:960
+#, c-format
+msgid ""
+"construct property \"%s\" for object '%s' can't be set after construction"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:968
+#, c-format
+msgid "'%s::%s' is not a valid property name; '%s' is not a GObject subtype"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:977
+#, c-format
+msgid "unable to set property '%s' of type '%s' from value of type '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:988
+#, c-format
+msgid ""
+"value \"%s\" of type '%s' is invalid or out of range for property '%s' of "
+"type '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:69
+#, c-format
+msgid "unable to get editor plugin name: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:103
+#, c-format
+msgid "missing plugin file \"%s\""
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:109
+#, c-format
+msgid "cannot load editor plugin: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:118
+#, c-format
+msgid "cannot load factory %s from plugin: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:144
+msgid "unknown error creating editor instance"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:567 ../src/nm-anyconnect-service.c:682
+msgid "Could not find the anyconnect binary."
+msgstr "Αδυναμία εύρεσης του εκτελέσιμου anyconnect."
+
+#: ../src/nm-anyconnect-service.c:580
+msgid ""
+"Could not process the request because the VPN connection settings were "
+"invalid."
+msgstr ""
+"Αδύνατη η επεξεργασία του αιτήματος, επειδή οι ρυθμίσεις της σύνδεσης VPN "
+"ήταν άκυρες."
+
+#: ../src/nm-anyconnect-service.c:602
+msgid ""
+"Could not attempt connection, unable to find the setting for the gateway."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:875
+#, fuzzy
+msgid "Don’t quit when VPN connection terminates"
+msgstr "Να μην γίνει έξοδος όταν η σύνδεση VPN τερματίζει"
+
+#: ../src/nm-anyconnect-service.c:876
+msgid "Enable verbose debug logging (may expose passwords)"
+msgstr ""
+"Ενεργοποίηση αναλυτικής καταγραφής αποσφαλμάτωσης (μπορεί να εκθέτει τους "
+"κωδικούς πρόσβασης)"
+
+#: ../src/nm-anyconnect-service.c:877
+msgid "D-Bus name to use for this instance"
+msgstr "Ονομασία D-Bus που θα χρησιμοποιηθεί για αυτή τη συνεδρία"
+
+#: ../src/nm-anyconnect-service.c:905
+#, fuzzy
+msgid ""
+"nm-anyconnect-service provides integrated proprietary Cisco AnyConnect "
+"capability to NetworkManager."
+msgstr ""
+"Το nm-anyconnect-service παρέχει ολοκληρωμένες δυνατότητες Anyconnect στο "
+"NetworkManager."
+
+#: ../properties/nm-anyconnect-dialog.ui.h:1
+msgid "General"
+msgstr "Γενικά"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:2
+msgid "_Gateway:"
+msgstr "Πύ_λη δικτύου:"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:3
+msgid "VPN host to connect to"
+msgstr ""
+
+#, c-format
+#~ msgid "Authenticate VPN %s"
+#~ msgstr "Πιστοποίηση VPN %s"
+
+#~ msgid "Password:"
+#~ msgstr "Κωδικός πρόσβασης:"
+
+#~ msgid "Certificate password:"
+#~ msgstr "Κωδικός πρόσβασης πιστοποιητικού:"
+
+#~ msgid "HTTP proxy password:"
+#~ msgstr "Κωδικός πρόσβασης διαμεσολαβητή HTTP:"
+
+#~ msgid "Authenticate VPN"
+#~ msgstr "Πιστοποίηση VPN"
+
+#~ msgid "Certificate pass_word:"
+#~ msgstr "_Κωδικός πρόσβασης πιστοποιητικού:"
+
+#~ msgid "_HTTP proxy password:"
+#~ msgstr "Κ_ωδικός πρόσβασης διαμεσολαβητή _HTTP:"
+
+#, c-format
+#~ msgid "You need to authenticate to access the Virtual Private Network '%s'."
+#~ msgstr ""
+#~ "Χρειάζεστε πιστοποίηση για να αποκτήσετε πρόσβαση στο Ιδιωτικό Εικονικό "
+#~ "Δίκτυο (VPN) '%s'."
+
+#~ msgid "Choose your personal certificate..."
+#~ msgstr "Επιλέξτε το προσωπικό σας πιστοποιητικό..."
+
+#~ msgid "Choose your private key..."
+#~ msgstr "Επιλέξτε το ιδιωτικό σας κλειδί..."
+
+#~ msgid "Choose a Certificate Authority certificate..."
+#~ msgstr "Επιλέξτε πιστοποιητικό Αρχής Πιστοποίησης..."
+
+#~ msgid "Choose an Anyconnect static key..."
+#~ msgstr "Επιλέξτε στατικό κλειδί Anyconnect..."
+
+#~ msgid "None"
+#~ msgstr "Χωρίς"
+
+#~ msgid "PEM or PKCS#12 certificates (*.pem, *.crt, *.key, *.cer, *.p12)"
+#~ msgstr "Πιστοποιητικά PEM ή PKCS#12 (*.pem, *.crt, *.key, *.cer, *.p12)"
+
+#~ msgid "PEM certificates (*.pem, *.crt, *.key, *.cer)"
+#~ msgstr "Πιστοποιητικά PEM (*.pem, *.crt, *.key, *.cer)"
+
+#~ msgid "Anyconnect Static Keys (*.key)"
+#~ msgstr "Στατικά κλειδιά Anyconnect (*.key)"
+
+#~ msgid "Default"
+#~ msgstr "Προεπιλεγμένο"
+
+#~ msgid "RSA MD-4"
+#~ msgstr "RSA MD-4"
+
+#~ msgid "MD-5"
+#~ msgstr "MD-5"
+
+#~ msgid "SHA-1"
+#~ msgstr "SHA-1"
+
+#~ msgid "SHA-224"
+#~ msgstr "SHA-224"
+
+#~ msgid "SHA-256"
+#~ msgstr "SHA-256"
+
+#~ msgid "SHA-384"
+#~ msgstr "SHA-384"
+
+#~ msgid "SHA-512"
+#~ msgstr "SHA-512"
+
+#~ msgid "RIPEMD-160"
+#~ msgstr "RIPEMD-160"
+
+#~ msgid "Server"
+#~ msgstr "Διακομιστής"
+
+#~ msgid "Client"
+#~ msgstr "Πελάτης"
+
+#~ msgid "Not required"
+#~ msgstr "Δεν απαιτείται"
+
+#~ msgid "HTTP"
+#~ msgstr "HTTP"
+
+#~ msgid "SOCKS"
+#~ msgstr "SOCKS"
+
+#~ msgid "TUN"
+#~ msgstr "TUN"
+
+#~ msgid "TAP"
+#~ msgstr "TAP"
+
+#~ msgid "(automatic)"
+#~ msgstr "(αυτόματο)"
+
+#~ msgid "ping-exit"
+#~ msgstr "ping-exit"
+
+#~ msgid "ping-restart"
+#~ msgstr "ping-restart"
+
+#, fuzzy, c-format
+#~| msgid "option %s expects between %u and %u arguments"
+#~ msgid "option %s expects between %u and %u argument"
+#~ msgid_plural "option %s expects between %u and %u arguments"
+#~ msgstr[0] "η επιλογή %s αναμένει μεταξύ %u και %u ορίσματα"
+#~ msgstr[1] "η επιλογή %s αναμένει μεταξύ %u και %u ορίσματα"
+
+#, c-format
+#~ msgid "option %s expects no arguments"
+#~ msgstr "η επιλογή %s δεν αναμένει ορίσματα"
+
+#, fuzzy, c-format
+#~| msgid "option %s expects exactly one argument"
+#~ msgid "option %s expects exactly one argument"
+#~ msgid_plural "option %s expects exactly %u arguments"
+#~ msgstr[0] "η επιλογή %s αναμένει ακριβώς ένα όρισμα"
+#~ msgstr[1] "η επιλογή %s αναμένει ακριβώς ένα όρισμα"
+
+#, c-format
+#~ msgid "argument %s of \"%s\" can not be empty"
+#~ msgstr "το όρισμα %s του \"%s\" δεν μπορεί να είναι κενό"
+
+#, c-format
+#~ msgid "argument of \"%s\" can not be empty"
+#~ msgstr "το όρισμα του \"%s\" δεν μπορεί να είναι κενό"
+
+#, c-format
+#~ msgid "argument %s of \"%s\" must be UTF-8 encoded"
+#~ msgstr "το όρισμα %s του \"%s\" πρέπει να έχει κωδικοποίηση UTF-8"
+
+#, c-format
+#~ msgid "argument of \"%s\" must be UTF-8 encoded"
+#~ msgstr "το όρισμα του\"%s\" πρέπει να έχει κωδικοποίηση UTF-8"
+
+#, c-format
+#~ msgid "invalid %uth argument to '%s' where number expected"
+#~ msgstr "μη έγκυρο όρισμα %uth στο '%s' όπου αναμενόταν ένας αριθμός"
+
+#, c-format
+#~ msgid "invalid %uth argument to '%s' where IPv4 address expected"
+#~ msgstr "μη έγκυρο όρισμα %uth στο '%s' όπου αναμενόταν διεύθυνση IPv4"
+
+#, c-format
+#~ msgid "invalid %uth key-direction argument to '%s'"
+#~ msgstr "μη έγκυρο όρισμα key-direction %uth στο '%s'"
+
+#, c-format
+#~ msgid "invalid %uth argument to '%s'"
+#~ msgstr "μη έγκυρο όρισμα %uth στο '%s'"
+
+#~ msgid "double quote"
+#~ msgstr "διπλό εισαγωγικό"
+
+#~ msgid "single quote"
+#~ msgstr "απλό εισαγωγικό"
+
+#, c-format
+#~ msgid "unable to read HTTP proxy auth file"
+#~ msgstr "αδυναμία ανάγνωσης του αρχείου πιστοποίησης του διαμεσολαβητή HTTP"
+
+#, c-format
+#~ msgid "cannot read user/password from HTTP proxy auth file"
+#~ msgstr ""
+#~ "αδυναμία ανάγνωσης χρήστη/κωδικού πρόσβασης από το αρχείο πιστοποίηση του "
+#~ "διαμεσολαβητή HTTP"
+
+#, c-format
+#~ msgid "user/password from HTTP proxy auth file must be UTF-8 encoded"
+#~ msgstr ""
+#~ "ο χρήστης/κωδικός πρόσβασης του αρχείου πιστοποίησης του διαμεσολαβητή "
+#~ "HTTP πρέπει να έχουν κωδικοποίηση UTF-8"
+
+#, c-format
+#~ msgid "'%s' is not a directory"
+#~ msgstr "Το '%s' δεν είναι κατάλογος"
+
+#, c-format
+#~ msgid "cannot create '%s' directory"
+#~ msgstr "αδυναμία δημιουργίας του καταλόγου '%s'"
+
+#, c-format
+#~ msgid "cannot write <%s> blob from line %ld to file (%s)"
+#~ msgstr "αδυναμία εγγραφής του <%s> blob από τη γραμμή %ld στο αρχείο (%s)"
+
+#, c-format
+#~ msgid "cannot write <%s> blob from line %ld to file '%s'"
+#~ msgstr "αδυναμία εγγραφής του <%s> blob από τη γραμμή %ld στο αρχείο '%s'"
+
+#, c-format
+#~ msgid "invalid option"
+#~ msgstr "άκυρη επιλογή"
+
+#, c-format
+#~ msgid "unsupported comp-lzo argument"
+#~ msgstr "μη υποστηριζόμενο όρισμα του comp-lzo"
+
+#, c-format
+#~ msgid "remote cannot contain space"
+#~ msgstr "το απομακρυσμένο δε μπορεί να περιέχει κενό χαρακτήρα"
+
+#, c-format
+#~ msgid "remote cannot contain comma"
+#~ msgstr "το απομακρυσμένο δε μπορεί να περιέχει κόμμα"
+
+#, c-format
+#~ msgid "unsupported blob/xml element"
+#~ msgstr "μη υποστηριζόμενο στοιχείο blob/xml"
+
+#, c-format
+#~ msgid "configuration error: %s (line %ld)"
+#~ msgstr "σφάλμα διαμόρφωσης: %s (γραμμή %ld)"
+
+#~ msgid "unknown or unsupported option"
+#~ msgstr "άγνωστη ή μη υποστηριζόμενη επιλογή"
+
+#~ msgid "connection was incomplete (missing gateway)"
+#~ msgstr "η σύνδεση ήταν ελλιπής (λείπει η πύλη δικτύου)"
+
+#, c-format
+#~ msgid "failed to write file: %s"
+#~ msgstr "αδύνατη η εγγραφή του αρχείου: %s"
+
+#~ msgid "Compatible with the Anyconnect server."
+#~ msgstr "Συμβατό με τον διακομιστή Anyconnect."
+
+#~ msgid "Certificates (TLS)"
+#~ msgstr "Πιστοποιητικά (TLS)"
+
+#~ msgid "Password"
+#~ msgstr "Κωδικός πρόσβασης"
+
+#~ msgid "Password with Certificates (TLS)"
+#~ msgstr "Κωδικός πρόσβασης με πιστοποιητικά (TLS)"
+
+#~ msgid "Static Key"
+#~ msgstr "Στατικό Κλειδί"
+
+#~ msgid "could not create anyconnect object"
+#~ msgstr "αδυναμία δημιουργίας αντικειμένου anyconnect"
+
+#~ msgid "unknown Anyconnect file extension"
+#~ msgstr "άγνωστη επέκταση αρχείου του Anyconnect"
+
+#, c-format
+#~ msgid "invalid address '%s'"
+#~ msgstr "άκυρη διεύθυνση '%s'"
+
+#, c-format
+#~ msgid "invalid integer property '%s' or out of range [%d -> %d]"
+#~ msgstr "άκυρη ακέραια ιδιότητα '%s' ή εκτός ορίου [%d -> %d]"
+
+#, c-format
+#~ msgid "invalid boolean property '%s' (not yes or no)"
+#~ msgstr "άκυρη ιδιότητα λογικής τιμής '%s' (ούτε ναι ούτε όχι)"
+
+#, c-format
+#~ msgid "unhandled property '%s' type %s"
+#~ msgstr "ανεπίλυτη ιδιότητα '%s' τύπου %s"
+
+#, c-format
+#~ msgid "property '%s' invalid or not supported"
+#~ msgstr "άκυρη ή ανυποστήρικτη ιδιότητα '%s'"
+
+#~ msgid "No VPN configuration options."
+#~ msgstr "Χωρίς επιλογές διαμόρφωσης VPN."
+
+#~ msgid "A username is required."
+#~ msgstr "Απαιτείται όνομα χρήστη."
+
+#~ msgid "A password is required."
+#~ msgstr "Απαιτείται κωδικός πρόσβασης."
+
+#~ msgid "A username and password are required."
+#~ msgstr "Απαιτείται όνομα χρήστη και κωδικός πρόσβασης."
+
+#~ msgid "A private key password is required."
+#~ msgstr "Απαιτείται κωδικός πρόσβασης ιδιωτικού κλειδιού."
+
+#~ msgid "An HTTP Proxy username is required."
+#~ msgstr "Απαιτείται όνομα χρήστη διαμεσολαβητή HTTP."
+
+#~ msgid "An HTTP Proxy password is required."
+#~ msgstr "Απαιτείται κωδικός πρόσβασης διαμεσολαβητή HTTP."
+
+#~ msgid "An HTTP Proxy username and password are required."
+#~ msgstr "Απαιτείται όνομα χρήστη και κωδικός πρόσβασης διαμεσολαβητή HTTP."
+
+#~ msgid "Invalid HMAC auth."
+#~ msgstr "Άκυρη πιστοποίηση HMAC."
+
+#~ msgid "Invalid connection type."
+#~ msgstr "Άκυρος τύπος σύνδεσης."
+
+#, c-format
+#~ msgid "Invalid port number '%s'."
+#~ msgstr "Άκυρος αριθμός θύρας '%s'."
+
+#, c-format
+#~ msgid "Invalid proto '%s'."
+#~ msgstr "Άκυρος τύπος πρωτοκόλλου '%s'."
+
+#, c-format
+#~ msgid "Invalid proxy type '%s'."
+#~ msgstr "Άκυρος τύπος διαμεσολαβητή '%s'."
+
+#, c-format
+#~ msgid "Invalid ping duration '%s'."
+#~ msgstr "Μη έγκυρη διάρκεια του ping '%s'."
+
+#, c-format
+#~ msgid "Invalid ping-exit duration '%s'."
+#~ msgstr "Μη έγκυρη διάρκεια του ping-exit '%s'."
+
+#, c-format
+#~ msgid "Invalid ping-restart duration '%s'."
+#~ msgstr "Μη έγκυρη διάρκεια του ping-restart '%s'."
+
+#, c-format
+#~ msgid "Invalid keysize '%s'."
+#~ msgstr "Άκυρο μέγεθος κλειδιού '%s'."
+
+#, c-format
+#~ msgid "Invalid reneg seconds '%s'."
+#~ msgstr "Άκυρα δευτερόλεπτα επαναδιαπραγμάτευσης '%s'."
+
+#, c-format
+#~ msgid "Invalid TUN MTU size '%s'."
+#~ msgstr "Άκυρο μέγεθος MTU TUN '%s'."
+
+#, c-format
+#~ msgid "Invalid fragment size '%s'."
+#~ msgstr "Άκυρο μέγεθος αποκόμματος '%s'."
+
+#~ msgid "Missing required local IP address for static key mode."
+#~ msgstr ""
+#~ "Λείπει η απαιτούμενη τοπική διεύθυνση IP για λειτουργία στατικού κλειδιού."
+
+#~ msgid "Missing required remote IP address for static key mode."
+#~ msgstr ""
+#~ "Λείπει η απαιτούμενη απομακρυσμένη διεύθυνση IP για λειτουργία στατικού "
+#~ "κλειδιού."
+
+#, c-format
+#~ msgid "Unknown connection type '%s'."
+#~ msgstr "Άγνωστος τύπος σύνδεσης '%s'."
+
+#, c-format
+#~ msgid "User '%s' not found, check NM_ANYCONNECT_USER."
+#~ msgstr "Δεν βρέθηκε ο χρήστης '%s', ελέγξτε το NM_ANYCONNECT_USER."
+
+#, c-format
+#~ msgid "Group '%s' not found, check NM_ANYCONNECT_GROUP."
+#~ msgstr "Δεν βρέθηκε η ομάδα '%s', ελέγξτε το NM_ANYCONNECT_GROUP."
+
+#~ msgid ""
+#~ "Could not process the request because the anyconnect connection type was "
+#~ "invalid."
+#~ msgstr ""
+#~ "Αδύνατη η επεξεργασία του αιτήματος, επειδή ο τύπος σύνδεσης του "
+#~ "anyconnect ήταν άκυρος."
+
+#~ msgid "Unhandled pending authentication."
+#~ msgstr "Ανεπίλυτη αναμονή πιστοποίησης."
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "<b>General</b>"
+#~ msgstr "<b>Γενικά</b>"
+
+#~ msgid "<b>Authentication</b>"
+#~ msgstr "<b>Πιστοποίηση</b>"
+
+#~ msgid "_Show passwords"
+#~ msgstr "Ε_μφάνιση κωδικών πρόσβασης"
+
+#~ msgid "Password for private key"
+#~ msgstr "Κωδικός πρόσβασης για το ιδιωτικό κλειδί"
+
+#~ msgid "Private Key Password:"
+#~ msgstr "Κωδικός πρόσβασης ιδιωτικού κλειδιού:"
+
+#~ msgid ""
+#~ "Local peer's private key in .pem format.\n"
+#~ "config: key"
+#~ msgstr ""
+#~ "Το ιδιωτικό κλειδί του τοπικού ομότιμου σε μορφή .pem.\n"
+#~ "config: key"
+
+#~ msgid "Private Key:"
+#~ msgstr "Ιδιωτικό κλειδί:"
+
+#~ msgid ""
+#~ "Certificate authority (CA) file in .pem format.\n"
+#~ "config: ca"
+#~ msgstr ""
+#~ "Αρχείο πιστοποιητικού αρχής (CA) σε μορφή .pem.\n"
+#~ "config: ca"
+
+#~ msgid "CA Certificate:"
+#~ msgstr "Πι_στοποιητικό CA:"
+
+#~ msgid "User Certificate:"
+#~ msgstr "Πιστοποιητικό χρήστη:"
+
+#~ msgid ""
+#~ "Local peer's signed certificate in .pem format (signed by CA of CA "
+#~ "Certificate).\n"
+#~ "config: cert"
+#~ msgstr ""
+#~ "Υπογεραμμένο πιστοποιητικό του τοπικού ομότιμου σε μορφή .pem "
+#~ "(υπογραμμένο από CA πιστοποιητικό).\n"
+#~ "config: cert"
+
+#~ msgid ""
+#~ "Password passed to Anyconnect when prompted for it.\n"
+#~ "config: auth-user-pass"
+#~ msgstr ""
+#~ "Ο κωδικός πρόσβασης πέρασε στο Anyconnect όταν του ζητήθηκε.\n"
+#~ "config: auth-user-pass"
+
+#~ msgid "User name:"
+#~ msgstr "Όνομα χρήστη:"
+
+#~ msgid ""
+#~ "Username passed to Anyconnect when prompted for it.\n"
+#~ "config: auth-user-pass"
+#~ msgstr ""
+#~ "Το όνομα χρήστη πέρασε στο Anyconnect όταν του ζητήθηκε.\n"
+#~ "config: auth-user-pass"
+
+#~ msgid ""
+#~ "IP address of the local VPN endpoint.\n"
+#~ "config: ifconfig <l> <rn>"
+#~ msgstr ""
+#~ "Διεύθυνση IP του τοπικού τελικού σημείου VPN.\n"
+#~ "config: ifconfig <l> <rn>"
+
+#~ msgid "Remote IP Address:"
+#~ msgstr "Απομακρυσμένη διεύθυνση IP:"
+
+#~ msgid "Local IP Address:"
+#~ msgstr "Τοπική διεύθυνση IP:"
+
+#~ msgid ""
+#~ "IP address of the remote VPN endpoint.\n"
+#~ "config: ifconfig <l> <rn>"
+#~ msgstr ""
+#~ "Διεύθυνση IP του απομακρυσμένου τελικού σημείου VPN.\n"
+#~ "config: ifconfig <l> <rn>"
+
+#~ msgid "Key Direction:"
+#~ msgstr "Κατεύθυνση κλειδιού:"
+
+#~ msgid "Static Key:"
+#~ msgstr "Στατικό Κλειδί:"
+
+#~ msgid ""
+#~ "Pre-shared file for Static Key encryption mode (non-TLS).\n"
+#~ "config: static <file>"
+#~ msgstr ""
+#~ "Προκοινόχρηστο αρχείο για λειτουργία κρυπτογράφησης στατικού κλειδιού "
+#~ "(όχι-TLS).\n"
+#~ "config: static <file>"
+
+#~ msgid ""
+#~ "Direction for Static Key encryption mode (non-TLS).\n"
+#~ "If key direction is used, it must be the opposite of that used on the VPN "
+#~ "peer.  For example, if the peer uses '1', this connection must use '0'.  "
+#~ "If you are unsure what value to use, contact your system administrator.\n"
+#~ "config: static <file> [direction]"
+#~ msgstr ""
+#~ "Κατεύθυνση για τη λειτουργία κρυπτογράφησης στατικού κλειδιού (μη-TLS)\n"
+#~ "Αν χρησιμοποιηθεί η κατεύθυνση του κλειδιού, θα πρέπει να είναι αντίθετη "
+#~ "από την κατεύθυνση του άλλου υπολογιστή. Για παράδειγμα, αν ο άλλος "
+#~ "υπολογιστής χρησιμοποιεί '1', αυτή η σύνδεση θα πρέπει να χρησιμοποιεί "
+#~ "'0'. Αν δεν είστε βέβαιοι για το ποια τιμή πρέπει να χρησιμοποιήσετε, "
+#~ "επικοινωνήστε με το διαχειριστή του συστήματος.\n"
+#~ "ρύθμιση: static <file> [κατεύθυνση]"
+
+#~ msgid "Type:"
+#~ msgstr "Τύπος:"
+
+#~ msgid "Select an authentication mode."
+#~ msgstr "Επιλέξτε λειτουργία πιστοποίησης."
+
+#~ msgid "Ad_vanced..."
+#~ msgstr "Για προ_χωρημένους..."
+
+#~ msgid "Anyconnect Advanced Options"
+#~ msgstr "Προχωρημένες επιλογές Anyconnect"
+
+#~ msgid "Use custom gateway p_ort:"
+#~ msgstr "Χρήση προσαρμοσμένης _θύρας πύλης δικτύου:"
+
+#~ msgid ""
+#~ "TCP/UDP port number for peer. (Default value when there is no port for "
+#~ "gateway).\n"
+#~ "config: port"
+#~ msgstr ""
+#~ "Αριθμός θύρας TCP/UDP για το ομότιμο. (Η προεπιλεγμένη τιμή όταν δεν "
+#~ "υπάρχει θύρα για τη πύλη δικτύου)\n"
+#~ "config: port"
+
+#~ msgid "Use custom _renegotiation interval:"
+#~ msgstr "Χρήση προσαρμοσμένου χρόνου επανα_διαπραγμάτευσης:"
+
+#~ msgid ""
+#~ "Renegotiate data channel key after the specified number of seconds.\n"
+#~ "config: reneg-sec"
+#~ msgstr ""
+#~ "Επαναδιαπραγμάτευση κλειδιού του καναλιού δεδομένων μετά τον καθορισμένο "
+#~ "αριθμό δευτερολέπτων.\n"
+#~ "config: reneg-sec"
+
+#~ msgid "Use L_ZO data compression"
+#~ msgstr "Χρήση συμπίεσης δεδομένων L_ZO"
+
+#~ msgid ""
+#~ "Use fast LZO compression.\n"
+#~ "config: comp-lzo"
+#~ msgstr ""
+#~ "Χρήση γρήγορης συμπίεσης LZO.\n"
+#~ "config: comp-lzo"
+
+#~ msgid "Use a _TCP connection"
+#~ msgstr "Χρήση σύνδεσης _TCP"
+
+#~ msgid ""
+#~ "Use TCP for communicating with remote host.\n"
+#~ "(This is a default setting only used when no protocol is specified for "
+#~ "the gateway.)\n"
+#~ "config: proto tcp-client | udp"
+#~ msgstr ""
+#~ "Χρήση TCP για επικοινωνία με απομακρυσμένο κεντρικό υπολογιστή.\n"
+#~ "(Αυτή είναι η προεπιλεγμένη ρύθμιση και χρησιμοποιείται μόνο όταν δεν "
+#~ "υπάρχει ορισμένο πρωτόκολλο για τη πύλη δικτύου.)\n"
+#~ "config: proto tcp-client | udp"
+
+#~ msgid "Set virtual _device type:"
+#~ msgstr "Ορισμός τύπου εικονικής _συσκευής:"
+
+#~ msgid "Explicitly set virtual device type and name (TUN/TAP)."
+#~ msgstr "Ρητός ορισμός τύπου εικονικής συσκευής και ονόματος (TUN/TAP)."
+
+#~ msgid ""
+#~ "Explicitly set virtual device type (TUN/TAP).\n"
+#~ "config: dev-type tun | tap"
+#~ msgstr ""
+#~ "Ρητός ορισμός τύπου εικονικής συσκευής (TUN/TAP).\n"
+#~ "config: dev-type tun | tap"
+
+#~ msgid " and _name:"
+#~ msgstr "και ο_νόματος:"
+
+#~ msgid ""
+#~ "Use custom name for TUN/TAP virtual device (instead of default \"tun\" or "
+#~ "\"tap\").\n"
+#~ "config: dev <name>"
+#~ msgstr ""
+#~ "Χρήση προσαρμοσμένου ονόματος για εικονική συσκευή TUN/TAP (αντί των "
+#~ "προεπιλεγμένων \"tun\" ή \"tap\").\n"
+#~ "config: dev <name>"
+
+#~ msgid "Use custom tunnel Maximum Transmission _Unit (MTU):"
+#~ msgstr "Χρήση προσαρμοσμένης _μονάδας μέγιστης μετάδοσης διοχέτευσης (MTU):"
+
+#~ msgid ""
+#~ "Take the TUN device MTU to be the specified value and derive the link MTU "
+#~ "from it.\n"
+#~ "config: tun-mtu"
+#~ msgstr ""
+#~ "Λήψη της MTU συσκευής TUN στην καθορισμένη τιμή και παραγωγή του "
+#~ "συνδέσμου MTU από αυτή.\n"
+#~ "config: tun-mtu"
+
+#~ msgid "Use custom UDP _fragment size:"
+#~ msgstr "Χρήση προσαρμοσμένου μεγέθους _αποκόμματος UDP:"
+
+#~ msgid ""
+#~ "Enable internal datagram fragmentation with this maximum size.\n"
+#~ "config: fragment"
+#~ msgstr ""
+#~ "Ενεργοποίηση εσωτερικού κατακερματισμού αυτοδύναμου πακέτου με αυτό το "
+#~ "μέγιστο μέγεθος.\n"
+#~ "config: fragment"
+
+#~ msgid "Restrict tunnel TCP Maximum _Segment Size (MSS)"
+#~ msgstr "Περιορισμός διοχέτευσης μέγιστου μεγέθους _αποκόμματος TCP (MSS)"
+
+#~ msgid ""
+#~ "Restrict tunnel TCP MSS.\n"
+#~ "config: mssfix"
+#~ msgstr ""
+#~ "Περιορισμός διoχέτευσης MSS TCP.\n"
+#~ "config: mssfix"
+
+#~ msgid "Rando_mize remote hosts"
+#~ msgstr "_Τυχαία σειρά απομακρυσμένων κεντρικών υπολογιστών"
+
+#~ msgid ""
+#~ "Randomize the order of gateways list (remote) as a kind of basic load-"
+#~ "balancing measure.\n"
+#~ "config: remote-random"
+#~ msgstr ""
+#~ "Τυχαία σειρά της λίστας πυλών δικτύου (απομακρυσμένης) ως ενός είδους "
+#~ "βασικού μέτρου εξισορρόπησης φορτίου.\n"
+#~ "config: remote-random"
+
+#~ msgid "IPv6 tun link"
+#~ msgstr "Σύνδεσμος IPv6 tun"
+
+#~ msgid ""
+#~ "Encrypt packets with cipher algorithm. The default is BF-CBC (Blowfish in "
+#~ "Cipher Block Chaining mode).\n"
+#~ "config: cipher"
+#~ msgstr ""
+#~ "Κρυπτογράφηση πακέτων με αλγόριθμο κρυπτογράφησης. Η προεπιλογή είναι BF-"
+#~ "CBC (Blowfish σε λειτουργία Cipher Block Chaining).\n"
+#~ "config: cipher"
+
+#~ msgid "Use custom _size of cipher key:"
+#~ msgstr "Χρήση προσαρμοσμένου _μεγέθους κλειδιού κρυπτογράφισης:"
+
+#~ msgid ""
+#~ "Set cipher key size to a custom value. If unspecified, it defaults to "
+#~ "cipher-specific size.\n"
+#~ "config: keysize <n>"
+#~ msgstr ""
+#~ "Ορισμός μεγέθους κλειδιού κρυπτογράφισης σε προσαρμοσμένη τιμή. Εάν δεν "
+#~ "καθοριστεί, χρησιμοποιείται το προεπιλεγμένο μέγεθος κλειδιού "
+#~ "κρυπτογράφισης.\n"
+#~ "config: keysize <n>"
+
+#~ msgid ""
+#~ "Authenticate packets with HMAC using message digest algorithm. The "
+#~ "default is SHA1.\n"
+#~ "config: auth"
+#~ msgstr ""
+#~ "Επαλήθευση πακέτων με HMAC χρησιμοποιώντας αλγόριθμο αφομοίωσης "
+#~ "μηνύματος. Η προεπιλογή είναι SHA1.\n"
+#~ "config: auth"
+
+#~ msgid "Ci_pher:"
+#~ msgstr "Αλγόριθμος κρυπτογράφησης:"
+
+#~ msgid "_HMAC Authentication:"
+#~ msgstr "Πιστοποίηση HMAC:"
+
+#~ msgid "Security"
+#~ msgstr "Ασφάλεια"
+
+#~ msgid "_Subject Match:"
+#~ msgstr "Συμφωνία _θέματος:"
+
+#~ msgid ""
+#~ "<i>Connect only to servers whose certificate matches the given subject.\n"
+#~ "Example: /CN=myvpn.company.com</i>"
+#~ msgstr ""
+#~ "<i>Σύνδεση σε διακομιστές μόνο όταν το πιστοποιητικό τους ταιριάζει με το "
+#~ "δοθέν θέμα.\n"
+#~ "Παράδειγμα: /CN=myvpn.company.com</i>"
+
+#~ msgid ""
+#~ "Accept connections only from a host with X509 name or common name equal "
+#~ "to the specified one.\n"
+#~ "config: tls-remote"
+#~ msgstr ""
+#~ "Αποδοχή συνδέσεων μόνο από έναν κεντρικό υπολογιστή με όνομα X509 ή κοινό "
+#~ "όνομα ισοδύναμο με το καθορισμένο.\n"
+#~ "config: tls-remote"
+
+#~ msgid "_Verify peer (server) certificate usage signature"
+#~ msgstr "_Επιβεβαίωση υπογραφής χρήσης πιστοποιητικού ομότιμου (διακομιστή)"
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit key usage and "
+#~ "extended key usage based on RFC3280 TLS rules."
+#~ msgstr ""
+#~ "Απαιτείται αυτό το πιστοποιητικό ομότιμου να έχει υπογραφεί με χρήση "
+#~ "ρητού κλειδιού και επεκταμένη χρήση κλειδιού με βάση τους κανόνες TLS "
+#~ "RFC3280."
+
+#~ msgid "_Remote peer certificate TLS type:"
+#~ msgstr "Α_πομακρυσμένο πιστοποιητικό ομότιμου, τύπου TLS:"
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit key usage and "
+#~ "extended key usage based on RFC3280 TLS rules.\n"
+#~ "config: remote-cert-tls client|server"
+#~ msgstr ""
+#~ "Απαιτείται αυτό το πιστοποιητικό ομότιμου να έχει υπογραφεί με χρήση "
+#~ "ρητού κλειδιού και επεκταμένη χρήση κλειδιού με βάση τους κανόνες TLS "
+#~ "RFC3280.\n"
+#~ "config: remote-cert-tls client|server"
+
+#, fuzzy
+#~| msgid "_Verify peer (server) certificate usage signature"
+#~ msgid "_Verify peer (server) certificate nsCertType designation"
+#~ msgstr "_Επιβεβαίωση υπογραφής χρήσης πιστοποιητικού ομότιμου (διακομιστή)"
+
+#, fuzzy
+#~| msgid ""
+#~| "Require that peer certificate was signed with an explicit key usage and "
+#~| "extended key usage based on RFC3280 TLS rules."
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit nsCertType "
+#~ "designation."
+#~ msgstr ""
+#~ "Απαιτείται αυτό το πιστοποιητικό ομότιμου να έχει υπογραφεί με χρήση "
+#~ "ρητού κλειδιού και επεκταμένη χρήση κλειδιού με βάση τους κανόνες TLS "
+#~ "RFC3280."
+
+#, fuzzy
+#~| msgid "_Remote peer certificate TLS type:"
+#~ msgid "_Remote peer certificate nsCert designation:"
+#~ msgstr "Α_πομακρυσμένο πιστοποιητικό ομότιμου, τύπου TLS:"
+
+#, fuzzy
+#~| msgid ""
+#~| "Require that peer certificate was signed with an explicit key usage and "
+#~| "extended key usage based on RFC3280 TLS rules.\n"
+#~| "config: remote-cert-tls client|server"
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit nsCertType "
+#~ "designation.\n"
+#~ "config: ns-cert-type client|server"
+#~ msgstr ""
+#~ "Απαιτείται αυτό το πιστοποιητικό ομότιμου να έχει υπογραφεί με χρήση "
+#~ "ρητού κλειδιού και επεκταμένη χρήση κλειδιού με βάση τους κανόνες TLS "
+#~ "RFC3280.\n"
+#~ "config: remote-cert-tls client|server"
+
+#~ msgid "Use additional _TLS authentication"
+#~ msgstr "Χρήση πρόσθετης πιστοποίησης _TLS"
+
+#~ msgid "Add an additional layer of HMAC authentication."
+#~ msgstr "Προσθήκη πρόσθετης στρώσης πιστοποίησης HMAC."
+
+#~ msgid "Key _Direction:"
+#~ msgstr "_Κατεύθυνση κλειδιού:"
+
+#~ msgid ""
+#~ "Add an additional layer of HMAC authentication on top of the TLS control "
+#~ "channel to protect against DoS attacks.\n"
+#~ "config: tls-auth <file> [direction]"
+#~ msgstr ""
+#~ "Προσθήκη πρόσθετης στρώσης πιστοποίησης HMAC στην κορυφή του καναλιού "
+#~ "ελέγχου TLS για προστασία κατά επιθέσεων DoS.\n"
+#~ "config: tls-auth <file> [direction]"
+
+#~ msgid ""
+#~ "Direction parameter for static key mode.\n"
+#~ "If key direction is used, it must be the opposite of that used on the VPN "
+#~ "peer.  For example, if the peer uses '1', this connection must use '0'.  "
+#~ "If you are unsure what value to use, contact your system administrator.\n"
+#~ "config: tls-auth <file> [direction]"
+#~ msgstr ""
+#~ "Παράμετρος κατεύθυνση για τη λειτουργία στατικού κλειδιού.\n"
+#~ "Αν χρησιμοποιηθεί η κατεύθυνση του κλειδιού, θα πρέπει να είναι αντίθετη "
+#~ "από την κατεύθυνση του άλλου υπολογιστή VPN. Για παράδειγμα, αν ο άλλος "
+#~ "υπολογιστής χρησιμοποιεί '1', αυτή η σύνδεση θα πρέπει να χρησιμοποιεί "
+#~ "'0'. Αν δεν είστε βέβαιοι για το ποια τιμή πρέπει να χρησιμοποιήσετε, "
+#~ "επικοινωνήστε με το διαχειριστή του συστήματος.\n"
+#~ "ρύθμιση: tls-auth <file> [κατεύθυνση]"
+
+#~ msgid "Key _File:"
+#~ msgstr "_Αρχείο κλειδιού:"
+
+#~ msgid "TLS Authentication"
+#~ msgstr "Πιστοποίηση TLS:"
+
+#~ msgid ""
+#~ "Proxy type: HTTP or Socks.\n"
+#~ "config: http-proxy or socks-proxy"
+#~ msgstr ""
+#~ "Τύπος διαμεσολαβητή: HTTP ή Socks.\n"
+#~ "config: http-proxy ή socks-proxy"
+
+#~ msgid "Proxy _Type:"
+#~ msgstr "_Τύπος διαμεσολαβητή:"
+
+#~ msgid ""
+#~ "<i>Select this option if your organization requires the use of a proxy "
+#~ "server to access the Internet.</i>"
+#~ msgstr ""
+#~ "<i>Επιλέξτε αν ο οργανισμός σας απαιτεί τη χρήση διακομιστή "
+#~ "διαμεσολάβησης για πρόσβαση στο διαδίκτυο.</i>"
+
+#~ msgid "Server _Address:"
+#~ msgstr "_Διεύθυνση διακομιστή:"
+
+#~ msgid ""
+#~ "Connect to remote host through a proxy with this address.\n"
+#~ "config: http-proxy or socks-proxy"
+#~ msgstr ""
+#~ "Σύνδεση με απομακρυσμένο κεντρικό υπολογιστή μέσα από έναν διαμεσολαβητή "
+#~ "με αυτή τη διεύθυνση.\n"
+#~ "config: http-proxy ή socks-proxy"
+
+#~ msgid "_Port:"
+#~ msgstr "_Θύρα:"
+
+#~ msgid ""
+#~ "Connect to remote host through a proxy with this port.\n"
+#~ "config: http-proxy or socks-proxy"
+#~ msgstr ""
+#~ "Σύνδεση με απομακρυσμένο κεντρικό υπολογιστή μέσα από έναν διαμεσολαβητή "
+#~ "με αυτή τη θύρα.\n"
+#~ "config: http-proxy ή socks-proxy"
+
+#~ msgid "_Retry indefinitely when errors occur"
+#~ msgstr "Επανάλη_ψη επ' άπειρον όταν προκύπτουν σφάλματα"
+
+#~ msgid ""
+#~ "Retry indefinitely on proxy errors. It simulates a SIGUSR1 reset.\n"
+#~ "config: http-proxy-retry or socks-proxy-retry"
+#~ msgstr ""
+#~ "Επανάληψη επ' άπειρο σε σφάλματα διαμεσολαβητή. Προσομοιάζει μια "
+#~ "επαναφορά SIGUSR1.\n"
+#~ "config: http-proxy-retry ή socks-proxy-retry"
+
+#~ msgid "Proxy _Username:"
+#~ msgstr "Ό_νομα χρήστη διαμεσολαβητή:"
+
+#~ msgid "Proxy Passwor_d:"
+#~ msgstr "Κ_ωδικός πρόσβασης διαμεσολαβητή:"
+
+#~ msgid "HTTP/Socks proxy username passed to Anyconnect when prompted for it."
+#~ msgstr ""
+#~ "Το όνομα χρήστη διαμεσολαβητή HTTP/Socks πέρασε στο Anyconnect όταν του "
+#~ "ζητήθηκε."
+
+#~ msgid "HTTP/Socks proxy password passed to Anyconnect when prompted for it."
+#~ msgstr ""
+#~ "Ο κωδικός πρόσβασης διαμεσολαβητή HTTP/Socks πέρασε στο Anyconnect όταν "
+#~ "του ζητήθηκε."
+
+#~ msgid "_Show password"
+#~ msgstr "Ε_μφάνιση κωδικού πρόσβασης"
+
+#~ msgid "Proxies"
+#~ msgstr "Διαμεσολαβητές"
+
+#~ msgid "option %s expects exactly %u arguments"
+#~ msgstr "η επιλογή %s αναμένει ακριβώς %u ορίσματα"
+
+#~ msgid "could not open file for writing"
+#~ msgstr "αδυναμία ανοίγματος αρχείου για εγγραφή"
+
+#~ msgid "VPN Connection Manager (Anyconnect)"
+#~ msgstr "Διαχειριστής συνδέσεων VPN (Anyconnect)"
+
+#~ msgid "Add, Remove, and Edit VPN Connections"
+#~ msgstr "Προσθήκη, αφαίρεση και επεξεργασία συνδέσεων VPN "
+
+#~ msgid "Saved"
+#~ msgstr "Αποθηκευμένα"
+
+#~ msgid "Always Ask"
+#~ msgstr "Να γίνεται πάντα ερώτηση"
+
+#~ msgid "Not Required"
+#~ msgstr "Δεν απαιτείται"
+
+#~ msgid ""
+#~ "Direction parameter for static key mode.\n"
+#~ "config: tls-auth <file> [direction]"
+#~ msgstr ""
+#~ "Παράμετρος κατεύθυνσης λειτουργία στατικού κλειδιού .\n"
+#~ "config: tls-auth <file> [direction]"
+
+#~ msgid ""
+#~ "Direction for Static Key encryption mode (non-TLS).\n"
+#~ "config: static <file> [direction]"
+#~ msgstr ""
+#~ "Κατεύθυνση για λειτουργία κρυπτογράφησης στατικού κλειδιού (όχι-TLS).\n"
+#~ "config: static <file> [direction]"
+
+#~ msgid "_Password:"
+#~ msgstr "_Συνθηματικό:"
+
+#~ msgid "_Secondary Password:"
+#~ msgstr "_Δευτερεύον συνθηματικό:"
+
+#~ msgid "_Username:"
+#~ msgstr "Ό_νομα χρήστη:"
+
+#~ msgid "_Domain:"
+#~ msgstr "_Τομέας:"
+
+#~ msgid "Connect _anonymously"
+#~ msgstr "_Ανώνυμη σύνδεση"
+
+#~ msgid "Connect as _user:"
+#~ msgstr "Σύνδεση ως _χρήστης:"
+
+#~ msgid "_Remember password for this session"
+#~ msgstr "Απομνη_μόνευση συνθηματικού για αυτή τη συνεδρία"
+
+#~ msgid "_Save password in keyring"
+#~ msgstr "Απο_θήκευση συνθηματικού στην κλειδοθήκη"
+
+#~ msgid "Use a TA_P device"
+#~ msgstr "Χρήση συσκευής TA_P"

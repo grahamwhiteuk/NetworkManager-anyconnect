@@ -1,0 +1,578 @@
+# translation of NetworkManager-anyconnect.HEAD.ar.po to Arabic
+# Arabic translations for PACKAGE package.
+# Copyright (C) 2006 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Automatically generated, 2006.
+# Khaled Hosny <khaledhosny@eglug.org>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: Project\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-30 22:41+0100\n"
+"PO-Revision-Date: 2007-12-26 09:06+0100\n"
+"Last-Translator: Djihed Afifi <djihed@gmail.com>\n"
+"Language-Team: Arabic <doc@arabeyes.org>\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: Plural-Forms: nplurals=4; plural=n==1 ? 0 : n==2 ? 1 : n>=3 && "
+"n<=10 ? 2 : 3\n"
+"X-Poedit-Language: Arabic\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:1
+#, fuzzy
+msgid "Anyconnect client"
+msgstr "عميل Anyconnect"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:2
+msgid "Client for Anyconnect virtual private networks"
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:3
+msgid "Support for configuring Anyconnect virtual private network connections."
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:4
+msgid "Anyconnect is a popular and flexible free-software VPN solution."
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:5
+msgid "The NetworkManager Developers"
+msgstr ""
+
+#: ../properties/nm-anyconnect-editor-plugin.c:35
+#, fuzzy
+msgid "Cisco AnyConnect"
+msgstr "عميل Anyconnect"
+
+#: ../properties/nm-anyconnect-editor-plugin.c:36
+msgid "Runs the proprietary Cisco AnyConnect VPN."
+msgstr ""
+
+#: ../properties/nm-anyconnect-editor.c:299
+msgid "could not load UI widget"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:946
+#, c-format
+msgid "object class '%s' has no property named '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:953
+#, c-format
+msgid "property '%s' of object class '%s' is not writable"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:960
+#, c-format
+msgid ""
+"construct property \"%s\" for object '%s' can't be set after construction"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:968
+#, c-format
+msgid "'%s::%s' is not a valid property name; '%s' is not a GObject subtype"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:977
+#, c-format
+msgid "unable to set property '%s' of type '%s' from value of type '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:988
+#, c-format
+msgid ""
+"value \"%s\" of type '%s' is invalid or out of range for property '%s' of "
+"type '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:69
+#, c-format
+msgid "unable to get editor plugin name: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:103
+#, c-format
+msgid "missing plugin file \"%s\""
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:109
+#, c-format
+msgid "cannot load editor plugin: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:118
+#, c-format
+msgid "cannot load factory %s from plugin: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:144
+msgid "unknown error creating editor instance"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:567 ../src/nm-anyconnect-service.c:682
+msgid "Could not find the anyconnect binary."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:580
+#, fuzzy
+msgid ""
+"Could not process the request because the VPN connection settings were "
+"invalid."
+msgstr "فشل ولوج VPN لأن خيارات اعدادات VPN غير صالحة."
+
+#: ../src/nm-anyconnect-service.c:602
+msgid ""
+"Could not attempt connection, unable to find the setting for the gateway."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:875
+msgid "Don’t quit when VPN connection terminates"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:876
+msgid "Enable verbose debug logging (may expose passwords)"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:877
+msgid "D-Bus name to use for this instance"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:905
+msgid ""
+"nm-anyconnect-service provides integrated proprietary Cisco AnyConnect "
+"capability to NetworkManager."
+msgstr ""
+
+#: ../properties/nm-anyconnect-dialog.ui.h:1
+msgid "General"
+msgstr ""
+
+#: ../properties/nm-anyconnect-dialog.ui.h:2
+#, fuzzy
+msgid "_Gateway:"
+msgstr "منفذ ال_بوّابة:"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:3
+msgid "VPN host to connect to"
+msgstr ""
+
+#, fuzzy, c-format
+#~ msgid "Authenticate VPN %s"
+#~ msgstr "وثِّق VPN"
+
+#, fuzzy
+#~ msgid "Password:"
+#~ msgstr "_كلمة السر:"
+
+#~ msgid "Certificate password:"
+#~ msgstr "كلمة سر الشهادة:"
+
+#~ msgid "Authenticate VPN"
+#~ msgstr "وثِّق VPN"
+
+#~ msgid "Certificate pass_word:"
+#~ msgstr "كلمة سر ال_شهادة:"
+
+#, c-format
+#~ msgid "You need to authenticate to access the Virtual Private Network '%s'."
+#~ msgstr "تحتاج إلى التوثيق لتَنفُذ إلى الشبكة الخاصة التخيلية '%s'."
+
+#~ msgid "VPN Connection Manager (Anyconnect)"
+#~ msgstr "مدير اتصالت VPN (Anyconnect)"
+
+#~ msgid "Add, Remove, and Edit VPN Connections"
+#~ msgstr "أضِف، احذِف، و حرِّر اتصالات VPN"
+
+#, fuzzy
+#~ msgid "None"
+#~ msgstr "لا"
+
+#, fuzzy
+#~ msgid "Default"
+#~ msgstr "(افتراضي: 1194)"
+
+#~ msgid "TUN"
+#~ msgstr "TUN"
+
+#~ msgid "TAP"
+#~ msgstr "TAP"
+
+#, fuzzy
+#~ msgid "Certificates (TLS)"
+#~ msgstr "ش_هادة:"
+
+#~ msgid "Password"
+#~ msgstr "كلمة السّر"
+
+#, fuzzy
+#~ msgid "not a valid Anyconnect configuration file"
+#~ msgstr "اعدادات Anyconnect"
+
+#, fuzzy
+#~ msgid "<b>General</b>"
+#~ msgstr "<b>مطلوب</b>"
+
+#, fuzzy
+#~ msgid "<b>Authentication</b>"
+#~ msgstr "<b>اسم الإتصال</b>"
+
+#, fuzzy
+#~ msgid "_Show passwords"
+#~ msgstr "_كلمة السر:"
+
+#, fuzzy
+#~ msgid "Private Key Password:"
+#~ msgstr "مفتاح مشترَك:"
+
+#, fuzzy
+#~ msgid "Private Key:"
+#~ msgstr "مفتاح مشترَك:"
+
+#, fuzzy
+#~ msgid "CA Certificate:"
+#~ msgstr "ش_هادة:"
+
+#, fuzzy
+#~ msgid "User Certificate:"
+#~ msgstr "ش_هادة:"
+
+#, fuzzy
+#~ msgid "User name:"
+#~ msgstr "ا_سم المستخدم:"
+
+#, fuzzy
+#~ msgid "Remote IP Address:"
+#~ msgstr "IP الآخر:"
+
+#, fuzzy
+#~ msgid "Local IP Address:"
+#~ msgstr "IP م_حلّي:  %s"
+
+#, fuzzy
+#~ msgid "Key Direction:"
+#~ msgstr "الإتجاه:"
+
+#, fuzzy
+#~ msgid "Static Key:"
+#~ msgstr "مفتاح مشترَك:"
+
+#, fuzzy
+#~ msgid "Ad_vanced..."
+#~ msgstr "مت_قدم"
+
+#~ msgid "Anyconnect Advanced Options"
+#~ msgstr "خيارات Anyconnect متقدمة"
+
+#, fuzzy
+#~ msgid "Use custom gateway p_ort:"
+#~ msgstr "منفذ ال_بوّابة:"
+
+#, fuzzy
+#~ msgid "Use L_ZO data compression"
+#~ msgstr "استعمل _ضغط LZO"
+
+#, fuzzy
+#~ msgid ""
+#~ "Use fast LZO compression.\n"
+#~ "config: comp-lzo"
+#~ msgstr "ا_ستعمل ضغط LZO: %s"
+
+#, fuzzy
+#~ msgid "Use a _TCP connection"
+#~ msgstr "استخدم ات_صال TCP"
+
+#, fuzzy
+#~ msgid "Ci_pher:"
+#~ msgstr "شيفرة:  %s"
+
+#, fuzzy
+#~ msgid "_HMAC Authentication:"
+#~ msgstr "<b>اسم الإتصال</b>"
+
+#, fuzzy
+#~ msgid "Key _Direction:"
+#~ msgstr "الإتجاه:"
+
+#, fuzzy
+#~ msgid "TLS Authentication"
+#~ msgstr "<b>اسم الإتصال</b>"
+
+#, fuzzy
+#~ msgid "_Port:"
+#~ msgstr "ميناء:  %s"
+
+#, fuzzy
+#~ msgid "Proxy _Username:"
+#~ msgstr "ا_سم المستخدم:"
+
+#, fuzzy
+#~ msgid "Proxy Passwor_d:"
+#~ msgstr "_كلمة السر:"
+
+#, fuzzy
+#~ msgid "_Show password"
+#~ msgstr "_كلمة السر:"
+
+#, fuzzy
+#~ msgid "No VPN configuration options."
+#~ msgstr "اعدادات Anyconnect"
+
+#, fuzzy
+#~ msgid "Invalid connection type."
+#~ msgstr "_نوع الإتصال:"
+
+#, fuzzy, c-format
+#~ msgid "Unknown connection type '%s'."
+#~ msgstr "_نوع الإتصال:"
+
+#~ msgid "_Secondary Password:"
+#~ msgstr "كلمة سر _ثانوية:"
+
+#~ msgid "_Domain:"
+#~ msgstr "ال_نطاق:"
+
+#~ msgid "Connect _anonymously"
+#~ msgstr "اتّصل كم_جهول"
+
+#~ msgid "Connect as _user:"
+#~ msgstr "اتصل _كمستخدم:"
+
+#~ msgid "_Remember password for this session"
+#~ msgstr "_تذكّر كلمة السر لهذه الجلسة"
+
+#~ msgid "_Save password in keyring"
+#~ msgstr "ا_حفظ كلمة السر في حلقة المفاتيح"
+
+#, fuzzy
+#~ msgid "Use a TA_P device"
+#~ msgstr "ا_ستخدم جهاز TAP"
+
+#~ msgid "The following Anyconnect connection will be created:"
+#~ msgstr "ستُنشأ اتصالات Anyconnect التالية:"
+
+#~ msgid "Name:  %s"
+#~ msgstr "الإسم: %s"
+
+#~ msgid "Connection Type: X.509 Certificates"
+#~ msgstr "نوع الإتصال: X.509 Certificates"
+
+#~ msgid "CA:  %s"
+#~ msgstr "CA:  %s"
+
+#~ msgid "Cert:  %s"
+#~ msgstr "شهادة:  %s"
+
+#~ msgid "Key:  %s"
+#~ msgstr "مفتاح: %s"
+
+#~ msgid "Connection Type: Shared Key"
+#~ msgstr "نوع الإتصال: مفتاح مشترَك"
+
+#~ msgid "Shared Key:  %s"
+#~ msgstr "مفتاح مشترَك: %s"
+
+#~ msgid "Remote IP:  %s"
+#~ msgstr "IP بعيد:  %s"
+
+#~ msgid "Connection Type: Password"
+#~ msgstr "نوع الإتصال: كلمة سّر"
+
+#~ msgid "Username:  %s"
+#~ msgstr "اسم المستخدم:  %s"
+
+#~ msgid "Connection Type: X.509 with Password Authentication"
+#~ msgstr "نوع الإتصال: X.509 مع توثق عبر كلمة سر"
+
+#~ msgid "Remote:  %s"
+#~ msgstr "عن بعد:  %s"
+
+#~ msgid "Device: %s"
+#~ msgstr "الجهاز: %s"
+
+#~ msgid "Protocol: %s"
+#~ msgstr "البروتوكول: %s"
+
+#~ msgid "TCP"
+#~ msgstr "TCP"
+
+#~ msgid "UDP"
+#~ msgstr "UDP"
+
+#~ msgid "Routes:  %s"
+#~ msgstr "المسارات:  %s"
+
+#~ msgid "Yes"
+#~ msgstr "نعم"
+
+#~ msgid "TLS auth:  %s %s"
+#~ msgstr "توثيق TLS:  %s %s "
+
+#~ msgid "The connection details can be changed using the \"Edit\" button."
+#~ msgstr "يمكن تغيير تفاصيل الإتصال باستخدام زر \"حرِّر\"."
+
+#~ msgid "Cannot import settings"
+#~ msgstr "تعذّر استيراد الإعدادات"
+
+#~ msgid "The VPN settings file '%s' does not contain valid data."
+#~ msgstr "لا يحتوي ملف اعدادات VPN '%s' على بيانات صالحة."
+
+#~ msgid "Select file to import"
+#~ msgstr "انتقِ ملفّ للإستيراد"
+
+#~ msgid "Select CA to use"
+#~ msgstr "انتقِ CA ليُستخدم"
+
+#~ msgid "Select certificate to use"
+#~ msgstr "انتقِ شهادة لتُستخدم"
+
+#~ msgid "Select key to use"
+#~ msgstr "انتقِ مفتاحا ليُستخدم"
+
+#~ msgid "Select shared key to use"
+#~ msgstr "انتقِ مفتاحا مُشارَكا ليُستخدم"
+
+#~ msgid "Select TA to use"
+#~ msgstr "انتقِ TA ليُستخدم"
+
+#~ msgid "Save as..."
+#~ msgstr "احفظ كـ..."
+
+#~ msgid "A file named \"%s\" already exists."
+#~ msgstr "يوجد ملف بالإسم \"%s\" مسبقاً."
+
+#~ msgid "Do you want to replace it with the one you are saving?"
+#~ msgstr "أتريد استبداله بالملف الذي تقوم بحفظه؟"
+
+#~ msgid "Failed to export configuration"
+#~ msgstr "فشل تصدير الإعدادات"
+
+#~ msgid "Failed to save file %s"
+#~ msgstr "فشل حفظ الملف %s"
+
+#~ msgid "65536"
+#~ msgstr "65536"
+
+#~ msgid "<i>example: 172.16.0.0/16 10.11.12.0/24</i>"
+#~ msgstr "<i>مثال: 172.16.0.0/16 10.11.12.0/24</i>"
+
+#~ msgid "C_A file:"
+#~ msgstr "_ملفّ CA:"
+
+#~ msgid "Connection na_me:"
+#~ msgstr "ا_سم الإتصال:"
+
+#~ msgid "Import _Saved Configuration..."
+#~ msgstr "ا_ستورد اعدادات محفوظة..."
+
+#~ msgid ""
+#~ "Name used to identify the connection to the private network, e.g. "
+#~ "\"Campus VPN\" or \"Corporate Network\""
+#~ msgstr ""
+#~ "الإ_سم المستخدم لتعريف الإتصال للشبكة الخاصة، مثلا: \"Campus VPN\" أو "
+#~ "\"Corporate Network\""
+
+#~ msgid "Network"
+#~ msgstr "شبكة"
+
+#~ msgid "Only use _VPN connection for these addresses:"
+#~ msgstr "استخدم _فقط اتصالات VPN لهذه العناوين:"
+
+#~ msgid ""
+#~ "Please enter the information provided by your system administrator below. "
+#~ "Do not enter your password here as you will be prompted when connecting."
+#~ msgstr ""
+#~ "من فضلك أدخل المعلومات التي وفرها مدير نظامك بأسفل. لا تدخل كلمة السر هنا "
+#~ "حيث أنك ستسأل عنها عند الإتصال."
+
+#~ msgid ""
+#~ "Please note that the file you import is not an Anyconnect configuration "
+#~ "file. Ask your administrator for the file."
+#~ msgstr ""
+#~ "من فضلك لا حظ أن الملف الذي استوردته ليس ملف إعدادات Anyconnect. اسأل "
+#~ "مدير نظامك عن الملف."
+
+#~ msgid "Shared _key:"
+#~ msgstr "مف_تاح مشترَك:"
+
+#~ msgid "TLS-Auth"
+#~ msgstr "TLS-Auth"
+
+#~ msgid "Use _TLS auth:"
+#~ msgstr "اس_تخدم توثيق TLS:"
+
+#~ msgid "Use cip_her:"
+#~ msgstr "استخدم _شيفرة:"
+
+#~ msgid ""
+#~ "X.509 Certificates\n"
+#~ "Pre-shared key\n"
+#~ "Password Authentication\n"
+#~ "X.509 with Password Authentication"
+#~ msgstr ""
+#~ "شهادات X.509\n"
+#~ "مفتاح قبل المُشاركة\n"
+#~ "توثيق بكلمة سر\n"
+#~ "X.509 مع توثيق بكلمة سر"
+
+#~ msgid "_0"
+#~ msgstr "_0"
+
+#~ msgid "_1"
+#~ msgstr "_1"
+
+#~ msgid "_Gateway address:"
+#~ msgstr "عنوان ال_بوّابة:"
+
+#~ msgid "_Key:"
+#~ msgstr "م_فتاح:"
+
+#~ msgid "_Local IP:"
+#~ msgstr "IP م_حلًي:"
+
+#~ msgid "_none"
+#~ msgstr "لا _شيء"
+
+#~ msgid ""
+#~ "The VPN login failed because the user name and password were not accepted "
+#~ "or the certificate password was wrong."
+#~ msgstr ""
+#~ "فشل ولوج VPN لأن اسم المستخدم أو كلمة السر لم تُقبل أو أن كلمة سر الشهادة "
+#~ "كانت خطأ."
+
+#~ msgid "The VPN login failed because the VPN program could not be started."
+#~ msgstr "فشل ولوج VPN لأن برنامج VPN لا يمكن بدأه."
+
+#~ msgid ""
+#~ "The VPN login failed because the VPN program could not connect to the VPN "
+#~ "server."
+#~ msgstr "فشل ولوج VPN لأن برنامج VPN لا يمكنه الإتصال بخادم VPN."
+
+#~ msgid ""
+#~ "The VPN login failed because the VPN program received an invalid "
+#~ "configuration from the VPN server."
+#~ msgstr "فشل ولوج VPN لأن برنامج VPN لم يتلقى اعدادات صالحة من خادم VPN."
+
+#~ msgid "VPN connection failed"
+#~ msgstr "فشل اتصال VPN"
+
+#~ msgid "<b>Connection Information</b>"
+#~ msgstr "<b>معلومات الإتصال</b>"
+
+#~ msgid "Username:"
+#~ msgstr "اسم المستخدم:"
+
+#~ msgid "X.509"
+#~ msgstr "X.509"
+
+#~ msgid "X.509/Pass"
+#~ msgstr "X.509/Pass"
+
+#~ msgid "CA  file:"
+#~ msgstr "ملفّ  CA:"
+
+#~ msgid "Optional"
+#~ msgstr "خياري"

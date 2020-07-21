@@ -1,0 +1,1213 @@
+# Czech translation of network-manager-anyconnect.
+# Copyright (C) 2008, 2009, 2010 the author(s) of network-manager-anyconnect.
+# This file is distributed under the same license as the network-manager-anyconnect package.
+#
+# Jakub Friedl <jfriedl@suse.cz>, 2006.
+# Jiří Eischmann <jiri@eischmann.cz>, 2008.
+# Zdeněk Hataš <zdenek.hatas@gmail.com>, 2009 - 2019
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: network-manager-anyconnect\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-30 22:41+0100\n"
+"PO-Revision-Date: 2019-03-05 16:31+0100\n"
+"Last-Translator: Zdeněk Hataš <zdenek.hatas@gmail.com>\n"
+"Language-Team: Czech <gnome-cs-list@gnome.org>\n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Bookmarks: 35,-1,-1,-1,-1,-1,-1,-1,-1,-1\n"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:1
+msgid "Anyconnect client"
+msgstr "Klient Anyconnect"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:2
+msgid "Client for Anyconnect virtual private networks"
+msgstr "Klient pro virtuální soukromé sítě Anyconnect"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:3
+msgid "Support for configuring Anyconnect virtual private network connections."
+msgstr "Podpora nastavení sítí Anyconnect."
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:4
+msgid "Anyconnect is a popular and flexible free-software VPN solution."
+msgstr "Anyconnect je populární a flexibilní nekomerční softwarové řešení VPN."
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:5
+msgid "The NetworkManager Developers"
+msgstr "Vývojáři aplikace NetworkManager"
+
+#: ../properties/nm-anyconnect-editor-plugin.c:35
+#, fuzzy
+msgid "Cisco AnyConnect"
+msgstr "Anyconnect"
+
+#: ../properties/nm-anyconnect-editor-plugin.c:36
+msgid "Runs the proprietary Cisco AnyConnect VPN."
+msgstr ""
+
+#: ../properties/nm-anyconnect-editor.c:299
+msgid "could not load UI widget"
+msgstr "nelze nahrát widget uživatelského rozhraní"
+
+#: ../shared/nm-utils/nm-shared-utils.c:946
+#, c-format
+msgid "object class '%s' has no property named '%s'"
+msgstr "objektová třída „%s“ nemá vlastnost s názvem „%s“"
+
+#: ../shared/nm-utils/nm-shared-utils.c:953
+#, c-format
+msgid "property '%s' of object class '%s' is not writable"
+msgstr "vlastnost „%s“ objektové třídy „%s“ není zapisovatelná"
+
+#: ../shared/nm-utils/nm-shared-utils.c:960
+#, c-format
+msgid ""
+"construct property \"%s\" for object '%s' can't be set after construction"
+msgstr ""
+"vytvoření vlastnosti „%s“ objektu „%s“ nemůže být nastaveno po vytvoření"
+
+#: ../shared/nm-utils/nm-shared-utils.c:968
+#, c-format
+msgid "'%s::%s' is not a valid property name; '%s' is not a GObject subtype"
+msgstr "„%s::%s“ není platný název vlastnosti; „%s“ není podtyp GObject"
+
+#: ../shared/nm-utils/nm-shared-utils.c:977
+#, c-format
+msgid "unable to set property '%s' of type '%s' from value of type '%s'"
+msgstr "nelze nastavit vlastnost „%s“ typu „%s“ z hodnoty typu „%s“"
+
+#: ../shared/nm-utils/nm-shared-utils.c:988
+#, c-format
+msgid ""
+"value \"%s\" of type '%s' is invalid or out of range for property '%s' of "
+"type '%s'"
+msgstr ""
+"hodnota „%s“ typu „%s“ je neplatná nebo mimo rozmezí pro vlastnost „%s“ u "
+"typu „%s“"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:69
+#, c-format
+msgid "unable to get editor plugin name: %s"
+msgstr "nelze zjistit název zásuvného modulu editoru: %s"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:103
+#, c-format
+msgid "missing plugin file \"%s\""
+msgstr "chybí souboer se zásuvným modulem „%s“"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:109
+#, c-format
+msgid "cannot load editor plugin: %s"
+msgstr "nelze načíst zásuvný modul edotoru: %s"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:118
+#, c-format
+msgid "cannot load factory %s from plugin: %s"
+msgstr "nelze načíst generátor %s ze zásuvného modulu: %s"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:144
+msgid "unknown error creating editor instance"
+msgstr "neznámá chyba při vytváření instance editoru"
+
+#: ../src/nm-anyconnect-service.c:567 ../src/nm-anyconnect-service.c:682
+msgid "Could not find the anyconnect binary."
+msgstr "Nelze nalézt program anyconnect."
+
+#: ../src/nm-anyconnect-service.c:580
+msgid ""
+"Could not process the request because the VPN connection settings were "
+"invalid."
+msgstr "Nelze zpracovat požadavek, protože nastavení VPN nejsou platná."
+
+#: ../src/nm-anyconnect-service.c:602
+msgid ""
+"Could not attempt connection, unable to find the setting for the gateway."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:875
+msgid "Don’t quit when VPN connection terminates"
+msgstr "Neukončovat během ukončování spojení VPN"
+
+#: ../src/nm-anyconnect-service.c:876
+msgid "Enable verbose debug logging (may expose passwords)"
+msgstr "Povolit podrobný ladicí výpis (může prozradit hesla)"
+
+#: ../src/nm-anyconnect-service.c:877
+msgid "D-Bus name to use for this instance"
+msgstr "Název použitý pro tuto instanci v D-Bus"
+
+#: ../src/nm-anyconnect-service.c:905
+#, fuzzy
+msgid ""
+"nm-anyconnect-service provides integrated proprietary Cisco AnyConnect "
+"capability to NetworkManager."
+msgstr ""
+"nm-anyconnect-service umožňuje NetworkManageru poskytovat služby pro "
+"připojování k Anyconnect."
+
+#: ../properties/nm-anyconnect-dialog.ui.h:1
+msgid "General"
+msgstr "Obecné"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:2
+msgid "_Gateway:"
+msgstr "_Brána:"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:3
+msgid "VPN host to connect to"
+msgstr ""
+
+#, c-format
+#~ msgid "Authenticate VPN %s"
+#~ msgstr "Ověřit VPN %s"
+
+#~ msgid "Password:"
+#~ msgstr "Heslo:"
+
+#~ msgid "Certificate password:"
+#~ msgstr "Heslo certifikátu:"
+
+#~ msgid "HTTP proxy password:"
+#~ msgstr "Heslo proxy pro HTTP:"
+
+#~ msgid "Authenticate VPN"
+#~ msgstr "Ověřování VPN"
+
+#~ msgid "Certificate pass_word:"
+#~ msgstr "Heslo _certifikátu:"
+
+#~ msgid "_HTTP proxy password:"
+#~ msgstr "Heslo proxy pro _HTTP:"
+
+#, c-format
+#~ msgid "You need to authenticate to access the Virtual Private Network “%s”."
+#~ msgstr "Pro přístup do VPN „%s“ se musíte autentizovat."
+
+#, c-format
+#~ msgid "option %s expects between %u and %u argument"
+#~ msgid_plural "option %s expects between %u and %u arguments"
+#~ msgstr[0] "volba %s očekává %u až %u argumenty"
+#~ msgstr[1] "volba %s očekává %u až %u argumenty"
+#~ msgstr[2] "volba %s očekává %u až %u argumentů"
+
+#, c-format
+#~ msgid "option %s expects no arguments"
+#~ msgstr "volba %s neočekává žádný argument"
+
+#, c-format
+#~ msgid "option %s expects exactly one argument"
+#~ msgid_plural "option %s expects exactly %u arguments"
+#~ msgstr[0] "volba %s očekává právě jeden argument"
+#~ msgstr[1] "volba %s očekává přesně %u argumenty"
+#~ msgstr[2] "volba %s očekává přesně %u argumentů"
+
+#, c-format
+#~ msgid "argument %s of “%s” can not be empty"
+#~ msgstr "argument „%s“ z „%s“ nesmí být prázdný"
+
+#, c-format
+#~ msgid "argument of “%s” can not be empty"
+#~ msgstr "argument „%s“ nesmí být prázdný"
+
+#, c-format
+#~ msgid "argument %s of “%s” must be UTF-8 encoded"
+#~ msgstr "argument „%s“ z „%s“ musí být kódovaný v UTF-8"
+
+#, c-format
+#~ msgid "argument of “%s” must be UTF-8 encoded"
+#~ msgstr "argument „%s“ musí být kódovaný v UTF-8"
+
+#, c-format
+#~ msgid "invalid %uth argument to “%s” where number expected"
+#~ msgstr "neplatný %u. argument pro „%s“, bylo očekáváno číslo"
+
+#, c-format
+#~ msgid "unsupported %uth argument %s to “%s”"
+#~ msgstr "nepodporovaný %u. argument %s pro „%s“"
+
+#, c-format
+#~ msgid ""
+#~ "unsupported %uth argument to “%s” which looks like a FQDN but only IPv4 "
+#~ "address supported"
+#~ msgstr ""
+#~ "nepodporovaný %u. argument pro „%s“, který vypadá jako FQDN, ale "
+#~ "podporovaná je jen adresa IPv4"
+
+#, c-format
+#~ msgid "invalid %uth argument to “%s” where IPv4 address expected"
+#~ msgstr "neplatný %u. argument pro „%s“, byla očekávána adresa IPv4"
+
+#, c-format
+#~ msgid "invalid %uth key-direction argument to “%s”"
+#~ msgstr "neplatný %u. argument key-direction pro „%s“"
+
+#, c-format
+#~ msgid "invalid %uth argument to “%s”"
+#~ msgstr "neplatný %u. argument pro „%s“"
+
+#, c-format
+#~ msgid "unterminated %s at position %lld"
+#~ msgstr "neukončený %s na pozici %lld"
+
+#~ msgid "double quote"
+#~ msgstr "uvozovky"
+
+#~ msgid "single quote"
+#~ msgstr "apostrof"
+
+#, c-format
+#~ msgid "trailing escaping backslash at position %lld"
+#~ msgstr "ukončující zpětné lomítko na pozici %lld"
+
+#, c-format
+#~ msgid "unable to read HTTP proxy auth file"
+#~ msgstr "nepodařilo se přečíst ověřovací soubor proxy pro HTTP"
+
+#, c-format
+#~ msgid "cannot read user/password from HTTP proxy auth file"
+#~ msgstr ""
+#~ "nelze čít uživatelské jméno/heslo z ověřovacího souboru proxy pro HTTP"
+
+#, c-format
+#~ msgid "user/password from HTTP proxy auth file must be UTF-8 encoded"
+#~ msgstr ""
+#~ "uživatelské jméno/heslo z ověřovacího souboru proxy pro HTTP musí být "
+#~ "kódované v UTF-8"
+
+#, c-format
+#~ msgid "“%s” is not a directory"
+#~ msgstr "„%s“ není složka"
+
+#, c-format
+#~ msgid "cannot create “%s” directory"
+#~ msgstr "nelze vytvořit složku „%s“"
+
+#, c-format
+#~ msgid "cannot write <%s> blob from line %ld to file (%s)"
+#~ msgstr "nelze zapsat binární data <%s> z řádku %ld do souboru (%s)"
+
+#, c-format
+#~ msgid "cannot write <%s> blob from line %ld to file “%s”"
+#~ msgstr "nelze zapsat binární data <%s> z řádku %ld do souboru „%s“"
+
+#, c-format
+#~ msgid "unsupported mtu-disc argument"
+#~ msgstr "nepodporovaný argument mtu-disc"
+
+#, c-format
+#~ msgid "unsupported crl-verify argument"
+#~ msgstr "nepodporovaný argument  crl-verify "
+
+#, c-format
+#~ msgid "invalid option"
+#~ msgstr "neplatná volba"
+
+#, c-format
+#~ msgid "unsupported comp-lzo argument"
+#~ msgstr "nepodporovaný argument com-lzo"
+
+#, c-format
+#~ msgid "remote cannot contain space"
+#~ msgstr "remote nemůže obsahovat mezeru"
+
+#, c-format
+#~ msgid "remote cannot contain comma"
+#~ msgstr "remote obsahuje čárku"
+
+#, c-format
+#~ msgid "remote expects protocol type like “udp” or “tcp”"
+#~ msgstr "protistrana očekává protokol typu „tcp“ nebo „udp“"
+
+#, c-format
+#~ msgid "invalid verify-x509-name type"
+#~ msgstr "neplatný typ verify-x509-name"
+
+#, c-format
+#~ msgid "unsupported blob/xml element"
+#~ msgstr "nepodporovaný blob/xml element"
+
+#, c-format
+#~ msgid "unterminated blob element <%s>"
+#~ msgstr "neukončený blob element <%s>"
+
+#, c-format
+#~ msgid "configuration error: %s (line %ld)"
+#~ msgstr "chyba v nastavení: %s (řádek %ld)"
+
+#~ msgid "unknown or unsupported option"
+#~ msgstr "neznámá nebo nepodporovaná volba"
+
+#~ msgid "The file to import wasn’t a valid Anyconnect client configuration"
+#~ msgstr "Importovaný soubor nebyl platným nastavením klienta Anyconnect."
+
+#~ msgid "The file to import wasn’t a valid Anyconnect configure (no remote)"
+#~ msgstr ""
+#~ "Importovaný soubor nebyl platným nastavením Anyconnect (chybí "
+#~ "protistrana)."
+
+#~ msgid "missing path argument"
+#~ msgstr "chybí argument s cestou"
+
+#~ msgid "connection is not a valid Anyconnect connection"
+#~ msgstr "připojení není platné připojení Anyconnect"
+
+#~ msgid "connection was incomplete (missing gateway)"
+#~ msgstr "připojení nebylo úplné (chybí brána)"
+
+#, c-format
+#~ msgid "failed to write file: %s"
+#~ msgstr "selhal zápis do souboru: %s"
+
+#~ msgid "Compatible with the Anyconnect server."
+#~ msgstr "Kompatibilní s Anyconnect serverem."
+
+#~ msgid "Choose an Anyconnect static key…"
+#~ msgstr "Zvolit statický klíč Anyconnect…"
+
+#~ msgid "None"
+#~ msgstr "Žádný"
+
+#~ msgid "Anyconnect Static Keys (*.key)"
+#~ msgstr "Statické klíče Anyconnect (*.key)"
+
+#~ msgid "Default"
+#~ msgstr "Výchozí"
+
+#~ msgid "RSA MD-4"
+#~ msgstr "RSA MD-4"
+
+#~ msgid "MD-5"
+#~ msgstr "MD-5"
+
+#~ msgid "SHA-1"
+#~ msgstr "SHA-1"
+
+#~ msgid "SHA-224"
+#~ msgstr "SHA-224"
+
+#~ msgid "SHA-256"
+#~ msgstr "SHA-256"
+
+#~ msgid "SHA-384"
+#~ msgstr "SHA-384"
+
+#~ msgid "SHA-512"
+#~ msgstr "SHA-512"
+
+#~ msgid "RIPEMD-160"
+#~ msgstr "RIPEMD-160"
+
+#~ msgid "Don’t verify certificate identification"
+#~ msgstr "Neověřovat identifikaci certifikátu"
+
+#~ msgid "Verify whole subject exactly"
+#~ msgstr "Ověřovat akorát subjekt jako celek"
+
+#~ msgid "Verify name exactly"
+#~ msgstr "Ověřovat akorát název"
+
+#~ msgid "Verify name by prefix"
+#~ msgstr "Ověřovat název podle prefixu"
+
+#~ msgid "Verify subject partially (legacy mode, strongly discouraged)"
+#~ msgstr "Ověřovat subjekt po částech (zastaralý režim, důrazně nedoporučeno)"
+
+#~ msgid "Server"
+#~ msgstr "Server"
+
+#~ msgid "Client"
+#~ msgstr "Klient"
+
+#~ msgid "Not required"
+#~ msgstr "Není vyžadováno"
+
+#~ msgid "HTTP"
+#~ msgstr "HTTP"
+
+#~ msgid "SOCKS"
+#~ msgstr "SOCKS"
+
+#~ msgid "TUN"
+#~ msgstr "TUN"
+
+#~ msgid "TAP"
+#~ msgstr "TAP"
+
+#~ msgid "(automatic)"
+#~ msgstr "(automaticky)"
+
+#~ msgid "ping-exit"
+#~ msgstr "ping-exit"
+
+#~ msgid "ping-restart"
+#~ msgstr "ping-restart"
+
+#~ msgid "Certificates (TLS)"
+#~ msgstr "Certifikáty (TLS)"
+
+#~ msgid "Password"
+#~ msgstr "Heslo"
+
+#~ msgid "Password with Certificates (TLS)"
+#~ msgstr "Heslo s certifikáty (TLS)"
+
+#~ msgid "Static Key"
+#~ msgstr "Statický klíč"
+
+#, c-format
+#~ msgid "invalid delimiter character '%c'"
+#~ msgstr "neplatný znak „%c“ v oddělovači"
+
+#, c-format
+#~ msgid "invalid non-utf-8 character"
+#~ msgstr "neplatný znak nepatřící do UTF-8"
+
+#, c-format
+#~ msgid "empty host"
+#~ msgstr "neuvedený hostitel"
+
+#, c-format
+#~ msgid "invalid port"
+#~ msgstr "neplatný port"
+
+#, c-format
+#~ msgid "invalid protocol"
+#~ msgstr "neplatný protokol"
+
+#, c-format
+#~ msgid "invalid address “%s”"
+#~ msgstr "neplatná adresa „%s“"
+
+#, c-format
+#~ msgid "invalid integer property “%s” or out of range [%d -> %d]"
+#~ msgstr "celočíselná volba „%s“ není platná nebo je mimo rozsah [%d -> %d]"
+
+#, c-format
+#~ msgid "invalid boolean property “%s” (not yes or no)"
+#~ msgstr "pravdivostní volba „%s“ není platná (není yes nebo no)"
+
+#, c-format
+#~ msgid "unhandled property “%s” type %s"
+#~ msgstr "neošetřená volba „%s“ typu %s"
+
+#, c-format
+#~ msgid "property “%s” invalid or not supported"
+#~ msgstr "volba „%s“ není platná nebo podporovaná"
+
+#~ msgid "No VPN configuration options."
+#~ msgstr "Žádné volby nastavení VPN."
+
+#~ msgid "A username is required."
+#~ msgstr "Je požadováno uživatelské jméno."
+
+#~ msgid "A password is required."
+#~ msgstr "Je požadováno heslo."
+
+#~ msgid "A username and password are required."
+#~ msgstr "Je požadováno uživatelské jméno a heslo."
+
+#~ msgid "A private key password is required."
+#~ msgstr "Heslo soukromého klíče je požadováno."
+
+#~ msgid "An HTTP Proxy username is required."
+#~ msgstr "Je požadováno uživatelské jméno k HTTP proxy."
+
+#~ msgid "An HTTP Proxy password is required."
+#~ msgstr "Je požadováno heslo k HTTP proxy."
+
+#~ msgid "An HTTP Proxy username and password are required."
+#~ msgstr "Je požadováno uživatelské jméno a heslo k HTTP proxy."
+
+#~ msgid "Invalid connection type."
+#~ msgstr "Neplatný typ připojení."
+
+#, c-format
+#~ msgid "Invalid port number “%s”."
+#~ msgstr "Neplatné číslo portu „%s“."
+
+#, c-format
+#~ msgid "Invalid proto “%s”."
+#~ msgstr "Neplatný protokol „%s“."
+
+#, c-format
+#~ msgid "Invalid proxy type “%s”."
+#~ msgstr "Neplatný typ proxy „%s“."
+
+#, c-format
+#~ msgid "Invalid ping duration “%s”."
+#~ msgstr "Neplatná doba trvání pinknutí „%s“."
+
+#, c-format
+#~ msgid "Invalid ping-exit duration “%s”."
+#~ msgstr "Neplatná doba trvání ukončení pinknutí ping-exit „%s“."
+
+#, c-format
+#~ msgid "Invalid ping-restart duration “%s”."
+#~ msgstr "Neplatná doba trvání restartu pinknutí ping-restart „%s“."
+
+#, c-format
+#~ msgid "Invalid connect timeout “%s”."
+#~ msgstr "Neplatný časový limit připojení „%s“."
+
+#, c-format
+#~ msgid "Invalid max-routes argument “%s”."
+#~ msgstr "Neplatný argument max-routes „%s“"
+
+#, c-format
+#~ msgid "Invalid keysize “%s”."
+#~ msgstr "Neplatná délka klíče „%s“."
+
+#, c-format
+#~ msgid "Invalid configuration with tls-remote and verify-x509-name."
+#~ msgstr "Neplatná konfugurace s tls-remote a verify-x509-name."
+
+#, c-format
+#~ msgid "Invalid verify-x509-name."
+#~ msgstr "Neplatné verify-x509-name."
+
+#, c-format
+#~ msgid "Invalid reneg seconds “%s”."
+#~ msgstr "Neplatná počet sekund opětovného vyjednávání „%s“."
+
+#, c-format
+#~ msgid "Invalid TUN MTU size “%s”."
+#~ msgstr "Neplatná velikost TUN MTU „%s“."
+
+#, c-format
+#~ msgid "Invalid fragment size “%s”."
+#~ msgstr "Neplatná velikost fragmentu „%s“."
+
+#, c-format
+#~ msgid "Unknown connection type “%s”."
+#~ msgstr "Neznámý typ připojení „%s“."
+
+#, c-format
+#~ msgid "User “%s” not found, check NM_ANYCONNECT_USER."
+#~ msgstr ""
+#~ "Uživatel „%s“ nebyl nalezen, zkontrolujte proměnnou NM_ANYCONNECT_USER."
+
+#, c-format
+#~ msgid "Group “%s” not found, check NM_ANYCONNECT_GROUP."
+#~ msgstr ""
+#~ "Skupina „%s“ nebyla nalezena, zkontrolujte proměnnou NM_ANYCONNECT_GROUP."
+
+#~ msgid "Unhandled pending authentication."
+#~ msgstr "Neošetřená čekající autentizace."
+
+#~ msgid "TLS-Auth"
+#~ msgstr "TLS-Auth"
+
+#~ msgid "TLS-Crypt"
+#~ msgstr "TLS-Crypt"
+
+#~ msgid "Maybe"
+#~ msgstr "Možná"
+
+#~ msgid "Yes"
+#~ msgstr "Ano"
+
+#~ msgid "Authentication"
+#~ msgstr "Autentizace"
+
+#~ msgid "CA"
+#~ msgstr "CA"
+
+#~ msgid "User"
+#~ msgstr "Uživatel"
+
+#~ msgid "User name:"
+#~ msgstr "Uživatelské jméno:"
+
+#~ msgid ""
+#~ "Password passed to Anyconnect when prompted for it.\n"
+#~ "config: auth-user-pass"
+#~ msgstr ""
+#~ "Heslo předané na požadavek Anyconnect.\n"
+#~ "config: auth-user-pass"
+
+#~ msgid ""
+#~ "Username passed to Anyconnect when prompted for it. If omitted, use the "
+#~ "name of the system user that activates the connection.\n"
+#~ "config: auth-user-pass"
+#~ msgstr ""
+#~ "Uživatelské jméno předané na požadavek Anyconnect. Pokud je vynecháno, "
+#~ "použije se ze systému jméno uživatele, který aktivoval připojení.\n"
+#~ "config: auth-user-pass"
+
+#~ msgid "Remote IP Address:"
+#~ msgstr "Vzdálená adresa IP:"
+
+#~ msgid "Local IP Address:"
+#~ msgstr "Místní adresa IP:"
+
+#~ msgid "Key Direction:"
+#~ msgstr "Směr klíče:"
+
+#~ msgid "Static Key:"
+#~ msgstr "Statický klíč:"
+
+#~ msgid ""
+#~ "Pre-shared file for Static Key encryption mode (non-TLS).\n"
+#~ "config: static <file>"
+#~ msgstr ""
+#~ "Sdílený soubor pro režim šifrování statickým klíčem (non-TLS).\n"
+#~ "config: static <soubor>"
+
+#~ msgid ""
+#~ "IP address of the remote VPN endpoint.\n"
+#~ "config: ifconfig <l> <rn>"
+#~ msgstr ""
+#~ "Adresa IP vzdáleného uzlu VPN.\n"
+#~ "config: ifconfig <l> <rn>"
+
+#~ msgid ""
+#~ "IP address of the local VPN endpoint.\n"
+#~ "config: ifconfig <l> <rn>"
+#~ msgstr ""
+#~ "Adresa IP místního uzlu VPN.\n"
+#~ "config: ifconfig <l> <rn>"
+
+#~ msgid ""
+#~ "Direction for Static Key encryption mode (non-TLS).\n"
+#~ "If key direction is used, it must be the opposite of that used on the VPN "
+#~ "peer. For example, if the peer uses “1”, this connection must use “0”. If "
+#~ "you are unsure what value to use, contact your system administrator.\n"
+#~ "config: static <file> [direction]"
+#~ msgstr ""
+#~ "Směr pro režim šifrování statickým klíčem (non-TLS).\n"
+#~ "Pokud se používá směr klíče, musí být opačný k protějšku VPN. Například, "
+#~ "když protějšek používá „1“, toto připojení musí použít „0“. Pokud si "
+#~ "nejste jisti, jakou hodnotu použít, kontaktujte správce svého systému.\n"
+#~ "config: static <soubor> [směr]"
+
+#~ msgid "Type:"
+#~ msgstr "Typ:"
+
+#~ msgid "Select an authentication mode."
+#~ msgstr "Zvolete způsob autentizace."
+
+#~ msgid "Ad_vanced…"
+#~ msgstr "P_okročilé…"
+
+#~ msgid "Anyconnect Advanced Options"
+#~ msgstr "Pokročilé volby Anyconnect"
+
+#~ msgid "Use custom gateway p_ort:"
+#~ msgstr "P_oužít vlastní port brány:"
+
+#~ msgid ""
+#~ "TCP/UDP port number for peer. (Default value when there is no port for "
+#~ "gateway).\n"
+#~ "config: port"
+#~ msgstr ""
+#~ "Číslo portu TCP/UDP místního zakončení. (Výchozí volba pokud není pro "
+#~ "bránu zadán port.)\n"
+#~ "config: port"
+
+#~ msgid "Use custom _renegotiation interval:"
+#~ msgstr "Použít vlastní interval opětovného _připojení:"
+
+#~ msgid ""
+#~ "Renegotiate data channel key after the specified number of seconds.\n"
+#~ "config: reneg-sec"
+#~ msgstr ""
+#~ "Vyjednat nové klíče datového kanálu po zadaném počtu sekund.\n"
+#~ "config: reneg-sec"
+
+#~ msgid "Use L_ZO data compression"
+#~ msgstr "Použít komprimaci L_ZO"
+
+#~ msgid ""
+#~ "Use fast LZO compression.\n"
+#~ "config: comp-lzo"
+#~ msgstr ""
+#~ "Použít rychlou kompresi LZO.\n"
+#~ "config: comp-lzo"
+
+#~ msgid ""
+#~ "Select the LZO data compression mode.\n"
+#~ "config: comp-lzo"
+#~ msgstr ""
+#~ "Použít režim komprimace dat LZO.\n"
+#~ "config: comp-lzo"
+
+#~ msgid "Use a _TCP connection"
+#~ msgstr "Použít spojení _TCP"
+
+#~ msgid ""
+#~ "Use TCP for communicating with remote host.\n"
+#~ "(This is a default setting only used when no protocol is specified for "
+#~ "the gateway.)\n"
+#~ "config: proto tcp-client | udp"
+#~ msgstr ""
+#~ "Pro komunikaci se vzdáleným uzlem použít TCP.\n"
+#~ "(Toto je výchozí volba. Je použita pouze v případě, že pro bránu není "
+#~ "specifikován žádný protokol.)\n"
+#~ "config: proto tcp-client | udp"
+
+#~ msgid "Set virtual _device type:"
+#~ msgstr "Nastavit typ virtuálního _zařízení:"
+
+#~ msgid "Explicitly set virtual device type and name (TUN/TAP)."
+#~ msgstr "Výslovně nastavit typ a název virtuálního zařízení (TUN/TAP)."
+
+#~ msgid ""
+#~ "Explicitly set virtual device type (TUN/TAP).\n"
+#~ "config: dev-type tun | tap"
+#~ msgstr ""
+#~ "Výslovně nastavit typ virtuálního zařízení (TUN/TAP).\n"
+#~ "config: dev-type tun | tap"
+
+#~ msgid " and _name:"
+#~ msgstr "a _název:"
+
+#~ msgid ""
+#~ "Use custom name for TUN/TAP virtual device (instead of default “tun” or "
+#~ "“tap”).\n"
+#~ "config: dev <name>"
+#~ msgstr ""
+#~ "Použít vlastní název virtuálního zařízení TUN/TAP (místo výchozího „tun“ "
+#~ "nebo „tap“).\n"
+#~ "config: dev <název>"
+
+#~ msgid "Use custom tunnel Maximum Transmission _Unit (MTU):"
+#~ msgstr "Použít vlastní maximální velikost přenosové _jednotky (MTU):"
+
+#~ msgid ""
+#~ "Take the TUN device MTU to be the specified value and derive the link MTU "
+#~ "from it.\n"
+#~ "config: tun-mtu"
+#~ msgstr ""
+#~ "Odvodit MTU linky z MTU zařízení TUN.\n"
+#~ "config: tun-mtu"
+
+#~ msgid "Use custom UDP _fragment size:"
+#~ msgstr "Použít vlastní velikost UDP _fragmentu:"
+
+#~ msgid ""
+#~ "Enable internal datagram fragmentation with this maximum size.\n"
+#~ "config: fragment"
+#~ msgstr ""
+#~ "Povolit interní fragmentaci datagramů touto maximální délkou.\n"
+#~ "config: fragment"
+
+#~ msgid "Restrict tunnel TCP Maximum _Segment Size (MSS)"
+#~ msgstr "Omezit maximální velikost _segmentu TCP u tunelu (MSS)"
+
+#~ msgid ""
+#~ "Restrict tunnel TCP MSS.\n"
+#~ "config: mssfix"
+#~ msgstr ""
+#~ "Omezit TCP MSS tunelu.\n"
+#~ "config: mssfix"
+
+#~ msgid "Rando_mize remote hosts"
+#~ msgstr "_Náhodně seřadit vzdálené uzly"
+
+#~ msgid ""
+#~ "Randomize the order of gateways list (remote) as a kind of basic load-"
+#~ "balancing measure.\n"
+#~ "config: remote-random"
+#~ msgstr ""
+#~ "Náhodně seřadit seznam bran (vzdálených) jako způsob rozložení zátěže.\n"
+#~ "config: remote-random"
+
+#~ msgid "IPv6 tun link"
+#~ msgstr "Linka IPv6 tun"
+
+#~ msgid ""
+#~ "Build a tun link capable of forwarding IPv6 traffic\n"
+#~ "config: tun-ipv6"
+#~ msgstr ""
+#~ "Vytvořit linku tun schopnou přeposílání provozu IPv6\n"
+#~ "config: tun-ipv6"
+
+#~ msgid "Specify _exit or restart ping:"
+#~ msgstr "Nastavit ukončení nebo restart pinkání:"
+
+#~ msgid ""
+#~ "Exit or restart after n seconds pass without reception of a ping or other "
+#~ "packet from remote.\n"
+#~ "config: ping-exit | ping-restart <n>"
+#~ msgstr ""
+#~ "Ukončit nebo restartovat po n sekundách bez přijetí jakéhokoliv paketu "
+#~ "nebo pinknutí od protistrany.\n"
+#~ "config: ping-exit | ping-restart <n>"
+
+#~ msgid "Specify pin_g interval:"
+#~ msgstr "Nastavit interval pin_knutí:"
+
+#~ msgid ""
+#~ "Ping remote over the TCP/UDP control channel if no packets have been sent "
+#~ "for at least n seconds.\n"
+#~ "config: ping <n>"
+#~ msgstr ""
+#~ "Poslat protistraně pinknutí přes řídící kanál TCP/UDP, pokud nebyly v "
+#~ "posledních n sekundách poslány žádné pakety.\n"
+#~ "config: ping <n>"
+
+#~ msgid "Accept authenticated packets from any address (F_loat)"
+#~ msgstr "Přijmout autentizované pakety z jakékoli adresy (F_loat)"
+
+#~ msgid ""
+#~ "Allow remote peer to change its IP address and/or port number, such as "
+#~ "due to DHCP (this is the default if --remote is not used). --float when "
+#~ "specified with --remote allows an Anyconnect session to initially connect "
+#~ "to a peer at a known address, however if packets arrive from a new "
+#~ "address and pass all authentication tests, the new address will take "
+#~ "control of the session. This is useful when you are connecting to a peer "
+#~ "which holds a dynamic address such as a dial-in user or DHCP client.\n"
+#~ "\n"
+#~ "Essentially, --float tells Anyconnect to accept authenticated packets "
+#~ "from any address, not only the address which was specified in the --"
+#~ "remote option.\n"
+#~ "\n"
+#~ "config: float"
+#~ msgstr ""
+#~ "Povolit protějšímu uzlu změnit svoji IP adresu a/nebo číslo portu; např. "
+#~ "DHCP (toto je výchozí chování pokud je použit parametr --remote). Pokud "
+#~ "je spolu s --remote zadáno --float, dovolí úvodní připojení relace "
+#~ "Anyconnect k uzlu na známé adrese. Pokud ale pakety přijdou z nové adresy "
+#~ "a projdou všemi autentizačními testy, nová adresa převezme kontrolu nad "
+#~ "spojením. To je užitečné, pokud se připojujete k uzlu, který má přiřazenu "
+#~ "danamickou adresu. Například uživatel vytáčeného spojení nebo klient "
+#~ "DHCP.\n"
+#~ "\n"
+#~ "Parametr --float v podstatě říká Anyconnect, aby přijalo autentizované "
+#~ "pakety z jakékoli adresy, ne pouze z adresy specifikované parametrem --"
+#~ "remote.\n"
+#~ "\n"
+#~ "config: float"
+
+#~ msgid "Specify max routes:"
+#~ msgstr "Zadejte max. počet cest:"
+
+#~ msgid ""
+#~ "Specify the maximum number of routes the server is allowed to specify.\n"
+#~ "config: max-routes <n>"
+#~ msgstr ""
+#~ "Zadejte maximální počet směrovacích cest, které server může určit.\n"
+#~ "config: max-routes <n>"
+
+#~ msgid ""
+#~ "Encrypt packets with cipher algorithm. The default is BF-CBC (Blowfish in "
+#~ "Cipher Block Chaining mode).\n"
+#~ "config: cipher"
+#~ msgstr ""
+#~ "Šifrovací algoritmus pro kódování paketů. Výchozí je BF-CBC (Blowfish v "
+#~ "režimu Cipher Blok Chaining).\n"
+#~ "config: cipher"
+
+#~ msgid "Use custom _size of cipher key:"
+#~ msgstr "Použít vlastní délku klíče šifry:"
+
+#~ msgid ""
+#~ "Set cipher key size to a custom value. If unspecified, it defaults to "
+#~ "cipher-specific size.\n"
+#~ "config: keysize <n>"
+#~ msgstr ""
+#~ "Nastavit délku klíče šifry na vlastní hodnotu. Pokud není specifikována, "
+#~ "bude použita výchozí pro danou šifru.\n"
+#~ "config: keysize <n>"
+
+#~ msgid ""
+#~ "Authenticate packets with HMAC using message digest algorithm. The "
+#~ "default is SHA1.\n"
+#~ "config: auth"
+#~ msgstr ""
+#~ "Autentizovat pakety pomocí HMAC použitím algoritmu message digest. "
+#~ "Výchozí je SHA1.\n"
+#~ "config: auth"
+
+#~ msgid "Ci_pher:"
+#~ msgstr "Šifra:"
+
+#~ msgid "_HMAC Authentication:"
+#~ msgstr "Autentizace HMAC:"
+
+#~ msgid "Disable cipher _negotiation"
+#~ msgstr "Zakázat vyjed_návání šifry"
+
+#~ msgid ""
+#~ "Disable cipher negotiation between client and server.\n"
+#~ "config: ncp-disable"
+#~ msgstr ""
+#~ "Zakázat vyjednávání šifrovacího algoritmu mezi klientem a serverem.\n"
+#~ "config: ncp-disable"
+
+#~ msgid "Verify CRL from file"
+#~ msgstr "Kontrolovat CRL ze souboru"
+
+#~ msgid ""
+#~ "Check peer certificate against the specified file in PEM format. A CRL "
+#~ "(certificate revocation list) is used when a particular key is "
+#~ "compromised but when the overall PKI is still intact."
+#~ msgstr ""
+#~ "Ověřit certifikát protistrany podle zadaného souboru ve formátu PEM. CRL "
+#~ "(seznam zneplatněných certifikátů) je používán, když je konkrétní klíč "
+#~ "kompromitovaný, ale PKI je celkově nedotčeno."
+
+#~ msgid "Verify CRL from directory"
+#~ msgstr "Kontrolovat CRL ze složky"
+
+#~ msgid ""
+#~ "Check peer certificate by looking at files in the specified directory. "
+#~ "The directory must contain files named as revoked serial numbers (the "
+#~ "files may be empty, the contents are never read)."
+#~ msgstr ""
+#~ "Ověřit certifikát protistrany pohledem na soubory v zadané složce. Složka "
+#~ "musí obsahovat soubory pojmenované podle zneplatněných sériových čísel "
+#~ "(soubory mohou být prázdné, obsah není nikdy čten)."
+
+#~ msgid "Choose CRL file"
+#~ msgstr "Zvolte soubor CRL"
+
+#~ msgid "Choose CRL directory"
+#~ msgstr "Zvolte složku CRL"
+
+#~ msgid "Security"
+#~ msgstr "Zabezpečení"
+
+#~ msgid "_Subject Match:"
+#~ msgstr "_Subjekt odpovídá:"
+
+#~ msgid ""
+#~ "Subject or Common Name to verify server certificate information against.\n"
+#~ "\n"
+#~ "config: verify-x509-name subject-or-name [mode]\n"
+#~ "config (legacy mode): tls-remote subject-or-name"
+#~ msgstr ""
+#~ "Subjekt nebo běžný název „Common Name“, vůči kterému se mají ověřovat "
+#~ "informace serverového certifikátu.\n"
+#~ "\n"
+#~ "config: verify-x509-name předmět-nebo-název [režim]\n"
+#~ "config (zastaralý režim): tls-remote předmět-nebo-název"
+
+#~ msgid "Server _Certificate Check:"
+#~ msgstr "Kontrola serverového _certifikátu:"
+
+#~ msgid ""
+#~ "Verify server certificate identification.\n"
+#~ "\n"
+#~ "When enabled, connection will only succeed if the server certificate "
+#~ "matches some expected properties.\n"
+#~ "Matching can either apply to the whole certificate subject (all the "
+#~ "fields),\n"
+#~ "or just the Common Name (CN field).\n"
+#~ "\n"
+#~ "The legacy option tls-remote is deprecated and removed from Anyconnect "
+#~ "2.4 and newer. Do not use it anymore.\n"
+#~ "\n"
+#~ "config: verify-x509-name subject-or-name [mode]\n"
+#~ "config (legacy mode): tls-remote subject-or-name"
+#~ msgstr ""
+#~ "Ověřovat identifikaci serverového certifikátu.\n"
+#~ "\n"
+#~ "Když je zapnuto, bude připojení úspěšné jen tehdy, pokud serverový "
+#~ "certifikát vyhovuje některým očekávaným vlastnostem.\n"
+#~ "Vyhodnocuje se buď subjekt certifikátu jako celek (všechna pole),\n"
+#~ "nebo jen běžný název „Common Name“ (pole CN).\n"
+#~ "\n"
+#~ "Dřívější předvolba tls-remote je zastaralá a z Anyconnect 2.4 a novjější "
+#~ "byla odstraněna. Dále ji nepoužívejte.\n"
+#~ "\n"
+#~ "config: verify-x509-name předmět-nebo-název [režim]\n"
+#~ "config (zastaralý režim): tls-remote předmět-nebo-název"
+
+#~ msgid "_Verify peer (server) certificate usage signature"
+#~ msgstr "O_věřit podpis použití certifikátu protistrany (serveru)"
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit key usage and "
+#~ "extended key usage based on RFC3280 TLS rules."
+#~ msgstr ""
+#~ "Vyžaduje, aby certifikát protistrany byl podepsán a definoval jednoznačné "
+#~ "hodnoty atributů použití a rozšířeného použití klíče dle pravidel TLS "
+#~ "(RFC3289)."
+
+#~ msgid "_Remote peer certificate TLS type:"
+#~ msgstr "Typ TLS certifikátu p_rotistrany:"
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit key usage and "
+#~ "extended key usage based on RFC3280 TLS rules.\n"
+#~ "config: remote-cert-tls client|server"
+#~ msgstr ""
+#~ "Vyžaduje, aby certifikát protistrany byl podepsán a definoval jednoznačné "
+#~ "hodnoty atributů použití a rozšířeného použití klíče dle pravidel TLS "
+#~ "(RFC3289).\n"
+#~ "config: remote-cert-tls client|server"
+
+#~ msgid "_Verify peer (server) certificate nsCertType designation"
+#~ msgstr "O_věřit označení nsCertType certifikátu protistrany (serveru)"
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit nsCertType "
+#~ "designation."
+#~ msgstr ""
+#~ "Vyžaduje, aby certifikát protistrany byl podepsán s jednoznačným "
+#~ "ozančením nsCertType"
+
+#~ msgid "_Remote peer certificate nsCert designation:"
+#~ msgstr "Označení nsCert certifikátu p_rotistrany:"
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit nsCertType "
+#~ "designation.\n"
+#~ "config: ns-cert-type client|server"
+#~ msgstr ""
+#~ "Vyžaduje, aby certifikát protistrany byl podepsán s jednoznačným "
+#~ "označením nsCertType.\n"
+#~ "config: ns-cert-type client|server"
+
+#~ msgid "Key _Direction:"
+#~ msgstr "Směr _klíče:"
+
+#~ msgid ""
+#~ "Add an additional layer of HMAC authentication on top of the TLS control "
+#~ "channel to protect against DoS attacks. In case of TLS-Crypt mode, the "
+#~ "control channel is also encrypted.\n"
+#~ "config: tls-auth <file> [direction] | tls-crypt <file>"
+#~ msgstr ""
+#~ "Chránit příkazový kanál TLS před útoky typu DoS přidáním další úrovně "
+#~ "autentizace HMAC. Příkazový kanál je šifrován i v režimu TLS-Crypt.\n"
+#~ "config: tls-auth <soubor> [směr] | tls-crypt <soubor>"
+
+#~ msgid ""
+#~ "Direction parameter for static key mode.\n"
+#~ "If key direction is used, it must be the opposite of that used on the VPN "
+#~ "peer. For example, if the peer uses “1”, this connection must use “0”. If "
+#~ "you are unsure what value to use, contact your system administrator.\n"
+#~ "config: tls-auth <file> [direction]"
+#~ msgstr ""
+#~ "Parametr směru pro režim statického klíče.\n"
+#~ "Pokud se používá směr klíče, musí být opačný k protějšku VPN. Například, "
+#~ "když protějšek používá „1“, toto připojení musí použít „0“. Pokud si "
+#~ "nejste jisti, jakou hodnotu použít, kontaktujte správce svého systému.\n"
+#~ "config: tls-auth <soubor> [směr]"
+
+#~ msgid "Key _File:"
+#~ msgstr "_Soubor klíče:"
+
+#~ msgid "Mode:"
+#~ msgstr "Režim:"
+
+#~ msgid "Add an additional layer of encryption or HMAC authentication."
+#~ msgstr "Přidat další úroveň šifrování nebo autentizace HMAC."
+
+#~ msgid "Extra Certificates:"
+#~ msgstr "Další certifikáty:"
+
+#~ msgid ""
+#~ "Specify a file containing one or more PEM certs (concatenated together) "
+#~ "that complete the local certificate chain.\n"
+#~ "config: extra-certs <file>"
+#~ msgstr ""
+#~ "Určit soubor obsahující jeden nebo více certifikátů PEM (spojených "
+#~ "dohromady), které dokončí lokální řetězec certifikátů.\n"
+#~ "config: extra-certs <soubor>"
+
+#~ msgid "Additional TLS authentication or encryption"
+#~ msgstr "Použít dodatečnou autentizaci TLS nebo šifrování"
+
+#~ msgid "TLS Authentication"
+#~ msgstr "Autentizace TLS"
+
+#~ msgid ""
+#~ "Proxy type: HTTP or Socks.\n"
+#~ "config: http-proxy or socks-proxy"
+#~ msgstr ""
+#~ "Typ proxy: HTTP nebo Socks.\n"
+#~ "config: http-proxy nebo socks-proxy"
+
+#~ msgid "Proxy _Type:"
+#~ msgstr "_Typ proxy:"
+
+#~ msgid ""
+#~ "<i>Select this option if your organization requires the use of a proxy "
+#~ "server to access the Internet.</i>"
+#~ msgstr ""
+#~ "<i>Zvolte tuto možnost, pokud vaše organizace používá pro přístup do "
+#~ "Internetu server proxy.</i>"
+
+#~ msgid "Server _Address:"
+#~ msgstr "_Adresa serveru:"
+
+#~ msgid ""
+#~ "Connect to remote host through a proxy with this address.\n"
+#~ "config: http-proxy or socks-proxy"
+#~ msgstr ""
+#~ "Připojit ke vzdálenému uzlu prostřednictvím proxy s touto adresou.\n"
+#~ "config: http-proxy nebo socks-proxy"
+
+#~ msgid "_Port:"
+#~ msgstr "_Port:"
+
+#~ msgid ""
+#~ "Connect to remote host through a proxy with this port.\n"
+#~ "config: http-proxy or socks-proxy"
+#~ msgstr ""
+#~ "Připojit ke vzdálenému uzlu prostřednictvím proxy s tímto portem.\n"
+#~ "config: http-proxy nebo socks-proxy"
+
+#~ msgid "_Retry indefinitely when errors occur"
+#~ msgstr "Neustále o_pakovat pokud nastane chyba"
+
+#~ msgid ""
+#~ "Retry indefinitely on proxy errors. It simulates a SIGUSR1 reset.\n"
+#~ "config: http-proxy-retry or socks-proxy-retry"
+#~ msgstr ""
+#~ "Při chybě proxy opakovat do nekonečna. Simuluje reset signálem SIGUSR1.\n"
+#~ "config: http-proxy-retry nebo socks-proxy-retry"
+
+#~ msgid "Proxy _Username:"
+#~ msgstr "_Uživatelské jméno proxy:"
+
+#~ msgid "Proxy Passwor_d:"
+#~ msgstr "_Heslo proxy:"
+
+#~ msgid "HTTP/Socks proxy username passed to Anyconnect when prompted for it."
+#~ msgstr "Uživatelské jméno proxy HTTP/Socks předané na požadavek Anyconnect."
+
+#~ msgid "HTTP/Socks proxy password passed to Anyconnect when prompted for it."
+#~ msgstr "Heslo proxy HTTP/Socks předané na požadavek Anyconnect."
+
+#~ msgid "_Show password"
+#~ msgstr "Zobrazit he_slo"
+
+#~ msgid "Proxies"
+#~ msgstr "Servery proxy"
+
+#~ msgid "Path mtu discovery"
+#~ msgstr "Zjištění MTU cesty"
+
+#~ msgid "Connect timeout"
+#~ msgstr "Časový limit připojení"
+
+#~ msgid ""
+#~ "The timeout in seconds before trying the next server. This timeout "
+#~ "includes proxy and TCP connect timeouts.\n"
+#~ "config: connect-timeout <n> | server-poll-timeout <n>"
+#~ msgstr ""
+#~ "Časový limit, v sekundách, před tím, než se použije následující server. "
+#~ "Zahrnuje v sobě časové limity prosy a spojení TCP.\n"
+#~ "config: connect-timeout <n> | server-poll-timeout <n>"
+
+#~ msgid "Misc"
+#~ msgstr "Různé"
+
+#~ msgid "unknown Anyconnect file extension"
+#~ msgstr "neznámá přípona souboru Anyconnect"
+
+#~ msgid "could not create anyconnect object"
+#~ msgstr "nelze vytvořit objekt anyconnect"
+
+#~ msgid "Invalid HMAC auth."
+#~ msgstr "Neplatná autentizace HMAC."

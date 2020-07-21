@@ -1,0 +1,849 @@
+# Basque translation of NetworkManager-Anyconnect.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2008, 2009, 2010, 2014, 2015.
+# Edurne Labaka <elabaka@uzei.com>, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: network-manager-anyconnect master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-30 22:41+0100\n"
+"PO-Revision-Date: 2015-02-07 18:01+0100\n"
+"Last-Translator: Iñaki Larrañaga Murgoitio <dooteo@zundan.com>\n"
+"Language-Team: Basque <librezale@librezale.org>\n"
+"Language: eu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 1.4\n"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:1
+#, fuzzy
+msgid "Anyconnect client"
+msgstr "Anyconnect"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:2
+msgid "Client for Anyconnect virtual private networks"
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:3
+msgid "Support for configuring Anyconnect virtual private network connections."
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:4
+msgid "Anyconnect is a popular and flexible free-software VPN solution."
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:5
+msgid "The NetworkManager Developers"
+msgstr ""
+
+#: ../properties/nm-anyconnect-editor-plugin.c:35
+#, fuzzy
+msgid "Cisco AnyConnect"
+msgstr "Anyconnect"
+
+#: ../properties/nm-anyconnect-editor-plugin.c:36
+msgid "Runs the proprietary Cisco AnyConnect VPN."
+msgstr ""
+
+#: ../properties/nm-anyconnect-editor.c:299
+msgid "could not load UI widget"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:946
+#, c-format
+msgid "object class '%s' has no property named '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:953
+#, c-format
+msgid "property '%s' of object class '%s' is not writable"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:960
+#, c-format
+msgid ""
+"construct property \"%s\" for object '%s' can't be set after construction"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:968
+#, c-format
+msgid "'%s::%s' is not a valid property name; '%s' is not a GObject subtype"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:977
+#, c-format
+msgid "unable to set property '%s' of type '%s' from value of type '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:988
+#, c-format
+msgid ""
+"value \"%s\" of type '%s' is invalid or out of range for property '%s' of "
+"type '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:69
+#, c-format
+msgid "unable to get editor plugin name: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:103
+#, c-format
+msgid "missing plugin file \"%s\""
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:109
+#, c-format
+msgid "cannot load editor plugin: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:118
+#, c-format
+msgid "cannot load factory %s from plugin: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:144
+msgid "unknown error creating editor instance"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:567 ../src/nm-anyconnect-service.c:682
+msgid "Could not find the anyconnect binary."
+msgstr "Ezin izan da anyconnect bitarra aurkitu."
+
+#: ../src/nm-anyconnect-service.c:580
+msgid ""
+"Could not process the request because the VPN connection settings were "
+"invalid."
+msgstr ""
+"Ezin izan da eskaera prozesatu VPN konexioaren ezarpenak baliogabekoak "
+"direlako."
+
+#: ../src/nm-anyconnect-service.c:602
+msgid ""
+"Could not attempt connection, unable to find the setting for the gateway."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:875
+#, fuzzy
+msgid "Don’t quit when VPN connection terminates"
+msgstr "Ez irten VPNaren konexioa amaitzean"
+
+#: ../src/nm-anyconnect-service.c:876
+msgid "Enable verbose debug logging (may expose passwords)"
+msgstr "Gaitu arazketaren erregistro xehea (pasahitzak erakuts ditzake)"
+
+#: ../src/nm-anyconnect-service.c:877
+msgid "D-Bus name to use for this instance"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:905
+#, fuzzy
+msgid ""
+"nm-anyconnect-service provides integrated proprietary Cisco AnyConnect "
+"capability to NetworkManager."
+msgstr ""
+"'nm-anyconnect-service' zerbitzuak Anyconnect gaitasuna erabiltzea "
+"baimentzen dio NetworkManager-i."
+
+#: ../properties/nm-anyconnect-dialog.ui.h:1
+msgid "General"
+msgstr "Orokorra"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:2
+msgid "_Gateway:"
+msgstr "_Atebidea:"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:3
+msgid "VPN host to connect to"
+msgstr ""
+
+#, c-format
+#~ msgid "Authenticate VPN %s"
+#~ msgstr "Autentifikatu %s VPN"
+
+#~ msgid "Password:"
+#~ msgstr "Pasahitza:"
+
+#~ msgid "Certificate password:"
+#~ msgstr "Ziurtagiriaren pasahitza:"
+
+#~ msgid "Authenticate VPN"
+#~ msgstr "Autentifikatu VPN"
+
+#~ msgid "Certificate pass_word:"
+#~ msgstr "_Ziurtagiriaren pasahitza:"
+
+#, c-format
+#~ msgid "You need to authenticate to access the Virtual Private Network '%s'."
+#~ msgstr ""
+#~ "Autentifikatu egin behar zara '%s' VPN-ra (Sare Birtual Pribatua) "
+#~ "sarbidetzeko."
+
+#~ msgid "VPN Connection Manager (Anyconnect)"
+#~ msgstr "VPN konexioen kudeatzailea (Anyconnect)"
+
+#~ msgid "Add, Remove, and Edit VPN Connections"
+#~ msgstr "Gehitu, kendu eta editatu VPN konexioak"
+
+#~ msgid "Choose your personal certificate..."
+#~ msgstr "Aukeratu ziurtagiri pertsonala..."
+
+#~ msgid "Choose your private key..."
+#~ msgstr "Aukeratu gako pribatua..."
+
+#~ msgid "Saved"
+#~ msgstr "Gordeta"
+
+#~ msgid "Always Ask"
+#~ msgstr "Galdetu beti"
+
+#~ msgid "Not Required"
+#~ msgstr "Ez da beharrezkoa"
+
+#~ msgid "Choose a Certificate Authority certificate..."
+#~ msgstr "Aukeratu Ziurtagiri-Emailearen ziurtagiria..."
+
+#~ msgid "Choose an Anyconnect static key..."
+#~ msgstr "Aukeratu Anyconnect gako estatikoa..."
+
+#~ msgid "None"
+#~ msgstr "Bat ere ez"
+
+#~ msgid "PEM or PKCS#12 certificates (*.pem, *.crt, *.key, *.cer, *.p12)"
+#~ msgstr "PEM edo PKCS#12 ziurtagiriak (*.pem, *.crt, *.key, *.cer, *.p12)"
+
+#~ msgid "PEM certificates (*.pem, *.crt, *.key, *.cer)"
+#~ msgstr "PEM ziurtagiriak (*.pem, *.crt, *.key, *.cer)"
+
+#~ msgid "Anyconnect Static Keys (*.key)"
+#~ msgstr "Anyconnect gako estatikoak (*.key)"
+
+#~ msgid "Default"
+#~ msgstr "Lehenetsia"
+
+#~ msgid "RSA MD-4"
+#~ msgstr "RSA MD-4"
+
+#~ msgid "MD-5"
+#~ msgstr "MD-5"
+
+#~ msgid "SHA-1"
+#~ msgstr "SHA-1"
+
+#~ msgid "SHA-224"
+#~ msgstr "SHA-224"
+
+#~ msgid "SHA-256"
+#~ msgstr "SHA-256"
+
+#~ msgid "SHA-384"
+#~ msgstr "SHA-384"
+
+#~ msgid "SHA-512"
+#~ msgstr "SHA-512"
+
+#~ msgid "RIPEMD-160"
+#~ msgstr "RIPEMD-160"
+
+#~ msgid "Server"
+#~ msgstr "Zerbitzaria"
+
+#~ msgid "Client"
+#~ msgstr "Bezeroa"
+
+#~ msgid "Not required"
+#~ msgstr "Ez da beharrezkoa"
+
+#~ msgid "HTTP"
+#~ msgstr "HTTP"
+
+#~ msgid "SOCKS"
+#~ msgstr "SOCKS"
+
+#~ msgid "TUN"
+#~ msgstr "TUN"
+
+#~ msgid "TAP"
+#~ msgstr "TAP"
+
+#~ msgid "(automatic)"
+#~ msgstr "(automatikoa)"
+
+#~ msgid "Compatible with the Anyconnect server."
+#~ msgstr "Anyconnect zerbitzariarekin bateragarria."
+
+#~ msgid "Certificates (TLS)"
+#~ msgstr "Ziurtagiriak (TLS)"
+
+#~ msgid "Password"
+#~ msgstr "Pasahitza"
+
+#~ msgid "Password with Certificates (TLS)"
+#~ msgstr "Pasahitza ziurtagiriekin (TLS)"
+
+#~ msgid "Static Key"
+#~ msgstr "Gako estatikoa"
+
+#, fuzzy
+#~ msgid "could not create anyconnect object"
+#~ msgstr "Ezin izan da anyconnect bitarra aurkitu."
+
+#, fuzzy
+#~ msgid "not a valid Anyconnect configuration file"
+#~ msgstr "Ez dago VPNaren konfigurazioaren aukerarik."
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "<b>General</b>"
+#~ msgstr "<b>Orokorra</b>"
+
+#~ msgid "<b>Authentication</b>"
+#~ msgstr "<b>Autentifikazioa</b>"
+
+#~ msgid "_Show passwords"
+#~ msgstr "Erakutsi pasahitzak"
+
+#~ msgid "Password for private key"
+#~ msgstr "Gako pribatuaren pasahitza"
+
+#~ msgid "Private Key Password:"
+#~ msgstr "Gako pribatuaren pasahitza:"
+
+#~ msgid ""
+#~ "Local peer's private key in .pem format.\n"
+#~ "config: key"
+#~ msgstr ""
+#~ "Lokaleko parekoaren gako pribatua .pem formatuan.\n"
+#~ "konfigurazioa: key"
+
+#~ msgid "Private Key:"
+#~ msgstr "Gako pribatua:"
+
+#~ msgid ""
+#~ "Certificate authority (CA) file in .pem format.\n"
+#~ "config: ca"
+#~ msgstr ""
+#~ "Ziurtagiri-Emailearen (ZE) fitxategia .pem formatuan.\n"
+#~ "konfigurazioa: ca"
+
+#~ msgid "CA Certificate:"
+#~ msgstr "ZE ziurtagiria:"
+
+#~ msgid "User Certificate:"
+#~ msgstr "Erabiltzailearen ziurtagiria:"
+
+#~ msgid ""
+#~ "Local peer's signed certificate in .pem format (signed by CA of CA "
+#~ "Certificate).\n"
+#~ "config: cert"
+#~ msgstr ""
+#~ "Lokaleko parekoaren gako pribatua .pem formatuan (ZE ziurtagiriko ZE "
+#~ "batek sinatuta).\n"
+#~ "konfigurazioa: cert"
+
+#~ msgid ""
+#~ "Password passed to Anyconnect when prompted for it.\n"
+#~ "config: auth-user-pass"
+#~ msgstr ""
+#~ "Anyconnect-ri eskatutakoan igorritako pasahitza.\n"
+#~ "konfigurazioa: auth-user-pass"
+
+#~ msgid "User name:"
+#~ msgstr "Erabiltzaile-izena:"
+
+#~ msgid ""
+#~ "Username passed to Anyconnect when prompted for it.\n"
+#~ "config: auth-user-pass"
+#~ msgstr ""
+#~ "Anyconnect-ri eskatutakoan igorritako erabiltzaile-izena.\n"
+#~ "konfigurazioa: auth-user-pass"
+
+#~ msgid ""
+#~ "IP address of the local VPN endpoint.\n"
+#~ "config: ifconfig <l> <rn>"
+#~ msgstr ""
+#~ "Lokaleko VPN amaiera-puntuaren IP helbidea.\n"
+#~ "konfigurazioa: ifconfig <l> <rn>"
+
+#~ msgid "Remote IP Address:"
+#~ msgstr "Urruneko IP helbidea:"
+
+#~ msgid "Local IP Address:"
+#~ msgstr "IP helbide lokala:"
+
+#~ msgid ""
+#~ "IP address of the remote VPN endpoint.\n"
+#~ "config: ifconfig <l> <rn>"
+#~ msgstr ""
+#~ "Urruneko VPN amaiera-puntuaren IP helbidea.\n"
+#~ "konfigurazioa: ifconfig <l> <rn>"
+
+#~ msgid "Key Direction:"
+#~ msgstr "Gakoaren helbidea:"
+
+#~ msgid "Static Key:"
+#~ msgstr "Gako estatikoa:"
+
+#~ msgid ""
+#~ "Pre-shared file for Static Key encryption mode (non-TLS).\n"
+#~ "config: static <file>"
+#~ msgstr ""
+#~ "Gako estatikoaren moduaren (ez-TLS) aurre-partekatutako fitxategia.\n"
+#~ "konfigurazioa: static <fitxategia>"
+
+#~ msgid ""
+#~ "Direction for Static Key encryption mode (non-TLS).\n"
+#~ "If key direction is used, it must be the opposite of that used on the VPN "
+#~ "peer.  For example, if the peer uses '1', this connection must use '0'.  "
+#~ "If you are unsure what value to use, contact your system administrator.\n"
+#~ "config: static <file> [direction]"
+#~ msgstr ""
+#~ "Gako estatikoaren moduaren (ez-TLS) helbidea.\n"
+#~ "Gakoaren helbidea erabiltzen bada, VPN parekoarenaren aurkakoa izan behar "
+#~ "du. Esate baterako, parekoak '1' erabiltzen badu, konexio honek '0' "
+#~ "erabili behar du. Zein balio erabili behar duzun ez badakizu, jar zaitez "
+#~ "sistemako administratzailearekin harremanetan.\n"
+#~ "konfigurazioa: static <fitxategia> [helbidea]"
+
+#~ msgid "Type:"
+#~ msgstr "Mota:"
+
+#~ msgid "Select an authentication mode."
+#~ msgstr "Hautatu autentifikazioaren modua."
+
+#~ msgid "Ad_vanced..."
+#~ msgstr "_Aurreratua..."
+
+#~ msgid "Anyconnect Advanced Options"
+#~ msgstr "Anyconnect-ren aukera aurreratuak"
+
+#~ msgid "Use custom gateway p_ort:"
+#~ msgstr "Erabili atebidearen _ataka pertsonalizatua:"
+
+#~ msgid ""
+#~ "TCP/UDP port number for local peer.\n"
+#~ "config: port"
+#~ msgstr ""
+#~ "TCP/UDP protokoloaren ataka lokaleko parekoarentzako.\n"
+#~ "konfigurazioa: port"
+
+#~ msgid "Use custom _renegotiation interval:"
+#~ msgstr "Erabili berriro negoziatzeko bitarte pertsonalizatua:"
+
+#~ msgid ""
+#~ "Renegotiate data channel key after the specified number of seconds.\n"
+#~ "config: reneg-sec"
+#~ msgstr ""
+#~ "Negoziatu berriro datu-kanalaren gakoa zehaztutako segundoen ostean.\n"
+#~ "konfigurazioa: reneg-sec"
+
+#~ msgid "Use L_ZO data compression"
+#~ msgstr "Erabili _LZO datu-konpresioa"
+
+#~ msgid ""
+#~ "Use fast LZO compression.\n"
+#~ "config: comp-lzo"
+#~ msgstr ""
+#~ "Erabili LZO konpresio azkarra.\n"
+#~ "konfigurazioa: comp-lzo"
+
+#~ msgid "Use a _TCP connection"
+#~ msgstr "Erabili _TCP konexioa"
+
+#~ msgid ""
+#~ "Use TCP for communicating with remote host.\n"
+#~ "config: proto tcp-client | udp"
+#~ msgstr ""
+#~ "Erabili TCP urruneko ostalariarekin komunikatzeko.\n"
+#~ "konfigurazioa: proto tcp-client | udp"
+
+#~ msgid "Set virtual _device type:"
+#~ msgstr "Ezarri gailu _birtual mota:"
+
+#~ msgid "Explicitly set virtual device type and name (TUN/TAP)."
+#~ msgstr "Ezarri esplizituki gailu birtualaren mota eta izena (TUN/TAP)."
+
+#~ msgid ""
+#~ "Explicitly set virtual device type (TUN/TAP).\n"
+#~ "config: dev-type tun | tap"
+#~ msgstr ""
+#~ "Ezarri esplizituki gailu birtualaren mota eta izena (TUN/TAP).\n"
+#~ "konfigurazioa: dev-type tun | tap"
+
+#~ msgid " and _name:"
+#~ msgstr " eta _izena:"
+
+#~ msgid ""
+#~ "Use custom name for TUN/TAP virtual device (instead of default \"tun\" or "
+#~ "\"tap\").\n"
+#~ "config: dev <name>"
+#~ msgstr ""
+#~ "Erabili izen pertsonalizatua TUN/TAP gailu birtualean ('tun' edo 'tap' "
+#~ "lehenetsien ordez).\n"
+#~ "konfigurazioa: dev <izena>"
+
+#~ msgid "Use custom tunnel Maximum Transmission _Unit (MTU):"
+#~ msgstr ""
+#~ "Erabili _tunelaren Gehienezko Transmisio Unitatea (MTU) pertsonalizatua:"
+
+#~ msgid ""
+#~ "Take the TUN device MTU to be the specified value and derive the link MTU "
+#~ "from it.\n"
+#~ "config: tun-mtu"
+#~ msgstr ""
+#~ "Hartu TUN gailuaren MTU-a zehaztutako balioa izateko, eta eratorri MTU "
+#~ "esteka harengandik.\n"
+#~ "konfigurazioa: tun-mtu"
+
+#~ msgid "Use custom UDP _fragment size:"
+#~ msgstr "Erabili UDP _zatiaren tamaina pertsonalizatua:"
+
+#~ msgid ""
+#~ "Enable internal datagram fragmentation with this maximum size.\n"
+#~ "config: fragment"
+#~ msgstr ""
+#~ "Gaitu barneko datagrama zatikatzea bere gehienezko tamainarekin.\n"
+#~ "konfigurazioa: fragment"
+
+#~ msgid "Restrict tunnel TCP Maximum _Segment Size (MSS)"
+#~ msgstr "Murriztu TCP tunela gehienezko segmentu-tamainara (MSS)"
+
+#~ msgid ""
+#~ "Restrict tunnel TCP MSS.\n"
+#~ "config: mssfix"
+#~ msgstr ""
+#~ "Murriztu TCP MSS tunela.\n"
+#~ "konfigurazioa: mssfix"
+
+#~ msgid "Rando_mize remote hosts"
+#~ msgstr "Ausaz nahasi urruneko ostalariak"
+
+#~ msgid ""
+#~ "Randomize the order of gateways list (remote) as a kind of basic load-"
+#~ "balancing measure.\n"
+#~ "config: remote-random"
+#~ msgstr ""
+#~ "Ausaz nahasi (urruneko) atebideen zerrendaren ordena oinarrizko kargen "
+#~ "balantzea neurtzeko balitz bezala\n"
+#~ "konfigurazioa: remote-random"
+
+#~ msgid ""
+#~ "Encrypt packets with cipher algorithm. The default is BF-CBC (Blowfish in "
+#~ "Cipher Block Chaining mode).\n"
+#~ "config: cipher"
+#~ msgstr ""
+#~ "Enkriptatu paketeak zifratzeko algoritmoarekin. Lehenetsia BF-CBC da "
+#~ "(Blowfish modua Cipher Block Chaining-en).\n"
+#~ "konfigurazioa: cipher"
+
+#~ msgid "Use custom _size of cipher key:"
+#~ msgstr "Erabili zifratze-gakoaren _tamaina pertsonalizatua:"
+
+#~ msgid ""
+#~ "Set cipher key size to a custom value. If unspecified, it defaults to "
+#~ "cipher-specific size.\n"
+#~ "config: keysize <n>"
+#~ msgstr ""
+#~ "Ezarri zifratze-gakoaren tamaina pertsonalizatuarekin. Ez bada zehazten "
+#~ "zifratzearen zehaztasuneko tamaina lehenetsia erabiliko\n"
+#~ "konfigurazioa: keysize <n>"
+
+#~ msgid ""
+#~ "Authenticate packets with HMAC using message digest algorithm. The "
+#~ "default is SHA1.\n"
+#~ "config: auth"
+#~ msgstr ""
+#~ "Autentifikatu paketeak HMAC-ekin mezuen laburpenaren algoritmoa erabiliz. "
+#~ "Lehenetsia SHA1 da.\n"
+#~ "konfigurazioa: auth"
+
+#~ msgid "Ci_pher:"
+#~ msgstr "Zifratua:"
+
+#~ msgid "_HMAC Authentication:"
+#~ msgstr "HMAC autentifikazioa:"
+
+#~ msgid "Security"
+#~ msgstr "Segurtasuna"
+
+#~ msgid "_Subject Match:"
+#~ msgstr "Gaiaren bat etortzea:"
+
+#~ msgid ""
+#~ "<i>Connect only to servers whose certificate matches the given subject.\n"
+#~ "Example: /CN=myvpn.company.com</i>"
+#~ msgstr ""
+#~ "<i>Konektatu soilik emandako gaiarekin bat datozen ziurtagiriak dituzten "
+#~ "zerbitzariekin.\n"
+#~ "Adibidez: /CN=nirevpn.enpresa.com</i>"
+
+#~ msgid ""
+#~ "Accept connections only from a host with X509 name or common name equal "
+#~ "to the specified one.\n"
+#~ "config: tls-remote"
+#~ msgstr ""
+#~ "Onartu konexioak X509 izena duen, edo zehaztutako izen amankomunaren "
+#~ "berdina duen ostalari batetik soilik.\n"
+#~ "konfigurazioa: tls-remote"
+
+#~ msgid "_Verify peer (server) certificate usage signature"
+#~ msgstr ""
+#~ "_Egiaztatu parekoaren (zerbitzaria) ziurtagirian sinaduraren erabilera"
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit key usage and "
+#~ "extended key usage based on RFC3280 TLS rules."
+#~ msgstr ""
+#~ "Parekoaren ziurtagiria gako zehatz baten erabilerarekin sinatuta eta "
+#~ "gakoaren erabilera RFC3280 TLS arauetan oinarrituta egotea egotea "
+#~ "eskatzen du."
+
+#~ msgid "_Remote peer certificate TLS type:"
+#~ msgstr "_Urruneko parekoaren TLS ziurtagiri mota:"
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit key usage and "
+#~ "extended key usage based on RFC3280 TLS rules.\n"
+#~ "config: remote-cert-tls client|server"
+#~ msgstr ""
+#~ "Parekoaren ziurtagiria gako zehatz baten erabilerarekin sinatuta eta "
+#~ "gakoaren erabilera RFC3280 TLS arauetan oinarrituta egotea egotea "
+#~ "eskatzen du.\n"
+#~ "konfigurazioa: remote-cert-tls client|server"
+
+#~ msgid "Use additional _TLS authentication"
+#~ msgstr "Erabili TLS autentifikazio gehigarria"
+
+#~ msgid "Add an additional layer of HMAC authentication."
+#~ msgstr "Gehitu HMAC autentifikazioaren geruza gehigarria."
+
+#~ msgid "Key _Direction:"
+#~ msgstr "Gakoaren helbidea:"
+
+#~ msgid ""
+#~ "Add an additional layer of HMAC authentication on top of the TLS control "
+#~ "channel to protect against DoS attacks.\n"
+#~ "config: tls-auth <file> [direction]"
+#~ msgstr ""
+#~ "Gehitu HMAC autentifikazioaren geruza gehigarria TLS kontrol-kanalaren "
+#~ "gainean DoS erasoetatik babesteko.\n"
+#~ "konfigurazioa: tls-auth <fitxategia> [helbidea]"
+
+#~ msgid ""
+#~ "Direction parameter for static key mode.\n"
+#~ "If key direction is used, it must be the opposite of that used on the VPN "
+#~ "peer.  For example, if the peer uses '1', this connection must use '0'.  "
+#~ "If you are unsure what value to use, contact your system administrator.\n"
+#~ "config: tls-auth <file> [direction]"
+#~ msgstr ""
+#~ "Helbidearen parametroa gakoaren modu estatikoarentzako.\n"
+#~ "Gakoaren helbidea erabiltzen bada, VPN parekoarenaren aurkakoa izan behar "
+#~ "du. Esate baterako, parekoak '1' erabiltzen badu, konexio honek '0' "
+#~ "erabili behar du. Zein balio erabili behar duzun ez badakizu, jar zaitez "
+#~ "sistemako administratzailearekin harremanetan.\n"
+#~ "konfigurazioa: tls-auth <fitxategia> [helbidea]"
+
+#~ msgid "Key _File:"
+#~ msgstr "Gakoaren fitxategia:"
+
+#~ msgid "TLS Authentication"
+#~ msgstr "TLS autentifikazioa"
+
+#~ msgid ""
+#~ "Proxy type: HTTP or Socks.\n"
+#~ "config: http-proxy or socks-proxy"
+#~ msgstr ""
+#~ "Proxy mota: HTTP edo Socks.\n"
+#~ "konfigurazioa: http-proxy edo socks-proxy"
+
+#~ msgid "Proxy _Type:"
+#~ msgstr "Proxy mota:"
+
+#~ msgid ""
+#~ "<i>Select this option if your organization requires the use of a proxy "
+#~ "server to access the Internet.</i>"
+#~ msgstr ""
+#~ "<i>Hautatu aukera hau erakundeak proxy zerbitzari bat behar badu "
+#~ "Internetera sarbidetzeko.</i>"
+
+#~ msgid "Server _Address:"
+#~ msgstr "Zerbitzariaren helbidea:"
+
+#~ msgid ""
+#~ "Connect to remote host through a proxy with this address.\n"
+#~ "config: http-proxy or socks-proxy"
+#~ msgstr ""
+#~ "Konektatu urruneko ostalariarekin helbide hau duen proxy-aren bidez.\n"
+#~ "konfigurazioa: http-proxy edo socks-proxy"
+
+#~ msgid "_Port:"
+#~ msgstr "Ataka:"
+
+#~ msgid ""
+#~ "Connect to remote host through a proxy with this port.\n"
+#~ "config: http-proxy or socks-proxy"
+#~ msgstr ""
+#~ "Konektatu urruneko ostalariarekin ataka hau duen proxy-aren bidez\n"
+#~ "konfigurazioa: http-proxy edo socks-proxy"
+
+#~ msgid "_Retry indefinitely when errors occur"
+#~ msgstr "_Saiatu behin et berriz errorea gertatzean"
+
+#~ msgid ""
+#~ "Retry indefinitely on proxy errors. It simulates a SIGUSR1 reset.\n"
+#~ "config: http-proxy-retry or socks-proxy-retry"
+#~ msgstr ""
+#~ "Saiatu etengabe proxy-aren erroreen aurrean. Honek SIGUSR1 leheneratzea "
+#~ "simulatzen du.\n"
+#~ "konfigurazioa: http-proxy-retry edo socks-proxy-retry"
+
+#~ msgid "Proxy _Username:"
+#~ msgstr "Proxy-aren erabiltzaile-izena:"
+
+#~ msgid "Proxy Passwor_d:"
+#~ msgstr "Proxy-aren pasahitza:"
+
+#~ msgid "HTTP/Socks proxy username passed to Anyconnect when prompted for it."
+#~ msgstr "Anyconnect-ri igorritako HTTP/Socks proxy-aren erabiltzaile-izena."
+
+#~ msgid "HTTP/Socks proxy password passed to Anyconnect when prompted for it."
+#~ msgstr "Anyconnect-ri igorritako HTTP/Socks proxy-aren pasahitza."
+
+#~ msgid "_Show password"
+#~ msgstr "_Erakutsi pasahitza"
+
+#~ msgid "Proxies"
+#~ msgstr "Proxy-ak"
+
+#, c-format
+#~ msgid "invalid address '%s'"
+#~ msgstr "'%s' helbide baliogabea"
+
+#, c-format
+#~ msgid "invalid integer property '%s' or out of range [%d -> %d]"
+#~ msgstr ""
+#~ "baliogabeko '%s' propietatearen zenbaki osokoa edo [%d -> %d] barrutitik "
+#~ "kanpo"
+
+#, c-format
+#~ msgid "invalid boolean property '%s' (not yes or no)"
+#~ msgstr "baliogabeko '%s' propietatearen boolearra (ez bai/ez)"
+
+#, c-format
+#~ msgid "unhandled property '%s' type %s"
+#~ msgstr "kudeatu gabeko '%s' propietatearen '%s' mota"
+
+#, c-format
+#~ msgid "property '%s' invalid or not supported"
+#~ msgstr "'%s' propietatea baliogabea edo ez dago onartuta"
+
+#~ msgid "No VPN configuration options."
+#~ msgstr "Ez dago VPNaren konfigurazioaren aukerarik."
+
+#~ msgid "A username is required."
+#~ msgstr "Erabiltzaile-izena behar da."
+
+#~ msgid "A password is required."
+#~ msgstr "Pasahitza behar da."
+
+#~ msgid "A username and password are required."
+#~ msgstr "Erabiltzaile-izena eta pasahitza behar dira."
+
+#~ msgid "A private key password is required."
+#~ msgstr "Gako pribatuaren pasahitza behar da."
+
+#~ msgid "An HTTP Proxy username is required."
+#~ msgstr "HTTP proxy-aren erabiltzaile-izena behar da."
+
+#~ msgid "An HTTP Proxy password is required."
+#~ msgstr "HTTP proxy-aren pasahitza behar da."
+
+#~ msgid "An HTTP Proxy username and password are required."
+#~ msgstr "HTTP proxy-aren erabiltzaile-izena eta pasahitza behar dira."
+
+#~ msgid "Invalid HMAC auth."
+#~ msgstr "Baliogabeko HMAC autentifikazioa."
+
+#~ msgid "Invalid connection type."
+#~ msgstr "Baliogabeko konexio mota."
+
+#, c-format
+#~ msgid "Invalid port number '%s'."
+#~ msgstr "Baliogabeko '%s' ataka zenbakia."
+
+#, c-format
+#~ msgid "Invalid proto '%s'."
+#~ msgstr "Baliogabeko '%s' protokoloa."
+
+#, c-format
+#~ msgid "Invalid proxy type '%s'."
+#~ msgstr "Baliogabeko '%s' proxy mota."
+
+#, c-format
+#~ msgid "Invalid keysize '%s'."
+#~ msgstr "Baliogabeko '%s' gako-tamaina."
+
+#, c-format
+#~ msgid "Invalid reneg seconds '%s'."
+#~ msgstr "Baliogabeko berriro negoziatzeko '%s' segundoak."
+
+#, c-format
+#~ msgid "Invalid TUN MTU size '%s'."
+#~ msgstr "Baliogabeko '%s' TUN MTU tamaina."
+
+#, c-format
+#~ msgid "Invalid fragment size '%s'."
+#~ msgstr "Baliogabeko '%s' zati-tamaina."
+
+#~ msgid "Missing required local IP address for static key mode."
+#~ msgstr "Gako estatikoaren moduaren lokaleko IP helbidea falta da."
+
+#~ msgid "Missing required remote IP address for static key mode."
+#~ msgstr "Gako estatikoaren moduaren urruneko IP helbidea falta da."
+
+#, c-format
+#~ msgid "Unknown connection type '%s'."
+#~ msgstr "'%s' konexio mota ezezaguna."
+
+#~ msgid ""
+#~ "Could not process the request because the anyconnect connection type was "
+#~ "invalid."
+#~ msgstr ""
+#~ "Ezin izan da eskaera prozesatu anyconnect konexioaren mota baliogabea "
+#~ "delako."
+
+#~ msgid "Unhandled pending authentication."
+#~ msgstr "Autentifikatzea falta dena kudeatu gabe."
+
+#~ msgid "Use a TA_P device"
+#~ msgstr "Erabili TA_P gailua"
+
+#~ msgid "_Password:"
+#~ msgstr "_Pasahitza:"
+
+#~ msgid "_Secondary Password:"
+#~ msgstr "_Bigarren pasahitza:"
+
+#~ msgid "_Username:"
+#~ msgstr "_Erabiltzaile-izena:"
+
+#~ msgid "_Domain:"
+#~ msgstr "_Domeinua:"
+
+#~ msgid "Connect _anonymously"
+#~ msgstr "Konektatu _anonimo gisa"
+
+#~ msgid "Connect as _user:"
+#~ msgstr "Konektatu _erabiltzaile gisa:"
+
+#~ msgid "_Remember password for this session"
+#~ msgstr "_Gogoratu pasahitza saio honetan"
+
+#~ msgid "_Save password in keyring"
+#~ msgstr "_Gorde pasahitza gako-sortan"

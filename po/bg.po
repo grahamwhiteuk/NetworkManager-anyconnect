@@ -1,0 +1,460 @@
+# Bulgarian translation of network-manager-anyconnect po-file
+# Copyright (C) 2007, 2008, 2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the network-manager-anyconnect package.
+# Alexander Shopov <ash@contact.bg>, 2007, 2008, 2010.
+# Krasimir Chonov <mk2616@abv.bg>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: network-manager-anyconnect master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-30 22:41+0100\n"
+"PO-Revision-Date: 2010-10-02 10:52+0300\n"
+"Last-Translator: Krasimir Chonov <mk2616@abv.bg>\n"
+"Language-Team: Bulgarian <dict@fsa-bg.org>\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:1
+#, fuzzy
+msgid "Anyconnect client"
+msgstr "Anyconnect"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:2
+msgid "Client for Anyconnect virtual private networks"
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:3
+msgid "Support for configuring Anyconnect virtual private network connections."
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:4
+msgid "Anyconnect is a popular and flexible free-software VPN solution."
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:5
+msgid "The NetworkManager Developers"
+msgstr ""
+
+#: ../properties/nm-anyconnect-editor-plugin.c:35
+#, fuzzy
+msgid "Cisco AnyConnect"
+msgstr "Anyconnect"
+
+#: ../properties/nm-anyconnect-editor-plugin.c:36
+msgid "Runs the proprietary Cisco AnyConnect VPN."
+msgstr ""
+
+#: ../properties/nm-anyconnect-editor.c:299
+msgid "could not load UI widget"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:946
+#, c-format
+msgid "object class '%s' has no property named '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:953
+#, c-format
+msgid "property '%s' of object class '%s' is not writable"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:960
+#, c-format
+msgid ""
+"construct property \"%s\" for object '%s' can't be set after construction"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:968
+#, c-format
+msgid "'%s::%s' is not a valid property name; '%s' is not a GObject subtype"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:977
+#, c-format
+msgid "unable to set property '%s' of type '%s' from value of type '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:988
+#, c-format
+msgid ""
+"value \"%s\" of type '%s' is invalid or out of range for property '%s' of "
+"type '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:69
+#, c-format
+msgid "unable to get editor plugin name: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:103
+#, c-format
+msgid "missing plugin file \"%s\""
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:109
+#, c-format
+msgid "cannot load editor plugin: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:118
+#, c-format
+msgid "cannot load factory %s from plugin: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:144
+msgid "unknown error creating editor instance"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:567 ../src/nm-anyconnect-service.c:682
+msgid "Could not find the anyconnect binary."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:580
+msgid ""
+"Could not process the request because the VPN connection settings were "
+"invalid."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:602
+msgid ""
+"Could not attempt connection, unable to find the setting for the gateway."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:875
+msgid "Don’t quit when VPN connection terminates"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:876
+msgid "Enable verbose debug logging (may expose passwords)"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:877
+msgid "D-Bus name to use for this instance"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:905
+msgid ""
+"nm-anyconnect-service provides integrated proprietary Cisco AnyConnect "
+"capability to NetworkManager."
+msgstr ""
+
+#: ../properties/nm-anyconnect-dialog.ui.h:1
+msgid "General"
+msgstr "Общи"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:2
+msgid "_Gateway:"
+msgstr "_Шлюз:"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:3
+msgid "VPN host to connect to"
+msgstr ""
+
+#, fuzzy, c-format
+#~ msgid "Authenticate VPN %s"
+#~ msgstr "Идентифициране пред ВЧМ"
+
+#~ msgid "Password:"
+#~ msgstr "Парола:"
+
+#~ msgid "Certificate password:"
+#~ msgstr "Парола за сертификата:"
+
+#~ msgid "Authenticate VPN"
+#~ msgstr "Идентифициране пред ВЧМ"
+
+#~ msgid "Certificate pass_word:"
+#~ msgstr "Парола за _сертификата:"
+
+#, c-format
+#~ msgid "You need to authenticate to access the Virtual Private Network '%s'."
+#~ msgstr "Трябва да се идентифицирате, за да ползвате ВЧМ „%s“."
+
+#~ msgid "Choose your personal certificate..."
+#~ msgstr "Изберете личния си сертификат…"
+
+#~ msgid "Choose your private key..."
+#~ msgstr "Изберете личния си ключ…"
+
+#, fuzzy
+#~ msgid "Not Required"
+#~ msgstr "Не е задължително"
+
+#~ msgid "Choose a Certificate Authority certificate..."
+#~ msgstr "Изберете сертификата на сертифициращата организация…"
+
+#~ msgid "Choose an Anyconnect static key..."
+#~ msgstr "Изберете статичния ключ на Anyconnect…"
+
+#~ msgid "None"
+#~ msgstr "Няма"
+
+#~ msgid "PEM or PKCS#12 certificates (*.pem, *.crt, *.key, *.cer, *.p12)"
+#~ msgstr ""
+#~ "Сертификати във формат PEM или PKCS#12 (*.pem, *.crt, *.key, *.cer, *.p12)"
+
+#~ msgid "PEM certificates (*.pem, *.crt, *.key, *.cer)"
+#~ msgstr "Сертификати във формат PEM (*.pem, *.crt, *.key, *.cer)"
+
+#~ msgid "Anyconnect Static Keys (*.key)"
+#~ msgstr "Статични ключове за Anyconnect (*.key)"
+
+#~ msgid "Default"
+#~ msgstr "Стандартно"
+
+#~ msgid "MD-5"
+#~ msgstr "MD-5"
+
+#~ msgid "SHA-1"
+#~ msgstr "SHA-1"
+
+#~ msgid "SHA-224"
+#~ msgstr "SHA-224"
+
+#~ msgid "SHA-256"
+#~ msgstr "SHA-256"
+
+#~ msgid "SHA-384"
+#~ msgstr "SHA-384"
+
+#~ msgid "SHA-512"
+#~ msgstr "SHA-512"
+
+#~ msgid "RIPEMD-160"
+#~ msgstr "RIPEMD-160"
+
+#~ msgid "Not required"
+#~ msgstr "Не е задължително"
+
+#~ msgid "HTTP"
+#~ msgstr "HTTP"
+
+#~ msgid "SOCKS"
+#~ msgstr "SOCKS"
+
+#~ msgid "Compatible with the Anyconnect server."
+#~ msgstr "Съвместим със сървърите за Anyconnect."
+
+#~ msgid "Certificates (TLS)"
+#~ msgstr "Сертификати (TLS)"
+
+#~ msgid "Password"
+#~ msgstr "Парола"
+
+#~ msgid "Password with Certificates (TLS)"
+#~ msgstr "Парола със сертификати (TLS)"
+
+#~ msgid "Static Key"
+#~ msgstr "Статичен ключ"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "<b>General</b>"
+#~ msgstr "<b>Общи</b>"
+
+#~ msgid "<b>Authentication</b>"
+#~ msgstr "<b>Идентификация</b>"
+
+#~ msgid "_Show passwords"
+#~ msgstr "Показване на паролите"
+
+#, fuzzy
+#~ msgid "Password for private key"
+#~ msgstr "Изберете личния си ключ…"
+
+#~ msgid "Private Key Password:"
+#~ msgstr "Частен ключ:"
+
+#~ msgid "Private Key:"
+#~ msgstr "Частен ключ:"
+
+#~ msgid "CA Certificate:"
+#~ msgstr "Сертификат на сертифициращата организация:"
+
+#~ msgid "User Certificate:"
+#~ msgstr "Потребителски сертификат:"
+
+#~ msgid "User name:"
+#~ msgstr "Потребителско име:"
+
+#~ msgid "Remote IP Address:"
+#~ msgstr "Отдалечен адрес:"
+
+#~ msgid "Local IP Address:"
+#~ msgstr "Локален адрес:"
+
+#, fuzzy
+#~ msgid "Key Direction:"
+#~ msgstr "Посока на ключа:"
+
+#~ msgid "Static Key:"
+#~ msgstr "Статичен ключ:"
+
+#, fuzzy
+#~ msgid ""
+#~ "Direction for Static Key encryption mode (non-TLS).\n"
+#~ "If key direction is used, it must be the opposite of that used on the VPN "
+#~ "peer.  For example, if the peer uses '1', this connection must use '0'.  "
+#~ "If you are unsure what value to use, contact your system administrator.\n"
+#~ "config: static <file> [direction]"
+#~ msgstr ""
+#~ "<i>Ако се използва посока на ключа, тя трябва да е обратната на "
+#~ "използваната от отсрещната страна по ВЧМ. Например — ако тя ползва „1“, "
+#~ "тази връзка трябва да ползва „0“. Ако не сте сигурни, попитайте системния "
+#~ "си администратор.</i>"
+
+#~ msgid "Type:"
+#~ msgstr "Вид:"
+
+#, fuzzy
+#~ msgid "Select an authentication mode."
+#~ msgstr "Идентификация с TSL"
+
+#~ msgid "Ad_vanced..."
+#~ msgstr "_Допълнителни…"
+
+#~ msgid "Anyconnect Advanced Options"
+#~ msgstr "Допълнителни настройки на Anyconnect"
+
+#~ msgid "Use custom gateway p_ort:"
+#~ msgstr "_Потребителски порт на шлюза:"
+
+#~ msgid "Use custom _renegotiation interval:"
+#~ msgstr "_Различен интервал на предоговаряне:"
+
+#~ msgid "Use L_ZO data compression"
+#~ msgstr "Използване на _компресия LZO"
+
+#~ msgid "Use a _TCP connection"
+#~ msgstr "Използване на _връзка по TCP"
+
+#~ msgid "Use custom tunnel Maximum Transmission _Unit (MTU):"
+#~ msgstr "Различен _максимален размер на пакета (MTU) за тунела:"
+
+#~ msgid "Use custom UDP _fragment size:"
+#~ msgstr "Различен размер на _фрагментите на UDP:"
+
+#~ msgid "Restrict tunnel TCP Maximum _Segment Size (MSS)"
+#~ msgstr "Ограничаване на максималния размер на сегментите (MSS) по TCP"
+
+#~ msgid "Ci_pher:"
+#~ msgstr "Шифър:"
+
+#~ msgid "_HMAC Authentication:"
+#~ msgstr "Идентификация с HMAC:"
+
+#~ msgid "Security"
+#~ msgstr "Сигурност"
+
+#~ msgid "_Subject Match:"
+#~ msgstr "Съвпадане на темата:"
+
+#~ msgid ""
+#~ "<i>Connect only to servers whose certificate matches the given subject.\n"
+#~ "Example: /CN=myvpn.company.com</i>"
+#~ msgstr ""
+#~ "<i>Свързване само към сървъри, чийто сертификат съвпада с указаната "
+#~ "тема.\n"
+#~ "Пример: /CN=myvpn.company.com</i>"
+
+#~ msgid "Use additional _TLS authentication"
+#~ msgstr "Използване на допълнителна идентификация с TLS"
+
+#, fuzzy
+#~ msgid "Add an additional layer of HMAC authentication."
+#~ msgstr "Използване на допълнителна идентификация с TLS"
+
+#~ msgid "Key _Direction:"
+#~ msgstr "Посока на ключа:"
+
+#, fuzzy
+#~ msgid ""
+#~ "Direction parameter for static key mode.\n"
+#~ "If key direction is used, it must be the opposite of that used on the VPN "
+#~ "peer.  For example, if the peer uses '1', this connection must use '0'.  "
+#~ "If you are unsure what value to use, contact your system administrator.\n"
+#~ "config: tls-auth <file> [direction]"
+#~ msgstr ""
+#~ "<i>Ако се използва посока на ключа, тя трябва да е обратната на "
+#~ "използваната от отсрещната страна по ВЧМ. Например — ако тя ползва „1“, "
+#~ "тази връзка трябва да ползва „0“. Ако не сте сигурни, попитайте системния "
+#~ "си администратор.</i>"
+
+#~ msgid "Key _File:"
+#~ msgstr "Файл-ключ:"
+
+#~ msgid "TLS Authentication"
+#~ msgstr "Идентификация с TSL"
+
+#~ msgid "Proxy _Type:"
+#~ msgstr "Вид посредник:"
+
+#~ msgid ""
+#~ "<i>Select this option if your organization requires the use of a proxy "
+#~ "server to access the Internet.</i>"
+#~ msgstr ""
+#~ "<i>Изберете тази настройка, ако организацията, в която се намирате, ви "
+#~ "задължава да използвате сървър-посредник за връзката ви към Internet.</i>"
+
+#~ msgid "Server _Address:"
+#~ msgstr "Адрес на сървъра:"
+
+#~ msgid "_Port:"
+#~ msgstr "Порт:"
+
+#, fuzzy
+#~ msgid "_Retry indefinitely when errors occur"
+#~ msgstr "При появата на грешка да се повтаря до безкрай"
+
+#~ msgid "Proxy _Username:"
+#~ msgstr "Потребителско _име за посредника:"
+
+#~ msgid "Proxy Passwor_d:"
+#~ msgstr "Парола за посредника:"
+
+#, fuzzy
+#~ msgid "_Show password"
+#~ msgstr "Показване на паролите"
+
+#~ msgid "Proxies"
+#~ msgstr "Посредници"
+
+#, fuzzy
+#~ msgid "A private key password is required."
+#~ msgstr "Частен ключ:"
+
+#, fuzzy
+#~ msgid "Unhandled pending authentication."
+#~ msgstr "Използване на допълнителна идентификация с TLS"
+
+#~ msgid "_Password:"
+#~ msgstr "_Парола:"
+
+#~ msgid "_Secondary Password:"
+#~ msgstr "_Втора парола:"
+
+#~ msgid "_Username:"
+#~ msgstr "Потребителско _име:"
+
+#~ msgid "_Domain:"
+#~ msgstr "_Домейн:"
+
+#~ msgid "Connect _anonymously"
+#~ msgstr "_Анонимно свързване"
+
+#~ msgid "Connect as _user:"
+#~ msgstr "Свързване _като потребителя:"
+
+#~ msgid "_Remember password for this session"
+#~ msgstr "_Запомняне на паролата за тази сесия"
+
+#~ msgid "_Save password in keyring"
+#~ msgstr "Запазване на паролата в клю_чодържателя"
+
+#~ msgid "Use a TA_P device"
+#~ msgstr "Използване на _устройство TAP"

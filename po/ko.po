@@ -1,0 +1,626 @@
+# GNOME Korea translation of nm-anyconnect.
+# Copyright (C) 2007 THE nm-anyconnect'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the nm-anyconnect package.
+# Young-Ho Cha <ganadist@gmail.com>, 2007.
+# Namhyung Kim <namhyung@gmail.com>, 2007.
+# Changwoo Ryu <cwryu@debian.org>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: nm-anyconnect\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-30 22:41+0100\n"
+"PO-Revision-Date: 2011-02-27 15:45+0900\n"
+"Last-Translator: Changwoo Ryu <cwryu@debian.org>\n"
+"Language-Team: GNOME Korea <gnome-kr@googlegroups.com>\n"
+"Language: ko\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:1
+#, fuzzy
+msgid "Anyconnect client"
+msgstr "Anyconnect"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:2
+msgid "Client for Anyconnect virtual private networks"
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:3
+msgid "Support for configuring Anyconnect virtual private network connections."
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:4
+msgid "Anyconnect is a popular and flexible free-software VPN solution."
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:5
+msgid "The NetworkManager Developers"
+msgstr ""
+
+#: ../properties/nm-anyconnect-editor-plugin.c:35
+#, fuzzy
+msgid "Cisco AnyConnect"
+msgstr "Anyconnect"
+
+#: ../properties/nm-anyconnect-editor-plugin.c:36
+msgid "Runs the proprietary Cisco AnyConnect VPN."
+msgstr ""
+
+#: ../properties/nm-anyconnect-editor.c:299
+msgid "could not load UI widget"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:946
+#, c-format
+msgid "object class '%s' has no property named '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:953
+#, c-format
+msgid "property '%s' of object class '%s' is not writable"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:960
+#, c-format
+msgid ""
+"construct property \"%s\" for object '%s' can't be set after construction"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:968
+#, c-format
+msgid "'%s::%s' is not a valid property name; '%s' is not a GObject subtype"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:977
+#, c-format
+msgid "unable to set property '%s' of type '%s' from value of type '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:988
+#, c-format
+msgid ""
+"value \"%s\" of type '%s' is invalid or out of range for property '%s' of "
+"type '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:69
+#, c-format
+msgid "unable to get editor plugin name: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:103
+#, c-format
+msgid "missing plugin file \"%s\""
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:109
+#, c-format
+msgid "cannot load editor plugin: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:118
+#, c-format
+msgid "cannot load factory %s from plugin: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:144
+msgid "unknown error creating editor instance"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:567 ../src/nm-anyconnect-service.c:682
+msgid "Could not find the anyconnect binary."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:580
+#, fuzzy
+msgid ""
+"Could not process the request because the VPN connection settings were "
+"invalid."
+msgstr "VPN 설정 옵션이 잘못되어서 로그인 실패했습니다."
+
+#: ../src/nm-anyconnect-service.c:602
+msgid ""
+"Could not attempt connection, unable to find the setting for the gateway."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:875
+msgid "Don’t quit when VPN connection terminates"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:876
+msgid "Enable verbose debug logging (may expose passwords)"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:877
+msgid "D-Bus name to use for this instance"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:905
+msgid ""
+"nm-anyconnect-service provides integrated proprietary Cisco AnyConnect "
+"capability to NetworkManager."
+msgstr ""
+
+#: ../properties/nm-anyconnect-dialog.ui.h:1
+msgid "General"
+msgstr ""
+
+#: ../properties/nm-anyconnect-dialog.ui.h:2
+#, fuzzy
+msgid "_Gateway:"
+msgstr "게이트웨이 포트(_G):"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:3
+msgid "VPN host to connect to"
+msgstr ""
+
+#, fuzzy, c-format
+#~ msgid "Authenticate VPN %s"
+#~ msgstr "VPN 인증"
+
+#, fuzzy
+#~ msgid "Password:"
+#~ msgstr "암호(_P):"
+
+#~ msgid "Certificate password:"
+#~ msgstr "인증서 암호:"
+
+#~ msgid "Authenticate VPN"
+#~ msgstr "VPN 인증"
+
+#~ msgid "Certificate pass_word:"
+#~ msgstr "인증서 암호(_W):"
+
+#, c-format
+#~ msgid "You need to authenticate to access the Virtual Private Network '%s'."
+#~ msgstr "가상 사설 네트워크 '%s'에 접근할 때 인증이 필요합니다."
+
+#~ msgid "VPN Connection Manager (Anyconnect)"
+#~ msgstr "VPN 연결 관리자 (Anyconnect)"
+
+#~ msgid "Add, Remove, and Edit VPN Connections"
+#~ msgstr "VPN 연결 더하기, 지우기, 편집"
+
+#~ msgid "Choose your personal certificate..."
+#~ msgstr "개인 인증서를 선택하십시오..."
+
+#~ msgid "Choose your private key..."
+#~ msgstr "개인 키를 선택하십시오..."
+
+#, fuzzy
+#~ msgid "Not Required"
+#~ msgstr "불필요"
+
+#~ msgid "Choose a Certificate Authority certificate..."
+#~ msgstr "인증 기관 인증서를 선택하십시오..."
+
+#~ msgid "Choose an Anyconnect static key..."
+#~ msgstr "Anyconnect 고정 키를 선택하십시오..."
+
+#~ msgid "None"
+#~ msgstr "없음"
+
+#~ msgid "PEM or PKCS#12 certificates (*.pem, *.crt, *.key, *.cer, *.p12)"
+#~ msgstr "PEM 또는 PKCS#12 인증서 (*.pem, *.crt, *.key, *.cer, *.p12)"
+
+#~ msgid "PEM certificates (*.pem, *.crt, *.key, *.cer)"
+#~ msgstr "PEM 인증서 (*.pem, *.crt, *.key, *.cer)"
+
+#~ msgid "Anyconnect Static Keys (*.key)"
+#~ msgstr "Anyconnect 고정 키 (*.key)"
+
+#~ msgid "Default"
+#~ msgstr "기본값"
+
+#~ msgid "MD-5"
+#~ msgstr "MD-5"
+
+#~ msgid "SHA-1"
+#~ msgstr "SHA-1"
+
+#~ msgid "SHA-224"
+#~ msgstr "SHA-224"
+
+#~ msgid "SHA-256"
+#~ msgstr "SHA-256"
+
+#~ msgid "SHA-384"
+#~ msgstr "SHA-384"
+
+#~ msgid "SHA-512"
+#~ msgstr "SHA-512"
+
+#~ msgid "RIPEMD-160"
+#~ msgstr "RIPEMD-160"
+
+#~ msgid "Not required"
+#~ msgstr "불필요"
+
+#~ msgid "HTTP"
+#~ msgstr "HTTP"
+
+#~ msgid "SOCKS"
+#~ msgstr "SOCKS"
+
+#~ msgid "TUN"
+#~ msgstr "TUN"
+
+#~ msgid "TAP"
+#~ msgstr "TAP"
+
+#~ msgid "Compatible with the Anyconnect server."
+#~ msgstr "Anyconnect 서버와 호환됩니다."
+
+#~ msgid "Certificates (TLS)"
+#~ msgstr "인증서 (TLS)"
+
+#~ msgid "Password"
+#~ msgstr "암호"
+
+#~ msgid "Password with Certificates (TLS)"
+#~ msgstr "암호 및 인증서 (TLS)"
+
+#~ msgid "Static Key"
+#~ msgstr "고정 키"
+
+#, fuzzy
+#~ msgid "not a valid Anyconnect configuration file"
+#~ msgstr "Anyconnect 설정"
+
+#, fuzzy
+#~ msgid "<b>Authentication</b>"
+#~ msgstr "<b>필수 정보</b>"
+
+#, fuzzy
+#~ msgid "_Show passwords"
+#~ msgstr "암호(_P):"
+
+#, fuzzy
+#~ msgid "Password for private key"
+#~ msgstr "개인 키를 선택하십시오..."
+
+#, fuzzy
+#~ msgid "Private Key Password:"
+#~ msgstr "인증서 암호:"
+
+#, fuzzy
+#~ msgid "Private Key:"
+#~ msgstr "공유키:"
+
+#, fuzzy
+#~ msgid "CA Certificate:"
+#~ msgstr "인증서 암호:"
+
+#, fuzzy
+#~ msgid "User Certificate:"
+#~ msgstr "인증서 암호:"
+
+#, fuzzy
+#~ msgid "User name:"
+#~ msgstr "사용자 이름(_U):"
+
+#, fuzzy
+#~ msgid "Remote IP Address:"
+#~ msgstr "원격 IP(_R):"
+
+#, fuzzy
+#~ msgid "Local IP Address:"
+#~ msgstr "로컬 IP:  %s"
+
+#, fuzzy
+#~ msgid "Key Direction:"
+#~ msgstr "방향:"
+
+#, fuzzy
+#~ msgid "Static Key:"
+#~ msgstr "고정 키"
+
+#, fuzzy
+#~ msgid "Ad_vanced..."
+#~ msgstr "고급(_V)"
+
+#~ msgid "Anyconnect Advanced Options"
+#~ msgstr "Anyconnect 고급 옵션"
+
+#, fuzzy
+#~ msgid "Use custom gateway p_ort:"
+#~ msgstr "게이트웨이 포트(_G):"
+
+#, fuzzy
+#~ msgid "Use L_ZO data compression"
+#~ msgstr "LZO 압축 사용(_Z)"
+
+#, fuzzy
+#~ msgid ""
+#~ "Use fast LZO compression.\n"
+#~ "config: comp-lzo"
+#~ msgstr "LZO 압축 사용: %s"
+
+#, fuzzy
+#~ msgid "Use a _TCP connection"
+#~ msgstr "TCP 연결 사용(_T)"
+
+#, fuzzy
+#~ msgid "Ci_pher:"
+#~ msgstr "암호화:  %s"
+
+#, fuzzy
+#~ msgid "Key _Direction:"
+#~ msgstr "방향:"
+
+#, fuzzy
+#~ msgid "TLS Authentication"
+#~ msgstr "VPN 인증"
+
+#, fuzzy
+#~ msgid "_Port:"
+#~ msgstr "포트:  %s"
+
+#, fuzzy
+#~ msgid "Proxy _Username:"
+#~ msgstr "사용자 이름(_U):"
+
+#, fuzzy
+#~ msgid "Proxy Passwor_d:"
+#~ msgstr "암호(_P):"
+
+#, fuzzy
+#~ msgid "_Show password"
+#~ msgstr "암호(_P):"
+
+#, fuzzy
+#~ msgid "No VPN configuration options."
+#~ msgstr "Anyconnect 설정"
+
+#, fuzzy
+#~ msgid "Invalid connection type."
+#~ msgstr "연결 형식(_N):"
+
+#, fuzzy, c-format
+#~ msgid "Unknown connection type '%s'."
+#~ msgstr "연결 형식(_N):"
+
+#~ msgid "_Secondary Password:"
+#~ msgstr "보조 암호(_S):"
+
+#~ msgid "_Domain:"
+#~ msgstr "도메인(_D):"
+
+#~ msgid "Connect _anonymously"
+#~ msgstr "익명으로 연결(_A)"
+
+#~ msgid "Connect as _user:"
+#~ msgstr "사용자로 연결(_U):"
+
+#~ msgid "_Remember password for this session"
+#~ msgstr "이 세션에서 암호 저장(_R)"
+
+#~ msgid "_Save password in keyring"
+#~ msgstr "키 모음에 암호 저장(_S)"
+
+#~ msgid "The following Anyconnect connection will be created:"
+#~ msgstr "다음 Anyconnect 연결이 만들어집니다:"
+
+#~ msgid "Name:  %s"
+#~ msgstr "이름:  %s"
+
+#~ msgid "Connection Type: X.509 Certificates"
+#~ msgstr "연결 형식: X.509 인증서"
+
+#~ msgid "CA:  %s"
+#~ msgstr "CA:  %s"
+
+#~ msgid "Cert:  %s"
+#~ msgstr "인증서:  %s"
+
+#~ msgid "Key:  %s"
+#~ msgstr "키:  %s"
+
+#~ msgid "Connection Type: Shared Key"
+#~ msgstr "연결 형식: 공유키"
+
+#~ msgid "Shared Key:  %s"
+#~ msgstr "공유키:  %s"
+
+#~ msgid "Remote IP:  %s"
+#~ msgstr "원격 IP:  %s"
+
+#~ msgid "Connection Type: Password"
+#~ msgstr "연결 형식: 암호"
+
+#~ msgid "Username:  %s"
+#~ msgstr "사용자이름:  %s"
+
+#~ msgid "Connection Type: X.509 with Password Authentication"
+#~ msgstr "연결 형식: X.509 및 암호 인증"
+
+#~ msgid "Remote:  %s"
+#~ msgstr "원격:  %s"
+
+#~ msgid "Device: %s"
+#~ msgstr "장치: %s"
+
+#~ msgid "Protocol: %s"
+#~ msgstr "프로토콜: %s"
+
+#~ msgid "TCP"
+#~ msgstr "TCP"
+
+#~ msgid "UDP"
+#~ msgstr "UDP"
+
+#~ msgid "Routes:  %s"
+#~ msgstr "경로:  %s"
+
+#~ msgid "Yes"
+#~ msgstr "예"
+
+#~ msgid "TLS auth:  %s %s"
+#~ msgstr "TLS 인증:  %s %s"
+
+#~ msgid "The connection details can be changed using the \"Edit\" button."
+#~ msgstr "\"편집\" 단추를 눌러서 연결 설정을 바꿀 수 있습니다."
+
+#~ msgid "Cannot import settings"
+#~ msgstr "설정을 가져올 수 없음"
+
+#~ msgid "The VPN settings file '%s' does not contain valid data."
+#~ msgstr "VPN 설정 파일 '%s'에 올바른 데이터가 들어있지 않습니다."
+
+#~ msgid "Select file to import"
+#~ msgstr "가져올 파일 선택"
+
+#~ msgid "Select CA to use"
+#~ msgstr "사용할 CA 선택"
+
+#~ msgid "Select certificate to use"
+#~ msgstr "사용할 인증서 선택"
+
+#~ msgid "Select key to use"
+#~ msgstr "사용할 키 선택"
+
+#~ msgid "Select shared key to use"
+#~ msgstr "사용할 공유키 선택"
+
+#~ msgid "Select TA to use"
+#~ msgstr "사용할 TA 선택"
+
+#~ msgid "Save as..."
+#~ msgstr "다른 이름으로 저장..."
+
+#~ msgid "A file named \"%s\" already exists."
+#~ msgstr "\"%s\" 파일이 이미 있습니다."
+
+#~ msgid "Do you want to replace it with the one you are saving?"
+#~ msgstr "이를 저장할 파일로 바꾸겠습니까?"
+
+#~ msgid "Failed to export configuration"
+#~ msgstr "설정 내보내기 실패"
+
+#~ msgid "Failed to save file %s"
+#~ msgstr "파일 %s(으)로 저장 실패"
+
+#~ msgid "65536"
+#~ msgstr "65536"
+
+#~ msgid "<i>example: 172.16.0.0/16 10.11.12.0/24</i>"
+#~ msgstr "<i>예: 172.16.0.0/16 10.11.12.0/24</i>"
+
+#~ msgid "C_A file:"
+#~ msgstr "CA 파일(_A):"
+
+#~ msgid "Connection na_me:"
+#~ msgstr "연결 이름(_M):"
+
+#~ msgid "Import _Saved Configuration..."
+#~ msgstr "저장된 설정 가져오기(_S)..."
+
+#~ msgid ""
+#~ "Name used to identify the connection to the private network, e.g. "
+#~ "\"Campus VPN\" or \"Corporate Network\""
+#~ msgstr ""
+#~ "사설 네트워크 연결에 붙일 이름. (예: \"학교 VPN\", \"회사 네트워크\")"
+
+#~ msgid "Network"
+#~ msgstr "네트워크"
+
+#~ msgid "Only use _VPN connection for these addresses:"
+#~ msgstr "이 주소에는 VPN 연결 만 사용(_V):"
+
+#~ msgid ""
+#~ "Please enter the information provided by your system administrator below. "
+#~ "Do not enter your password here as you will be prompted when connecting."
+#~ msgstr ""
+#~ "시스템 관리자에게 받은 정보를 입력하십시오. 연결될 때 나타나는 화면에 암호"
+#~ "를 입력하지 마십시오."
+
+#~ msgid ""
+#~ "Please note that the file you import is not an Anyconnect configuration "
+#~ "file. Ask your administrator for the file."
+#~ msgstr ""
+#~ "가져올 파일은 Anyconnect 설정파일이 아닙니다.  관리자에게 파일에 대해 문의"
+#~ "하시기 바랍니다."
+
+#~ msgid "Shared _key:"
+#~ msgstr "공유키(_K):"
+
+#~ msgid "TLS-Auth"
+#~ msgstr "TLS 인증"
+
+#~ msgid "Use TA_P device"
+#~ msgstr "TAP 장치 사용(_P)"
+
+#~ msgid "Use _TLS auth:"
+#~ msgstr "TLS 인증 사용(_T):"
+
+#~ msgid "Use cip_her:"
+#~ msgstr "암호화 사용(_H):"
+
+#~ msgid ""
+#~ "X.509 Certificates\n"
+#~ "Pre-shared key\n"
+#~ "Password Authentication\n"
+#~ "X.509 with Password Authentication"
+#~ msgstr ""
+#~ "X.509 인증서\n"
+#~ "미리 공유된 키\n"
+#~ "암호 인증\n"
+#~ "X.509 및 암호 인증"
+
+#~ msgid "_0"
+#~ msgstr "0(_0)"
+
+#~ msgid "_1"
+#~ msgstr "1(_1)"
+
+#~ msgid "_Gateway address:"
+#~ msgstr "게이트웨이 주소(_G):"
+
+#~ msgid "_Key:"
+#~ msgstr "키(_K):"
+
+#~ msgid "_Local IP:"
+#~ msgstr "로컬 IP(_L):"
+
+#~ msgid "_none"
+#~ msgstr "없음(_N)"
+
+#~ msgid "<b>Connection Name</b>"
+#~ msgstr "<b>연결 이름</b>"
+
+#~ msgid "<b>Optional Information</b>"
+#~ msgstr "<b>기타 정보</b>"
+
+#~ msgid "CA  file:"
+#~ msgstr "CA 파일:"
+
+#~ msgid "Username:"
+#~ msgstr "사용자이름:"
+
+#~ msgid "X.509"
+#~ msgstr "X.509"
+
+#~ msgid ""
+#~ "The VPN login failed because the user name and password were not accepted "
+#~ "or the certificate password was wrong."
+#~ msgstr ""
+#~ "사용자 이름과 열쇠글 또는 인증서 열쇠글이 틀려서 로그인 실패했습니다."
+
+#~ msgid "The VPN login failed because the VPN program could not be started."
+#~ msgstr "VPN 프로그램을 시작할 수 없어서 로그인 실패했습니다."
+
+#~ msgid ""
+#~ "The VPN login failed because the VPN program could not connect to the VPN "
+#~ "server."
+#~ msgstr "VPN 프로그램이 VPN 서버에 연결하지 못해서 로그인 실패했습니다."
+
+#~ msgid ""
+#~ "The VPN login failed because the VPN program received an invalid "
+#~ "configuration from the VPN server."
+#~ msgstr ""
+#~ "VPN 프로그램이 VPN 서버에서 잘못된 설정값을 받아서 로그인 실패했습니다."
+
+#~ msgid "VPN connection failed"
+#~ msgstr "VPN 연결 실패"

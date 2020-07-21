@@ -1,0 +1,407 @@
+# translation of as.po to Assamese
+# Assamese translation of network-manager-anyconnect.
+# Copyright (C) 2009 network-manager-anyconnect's COPYRIGHT HOLDER
+# This file is distributed under the same license as the network-manager-anyconnect package.
+#
+# Amitakhya Phukan <aphukan@fedoraproject.org>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: as\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-30 22:41+0100\n"
+"PO-Revision-Date: 2009-07-16 15:11+0530\n"
+"Last-Translator: Amitakhya Phukan <aphukan@fedoraproject.org>\n"
+"Language-Team: Assamese <fedora-trans-as@redhat.com>\n"
+"Language: as\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 0.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:1
+#, fuzzy
+msgid "Anyconnect client"
+msgstr "Anyconnect"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:2
+msgid "Client for Anyconnect virtual private networks"
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:3
+msgid "Support for configuring Anyconnect virtual private network connections."
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:4
+msgid "Anyconnect is a popular and flexible free-software VPN solution."
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:5
+msgid "The NetworkManager Developers"
+msgstr ""
+
+#: ../properties/nm-anyconnect-editor-plugin.c:35
+#, fuzzy
+msgid "Cisco AnyConnect"
+msgstr "Anyconnect"
+
+#: ../properties/nm-anyconnect-editor-plugin.c:36
+msgid "Runs the proprietary Cisco AnyConnect VPN."
+msgstr ""
+
+#: ../properties/nm-anyconnect-editor.c:299
+msgid "could not load UI widget"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:946
+#, c-format
+msgid "object class '%s' has no property named '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:953
+#, c-format
+msgid "property '%s' of object class '%s' is not writable"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:960
+#, c-format
+msgid ""
+"construct property \"%s\" for object '%s' can't be set after construction"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:968
+#, c-format
+msgid "'%s::%s' is not a valid property name; '%s' is not a GObject subtype"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:977
+#, c-format
+msgid "unable to set property '%s' of type '%s' from value of type '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:988
+#, c-format
+msgid ""
+"value \"%s\" of type '%s' is invalid or out of range for property '%s' of "
+"type '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:69
+#, c-format
+msgid "unable to get editor plugin name: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:103
+#, c-format
+msgid "missing plugin file \"%s\""
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:109
+#, c-format
+msgid "cannot load editor plugin: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:118
+#, c-format
+msgid "cannot load factory %s from plugin: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:144
+msgid "unknown error creating editor instance"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:567 ../src/nm-anyconnect-service.c:682
+msgid "Could not find the anyconnect binary."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:580
+msgid ""
+"Could not process the request because the VPN connection settings were "
+"invalid."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:602
+msgid ""
+"Could not attempt connection, unable to find the setting for the gateway."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:875
+msgid "Don’t quit when VPN connection terminates"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:876
+msgid "Enable verbose debug logging (may expose passwords)"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:877
+msgid "D-Bus name to use for this instance"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:905
+msgid ""
+"nm-anyconnect-service provides integrated proprietary Cisco AnyConnect "
+"capability to NetworkManager."
+msgstr ""
+
+#: ../properties/nm-anyconnect-dialog.ui.h:1
+msgid "General"
+msgstr "সাধাৰণ"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:2
+msgid "_Gateway:"
+msgstr "গেটৱে (_G):"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:3
+msgid "VPN host to connect to"
+msgstr ""
+
+#, fuzzy, c-format
+#~ msgid "Authenticate VPN %s"
+#~ msgstr "VPN প্ৰমাণীকৰণ কৰক"
+
+#~ msgid "Password:"
+#~ msgstr "গুপ্তশব্দ:"
+
+#~ msgid "Certificate password:"
+#~ msgstr "প্ৰমাণপত্ৰৰ গুপ্তশব্দ:"
+
+#~ msgid "Authenticate VPN"
+#~ msgstr "VPN প্ৰমাণীকৰণ কৰক"
+
+#~ msgid "Certificate pass_word:"
+#~ msgstr "প্ৰমাণপত্ৰৰ গুপ্তশব্দ (_w):"
+
+#, c-format
+#~ msgid "You need to authenticate to access the Virtual Private Network '%s'."
+#~ msgstr ""
+#~ "Virtual Private Network '%s' অভিগম কৰিবলৈ আপুনি  প্ৰমাণীকৰণ কৰিব লাগিব ।"
+
+#~ msgid "Choose your personal certificate..."
+#~ msgstr "আপোনাৰ ব্যক্তিগত প্ৰমাণপত্ৰ বাচি লওক..."
+
+#~ msgid "Choose your private key..."
+#~ msgstr "আপোনাৰ ব্যক্তিগত চাবি বাচি লওক..."
+
+#~ msgid "Choose a Certificate Authority certificate..."
+#~ msgstr "এটা প্ৰমাণপত্ৰৰ অধিকাৰীৰ প্ৰমাণপত্ৰ বাচি লওক..."
+
+#~ msgid "Choose an Anyconnect static key..."
+#~ msgstr "এটা Anyconnect স্টেটিক চাবি বাচি লওক..."
+
+#~ msgid "None"
+#~ msgstr "একো নাই"
+
+#, fuzzy
+#~ msgid "PEM or PKCS#12 certificates (*.pem, *.crt, *.key, *.cer, *.p12)"
+#~ msgstr "PEM প্ৰমাণপত্ৰ (*.pem, *.crt, *.key, *.cer)"
+
+#~ msgid "PEM certificates (*.pem, *.crt, *.key, *.cer)"
+#~ msgstr "PEM প্ৰমাণপত্ৰ (*.pem, *.crt, *.key, *.cer)"
+
+#~ msgid "Anyconnect Static Keys (*.key)"
+#~ msgstr "Anyconnect স্টেটিক চাবি সমূহ (*.key)"
+
+#~ msgid "Default"
+#~ msgstr "অবিকল্পিত"
+
+#~ msgid "MD-5"
+#~ msgstr "MD-5"
+
+#~ msgid "SHA-1"
+#~ msgstr "SHA-1"
+
+#, fuzzy
+#~ msgid "SHA-224"
+#~ msgstr "SHA-1"
+
+#, fuzzy
+#~ msgid "SHA-256"
+#~ msgstr "SHA-1"
+
+#, fuzzy
+#~ msgid "SHA-384"
+#~ msgstr "SHA-1"
+
+#, fuzzy
+#~ msgid "SHA-512"
+#~ msgstr "SHA-1"
+
+#~ msgid "Compatible with the Anyconnect server."
+#~ msgstr "Anyconnect সেৱকৰ সৈতে সুসঙ্গত ।"
+
+#~ msgid "Certificates (TLS)"
+#~ msgstr "প্ৰমাণপত্ৰসমূহ (TLS)"
+
+#~ msgid "Password"
+#~ msgstr "গুপ্তশব্দ"
+
+#~ msgid "Password with Certificates (TLS)"
+#~ msgstr "প্ৰমাণপত্ৰসমূহৰ সৈতে গুপ্তশব্দ (TLS)"
+
+#~ msgid "Static Key"
+#~ msgstr "স্টেটিক চাবি"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "<b>General</b>"
+#~ msgstr "<b>সাধাৰণ</b>"
+
+#~ msgid "<b>Authentication</b>"
+#~ msgstr "<b>প্ৰমাণীকৰণ</b>"
+
+#~ msgid "_Show passwords"
+#~ msgstr "গুপ্তশব্দ দেখুৱাওক"
+
+#, fuzzy
+#~ msgid "Password for private key"
+#~ msgstr "আপোনাৰ ব্যক্তিগত চাবি বাচি লওক..."
+
+#~ msgid "Private Key Password:"
+#~ msgstr "ব্যক্তিগত চাবিৰ গুপ্তশব্দ:"
+
+#~ msgid "Private Key:"
+#~ msgstr "ব্যক্তিগত চাবি:"
+
+#~ msgid "CA Certificate:"
+#~ msgstr "CA প্ৰমাণপত্ৰ:"
+
+#~ msgid "User Certificate:"
+#~ msgstr "ব্যৱহাৰকৰ্তাৰ প্ৰমাণপত্ৰ:"
+
+#~ msgid "User name:"
+#~ msgstr "ব্যৱহাৰকৰ্তাৰ নাম:"
+
+#~ msgid "Remote IP Address:"
+#~ msgstr "দূৰৰ IP ঠিকনা:"
+
+#~ msgid "Local IP Address:"
+#~ msgstr "স্থানীয় IP ঠিকনা:"
+
+#, fuzzy
+#~ msgid "Key Direction:"
+#~ msgstr "চাবিৰ দিশ:"
+
+#~ msgid "Static Key:"
+#~ msgstr "স্টেটিক চাবি:"
+
+#, fuzzy
+#~ msgid ""
+#~ "Direction for Static Key encryption mode (non-TLS).\n"
+#~ "If key direction is used, it must be the opposite of that used on the VPN "
+#~ "peer.  For example, if the peer uses '1', this connection must use '0'.  "
+#~ "If you are unsure what value to use, contact your system administrator.\n"
+#~ "config: static <file> [direction]"
+#~ msgstr ""
+#~ "<i>চাবিৰ দিশ ব্যৱহাৰ কৰিলে, সেইটো VPN পিয়েৰত থকাটোতকৈ বিপৰিত দিশৰ হ'ব "
+#~ "লাগিব । যেনে, যদি পিয়েৰে '1' ব্যৱহাৰ কৰে, এই সংযোগে '0' ব্যৱহাৰ কৰিব লাগিব "
+#~ "। ব্যৱহাৰ কৰিব লগা মানৰ বিষয়ে নিশ্চিত ন'হ'লে, আপোনাৰ ব্যৱস্থাপ্ৰণালীৰ প্ৰশাসকক "
+#~ "লগ ধৰক ।</i>"
+
+#~ msgid "Type:"
+#~ msgstr "ধৰণ:"
+
+#, fuzzy
+#~ msgid "Select an authentication mode."
+#~ msgstr "TLS প্ৰমাণীকৰণ"
+
+#~ msgid "Ad_vanced..."
+#~ msgstr "উন্নত (_v)..."
+
+#~ msgid "Anyconnect Advanced Options"
+#~ msgstr "Anyconnect উন্নত বিকল্প"
+
+#~ msgid "Use custom gateway p_ort:"
+#~ msgstr "নিজৰ পছন্দৰ গেটৱে প'ৰ্ট ব্যৱহাৰ কৰক (_o):"
+
+#~ msgid "Use L_ZO data compression"
+#~ msgstr "LZO তথ্য সঙ্কোচন ব্যৱহাৰ কৰক (_Z)"
+
+#~ msgid "Use a _TCP connection"
+#~ msgstr "এটা TCP সংযোগ ব্যৱহৰ কৰক (_T)"
+
+#~ msgid "Ci_pher:"
+#~ msgstr "Cipher:"
+
+#~ msgid "_HMAC Authentication:"
+#~ msgstr "HMAC প্ৰমাণীকৰণ:"
+
+#~ msgid "Security"
+#~ msgstr "সুৰক্ষা"
+
+#~ msgid "Use additional _TLS authentication"
+#~ msgstr "অতিৰিক্ত TLS প্ৰমাণীকৰণ ব্যৱহাৰ কৰক"
+
+#, fuzzy
+#~ msgid "Add an additional layer of HMAC authentication."
+#~ msgstr "অতিৰিক্ত TLS প্ৰমাণীকৰণ ব্যৱহাৰ কৰক"
+
+#~ msgid "Key _Direction:"
+#~ msgstr "চাবিৰ দিশ:"
+
+#, fuzzy
+#~ msgid ""
+#~ "Direction parameter for static key mode.\n"
+#~ "If key direction is used, it must be the opposite of that used on the VPN "
+#~ "peer.  For example, if the peer uses '1', this connection must use '0'.  "
+#~ "If you are unsure what value to use, contact your system administrator.\n"
+#~ "config: tls-auth <file> [direction]"
+#~ msgstr ""
+#~ "<i>চাবিৰ দিশ ব্যৱহাৰ কৰিলে, সেইটো VPN পিয়েৰত থকাটোতকৈ বিপৰিত দিশৰ হ'ব "
+#~ "লাগিব । যেনে, যদি পিয়েৰে '1' ব্যৱহাৰ কৰে, এই সংযোগে '0' ব্যৱহাৰ কৰিব লাগিব "
+#~ "। ব্যৱহাৰ কৰিব লগা মানৰ বিষয়ে নিশ্চিত ন'হ'লে, আপোনাৰ ব্যৱস্থাপ্ৰণালীৰ প্ৰশাসকক "
+#~ "লগ ধৰক ।</i>"
+
+#~ msgid "Key _File:"
+#~ msgstr "চাবিৰ নথিপত্ৰ:"
+
+#~ msgid "TLS Authentication"
+#~ msgstr "TLS প্ৰমাণীকৰণ"
+
+#, fuzzy
+#~ msgid "Server _Address:"
+#~ msgstr "দূৰৰ IP ঠিকনা:"
+
+#, fuzzy
+#~ msgid "Proxy _Username:"
+#~ msgstr "ব্যৱহাৰকৰ্তাৰ নাম (_U):"
+
+#, fuzzy
+#~ msgid "Proxy Passwor_d:"
+#~ msgstr "গুপ্তশব্দ:"
+
+#, fuzzy
+#~ msgid "_Show password"
+#~ msgstr "গুপ্তশব্দ দেখুৱাওক"
+
+#, fuzzy
+#~ msgid "A private key password is required."
+#~ msgstr "ব্যক্তিগত চাবিৰ গুপ্তশব্দ:"
+
+#, fuzzy
+#~ msgid "Unhandled pending authentication."
+#~ msgstr "অতিৰিক্ত TLS প্ৰমাণীকৰণ ব্যৱহাৰ কৰক"
+
+#~ msgid "_Password:"
+#~ msgstr "গুপ্তশব্দ (_P):"
+
+#~ msgid "_Secondary Password:"
+#~ msgstr "দ্বিতীয় গুপ্তশব্দ (_S):"
+
+#~ msgid "_Domain:"
+#~ msgstr "ডোমেইন (_D):"
+
+#~ msgid "Connect _anonymously"
+#~ msgstr "বেনামী হিচাপে সংযোগ কৰক (_a)"
+
+#~ msgid "Connect as _user:"
+#~ msgstr "ব্যৱহাৰকৰ্তা হিচাপে সংযোগ কৰক (_u):"
+
+#~ msgid "_Remember password for this session"
+#~ msgstr "এই অধিবেশনৰ কাৰণে গুপ্তশব্দ মনত ৰাখক (_R)"
+
+#~ msgid "_Save password in keyring"
+#~ msgstr "কিৰিঙত গুপ্তশব্দ ৰাখক (_S)"
+
+#~ msgid "Use a TA_P device"
+#~ msgstr "TAP যন্ত্ৰ ব্যৱহাৰ কৰক (_P)"

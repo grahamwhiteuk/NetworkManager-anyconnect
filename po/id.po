@@ -1,0 +1,1272 @@
+# Indonesian translation of network-manager-anyconnect
+# # Copyright (C) 2009 THE network-manager-anyconnect'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the network-manager-anyconnect package.
+# Andika Triwidada <andika@gmail.com>, 2009-2013, 2017.
+# Kukuh Syafaat <kukuhsyafaat@gnome.org>, 2017, 2018, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: network-manager-anyconnect master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-30 22:41+0100\n"
+"PO-Revision-Date: 2020-04-09 07:40+0700\n"
+"Last-Translator: Andika Triwidada <andika@gmail.com>\n"
+"Language-Team: GNOME Indonesian Translation Team <gnome@i15n.org>\n"
+"Language: id\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n!=1;\n"
+"X-Generator: Poedit 2.3\n"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:1
+msgid "Anyconnect client"
+msgstr "Klien Anyconnect"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:2
+msgid "Client for Anyconnect virtual private networks"
+msgstr "Klien untuk virtual private network Anyconnect"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:3
+msgid "Support for configuring Anyconnect virtual private network connections."
+msgstr "Dukungan untuk menata koneksi virtual private network Anyconnect."
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:4
+msgid "Anyconnect is a popular and flexible free-software VPN solution."
+msgstr ""
+"Anyconnect adalah sebuah solusi VPN perangkat lunak bebas yang populer dan "
+"luwes."
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:5
+msgid "The NetworkManager Developers"
+msgstr "Para Pengembang NetworkManager"
+
+#: ../properties/nm-anyconnect-editor-plugin.c:35
+#, fuzzy
+msgid "Cisco AnyConnect"
+msgstr "Anyconnect"
+
+#: ../properties/nm-anyconnect-editor-plugin.c:36
+msgid "Runs the proprietary Cisco AnyConnect VPN."
+msgstr ""
+
+#: ../properties/nm-anyconnect-editor.c:299
+msgid "could not load UI widget"
+msgstr "tidak bisa memuat widget UI"
+
+#: ../shared/nm-utils/nm-shared-utils.c:946
+#, c-format
+msgid "object class '%s' has no property named '%s'"
+msgstr "kelas objek '%s' tidak punya properti bernama '%s'"
+
+#: ../shared/nm-utils/nm-shared-utils.c:953
+#, c-format
+msgid "property '%s' of object class '%s' is not writable"
+msgstr "properti '%s' dari kelas objek '%s' tak dapat ditulisi"
+
+#: ../shared/nm-utils/nm-shared-utils.c:960
+#, c-format
+msgid ""
+"construct property \"%s\" for object '%s' can't be set after construction"
+msgstr ""
+"properti construct \"%s\" bagi objek '%s' tidak bisa ditata setelah "
+"konstruksi"
+
+#: ../shared/nm-utils/nm-shared-utils.c:968
+#, c-format
+msgid "'%s::%s' is not a valid property name; '%s' is not a GObject subtype"
+msgstr ""
+"'%s::%s' bukan nama properti yang valid; '%s' bukan suatu sub tipe GObject"
+
+#: ../shared/nm-utils/nm-shared-utils.c:977
+#, c-format
+msgid "unable to set property '%s' of type '%s' from value of type '%s'"
+msgstr "tidak bisa menata properti '%s' bertipe '%s' dari nilai bertipe '%s'"
+
+#: ../shared/nm-utils/nm-shared-utils.c:988
+#, c-format
+msgid ""
+"value \"%s\" of type '%s' is invalid or out of range for property '%s' of "
+"type '%s'"
+msgstr ""
+"nilai \"%s\" bertipe '%s' tak valid atau di luar jangkauan bagi properti "
+"'%s' bertipe '%s'"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:69
+#, c-format
+msgid "unable to get editor plugin name: %s"
+msgstr "tidak bisa memperoleh nama pengaya penyunting: %s"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:103
+#, c-format
+msgid "missing plugin file \"%s\""
+msgstr "berkas plugin \"%s\" kurang"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:109
+#, c-format
+msgid "cannot load editor plugin: %s"
+msgstr "tak bisa memuat plugin penyunting: %s"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:118
+#, c-format
+msgid "cannot load factory %s from plugin: %s"
+msgstr "tak bisa memuat pabrik %s dari plugin: %s"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:144
+msgid "unknown error creating editor instance"
+msgstr "galat tak dikenal saat membuat instansi penyunting"
+
+#: ../src/nm-anyconnect-service.c:567 ../src/nm-anyconnect-service.c:682
+msgid "Could not find the anyconnect binary."
+msgstr "Tak bisa temukan biner anyconnect."
+
+#: ../src/nm-anyconnect-service.c:580
+msgid ""
+"Could not process the request because the VPN connection settings were "
+"invalid."
+msgstr "Tak bisa memroses permintaan karena pengaturan koneksi VPN tak valid."
+
+#: ../src/nm-anyconnect-service.c:602
+msgid ""
+"Could not attempt connection, unable to find the setting for the gateway."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:875
+msgid "Don’t quit when VPN connection terminates"
+msgstr "Jangan keluar ketika koneksi VPN berakhir"
+
+#: ../src/nm-anyconnect-service.c:876
+msgid "Enable verbose debug logging (may expose passwords)"
+msgstr "Aktifkan log pengawakutuan verbose (mungkin mengungkap sandi)"
+
+#: ../src/nm-anyconnect-service.c:877
+msgid "D-Bus name to use for this instance"
+msgstr "Nama D-Bus untuk dipakai bagi instansi ini"
+
+#: ../src/nm-anyconnect-service.c:905
+#, fuzzy
+msgid ""
+"nm-anyconnect-service provides integrated proprietary Cisco AnyConnect "
+"capability to NetworkManager."
+msgstr ""
+"nm-anyconnect-service menyediakan kapabilitas Anyconnect terintegrasi ke "
+"NetworkManager."
+
+#: ../properties/nm-anyconnect-dialog.ui.h:1
+msgid "General"
+msgstr "Umum"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:2
+msgid "_Gateway:"
+msgstr "_Gateway:"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:3
+msgid "VPN host to connect to"
+msgstr ""
+
+#, c-format
+#~ msgid "Authentication required"
+#~ msgstr "Autentikasi diperlukan"
+
+#~ msgid "Password"
+#~ msgstr "Kata Sandi"
+
+#~ msgid "Certificate password"
+#~ msgstr "Kata sandi sertifikat"
+
+#~ msgid "HTTP proxy password"
+#~ msgstr "Kata sandi proksi HTTP"
+
+#~ msgid "Authenticate VPN"
+#~ msgstr "Autentikasikan VPN"
+
+#~ msgid "Certificate pass_word:"
+#~ msgstr "_Kata sandi sertifikat:"
+
+#~ msgid "_HTTP proxy password:"
+#~ msgstr "Sandi proksi _HTTP:"
+
+#, c-format
+#~ msgid "You need to authenticate to access the Virtual Private Network “%s”."
+#~ msgstr ""
+#~ "Anda perlu mengautentikasi untuk mengakses Virtual Private Network \"%s\"."
+
+#, c-format
+#~ msgid "option %s expects between %u and %u argument"
+#~ msgid_plural "option %s expects between %u and %u arguments"
+#~ msgstr[0] "opsi %s mengharapkan antara %u dan %u argumen"
+#~ msgstr[1] "opsi %s mengharapkan antara %u dan %u argumen"
+
+#, c-format
+#~ msgid "option %s expects no arguments"
+#~ msgstr "opsi %s tidak memerlukan argumen"
+
+#, c-format
+#~ msgid "option %s expects exactly one argument"
+#~ msgid_plural "option %s expects exactly %u arguments"
+#~ msgstr[0] "opsi %s mengharapkan tepat %u argumen"
+#~ msgstr[1] "opsi %s mengharapkan tepat %u argumen"
+
+#, c-format
+#~ msgid "argument %s of “%s” can not be empty"
+#~ msgstr "argumen %s dari \"%s\" tidak boleh kosong"
+
+#, c-format
+#~ msgid "argument of “%s” can not be empty"
+#~ msgstr "argumen dari \"%s\" tidak boleh kosong"
+
+#, c-format
+#~ msgid "argument %s of “%s” must be UTF-8 encoded"
+#~ msgstr "argumen %s dari \"%s\" harus dikodekan dalam UTF-8"
+
+#, c-format
+#~ msgid "argument of “%s” must be UTF-8 encoded"
+#~ msgstr "argumen dari \"%s\" harus dikodekan dalam UTF-8"
+
+#, c-format
+#~ msgid "invalid %uth argument to “%s” where number expected"
+#~ msgstr "argumen ke-%u tidak valid untuk \"%s\" dimana diharapkan bilangan"
+
+#, c-format
+#~ msgid "unsupported %uth argument %s to “%s”"
+#~ msgstr "argumen ke-%u tidak didukung %s untuk \"%s\""
+
+#, c-format
+#~ msgid ""
+#~ "unsupported %uth argument to “%s” which looks like a FQDN but only IPv4 "
+#~ "address supported"
+#~ msgstr ""
+#~ "argumen ke-%u tidak didukung untuk \"%s\" yang nampak seperti sebuah FQDN "
+#~ "tapi hanya alamat IPv4 yang didukung"
+
+#, c-format
+#~ msgid "invalid %uth argument to “%s” where IPv4 address expected"
+#~ msgstr ""
+#~ "argumen ke-%u tidak valid untuk \"%s\" dimana diharapkan alamat IPv4"
+
+#, c-format
+#~ msgid "invalid %uth key-direction argument to “%s”"
+#~ msgstr "argumen key-direction ke-%u untuk \"%s\" tidak valid"
+
+#, c-format
+#~ msgid "invalid %uth argument to “%s”"
+#~ msgstr "argumen ke-%u tidak valid untuk \"%s\""
+
+#, c-format
+#~ msgid "unterminated %s at position %lld"
+#~ msgstr "%s tak diterminasi pada posisi %lld"
+
+#~ msgid "double quote"
+#~ msgstr "petik ganda"
+
+#~ msgid "single quote"
+#~ msgstr "petik tunggal"
+
+#, c-format
+#~ msgid "trailing escaping backslash at position %lld"
+#~ msgstr "backslash peng-escape di akhir pada posisi %lld"
+
+#, c-format
+#~ msgid "unable to read HTTP proxy auth file"
+#~ msgstr "tak bisa membaca berkas auth proksi HTTP"
+
+#, c-format
+#~ msgid "cannot read user/password from HTTP proxy auth file"
+#~ msgstr "tak bisa membaca pengguna/sandi dari berkas auth proksi HTTP"
+
+#, c-format
+#~ msgid "user/password from HTTP proxy auth file must be UTF-8 encoded"
+#~ msgstr "pengguna/sandi dari berkas auth proksi HTTP mesti terkode UTF-8"
+
+#, c-format
+#~ msgid "“%s” is not a directory"
+#~ msgstr "\"%s\" bukan direktori"
+
+#, c-format
+#~ msgid "cannot create “%s” directory"
+#~ msgstr "tak bisa membuat direktori \"%s\""
+
+#, c-format
+#~ msgid "cannot write <%s> blob from line %ld to file (%s)"
+#~ msgstr "tak bisa menulis blob <%s> dari baris %ld ke berkas (%s)"
+
+#, c-format
+#~ msgid "cannot write <%s> blob from line %ld to file “%s”"
+#~ msgstr "tidak bisa menulis blob <%s> dari baris %ld ke berkas \"%s\""
+
+#, c-format
+#~ msgid "unsupported mtu-disc argument"
+#~ msgstr "argumen mtu-disc tak didukung"
+
+#, c-format
+#~ msgid "unsupported crl-verify argument"
+#~ msgstr "argumen crl-verify tidak didukung"
+
+#, c-format
+#~ msgid "invalid option"
+#~ msgstr "opsi tak valid"
+
+#, c-format
+#~ msgid "unsupported comp-lzo argument"
+#~ msgstr "argumen comp-lzo tak didukung"
+
+#, c-format
+#~ msgid "unsupported compress argument"
+#~ msgstr "argumen kompresi tidak didukung"
+
+#, c-format
+#~ msgid "remote cannot contain space"
+#~ msgstr "remote tak boleh memuat spasi"
+
+#, c-format
+#~ msgid "remote cannot contain comma"
+#~ msgstr "remote tak boleh memuat koma"
+
+#, c-format
+#~ msgid "remote expects protocol type like “udp” or “tcp”"
+#~ msgstr "remote mengharapkan tipe protokol seperti \"udp\" atau \"tcp\""
+
+#, c-format
+#~ msgid "invalid verify-x509-name type"
+#~ msgstr "tipe verify-x509-name tidak valid"
+
+#, c-format
+#~ msgid "unsupported blob/xml element"
+#~ msgstr "elemen blob/xml yang tak didukung"
+
+#, c-format
+#~ msgid "unterminated blob element <%s>"
+#~ msgstr "elemen blob tak diterminasi <%s>"
+
+#, c-format
+#~ msgid "configuration error: %s (line %ld)"
+#~ msgstr "galat konfigurasi: %s (baris %ld)"
+
+#~ msgid "unknown or unsupported option"
+#~ msgstr "opsi tak dikenal atau tak didukung"
+
+#~ msgid "The file to import wasn’t a valid Anyconnect client configuration"
+#~ msgstr ""
+#~ "Berkas yang akan diimpor bukan konfigurasi klien Anyconnect yang valid"
+
+#~ msgid "The file to import wasn’t a valid Anyconnect configure (no remote)"
+#~ msgstr ""
+#~ "Berkas yang akan diimpor bukan suatu konfigurasi Anyconnect yang valid "
+#~ "(tidak ada remote)"
+
+#~ msgid "missing path argument"
+#~ msgstr "argumen path kurang"
+
+#~ msgid "connection is not a valid Anyconnect connection"
+#~ msgstr "koneksi bukan koneksi Anyconnect yang valid"
+
+#~ msgid "connection was incomplete (missing gateway)"
+#~ msgstr "koneksi tak lengkap (kurang gateway)"
+
+#, c-format
+#~ msgid "failed to write file: %s"
+#~ msgstr "gagal menulis berkas: %s"
+
+#~ msgid "Compatible with the Anyconnect server."
+#~ msgstr "Kompatibel dengan server Anyconnect."
+
+#~ msgid "Choose an Anyconnect static key…"
+#~ msgstr "Pilih kunci statik Anyconnect…"
+
+#~ msgid "None"
+#~ msgstr "Tak ada"
+
+#~ msgid "Anyconnect Static Keys (*.key)"
+#~ msgstr "Kunci Statik Anyconnect (*.key)"
+
+#~ msgid "Default"
+#~ msgstr "Baku"
+
+#~ msgid "RSA MD-4"
+#~ msgstr "RSA MD-4"
+
+#~ msgid "MD-5"
+#~ msgstr "MD-5"
+
+#~ msgid "SHA-1"
+#~ msgstr "SHA-1"
+
+#~ msgid "SHA-224"
+#~ msgstr "SHA-224"
+
+#~ msgid "SHA-256"
+#~ msgstr "SHA-256"
+
+#~ msgid "SHA-384"
+#~ msgstr "SHA-384"
+
+#~ msgid "SHA-512"
+#~ msgstr "SHA-512"
+
+#~ msgid "RIPEMD-160"
+#~ msgstr "RIPEMD-160"
+
+#~ msgid "Don’t verify certificate identification"
+#~ msgstr "Jangan verifikasi identifikasi sertifikat"
+
+#~ msgid "Verify whole subject exactly"
+#~ msgstr "Verifikasikan seluruh subjek secara eksak"
+
+#~ msgid "Verify name exactly"
+#~ msgstr "Verifikasikan nama secara eksak"
+
+#~ msgid "Verify name by prefix"
+#~ msgstr "Verifikasikan nama menurut prefiks"
+
+#~ msgid "Verify subject partially (legacy mode, strongly discouraged)"
+#~ msgstr ""
+#~ "Verifikasikan subjek secara parsial (mode warisan, sangat tidak "
+#~ "dianjurkan)"
+
+#~ msgid "Server"
+#~ msgstr "Server"
+
+#~ msgid "Client"
+#~ msgstr "Klien"
+
+#~ msgid "Not required"
+#~ msgstr "Tak diperlukan"
+
+#~ msgid "HTTP"
+#~ msgstr "HTTP"
+
+#~ msgid "SOCKS"
+#~ msgstr "SOCKS"
+
+#~ msgid "TUN"
+#~ msgstr "TUN"
+
+#~ msgid "TAP"
+#~ msgstr "TAP"
+
+#~ msgid "(automatic)"
+#~ msgstr "(otomatis)"
+
+#~ msgid "ping-exit"
+#~ msgstr "ping-exit"
+
+#~ msgid "ping-restart"
+#~ msgstr "ping-restart"
+
+#~ msgid "Certificates (TLS)"
+#~ msgstr "Sertifikat (TLS)"
+
+#~ msgid "Password with Certificates (TLS)"
+#~ msgstr "Kata Sandi dengan Sertifikat (TLS)"
+
+#~ msgid "Static Key"
+#~ msgstr "Kunci Statik"
+
+#, c-format
+#~ msgid "invalid delimiter character '%c'"
+#~ msgstr "karakter pembatas '%c' tidak valid"
+
+#, c-format
+#~ msgid "invalid non-utf-8 character"
+#~ msgstr "karakter bukan utf-8 yang tidak valid"
+
+#, c-format
+#~ msgid "empty host"
+#~ msgstr "host kosong"
+
+#, c-format
+#~ msgid "invalid port"
+#~ msgstr "port tak valid"
+
+#, c-format
+#~ msgid "invalid protocol"
+#~ msgstr "protokol tak valid"
+
+#, c-format
+#~ msgid "invalid address “%s”"
+#~ msgstr "alamat \"%s\" tidak valid"
+
+#, c-format
+#~ msgid "invalid integer property “%s” or out of range [%d -> %d]"
+#~ msgstr ""
+#~ "properti integer \"%s\" tidak valid atau diluar jangkauan [%d -> %d]"
+
+#, c-format
+#~ msgid "invalid boolean property “%s” (not yes or no)"
+#~ msgstr "properti bool \"%s\" tidak valid (bukan yes atau no)"
+
+#, c-format
+#~ msgid "unhandled property “%s” type %s"
+#~ msgstr "properti \"%s\" tipe %s tidak ditangani"
+
+#, c-format
+#~ msgid "property “%s” invalid or not supported"
+#~ msgstr "properti \"%s\" tidak valid atau tak didukung"
+
+#~ msgid "No VPN configuration options."
+#~ msgstr "Tak ada opsi konfigurasi VPN."
+
+#~ msgid "A username is required."
+#~ msgstr "Perlu nama pengguna."
+
+#~ msgid "A password is required."
+#~ msgstr "Perlu sandi."
+
+#~ msgid "A username and password are required."
+#~ msgstr "Perlu nama pengguna dan sandi."
+
+#~ msgid "A private key password is required."
+#~ msgstr "Perlu sandi kunci privat."
+
+#~ msgid "An HTTP Proxy username is required."
+#~ msgstr "Perlu nama pengguna Proksi HTTP."
+
+#~ msgid "An HTTP Proxy password is required."
+#~ msgstr "Perlu sandi Proksi HTTP."
+
+#~ msgid "An HTTP Proxy username and password are required."
+#~ msgstr "Perlu nama pengguna dan sandi Proksi HTTP."
+
+#~ msgid "Invalid connection type."
+#~ msgstr "Tipe sambungan tak valid."
+
+#, c-format
+#~ msgid "Invalid port number “%s”."
+#~ msgstr "Nomor port \"%s\" tidak valid."
+
+#, c-format
+#~ msgid "Invalid proto “%s”."
+#~ msgstr "Proto \"%s\" tidak valid."
+
+#, c-format
+#~ msgid "Invalid proxy type “%s”."
+#~ msgstr "Tipe proksi \"%s\" tidak valid."
+
+#, c-format
+#~ msgid "Invalid ping duration “%s”."
+#~ msgstr "Durasi ping \"%s\" tidak valid."
+
+#, c-format
+#~ msgid "Invalid ping-exit duration “%s”."
+#~ msgstr "Durasi ping-exit \"%s\" tidak valid."
+
+#, c-format
+#~ msgid "Invalid ping-restart duration “%s”."
+#~ msgstr "Durasi ping-restart \"%s\" tidak valid."
+
+#, c-format
+#~ msgid "Invalid connect timeout “%s”."
+#~ msgstr "Waktu tunggu koneksi tidak valid \"%s\"."
+
+#, c-format
+#~ msgid "Invalid max-routes argument “%s”."
+#~ msgstr "Argumen max-routes \"%s\" tidak valid."
+
+#, c-format
+#~ msgid "Invalid keysize “%s”."
+#~ msgstr "Ukuran kunci \"%s\" tidak valid."
+
+#, c-format
+#~ msgid "Invalid configuration with tls-remote and verify-x509-name."
+#~ msgstr "Konfigurasi tidak valid dengan tls-remote dan verify-x509-name."
+
+#, c-format
+#~ msgid "Invalid verify-x509-name."
+#~ msgstr "verify-x509-name tidak valid."
+
+#, c-format
+#~ msgid "Invalid reneg seconds “%s”."
+#~ msgstr "Reneg detik \"%s\" tidak valid."
+
+#, c-format
+#~ msgid "Invalid TUN MTU size “%s”."
+#~ msgstr "Ukuran MTU TUN \"%s\" tidak valid."
+
+#, c-format
+#~ msgid "Invalid fragment size “%s”."
+#~ msgstr "Ukuran fragmen \"%s\" tidak valid."
+
+#, c-format
+#~ msgid "Unknown connection type “%s”."
+#~ msgstr "Tipe sambungan \"%s\" tidak dikenal."
+
+#, c-format
+#~ msgid "User “%s” not found, check NM_ANYCONNECT_USER."
+#~ msgstr "Pengguna \"%s\" tidak ditemukan, periksa NM_ANYCONNECT_USER."
+
+#, c-format
+#~ msgid "Group “%s” not found, check NM_ANYCONNECT_GROUP."
+#~ msgstr "Grup \"%s\" tidak ditemukan, periksa NM_ANYCONNECT_GROUP."
+
+#~ msgid "Unhandled pending authentication."
+#~ msgstr "Autentikasi tertunda yang tak tertangani."
+
+#~ msgid "LZO"
+#~ msgstr "LZO"
+
+#~ msgid "LZ4"
+#~ msgstr "LZ4"
+
+#~ msgid "LZ4 v2"
+#~ msgstr "LZ4 v2"
+
+#~ msgid "Automatic"
+#~ msgstr "Otomatis"
+
+#~ msgid "LZO disabled (legacy)"
+#~ msgstr "LZO dinonaktifkan (warisan)"
+
+#~ msgid "LZO adaptive (legacy)"
+#~ msgstr "LZO adaptif (warisan)"
+
+#~ msgid "TLS-Auth"
+#~ msgstr "TLS-Auth"
+
+#~ msgid "TLS-Crypt"
+#~ msgstr "TLS-Crypt"
+
+#~ msgid "Maybe"
+#~ msgstr "Mungkin"
+
+#~ msgid "Yes"
+#~ msgstr "Ya"
+
+#~ msgid "Authentication"
+#~ msgstr "Autentikasi"
+
+#~ msgid "CA"
+#~ msgstr "CA"
+
+#~ msgid "User"
+#~ msgstr "Pengguna"
+
+#~ msgid "Password:"
+#~ msgstr "Kata Sandi:"
+
+#~ msgid "User name:"
+#~ msgstr "Nama pengguna:"
+
+#~ msgid ""
+#~ "Password passed to Anyconnect when prompted for it.\n"
+#~ "config: auth-user-pass"
+#~ msgstr ""
+#~ "Sandi dilewatkan ke Anyconnect ketika diminta.\n"
+#~ "config: auth-user-pass"
+
+#~ msgid ""
+#~ "Username passed to Anyconnect when prompted for it. If omitted, use the "
+#~ "name of the system user that activates the connection.\n"
+#~ "config: auth-user-pass"
+#~ msgstr ""
+#~ "Nama pengguna yang dilewatkan ke Anyconnect ketika diminta. Jika "
+#~ "dihilangkan, menggunakan nama pengguna sistem yang mengaktifkan koneksi.\n"
+#~ "config: auth-user-pass"
+
+#~ msgid "Remote IP Address:"
+#~ msgstr "Alamat IP Jauh:"
+
+#~ msgid "Local IP Address:"
+#~ msgstr "Alamat IP Lokal:"
+
+#~ msgid "Key Direction:"
+#~ msgstr "Arah Kunci:"
+
+#~ msgid "Static Key:"
+#~ msgstr "Kunci Statik:"
+
+#~ msgid ""
+#~ "Pre-shared file for Static Key encryption mode (non-TLS).\n"
+#~ "config: static <file>"
+#~ msgstr ""
+#~ "Berkas prakongsi bagi mode enkripsi Kunci Statik (non-TLS).\n"
+#~ "config: static <file>"
+
+#~ msgid ""
+#~ "IP address of the remote VPN endpoint.\n"
+#~ "config: ifconfig <l> <rn>"
+#~ msgstr ""
+#~ "Alamat IP dari titik ujung VPN jauh.\n"
+#~ "config: ifconfig <l> <rn>"
+
+#~ msgid ""
+#~ "IP address of the local VPN endpoint.\n"
+#~ "config: ifconfig <l> <rn>"
+#~ msgstr ""
+#~ "Alamat IP dari titik ujung VPN lokal.\n"
+#~ "config: ifconfig <l> <rn>"
+
+#~ msgid ""
+#~ "Direction for Static Key encryption mode (non-TLS).\n"
+#~ "If key direction is used, it must be the opposite of that used on the VPN "
+#~ "peer. For example, if the peer uses “1”, this connection must use “0”. If "
+#~ "you are unsure what value to use, contact your system administrator.\n"
+#~ "config: static <file> [direction]"
+#~ msgstr ""
+#~ "Arah bagi mode enkripsi Kunci Statik (non-TLS).\n"
+#~ "Bila arah kunci dipakai, ini mesti lawan dari yang dipakai pada pasangan "
+#~ "VPN. Sebagai contoh, bila pasangan memakai \"1\", sambungan ini mesti "
+#~ "memakai \"0\". Bila Anda tak yakin nilai apa yang dipakai, hubungi "
+#~ "administrator sistem Anda.\n"
+#~ "config: static <berkas> [arah]"
+
+#~ msgid "Type:"
+#~ msgstr "Jenis:"
+
+#~ msgid "Select an authentication mode."
+#~ msgstr "Pilih mode autentikasi."
+
+#~ msgid "Ad_vanced…"
+#~ msgstr "Tingkat _Lanjut…"
+
+#~ msgid "Anyconnect Advanced Options"
+#~ msgstr "Opsi Tingkat Lanjut Anyconnect"
+
+#~ msgid "Use custom gateway p_ort:"
+#~ msgstr "Gunakan p_ort gateway gubahan:"
+
+#~ msgid ""
+#~ "TCP/UDP port number for peer. (Default value when there is no port for "
+#~ "gateway).\n"
+#~ "config: port"
+#~ msgstr ""
+#~ "Nomor port TCP/UDP bagi peer. (Nilai baku ketika tak ada port bagi "
+#~ "gateway).\n"
+#~ "config: port"
+
+#~ msgid "Use custom _renegotiation interval:"
+#~ msgstr "Gunakan interval _renegosiasi gubahan:"
+
+#~ msgid ""
+#~ "Renegotiate data channel key after the specified number of seconds.\n"
+#~ "config: reneg-sec"
+#~ msgstr ""
+#~ "Renegosiasi kunci kanal data setelah selang waktu detik yang dinyatakan.\n"
+#~ "config: reneg-sec"
+
+#~ msgid "Data _compression:"
+#~ msgstr "_Kompresi data:"
+
+#~ msgid ""
+#~ "Use fast LZO compression.\n"
+#~ "config: comp-lzo"
+#~ msgstr ""
+#~ "Pakai kompresi LZO cepat.\n"
+#~ "config: comp-lzo"
+
+#~ msgid "Use a _TCP connection"
+#~ msgstr "Gunakan koneksi _TCP"
+
+#~ msgid ""
+#~ "Use TCP for communicating with remote host.\n"
+#~ "(This is a default setting only used when no protocol is specified for "
+#~ "the gateway.)\n"
+#~ "config: proto tcp-client | udp"
+#~ msgstr ""
+#~ "Pakai TCP untuk berkomunikasi dengan host remote.\n"
+#~ "(Ini adalah pengaturan baku yang hanya dipakai ketika tak ada protokol "
+#~ "yang dinyatakan bagi gateway.)\n"
+#~ "config: proto tcp-client | udp"
+
+#~ msgid "Set virtual _device type:"
+#~ msgstr "Atur tipe _perangkat virtual:"
+
+#~ msgid "Explicitly set virtual device type and name (TUN/TAP)."
+#~ msgstr "Secara eksplisit menata tipe dan nama (TUN/TAP) perangkat."
+
+#~ msgid ""
+#~ "Explicitly set virtual device type (TUN/TAP).\n"
+#~ "config: dev-type tun | tap"
+#~ msgstr ""
+#~ "Secara eksplisit menata tipe perangkat virtual (TUN/TAP).\n"
+#~ "config: dev-type tap | tun"
+
+#~ msgid " and _name:"
+#~ msgstr " dan _nama:"
+
+#~ msgid ""
+#~ "Use custom name for TUN/TAP virtual device (instead of default “tun” or "
+#~ "“tap”).\n"
+#~ "config: dev <name>"
+#~ msgstr ""
+#~ "Gunakan nama ubahan bagi perangkat virtual TUN/TAP (sebagai pengganti "
+#~ "baku \"tun\" atau \"tap\").\n"
+#~ "config: dev <nama>"
+
+#~ msgid "Use custom tunnel Maximum Transmission _Unit (MTU):"
+#~ msgstr "Gunakan MTU _tembusan gubahan:"
+
+#~ msgid ""
+#~ "Take the TUN device MTU to be the specified value and derive the link MTU "
+#~ "from it.\n"
+#~ "config: tun-mtu"
+#~ msgstr ""
+#~ "Atur MTU perangkat TUN ke nilai yang dinyatakan dan turunkan MTU link "
+#~ "darinya.\n"
+#~ "config: tun-mtu"
+
+#~ msgid "Use custom UDP _fragment size:"
+#~ msgstr "Gunakan ukuran _fragmen UDP gubahan:"
+
+#~ msgid ""
+#~ "Enable internal datagram fragmentation with this maximum size.\n"
+#~ "config: fragment"
+#~ msgstr ""
+#~ "Aktifkan fragmentasi datagram internel dengan ukuran maksimum ini.\n"
+#~ "config: fragment"
+
+#~ msgid "Restrict tunnel TCP Maximum _Segment Size (MSS)"
+#~ msgstr "Batasi MSS TCP tembusan"
+
+#~ msgid ""
+#~ "Restrict tunnel TCP MSS.\n"
+#~ "config: mssfix"
+#~ msgstr ""
+#~ "Batasi MSS TCP tunnel.\n"
+#~ "config: mssfix"
+
+#~ msgid "Rando_mize remote hosts"
+#~ msgstr "_Acak host jauh"
+
+#~ msgid ""
+#~ "Randomize the order of gateways list (remote) as a kind of basic load-"
+#~ "balancing measure.\n"
+#~ "config: remote-random"
+#~ msgstr ""
+#~ "Acak urutan daftar gateway (remote) sebagai suatu cara penyeimbangan "
+#~ "beban dasar.\n"
+#~ "config: remote-random"
+
+#~ msgid "IPv6 tun link"
+#~ msgstr "Link tun IPv6"
+
+#~ msgid ""
+#~ "Build a tun link capable of forwarding IPv6 traffic\n"
+#~ "config: tun-ipv6"
+#~ msgstr ""
+#~ "Bangun suatu saluran tun yang mampu meneruskan trafik IPv6\n"
+#~ "config: tun-ipv6"
+
+#~ msgid "Specify pin_g interval:"
+#~ msgstr "Nyatakan interval pin_g:"
+
+#~ msgid ""
+#~ "Ping remote over the TCP/UDP control channel if no packets have been sent "
+#~ "for at least n seconds.\n"
+#~ "config: ping <n>"
+#~ msgstr ""
+#~ "Ping remote melalui kanal kendali TCP/UDP bila tak ada paket yang dikirim "
+#~ "paling tidak selama n detik.\n"
+#~ "config: ping <n>"
+
+#~ msgid "Specify _exit or restart ping:"
+#~ msgstr "Nyatakan ping _exit atau restart:"
+
+#~ msgid ""
+#~ "Exit or restart after n seconds pass without reception of a ping or other "
+#~ "packet from remote.\n"
+#~ "config: ping-exit | ping-restart <n>"
+#~ msgstr ""
+#~ "Keluar atau mulai lagi setelah melewati n detik tanpa menerima ping atau "
+#~ "paket lain dari remote.\n"
+#~ "config: ping-exit | ping-restart <n>"
+
+#~ msgid "Accept authenticated packets from any address (F_loat)"
+#~ msgstr "Terima paket autentikasi dari sebarang alamat (F_loat)"
+
+#~ msgid ""
+#~ "Allow remote peer to change its IP address and/or port number, such as "
+#~ "due to DHCP (this is the default if --remote is not used). --float when "
+#~ "specified with --remote allows an Anyconnect session to initially connect "
+#~ "to a peer at a known address, however if packets arrive from a new "
+#~ "address and pass all authentication tests, the new address will take "
+#~ "control of the session. This is useful when you are connecting to a peer "
+#~ "which holds a dynamic address such as a dial-in user or DHCP client.\n"
+#~ "\n"
+#~ "Essentially, --float tells Anyconnect to accept authenticated packets "
+#~ "from any address, not only the address which was specified in the --"
+#~ "remote option.\n"
+#~ "\n"
+#~ "config: float"
+#~ msgstr ""
+#~ "Mengizinkan peer remote mengubah alamat IPnya dan/atau nomor port, "
+#~ "seperti misalnya karena DHCP (ini baku bila --remote tidak dipakai). --"
+#~ "float ketika dinyatakan dengan --remote mengizinkan suatu sesi Anyconnect "
+#~ "untuk pada awalnya menyambung ke suatu peer pada sebuah alamat yang "
+#~ "diketahui, namun bila paket datang dari alamat baru dan lolos semua uji "
+#~ "autentikasi, alamat baru akan mengambil alih kendali sesi. Ini berguna "
+#~ "ketika Anda menyambung ke suatu peer yang memiliki alamat dinamik seperti "
+#~ "pengguna dial-in atau klien DHCP.\n"
+#~ "\n"
+#~ "Pada intinya, --float memberitahu Anyconnect untuk menerima paket "
+#~ "autentikasi dari sebarang alamat, tidak hanya alamat yang telah "
+#~ "dinyatakan dalam opsi --remote.\n"
+#~ "\n"
+#~ "config: float"
+
+#~ msgid "Specify max routes:"
+#~ msgstr "Nyatakan rute maksimum:"
+
+#~ msgid ""
+#~ "Specify the maximum number of routes the server is allowed to specify.\n"
+#~ "config: max-routes <n>"
+#~ msgstr ""
+#~ "Nyatakan banyaknya route yang diizinkan untuk diperoleh dari server.\n"
+#~ "config: max-routes <n>"
+
+#~ msgid ""
+#~ "Encrypt packets with cipher algorithm. The default is BF-CBC (Blowfish in "
+#~ "Cipher Block Chaining mode).\n"
+#~ "config: cipher"
+#~ msgstr ""
+#~ "Enkripsi paket dengan algoritma cipher. Bakunya adalah BF-CBC (Blowfish "
+#~ "in Cipher Block Chaining mode).\n"
+#~ "config: cipher"
+
+#~ msgid "Use custom _size of cipher key:"
+#~ msgstr "Gunakan uku_ran gubahan kunci cipher:"
+
+#~ msgid ""
+#~ "Set cipher key size to a custom value. If unspecified, it defaults to "
+#~ "cipher-specific size.\n"
+#~ "config: keysize <n>"
+#~ msgstr ""
+#~ "Tata ukuran kunci cipher ke suatu nilai ubahan. Bila tak dinyatakan, baku "
+#~ "ke ukuran spesifik cipher.\n"
+#~ "config: keysize <n>"
+
+#~ msgid ""
+#~ "Authenticate packets with HMAC using message digest algorithm. The "
+#~ "default is SHA1.\n"
+#~ "config: auth"
+#~ msgstr ""
+#~ "Autentikasikan paket dengan HMAC memakai algortima message digest. "
+#~ "Bakunya adalah SHA1.\n"
+#~ "config: auth"
+
+#~ msgid "Ci_pher:"
+#~ msgstr "Cipher:"
+
+#~ msgid "_HMAC Authentication:"
+#~ msgstr "Autentikasi HMAC:"
+
+#~ msgid "Disable cipher _negotiation"
+#~ msgstr "Nonaktifkan _negosiasi cipher"
+
+#~ msgid ""
+#~ "Disable cipher negotiation between client and server.\n"
+#~ "config: ncp-disable"
+#~ msgstr ""
+#~ "Nonaktifkan negosiasi cipher antara klien dan server.\n"
+#~ "config: ncp-disable"
+
+#~ msgid "Verify CRL from file"
+#~ msgstr "Verifikasi CRL dari berkas"
+
+#~ msgid ""
+#~ "Check peer certificate against the specified file in PEM format. A CRL "
+#~ "(certificate revocation list) is used when a particular key is "
+#~ "compromised but when the overall PKI is still intact."
+#~ msgstr ""
+#~ "Periksa sertifikat peer terhadap berkas yang ditentukan dalam format PEM. "
+#~ "Sebuah CRL (certificate revocation list, daftar pencabutan sertifikat) "
+#~ "digunakan ketika kunci tertentu dikompromikan (compromised) tetapi ketika "
+#~ "keseluruhan IKP (Infrastruktur Kunci Publik) masih utuh."
+
+#~ msgid "Verify CRL from directory"
+#~ msgstr "Verifikasi CRL dari direktori"
+
+#~ msgid ""
+#~ "Check peer certificate by looking at files in the specified directory. "
+#~ "The directory must contain files named as revoked serial numbers (the "
+#~ "files may be empty, the contents are never read)."
+#~ msgstr ""
+#~ "Periksa sertifikat peer dengan melihat berkas pada direktori yang "
+#~ "ditentukan. Direktori harus berisi berkas yang dinamakan sebagai nomor "
+#~ "seri yang dicabut (berkas mungkin kosong, isinya tidak pernah dibaca)."
+
+#~ msgid "Choose CRL file"
+#~ msgstr "Pilih berkas CRL"
+
+#~ msgid "Choose CRL directory"
+#~ msgstr "Pilih direktori CRL"
+
+#~ msgid "Security"
+#~ msgstr "Keamanan"
+
+#~ msgid "_Subject Match:"
+#~ msgstr "Cocok Subjek:"
+
+#~ msgid ""
+#~ "Subject or Common Name to verify server certificate information against.\n"
+#~ "\n"
+#~ "config: verify-x509-name subject-or-name [mode]\n"
+#~ "config (legacy mode): tls-remote subject-or-name"
+#~ msgstr ""
+#~ "Subject atau Common Name yang dipakai untuk melakukan verifikasi "
+#~ "sertifikat server.\n"
+#~ "\n"
+#~ "config: verify-x509-name subject-or-name [mode]\n"
+#~ "config (mode warisan): tls-remote subject-or-name"
+
+#~ msgid "Server _Certificate Check:"
+#~ msgstr "Pemeriksaan _Sertifikat Server:"
+
+#~ msgid ""
+#~ "Verify server certificate identification.\n"
+#~ "\n"
+#~ "When enabled, connection will only succeed if the server certificate "
+#~ "matches some expected properties.\n"
+#~ "Matching can either apply to the whole certificate subject (all the "
+#~ "fields),\n"
+#~ "or just the Common Name (CN field).\n"
+#~ "\n"
+#~ "The legacy option tls-remote is deprecated and removed from Anyconnect "
+#~ "2.4 and newer. Do not use it anymore.\n"
+#~ "\n"
+#~ "config: verify-x509-name subject-or-name [mode]\n"
+#~ "config (legacy mode): tls-remote subject-or-name"
+#~ msgstr ""
+#~ "Verifikasikan identifikasi sertifikat server.\n"
+#~ "\n"
+#~ "Ketika difungsikan, koneksi hanya akan berhasil bila sertifikat server "
+#~ "cocok dengan properti yang diharapkan.\n"
+#~ "Kecocokan bisa berlaku atas seluruh subjek sertifikat (semua ruas),\n"
+#~ "atau hanya Common Name (ruas CN).\n"
+#~ "\n"
+#~ "Opsi warisan tls-remote usang dan dihapus dari Anyconnect 2.4 dan yang "
+#~ "lebih baru. Jangan pakai itu lagi.\n"
+#~ "\n"
+#~ "config: verify-x509-name subject-or-name [mode]\n"
+#~ "config (mode warisan): tls-remote subject-or-name"
+
+#~ msgid "_Verify peer (server) certificate usage signature"
+#~ msgstr "_Verifikasi tanda tangan penggunaan sertifikat peer (server)"
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit key usage and "
+#~ "extended key usage based on RFC3280 TLS rules."
+#~ msgstr ""
+#~ "Mempersyaratkan sertifikat peer ditandatangani dengan penggunaan kunci "
+#~ "yang eksplisit dan penggunaan kunci yang diperluas berbasis aturan TLS "
+#~ "RFC3280."
+
+#~ msgid "_Remote peer certificate TLS type:"
+#~ msgstr "Tipe TLS sertifikat peer _remote:"
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit key usage and "
+#~ "extended key usage based on RFC3280 TLS rules.\n"
+#~ "config: remote-cert-tls client|server"
+#~ msgstr ""
+#~ "Mempersyaratkan sertifikat peer ditandatangani dengan penggunaan kunci "
+#~ "yang eksplisit dan penggunaan kunci yang diperluas berbasis aturan TLS "
+#~ "RFC3280.\n"
+#~ "config: remote-cert-tls client|server"
+
+#~ msgid "_Verify peer (server) certificate nsCertType designation"
+#~ msgstr "_Verifikasi penugasan nsCertType sertifikat peer (server)"
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit nsCertType "
+#~ "designation."
+#~ msgstr ""
+#~ "Mempersyaratkan sertifikat peer ditandatangani dengan penugasan "
+#~ "nsCertType yang eksplisit."
+
+#~ msgid "_Remote peer certificate nsCert designation:"
+#~ msgstr "Penugasan nsCert sertifikat peer _remote:"
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit nsCertType "
+#~ "designation.\n"
+#~ "config: ns-cert-type client|server"
+#~ msgstr ""
+#~ "Mempersyaratkan sertifikat peer ditandatangani dengan penugasan "
+#~ "nsCertType yang eksplisit.\n"
+#~ "config: ns-cert-type client|server"
+
+#~ msgid "Key _Direction:"
+#~ msgstr "Arah Kunci:"
+
+#~ msgid ""
+#~ "Add an additional layer of HMAC authentication on top of the TLS control "
+#~ "channel to protect against DoS attacks. In case of TLS-Crypt mode, the "
+#~ "control channel is also encrypted.\n"
+#~ "config: tls-auth <file> [direction] | tls-crypt <file>"
+#~ msgstr ""
+#~ "Menambahkan lapisan autentikasi HMAC di atas kanal kendali TLS untuk "
+#~ "melindungi dari serangan DoS. Dalam kasus mode TLS-Crypt, kanal kendali "
+#~ "juga dienkripsi.\n"
+#~ "config: tls-auth <berkas> [arah] | tls-crypt <file>"
+
+#~ msgid ""
+#~ "Direction parameter for static key mode.\n"
+#~ "If key direction is used, it must be the opposite of that used on the VPN "
+#~ "peer. For example, if the peer uses “1”, this connection must use “0”. If "
+#~ "you are unsure what value to use, contact your system administrator.\n"
+#~ "config: tls-auth <file> [direction]"
+#~ msgstr ""
+#~ "Parameter arah bagi mode kunci statik.\n"
+#~ "Bila arah kunci dipakai, ini mesti lawan dari yang dipakai pada pasangan "
+#~ "VPN. Sebagai contoh, bila pasangan memakai \"1\", sambungan ini mesti "
+#~ "memakai \"0\". Bila Anda tidak yakin nilai apa yang dipakai, hubungi "
+#~ "administrator sistem Anda.\n"
+#~ "config: tls-auth <berkas> [arah]"
+
+#~ msgid "Key _File:"
+#~ msgstr "Berkas Kunci:"
+
+#~ msgid "Mode:"
+#~ msgstr "Mode:"
+
+#~ msgid "Add an additional layer of encryption or HMAC authentication."
+#~ msgstr "Tambahkan lapisan tambahan enkripsi atau autentikasi HMAC."
+
+#~ msgid "Extra Certificates:"
+#~ msgstr "Sertifikat Ekstra:"
+
+#~ msgid ""
+#~ "Specify a file containing one or more PEM certs (concatenated together) "
+#~ "that complete the local certificate chain.\n"
+#~ "config: extra-certs <file>"
+#~ msgstr ""
+#~ "Tentukan berkas yang berisi satu atau lebih sertifikat PEM (disambung "
+#~ "satu sama lain) yang melengkapi rantai sertifikat lokal.\n"
+#~ "config: extra-certs <file>"
+
+#~ msgid "Additional TLS authentication or encryption"
+#~ msgstr "Tambahan autentikasi atau enkripsi TLS"
+
+#~ msgid "Controls min and max version allowed for TLS."
+#~ msgstr "Mengontrol versi min dan maks yang diizinkan untuk TLS."
+
+#~ msgid "TLS version control"
+#~ msgstr "Kontrol versi TLS"
+
+#~ msgid "TLS _min version: "
+#~ msgstr "Versi _min TLS: "
+
+#~ msgid ""
+#~ " Sets the minimum TLS version we will accept from the peer (default is "
+#~ "\"1.0\").  Examples for version include \"1.0\", \"1.1\", or \"1.2\".  If "
+#~ "'or-highest' is specified and version is not recognized, we will only "
+#~ "accept the highest TLS version supported by the local SSL implementation."
+#~ msgstr ""
+#~ " Menetapkan versi TLS minimum yang akan kita terima dari peer (nilai baku "
+#~ "adalah \"1,0\").  Contoh untuk versi termasuk \"1,0\", \"1,1\", atau "
+#~ "\"1,2\".  Jika 'or-highest' dinyatakan dan versi tidak dikenali, kita "
+#~ "hanya akan menerima versi TLS tertinggi yang didukung oleh implementasi "
+#~ "SSL lokal."
+
+#~ msgid "TLS ma_x version: "
+#~ msgstr "Versi ma_ks TLS: "
+
+#~ msgid ""
+#~ "Set the maximum TLS version we will use (default is the highest version "
+#~ "supported).  Examples for version include \"1.0\", \"1.1\", or \"1.2\"."
+#~ msgstr ""
+#~ "Atur versi TLS maksimum yang akan kita gunakan (nilai baku adalah versi "
+#~ "tertinggi yang didukung).  Contoh untuk versi termasuk \"1,0\", \"1,1\", "
+#~ "atau \"1,2\"."
+
+#~ msgid "TLS Authentication"
+#~ msgstr "Autentikasi TLS"
+
+#~ msgid ""
+#~ "Proxy type: HTTP or Socks.\n"
+#~ "config: http-proxy or socks-proxy"
+#~ msgstr ""
+#~ "Jenis proksi: HTTP atau Socks.\n"
+#~ "config: http-proxy atau socks-proxy"
+
+#~ msgid "Proxy _Type:"
+#~ msgstr "Jenis Proksi:"
+
+#~ msgid ""
+#~ "<i>Select this option if your organization requires the use of a proxy "
+#~ "server to access the Internet.</i>"
+#~ msgstr ""
+#~ "<i>Pilih opsi ini bila organisasi Anda memerlukan penggunaan server "
+#~ "proksi untuk mengakses Internet.</i>"
+
+#~ msgid "Server _Address:"
+#~ msgstr "Alamat Server:"
+
+#~ msgid ""
+#~ "Connect to remote host through a proxy with this address.\n"
+#~ "config: http-proxy or socks-proxy"
+#~ msgstr ""
+#~ "Menyambung ke host jauh melalui suatu proksi dengan alamat ini.\n"
+#~ "config: http-proxy atau socks-proxy"
+
+#~ msgid "_Port:"
+#~ msgstr "Port:"
+
+#~ msgid ""
+#~ "Connect to remote host through a proxy with this port.\n"
+#~ "config: http-proxy or socks-proxy"
+#~ msgstr ""
+#~ "Menyambung ke host jauh melalui suatu proksi dengan port ini.\n"
+#~ "config: http-proxy atau socks-proxy"
+
+#~ msgid "_Retry indefinitely when errors occur"
+#~ msgstr "Coba lagi sete_rusnya ketika terjadi galat"
+
+#~ msgid ""
+#~ "Retry indefinitely on proxy errors. It simulates a SIGUSR1 reset.\n"
+#~ "config: http-proxy-retry or socks-proxy-retry"
+#~ msgstr ""
+#~ "Coba ulang selamanya ketika proksi galat. Ini mensimulasikan suatu reset "
+#~ "SIGUSR1.\n"
+#~ "config: http-proxy-retry atau socks-proxy-retry"
+
+#~ msgid "Proxy _Username:"
+#~ msgstr "Nama Pengguna Proksi:"
+
+#~ msgid "Proxy Passwor_d:"
+#~ msgstr "Sandi Proksi:"
+
+#~ msgid "HTTP/Socks proxy username passed to Anyconnect when prompted for it."
+#~ msgstr ""
+#~ "Nama pengguna proksi HTTP/Socks yang dilewatkan ke Anyconnect ketika "
+#~ "diminta."
+
+#~ msgid "HTTP/Socks proxy password passed to Anyconnect when prompted for it."
+#~ msgstr ""
+#~ "Sandi proksi HTTP/Socks yang dilewatkan ke Anyconnect ketika diminta."
+
+#~ msgid "_Show password"
+#~ msgstr "Tampilkan sandi"
+
+#~ msgid "Proxies"
+#~ msgstr "Proksi"
+
+#~ msgid "Path mtu discovery"
+#~ msgstr "Deteksi path mtu"
+
+#~ msgid "Connect timeout"
+#~ msgstr "Waktu tunggu sambungan"
+
+#~ msgid ""
+#~ "The timeout in seconds before trying the next server. This timeout "
+#~ "includes proxy and TCP connect timeouts.\n"
+#~ "config: connect-timeout <n> | server-poll-timeout <n>"
+#~ msgstr ""
+#~ "Waktu tunggu dalam hitungan detik sebelum mencoba server berikutnya. "
+#~ "Waktu tunggu ini mencakup waktu tunggu koneksi proxy dan TCP.\n"
+#~ "konfigurasi: connect-timeout <n> | server-poll-timeout <n>"
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "Push peer info"
+#~ msgstr "Dorong info peer"
+
+#~ msgid ""
+#~ "Push additional information about the client to server.\n"
+#~ "config: push-peer-info"
+#~ msgstr ""
+#~ "Dorong informasi tambahan tentang klien ke server.\n"
+#~ "config: push-peer-info"
+
+#~ msgid "Misc"
+#~ msgstr "Rupa-rupa"

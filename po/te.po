@@ -1,0 +1,413 @@
+# translation of network-manager-anyconnect.master.te.po to Telugu
+# Telugu translation of network-manager-anyconnect.
+# Copyright (C) 2009 network-manager-anyconnect's COPYRIGHT HOLDER
+# This file is distributed under the same license as the network-manager-anyconnect package.
+#
+# Krishna Babu K <kkrothap@redhat.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: network-manager-anyconnect.master.te\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-30 22:41+0100\n"
+"PO-Revision-Date: 2009-10-27 19:25+0530\n"
+"Last-Translator: Krishna Babu K <kkrothap@redhat.com>\n"
+"Language-Team: Telugu <en@li.org>\n"
+"Language: te\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"\n"
+"\n"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:1
+#, fuzzy
+msgid "Anyconnect client"
+msgstr "Anyconnect"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:2
+msgid "Client for Anyconnect virtual private networks"
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:3
+msgid "Support for configuring Anyconnect virtual private network connections."
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:4
+msgid "Anyconnect is a popular and flexible free-software VPN solution."
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:5
+msgid "The NetworkManager Developers"
+msgstr ""
+
+#: ../properties/nm-anyconnect-editor-plugin.c:35
+#, fuzzy
+msgid "Cisco AnyConnect"
+msgstr "Anyconnect"
+
+#: ../properties/nm-anyconnect-editor-plugin.c:36
+msgid "Runs the proprietary Cisco AnyConnect VPN."
+msgstr ""
+
+#: ../properties/nm-anyconnect-editor.c:299
+msgid "could not load UI widget"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:946
+#, c-format
+msgid "object class '%s' has no property named '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:953
+#, c-format
+msgid "property '%s' of object class '%s' is not writable"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:960
+#, c-format
+msgid ""
+"construct property \"%s\" for object '%s' can't be set after construction"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:968
+#, c-format
+msgid "'%s::%s' is not a valid property name; '%s' is not a GObject subtype"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:977
+#, c-format
+msgid "unable to set property '%s' of type '%s' from value of type '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:988
+#, c-format
+msgid ""
+"value \"%s\" of type '%s' is invalid or out of range for property '%s' of "
+"type '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:69
+#, c-format
+msgid "unable to get editor plugin name: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:103
+#, c-format
+msgid "missing plugin file \"%s\""
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:109
+#, c-format
+msgid "cannot load editor plugin: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:118
+#, c-format
+msgid "cannot load factory %s from plugin: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:144
+msgid "unknown error creating editor instance"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:567 ../src/nm-anyconnect-service.c:682
+msgid "Could not find the anyconnect binary."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:580
+msgid ""
+"Could not process the request because the VPN connection settings were "
+"invalid."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:602
+msgid ""
+"Could not attempt connection, unable to find the setting for the gateway."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:875
+msgid "Don’t quit when VPN connection terminates"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:876
+msgid "Enable verbose debug logging (may expose passwords)"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:877
+msgid "D-Bus name to use for this instance"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:905
+msgid ""
+"nm-anyconnect-service provides integrated proprietary Cisco AnyConnect "
+"capability to NetworkManager."
+msgstr ""
+
+#: ../properties/nm-anyconnect-dialog.ui.h:1
+msgid "General"
+msgstr "సాదారణ"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:2
+msgid "_Gateway:"
+msgstr "గేట్‌వే (_G):"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:3
+msgid "VPN host to connect to"
+msgstr ""
+
+#, fuzzy, c-format
+#~ msgid "Authenticate VPN %s"
+#~ msgstr "VPN దృవీకరించుము"
+
+#~ msgid "Password:"
+#~ msgstr "సంకేతపదము:"
+
+#~ msgid "Certificate password:"
+#~ msgstr "దృవీకరణపత్రము సంకేతపదము:"
+
+#~ msgid "Authenticate VPN"
+#~ msgstr "VPN దృవీకరించుము"
+
+#~ msgid "Certificate pass_word:"
+#~ msgstr "దృవీకరణపత్రము సంకేతపదము (_w):"
+
+#, c-format
+#~ msgid "You need to authenticate to access the Virtual Private Network '%s'."
+#~ msgstr "వర్చ్యువల్ వ్యక్తిగత నెట్వర్కు '%s'ను యాక్సిస్ చేయుటకు మీరు దృవీకరింపబడవలసి వుంది."
+
+#~ msgid "Choose your personal certificate..."
+#~ msgstr "మీ వ్యక్తిగత దృవీకరణపత్రమును యెంచుకొనుము..."
+
+#~ msgid "Choose your private key..."
+#~ msgstr "మీ వ్యక్తిగత కీను యెంచుకొనుము..."
+
+#~ msgid "Choose a Certificate Authority certificate..."
+#~ msgstr "దృవీకరణపత్రము అధికారికం దృవీకరణపత్రము యెంచుకొనుము..."
+
+#~ msgid "Choose an Anyconnect static key..."
+#~ msgstr "Anyconnect స్టాటిక్ కీను యెంచుకొనుము..."
+
+#~ msgid "None"
+#~ msgstr "ఏదీకాదు"
+
+#, fuzzy
+#~ msgid "PEM or PKCS#12 certificates (*.pem, *.crt, *.key, *.cer, *.p12)"
+#~ msgstr "PEM దృవీకరణపత్రములు (*.pem, *.crt, *.key, *.cer)"
+
+#~ msgid "PEM certificates (*.pem, *.crt, *.key, *.cer)"
+#~ msgstr "PEM దృవీకరణపత్రములు (*.pem, *.crt, *.key, *.cer)"
+
+#~ msgid "Anyconnect Static Keys (*.key)"
+#~ msgstr "Anyconnect స్టాటిక్ కీలు (*.key)"
+
+#~ msgid "Default"
+#~ msgstr "అప్రమేయం"
+
+#~ msgid "MD-5"
+#~ msgstr "MD-5"
+
+#~ msgid "SHA-1"
+#~ msgstr "SHA-1"
+
+#, fuzzy
+#~ msgid "SHA-224"
+#~ msgstr "SHA-1"
+
+#, fuzzy
+#~ msgid "SHA-256"
+#~ msgstr "SHA-1"
+
+#, fuzzy
+#~ msgid "SHA-384"
+#~ msgstr "SHA-1"
+
+#, fuzzy
+#~ msgid "SHA-512"
+#~ msgstr "SHA-1"
+
+#~ msgid "Compatible with the Anyconnect server."
+#~ msgstr "Anyconnect సేవికతో సారూప్యం."
+
+#~ msgid "Certificates (TLS)"
+#~ msgstr "దృవీకరణపత్రములు (TLS)"
+
+#~ msgid "Password"
+#~ msgstr "సంకేతపదము"
+
+#~ msgid "Password with Certificates (TLS)"
+#~ msgstr "దృవీకరణపత్రములు (TLS)తో సంకేతపదము"
+
+#~ msgid "Static Key"
+#~ msgstr "స్టాటిక్ కీ"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "<b>General</b>"
+#~ msgstr "<b>సాదారణ</b>"
+
+#~ msgid "<b>Authentication</b>"
+#~ msgstr "<b>దృవీకరణము</b>"
+
+#~ msgid "_Show passwords"
+#~ msgstr "సంకేతపదములను చూపుము"
+
+#, fuzzy
+#~ msgid "Password for private key"
+#~ msgstr "మీ వ్యక్తిగత కీను యెంచుకొనుము..."
+
+#~ msgid "Private Key Password:"
+#~ msgstr "వ్యక్తిగత కీ సంకేతపదము:"
+
+#~ msgid "Private Key:"
+#~ msgstr "వ్యక్తిగత కీ:"
+
+#~ msgid "CA Certificate:"
+#~ msgstr "CA దృవీకరణపత్రము:"
+
+#~ msgid "User Certificate:"
+#~ msgstr "వినియోగదారి దృవీకరణపత్రము:"
+
+#~ msgid "User name:"
+#~ msgstr "వినియోగదారి నామము:"
+
+#~ msgid "Remote IP Address:"
+#~ msgstr "దూరస్థ IP చిరునామా:"
+
+#~ msgid "Local IP Address:"
+#~ msgstr "స్థానిక IP చిరునామా:"
+
+#, fuzzy
+#~ msgid "Key Direction:"
+#~ msgstr "కీ దిశ:"
+
+#~ msgid "Static Key:"
+#~ msgstr "స్టాటిక్ కీ:"
+
+#, fuzzy
+#~ msgid ""
+#~ "Direction for Static Key encryption mode (non-TLS).\n"
+#~ "If key direction is used, it must be the opposite of that used on the VPN "
+#~ "peer.  For example, if the peer uses '1', this connection must use '0'.  "
+#~ "If you are unsure what value to use, contact your system administrator.\n"
+#~ "config: static <file> [direction]"
+#~ msgstr ""
+#~ "<i>కీ దిశానిర్దేశం వుపయోగించుతుంటే, అది తప్పక VPN పీర్ నందు వుపయోగించన దానికి వ్యతిరేకంగా "
+#~ "వుండాలి.  ఉదాహరణకు, పీర్ '1' వుపయోగిస్తుంటే, ఈ అనుసంధానం తప్పక '0' వుపయోగించాలి.  ఏ విలువ "
+#~ "వుపయోగించాలో మీకు ఖచ్చితంగా తెలియకుంటే, మీ సిస్టమ్ నిర్వహణాధికారిని సంప్రదించండి.</i>"
+
+#~ msgid "Type:"
+#~ msgstr "రకము:"
+
+#, fuzzy
+#~ msgid "Select an authentication mode."
+#~ msgstr "TLS దృవీకరణ"
+
+#~ msgid "Ad_vanced..."
+#~ msgstr "అధునాతన... (_v)"
+
+#~ msgid "Anyconnect Advanced Options"
+#~ msgstr "Anyconnect అధునాతన ఐచ్చికములు"
+
+#~ msgid "Use custom gateway p_ort:"
+#~ msgstr "మలచుకొనిన గేట్‌వే పోర్టు వుపయోగించుము (_o):"
+
+#~ msgid "Use custom _renegotiation interval:"
+#~ msgstr "మలచుకొనిన అచర్చనీయ విరామంను వుపయోగించుము (_r):"
+
+#~ msgid "Use L_ZO data compression"
+#~ msgstr "L_ZO డాటా కుదింపును వుపయోగించుము"
+
+#~ msgid "Use a _TCP connection"
+#~ msgstr "_TCP అనుసంధానమును వుపయోగించుము"
+
+#, fuzzy
+#~ msgid "Use custom UDP _fragment size:"
+#~ msgstr "మలచుకొనిన అచర్చనీయ విరామంను వుపయోగించుము (_r):"
+
+#~ msgid "Ci_pher:"
+#~ msgstr "సైఫర్:"
+
+#~ msgid "_HMAC Authentication:"
+#~ msgstr "HMAC దృవీకరణము:"
+
+#~ msgid "Security"
+#~ msgstr "రక్షణ"
+
+#~ msgid "Use additional _TLS authentication"
+#~ msgstr "అదనపు TLS దృవీకరణము వుపయోగించుము"
+
+#, fuzzy
+#~ msgid "Add an additional layer of HMAC authentication."
+#~ msgstr "అదనపు TLS దృవీకరణము వుపయోగించుము"
+
+#~ msgid "Key _Direction:"
+#~ msgstr "కీ దిశ:"
+
+#, fuzzy
+#~ msgid ""
+#~ "Direction parameter for static key mode.\n"
+#~ "If key direction is used, it must be the opposite of that used on the VPN "
+#~ "peer.  For example, if the peer uses '1', this connection must use '0'.  "
+#~ "If you are unsure what value to use, contact your system administrator.\n"
+#~ "config: tls-auth <file> [direction]"
+#~ msgstr ""
+#~ "<i>కీ దిశానిర్దేశం వుపయోగించుతుంటే, అది తప్పక VPN పీర్ నందు వుపయోగించన దానికి వ్యతిరేకంగా "
+#~ "వుండాలి.  ఉదాహరణకు, పీర్ '1' వుపయోగిస్తుంటే, ఈ అనుసంధానం తప్పక '0' వుపయోగించాలి.  ఏ విలువ "
+#~ "వుపయోగించాలో మీకు ఖచ్చితంగా తెలియకుంటే, మీ సిస్టమ్ నిర్వహణాధికారిని సంప్రదించండి.</i>"
+
+#~ msgid "Key _File:"
+#~ msgstr "కీ దస్త్రము:"
+
+#~ msgid "TLS Authentication"
+#~ msgstr "TLS దృవీకరణ"
+
+#, fuzzy
+#~ msgid "Server _Address:"
+#~ msgstr "దూరస్థ IP చిరునామా:"
+
+#, fuzzy
+#~ msgid "Proxy _Username:"
+#~ msgstr "వినియోగదారినామము (_U):"
+
+#, fuzzy
+#~ msgid "Proxy Passwor_d:"
+#~ msgstr "సంకేతపదము:"
+
+#, fuzzy
+#~ msgid "_Show password"
+#~ msgstr "సంకేతపదములను చూపుము"
+
+#, fuzzy
+#~ msgid "A private key password is required."
+#~ msgstr "వ్యక్తిగత కీ సంకేతపదము:"
+
+#, fuzzy
+#~ msgid "Unhandled pending authentication."
+#~ msgstr "అదనపు TLS దృవీకరణము వుపయోగించుము"
+
+#~ msgid "_Password:"
+#~ msgstr "సంకేతపదము (_P):"
+
+#~ msgid "_Secondary Password:"
+#~ msgstr "రెండవ సంకేతపదము (_S):"
+
+#~ msgid "_Domain:"
+#~ msgstr "డొమైన్ (_D):"
+
+#~ msgid "Connect _anonymously"
+#~ msgstr "నామములేకుండా అనుసంధానము అవ్వుము (_a)"
+
+#~ msgid "Connect as _user:"
+#~ msgstr "వినియోగదారివలె అనుసంధానము అవ్వుము(_u):"
+
+#~ msgid "_Remember password for this session"
+#~ msgstr "ఈ సెషన్ కొరకు సంకేతపదమును గుర్తుంచుకొనుము (_R)"
+
+#~ msgid "_Save password in keyring"
+#~ msgstr "సంకేతపదమును కీరింగ్ నందు దాయుము (_S)"
+
+#~ msgid "Use a TA_P device"
+#~ msgstr "TA_P పరికరాన్ని వుపయోగించుము"

@@ -1,0 +1,101 @@
+%if 0%{?fedora} < 28 && 0%{?rhel} < 8
+%bcond_without libnm_glib
+%else
+%bcond_with    libnm_glib
+%endif
+
+Summary:   NetworkManager VPN plugin for AnyConnect
+Name:      @PACKAGE@
+Version:   @VERSION@
+Release:   1%{?dist}
+License:   GPLv2+
+URL:       https://github.com/grahamwhiteuk/Networkmanager-anyconnect
+Group:     System Environment/Base
+
+Source:    @PACKAGE@-@VERSION@.tar.xz
+
+BuildRequires: NetworkManager-libnm-devel >= 1:1.2.0
+BuildRequires: glib2-devel
+BuildRequires: libtool intltool gettext
+BuildRequires: libnma-devel >= 1.2.0
+BuildRequires: libsecret-devel
+
+%if %with libnm_glib
+BuildRequires: NetworkManager-glib-devel >= 1:1.2.0
+BuildRequires: libnm-gtk-devel >= 1.2.0
+%endif
+
+Requires: dbus
+Requires: NetworkManager >= 1:1.2.0
+Requires: anyconnect
+
+%global __provides_exclude ^libnm-.*\\.so
+
+
+%description
+This package contains software for integrating VPN capabilities with
+the Cisco proprietary AnyConnect VPN server with NetworkManager.
+
+
+%package gnome
+Summary: NetworkManager VPN plugin for AnyConnect - GNOME files
+
+Requires: %{name}%{?_isa} = %{version}-%{release}
+
+%description gnome
+This package contains software for integrating VPN capabilities with
+the anyconnect server with NetworkManager (GNOME files).
+
+
+%prep
+%autosetup
+
+
+%build
+if [ ! -f configure ]; then
+  ./autogen.sh
+fi
+%configure \
+        --disable-static \
+%if %without libnm_glib
+        --without-libnm-glib \
+%endif
+        --enable-more-warnings=yes \
+        --with-dist-version=%{version}-%{release}
+make %{?_smp_mflags}
+
+
+%check
+make check
+
+
+%install
+make install DESTDIR=%{buildroot} INSTALL="%{__install} -p"
+
+rm -f %{buildroot}%{_libdir}/NetworkManager/lib*.la
+
+%find_lang %{name}
+
+
+%files -f %{name}.lang
+%{_libdir}/NetworkManager/libnm-vpn-plugin-anyconnect.so
+%{_datadir}/dbus-1/system.d/nm-anyconnect-service.conf
+%{_prefix}/lib/NetworkManager/VPN/nm-anyconnect-service.name
+%{_libexecdir}/nm-anyconnect-service
+%doc README.md
+%license COPYING
+
+
+%files -n NetworkManager-anyconnect-gnome
+%{_libexecdir}/nm-anyconnect-auth-dialog
+%{_libdir}/NetworkManager/libnm-vpn-plugin-anyconnect-editor.so
+%{_datadir}/metainfo/network-manager-anyconnect.metainfo.xml
+
+%if %with libnm_glib
+%{_libdir}/NetworkManager/libnm-*-properties.so
+%{_sysconfdir}/NetworkManager/VPN/nm-anyconnect-service.name
+%endif
+
+%changelog
+* Fri Jun 26 2020 Graham White - @VERSION@-1
+- initial version

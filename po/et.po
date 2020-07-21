@@ -1,0 +1,460 @@
+# GNOME NetworkManager - Anyconnect klient
+#
+# Copyright (C) 2007 The GNOME Project.
+# This file is distributed under the same license as the NetworkManager-anyconnect package.
+#
+# Priit Laes <amd store20 com>, 2007.
+# Ivar Smolin <okul linux ee>, 2007.
+# Mattias Põldaru <mahfiaz gmail com>, 2007-2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: NetworkManager-anyconnect\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-30 22:41+0100\n"
+"PO-Revision-Date: 2011-03-15 08:45+0300\n"
+"Last-Translator: Mattias Põldaru <mahfiaz@gmail.com>\n"
+"Language-Team: Estonian <gnome-et@linux.ee>\n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:1
+#, fuzzy
+msgid "Anyconnect client"
+msgstr "Anyconnect"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:2
+msgid "Client for Anyconnect virtual private networks"
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:3
+msgid "Support for configuring Anyconnect virtual private network connections."
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:4
+msgid "Anyconnect is a popular and flexible free-software VPN solution."
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:5
+msgid "The NetworkManager Developers"
+msgstr ""
+
+#: ../properties/nm-anyconnect-editor-plugin.c:35
+#, fuzzy
+msgid "Cisco AnyConnect"
+msgstr "Anyconnect"
+
+#: ../properties/nm-anyconnect-editor-plugin.c:36
+msgid "Runs the proprietary Cisco AnyConnect VPN."
+msgstr ""
+
+#: ../properties/nm-anyconnect-editor.c:299
+msgid "could not load UI widget"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:946
+#, c-format
+msgid "object class '%s' has no property named '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:953
+#, c-format
+msgid "property '%s' of object class '%s' is not writable"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:960
+#, c-format
+msgid ""
+"construct property \"%s\" for object '%s' can't be set after construction"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:968
+#, c-format
+msgid "'%s::%s' is not a valid property name; '%s' is not a GObject subtype"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:977
+#, c-format
+msgid "unable to set property '%s' of type '%s' from value of type '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:988
+#, c-format
+msgid ""
+"value \"%s\" of type '%s' is invalid or out of range for property '%s' of "
+"type '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:69
+#, c-format
+msgid "unable to get editor plugin name: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:103
+#, c-format
+msgid "missing plugin file \"%s\""
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:109
+#, c-format
+msgid "cannot load editor plugin: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:118
+#, c-format
+msgid "cannot load factory %s from plugin: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:144
+msgid "unknown error creating editor instance"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:567 ../src/nm-anyconnect-service.c:682
+msgid "Could not find the anyconnect binary."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:580
+msgid ""
+"Could not process the request because the VPN connection settings were "
+"invalid."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:602
+msgid ""
+"Could not attempt connection, unable to find the setting for the gateway."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:875
+msgid "Don’t quit when VPN connection terminates"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:876
+msgid "Enable verbose debug logging (may expose passwords)"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:877
+msgid "D-Bus name to use for this instance"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:905
+msgid ""
+"nm-anyconnect-service provides integrated proprietary Cisco AnyConnect "
+"capability to NetworkManager."
+msgstr ""
+
+#: ../properties/nm-anyconnect-dialog.ui.h:1
+msgid "General"
+msgstr "Üldine"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:2
+msgid "_Gateway:"
+msgstr "_Gateway:"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:3
+msgid "VPN host to connect to"
+msgstr ""
+
+#, fuzzy, c-format
+#~ msgid "Authenticate VPN %s"
+#~ msgstr "VPN-i autentimine"
+
+#~ msgid "Password:"
+#~ msgstr "Parool:"
+
+#~ msgid "Certificate password:"
+#~ msgstr "Sertifikaadi parool:"
+
+#~ msgid "Authenticate VPN"
+#~ msgstr "VPN-i autentimine"
+
+#~ msgid "Certificate pass_word:"
+#~ msgstr "Sertifikaadi _parool:"
+
+#, c-format
+#~ msgid "You need to authenticate to access the Virtual Private Network '%s'."
+#~ msgstr "VPN-võrgule '%s' ligipääsuks pead end autentima."
+
+#~ msgid "Choose your personal certificate..."
+#~ msgstr "Vali isiklik sertifikaat..."
+
+#~ msgid "Choose your private key..."
+#~ msgstr "Vali privaatvõti..."
+
+#, fuzzy
+#~ msgid "Not Required"
+#~ msgstr "Pole vajalik"
+
+#~ msgid "Choose a Certificate Authority certificate..."
+#~ msgstr "Vali sertifikaadikeskuse serdifail..."
+
+#~ msgid "Choose an Anyconnect static key..."
+#~ msgstr "Vali Anyconnect püsivõti..."
+
+#~ msgid "None"
+#~ msgstr "Pole"
+
+#~ msgid "PEM or PKCS#12 certificates (*.pem, *.crt, *.key, *.cer, *.p12)"
+#~ msgstr "PEM või PKCS#12 sertifikaadid (*.pem, *.crt, *.key, *.cer, *.p12)"
+
+#~ msgid "PEM certificates (*.pem, *.crt, *.key, *.cer)"
+#~ msgstr "PEM sertifikaadid (*.pem, *.crt, *.key, *.cer)"
+
+#~ msgid "Anyconnect Static Keys (*.key)"
+#~ msgstr "Anyconnect püsivõtmed (*.key)"
+
+#~ msgid "Default"
+#~ msgstr "Vaikimisi"
+
+#~ msgid "MD-5"
+#~ msgstr "MD-5"
+
+#~ msgid "SHA-1"
+#~ msgstr "SHA-1"
+
+#~ msgid "SHA-224"
+#~ msgstr "SHA-224"
+
+#~ msgid "SHA-256"
+#~ msgstr "SHA-256"
+
+#~ msgid "SHA-384"
+#~ msgstr "SHA-384"
+
+#~ msgid "SHA-512"
+#~ msgstr "SHA-512"
+
+#~ msgid "RIPEMD-160"
+#~ msgstr "RIPEMD-160"
+
+#~ msgid "Not required"
+#~ msgstr "Pole vajalik"
+
+#~ msgid "HTTP"
+#~ msgstr "HTTP"
+
+#~ msgid "SOCKS"
+#~ msgstr "SOCKS"
+
+#~ msgid "Compatible with the Anyconnect server."
+#~ msgstr "Ühildub Anyconnect serveriga."
+
+#~ msgid "Certificates (TLS)"
+#~ msgstr "Sertifikaadid (TLS)"
+
+#~ msgid "Password"
+#~ msgstr "Parool"
+
+#~ msgid "Password with Certificates (TLS)"
+#~ msgstr "Parool koos sertifikaatidega (TLS)"
+
+#~ msgid "Static Key"
+#~ msgstr "Püsivõti"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "<b>General</b>"
+#~ msgstr "<b>Üldine</b>"
+
+#~ msgid "<b>Authentication</b>"
+#~ msgstr "<b>Autentimine</b>"
+
+#~ msgid "_Show passwords"
+#~ msgstr "Näita paroole"
+
+#, fuzzy
+#~ msgid "Password for private key"
+#~ msgstr "Vali privaatvõti..."
+
+#~ msgid "Private Key Password:"
+#~ msgstr "Privaatvõtme parool:"
+
+#~ msgid "Private Key:"
+#~ msgstr "Privaatvõti:"
+
+#~ msgid "CA Certificate:"
+#~ msgstr "Sertifikaadikeskuse serdifail:"
+
+#~ msgid "User Certificate:"
+#~ msgstr "Kasutaja sertifikaat:"
+
+#~ msgid "User name:"
+#~ msgstr "Kasutajanimi:"
+
+#~ msgid "Remote IP Address:"
+#~ msgstr "Kaugmasina IP-aadress:"
+
+#~ msgid "Local IP Address:"
+#~ msgstr "Kohalik IP-aadress:"
+
+#, fuzzy
+#~ msgid "Key Direction:"
+#~ msgstr "Võtme suund:"
+
+#~ msgid "Static Key:"
+#~ msgstr "Püsivõti:"
+
+#, fuzzy
+#~ msgid ""
+#~ "Direction for Static Key encryption mode (non-TLS).\n"
+#~ "If key direction is used, it must be the opposite of that used on the VPN "
+#~ "peer.  For example, if the peer uses '1', this connection must use '0'.  "
+#~ "If you are unsure what value to use, contact your system administrator.\n"
+#~ "config: static <file> [direction]"
+#~ msgstr ""
+#~ "<i>Kui kasutatakse võtme suunda, peab see olema vastupidine teise VPN'i "
+#~ "võtme suunale. Näitaks, kui teine masin kasutab '1', peab siin olema '0'. "
+#~ "Kui sa ei tea, millist väärtust kasutada, küsi süsteemiadministraatorilt."
+#~ "</i>"
+
+#~ msgid "Type:"
+#~ msgstr "Tüüp:"
+
+#, fuzzy
+#~ msgid "Select an authentication mode."
+#~ msgstr "TLS'iga autentimine"
+
+#~ msgid "Ad_vanced..."
+#~ msgstr "_Laiendatud..."
+
+#~ msgid "Anyconnect Advanced Options"
+#~ msgstr "Anyconnect laiendatud sätted"
+
+#~ msgid "Use custom gateway p_ort:"
+#~ msgstr "Kasuta muud gateway _porti:"
+
+#~ msgid "Use custom _renegotiation interval:"
+#~ msgstr "Kohandatud _kordusläbirääkimiste intervall:"
+
+#~ msgid "Use L_ZO data compression"
+#~ msgstr "L_ZO-pakkimise kasutamine"
+
+#~ msgid "Use a _TCP connection"
+#~ msgstr "_TCP-ühenduse kasutamine"
+
+#~ msgid "Use custom tunnel Maximum Transmission _Unit (MTU):"
+#~ msgstr "Kohandatud _tunneli suurima edastusühiku suurus (MTU):"
+
+#~ msgid "Use custom UDP _fragment size:"
+#~ msgstr "Kohandatud UDP-_fragmendi suurus:"
+
+#~ msgid "Restrict tunnel TCP Maximum _Segment Size (MSS)"
+#~ msgstr "Tunneli TCP maksimaalse segmendi suurus piiratud (MSS)"
+
+#~ msgid "Ci_pher:"
+#~ msgstr "Šiffer:"
+
+#~ msgid "_HMAC Authentication:"
+#~ msgstr "HMAC'iga autentimine"
+
+#~ msgid "Security"
+#~ msgstr "Turvalisus"
+
+#~ msgid "_Subject Match:"
+#~ msgstr "Kattuv nimi:"
+
+#~ msgid ""
+#~ "<i>Connect only to servers whose certificate matches the given subject.\n"
+#~ "Example: /CN=myvpn.company.com</i>"
+#~ msgstr ""
+#~ "<i>Ühendus luuakse ainult serveriga, mille sertifikaat kattub määratud "
+#~ "nimega.\n"
+#~ "Näiteks: /CN=myvpn.kompanii.com</i>"
+
+#~ msgid "Use additional _TLS authentication"
+#~ msgstr "Lisaks TLS-autentimise kasutamine"
+
+#, fuzzy
+#~ msgid "Add an additional layer of HMAC authentication."
+#~ msgstr "Lisaks TLS-autentimise kasutamine"
+
+#~ msgid "Key _Direction:"
+#~ msgstr "Võtme suund:"
+
+#, fuzzy
+#~ msgid ""
+#~ "Direction parameter for static key mode.\n"
+#~ "If key direction is used, it must be the opposite of that used on the VPN "
+#~ "peer.  For example, if the peer uses '1', this connection must use '0'.  "
+#~ "If you are unsure what value to use, contact your system administrator.\n"
+#~ "config: tls-auth <file> [direction]"
+#~ msgstr ""
+#~ "<i>Kui kasutatakse võtme suunda, peab see olema vastupidine teise VPN'i "
+#~ "võtme suunale. Näitaks, kui teine masin kasutab '1', peab siin olema '0'. "
+#~ "Kui sa ei tea, millist väärtust kasutada, küsi süsteemiadministraatorilt."
+#~ "</i>"
+
+#~ msgid "Key _File:"
+#~ msgstr "Võtmefail:"
+
+#~ msgid "TLS Authentication"
+#~ msgstr "TLS'iga autentimine"
+
+#~ msgid "Proxy _Type:"
+#~ msgstr "Proksi liik:"
+
+#~ msgid ""
+#~ "<i>Select this option if your organization requires the use of a proxy "
+#~ "server to access the Internet.</i>"
+#~ msgstr ""
+#~ "<i>Vali see, kui sinu organisatsioon nõuab interneti kasutamist "
+#~ "proksiserveri kaudu.</i>"
+
+#~ msgid "Server _Address:"
+#~ msgstr "Serveri aadress:"
+
+#~ msgid "_Port:"
+#~ msgstr "Port:"
+
+#, fuzzy
+#~ msgid "_Retry indefinitely when errors occur"
+#~ msgstr "Vigade korral proovitakse lõpmatuseni uuesti"
+
+#~ msgid "Proxy _Username:"
+#~ msgstr "_Proksi kasutajanimi:"
+
+#~ msgid "Proxy Passwor_d:"
+#~ msgstr "Proksi parool:"
+
+#~ msgid "_Show password"
+#~ msgstr "Näita parooli"
+
+#~ msgid "Proxies"
+#~ msgstr "Proksid"
+
+#, fuzzy
+#~ msgid "A private key password is required."
+#~ msgstr "Privaatvõtme parool:"
+
+#, fuzzy
+#~ msgid "Unhandled pending authentication."
+#~ msgstr "Lisaks TLS-autentimise kasutamine"
+
+#~ msgid "_Password:"
+#~ msgstr "_Parool:"
+
+#~ msgid "_Secondary Password:"
+#~ msgstr "Parool _uuesti:"
+
+#~ msgid "_Username:"
+#~ msgstr "_Kasutajanimi:"
+
+#~ msgid "_Domain:"
+#~ msgstr "_Domeen:"
+
+#~ msgid "Connect _anonymously"
+#~ msgstr "Ühendu _anonüümselt"
+
+#~ msgid "Connect as _user:"
+#~ msgstr "Ühendu ka_sutajana:"
+
+#~ msgid "_Remember password for this session"
+#~ msgstr "_Jäta parool selle sessiooni ajaks meelde"
+
+#~ msgid "_Save password in keyring"
+#~ msgstr "Parooli salvestamine _võtmerõngasse"
+
+#~ msgid "Use a TA_P device"
+#~ msgstr "TA_P-seadme kasutamine"

@@ -1,0 +1,1434 @@
+# Turkish translation for network-manager-anyconnect.
+# Copyright (C) 2014-2019 network-manager-anyconnect's COPYRIGHT HOLDER
+# This file is distributed under the same license as the network-manager-anyconnect package.
+#
+# Necdet Yücel <necdetyucel@gmail.com>, 2014.
+# Kaan Özdinçer <kaanozdincer@gmail.com>, 2015.
+# Muhammet Kara <muhammetk@gmail.com>, 2016.
+# Sabri Ünal <libreajans@gmail.com>, 2019.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: network-manager-anyconnect master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-30 22:41+0100\n"
+"PO-Revision-Date: 2020-04-10 10:47+0300\n"
+"Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
+"Language-Team: Turkish <gnome-turk@gnome.org>\n"
+"Language: tr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.3\n"
+"X-POOTLE-MTIME: 1434125932.000000\n"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:1
+msgid "Anyconnect client"
+msgstr "Anyconnect istemcisi"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:2
+msgid "Client for Anyconnect virtual private networks"
+msgstr "Anyconnect sanal özel ağları için istemci"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:3
+msgid "Support for configuring Anyconnect virtual private network connections."
+msgstr "Anyconnect sanal özel ağ bağlantılarını yapılandırma desteği."
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:4
+msgid "Anyconnect is a popular and flexible free-software VPN solution."
+msgstr "Anyconnect, gözde ve esnek özgür yazılım VPN çözümüdür."
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:5
+msgid "The NetworkManager Developers"
+msgstr "NetworkManager Geliştiricileri"
+
+#: ../properties/nm-anyconnect-editor-plugin.c:35
+#, fuzzy
+msgid "Cisco AnyConnect"
+msgstr "Anyconnect"
+
+#: ../properties/nm-anyconnect-editor-plugin.c:36
+msgid "Runs the proprietary Cisco AnyConnect VPN."
+msgstr ""
+
+#: ../properties/nm-anyconnect-editor.c:299
+msgid "could not load UI widget"
+msgstr "UI parçacığı yüklenemedi"
+
+#: ../shared/nm-utils/nm-shared-utils.c:946
+#, c-format
+msgid "object class '%s' has no property named '%s'"
+msgstr "'%s' nesne sınıfının '%s' adlı özelliği yok"
+
+#: ../shared/nm-utils/nm-shared-utils.c:953
+#, c-format
+msgid "property '%s' of object class '%s' is not writable"
+msgstr "'%2$s' nesne sınıfının '%1$s' özelliği yazılabilir değil"
+
+#: ../shared/nm-utils/nm-shared-utils.c:960
+#, c-format
+msgid ""
+"construct property \"%s\" for object '%s' can't be set after construction"
+msgstr "'%2$s' nesnesi için \"%1$s\" kurgu özelliği inşadan sonra ayarlanamaz"
+
+#: ../shared/nm-utils/nm-shared-utils.c:968
+#, c-format
+msgid "'%s::%s' is not a valid property name; '%s' is not a GObject subtype"
+msgstr ""
+"'%s::%s' geçerli bir özellik adı değil; '%s' bir GObject alt türü değil"
+
+#: ../shared/nm-utils/nm-shared-utils.c:977
+#, c-format
+msgid "unable to set property '%s' of type '%s' from value of type '%s'"
+msgstr ""
+"'%2$s' türündeki '%1$s' özelliğinin '%3$s' türünden değeri ayarlanamadı"
+
+# contents,
+# G_VALUE_TYPE_NAME (value),
+# pspec->name,
+# g_type_name (pspec->value_type)
+#: ../shared/nm-utils/nm-shared-utils.c:988
+#, c-format
+msgid ""
+"value \"%s\" of type '%s' is invalid or out of range for property '%s' of "
+"type '%s'"
+msgstr ""
+"'%2$s' türünde \"%1$s\" değeri geçersiz veya '%4$s' türünde '%3$s' özelliği "
+"için aralık dışında"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:69
+#, c-format
+msgid "unable to get editor plugin name: %s"
+msgstr "düzenleyici eklenti adı alınamadı: %s"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:103
+#, c-format
+msgid "missing plugin file \"%s\""
+msgstr "kayıp eklenti dosyası \"%s\""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:109
+#, c-format
+msgid "cannot load editor plugin: %s"
+msgstr "düzenleyici eklentisi yüklenemedi: %s"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:118
+#, c-format
+msgid "cannot load factory %s from plugin: %s"
+msgstr "üretici %s eklentiden yüklenemedi: %s"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:144
+msgid "unknown error creating editor instance"
+msgstr "düzenleyici örneği oluşturulurken bilinmeyen hata"
+
+#: ../src/nm-anyconnect-service.c:567 ../src/nm-anyconnect-service.c:682
+msgid "Could not find the anyconnect binary."
+msgstr "anyconnect uygulaması bulunamadı."
+
+#: ../src/nm-anyconnect-service.c:580
+msgid ""
+"Could not process the request because the VPN connection settings were "
+"invalid."
+msgstr "VPN bağlantı ayarları geçersiz olduğundan istek işlenemedi."
+
+#: ../src/nm-anyconnect-service.c:602
+msgid ""
+"Could not attempt connection, unable to find the setting for the gateway."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:875
+msgid "Don’t quit when VPN connection terminates"
+msgstr "VPN bağlantısı sonlandığında çıkma"
+
+#: ../src/nm-anyconnect-service.c:876
+msgid "Enable verbose debug logging (may expose passwords)"
+msgstr ""
+"Ayrıntılı hata ayıklama günlüklemesini etkinleştir (parolaları görünür "
+"yapabilir)"
+
+#: ../src/nm-anyconnect-service.c:877
+msgid "D-Bus name to use for this instance"
+msgstr "Bu örnek için kullanılacak D-Bus adı"
+
+#: ../src/nm-anyconnect-service.c:905
+#, fuzzy
+msgid ""
+"nm-anyconnect-service provides integrated proprietary Cisco AnyConnect "
+"capability to NetworkManager."
+msgstr ""
+"nm-anyconnect-service, NetworkManager'a tümleşik Anyconnect yeteneği sağlar."
+
+#: ../properties/nm-anyconnect-dialog.ui.h:1
+msgid "General"
+msgstr "Genel"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:2
+msgid "_Gateway:"
+msgstr "_Ağ geçidi:"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:3
+msgid "VPN host to connect to"
+msgstr ""
+
+#, c-format
+#~ msgid "Authentication required"
+#~ msgstr "Kimlik doğrulama gerekli"
+
+#~ msgid "Password"
+#~ msgstr "Parola"
+
+#~ msgid "Certificate password"
+#~ msgstr "Sertifika parolası"
+
+#~ msgid "HTTP proxy password"
+#~ msgstr "HTTP vekil sunucu parolası"
+
+#~ msgid "Authenticate VPN"
+#~ msgstr "VPN Kimlik Doğrulaması"
+
+#~ msgid "Certificate pass_word:"
+#~ msgstr "Sertifika paro_lası:"
+
+#~ msgid "_HTTP proxy password:"
+#~ msgstr "_HTTP vekil sunucu parolası:"
+
+#, c-format
+#~ msgid "You need to authenticate to access the Virtual Private Network “%s”."
+#~ msgstr ""
+#~ "“%s” Sanal Özel Ağına erişmek için kimlik doğrulaması yapmanız gerekiyor."
+
+# params[0],
+# nargs_min,
+# nargs_max
+#, c-format
+#~ msgid "option %s expects between %u and %u argument"
+#~ msgid_plural "option %s expects between %u and %u arguments"
+#~ msgstr[0] "%s seçeneği %u - %u arası argüman bekliyor"
+
+#, c-format
+#~ msgid "option %s expects no arguments"
+#~ msgstr "“%s” seçeneği hiçbir argüman beklemiyor"
+
+#, c-format
+#~ msgid "option %s expects exactly one argument"
+#~ msgid_plural "option %s expects exactly %u arguments"
+#~ msgstr[0] "%s seçeneği tam olarak %u argüman bekliyor"
+
+# argument_name,
+# params[0]
+#, c-format
+#~ msgid "argument %s of “%s” can not be empty"
+#~ msgstr "“%2$s” argümanı %1$s boş olamaz"
+
+#, c-format
+#~ msgid "argument of “%s” can not be empty"
+#~ msgstr "“%s” argümanı boş olamaz"
+
+# argument_name,
+# params[0]
+#, c-format
+#~ msgid "argument %s of “%s” must be UTF-8 encoded"
+#~ msgstr "“%2$s” argümanı %1$s UTF-8 olarak kodlanmalı"
+
+#, c-format
+#~ msgid "argument of “%s” must be UTF-8 encoded"
+#~ msgstr "“%s” argümanı UTF-8 olarak kodlanmalı"
+
+# n_param,
+# params[0]
+#, c-format
+#~ msgid "invalid %uth argument to “%s” where number expected"
+#~ msgstr "“%2$s” için geçersiz %1$u. argüman, sayı bekleniyordu"
+
+# n_param,
+# params[n_param],
+# params[0]
+#, c-format
+#~ msgid "unsupported %uth argument %s to “%s”"
+#~ msgstr "“%3$s” için desteklenmeyen %1$u. %2$s argümanı"
+
+# n_param,
+# params[0]
+#, c-format
+#~ msgid ""
+#~ "unsupported %uth argument to “%s” which looks like a FQDN but only IPv4 "
+#~ "address supported"
+#~ msgstr ""
+#~ "“%2$s” için desteklenmeyen %1$u. argümanı, FQDN'ye benziyor ama yalnızca "
+#~ "IPv4 adresleri destekleniyor"
+
+# n_param,
+# params[0]
+#, c-format
+#~ msgid "invalid %uth argument to “%s” where IPv4 address expected"
+#~ msgstr "“%2$s” için geçersiz %1$u. argüman, IPv4 adresi bekleniyordu"
+
+# n_param,
+# params[0]
+#, c-format
+#~ msgid "invalid %uth key-direction argument to “%s”"
+#~ msgstr "“%2$s” için geçersiz %1$u. key-direction argümanı"
+
+# n_param,
+# params[0]
+#, c-format
+#~ msgid "invalid %uth argument to “%s”"
+#~ msgstr "“%2$s” için geçersiz %1$u. argüman"
+
+#, c-format
+#~ msgid "unterminated %s at position %lld"
+#~ msgstr "%2$lld konumunda sonlandırılmamış %1$s"
+
+#~ msgid "double quote"
+#~ msgstr "çift tırnak"
+
+#~ msgid "single quote"
+#~ msgstr "tek tırnak"
+
+#, c-format
+#~ msgid "trailing escaping backslash at position %lld"
+#~ msgstr "%lld konumunda ters bölme işaretinden kaçış yaşandı"
+
+#, c-format
+#~ msgid "unable to read HTTP proxy auth file"
+#~ msgstr "HTTP vekil sunucu yetkilendirme dosyası okunamadı"
+
+#, c-format
+#~ msgid "cannot read user/password from HTTP proxy auth file"
+#~ msgstr ""
+#~ "HTTP vekil sunucu yetkilendirme dosyasından kullanıcı/parola bilgileri "
+#~ "okunamadı"
+
+#, c-format
+#~ msgid "user/password from HTTP proxy auth file must be UTF-8 encoded"
+#~ msgstr ""
+#~ "HTTP vekil sunucu kimlik doğrulama dosyasındaki kullanıcı/parola bilgisi "
+#~ "UTF-8 olarak kodlanmalı"
+
+#, c-format
+#~ msgid "“%s” is not a directory"
+#~ msgstr "“%s” dizin değil"
+
+#, c-format
+#~ msgid "cannot create “%s” directory"
+#~ msgstr "“%s” dizini oluşturulamadı"
+
+# data->token,
+# data->token_start_line,
+# err_msg
+#, c-format
+#~ msgid "cannot write <%s> blob from line %ld to file (%s)"
+#~ msgstr "%2$ld satırındaki <%1$s> blob dosyaya yazılamadı (%3$s)"
+
+# data->token,
+# data->token_start_line,
+# data->path
+#, c-format
+#~ msgid "cannot write <%s> blob from line %ld to file “%s”"
+#~ msgstr "%2$ld satırındaki <%1$s> blob “%3$s” dosyasına yazılamadı"
+
+#, c-format
+#~ msgid "unsupported mtu-disc argument"
+#~ msgstr "desteklenmeyen mtu-disc argümanı"
+
+#, c-format
+#~ msgid "unsupported crl-verify argument"
+#~ msgstr "desteklenmeyen crl-verify argümanı"
+
+#, c-format
+#~ msgid "invalid option"
+#~ msgstr "geçersiz seçenek"
+
+#, c-format
+#~ msgid "unsupported comp-lzo argument"
+#~ msgstr "desteklenmeyen comp-lzo argümanı"
+
+#, c-format
+#~ msgid "unsupported compress argument"
+#~ msgstr "desteklenmeyen sıkıştırma argümanı"
+
+#, c-format
+#~ msgid "remote cannot contain space"
+#~ msgstr "uzak boşluk içeremez"
+
+#, c-format
+#~ msgid "remote cannot contain comma"
+#~ msgstr "uzak virgül içeremez"
+
+#, c-format
+#~ msgid "remote expects protocol type like “udp” or “tcp”"
+#~ msgstr "uzak, “udp” veya “tcp” gibi bir iletişim kuralı türü ister"
+
+#, c-format
+#~ msgid "invalid verify-x509-name type"
+#~ msgstr "geçersiz verify-x509-name türü"
+
+#, c-format
+#~ msgid "unsupported blob/xml element"
+#~ msgstr "desteklenmeyen blob/xml ögesi"
+
+#, c-format
+#~ msgid "unterminated blob element <%s>"
+#~ msgstr "sonlandırılmamış blob ögesi <%s>"
+
+# alt satırdaki cümle ilk %s yerine ekleniyor,
+# contents_cur_line %ld
+# açıkçası split sentence
+#, c-format
+#~ msgid "configuration error: %s (line %ld)"
+#~ msgstr "yapılandırma hatası: %s (satır %ld)"
+
+#~ msgid "unknown or unsupported option"
+#~ msgstr "bilinmeyen ya da desteklenmeyen seçenek"
+
+#~ msgid "The file to import wasn’t a valid Anyconnect client configuration"
+#~ msgstr ""
+#~ "İçe aktarılacak olan dosya, geçerli bir Anyconnect istemci yapılandırması "
+#~ "değil"
+
+#~ msgid "The file to import wasn’t a valid Anyconnect configure (no remote)"
+#~ msgstr ""
+#~ "İçe aktarılacak olan dosya, geçerli bir Anyconnect yapılandırması değil "
+#~ "(uzak olmayan)."
+
+#~ msgid "missing path argument"
+#~ msgstr "kayıp yol argümanı"
+
+#~ msgid "connection is not a valid Anyconnect connection"
+#~ msgstr "bağlantı, geçerli Anyconnect bağlantısı değil"
+
+#~ msgid "connection was incomplete (missing gateway)"
+#~ msgstr "bağlantı tamamlanamadı (eksik ağ geçidi)"
+
+# local->message
+#, c-format
+#~ msgid "failed to write file: %s"
+#~ msgstr "dosyaya yazılamadı: %s"
+
+#~ msgid "Compatible with the Anyconnect server."
+#~ msgstr "Anyconnect sunucusu ile uyumludur."
+
+#~ msgid "Choose an Anyconnect static key…"
+#~ msgstr "Bir Anyconnect statik anahtarı seçin…"
+
+#~ msgid "None"
+#~ msgstr "Hiçbiri"
+
+#~ msgid "Anyconnect Static Keys (*.key)"
+#~ msgstr "Anyconnect Statik Anahtarları (*.key)"
+
+#~ msgid "Default"
+#~ msgstr "Varsayılan"
+
+#~ msgid "RSA MD-4"
+#~ msgstr "RSA MD-4"
+
+#~ msgid "MD-5"
+#~ msgstr "MD-5"
+
+#~ msgid "SHA-1"
+#~ msgstr "SHA-1"
+
+#~ msgid "SHA-224"
+#~ msgstr "SHA-224"
+
+#~ msgid "SHA-256"
+#~ msgstr "SHA-256"
+
+#~ msgid "SHA-384"
+#~ msgstr "SHA-384"
+
+#~ msgid "SHA-512"
+#~ msgstr "SHA-512"
+
+#~ msgid "RIPEMD-160"
+#~ msgstr "RIPEMD-160"
+
+#~ msgid "Don’t verify certificate identification"
+#~ msgstr "Sertifika kimliğini doğrulama"
+
+#~ msgid "Verify whole subject exactly"
+#~ msgstr "Tüm konuyu tıpatıp doğrula"
+
+#~ msgid "Verify name exactly"
+#~ msgstr "Adı tıpatıp doğrula"
+
+#~ msgid "Verify name by prefix"
+#~ msgstr "Adı ön eke göre doğrula"
+
+#~ msgid "Verify subject partially (legacy mode, strongly discouraged)"
+#~ msgstr "Konuyu kısmen doğrula (eski kip, şiddetle önerilmez)"
+
+#~ msgid "Server"
+#~ msgstr "Sunucu"
+
+#~ msgid "Client"
+#~ msgstr "İstemci"
+
+#~ msgid "Not required"
+#~ msgstr "Gerekli değil"
+
+#~ msgid "HTTP"
+#~ msgstr "HTTP"
+
+#~ msgid "SOCKS"
+#~ msgstr "SOCKS"
+
+#~ msgid "TUN"
+#~ msgstr "TUN"
+
+#~ msgid "TAP"
+#~ msgstr "TAP"
+
+#~ msgid "(automatic)"
+#~ msgstr "(kendiliğinden)"
+
+#~ msgid "ping-exit"
+#~ msgstr "ping-exit"
+
+#~ msgid "ping-restart"
+#~ msgstr "ping-restart"
+
+#~ msgid "Certificates (TLS)"
+#~ msgstr "Sertifikalar (TLS)"
+
+#~ msgid "Password with Certificates (TLS)"
+#~ msgstr "Sertifika ile Parola (TLS)"
+
+#~ msgid "Static Key"
+#~ msgstr "Sabit Anahtar"
+
+#, c-format
+#~ msgid "invalid delimiter character '%c'"
+#~ msgstr "geçersiz ayırıcı karakter '%c'"
+
+#, c-format
+#~ msgid "invalid non-utf-8 character"
+#~ msgstr "geçersiz utf-8 olmayan karakter"
+
+#, c-format
+#~ msgid "empty host"
+#~ msgstr "boş ana makine"
+
+#, c-format
+#~ msgid "invalid port"
+#~ msgstr "geçersiz bağlantı noktası"
+
+#, c-format
+#~ msgid "invalid protocol"
+#~ msgstr "geçersiz iletişim kuralı"
+
+#, c-format
+#~ msgid "invalid address “%s”"
+#~ msgstr "geçersiz adres “%s”."
+
+# key,
+# int_min,
+# int_max
+#, c-format
+#~ msgid "invalid integer property “%s” or out of range [%d -> %d]"
+#~ msgstr "“%s” geçersiz bir tamsayı veya sınırların dışında [%d -> %d]"
+
+#, c-format
+#~ msgid "invalid boolean property “%s” (not yes or no)"
+#~ msgstr "“%s” geçersiz bir mantıksal sabit (evet veya hayır değil)"
+
+#, c-format
+#~ msgid "unhandled property “%s” type %s"
+#~ msgstr "tanınmayan özellik “%s” tür %s"
+
+#, c-format
+#~ msgid "property “%s” invalid or not supported"
+#~ msgstr "“%s” özelliği geçersiz veya desteklenmiyor"
+
+#~ msgid "No VPN configuration options."
+#~ msgstr "VPN yapılandırma seçeneği bulunamadı."
+
+#~ msgid "A username is required."
+#~ msgstr "Bir kullanıcı adı gerekiyor."
+
+#~ msgid "A password is required."
+#~ msgstr "Bir parola gerekiyor."
+
+#~ msgid "A username and password are required."
+#~ msgstr "Bir kullanıcı adı ve parola gerekiyor."
+
+#~ msgid "A private key password is required."
+#~ msgstr "Bir özel anahtar parolası gerekli."
+
+#~ msgid "An HTTP Proxy username is required."
+#~ msgstr "Bir HTTP Vekil Sunucu kullanıcı adı gerekiyor."
+
+#~ msgid "An HTTP Proxy password is required."
+#~ msgstr "Bir HTTP Vekil Sunucu kullanıcı parolası gerekiyor."
+
+#~ msgid "An HTTP Proxy username and password are required."
+#~ msgstr "Bir HTTP Vekil Sunucu kullanıcı adı ve parolası gerekiyor."
+
+#~ msgid "Invalid connection type."
+#~ msgstr "Geçersiz bağlantı türü."
+
+#, c-format
+#~ msgid "Invalid port number “%s”."
+#~ msgstr "Geçersiz bağlantı noktası “%s”."
+
+#, c-format
+#~ msgid "Invalid proto “%s”."
+#~ msgstr "Geçersiz proto “%s”."
+
+#, c-format
+#~ msgid "Invalid proxy type “%s”."
+#~ msgstr "Geçersiz vekil sunucu türü “%s”."
+
+#, c-format
+#~ msgid "Invalid ping duration “%s”."
+#~ msgstr "Geçersiz ping süresi “%s”."
+
+#, c-format
+#~ msgid "Invalid ping-exit duration “%s”."
+#~ msgstr "Geçersiz ping-exit süresi “%s”."
+
+#, c-format
+#~ msgid "Invalid ping-restart duration “%s”."
+#~ msgstr "Geçersiz ping-restart süresi “%s”."
+
+#, c-format
+#~ msgid "Invalid connect timeout “%s”."
+#~ msgstr "Geçersiz bağlantı zaman aşımı “%s”."
+
+#, c-format
+#~ msgid "Invalid max-routes argument “%s”."
+#~ msgstr "Geçersiz max-routes argümanı “%s”."
+
+#, c-format
+#~ msgid "Invalid keysize “%s”."
+#~ msgstr "Geçersiz anahtar boyutu “%s”."
+
+#, c-format
+#~ msgid "Invalid configuration with tls-remote and verify-x509-name."
+#~ msgstr "tls-remote ve verify-x509-name ile geçersiz yapılandırma."
+
+#, c-format
+#~ msgid "Invalid verify-x509-name."
+#~ msgstr "Geçersiz verify-x509-name."
+
+#, c-format
+#~ msgid "Invalid reneg seconds “%s”."
+#~ msgstr "Geçersiz reneg süresi “%s”."
+
+#, c-format
+#~ msgid "Invalid TUN MTU size “%s”."
+#~ msgstr "Geçersiz TUN MTU boyutu “%s”."
+
+#, c-format
+#~ msgid "Invalid fragment size “%s”."
+#~ msgstr "Geçersiz parça boyutu “%s”."
+
+#, c-format
+#~ msgid "Unknown connection type “%s”."
+#~ msgstr "Bilinmeyen bağlantı türü “%s”."
+
+#, c-format
+#~ msgid "User “%s” not found, check NM_ANYCONNECT_USER."
+#~ msgstr "“%s” kullanıcısı bulunamadı, NM_ANYCONNECT_USER değerini denetle."
+
+#, c-format
+#~ msgid "Group “%s” not found, check NM_ANYCONNECT_GROUP."
+#~ msgstr "“%s” kümesi bulunamadı, NM_ANYCONNECT_GROUP değerini denetle."
+
+#~ msgid "Unhandled pending authentication."
+#~ msgstr "İşlenmemiş bekleyen kimlik doğrulaması."
+
+#~ msgid "LZO"
+#~ msgstr "LZO"
+
+#~ msgid "LZ4"
+#~ msgstr "LZ4"
+
+#~ msgid "LZ4 v2"
+#~ msgstr "LZ4 v2"
+
+#~ msgid "Automatic"
+#~ msgstr "Kendiliğinden"
+
+#~ msgid "LZO disabled (legacy)"
+#~ msgstr "LZO devre dışı (eski)"
+
+#~ msgid "LZO adaptive (legacy)"
+#~ msgstr "LZO uyarlanır (eski)"
+
+#~ msgid "TLS-Auth"
+#~ msgstr "TLS-Auth"
+
+#~ msgid "TLS-Crypt"
+#~ msgstr "TLS-Crypt"
+
+#~ msgid "Maybe"
+#~ msgstr "Belki"
+
+#~ msgid "Yes"
+#~ msgstr "Evet"
+
+#~ msgid "Authentication"
+#~ msgstr "Kimlik Doğrulaması"
+
+#~ msgid "CA"
+#~ msgstr "CA"
+
+#~ msgid "User"
+#~ msgstr "Kullanıcı"
+
+#~ msgid "Password:"
+#~ msgstr "Parola:"
+
+#~ msgid "User name:"
+#~ msgstr "Kullanıcı adı:"
+
+#~ msgid ""
+#~ "Password passed to Anyconnect when prompted for it.\n"
+#~ "config: auth-user-pass"
+#~ msgstr ""
+#~ "Parola sorulduğunda Anyconnect'e geçildi.\n"
+#~ "yapılandırma: auth-user-pass"
+
+#~ msgid ""
+#~ "Username passed to Anyconnect when prompted for it. If omitted, use the "
+#~ "name of the system user that activates the connection.\n"
+#~ "config: auth-user-pass"
+#~ msgstr ""
+#~ "Kullanıcı adı sorulduğunda Anyconnect'e geçilsin. Belirtilmezse, "
+#~ "bağlantıyı etkinleştiren sistem kullanıcısının adını kullan\n"
+#~ "yapılandırma: auth-user-pass"
+
+#~ msgid "Remote IP Address:"
+#~ msgstr "Uzak IP Adresi:"
+
+#~ msgid "Local IP Address:"
+#~ msgstr "Yerel IP Adresi:"
+
+#~ msgid "Key Direction:"
+#~ msgstr "Anahtar Yönü:"
+
+#~ msgid "Static Key:"
+#~ msgstr "Sabit Anahtar:"
+
+#~ msgid ""
+#~ "Pre-shared file for Static Key encryption mode (non-TLS).\n"
+#~ "config: static <file>"
+#~ msgstr ""
+#~ "Statik Anahtar şifreleme kipi (non-TLS) için önceden paylaşılmış dosya.\n"
+#~ "yapılandırma: static <dosya>"
+
+#~ msgid ""
+#~ "IP address of the remote VPN endpoint.\n"
+#~ "config: ifconfig <l> <rn>"
+#~ msgstr ""
+#~ "Uzak VPN ucunun IP adresi:\n"
+#~ "yapılandırma: ifconfig <l> <rn>"
+
+#~ msgid ""
+#~ "IP address of the local VPN endpoint.\n"
+#~ "config: ifconfig <l> <rn>"
+#~ msgstr ""
+#~ "Yerel VPN ucunun IP adresi.\n"
+#~ "yapılandırma: ifconfig <l> <rn>"
+
+#~ msgid ""
+#~ "Direction for Static Key encryption mode (non-TLS).\n"
+#~ "If key direction is used, it must be the opposite of that used on the VPN "
+#~ "peer. For example, if the peer uses “1”, this connection must use “0”. If "
+#~ "you are unsure what value to use, contact your system administrator.\n"
+#~ "config: static <file> [direction]"
+#~ msgstr ""
+#~ "Statik Anahtar şifreleme kipi (non-TLS) için yön:\n"
+#~ "Eğer anahtar yönü kullanılırsa, bu VPN ucunun kullandığının tersi "
+#~ "olmalıdır. Örneğin; eğer diğer uç “1” kullanıyorsa bu bağlantı “0” "
+#~ "kullanmalıdır. Hangi değeri kullanacağınızdan emin değilseniz sistem "
+#~ "yöneticinize danışın.\n"
+#~ "yapılandırma: static <dosya> [yön]"
+
+#~ msgid "Type:"
+#~ msgstr "Tür:"
+
+#~ msgid "Select an authentication mode."
+#~ msgstr "Bir kimlik doğrulama yöntemi seçin."
+
+#~ msgid "Ad_vanced…"
+#~ msgstr "Ge_lişmiş…"
+
+#~ msgid "Anyconnect Advanced Options"
+#~ msgstr "Anyconnect Gelişmiş Seçenekleri"
+
+#~ msgid "Use custom gateway p_ort:"
+#~ msgstr "Özel ağ geçidi bağlantı n_oktası kullan:"
+
+#~ msgid ""
+#~ "TCP/UDP port number for peer. (Default value when there is no port for "
+#~ "gateway).\n"
+#~ "config: port"
+#~ msgstr ""
+#~ "Uç için TCP/UDP bağlantı noktası. (Ağ geçidi için bağlantı noktası "
+#~ "olmadığında kullanılacak olan varsayılan değer.)\n"
+#~ "yapılandırma: port"
+
+#~ msgid "Use custom _renegotiation interval:"
+#~ msgstr "Özel _görüşme aralığı kullan:"
+
+#~ msgid ""
+#~ "Renegotiate data channel key after the specified number of seconds.\n"
+#~ "config: reneg-sec"
+#~ msgstr ""
+#~ "Belirtildiği kadar saniye sonra veri kanalı anahtarını yeniden dene.\n"
+#~ "yapılandırma: reneg-sec"
+
+#~ msgid "Data _compression:"
+#~ msgstr "Veri _sıkıştırma:"
+
+#~ msgid ""
+#~ "Use fast LZO compression.\n"
+#~ "config: comp-lzo"
+#~ msgstr ""
+#~ "Hızlı LZO sıkıştırması kullan.\n"
+#~ "yapılandırma: comp-lzo"
+
+#~ msgid "Use a _TCP connection"
+#~ msgstr "_TCP bağlantısı kullan"
+
+#~ msgid ""
+#~ "Use TCP for communicating with remote host.\n"
+#~ "(This is a default setting only used when no protocol is specified for "
+#~ "the gateway.)\n"
+#~ "config: proto tcp-client | udp"
+#~ msgstr ""
+#~ "Uzak ana makineyle haberleşmek için TCP kullan.\n"
+#~ "(Yalnızca, ağ geçidi için belirtilmiş iletişim kuralı olmadığında "
+#~ "kullanılan varsayılan ayardır.)\n"
+#~ "yapılandırma: proto tcp-client | udp"
+
+#~ msgid "Set virtual _device type:"
+#~ msgstr "Sanal _aygıt türünü ayarla:"
+
+#~ msgid "Explicitly set virtual device type and name (TUN/TAP)."
+#~ msgstr "Sanal aygıt türünü ve adını (TNU/TAP) açıkça ayarlayın."
+
+#~ msgid ""
+#~ "Explicitly set virtual device type (TUN/TAP).\n"
+#~ "config: dev-type tun | tap"
+#~ msgstr ""
+#~ "Sanal aygıt türünü (TUN/TAP) açıkça ayarlayın.\n"
+#~ "yapılandırma: dev-type tun | tap"
+
+#~ msgid " and _name:"
+#~ msgstr " ve _adı:"
+
+#~ msgid ""
+#~ "Use custom name for TUN/TAP virtual device (instead of default “tun” or "
+#~ "“tap”).\n"
+#~ "config: dev <name>"
+#~ msgstr ""
+#~ "Sanal TUN/TAP aygıtı için özel isim kullan (“tun” veya “tap” dışında).\n"
+#~ "yapılandırma: dev <isim>"
+
+#~ msgid "Use custom tunnel Maximum Transmission _Unit (MTU):"
+#~ msgstr "Özel t_ünel En Çok Aktarım Birimi (MTU) kullan:"
+
+#~ msgid ""
+#~ "Take the TUN device MTU to be the specified value and derive the link MTU "
+#~ "from it.\n"
+#~ "config: tun-mtu"
+#~ msgstr ""
+#~ "TUN aygıtının MTU değerini belirtilen değer olarak al ve bağlantı MTU "
+#~ "değerini ondan türet.\n"
+#~ "yapılandırma: tun-mtu"
+
+#~ msgid "Use custom UDP _fragment size:"
+#~ msgstr "Özel UDP _parça boyutu kullan:"
+
+#~ msgid ""
+#~ "Enable internal datagram fragmentation with this maximum size.\n"
+#~ "config: fragment"
+#~ msgstr ""
+#~ "Bu azami değer ile dahili datagram parçalanmasını etkinleştir.\n"
+#~ "yapılandırma: fragment"
+
+#~ msgid "Restrict tunnel TCP Maximum _Segment Size (MSS)"
+#~ msgstr "Azami tünel TCP parça boyutunu (MS_S) kısıtla"
+
+#~ msgid ""
+#~ "Restrict tunnel TCP MSS.\n"
+#~ "config: mssfix"
+#~ msgstr ""
+#~ "Tünel TCP MSS değerini kısıtla.\n"
+#~ "yapılandırma: mssfix"
+
+#~ msgid "Rando_mize remote hosts"
+#~ msgstr "Uzak ana makineleri _rastgele seç"
+
+#~ msgid ""
+#~ "Randomize the order of gateways list (remote) as a kind of basic load-"
+#~ "balancing measure.\n"
+#~ "config: remote-random"
+#~ msgstr ""
+#~ "Ağ geçitleri listesinin (uzak) sırasını temel bir yük dağıtımı ölçüsü "
+#~ "olarak rastgele seç.\n"
+#~ "yapılandırma: remote-random"
+
+#~ msgid "IPv6 tun link"
+#~ msgstr "IPv6 tun bağlantısı"
+
+#~ msgid ""
+#~ "Build a tun link capable of forwarding IPv6 traffic\n"
+#~ "config: tun-ipv6"
+#~ msgstr ""
+#~ "IPv6 trafiğini yönlendirebilen tun bağlantısı oluştur\n"
+#~ "yapılandırma: tun-ipv6"
+
+#~ msgid "Specify pin_g interval:"
+#~ msgstr "Ping yineleme aralığı belirle:"
+
+#~ msgid ""
+#~ "Ping remote over the TCP/UDP control channel if no packets have been sent "
+#~ "for at least n seconds.\n"
+#~ "config: ping <n>"
+#~ msgstr ""
+#~ "En az n saniye boyunca herhangi bir paket gönderilmemişse, TCP/UDP "
+#~ "denetim kanalı üzerinden uzağa ping gönder.\n"
+#~ "yapılandırma: ping <n>"
+
+#~ msgid "Specify _exit or restart ping:"
+#~ msgstr "_Çıkış veya yeniden ping seçeneğini belirle:"
+
+#~ msgid ""
+#~ "Exit or restart after n seconds pass without reception of a ping or other "
+#~ "packet from remote.\n"
+#~ "config: ping-exit | ping-restart <n>"
+#~ msgstr ""
+#~ "N saniye geçtikten sonra ping veya başka bir paket uzaktan alınmazsa çık "
+#~ "veya yeniden başlat.\n"
+#~ "yapılandırma: ping-exit | ping-restart <n>"
+
+#~ msgid "Accept authenticated packets from any address (F_loat)"
+#~ msgstr "Herhangi bir adresten gelen doğrulanmış paketleri kabul et (F_loat)"
+
+#~ msgid ""
+#~ "Allow remote peer to change its IP address and/or port number, such as "
+#~ "due to DHCP (this is the default if --remote is not used). --float when "
+#~ "specified with --remote allows an Anyconnect session to initially connect "
+#~ "to a peer at a known address, however if packets arrive from a new "
+#~ "address and pass all authentication tests, the new address will take "
+#~ "control of the session. This is useful when you are connecting to a peer "
+#~ "which holds a dynamic address such as a dial-in user or DHCP client.\n"
+#~ "\n"
+#~ "Essentially, --float tells Anyconnect to accept authenticated packets "
+#~ "from any address, not only the address which was specified in the --"
+#~ "remote option.\n"
+#~ "\n"
+#~ "config: float"
+#~ msgstr ""
+#~ "Uzak paylaşımcıya, IP adresini ve/veya bağlantı noktasını DHCP üzerinden "
+#~ "değiştirmesi için izin ver (--remote seçeneği kullanılmıyorsa "
+#~ "varsayılandır). --remote ile bilinen bir adresten Anyconnect oturumuna "
+#~ "izin verildiğinde --float kullan ve bilinen adresten bir başlangıç "
+#~ "bağlantısı oluştur. Ayrıca paket yeni adresten ulaşırsa, tüm doğrulama "
+#~ "testlerini geç ve yeni adres oturumun denetimini eline alsın. Bu, DHCP "
+#~ "istemcisi veya telefon kullanıcısı gibi devingen adreslere sahip olan "
+#~ "paylaşımcıların bağlantısı için kullanışlıdır.\n"
+#~ "\n"
+#~ "Esas itibariyle --float, --remote seçeneğinden belirtilen herhangi bir "
+#~ "adrese, herhangi bir adresten doğrulanmış paketleri kabul etmesini "
+#~ "Anyconnect'e söyler.\n"
+#~ "\n"
+#~ "yapılandırma: float"
+
+#~ msgid "Specify max routes:"
+#~ msgstr "Azami yönlendirmeyi belirle:"
+
+#~ msgid ""
+#~ "Specify the maximum number of routes the server is allowed to specify.\n"
+#~ "config: max-routes <n>"
+#~ msgstr ""
+#~ "Sunucunun belirtmesine izin verilen azami yönlendirmeyi belirle.\n"
+#~ "yapılandırma: max-routes <n>"
+
+#~ msgid ""
+#~ "Encrypt packets with cipher algorithm. The default is BF-CBC (Blowfish in "
+#~ "Cipher Block Chaining mode).\n"
+#~ "config: cipher"
+#~ msgstr ""
+#~ "Paketleri bu şifreleme algoritmasıyla şifrele. Varsayılan BF-CBC "
+#~ "algoritmasıdır.\n"
+#~ "yapılandırma: cipher"
+
+#~ msgid "Use custom _size of cipher key:"
+#~ msgstr "Özel _boyutlu şifreleme anahtarı kullan:"
+
+#~ msgid ""
+#~ "Set cipher key size to a custom value. If unspecified, it defaults to "
+#~ "cipher-specific size.\n"
+#~ "config: keysize <n>"
+#~ msgstr ""
+#~ "Şifreleme anahtar boyutunu özel bir değer olarak ayarla. Belirtilmezse "
+#~ "şifrelemeye özel varsayılan değer kullanılır.\n"
+#~ "yapılandırma: keysize <n>"
+
+#~ msgid ""
+#~ "Authenticate packets with HMAC using message digest algorithm. The "
+#~ "default is SHA1.\n"
+#~ "config: auth"
+#~ msgstr ""
+#~ "HMAC ileti özeti algoritmasını kullanarak paketlerin kimlik doğrulaması "
+#~ "yap.Varsayılan SHA1'dir.\n"
+#~ "yapılandırma: auth"
+
+#~ msgid "Ci_pher:"
+#~ msgstr "Şi_freleme:"
+
+#~ msgid "_HMAC Authentication:"
+#~ msgstr "_HMAC Kimlik Doğrulaması:"
+
+#~ msgid "Disable cipher _negotiation"
+#~ msgstr "Şifre _görüşmesini devre dışı bırak"
+
+#~ msgid ""
+#~ "Disable cipher negotiation between client and server.\n"
+#~ "config: ncp-disable"
+#~ msgstr ""
+#~ "İstemci ve sunucu arasındaki şifre görüşmesini devre dışı bırak.\n"
+#~ "yapılandırma: ncp-disable"
+
+#~ msgid "Verify CRL from file"
+#~ msgstr "CRL'yi dosyadan doğrula"
+
+#~ msgid ""
+#~ "Check peer certificate against the specified file in PEM format. A CRL "
+#~ "(certificate revocation list) is used when a particular key is "
+#~ "compromised but when the overall PKI is still intact."
+#~ msgstr ""
+#~ "Uç sertifikasını belirtilen dosyaya karşı PEM biçiminde denetleyin. CRL "
+#~ "(sertifika iptal listesi), belirli bir anahtarın güvenliği ihlal "
+#~ "edildiğinde ancak genel PKI hala sağlam olduğunda kullanılır."
+
+#~ msgid "Verify CRL from directory"
+#~ msgstr "CRL'yi dizinden doğrula"
+
+#~ msgid ""
+#~ "Check peer certificate by looking at files in the specified directory. "
+#~ "The directory must contain files named as revoked serial numbers (the "
+#~ "files may be empty, the contents are never read)."
+#~ msgstr ""
+#~ "Belirtilen dizindeki dosyalara bakarak uç sertifikasını denetleyin. "
+#~ "Dizin, iptal edilmiş seri numaraları olarak adlandırılmış dosyalar "
+#~ "içermelidir (dosyalar boş olabilir, içerikler asla okunmaz)."
+
+#~ msgid "Choose CRL file"
+#~ msgstr "CRL dosyası seç"
+
+#~ msgid "Choose CRL directory"
+#~ msgstr "CRL dizini seç"
+
+#~ msgid "Security"
+#~ msgstr "Güvenlik"
+
+#~ msgid "_Subject Match:"
+#~ msgstr "_Konu Eşleşmesi:"
+
+#~ msgid ""
+#~ "Subject or Common Name to verify server certificate information against.\n"
+#~ "\n"
+#~ "config: verify-x509-name subject-or-name [mode]\n"
+#~ "config (legacy mode): tls-remote subject-or-name"
+#~ msgstr ""
+#~ "Sunucu sertifika bilgisini doğrulamak için Konu (Subject) veya Ortak Ad "
+#~ "(Common Name).\n"
+#~ "\n"
+#~ "yapılandırma: verify-x509-name subject-or-name [kip]\n"
+#~ "yapılandırma (eski kip): tls-remote subject-or-name"
+
+#~ msgid "Server _Certificate Check:"
+#~ msgstr "Sunucu _Sertifika Denetimi:"
+
+#~ msgid ""
+#~ "Verify server certificate identification.\n"
+#~ "\n"
+#~ "When enabled, connection will only succeed if the server certificate "
+#~ "matches some expected properties.\n"
+#~ "Matching can either apply to the whole certificate subject (all the "
+#~ "fields),\n"
+#~ "or just the Common Name (CN field).\n"
+#~ "\n"
+#~ "The legacy option tls-remote is deprecated and removed from Anyconnect "
+#~ "2.4 and newer. Do not use it anymore.\n"
+#~ "\n"
+#~ "config: verify-x509-name subject-or-name [mode]\n"
+#~ "config (legacy mode): tls-remote subject-or-name"
+#~ msgstr ""
+#~ "Sunucu sertifika kimliğini doğrula.\n"
+#~ "\n"
+#~ "Etkinleştirildiğinde, bağlantı yalnızca sunucu sertifikası beklenen kimi "
+#~ "özelliklerle eşleşirse başarılı olur.\n"
+#~ "Eşleştirme tüm sertifika konusu için (tüm alanlar),\n"
+#~ "veya yalnızca ortak Ortak Ad (CN/Common Name alanı) için geçerli "
+#~ "olabilir.\n"
+#~ "\n"
+#~ "Eski seçenek tls-remote, Anyconnect 2.4 ve sonraki sürümlerden "
+#~ "kaldırılmıştır. Artık kullanmayın.\n"
+#~ "\n"
+#~ "yapılandırma: verify-x509-name subject-or-name [kip]\n"
+#~ "yapılandırma (eski kip): tls-remote subject-or-name"
+
+#~ msgid "_Verify peer (server) certificate usage signature"
+#~ msgstr "_Karşı uç (sunucu) sertifikasını imza kullanarak doğrula"
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit key usage and "
+#~ "extended key usage based on RFC3280 TLS rules."
+#~ msgstr ""
+#~ "Diğer ucun sertifikasının kesin anahtar kullanımı ve RFC3280 TLS "
+#~ "kurallarına dayanan genişletilmiş anahtar kullanımı ile imzalanmış "
+#~ "olmasını gerektir."
+
+#~ msgid "_Remote peer certificate TLS type:"
+#~ msgstr "_Uzak uç sertifikası TLS türü:"
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit key usage and "
+#~ "extended key usage based on RFC3280 TLS rules.\n"
+#~ "config: remote-cert-tls client|server"
+#~ msgstr ""
+#~ "Diğer ucun sertifikasının kesin anahtar kullanımı ve RFC3280 TLS "
+#~ "kurallarına dayanan genişletilmiş anahtar kullanımı ile imzalanmış "
+#~ "olmasını gerektir.\n"
+#~ "yapılandırma: remote-cert-tls client|server"
+
+#~ msgid "_Verify peer (server) certificate nsCertType designation"
+#~ msgstr "_Karşı uç (sunucu) sertifikasını nsCertType atamasıyla doğrula"
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit nsCertType "
+#~ "designation."
+#~ msgstr ""
+#~ "Uç sertifikasının açık nsCertType ataması ile imzalanmış olmasını "
+#~ "gerektir."
+
+#~ msgid "_Remote peer certificate nsCert designation:"
+#~ msgstr "_Uzak uç sertifikası nsCert ataması:"
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit nsCertType "
+#~ "designation.\n"
+#~ "config: ns-cert-type client|server"
+#~ msgstr ""
+#~ "Uç sertifikasının açık nsCertType ataması ile imzalanmış olmasını "
+#~ "gerektir.\n"
+#~ "yapılandırma: ns-cert-type client|server"
+
+#~ msgid "Key _Direction:"
+#~ msgstr "Anahtar _Yönü:"
+
+#~ msgid ""
+#~ "Add an additional layer of HMAC authentication on top of the TLS control "
+#~ "channel to protect against DoS attacks. In case of TLS-Crypt mode, the "
+#~ "control channel is also encrypted.\n"
+#~ "config: tls-auth <file> [direction] | tls-crypt <file>"
+#~ msgstr ""
+#~ "DoS saldırılarına karşı güvenlik sağlamak için TLS denetim kanalının "
+#~ "üzerine ek bir HMAC kimlik doğrulama katmanı ekler. TLS-Crypt kipi "
+#~ "durumunda, denetim kanalı da şifrelenir.\n"
+#~ "yapılandırma: tls-auth <dosya> [yön] | tls-crypt <dosya>"
+
+#~ msgid ""
+#~ "Direction parameter for static key mode.\n"
+#~ "If key direction is used, it must be the opposite of that used on the VPN "
+#~ "peer. For example, if the peer uses “1”, this connection must use “0”. If "
+#~ "you are unsure what value to use, contact your system administrator.\n"
+#~ "config: tls-auth <file> [direction]"
+#~ msgstr ""
+#~ "Statik anahtar kipi için parametre yönü.\n"
+#~ "Eğer anahtar yönü kullanılırsa, bu VPN ucunun kullandığının tersi "
+#~ "olmalıdır. Örneğin; eğer diğer uç “1” kullanıyorsa bu bağlantı “0” "
+#~ "kullanmalıdır. Hangi değeri kullanacağınızdan emin değilseniz sistem "
+#~ "yöneticinize danışın.\n"
+#~ "yapılandırma: tls-auth <dosya> [yön]"
+
+#~ msgid "Key _File:"
+#~ msgstr "Anahtar _Dosyası:"
+
+#~ msgid "Mode:"
+#~ msgstr "Kip:"
+
+#~ msgid "Add an additional layer of encryption or HMAC authentication."
+#~ msgstr "Ek şifreleme veya HMAC kimlik doğrulaması katmanı ekle."
+
+#~ msgid "Extra Certificates:"
+#~ msgstr "Ek Sertifikalar:"
+
+#~ msgid ""
+#~ "Specify a file containing one or more PEM certs (concatenated together) "
+#~ "that complete the local certificate chain.\n"
+#~ "config: extra-certs <file>"
+#~ msgstr ""
+#~ "Yerel sertifika zincirini tamamlayan bir veya daha çok PEM sertifikası "
+#~ "(birlikte birleştirilmiş) içeren bir dosya belirtin.\n"
+#~ "yapılandırma: extra-certs <file>"
+
+#~ msgid "Additional TLS authentication or encryption"
+#~ msgstr "Ek TLS kimlik doğrulaması veya şifreleme"
+
+#~ msgid "Controls min and max version allowed for TLS."
+#~ msgstr "TLS için izin verilen asgari ve azami sürümü denetler."
+
+#~ msgid "TLS version control"
+#~ msgstr "TLS sürüm denetimi"
+
+#~ msgid "TLS _min version: "
+#~ msgstr "TLS _asgari sürüm: "
+
+#~ msgid ""
+#~ " Sets the minimum TLS version we will accept from the peer (default is "
+#~ "\"1.0\").  Examples for version include \"1.0\", \"1.1\", or \"1.2\".  If "
+#~ "'or-highest' is specified and version is not recognized, we will only "
+#~ "accept the highest TLS version supported by the local SSL implementation."
+#~ msgstr ""
+#~ " Eşten kabul edeceğimiz asgari TLS sürümünü belirler (öntanımlı "
+#~ "\"1.0\"dır).  Sürüm örnekleri şunlardır: \"1.0\", \"1.1\", or \"1.2\".  "
+#~ "Eğer 'or-highest' belirtilmiş ve sürüm tanınmıyorsa, yalnızca yerel SSL "
+#~ "uyarlamasınca desteklenen en yüksek TLS sürümünü kabul edeceğiz."
+
+#~ msgid "TLS ma_x version: "
+#~ msgstr "TLS _azami sürüm:"
+
+#~ msgid ""
+#~ "Set the maximum TLS version we will use (default is the highest version "
+#~ "supported).  Examples for version include \"1.0\", \"1.1\", or \"1.2\"."
+#~ msgstr ""
+#~ "Kullanacağımız azami TLS sürümünü belirler (desteklenen en yüksek sürüm "
+#~ "öntanımlıdır).  Sürüm örnekleri şunlardır: \"1.0\", \"1.1\", or \"1.2\"."
+
+#~ msgid "TLS Authentication"
+#~ msgstr "TLS Kimlik Doğrulaması"
+
+#~ msgid ""
+#~ "Proxy type: HTTP or Socks.\n"
+#~ "config: http-proxy or socks-proxy"
+#~ msgstr ""
+#~ "Vekil sunucu türü: HTTP veya Socks.\n"
+#~ "yapılandırma: http-proxy veya socks-proxy"
+
+#~ msgid "Proxy _Type:"
+#~ msgstr "Vekil Sunucu _Türü:"
+
+#~ msgid ""
+#~ "<i>Select this option if your organization requires the use of a proxy "
+#~ "server to access the Internet.</i>"
+#~ msgstr ""
+#~ "<i>Eğer kurumunuz internet bağlantısı için bir vekil sunucu kullanmayı "
+#~ "gerektiriyorsa bu seçeneği seçin.</i>"
+
+#~ msgid "Server _Address:"
+#~ msgstr "Sunucu _Adresi:"
+
+#~ msgid ""
+#~ "Connect to remote host through a proxy with this address.\n"
+#~ "config: http-proxy or socks-proxy"
+#~ msgstr ""
+#~ "Uzak ana makineye bu vekil sunucu adresiyle bağlan.\n"
+#~ "yapılandırma: http-proxy veya socks-proxy"
+
+#~ msgid "_Port:"
+#~ msgstr "_Bağlantı Noktası:"
+
+#~ msgid ""
+#~ "Connect to remote host through a proxy with this port.\n"
+#~ "config: http-proxy or socks-proxy"
+#~ msgstr ""
+#~ "Uzak ana makineye bu vekil sunucu bağlantı noktasıyla bağlan.\n"
+#~ "yapılandırma: http-proxy veya socks-proxy"
+
+#~ msgid "_Retry indefinitely when errors occur"
+#~ msgstr "_Hata oluştuğunda sonsuz kez dene"
+
+#~ msgid ""
+#~ "Retry indefinitely on proxy errors. It simulates a SIGUSR1 reset.\n"
+#~ "config: http-proxy-retry or socks-proxy-retry"
+#~ msgstr ""
+#~ "Vekil sunucu hatalarında sürekli yeniden dene. SIGUSR1 sıfırlamasını "
+#~ "taklit eder.\n"
+#~ "yapılandırma: http-proxy-retry veya socks-proxy-retry"
+
+#~ msgid "Proxy _Username:"
+#~ msgstr "Vekil _Sunucu Kullanıcı Adı:"
+
+#~ msgid "Proxy Passwor_d:"
+#~ msgstr "Vekil Sunucu _Parolası:"
+
+#~ msgid "HTTP/Socks proxy username passed to Anyconnect when prompted for it."
+#~ msgstr ""
+#~ "HTTP/Socks vekil sunucu kullanıcı adı sorulduğunda Anyconnect'e geçildi."
+
+#~ msgid "HTTP/Socks proxy password passed to Anyconnect when prompted for it."
+#~ msgstr "HTTP/Socks vekil sunucu parolası sorulduğunda Anyconnect'e geçildi."
+
+#~ msgid "_Show password"
+#~ msgstr "_Parolayı göster"
+
+#~ msgid "Proxies"
+#~ msgstr "Vekil sunucular"
+
+#~ msgid "Path mtu discovery"
+#~ msgstr "Yol mtu keşfi"
+
+#~ msgid "Connect timeout"
+#~ msgstr "Bağlantı zaman aşımı"
+
+#~ msgid ""
+#~ "The timeout in seconds before trying the next server. This timeout "
+#~ "includes proxy and TCP connect timeouts.\n"
+#~ "config: connect-timeout <n> | server-poll-timeout <n>"
+#~ msgstr ""
+#~ "Sonraki sunucuyu denemeden önce saniye türünden zaman aşımı süresi. Bu "
+#~ "zaman aşımı, vekil sunucu ve TCP bağlantı zaman aşımlarını içerir.\n"
+#~ "yapılandırma: connect-timeout <n> | server-poll-timeout <n>"
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "Push peer info"
+#~ msgstr "Eş bilgisi ilet"
+
+#~ msgid ""
+#~ "Push additional information about the client to server.\n"
+#~ "config: push-peer-info"
+#~ msgstr ""
+#~ "Sunucuya istemci hakkında ek bilgi ilet.\n"
+#~ "yapılandırma. push-peer-info"
+
+#~ msgid "Misc"
+#~ msgstr "Çeşitli"
+
+#~ msgid "Authenticate VPN %s"
+#~ msgstr "%s VPN Kimlik Doğrulaması"
+
+#~ msgid ""
+#~ "Select the LZO data compression mode.\n"
+#~ "config: comp-lzo"
+#~ msgstr ""
+#~ "LZO veri sıkıştırma kipini seç.\n"
+#~ "yapılandırma: comp-lzo"
+
+#~ msgid "Choose your personal certificate..."
+#~ msgstr "Kişisel sertifikanızı seçin..."
+
+#~ msgid "Choose your private key..."
+#~ msgstr "Özel anahtarınızı seçin..."
+
+#~ msgid "Choose a Certificate Authority certificate..."
+#~ msgstr "Bir Sertifika Yetkilisi sertifikası seç..."
+
+#~ msgid "PEM or PKCS#12 certificates (*.pem, *.crt, *.key, *.cer, *.p12)"
+#~ msgstr "PEM veya PKCS#12 sertifikaları (*.pem, *.crt, *.key, *.cer, *.p12)"
+
+#~ msgid "PEM certificates (*.pem, *.crt, *.key, *.cer)"
+#~ msgstr "PEM sertifikaları (*.pem, *.crt, *.key, *.cer)"
+
+#~ msgid "could not open file for writing"
+#~ msgstr "dosya yazmak için açılamadı"
+
+#~ msgid "could not create anyconnect object"
+#~ msgstr "anyconnect nesnesi oluşturulamadı"
+
+#~ msgid "unknown Anyconnect file extension"
+#~ msgstr "bilinmeyen Anyconnect dosya uzantısı"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "<b>General</b>"
+#~ msgstr "<b>Genel</b>"
+
+#~ msgid "<b>Authentication</b>"
+#~ msgstr "<b>Kimlik Doğrulama</b>"
+
+#~ msgid "_Show passwords"
+#~ msgstr "_Parolaları göster"
+
+#~ msgid "Password for private key"
+#~ msgstr "Özel anahtar için parola"
+
+#~ msgid "Private Key Password:"
+#~ msgstr "Özel Anahtar Parolası:"
+
+#~ msgid ""
+#~ "Local peer's private key in .pem format.\n"
+#~ "config: key"
+#~ msgstr ""
+#~ "Yerel ucun .pem biçiminde özel anahtarı.\n"
+#~ "yapılandırma: key"
+
+#~ msgid "Private Key:"
+#~ msgstr "Özal Anahtar:"
+
+#~ msgid ""
+#~ "Certificate authority (CA) file in .pem format.\n"
+#~ "config: ca"
+#~ msgstr ""
+#~ ".pem biçiminde sertifika yetkilisi (CA) dosyası.\n"
+#~ "yapılandırma: ca"
+
+#~ msgid "CA Certificate:"
+#~ msgstr "CA Sertifikası:"
+
+#~ msgid ""
+#~ "Local peer's signed certificate in .pem format (signed by CA of CA "
+#~ "Certificate).\n"
+#~ "config: cert"
+#~ msgstr ""
+#~ "Yerel ucun .pem formatındaki imzalanmış sertifikası (CA sertifikasının "
+#~ "CA'sı tarafından imzalanmış).\n"
+#~ "yapılandırma: cert"
+
+#~ msgid ""
+#~ "<i>Connect only to servers whose certificate matches the given subject.\n"
+#~ "Example: /CN=myvpn.company.com</i>"
+#~ msgstr ""
+#~ "<i>Sadece belirtilen konuyla eşleşen sertifikaya sahip sunuculara "
+#~ "bağlan.\n"
+#~ "Örnek: /CN=vpnim.sirket.com</i>"
+
+#~ msgid ""
+#~ "Accept connections only from a host with X509 name or common name equal "
+#~ "to the specified one.\n"
+#~ "config: tls-remote"
+#~ msgstr ""
+#~ "Sadece X509 adı olan veya belirtilen birine eşit ortak adı olan bir "
+#~ "bilgisayardan bağlantıları kabul et.\n"
+#~ "yapılandırma: tls-remote"
+
+#~ msgid "Invalid HMAC auth."
+#~ msgstr "Geçersiz HMAC doğrulaması."
+
+#~ msgid "Missing required local IP address for static key mode."
+#~ msgstr "Statik anahtar kipi için gerekli yerel IP adresi eksik."
+
+#~ msgid "Missing required remote IP address for static key mode."
+#~ msgstr "Statik anahtar kipi için gerekli uzak IP adresi eksik."
+
+#~ msgid ""
+#~ "Could not process the request because the anyconnect connection type was "
+#~ "invalid."
+#~ msgstr "Anyconnect bağlantı türü geçersiz olduğundan istek işlenemedi."
+
+#~ msgid "Saved"
+#~ msgstr "Kaydedildi"
+
+#~ msgid "Always Ask"
+#~ msgstr "Daima Sor"
+
+#~ msgid "Not Required"
+#~ msgstr "Gerekli Değil"
+
+#~ msgid "VPN Connection Manager (Anyconnect)"
+#~ msgstr "VPN Bağlantı Yöneticisi (Anyconnect)"
+
+#~ msgid "Add, Remove, and Edit VPN Connections"
+#~ msgstr "VPN Bağlantılarını Ekle, Çıkart ve Düzenle"

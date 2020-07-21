@@ -1,0 +1,568 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: networkmanager-anyconnect.networkmamager-0-6-0=release."
+"pot\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-30 22:41+0100\n"
+"PO-Revision-Date: 2007-03-19 15:41+0530\n"
+"Last-Translator: sonam pelden <sonaa_peldn@yahoo.com>\n"
+"Language-Team: Dzongkha <pgeyleg@dit.gov.bt>\n"
+"Language: dz\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"X-Poedit-Language: Dzongkha\n"
+"X-Poedit-Country: Bhutan\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:1
+#, fuzzy
+msgid "Anyconnect client"
+msgstr "ཝི་པི་ཨེན་ཁྱེ་བའི་ཞབས་ཏོག་"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:2
+msgid "Client for Anyconnect virtual private networks"
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:3
+msgid "Support for configuring Anyconnect virtual private network connections."
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:4
+msgid "Anyconnect is a popular and flexible free-software VPN solution."
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:5
+msgid "The NetworkManager Developers"
+msgstr ""
+
+#: ../properties/nm-anyconnect-editor-plugin.c:35
+#, fuzzy
+msgid "Cisco AnyConnect"
+msgstr "ཝི་པི་ཨེན་ཁྱེ་བའི་ཞབས་ཏོག་"
+
+#: ../properties/nm-anyconnect-editor-plugin.c:36
+msgid "Runs the proprietary Cisco AnyConnect VPN."
+msgstr ""
+
+#: ../properties/nm-anyconnect-editor.c:299
+msgid "could not load UI widget"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:946
+#, c-format
+msgid "object class '%s' has no property named '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:953
+#, c-format
+msgid "property '%s' of object class '%s' is not writable"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:960
+#, c-format
+msgid ""
+"construct property \"%s\" for object '%s' can't be set after construction"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:968
+#, c-format
+msgid "'%s::%s' is not a valid property name; '%s' is not a GObject subtype"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:977
+#, c-format
+msgid "unable to set property '%s' of type '%s' from value of type '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:988
+#, c-format
+msgid ""
+"value \"%s\" of type '%s' is invalid or out of range for property '%s' of "
+"type '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:69
+#, c-format
+msgid "unable to get editor plugin name: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:103
+#, c-format
+msgid "missing plugin file \"%s\""
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:109
+#, c-format
+msgid "cannot load editor plugin: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:118
+#, c-format
+msgid "cannot load factory %s from plugin: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:144
+msgid "unknown error creating editor instance"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:567 ../src/nm-anyconnect-service.c:682
+msgid "Could not find the anyconnect binary."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:580
+#, fuzzy
+msgid ""
+"Could not process the request because the VPN connection settings were "
+"invalid."
+msgstr ""
+"ཝི་པི་ཨེན་ནང་བསྐྱོད་འཐུས་ཤོར་བྱུང་ཡོདཔ་  ག་ཅི་སྦེ་ཟེར་བ་ཅིན་  ཝི་པི་ཨེན་རིམ་སྒྲིག་གདམ་ཁ་ཚུ་ནུས་ཅན་མེད།"
+
+#: ../src/nm-anyconnect-service.c:602
+msgid ""
+"Could not attempt connection, unable to find the setting for the gateway."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:875
+msgid "Don’t quit when VPN connection terminates"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:876
+msgid "Enable verbose debug logging (may expose passwords)"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:877
+msgid "D-Bus name to use for this instance"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:905
+msgid ""
+"nm-anyconnect-service provides integrated proprietary Cisco AnyConnect "
+"capability to NetworkManager."
+msgstr ""
+
+#: ../properties/nm-anyconnect-dialog.ui.h:1
+msgid "General"
+msgstr ""
+
+#: ../properties/nm-anyconnect-dialog.ui.h:2
+#, fuzzy
+msgid "_Gateway:"
+msgstr "འཛུལ་སྒོའི་འདྲེན་ལམ: (_P)"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:3
+msgid "VPN host to connect to"
+msgstr ""
+
+#, fuzzy, c-format
+#~ msgid "Authenticate VPN %s"
+#~ msgstr "ཝི་པི་ཨེན་བདེན་བཤད་འབད་"
+
+#, fuzzy
+#~ msgid "Password:"
+#~ msgstr "ཆོག་ཡིག: (_P)"
+
+#~ msgid "Certificate password:"
+#~ msgstr "ལག་ཁྱེལ་ཆོག་ཡིག:"
+
+#~ msgid "Authenticate VPN"
+#~ msgstr "ཝི་པི་ཨེན་བདེན་བཤད་འབད་"
+
+#, fuzzy
+#~ msgid "Certificate pass_word:"
+#~ msgstr "ལག་ཁྱེལ་ཆོག་ཡིག:"
+
+#, c-format
+#~ msgid "You need to authenticate to access the Virtual Private Network '%s'."
+#~ msgstr "བར་ཅུ་ཡལ་སྒེར་སྡེ་ཡོངས་འབྲེལ་'%s'འཛུལ་སྤྱོད་འབད་ནི་ལུ་ ཁྱོད་ཀྱིས་བདེན་བཤད་འབད་དགོ།"
+
+#~ msgid "VPN Connection Manager (Anyconnect)"
+#~ msgstr "ཝི་པི་ཨེན་མཐུད་ལམ་འཛིན་སྐྱོང་པ(ཝི་པི་ཨེན་ཁ་ཕྱེ)"
+
+#~ msgid "Add, Remove, and Edit VPN Connections"
+#~ msgstr "ཝི་པི་ཨེན་མཐུད་ལམ་ཚུ་ཁ་སྐོང་བརྐྱབ་ནི་རྩ་བསྐྲད་གཏང་ནི་དང་ཞུན་དག་འབད"
+
+#, fuzzy
+#~ msgid "Default"
+#~ msgstr "(སྔོན་སྒྲིག: 1194)"
+
+#, fuzzy
+#~ msgid "Client"
+#~ msgstr "ཝི་པི་ཨེན་ཁྱེ་བའི་ཞབས་ཏོག་"
+
+#~ msgid "TUN"
+#~ msgstr "ཊི་ཡུ་ཨེན་"
+
+#~ msgid "TAP"
+#~ msgstr "ཊི་ཨེ་པི་"
+
+#, fuzzy
+#~ msgid "Certificates (TLS)"
+#~ msgstr "ལག་ཁྱེར:"
+
+#~ msgid "Password"
+#~ msgstr "ཆོག་ཡིག་"
+
+#, fuzzy
+#~ msgid "not a valid Anyconnect configuration file"
+#~ msgstr "ཝི་པི་ཨེན་ཁ་ཕྱེ་བའི་རིམ་སྒྲིག་"
+
+#, fuzzy
+#~ msgid "<b>Authentication</b>"
+#~ msgstr "<b>མཐུད་ལམ་མིང་</b>"
+
+#, fuzzy
+#~ msgid "_Show passwords"
+#~ msgstr "ཆོག་ཡིག: (_P)"
+
+#, fuzzy
+#~ msgid "Private Key Password:"
+#~ msgstr "ལག་ཁྱེལ་ཆོག་ཡིག:"
+
+#, fuzzy
+#~ msgid "Private Key:"
+#~ msgstr "རུབ་སྤྱོད་འབད་ཡོད་པའི་ལྡེ་མིག:"
+
+#, fuzzy
+#~ msgid "CA Certificate:"
+#~ msgstr "ལག་ཁྱེར:"
+
+#, fuzzy
+#~ msgid "User Certificate:"
+#~ msgstr "ལག་ཁྱེར:"
+
+#, fuzzy
+#~ msgid "User name:"
+#~ msgstr "ལག་ལེན་པའི་མིང་:"
+
+#, fuzzy
+#~ msgid "Remote IP Address:"
+#~ msgstr "ཐག་རིང་གི་ཨའི་པི:"
+
+#, fuzzy
+#~ msgid "Local IP Address:"
+#~ msgstr "ཉེ་གནས་ཨའི་པི:"
+
+#, fuzzy
+#~ msgid "Key Direction:"
+#~ msgstr "ཕྱོགས:"
+
+#, fuzzy
+#~ msgid "Static Key:"
+#~ msgstr "རུབ་སྤྱོད་འབད་ཡོད་པའི་ལྡེ་མིག:"
+
+#, fuzzy
+#~ msgid "Ad_vanced..."
+#~ msgstr "སྔ་གཡར་"
+
+#~ msgid "Anyconnect Advanced Options"
+#~ msgstr "ཝི་པི་ཨེན་ཁ་ཕྱེ་སྔ་གཡར་གདམ་ཁ་ཚུ་"
+
+#, fuzzy
+#~ msgid "Use custom gateway p_ort:"
+#~ msgstr "འཛུལ་སྒོའི་འདྲེན་ལམ: (_P)"
+
+#, fuzzy
+#~ msgid "Use L_ZO data compression"
+#~ msgstr "ཨེལ་ཛེརཌི་ཨེབ་བཙུགས་ལག་ལེན་འཐབ་"
+
+#, fuzzy
+#~ msgid ""
+#~ "Use fast LZO compression.\n"
+#~ "config: comp-lzo"
+#~ msgstr "ཨེལ་ཛེརཌི་ཨེབ་བཙུགས་ལག་ལེན་འཐབ་"
+
+#, fuzzy
+#~ msgid "Use a _TCP connection"
+#~ msgstr "ཊི་སི་པི་མཐུད་ལམ་ལག་ལེན་འཐབ་"
+
+#, fuzzy
+#~ msgid "Ci_pher:"
+#~ msgstr "གསང་ཡིག:  %s"
+
+#, fuzzy
+#~ msgid "Key _Direction:"
+#~ msgstr "ཕྱོགས:"
+
+#, fuzzy
+#~ msgid "TLS Authentication"
+#~ msgstr "ཝི་པི་ཨེན་བདེན་བཤད་འབད་"
+
+#, fuzzy
+#~ msgid "Server _Address:"
+#~ msgstr "འཛུལ་སྒོའི་ཁ་བྱང་: (_G)"
+
+#, fuzzy
+#~ msgid "_Port:"
+#~ msgstr "འདྲེན་ལམ:  %s"
+
+#, fuzzy
+#~ msgid "Proxy _Username:"
+#~ msgstr "ལག་ལེན་པའི་མིང་: (_U)"
+
+#, fuzzy
+#~ msgid "Proxy Passwor_d:"
+#~ msgstr "ཆོག་ཡིག: (_P)"
+
+#, fuzzy
+#~ msgid "_Show password"
+#~ msgstr "ཆོག་ཡིག: (_P)"
+
+#, fuzzy
+#~ msgid "No VPN configuration options."
+#~ msgstr "ཝི་པི་ཨེན་ཁ་ཕྱེ་བའི་རིམ་སྒྲིག་"
+
+#, fuzzy
+#~ msgid "Invalid connection type."
+#~ msgstr "མཐུད་ལམ་དབྱེ་བ་"
+
+#~ msgid "_Secondary Password:"
+#~ msgstr "གལ་ནད་ཆུང་བའི་ཆོག་ཡིག: (_S)"
+
+#~ msgid "_Domain:"
+#~ msgstr "ཌོ་མེན་: (_D)"
+
+#~ msgid "Connect _anonymously"
+#~ msgstr "མིང་མེད་ཐོག་ལས་མཐུད།(_a)"
+
+#~ msgid "Connect as _user:"
+#~ msgstr "ལག་ལེན་པ་བཟུམ་སྦེ་མཐུད:(_u)"
+
+#~ msgid "_Remember password for this session"
+#~ msgstr "ལཱ་ཡུན་འདི་གི་དོན་ལུ་ ཆོག་ཡིག་སེམས་ཁར་བཞག(_R)"
+
+#~ msgid "_Save password in keyring"
+#~ msgstr "ལྡེ་འཁོར་ནང་ ཆོག་ཡིག་སྲུངས་(_S)"
+
+#~ msgid "The following Anyconnect connection will be created:"
+#~ msgstr "འོག་གི་ཝི་པི་ཨེན་ཁ་ཕྱེ་བའི་མཐུད་ལམ་འདི་གསར་བསྐྲུན་འབད་ནི་ཨིན:"
+
+#~ msgid "Name:  %s"
+#~ msgstr "མིང་:%s"
+
+#~ msgid "Connection Type: X.509 Certificates"
+#~ msgstr "མཐུད་ལམ་དབྱེ་བ: X.509 ལག་ཁྱེར་"
+
+#~ msgid "CA:  %s"
+#~ msgstr "སི་ཨེ: %s"
+
+#~ msgid "Cert:  %s"
+#~ msgstr "ངེས་ཅན: %s"
+
+#~ msgid "Key:  %s"
+#~ msgstr "ལྡེ་མིག: %s"
+
+#~ msgid "Connection Type: Shared Key"
+#~ msgstr "མཐུད་ལམ་དབྱེ་བ: རུབ་སྤྱོད་འབད་ཡོད་པའི་ལྡེ་མིག་"
+
+#~ msgid "Shared Key:  %s"
+#~ msgstr "རུབ་སྤྱོད་འབད་ཡོད་པའི་ལྡེ་མིག་: %s"
+
+#~ msgid "Local IP:  %s"
+#~ msgstr "ཉེ་གནས་ཨའི་པི: %s"
+
+#~ msgid "Remote IP:  %s"
+#~ msgstr "ཐག་རིང་གི་ཨའི་པི: %s"
+
+#~ msgid "Connection Type: Password"
+#~ msgstr "མཐུད་ལམ་དབྱེ་བ: ཆོག་ཡིག་"
+
+#~ msgid "Username:  %s"
+#~ msgstr "ལག་ལེན་པའི་མིང་: %s"
+
+#~ msgid "Connection Type: X.509 with Password Authentication"
+#~ msgstr "མཐུད་ལམ་དབྱེ་བ: X.509འདི་ཆོག་ཡིག་བདེན་བཤད་དང་ཅིག་ཁར་"
+
+#~ msgid "Remote:  %s"
+#~ msgstr "ཐག་རིང་གི:  %s"
+
+#~ msgid "Device: %s"
+#~ msgstr "ཐབས་འཕྲུལ: %s"
+
+#~ msgid "Protocol: %s"
+#~ msgstr "གནད་སྤེལ་ལམ་ལུགས: %s"
+
+#~ msgid "TCP"
+#~ msgstr "ཊི་སི་པི་"
+
+#~ msgid "UDP"
+#~ msgstr "ཡུ་ཌི་པི་"
+
+#~ msgid "Routes:  %s"
+#~ msgstr "འགྲུལ་ལམ:  %s"
+
+#~ msgid "Use LZO Compression: %s"
+#~ msgstr "ཨེལ་ཛེརཌི་ཨོ་ཨེབ་བཙུགས་ལག་ལེན་འཐབ: %s"
+
+#~ msgid "Yes"
+#~ msgstr "ཨིན་"
+
+#~ msgid "No"
+#~ msgstr "མེན་"
+
+#~ msgid "TLS auth:  %s %s"
+#~ msgstr "ཊི་ཨེལ་ཨེསི་བདེན་བཤད:  %s %s"
+
+#~ msgid "The connection details can be changed using the \"Edit\" button."
+#~ msgstr "མཐུད་ལམ་རྒྱས་བཤད་ཚུ་  \"Edit\" ཨེབ་རྟ་ལག་ལེན་འཐབ་སྟེ་བསྒྱུར་བཅོས་འབད་ཚུགས།"
+
+#~ msgid "Cannot import settings"
+#~ msgstr "སྒྲིག་སྟངས་ཚུ་ནང་འདྲེན་འབད་མི་ཚུགས་"
+
+#~ msgid "The VPN settings file '%s' does not contain valid data."
+#~ msgstr "ཝི་པི་ཨེན་སྒྲིག་སྟངས་ཚུའི་ཡིག་སྣོད་'%s' དེ་གིས་ནུས་ཅན་གནས་སྡུད་གནས་ཏེ་མེདཔ་ཨིན།"
+
+#~ msgid "Select file to import"
+#~ msgstr "ནང་འདྲེན་འབད་ནི་ལུ་ཡིག་སྣོད་སེལ་འཐུ་འབད་"
+
+#~ msgid "Select CA to use"
+#~ msgstr "ལག་ལེན་འཐབ་ནི་ལུ་སི་ཨེ་སེལ་འཐུ་འབད་"
+
+#~ msgid "Select certificate to use"
+#~ msgstr "ལག་ལེན་འཐབ་ནི་ལུ་ལག་ཁྱེར་སེལ་འཐུ་འབད་"
+
+#~ msgid "Select key to use"
+#~ msgstr "ལག་ལེན་འཐབ་ནི་ལུ་ལྡེ་མིག་སེལ་འཐུ་འབད་"
+
+#~ msgid "Select shared key to use"
+#~ msgstr "ལག་ལེན་འཐབ་ནི་ལུ་རུབ་སྤྱོད་འབད་ཡོད་པའི་ལྡེ་མིག་སེལ་འཐུ་འབད་"
+
+#~ msgid "Select TA to use"
+#~ msgstr "ལག་ལེན་འཐབ་ནི་ལུ་ཊི་ཨེ་སེལ་འཐུ་འབད་"
+
+#~ msgid "Save as..."
+#~ msgstr "དེ་སྦེ་སྲུང་..."
+
+#~ msgid "A file named \"%s\" already exists."
+#~ msgstr "ཡིག་སྣོད་མིང་ \"%s\" ཧེ་མ་ལས་རང་འདུག།"
+
+#~ msgid "Do you want to replace it with the one you are saving?"
+#~ msgstr "ཁྱོད་ཀྱིས་སྲུང་མི་དང་ཅིག་ཁར་ཁྱོད་ཀྱིས་ཚབ་བཙུགས་ནི་ཨིན་ན?"
+
+#~ msgid "Failed to export configuration"
+#~ msgstr "རིམ་སྒྲིག་ཕྱིར་འདྲེན་འབད་ནི་ལུ་འཐུས་ཤོར་བྱུང་ཡོདཔ་"
+
+#~ msgid "Failed to save file %s"
+#~ msgstr "ཡིག་སྣོད་%sསྲུང་མ་ཚུགས་"
+
+#~ msgid "0"
+#~ msgstr "༠"
+
+#~ msgid "1"
+#~ msgstr "༡"
+
+#~ msgid "65536"
+#~ msgstr "65536"
+
+#~ msgid "<b>Connection Information</b>"
+#~ msgstr "<b>མཐུད་ལམ་བརྡ་དོན</b>"
+
+#~ msgid "<i>example: 172.16.0.0/16 10.11.12.0/24</i>"
+#~ msgstr "<i>དཔེར་ན: 172.16.0.0/16 10.11.12.0/24</i>"
+
+#~ msgid "CA file:"
+#~ msgstr "སི་ཨེ་ཡིག་སྣོད:"
+
+#~ msgid "Connection Name"
+#~ msgstr "མཐུད་ལམ་མིང་"
+
+#~ msgid "Key:"
+#~ msgstr "ལྡེ་མིག:"
+
+#~ msgid ""
+#~ "Name used to identify the connection to the private network, e.g. "
+#~ "\"Campus VPN\" or \"Corporate Network\""
+#~ msgstr ""
+#~ "སྒེར་སྡེ་ཡོངས་འབྲེལ་ལུ་མཐུད་ལམ་ངོས་འཛིན་འབད་ནི་ལུ་ལག་ལེན་འཐབ་ཡོད་པའི་མིང་ e.g. \"Campus VPN"
+#~ "\" or \"Corporate Network\""
+
+#~ msgid "Network"
+#~ msgstr "ཡོངས་འབྲེལ་"
+
+#~ msgid ""
+#~ "Please enter the information provided by your system administrator below. "
+#~ "Do not enter your password here as you will be prompted when connecting."
+#~ msgstr ""
+#~ "འོག་ལུ་ཁྱོད་རའི་རིམ་ལུགས་བདག་སྐྱོང་པ་གིས་བྱིན་ཡོད་པའི་བརྡ་དོན་ཐོ་བཀོད་འབད་གནང་།  མཐུད་པའི་བསྒང་"
+#~ "ཁྱོད་ཡར་བསྐྱེད་འབདཝ་ལས་ ནཱ་ལུ་ཁྱོད་རའི་ཆོག་ཡིག་མ་བཙུགས།  "
+
+#~ msgid ""
+#~ "Please note that the file you import is not an Anyconnect configuration "
+#~ "file. Ask your administrator for the file."
+#~ msgstr ""
+#~ "ཁྱོད་ཀྱིས་ནང་འདྲེན་འབད་མི་ཡིག་སྣོད་འདི་  ཝི་པི་ཨེན་ཁ་ཕྱེ་རིམ་སྒྲིག་ཡིག་སྣོད་མེན་ཟེར་དྲན་འཛིན་འབད།  "
+#~ "ཁྱོད་རའི་བདག་སྐྱོང་པ་ལུ་ཡིག་སྣོད་དོན་ལུ་དྲི།"
+
+#~ msgid "Shared key"
+#~ msgstr "རུབ་སྤྱོད་འབད་ཡོད་པའི་ལྡེ་མིག་"
+
+#~ msgid "TLS-Auth"
+#~ msgstr "ཊི་ཨེལ་ཨེསི་-བདེན་བཤད་"
+
+#~ msgid "Use TAP device"
+#~ msgstr "ཊི་ཨེ་པི་ཐབས་འཕྲུལ་ལག་ལེན་འཐབ་"
+
+#~ msgid "Use TLS auth:"
+#~ msgstr "ཊི་ཨེལ་ཨེསི་བདེན་བཤད་ལག་ལེན་འཐབ:"
+
+#~ msgid "Use cipher:"
+#~ msgstr "གསང་ཡིག་ལག་ལེན་འཐབ:"
+
+#~ msgid "X.509"
+#~ msgstr "X.509"
+
+#~ msgid ""
+#~ "X.509 Certificates\n"
+#~ "Pre-shared key\n"
+#~ "Password Authentication\n"
+#~ "X.509 with Password Authentication"
+#~ msgstr ""
+#~ "X.509 ལག་ཁྱེར་ཚུ་\n"
+#~ "སྔོན་-རུབ་སྤྱོད་འབད་ཡོད་པའི་ལྡེ་མིག\n"
+#~ "ཆོག་ཡིག་བདེན་བཤད\n"
+#~ "X.509 ཆོག་ཡིག་བདེན་བཤད་དང་ཅིག་ཁར་"
+
+#~ msgid "X.509/Pass"
+#~ msgstr "X.509/རྩིས་སྤྲོད་"
+
+#~ msgid "_Import Saved Configuration..."
+#~ msgstr "སྲུང་བཞག་པའི་རིམ་སྒྲིག་ནང་འདྲེན་འབད... (_I)"
+
+#~ msgid "_Only use VPN connection for these addresses"
+#~ msgstr "ཁ་བྱང་འདི་གི་དོན་ལུ་ ཝི་པི་ཨེན་མཐུད་ལམ་རྐྱངམ་ཅིག་ལག་ལེན་འཐབ། (_O)"
+
+#~ msgid "none"
+#~ msgstr "ཅི་མེད་"
+
+#~ msgid ""
+#~ "The VPN login failed because the user name and password were not accepted "
+#~ "or the certificate password was wrong."
+#~ msgstr ""
+#~ "ཝི་པི་ཨེན་ནང་བསྐྱོད་འཐུས་ཤོར་བྱུང་ཡོདཔ་  ག་ཅི་སྦེ་ཟེར་བ་ཅིན་ ལག་ལེན་པ་དང་ཆོག་ཡིག་དང་ལེན་མ་འབད་"
+#~ "བས་ ཡང་ན་  ལག་ཁྱེར་ཆོག་ཡིག་འདི་འཛོལ་བ་འདུག།"
+
+#~ msgid "The VPN login failed because the VPN program could not be started."
+#~ msgstr "ཝི་པི་ཨེན་ནང་བསྐྱོད་འཐུས་ཤོར་བྱུང་ཡོདཔ་  ག་ཅི་སྦེ་ཟེར་བ་ཅིན་  ཝི་པི་ཨེན་འགོ་བཙུགས་མ་ཚུགས།"
+
+#~ msgid ""
+#~ "The VPN login failed because the VPN program could not connect to the VPN "
+#~ "server."
+#~ msgstr ""
+#~ "ཝི་པི་ཨེན་ནང་བསྐྱོད་འཐུས་ཤོར་བྱུང་ཡོདཔ་  ག་ཅི་སྦེ་ཟེར་བ་ཅིན་  ཝི་པི་ཨེན་ལས་རིམ་ཝི་པི་ཨེན་སར་བར་ལུ་"
+#~ "མཐུད་མ་ཚུགས།"
+
+#~ msgid ""
+#~ "The VPN login failed because the VPN program received an invalid "
+#~ "configuration from the VPN server."
+#~ msgstr ""
+#~ "ཝི་པི་ཨེན་ནང་བསྐྱོད་འཐུས་ཤོར་བྱུང་ཡོདཔ་ག་ཅི་སྦེ་ཟེར་བ་ཅིན་  ཝི་པི་ཨེན་ལས་རིམ་གྱིས་  ཝི་པི་ཨེན་སར་"
+#~ "བར་ལས་ནུས་ཅན་མེད་པའི་རིམ་སྒྲིག་ཐོབ་ཡོད།"
+
+#~ msgid "VPN connection failed"
+#~ msgstr "ཝི་པི་ཨེན་མཐུད་ལམ་འཐུས་ཤོར་བྱུང་ཡོད།"

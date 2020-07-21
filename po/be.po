@@ -1,0 +1,551 @@
+# Yuri Matsuk <yuri@matsuk.net>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: network-manager-anyconnect.master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-30 22:41+0100\n"
+"PO-Revision-Date: 2011-09-11 17:34+0300\n"
+"Last-Translator: Yuri Matsuk <yuri@matsuk.net>\n"
+"Language-Team: Belarusian <i18n-bel-gnome@googlegroups.com>\n"
+"Language: be\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: UTF-8\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:1
+#, fuzzy
+msgid "Anyconnect client"
+msgstr "Anyconnect"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:2
+msgid "Client for Anyconnect virtual private networks"
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:3
+msgid "Support for configuring Anyconnect virtual private network connections."
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:4
+msgid "Anyconnect is a popular and flexible free-software VPN solution."
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:5
+msgid "The NetworkManager Developers"
+msgstr ""
+
+#: ../properties/nm-anyconnect-editor-plugin.c:35
+#, fuzzy
+msgid "Cisco AnyConnect"
+msgstr "Anyconnect"
+
+#: ../properties/nm-anyconnect-editor-plugin.c:36
+msgid "Runs the proprietary Cisco AnyConnect VPN."
+msgstr ""
+
+#: ../properties/nm-anyconnect-editor.c:299
+msgid "could not load UI widget"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:946
+#, c-format
+msgid "object class '%s' has no property named '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:953
+#, c-format
+msgid "property '%s' of object class '%s' is not writable"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:960
+#, c-format
+msgid ""
+"construct property \"%s\" for object '%s' can't be set after construction"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:968
+#, c-format
+msgid "'%s::%s' is not a valid property name; '%s' is not a GObject subtype"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:977
+#, c-format
+msgid "unable to set property '%s' of type '%s' from value of type '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:988
+#, c-format
+msgid ""
+"value \"%s\" of type '%s' is invalid or out of range for property '%s' of "
+"type '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:69
+#, c-format
+msgid "unable to get editor plugin name: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:103
+#, c-format
+msgid "missing plugin file \"%s\""
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:109
+#, c-format
+msgid "cannot load editor plugin: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:118
+#, c-format
+msgid "cannot load factory %s from plugin: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:144
+msgid "unknown error creating editor instance"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:567 ../src/nm-anyconnect-service.c:682
+msgid "Could not find the anyconnect binary."
+msgstr "Не ўдалося знайсці двайковы файл \"anyconnect\"."
+
+#: ../src/nm-anyconnect-service.c:580
+msgid ""
+"Could not process the request because the VPN connection settings were "
+"invalid."
+msgstr ""
+"Не ўдалося апрацаваць запыт, таму што настройкі VPN-злучэння былі хібныя."
+
+#: ../src/nm-anyconnect-service.c:602
+msgid ""
+"Could not attempt connection, unable to find the setting for the gateway."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:875
+#, fuzzy
+msgid "Don’t quit when VPN connection terminates"
+msgstr "Не заканчваць працу пры разрыве VPN-злучэння"
+
+#: ../src/nm-anyconnect-service.c:876
+msgid "Enable verbose debug logging (may expose passwords)"
+msgstr ""
+"Уключыць падрабязнае адладачнае журналіраванне (гэта можа выявіць паролі)"
+
+#: ../src/nm-anyconnect-service.c:877
+msgid "D-Bus name to use for this instance"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:905
+#, fuzzy
+msgid ""
+"nm-anyconnect-service provides integrated proprietary Cisco AnyConnect "
+"capability to NetworkManager."
+msgstr ""
+"nm-anyconnect-service забяспечвае інтэграцыю Anyconnect з NetworkManager."
+
+#: ../properties/nm-anyconnect-dialog.ui.h:1
+msgid "General"
+msgstr "Агульнае"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:2
+msgid "_Gateway:"
+msgstr "Сеткавая _брама:"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:3
+msgid "VPN host to connect to"
+msgstr ""
+
+#, fuzzy, c-format
+#~ msgid "Authenticate VPN %s"
+#~ msgstr "Ідэнтыфікацыя VPN"
+
+#~ msgid "Password:"
+#~ msgstr "Пароль:"
+
+#~ msgid "Certificate password:"
+#~ msgstr "Пароль да сертыфіката:"
+
+#~ msgid "Authenticate VPN"
+#~ msgstr "Ідэнтыфікацыя VPN"
+
+#~ msgid "Certificate pass_word:"
+#~ msgstr "_Пароль да сертыфіката:"
+
+#, c-format
+#~ msgid "You need to authenticate to access the Virtual Private Network '%s'."
+#~ msgstr ""
+#~ "Каб даступіцца да віртуальнай прыватнай сеткі \"%s\", патрэбна "
+#~ "ідэнтыфікацыя."
+
+#~ msgid "Choose your personal certificate..."
+#~ msgstr "Выберыце свой асабісты сертыфікат..."
+
+#~ msgid "Choose your private key..."
+#~ msgstr "Выберыце свой прыватны ключ..."
+
+#~ msgid "Saved"
+#~ msgstr "Захаваны"
+
+#~ msgid "Always Ask"
+#~ msgstr "Заўсёды пытацца"
+
+#~ msgid "Not Required"
+#~ msgstr "Не патрабуецца"
+
+#~ msgid "Choose a Certificate Authority certificate..."
+#~ msgstr "Выберыце сертыфікат цэнтра сертыфікацыі..."
+
+#~ msgid "Choose an Anyconnect static key..."
+#~ msgstr "Выберыце статычны ключ Anyconnect..."
+
+#~ msgid "None"
+#~ msgstr "Нічога"
+
+#~ msgid "PEM or PKCS#12 certificates (*.pem, *.crt, *.key, *.cer, *.p12)"
+#~ msgstr "Сертыфікаты PEM або PKCS#12 (*.pem, *.crt, *.key, *.cer, *.p12)"
+
+#~ msgid "PEM certificates (*.pem, *.crt, *.key, *.cer)"
+#~ msgstr "Сертыфікаты PEM (*.pem, *.crt, *.key, *.cer)"
+
+#~ msgid "Anyconnect Static Keys (*.key)"
+#~ msgstr "Статычныя ключы Anyconnect (*.key)"
+
+#~ msgid "Default"
+#~ msgstr "Прадвызначаны"
+
+#~ msgid "RSA MD-4"
+#~ msgstr "RSA MD-4"
+
+#~ msgid "MD-5"
+#~ msgstr "MD-5"
+
+#~ msgid "SHA-1"
+#~ msgstr "SHA-1"
+
+#~ msgid "SHA-224"
+#~ msgstr "SHA-224"
+
+#~ msgid "SHA-256"
+#~ msgstr "SHA-256"
+
+#~ msgid "SHA-384"
+#~ msgstr "SHA-384"
+
+#~ msgid "SHA-512"
+#~ msgstr "SHA-512"
+
+#~ msgid "RIPEMD-160"
+#~ msgstr "RIPEMD-160"
+
+#~ msgid "Not required"
+#~ msgstr "Не патрабуецца"
+
+#~ msgid "HTTP"
+#~ msgstr "HTTP"
+
+#~ msgid "SOCKS"
+#~ msgstr "SOCKS"
+
+#~ msgid "Compatible with the Anyconnect server."
+#~ msgstr "Сумяшчальны з серверам Anyconnect."
+
+#~ msgid "Certificates (TLS)"
+#~ msgstr "Сертыфікаты (TLS)"
+
+#~ msgid "Password"
+#~ msgstr "Пароль"
+
+#~ msgid "Password with Certificates (TLS)"
+#~ msgstr "Пароль з сертыфікатамі (TLS)"
+
+#~ msgid "Static Key"
+#~ msgstr "Статычны ключ"
+
+#, fuzzy
+#~ msgid "could not create anyconnect object"
+#~ msgstr "Не ўдалося знайсці двайковы файл \"anyconnect\"."
+
+#, fuzzy
+#~ msgid "not a valid Anyconnect configuration file"
+#~ msgstr "Няма опцый настройкі VPN."
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "<b>General</b>"
+#~ msgstr "<b>Агульнае</b>"
+
+#~ msgid "<b>Authentication</b>"
+#~ msgstr "<b>Ідэнтыфікацыя</b>"
+
+#~ msgid "_Show passwords"
+#~ msgstr "Паказваць паролі"
+
+#, fuzzy
+#~ msgid "Password for private key"
+#~ msgstr "Выберыце свой прыватны ключ..."
+
+#~ msgid "Private Key Password:"
+#~ msgstr "Пароль да прыватнага ключа:"
+
+#~ msgid "Private Key:"
+#~ msgstr "Прыватны ключ:"
+
+#~ msgid "CA Certificate:"
+#~ msgstr "Сертыфікат цэнтра (CA):"
+
+#~ msgid "User Certificate:"
+#~ msgstr "Сертыфікат карыстальніка:"
+
+#~ msgid "User name:"
+#~ msgstr "Імя карыстальніка:"
+
+#~ msgid "Remote IP Address:"
+#~ msgstr "Аддалены IP-адрас:"
+
+#~ msgid "Local IP Address:"
+#~ msgstr "Мясцовы IP-адрас:"
+
+#, fuzzy
+#~ msgid "Key Direction:"
+#~ msgstr "Кірунак ключа:"
+
+#~ msgid "Static Key:"
+#~ msgstr "Статычны ключ:"
+
+#, fuzzy
+#~ msgid ""
+#~ "Direction for Static Key encryption mode (non-TLS).\n"
+#~ "If key direction is used, it must be the opposite of that used on the VPN "
+#~ "peer.  For example, if the peer uses '1', this connection must use '0'.  "
+#~ "If you are unsure what value to use, contact your system administrator.\n"
+#~ "config: static <file> [direction]"
+#~ msgstr ""
+#~ "<i>Калі выкарыстоўваецца кірунак ключа, ён павінен быць супрацьлеглы "
+#~ "кірунку, які выкарыстоўваецца з другога боку злучэння. Напрыклад, калі з "
+#~ "другога боку выкарыстоўваецца \"1\", то гэта злучэнне павінна "
+#~ "выкарыстоўваць \"0\". Калі вы не ўпэўнены, якое значэнне выкарыстаць, "
+#~ "звярніцеся да сістэмнага адміністратара.</i>"
+
+#~ msgid "Type:"
+#~ msgstr "Тып:"
+
+#, fuzzy
+#~ msgid "Select an authentication mode."
+#~ msgstr "TLS-ідэнтыфікацыя"
+
+#~ msgid "Ad_vanced..."
+#~ msgstr "_Адмысловыя настройкі..."
+
+#~ msgid "Anyconnect Advanced Options"
+#~ msgstr "Адмысловыя опцыі Anyconnect"
+
+#~ msgid "Use custom gateway p_ort:"
+#~ msgstr "Выкарыстоўваць уласны порт сеткавай _брамы:"
+
+#~ msgid "Use custom _renegotiation interval:"
+#~ msgstr "_Выкарыстоўваць уласны інтэрвал перагляду ўмоў сеанса:"
+
+#~ msgid "Use L_ZO data compression"
+#~ msgstr "Выкарыстоўваць LZO-_сцісканне"
+
+#~ msgid "Use a _TCP connection"
+#~ msgstr "Выкарыстоўваць TCP-_злучэнне"
+
+#~ msgid "Use custom tunnel Maximum Transmission _Unit (MTU):"
+#~ msgstr ""
+#~ "Выкарыстоўваць уласны _максімальны памер элемента перадачы тунэлем (MTU):"
+
+#~ msgid "Use custom UDP _fragment size:"
+#~ msgstr "Выкарыстоўваць у_ласны памер UDP-фрагмента:"
+
+#~ msgid "Restrict tunnel TCP Maximum _Segment Size (MSS)"
+#~ msgstr "Абмежаваць максімальны памер TCP-сегмента тунэля (MSS)"
+
+#~ msgid "Ci_pher:"
+#~ msgstr "Шыфр:"
+
+#~ msgid "_HMAC Authentication:"
+#~ msgstr "HMAC-ідэнтыфікацыя:"
+
+#~ msgid "Security"
+#~ msgstr "Бяспека"
+
+#~ msgid "_Subject Match:"
+#~ msgstr "Адпаведнасць атрымальніка:"
+
+#~ msgid ""
+#~ "<i>Connect only to servers whose certificate matches the given subject.\n"
+#~ "Example: /CN=myvpn.company.com</i>"
+#~ msgstr ""
+#~ "<i>Злучацца толькі з серверамі, чые сертыфікаты маюць адпаведнае значэнне "
+#~ "ў графе атрымальніка.\n"
+#~ "Напрыклад: /CN=myvpn.company.com</i>"
+
+#~ msgid "Use additional _TLS authentication"
+#~ msgstr "Выкарыстоўваць дадатковую TLS-ідэнтыфікацыю"
+
+#, fuzzy
+#~ msgid "Add an additional layer of HMAC authentication."
+#~ msgstr "Выкарыстоўваць дадатковую TLS-ідэнтыфікацыю"
+
+#~ msgid "Key _Direction:"
+#~ msgstr "Кірунак ключа:"
+
+#, fuzzy
+#~ msgid ""
+#~ "Direction parameter for static key mode.\n"
+#~ "If key direction is used, it must be the opposite of that used on the VPN "
+#~ "peer.  For example, if the peer uses '1', this connection must use '0'.  "
+#~ "If you are unsure what value to use, contact your system administrator.\n"
+#~ "config: tls-auth <file> [direction]"
+#~ msgstr ""
+#~ "<i>Калі выкарыстоўваецца кірунак ключа, ён павінен быць супрацьлеглы "
+#~ "кірунку, які выкарыстоўваецца з другога боку злучэння. Напрыклад, калі з "
+#~ "другога боку выкарыстоўваецца \"1\", то гэта злучэнне павінна "
+#~ "выкарыстоўваць \"0\". Калі вы не ўпэўнены, якое значэнне выкарыстаць, "
+#~ "звярніцеся да сістэмнага адміністратара.</i>"
+
+#~ msgid "Key _File:"
+#~ msgstr "Файл ключа:"
+
+#~ msgid "TLS Authentication"
+#~ msgstr "TLS-ідэнтыфікацыя"
+
+#~ msgid "Proxy _Type:"
+#~ msgstr "Тып проксі-сервера:"
+
+#~ msgid ""
+#~ "<i>Select this option if your organization requires the use of a proxy "
+#~ "server to access the Internet.</i>"
+#~ msgstr ""
+#~ "<i>Выберыце гэтую опцыю, калі ваша ўстанова патрабуе выкарыстоўваць "
+#~ "проксі-сервер для доступу да Інтэрнэту.</i>"
+
+#~ msgid "Server _Address:"
+#~ msgstr "Адрас сервера:"
+
+#~ msgid "_Port:"
+#~ msgstr "Порт:"
+
+#, fuzzy
+#~ msgid "_Retry indefinitely when errors occur"
+#~ msgstr "Пры памылках паўтараць бясконца"
+
+#~ msgid "Proxy _Username:"
+#~ msgstr "Імя карыстальніка на проксі-серверы:"
+
+#~ msgid "Proxy Passwor_d:"
+#~ msgstr "Пароль да проксі-сервера:"
+
+#~ msgid "_Show password"
+#~ msgstr "Паказваць пароль"
+
+#~ msgid "Proxies"
+#~ msgstr "Проксі-серверы"
+
+#, c-format
+#~ msgid "invalid address '%s'"
+#~ msgstr "хібны адрас \"%s\""
+
+#, c-format
+#~ msgid "invalid integer property '%s' or out of range [%d -> %d]"
+#~ msgstr ""
+#~ "хібная цэлалікавая ўласцівасць \"%s\", або значэнне па-за дыяпазонам [%d -"
+#~ "> %d]"
+
+#, c-format
+#~ msgid "invalid boolean property '%s' (not yes or no)"
+#~ msgstr "хібная булева ўласцівасць \"%s\" (мусіць быць: yes/no)"
+
+#, c-format
+#~ msgid "unhandled property '%s' type %s"
+#~ msgstr "неапрацаваная ўласцівасць \"%s\" з тыпам %s"
+
+#, c-format
+#~ msgid "property '%s' invalid or not supported"
+#~ msgstr "хібная ўласцівасць \"%s\", або яна не падтрымліваецца"
+
+#~ msgid "No VPN configuration options."
+#~ msgstr "Няма опцый настройкі VPN."
+
+#, fuzzy
+#~ msgid "A private key password is required."
+#~ msgstr "Пароль да прыватнага ключа:"
+
+#~ msgid "Invalid HMAC auth."
+#~ msgstr "Хібная HMAC-ідэнтыфікацыя."
+
+#~ msgid "Invalid connection type."
+#~ msgstr "Хібны тып злучэння."
+
+#, c-format
+#~ msgid "Invalid port number '%s'."
+#~ msgstr "Хібны нумар порта \"%s\"."
+
+#, fuzzy, c-format
+#~ msgid "Invalid proto '%s'."
+#~ msgstr "Хібны тып проксі-сервера \"%s\"."
+
+#, c-format
+#~ msgid "Invalid proxy type '%s'."
+#~ msgstr "Хібны тып проксі-сервера \"%s\"."
+
+#, fuzzy, c-format
+#~ msgid "Invalid keysize '%s'."
+#~ msgstr "Хібны памер фрагмента \"%s\"."
+
+#, c-format
+#~ msgid "Invalid reneg seconds '%s'."
+#~ msgstr "Хібная колькасць секундаў \"%s\" для перагляду ўмоў сеанса."
+
+#, c-format
+#~ msgid "Invalid TUN MTU size '%s'."
+#~ msgstr "Хібны памер TUN MTU \"%s\"."
+
+#, c-format
+#~ msgid "Invalid fragment size '%s'."
+#~ msgstr "Хібны памер фрагмента \"%s\"."
+
+#~ msgid "Missing required local IP address for static key mode."
+#~ msgstr ""
+#~ "Адсутнічае патрэбны мясцовы IP-адрас для рэжыму са статычным ключом."
+
+#~ msgid "Missing required remote IP address for static key mode."
+#~ msgstr ""
+#~ "Адсутнічае патрэбны аддалены IP-адрас для рэжыму са статычным ключом."
+
+#, c-format
+#~ msgid "Unknown connection type '%s'."
+#~ msgstr "Невядомы тып злучэння \"%s\"."
+
+#, fuzzy
+#~ msgid ""
+#~ "Could not process the request because the anyconnect connection type was "
+#~ "invalid."
+#~ msgstr ""
+#~ "Не ўдалося апрацаваць запыт, таму што настройкі VPN-злучэння былі хібныя."
+
+#, fuzzy
+#~ msgid "Unhandled pending authentication."
+#~ msgstr "Выкарыстоўваць дадатковую TLS-ідэнтыфікацыю"
+
+#~ msgid "_Password:"
+#~ msgstr "_Пароль:"
+
+#~ msgid "_Secondary Password:"
+#~ msgstr "_Дадатковы пароль:"
+
+#~ msgid "Sh_ow passwords"
+#~ msgstr "_Паказваць паролі"
+
+#~ msgid "Use a TA_P device"
+#~ msgstr "Выкарыстоўваць TAP-_прыстасаванне"
+
+#~ msgid "No VPN secrets!"
+#~ msgstr "Няма сакрэтных ключоў VPN!"
+
+#~ msgid "Could not process the request because no username was provided."
+#~ msgstr ""
+#~ "Не ўдалося апрацаваць запыт, таму што не было пададзена імя карыстальніка."

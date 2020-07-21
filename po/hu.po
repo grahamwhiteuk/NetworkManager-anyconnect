@@ -1,0 +1,1232 @@
+# Hungarian translation for network-manager-anyconnect.
+# Copyright (C) 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018 The Free Software Foundation, Inc.
+# This file is distributed under the same license as the network-manager-anyconnect package.
+#
+# Gabor Halaszvari <g.halaszvari at portmax dot hu>, 2006.
+# Gabor Kelemen <kelemeng at gnome dot hu>, 2006, 2007, 2008, 2009, 2010, 2011, 2012, 2013, 2015, 2016, 2017, 2018.
+# Mate Ory <orymate at ubuntu dot com>, 2011.
+# Balázs Úr <urbalazs at gmail dot com>, 2014, 2015, 2016, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: network-manager-anyconnect master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-30 22:41+0100\n"
+"PO-Revision-Date: 2019-04-25 21:51+0200\n"
+"Last-Translator: Meskó Balázs <mesko.balazs@fsf.hu>\n"
+"Language-Team: Hungarian <openscope at googlegroups dot com>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:1
+msgid "Anyconnect client"
+msgstr "Anyconnect kliens"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:2
+msgid "Client for Anyconnect virtual private networks"
+msgstr "Kliens az Anyconnect virtuális magánhálózatokhoz"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:3
+msgid "Support for configuring Anyconnect virtual private network connections."
+msgstr ""
+"Az Anyconnect virtuális magánhálózati kapcsolatok beállításának támogatása."
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:4
+msgid "Anyconnect is a popular and flexible free-software VPN solution."
+msgstr ""
+"Az Anyconnect egy népszerű és rugalmas, szabad szoftveres VPN megoldás."
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:5
+msgid "The NetworkManager Developers"
+msgstr "A Hálózatkezelő fejlesztői"
+
+#: ../properties/nm-anyconnect-editor-plugin.c:35
+#, fuzzy
+msgid "Cisco AnyConnect"
+msgstr "Anyconnect"
+
+#: ../properties/nm-anyconnect-editor-plugin.c:36
+msgid "Runs the proprietary Cisco AnyConnect VPN."
+msgstr ""
+
+#: ../properties/nm-anyconnect-editor.c:299
+msgid "could not load UI widget"
+msgstr "nem sikerült betölteni az UI felületi elemet"
+
+#: ../shared/nm-utils/nm-shared-utils.c:946
+#, c-format
+msgid "object class '%s' has no property named '%s'"
+msgstr "a(z) „%s” objektumosztálynak nincs „%s” nevű tulajdonsága"
+
+#: ../shared/nm-utils/nm-shared-utils.c:953
+#, c-format
+msgid "property '%s' of object class '%s' is not writable"
+msgstr "„%2$s” osztály „%1$s” tulajdonsága nem írható"
+
+#: ../shared/nm-utils/nm-shared-utils.c:960
+#, c-format
+msgid ""
+"construct property \"%s\" for object '%s' can't be set after construction"
+msgstr ""
+"„%2$s” objektum „%1$s” konstuktortulajdonsága nem állítható be a létrehozás "
+"után"
+
+#: ../shared/nm-utils/nm-shared-utils.c:968
+#, c-format
+msgid "'%s::%s' is not a valid property name; '%s' is not a GObject subtype"
+msgstr "„%s::%s” nem érvényes tulajdonságnév, „%s” nem egy GObject résztípus"
+
+#: ../shared/nm-utils/nm-shared-utils.c:977
+#, c-format
+msgid "unable to set property '%s' of type '%s' from value of type '%s'"
+msgstr ""
+"nem állítható be „%2$s” típusú „%1$s” tulajdonság „%3$s” típusú értékre"
+
+#: ../shared/nm-utils/nm-shared-utils.c:988
+#, c-format
+msgid ""
+"value \"%s\" of type '%s' is invalid or out of range for property '%s' of "
+"type '%s'"
+msgstr ""
+"a(z) „%2$s” típusú „%1$s” érték érvénytelen vagy kívül esik a tartományon "
+"„%4$s” típusú „%3$s” tulajdonsághoz"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:69
+#, c-format
+msgid "unable to get editor plugin name: %s"
+msgstr "a szerkesztőbővítmény neve nem kérhető le: %s"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:103
+#, c-format
+msgid "missing plugin file \"%s\""
+msgstr "hiányzó bővítményfájl: „%s”"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:109
+#, c-format
+msgid "cannot load editor plugin: %s"
+msgstr "nem tölthető be a szerkesztőbővítmény: %s"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:118
+#, c-format
+msgid "cannot load factory %s from plugin: %s"
+msgstr "nem tölthető be a(z) %s factory a bővítményből: %s"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:144
+msgid "unknown error creating editor instance"
+msgstr "ismeretlen hiba a szerkesztőpéldány létrehozásakor"
+
+#: ../src/nm-anyconnect-service.c:567 ../src/nm-anyconnect-service.c:682
+msgid "Could not find the anyconnect binary."
+msgstr "Nem található az anyconnect program."
+
+#: ../src/nm-anyconnect-service.c:580
+msgid ""
+"Could not process the request because the VPN connection settings were "
+"invalid."
+msgstr ""
+"A kérés feldolgozása sikertelen, mivel a VPN-kapcsolat beállításai "
+"érvénytelenek."
+
+#: ../src/nm-anyconnect-service.c:602
+msgid ""
+"Could not attempt connection, unable to find the setting for the gateway."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:875
+msgid "Don’t quit when VPN connection terminates"
+msgstr "Ne lépjen ki, ha a VPN kapcsolat megszakad"
+
+#: ../src/nm-anyconnect-service.c:876
+msgid "Enable verbose debug logging (may expose passwords)"
+msgstr ""
+"Részletes hibakeresési naplózás engedélyezése (jelszavak is  a naplóba "
+"kerülhetnek)"
+
+#: ../src/nm-anyconnect-service.c:877
+msgid "D-Bus name to use for this instance"
+msgstr "A példányhoz használandó D-Bus név"
+
+#: ../src/nm-anyconnect-service.c:905
+#, fuzzy
+msgid ""
+"nm-anyconnect-service provides integrated proprietary Cisco AnyConnect "
+"capability to NetworkManager."
+msgstr ""
+"Az nm-anyconnect-service integrált Anyconnect-támogatást nyújt a "
+"Hálózatkezelőhöz."
+
+#: ../properties/nm-anyconnect-dialog.ui.h:1
+msgid "General"
+msgstr "Általános"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:2
+msgid "_Gateway:"
+msgstr "Á_tjáró:"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:3
+msgid "VPN host to connect to"
+msgstr ""
+
+#, c-format
+#~ msgid "Authenticate VPN %s"
+#~ msgstr "VPN-hitelesítés: %s"
+
+#~ msgid "Password:"
+#~ msgstr "Jelszó:"
+
+#~ msgid "Certificate password:"
+#~ msgstr "Tanúsítvány jelszava:"
+
+#~ msgid "HTTP proxy password:"
+#~ msgstr "HTTP proxy jelszó:"
+
+#~ msgid "Authenticate VPN"
+#~ msgstr "VPN azonosítás"
+
+#~ msgid "Certificate pass_word:"
+#~ msgstr "Tanúsítvány _jelszava:"
+
+#~ msgid "_HTTP proxy password:"
+#~ msgstr "_HTTP proxy jelszó:"
+
+#, c-format
+#~ msgid "You need to authenticate to access the Virtual Private Network “%s”."
+#~ msgstr ""
+#~ "Hitelesítenie kell magát a(z) „%s” virtuális magánhálózat eléréséhez."
+
+#, c-format
+#~ msgid "option %s expects between %u and %u argument"
+#~ msgid_plural "option %s expects between %u and %u arguments"
+#~ msgstr[0] "a(z) %s beállítás %u és %u közti számú argumentumot vár"
+#~ msgstr[1] "a(z) %s beállítás %u és %u közti számú argumentumot vár"
+
+#, c-format
+#~ msgid "option %s expects no arguments"
+#~ msgstr "a(z) %s beállítás nem vár argumentumot"
+
+#, c-format
+#~ msgid "option %s expects exactly one argument"
+#~ msgid_plural "option %s expects exactly %u arguments"
+#~ msgstr[0] "a(z) %s beállítás pontosan egy argumentumot vár"
+#~ msgstr[1] "a(z) %s beállítás pontosan %u argumentumot vár"
+
+#, c-format
+#~ msgid "argument %s of “%s” can not be empty"
+#~ msgstr "a(z) „%2$s” %1$s argumentuma nem lehet üres"
+
+#, c-format
+#~ msgid "argument of “%s” can not be empty"
+#~ msgstr "a(z) „%s” argumentuma nem lehet üres"
+
+#, c-format
+#~ msgid "argument %s of “%s” must be UTF-8 encoded"
+#~ msgstr "a(z) „%2$s” %1$s argumentuma UTF-8 kódolású kell legyen"
+
+#, c-format
+#~ msgid "argument of “%s” must be UTF-8 encoded"
+#~ msgstr "a(z) „%s” argumentuma UTF-8 kódolású kell legyen"
+
+#, c-format
+#~ msgid "invalid %uth argument to “%s” where number expected"
+#~ msgstr ""
+#~ "a(z) „%2$s” %1$u. argumentuma érvénytelen, a várttal szemben nem szám"
+
+#, c-format
+#~ msgid "unsupported %uth argument %s to “%s”"
+#~ msgstr "a(z) %1$u. „%2$s” argumentum nem támogatott ehhez: „%3$s”"
+
+#, c-format
+#~ msgid ""
+#~ "unsupported %uth argument to “%s” which looks like a FQDN but only IPv4 "
+#~ "address supported"
+#~ msgstr ""
+#~ "a(z) „%2$s” %1$u. argumentuma nem támogatott, FQDN-nek néz ki, de csak "
+#~ "IPv4 címek támogatottak"
+
+#, c-format
+#~ msgid "invalid %uth argument to “%s” where IPv4 address expected"
+#~ msgstr ""
+#~ "a(z) „%2$s” %1$u. argumentuma érvénytelen, a várttal szemben nem IPv4 cím"
+
+#, c-format
+#~ msgid "invalid %uth key-direction argument to “%s”"
+#~ msgstr "a(z) „%2$s” %1$u. kulcsirány argumentuma érvénytelen"
+
+#, c-format
+#~ msgid "invalid %uth argument to “%s”"
+#~ msgstr "a(z) „%2$s” %1$u. argumentuma érvénytelen"
+
+#, c-format
+#~ msgid "unterminated %s at position %lld"
+#~ msgstr "befejezetlen %s a következő pozícióban: %lld"
+
+#~ msgid "double quote"
+#~ msgstr "dupla idézőjel"
+
+#~ msgid "single quote"
+#~ msgstr "egyszeres idézőjel"
+
+#, c-format
+#~ msgid "trailing escaping backslash at position %lld"
+#~ msgstr "záró escape-elő visszaper a következő pozícióban: %lld"
+
+#, c-format
+#~ msgid "unable to read HTTP proxy auth file"
+#~ msgstr "nem olvasható a HTTP proxy hitelesítési fájlja"
+
+#, c-format
+#~ msgid "cannot read user/password from HTTP proxy auth file"
+#~ msgstr ""
+#~ "nem olvasható a felhasználónév/jelszó a HTTP proxy hitelesítési fájljából"
+
+#, c-format
+#~ msgid "user/password from HTTP proxy auth file must be UTF-8 encoded"
+#~ msgstr ""
+#~ "a felhasználónév/jelszó a HTTP proxy hitelesítési fájljából UTF-8 "
+#~ "kódolású kell legyen"
+
+#, c-format
+#~ msgid "“%s” is not a directory"
+#~ msgstr "„%s” nem egy könyvtár"
+
+#, c-format
+#~ msgid "cannot create “%s” directory"
+#~ msgstr "nem hozható létre „%s” könyvtár"
+
+#, c-format
+#~ msgid "cannot write <%s> blob from line %ld to file (%s)"
+#~ msgstr "nem írható <%s> blob a(z) %ld. sorból a fájlba (%s)"
+
+#, c-format
+#~ msgid "cannot write <%s> blob from line %ld to file “%s”"
+#~ msgstr "nem írható <%s> blob a(z) %ld. sorból a fájlba (%s)"
+
+#, c-format
+#~ msgid "unsupported mtu-disc argument"
+#~ msgstr "nem támogatott mtu-disc argumentum"
+
+#, c-format
+#~ msgid "unsupported crl-verify argument"
+#~ msgstr "nem támogatott crl-verify argumentum"
+
+#, c-format
+#~ msgid "invalid option"
+#~ msgstr "érvénytelen kapcsoló"
+
+#, c-format
+#~ msgid "unsupported comp-lzo argument"
+#~ msgstr "nem támogatott comp-lzo argumentum"
+
+#, c-format
+#~ msgid "remote cannot contain space"
+#~ msgstr "a távoli nem tartalmazhat szóközt"
+
+#, c-format
+#~ msgid "remote cannot contain comma"
+#~ msgstr "a távoli nem tartalmazhat vesszőt"
+
+#, c-format
+#~ msgid "remote expects protocol type like “udp” or “tcp”"
+#~ msgstr "a távoli protokolltípust vár, mint az „udp” vagy a „tcp”"
+
+#, c-format
+#~ msgid "invalid verify-x509-name type"
+#~ msgstr "érvénytelen verify-x509-name típus"
+
+#, c-format
+#~ msgid "unsupported blob/xml element"
+#~ msgstr "nem támogatott blob/xml elem"
+
+#, c-format
+#~ msgid "unterminated blob element <%s>"
+#~ msgstr "befejezetlen blob elem <%s>"
+
+#, c-format
+#~ msgid "configuration error: %s (line %ld)"
+#~ msgstr "konfigurációs hiba: %s (%ld. sor)"
+
+#~ msgid "unknown or unsupported option"
+#~ msgstr "ismeretlen vagy nem támogatott beállítás"
+
+#~ msgid "The file to import wasn’t a valid Anyconnect client configuration"
+#~ msgstr "Az importálandó fájl nem volt érvényes Anyconnect kliensbeállítás"
+
+#~ msgid "The file to import wasn’t a valid Anyconnect configure (no remote)"
+#~ msgstr ""
+#~ "Az importálandó fájl nem volt érvényes Anyconnect beállítás (nincs távoli)"
+
+#~ msgid "missing path argument"
+#~ msgstr "hiányzó útvonal argumentum"
+
+#~ msgid "connection is not a valid Anyconnect connection"
+#~ msgstr "a kapcsolat nem egy érvényes Anyconnect kapcsolat"
+
+#~ msgid "connection was incomplete (missing gateway)"
+#~ msgstr "a kapcsolat nem volt teljes (hiányzó átjáró)"
+
+#, c-format
+#~ msgid "failed to write file: %s"
+#~ msgstr "a fájl írása meghiúsult: %s"
+
+#~ msgid "Compatible with the Anyconnect server."
+#~ msgstr "Kompatibilis az Anyconnect kiszolgálóval."
+
+#~ msgid "Choose an Anyconnect static key…"
+#~ msgstr "Válassza ki az Anyconnect statikus kulcsát…"
+
+#~ msgid "None"
+#~ msgstr "Nincs"
+
+#~ msgid "Anyconnect Static Keys (*.key)"
+#~ msgstr "Anyconnect statikus kulcsok (*.key)"
+
+#~ msgid "Default"
+#~ msgstr "Alapértelmezett"
+
+#~ msgid "RSA MD-4"
+#~ msgstr "RSA MD-4"
+
+#~ msgid "MD-5"
+#~ msgstr "MD-5"
+
+#~ msgid "SHA-1"
+#~ msgstr "SHA-1"
+
+#~ msgid "SHA-224"
+#~ msgstr "SHA-224"
+
+#~ msgid "SHA-256"
+#~ msgstr "SHA-256"
+
+#~ msgid "SHA-384"
+#~ msgstr "SHA-384"
+
+#~ msgid "SHA-512"
+#~ msgstr "SHA-512"
+
+#~ msgid "RIPEMD-160"
+#~ msgstr "RIPEMD-160"
+
+#~ msgid "Don’t verify certificate identification"
+#~ msgstr "Ne ellenőrizze a tanúsítvány személyazonosságát"
+
+#~ msgid "Verify whole subject exactly"
+#~ msgstr "Pontosan ellenőrizze a teljes alanyt"
+
+#~ msgid "Verify name exactly"
+#~ msgstr "Pontosan ellenőrizze a nevet"
+
+#~ msgid "Verify name by prefix"
+#~ msgstr "Ellenőrizze a nevet prefix szerint"
+
+#~ msgid "Verify subject partially (legacy mode, strongly discouraged)"
+#~ msgstr ""
+#~ "Részlegesen ellenőrizze az alanyt (örökölt mód, határozottan nem ajánlott)"
+
+#~ msgid "Server"
+#~ msgstr "Kiszolgáló"
+
+#~ msgid "Client"
+#~ msgstr "Kliens"
+
+#~ msgid "Not required"
+#~ msgstr "Nem szükséges"
+
+#~ msgid "HTTP"
+#~ msgstr "HTTP"
+
+#~ msgid "SOCKS"
+#~ msgstr "SOCKS"
+
+#~ msgid "TUN"
+#~ msgstr "TUN"
+
+#~ msgid "TAP"
+#~ msgstr "TAP"
+
+#~ msgid "(automatic)"
+#~ msgstr "(automatikus)"
+
+#~ msgid "ping-exit"
+#~ msgstr "ping-exit"
+
+#~ msgid "ping-restart"
+#~ msgstr "ping-restart"
+
+#~ msgid "Certificates (TLS)"
+#~ msgstr "Tanúsítványok (TLS)"
+
+#~ msgid "Password"
+#~ msgstr "Jelszó"
+
+#~ msgid "Password with Certificates (TLS)"
+#~ msgstr "Jelszó tanúsítványokkal (TLS)"
+
+#~ msgid "Static Key"
+#~ msgstr "Statikus kulcs"
+
+#, c-format
+#~ msgid "invalid delimiter character '%c'"
+#~ msgstr "érvénytelen határoló karakter: „%c”"
+
+#, c-format
+#~ msgid "invalid non-utf-8 character"
+#~ msgstr "érvénytelen nem utf-8 karakter"
+
+#, c-format
+#~ msgid "empty host"
+#~ msgstr "üres gépnév"
+
+#, c-format
+#~ msgid "invalid port"
+#~ msgstr "érvénytelen port"
+
+#, c-format
+#~ msgid "invalid protocol"
+#~ msgstr "érvénytelen protokoll"
+
+#, c-format
+#~ msgid "invalid address “%s”"
+#~ msgstr "érvénytelen cím: „%s”"
+
+#, c-format
+#~ msgid "invalid integer property “%s” or out of range [%d -> %d]"
+#~ msgstr ""
+#~ "érvénytelen, vagy a(z) %2$d…%3$d tartományon kívüli egész érték: „%1$s”"
+
+#, c-format
+#~ msgid "invalid boolean property “%s” (not yes or no)"
+#~ msgstr "érvénytelen logikai érték: „%s” (érvényes értékek: yes, no)"
+
+#, c-format
+#~ msgid "unhandled property “%s” type %s"
+#~ msgstr "kezeletlen %2$s típusú érték: „%1$s”"
+
+#, c-format
+#~ msgid "property “%s” invalid or not supported"
+#~ msgstr "érvénytelen vagy nem támogatott érték: „%s”"
+
+#~ msgid "No VPN configuration options."
+#~ msgstr "Nincsenek VPN-beállítások."
+
+#~ msgid "A username is required."
+#~ msgstr "Felhasználónév szükséges."
+
+#~ msgid "A password is required."
+#~ msgstr "Jelszó szükséges."
+
+#~ msgid "A username and password are required."
+#~ msgstr "Felhasználónév és jelszó szükséges."
+
+#~ msgid "A private key password is required."
+#~ msgstr "Személyes kulcs jelszava szükséges."
+
+#~ msgid "An HTTP Proxy username is required."
+#~ msgstr "HTTP proxy felhasználónév szükséges."
+
+#~ msgid "An HTTP Proxy password is required."
+#~ msgstr "HTTP proxy jelszó szükséges."
+
+#~ msgid "An HTTP Proxy username and password are required."
+#~ msgstr "HTTP proxy felhasználónév és jelszó szükséges."
+
+#~ msgid "Invalid connection type."
+#~ msgstr "Érvénytelen kapcsolattípus."
+
+#, c-format
+#~ msgid "Invalid port number “%s”."
+#~ msgstr "Érvénytelen portszám: „%s”."
+
+#, c-format
+#~ msgid "Invalid proto “%s”."
+#~ msgstr "Érvénytelen prototípus: „%s”."
+
+#, c-format
+#~ msgid "Invalid proxy type “%s”."
+#~ msgstr "Érvénytelen proxytípus: „%s”."
+
+#, c-format
+#~ msgid "Invalid ping duration “%s”."
+#~ msgstr "Érvénytelen ping hossz: „%s”."
+
+#, c-format
+#~ msgid "Invalid ping-exit duration “%s”."
+#~ msgstr "Érvénytelen ping-exit hossz: „%s”."
+
+#, c-format
+#~ msgid "Invalid ping-restart duration “%s”."
+#~ msgstr "Érvénytelen ping-restart hossz: „%s”."
+
+#, c-format
+#~ msgid "Invalid connect timeout “%s”."
+#~ msgstr "Érvénytelen kapcsolódási időkorlát: „%s”."
+
+#, c-format
+#~ msgid "Invalid max-routes argument “%s”."
+#~ msgstr "Érvénytelen max-routes argumentum: „%s”."
+
+#, c-format
+#~ msgid "Invalid keysize “%s”."
+#~ msgstr "Érvénytelen kulcsméret: „%s”."
+
+#, c-format
+#~ msgid "Invalid configuration with tls-remote and verify-x509-name."
+#~ msgstr ""
+#~ "Érvénytelen beállítás a tls-remote és verify-x509-name használaávalt."
+
+#, c-format
+#~ msgid "Invalid verify-x509-name."
+#~ msgstr "Érvénytelen verify-x509-name."
+
+#, c-format
+#~ msgid "Invalid reneg seconds “%s”."
+#~ msgstr "Érvénytelen reneg másodperc érték: „%s”."
+
+#, c-format
+#~ msgid "Invalid TUN MTU size “%s”."
+#~ msgstr "Érvénytelen TUN MTU érték: „%s”."
+
+#, c-format
+#~ msgid "Invalid fragment size “%s”."
+#~ msgstr "Érvénytelen töredékméret: „%s”."
+
+#, c-format
+#~ msgid "Unknown connection type “%s”."
+#~ msgstr "Ismeretlen kapcsolattípus: „%s”."
+
+#, c-format
+#~ msgid "User “%s” not found, check NM_ANYCONNECT_USER."
+#~ msgstr ""
+#~ "„%s” felhasználó nem található, ellenőrizze az NM_ANYCONNECT_USER-t."
+
+#, c-format
+#~ msgid "Group “%s” not found, check NM_ANYCONNECT_GROUP."
+#~ msgstr "„%s” csoport nem található, ellenőrizze az NM_ANYCONNECT_GROUP-ot."
+
+#~ msgid "Unhandled pending authentication."
+#~ msgstr "Nem kezelt függő hitelesítés."
+
+#~ msgid "TLS-Auth"
+#~ msgstr "TLS-Auth"
+
+#~ msgid "TLS-Crypt"
+#~ msgstr "TLS-Crypt"
+
+#~ msgid "Maybe"
+#~ msgstr "Talán"
+
+#~ msgid "Yes"
+#~ msgstr "Igen"
+
+#~ msgid "Authentication"
+#~ msgstr "Hitelesítés"
+
+#~ msgid "CA"
+#~ msgstr "CA"
+
+#~ msgid "User"
+#~ msgstr "Felhasználó"
+
+#~ msgid "User name:"
+#~ msgstr "Felhasználónév:"
+
+#~ msgid ""
+#~ "Password passed to Anyconnect when prompted for it.\n"
+#~ "config: auth-user-pass"
+#~ msgstr ""
+#~ "Kérés esetén az Anyconnect-nek átadott jelszó.\n"
+#~ "config: auth-user-pass"
+
+#~ msgid ""
+#~ "Username passed to Anyconnect when prompted for it. If omitted, use the "
+#~ "name of the system user that activates the connection.\n"
+#~ "config: auth-user-pass"
+#~ msgstr ""
+#~ "Kérés esetén az Anyconnect-nek átadott felhasználónév. Ha hiányzik, akkor "
+#~ "használja annak a rendszerfelhasználónak a nevét, aki aktiválja a "
+#~ "kapcsolatot.\n"
+#~ "config: auth-user-pass"
+
+#~ msgid "Remote IP Address:"
+#~ msgstr "Távoli IP-cím:"
+
+#~ msgid "Local IP Address:"
+#~ msgstr "Helyi IP-cím:"
+
+#~ msgid "Key Direction:"
+#~ msgstr "Kulcsirány:"
+
+#~ msgid "Static Key:"
+#~ msgstr "Statikus kulcs:"
+
+#~ msgid ""
+#~ "Pre-shared file for Static Key encryption mode (non-TLS).\n"
+#~ "config: static <file>"
+#~ msgstr ""
+#~ "Előzetesen megosztott fájl a statikus kulcstitkosítási (nem TLS) módhoz.\n"
+#~ "config: static <fájl>"
+
+#~ msgid ""
+#~ "IP address of the remote VPN endpoint.\n"
+#~ "config: ifconfig <l> <rn>"
+#~ msgstr ""
+#~ "A távoli VPN végpont IP-címe.\n"
+#~ "config: ifconfig <l> <rn>"
+
+#~ msgid ""
+#~ "IP address of the local VPN endpoint.\n"
+#~ "config: ifconfig <l> <rn>"
+#~ msgstr ""
+#~ "A helyi VPN végpont IP-címe.\n"
+#~ "config: ifconfig <l> <rn>"
+
+#~ msgid ""
+#~ "Direction for Static Key encryption mode (non-TLS).\n"
+#~ "If key direction is used, it must be the opposite of that used on the VPN "
+#~ "peer. For example, if the peer uses “1”, this connection must use “0”. If "
+#~ "you are unsure what value to use, contact your system administrator.\n"
+#~ "config: static <file> [direction]"
+#~ msgstr ""
+#~ "Irány a statikus kulcstitkosítási (nem TLS) módhoz.\n"
+#~ "A kulcsirány használatakor a VPN partneren használttal ellentétesnek kell "
+#~ "lennie. Ha például a partner 1-et használ, akkor a kapcsolatnak 0-t kell. "
+#~ "Ha nem biztos benne, hogy melyik értéket kell használnia, keresse meg a "
+#~ "rendszergazdát.\n"
+#~ "config: static <fájl> [irány]"
+
+#~ msgid "Type:"
+#~ msgstr "Típus:"
+
+#~ msgid "Select an authentication mode."
+#~ msgstr "Válasszon egy hitelesítési módot."
+
+#~ msgid "Ad_vanced…"
+#~ msgstr "S_peciális…"
+
+#~ msgid "Anyconnect Advanced Options"
+#~ msgstr "Anyconnect speciális beállításai"
+
+#~ msgid "Use custom gateway p_ort:"
+#~ msgstr "Egyéni átjáró_port használata:"
+
+#~ msgid ""
+#~ "TCP/UDP port number for peer. (Default value when there is no port for "
+#~ "gateway).\n"
+#~ "config: port"
+#~ msgstr ""
+#~ "Partner TCP/UDP portszáma. (Alapértelmezett érték, ha nincs port az "
+#~ "átjáróhoz.)\n"
+#~ "config: port"
+
+#~ msgid "Use custom _renegotiation interval:"
+#~ msgstr "_Egyéni újratárgyalási időköz használata:"
+
+#~ msgid ""
+#~ "Renegotiate data channel key after the specified number of seconds.\n"
+#~ "config: reneg-sec"
+#~ msgstr ""
+#~ "Adatcsatorna kulcsának újratárgyalása a megadott számú másodperc után.\n"
+#~ "config: reneg-sec"
+
+#~ msgid "Use L_ZO data compression"
+#~ msgstr "L_ZO tömörítés használata"
+
+#~ msgid ""
+#~ "Use fast LZO compression.\n"
+#~ "config: comp-lzo"
+#~ msgstr ""
+#~ "Gyors LZO tömörítés használata.\n"
+#~ "config: comp-lzo"
+
+#~ msgid ""
+#~ "Select the LZO data compression mode.\n"
+#~ "config: comp-lzo"
+#~ msgstr ""
+#~ "Válasza ki az LZO adattömörítés módját.\n"
+#~ "config: comp-lzo"
+
+#~ msgid "Use a _TCP connection"
+#~ msgstr "T_CP kapcsolat használata"
+
+#~ msgid ""
+#~ "Use TCP for communicating with remote host.\n"
+#~ "(This is a default setting only used when no protocol is specified for "
+#~ "the gateway.)\n"
+#~ "config: proto tcp-client | udp"
+#~ msgstr ""
+#~ "TCP használata a távoli géppel való kommunikációra.\n"
+#~ "(Ez az alapértelmezett beállítás csak akkor kerül felhasználásra, ha "
+#~ "nincs protokoll megadva az átjáróhoz.)\n"
+#~ "config: proto tcp-client | udp"
+
+#~ msgid "Set virtual _device type:"
+#~ msgstr "Virtuális _eszköztípus beállítása:"
+
+#~ msgid "Explicitly set virtual device type and name (TUN/TAP)."
+#~ msgstr "Virtuális eszköztípus és név explicit beállítása (TUN/TAP)."
+
+#~ msgid ""
+#~ "Explicitly set virtual device type (TUN/TAP).\n"
+#~ "config: dev-type tun | tap"
+#~ msgstr ""
+#~ "Virtuális eszköztípus explicit beállítása (TUN/TAP).\n"
+#~ "beállítás: dev-type tun | tap"
+
+#~ msgid " and _name:"
+#~ msgstr " és _név:"
+
+#~ msgid ""
+#~ "Use custom name for TUN/TAP virtual device (instead of default “tun” or "
+#~ "“tap”).\n"
+#~ "config: dev <name>"
+#~ msgstr ""
+#~ "Egyéni név használata a TUN/TAP virtuális eszközhöz (az alapértelmezett "
+#~ "„tun” vagy „tap” helyett).\n"
+#~ "beállítás: dev <név>"
+
+#~ msgid "Use custom tunnel Maximum Transmission _Unit (MTU):"
+#~ msgstr "Egyéni _maximális átviteli egység (MTU) használata az alagúthoz:"
+
+#~ msgid ""
+#~ "Take the TUN device MTU to be the specified value and derive the link MTU "
+#~ "from it.\n"
+#~ "config: tun-mtu"
+#~ msgstr ""
+#~ "A TUN eszköz MTU-jának beállítása a megadott értékre, és a kapcsolat MTU-"
+#~ "jának származtatása ebből.\n"
+#~ "config: tun-mtu"
+
+#~ msgid "Use custom UDP _fragment size:"
+#~ msgstr "Egyéni _UDP-darab méret használata:"
+
+#~ msgid ""
+#~ "Enable internal datagram fragmentation with this maximum size.\n"
+#~ "config: fragment"
+#~ msgstr ""
+#~ "Belső datagramtördelés engedélyezése ezzel a maximális értékkel.\n"
+#~ "config: fragment"
+
+#~ msgid "Restrict tunnel TCP Maximum _Segment Size (MSS)"
+#~ msgstr "T_CP alagút maximális szegmensméretének (MSS) korlátozása"
+
+#~ msgid ""
+#~ "Restrict tunnel TCP MSS.\n"
+#~ "config: mssfix"
+#~ msgstr ""
+#~ "Alagút TCP MSS korlátozása.\n"
+#~ "config: mssfix"
+
+#~ msgid "Rando_mize remote hosts"
+#~ msgstr "Távoli gépek _véletlenszerűsítése"
+
+#~ msgid ""
+#~ "Randomize the order of gateways list (remote) as a kind of basic load-"
+#~ "balancing measure.\n"
+#~ "config: remote-random"
+#~ msgstr ""
+#~ "Az átjárók (távoli) listájának véletlenszerűsítése egyszerű "
+#~ "terheléskiegyenlítési intézkedésként.\n"
+#~ "config: remote-random"
+
+#~ msgid "IPv6 tun link"
+#~ msgstr "IPv6 tun kapcsolat"
+
+#~ msgid ""
+#~ "Build a tun link capable of forwarding IPv6 traffic\n"
+#~ "config: tun-ipv6"
+#~ msgstr ""
+#~ "IPv6 forgalom továbbítására képes tun kapcsolat létrehozása\n"
+#~ "config: tun-ipv6"
+
+#~ msgid "Specify _exit or restart ping:"
+#~ msgstr "Ping _leállítása vagy újraindítása:"
+
+#~ msgid ""
+#~ "Exit or restart after n seconds pass without reception of a ping or other "
+#~ "packet from remote.\n"
+#~ "config: ping-exit | ping-restart <n>"
+#~ msgstr ""
+#~ "Leállítás vagy újraindítás, ha eltelt n másodperc ping vagy más csomag "
+#~ "fogadása óta a távoli féltől.\n"
+#~ "beállítás: ping-exit | ping-restart <n>"
+
+#~ msgid "Specify pin_g interval:"
+#~ msgstr "Adja meg a pin_g időközét:"
+
+#~ msgid ""
+#~ "Ping remote over the TCP/UDP control channel if no packets have been sent "
+#~ "for at least n seconds.\n"
+#~ "config: ping <n>"
+#~ msgstr ""
+#~ "Távoli pingelése a TCP/UDP vezérlőcsatornán, ha legalább n másodpercig "
+#~ "nem került csomag küldésre.\n"
+#~ "beállítás: ping <n>"
+
+#~ msgid "Accept authenticated packets from any address (F_loat)"
+#~ msgstr "_Hitelesített csomagok elfogadása bármely címről (float)"
+
+#~ msgid ""
+#~ "Allow remote peer to change its IP address and/or port number, such as "
+#~ "due to DHCP (this is the default if --remote is not used). --float when "
+#~ "specified with --remote allows an Anyconnect session to initially connect "
+#~ "to a peer at a known address, however if packets arrive from a new "
+#~ "address and pass all authentication tests, the new address will take "
+#~ "control of the session. This is useful when you are connecting to a peer "
+#~ "which holds a dynamic address such as a dial-in user or DHCP client.\n"
+#~ "\n"
+#~ "Essentially, --float tells Anyconnect to accept authenticated packets "
+#~ "from any address, not only the address which was specified in the --"
+#~ "remote option.\n"
+#~ "\n"
+#~ "config: float"
+#~ msgstr ""
+#~ "A távoli partner megváltoztathatja az IP-címét és/vagy portszámát, "
+#~ "például DHCP miatt (ez az alapértelmezett, ha a --remote nincs megadva). "
+#~ "A --float a --remote kapcsolóval együtt lehetővé teszi az Anyconnect "
+#~ "munkamenetnek, hogy kapcsolódjon egy ismert című partnerhez, ha azonban "
+#~ "egy új címről érkeznek csomagok, és megfelelnek a hitelesítési teszteken, "
+#~ "az új cím átveszi a munkamenet irányítását. Ez akkor hasznos, ha "
+#~ "dinamikus című partnerhez kapcsolódik, például betárcsázós kapcsolaton "
+#~ "elérhető vagy DHCP klienst használó felhasználóhoz.\n"
+#~ "\n"
+#~ "Lényegében a --float megadja az Anyconnect-nek, hogy fogadja el a "
+#~ "hitelesített csomagokat tetszőleges címről, ne csak a --remote "
+#~ "kapcsolóval megadott címről.\n"
+#~ "\n"
+#~ "config: float"
+
+#~ msgid "Specify max routes:"
+#~ msgstr "Útvonalak legnagyobb számának megadása:"
+
+#~ msgid ""
+#~ "Specify the maximum number of routes the server is allowed to specify.\n"
+#~ "config: max-routes <n>"
+#~ msgstr ""
+#~ "Adja meg a kiszolgáló által megadható útvonalak legnagyobb számát.\n"
+#~ "beállítás: max-routes <n>"
+
+#~ msgid ""
+#~ "Encrypt packets with cipher algorithm. The default is BF-CBC (Blowfish in "
+#~ "Cipher Block Chaining mode).\n"
+#~ "config: cipher"
+#~ msgstr ""
+#~ "Csomagok titkosítása ezzel az algoritmussal. Az alapértelmezett a BF-CBC "
+#~ "(Blowfish Cipher Block Chaining módban).\n"
+#~ "config: cipher"
+
+#~ msgid "Use custom _size of cipher key:"
+#~ msgstr "Egyéni _méretű titkosítókulcs használata:"
+
+#~ msgid ""
+#~ "Set cipher key size to a custom value. If unspecified, it defaults to "
+#~ "cipher-specific size.\n"
+#~ "config: keysize <n>"
+#~ msgstr ""
+#~ "A titkosítókulcs méretének egyéni értékre állítása. Ha nincs megadva, a "
+#~ "titkosítóra jellemző méretre áll be.\n"
+#~ "config: keysize <n>"
+
+#~ msgid ""
+#~ "Authenticate packets with HMAC using message digest algorithm. The "
+#~ "default is SHA1.\n"
+#~ "config: auth"
+#~ msgstr ""
+#~ "Csomagok hitelesítése HMAC-cal ezen üzenetkivonatolási algoritmus "
+#~ "használatával. Az alapértelmezés az SHA1.\n"
+#~ "config: auth"
+
+#~ msgid "Ci_pher:"
+#~ msgstr "_Rejtjelezés:"
+
+#~ msgid "_HMAC Authentication:"
+#~ msgstr "_HMAC hitelesítés:"
+
+#~ msgid "Disable cipher _negotiation"
+#~ msgstr "Rejtjelezési _egyeztetés letiltása"
+
+#~ msgid ""
+#~ "Disable cipher negotiation between client and server.\n"
+#~ "config: ncp-disable"
+#~ msgstr ""
+#~ "A rejtjelezési egyeztetés letiltása az ügyfél és a kiszolgáló között.\n"
+#~ "konfiguráció: ncp-disable"
+
+#~ msgid "Verify CRL from file"
+#~ msgstr "CRL ellenőrzése fájlból"
+
+#~ msgid ""
+#~ "Check peer certificate against the specified file in PEM format. A CRL "
+#~ "(certificate revocation list) is used when a particular key is "
+#~ "compromised but when the overall PKI is still intact."
+#~ msgstr ""
+#~ "A partnertanúsítvány ellenőrzése a megadott PEM formátumú fájllal "
+#~ "összehasonlítva. A CRL (tanúsítvány-visszavonási lista) akkor "
+#~ "használatos, ha egy bizonyos kulcs kompromittálva lett, de a PKI maga "
+#~ "továbbra is érintetlen maradt."
+
+#~ msgid "Verify CRL from directory"
+#~ msgstr "CRL ellenőrzése könyvtárból"
+
+#~ msgid ""
+#~ "Check peer certificate by looking at files in the specified directory. "
+#~ "The directory must contain files named as revoked serial numbers (the "
+#~ "files may be empty, the contents are never read)."
+#~ msgstr ""
+#~ "A partnertanúsítvány ellenőrzése a megadott könyvtárban lévő fájlok "
+#~ "megtekintésével. A könyvtárban visszavont sorozatszámokkal elnevezett "
+#~ "fájloknak kell lennie (a fájlok üresek is lehetnek, a tartalmuk sosem "
+#~ "lesz felolvasva)."
+
+#~ msgid "Choose CRL file"
+#~ msgstr "Válasszon CRL fájlt"
+
+#~ msgid "Choose CRL directory"
+#~ msgstr "Válasszon CRL könyvtárat"
+
+#~ msgid "Security"
+#~ msgstr "Biztonság"
+
+#~ msgid "_Subject Match:"
+#~ msgstr "_Alany egyezik:"
+
+#~ msgid ""
+#~ "Subject or Common Name to verify server certificate information against.\n"
+#~ "\n"
+#~ "config: verify-x509-name subject-or-name [mode]\n"
+#~ "config (legacy mode): tls-remote subject-or-name"
+#~ msgstr ""
+#~ "Alany vagy ismert név a kiszolgálótanúsítvány információk "
+#~ "ellenőrzéséhez.\n"
+#~ "\n"
+#~ "beállítás: verify-x509-name alany-vagy-név [mód]\n"
+#~ "beállítás (örökölt mód): tls-remote alany-vagy-név"
+
+#~ msgid "Server _Certificate Check:"
+#~ msgstr "Kiszolgáló_tanúsítvány ellenőrzése:"
+
+#~ msgid ""
+#~ "Verify server certificate identification.\n"
+#~ "\n"
+#~ "When enabled, connection will only succeed if the server certificate "
+#~ "matches some expected properties.\n"
+#~ "Matching can either apply to the whole certificate subject (all the "
+#~ "fields),\n"
+#~ "or just the Common Name (CN field).\n"
+#~ "\n"
+#~ "The legacy option tls-remote is deprecated and removed from Anyconnect "
+#~ "2.4 and newer. Do not use it anymore.\n"
+#~ "\n"
+#~ "config: verify-x509-name subject-or-name [mode]\n"
+#~ "config (legacy mode): tls-remote subject-or-name"
+#~ msgstr ""
+#~ "A kiszolgálótanúsítvány személyazonosságának ellenőrzése.\n"
+#~ "\n"
+#~ "Ha engedélyezett, akkor a kapcsolat csak akkor lesz sikeres, ha a "
+#~ "kiszolgálótanúsítvány egyezik néhány várt tulajdonsággal.\n"
+#~ "Az egyezés vonatkozhat a teljes tanúsítvány alanyára (minden mezőre),\n"
+#~ "vagy csak az ismert névre (CN mező).\n"
+#~ "\n"
+#~ "Az örökölt tls-remote beállítás elavult, és eltávolításra került\n"
+#~ "az Anyconnect 2.4 és újabb verzióiból. Ne használja többé.\n"
+#~ "\n"
+#~ "beállítás: verify-x509-name alany-vagy-név [mód]\n"
+#~ "beállítás (örökölt mód): tls-remote alany-vagy-név"
+
+#~ msgid "_Verify peer (server) certificate usage signature"
+#~ msgstr "_Partner (kiszolgáló) tanúsítványhasználati aláírásának ellenőrzése"
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit key usage and "
+#~ "extended key usage based on RFC3280 TLS rules."
+#~ msgstr ""
+#~ "A partnertanúsítvány explicit kulcshasználattal és az RFC3280 TLS "
+#~ "szabályai alapján bővített kulcshasználattal való aláírásának "
+#~ "megkövetelése."
+
+#~ msgid "_Remote peer certificate TLS type:"
+#~ msgstr "_Távoli partner tanúsítványának TLS típusa:"
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit key usage and "
+#~ "extended key usage based on RFC3280 TLS rules.\n"
+#~ "config: remote-cert-tls client|server"
+#~ msgstr ""
+#~ "A partnertanúsítvány explicit kulcshasználattal és az RFC3280 TLS "
+#~ "szabályai alapján bővített kulcshasználattal való aláírásának "
+#~ "megkövetelése.\n"
+#~ "config: remote-cert-tls client|server"
+
+#~ msgid "_Verify peer (server) certificate nsCertType designation"
+#~ msgstr ""
+#~ "_Partner (kiszolgáló) tanúsítvány nsCertType meghatározásának ellenőrzése"
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit nsCertType "
+#~ "designation."
+#~ msgstr ""
+#~ "A partnertanúsítvány explicit nsCertType meghatározással való aláírásának "
+#~ "megkövetelése."
+
+#~ msgid "_Remote peer certificate nsCert designation:"
+#~ msgstr "_Távoli partner tanúsítványának nsCert meghatározása:"
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit nsCertType "
+#~ "designation.\n"
+#~ "config: ns-cert-type client|server"
+#~ msgstr ""
+#~ "A partnertanúsítvány explicit nsCertType meghatározással való aláírásának "
+#~ "megkövetelése.\n"
+#~ "config: ns-cert-type client|server"
+
+#~ msgid "Key _Direction:"
+#~ msgstr "_Kulcsirány:"
+
+#~ msgid ""
+#~ "Add an additional layer of HMAC authentication on top of the TLS control "
+#~ "channel to protect against DoS attacks. In case of TLS-Crypt mode, the "
+#~ "control channel is also encrypted.\n"
+#~ "config: tls-auth <file> [direction] | tls-crypt <file>"
+#~ msgstr ""
+#~ "Újabb HMAC hitelesítési réteg hozzáadása a TLS vezérlőcsatornához a DoS "
+#~ "támadások elleni védekezéshez. A TLS-Crypt mód esetén a vezérlőcsatorna "
+#~ "is titkosított.\n"
+#~ "config: tls-auth <fájl> [irány] | tls-crypt <fájl>"
+
+#~ msgid ""
+#~ "Direction parameter for static key mode.\n"
+#~ "If key direction is used, it must be the opposite of that used on the VPN "
+#~ "peer. For example, if the peer uses “1”, this connection must use “0”. If "
+#~ "you are unsure what value to use, contact your system administrator.\n"
+#~ "config: tls-auth <file> [direction]"
+#~ msgstr ""
+#~ "Irányparaméter a statikus kulcs módhoz.\n"
+#~ "A kulcsirány használatakor a VPN partneren használttal ellentétesnek kell "
+#~ "lennie. Ha például a partner 1-et használ, akkor a kapcsolatnak 0-t kell. "
+#~ "Ha nem biztos benne, hogy melyik értéket kell használnia, keresse meg a "
+#~ "rendszergazdát.\n"
+#~ "config: tls-auth <fájl> [irány]"
+
+#~ msgid "Key _File:"
+#~ msgstr "Kulcs_fájl:"
+
+#~ msgid "Mode:"
+#~ msgstr "Mód:"
+
+#~ msgid "Add an additional layer of encryption or HMAC authentication."
+#~ msgstr "További titkosítási réteg vagy HMAC hitelesítés hozzáadása."
+
+#~ msgid "Extra Certificates:"
+#~ msgstr "További tanúsítványok:"
+
+#~ msgid ""
+#~ "Specify a file containing one or more PEM certs (concatenated together) "
+#~ "that complete the local certificate chain.\n"
+#~ "config: extra-certs <file>"
+#~ msgstr ""
+#~ "Adjon meg egy PEM tanúsítványokat (akár összefűzve) tartalmazó a helyi "
+#~ "tanúsítványláncot kiegészítő fájlt.\n"
+#~ "config: extra-certs <fájl>"
+
+#~ msgid "Additional TLS authentication or encryption"
+#~ msgstr "További TLS hitelesítés vagy titkosítás"
+
+#~ msgid "TLS Authentication"
+#~ msgstr "TLS hitelesítés"
+
+#~ msgid ""
+#~ "Proxy type: HTTP or Socks.\n"
+#~ "config: http-proxy or socks-proxy"
+#~ msgstr ""
+#~ "Proxy típusa: HTTP vagy Socks.\n"
+#~ "config: http-proxy vagy socks-proxy"
+
+#~ msgid "Proxy _Type:"
+#~ msgstr "Proxy _típus:"
+
+#~ msgid ""
+#~ "<i>Select this option if your organization requires the use of a proxy "
+#~ "server to access the Internet.</i>"
+#~ msgstr ""
+#~ "<i>Válassza ezt a lehetőséget, ha a szervezet proxy kiszolgáló "
+#~ "használatát követeli meg az internet eléréséhez.</i>"
+
+#~ msgid "Server _Address:"
+#~ msgstr "_Kiszolgáló címe:"
+
+#~ msgid ""
+#~ "Connect to remote host through a proxy with this address.\n"
+#~ "config: http-proxy or socks-proxy"
+#~ msgstr ""
+#~ "Csatlakozás a távoli géphez ezen a proxy címen keresztül.\n"
+#~ "config: http-proxy vagy socks-proxy"
+
+#~ msgid "_Port:"
+#~ msgstr "_Port:"
+
+#~ msgid ""
+#~ "Connect to remote host through a proxy with this port.\n"
+#~ "config: http-proxy or socks-proxy"
+#~ msgstr ""
+#~ "Csatlakozás a távoli géphez ezen a proxy porton keresztül.\n"
+#~ "config: http-proxy vagy socks-proxy"
+
+#~ msgid "_Retry indefinitely when errors occur"
+#~ msgstr "Hiba esetén _végtelen számú újrapróbálkozás"
+
+#~ msgid ""
+#~ "Retry indefinitely on proxy errors. It simulates a SIGUSR1 reset.\n"
+#~ "config: http-proxy-retry or socks-proxy-retry"
+#~ msgstr ""
+#~ "Proxy hiba esetén végtelen számú újrapróbálkozás. SIGUSR1 jelzést "
+#~ "szimulál.\n"
+#~ "config: http-proxy-retry vagy socks-proxy-retry"
+
+#~ msgid "Proxy _Username:"
+#~ msgstr "Proxy _felhasználói név:"
+
+#~ msgid "Proxy Passwor_d:"
+#~ msgstr "_Proxy jelszó:"
+
+#~ msgid "HTTP/Socks proxy username passed to Anyconnect when prompted for it."
+#~ msgstr ""
+#~ "Kérés esetén az Anyconnect-nek átadott HTTP/Socks proxy felhasználónév."
+
+#~ msgid "HTTP/Socks proxy password passed to Anyconnect when prompted for it."
+#~ msgstr "Kérés esetén az Anyconnect-nek átadott HTTP/Socks proxy jelszó."
+
+#~ msgid "_Show password"
+#~ msgstr "_Jelszó megjelenítése"
+
+#~ msgid "Proxies"
+#~ msgstr "Proxyk"
+
+#~ msgid "Path mtu discovery"
+#~ msgstr "Útvonal mtu felfedezés"
+
+#~ msgid "Connect timeout"
+#~ msgstr "Kapcsolódási időkorlát"
+
+#~ msgid ""
+#~ "The timeout in seconds before trying the next server. This timeout "
+#~ "includes proxy and TCP connect timeouts.\n"
+#~ "config: connect-timeout <n> | server-poll-timeout <n>"
+#~ msgstr ""
+#~ "Az időkorlát másodpercben, mielőtt a következő kiszolgálót próbálná. Ez "
+#~ "az időkorlát tartalmazza a proxy és a TCP kapcsolódási időkorlátokat is.\n"
+#~ "config: connect-timeout <n> | server-poll-timeout <n>"
+
+#~ msgid "Misc"
+#~ msgstr "Egyéb"
+
+#~ msgid "unknown Anyconnect file extension"
+#~ msgstr "ismeretlen Anyconnect fájlkiterjesztés"
+
+#~ msgid "could not create anyconnect object"
+#~ msgstr "nem sikerült létrehozni az anyconnect objektumot"
+
+#~ msgid "Invalid HMAC auth."
+#~ msgstr "Érvénytelen HMAC azonosítás."

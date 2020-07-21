@@ -1,0 +1,609 @@
+# Japanese message catalog for NetworkManager-anyconnect
+# Copyright (C) 2006-2007, 2013, 2020 THE NetworkManager-anyconnect's COPYRIGHT HOLDER
+# This file is distributed under the same license as the NetworkManager-anyconnect package.
+# Satoru SATOH <ss@gnome.gr.jp>, 2006, 2007.
+# Hajime Taira <htaira@redhat.com>, 2013.
+# sicklylife <translation@sicklylife.jp>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: NetworkManager-anyconnect HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-30 22:41+0100\n"
+"PO-Revision-Date: 2020-05-10 21:00+0900\n"
+"Last-Translator: sicklylife <translation@sicklylife.jp>\n"
+"Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:1
+msgid "Anyconnect client"
+msgstr "Anyconnect クライアント"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:2
+msgid "Client for Anyconnect virtual private networks"
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:3
+msgid "Support for configuring Anyconnect virtual private network connections."
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:4
+msgid "Anyconnect is a popular and flexible free-software VPN solution."
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:5
+msgid "The NetworkManager Developers"
+msgstr ""
+
+#: ../properties/nm-anyconnect-editor-plugin.c:35
+#, fuzzy
+msgid "Cisco AnyConnect"
+msgstr "Anyconnect"
+
+#: ../properties/nm-anyconnect-editor-plugin.c:36
+msgid "Runs the proprietary Cisco AnyConnect VPN."
+msgstr ""
+
+#: ../properties/nm-anyconnect-editor.c:299
+msgid "could not load UI widget"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:946
+#, c-format
+msgid "object class '%s' has no property named '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:953
+#, c-format
+msgid "property '%s' of object class '%s' is not writable"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:960
+#, c-format
+msgid ""
+"construct property \"%s\" for object '%s' can't be set after construction"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:968
+#, c-format
+msgid "'%s::%s' is not a valid property name; '%s' is not a GObject subtype"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:977
+#, c-format
+msgid "unable to set property '%s' of type '%s' from value of type '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:988
+#, c-format
+msgid ""
+"value \"%s\" of type '%s' is invalid or out of range for property '%s' of "
+"type '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:69
+#, c-format
+msgid "unable to get editor plugin name: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:103
+#, c-format
+msgid "missing plugin file \"%s\""
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:109
+#, c-format
+msgid "cannot load editor plugin: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:118
+#, c-format
+msgid "cannot load factory %s from plugin: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:144
+msgid "unknown error creating editor instance"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:567 ../src/nm-anyconnect-service.c:682
+msgid "Could not find the anyconnect binary."
+msgstr "anyconnect のバイナリが見つかりませんでした。"
+
+#: ../src/nm-anyconnect-service.c:580
+msgid ""
+"Could not process the request because the VPN connection settings were "
+"invalid."
+msgstr "VPN 接続の設定が無効であるため、リクエストを処理できませんでした。"
+
+#: ../src/nm-anyconnect-service.c:602
+msgid ""
+"Could not attempt connection, unable to find the setting for the gateway."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:875
+msgid "Don’t quit when VPN connection terminates"
+msgstr "VPN 接続が切断されても終了しない"
+
+#: ../src/nm-anyconnect-service.c:876
+msgid "Enable verbose debug logging (may expose passwords)"
+msgstr "詳細なデバッグ情報の保存を有効にする (パスワードも含まれます)"
+
+#: ../src/nm-anyconnect-service.c:877
+msgid "D-Bus name to use for this instance"
+msgstr "このインスタンスの D-Bus 名"
+
+#: ../src/nm-anyconnect-service.c:905
+#, fuzzy
+msgid ""
+"nm-anyconnect-service provides integrated proprietary Cisco AnyConnect "
+"capability to NetworkManager."
+msgstr ""
+"nm-anyconnect-service は NetworkManager に統合化された Anyconnect 機能を提供"
+"します。"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:1
+msgid "General"
+msgstr "全般"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:2
+msgid "_Gateway:"
+msgstr "ゲートウェイ(_G):"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:3
+msgid "VPN host to connect to"
+msgstr ""
+
+#, c-format
+#~ msgid "Authentication required"
+#~ msgstr "認証が必要です"
+
+#~ msgid "Password"
+#~ msgstr "パスワード"
+
+#~ msgid "Certificate password"
+#~ msgstr "証明パスワード"
+
+#~ msgid "HTTP proxy password"
+#~ msgstr "HTTP プロキシパスワード"
+
+#~ msgid "Authenticate VPN"
+#~ msgstr "VPN 認証"
+
+#~ msgid "Certificate pass_word:"
+#~ msgstr "証明パスワード(_W):"
+
+#~ msgid "_HTTP proxy password:"
+#~ msgstr "HTTP プロキシパスワード(_H):"
+
+#, c-format
+#~ msgid "You need to authenticate to access the Virtual Private Network “%s”."
+#~ msgstr "仮想プライベートネットワーク“%s”にアクセスするには認証が必要です。"
+
+#, c-format
+#~ msgid "“%s” is not a directory"
+#~ msgstr "“%s”はディレクトリではありません"
+
+#, c-format
+#~ msgid "cannot create “%s” directory"
+#~ msgstr "“%s”ディレクトリを作成できません"
+
+#, c-format
+#~ msgid "invalid option"
+#~ msgstr "無効なオプション"
+
+#, c-format
+#~ msgid "configuration error: %s (line %ld)"
+#~ msgstr "設定エラー: %s (%ld 行)"
+
+#, c-format
+#~ msgid "failed to write file: %s"
+#~ msgstr "ファイルへの書き込みに失敗しました: %s"
+
+#~ msgid "Compatible with the Anyconnect server."
+#~ msgstr "Anyconnect サーバーとの互換性"
+
+#~ msgid "Choose an Anyconnect static key…"
+#~ msgstr "Anyconnect の共通鍵を選択…"
+
+#~ msgid "None"
+#~ msgstr "なし"
+
+#~ msgid "Anyconnect Static Keys (*.key)"
+#~ msgstr "Anyconnect 共通鍵 (*.key)"
+
+#~ msgid "Default"
+#~ msgstr "デフォルト"
+
+#~ msgid "RSA MD-4"
+#~ msgstr "RSA MD-4"
+
+#~ msgid "MD-5"
+#~ msgstr "MD-5"
+
+#~ msgid "SHA-1"
+#~ msgstr "SHA-1"
+
+#~ msgid "SHA-224"
+#~ msgstr "SHA-224"
+
+#~ msgid "SHA-256"
+#~ msgstr "SHA-256"
+
+#~ msgid "SHA-384"
+#~ msgstr "SHA-384"
+
+#~ msgid "SHA-512"
+#~ msgstr "SHA-512"
+
+#~ msgid "RIPEMD-160"
+#~ msgstr "RIPEMD-160"
+
+#~ msgid "Server"
+#~ msgstr "サーバー"
+
+#~ msgid "Client"
+#~ msgstr "クライアント"
+
+#~ msgid "Not required"
+#~ msgstr "不要"
+
+#~ msgid "HTTP"
+#~ msgstr "HTTP"
+
+#~ msgid "SOCKS"
+#~ msgstr "SOCKS"
+
+#~ msgid "Certificates (TLS)"
+#~ msgstr "証明書 (TLS):"
+
+#~ msgid "Password with Certificates (TLS)"
+#~ msgstr "パスワードと証明書 (TLS)"
+
+#~ msgid "Static Key"
+#~ msgstr "共通鍵"
+
+#, c-format
+#~ msgid "invalid port"
+#~ msgstr "無効なポート"
+
+#, c-format
+#~ msgid "invalid protocol"
+#~ msgstr "無効なプロトコル"
+
+#, c-format
+#~ msgid "invalid address “%s”"
+#~ msgstr "無効なアドレス“%s”"
+
+#, c-format
+#~ msgid "invalid integer property “%s” or out of range [%d -> %d]"
+#~ msgstr ""
+#~ "数値型プロパティ“%s”が無効な数値か、または設定値が範囲外です [%d -> %d]"
+
+#, c-format
+#~ msgid "invalid boolean property “%s” (not yes or no)"
+#~ msgstr "ブーリアン型プロパティ“%s”が無効な値です (yes、no ではありません)"
+
+#, c-format
+#~ msgid "unhandled property “%s” type %s"
+#~ msgstr "プロパティ“%s”の型 (%s) を処理できません"
+
+#, c-format
+#~ msgid "property “%s” invalid or not supported"
+#~ msgstr "プロパティ“%s”は無効かサポートされていません"
+
+#~ msgid "No VPN configuration options."
+#~ msgstr "Anyconnect 設定オプションがありません。"
+
+#~ msgid "A username is required."
+#~ msgstr "ユーザー名が必要です。"
+
+#~ msgid "A password is required."
+#~ msgstr "パスワードが必要です。"
+
+#~ msgid "A username and password are required."
+#~ msgstr "ユーザー名とパスワードが必要です。"
+
+#~ msgid "A private key password is required."
+#~ msgstr "秘密鍵のパスワードが必要です。"
+
+#~ msgid "An HTTP Proxy username is required."
+#~ msgstr "HTTP プロキシのユーザー名が必要です。"
+
+#~ msgid "An HTTP Proxy password is required."
+#~ msgstr "HTTP プロキシのパスワードが必要です。"
+
+#~ msgid "An HTTP Proxy username and password are required."
+#~ msgstr "HTTP プロキシのユーザー名とパスワードが必要です。"
+
+#~ msgid "Invalid connection type."
+#~ msgstr "接続タイプは無効です。"
+
+#, c-format
+#~ msgid "Invalid port number “%s”."
+#~ msgstr "ポート番号“%s”は無効です。"
+
+#, c-format
+#~ msgid "Invalid proxy type “%s”."
+#~ msgstr "プロキシタイプ“%s”は無効です。"
+
+#, c-format
+#~ msgid "Invalid keysize “%s”."
+#~ msgstr "キーサイズ“%s”は無効です。"
+
+#, c-format
+#~ msgid "Invalid reneg seconds “%s”."
+#~ msgstr "再交渉時間 (秒) “%s”は無効です。"
+
+#, c-format
+#~ msgid "Invalid TUN MTU size “%s”."
+#~ msgstr "TUN MTU サイズ“%s”は無効です。"
+
+#, c-format
+#~ msgid "Invalid fragment size “%s”."
+#~ msgstr "フラグメントサイズ“%s”は無効です。"
+
+#, c-format
+#~ msgid "Unknown connection type “%s”."
+#~ msgstr "“%s”は不明な接続タイプです。"
+
+#, c-format
+#~ msgid "User “%s” not found, check NM_ANYCONNECT_USER."
+#~ msgstr ""
+#~ "ユーザー“%s”が見つかりませんでした。NM_ANYCONNECT_USER を確認してくださ"
+#~ "い。"
+
+#, c-format
+#~ msgid "Group “%s” not found, check NM_ANYCONNECT_GROUP."
+#~ msgstr ""
+#~ "グループ“%s”が見つかりませんでした。NM_ANYCONNECT_GROUP を確認してくださ"
+#~ "い。"
+
+#~ msgid "Unhandled pending authentication."
+#~ msgstr "対処できない認証で保留中です。"
+
+#~ msgid "LZO"
+#~ msgstr "LZO"
+
+#~ msgid "LZ4"
+#~ msgstr "LZ4"
+
+#~ msgid "LZ4 v2"
+#~ msgstr "LZ4 v2"
+
+#~ msgid "Yes"
+#~ msgstr "はい"
+
+#~ msgid "Authentication"
+#~ msgstr "認証"
+
+#~ msgid "CA"
+#~ msgstr "CA"
+
+#~ msgid "User"
+#~ msgstr "ユーザー"
+
+#~ msgid "Password:"
+#~ msgstr "パスワード:"
+
+#~ msgid "User name:"
+#~ msgstr "ユーザー名:"
+
+#~ msgid "Remote IP Address:"
+#~ msgstr "リモート IP アドレス:"
+
+#~ msgid "Local IP Address:"
+#~ msgstr "ローカル IP アドレス:"
+
+#~ msgid "Key Direction:"
+#~ msgstr "鍵の方向:"
+
+#~ msgid "Static Key:"
+#~ msgstr "共通鍵:"
+
+#~ msgid ""
+#~ "IP address of the remote VPN endpoint.\n"
+#~ "config: ifconfig <l> <rn>"
+#~ msgstr ""
+#~ "リモートの VPN 終点装置の IP アドレス\n"
+#~ "config: ifconfig <l> <rn>"
+
+#~ msgid ""
+#~ "IP address of the local VPN endpoint.\n"
+#~ "config: ifconfig <l> <rn>"
+#~ msgstr ""
+#~ "ローカルの VPN 終点装置の IP アドレス\n"
+#~ "config: ifconfig <l> <rn>"
+
+#~ msgid "Type:"
+#~ msgstr "タイプ:"
+
+#~ msgid "Select an authentication mode."
+#~ msgstr "認証モードを選択肢てください。"
+
+#~ msgid "Ad_vanced…"
+#~ msgstr "詳細(_V)…"
+
+#~ msgid "Anyconnect Advanced Options"
+#~ msgstr "Anyconnect の詳細オプション"
+
+#~ msgid "Use custom gateway p_ort:"
+#~ msgstr "カスタムのゲートウェイポート(_O):"
+
+#~ msgid ""
+#~ "TCP/UDP port number for peer. (Default value when there is no port for "
+#~ "gateway).\n"
+#~ "config: port"
+#~ msgstr ""
+#~ "ピアの TCP/UDP ポート番号 (ゲートウェイのポートがない場合のデフォルト値)\n"
+#~ "config: port"
+
+#~ msgid "Use custom _renegotiation interval:"
+#~ msgstr "カスタムの再交渉間隔を利用する(_R):"
+
+#~ msgid "Data _compression:"
+#~ msgstr "データ圧縮(_C):"
+
+#~ msgid ""
+#~ "Use fast LZO compression.\n"
+#~ "config: comp-lzo"
+#~ msgstr ""
+#~ "LZO 圧縮を優先して利用する\n"
+#~ "config: comp-lzo"
+
+#~ msgid "Use a _TCP connection"
+#~ msgstr "TCP 接続を利用する(_T)"
+
+#~ msgid ""
+#~ "Use TCP for communicating with remote host.\n"
+#~ "(This is a default setting only used when no protocol is specified for "
+#~ "the gateway.)\n"
+#~ "config: proto tcp-client | udp"
+#~ msgstr ""
+#~ "リモートホストの通信に TCP を利用する\n"
+#~ "(これはゲートウェイのプロトコルが指定されていない場合にのみ使用されるデ"
+#~ "フォルト設定です)\n"
+#~ "config: proto tcp-client | udp"
+
+#~ msgid "Use custom tunnel Maximum Transmission _Unit (MTU):"
+#~ msgstr "カスタムのトンネル Maximum Transmission _Unit (MTU) を利用する:"
+
+#~ msgid "Use custom UDP _fragment size:"
+#~ msgstr "カスタムの UDP フラグメントサイズを利用する(_F):"
+
+#~ msgid "Restrict tunnel TCP Maximum _Segment Size (MSS)"
+#~ msgstr "トンネルの TCP Maximum _Segment Size (MSS) を制限する"
+
+#~ msgid ""
+#~ "Restrict tunnel TCP MSS.\n"
+#~ "config: mssfix"
+#~ msgstr ""
+#~ "トンネルの TCP MSS を制限する\n"
+#~ "config: mssfix"
+
+#~ msgid "Ci_pher:"
+#~ msgstr "暗号(_P):"
+
+#~ msgid "_HMAC Authentication:"
+#~ msgstr "HMAC 認証(_H):"
+
+#~ msgid "Security"
+#~ msgstr "セキュリティ"
+
+#~ msgid "Server _Certificate Check:"
+#~ msgstr "サーバー証明書を確認(_C):"
+
+#~ msgid "_Verify peer (server) certificate usage signature"
+#~ msgstr "ピア(サーバー)の証明書の署名を検証する(_V)"
+
+#~ msgid "_Verify peer (server) certificate nsCertType designation"
+#~ msgstr "ピア (サーバー) の証明書の nsCertType を検証する(_V)"
+
+#~ msgid "Key _Direction:"
+#~ msgstr "鍵の方向(_D):"
+
+#~ msgid "Key _File:"
+#~ msgstr "鍵ファイル(_F):"
+
+#~ msgid "Mode:"
+#~ msgstr "モード:"
+
+#~ msgid "TLS Authentication"
+#~ msgstr "TLS 認証"
+
+#~ msgid "Proxy _Type:"
+#~ msgstr "プロキシのタイプ(_T):"
+
+#~ msgid "Server _Address:"
+#~ msgstr "サーバーのアドレス(_A):"
+
+#~ msgid "_Port:"
+#~ msgstr "ポート(_P):"
+
+#~ msgid "Proxy _Username:"
+#~ msgstr "プロキシユーザー名(_U):"
+
+#~ msgid "Proxy Passwor_d:"
+#~ msgstr "プロキシパスワード(_D):"
+
+#~ msgid "_Show password"
+#~ msgstr "パスワードを表示する(_S)"
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "Authenticate VPN %s"
+#~ msgstr "VPN %s の認証"
+
+#~ msgid "VPN Connection Manager (Anyconnect)"
+#~ msgstr "VPN 接続マネージャー (Anyconnect)"
+
+#~ msgid "Add, Remove, and Edit VPN Connections"
+#~ msgstr "VPN 接続を追加、削除または編集"
+
+#~ msgid "Choose your personal certificate..."
+#~ msgstr "個人用証明書を選択する..."
+
+#~ msgid "Choose your private key..."
+#~ msgstr "プライベートキーを選択する..."
+
+#~ msgid "Saved"
+#~ msgstr "保存しました"
+
+#~ msgid "Always Ask"
+#~ msgstr "毎回求める"
+
+#~ msgid "Not Required"
+#~ msgstr "不要"
+
+#~ msgid "Choose a Certificate Authority certificate..."
+#~ msgstr "認証局(CA)証明書を選択..."
+
+#~ msgid "_Show passwords"
+#~ msgstr "パスワードを表示する(_S)"
+
+#~ msgid "Password for private key"
+#~ msgstr "秘密鍵のパスワード"
+
+#~ msgid "Private Key Password:"
+#~ msgstr "秘密鍵のパスワード:"
+
+#~ msgid ""
+#~ "Local peer's private key in .pem format.\n"
+#~ "config: key"
+#~ msgstr ""
+#~ "ローカルピアの .pem 形式の秘密鍵\n"
+#~ "config: key"
+
+#~ msgid "Private Key:"
+#~ msgstr "秘密鍵:"
+
+#~ msgid "CA Certificate:"
+#~ msgstr "CA 証明書:"
+
+#~ msgid "Invalid HMAC auth."
+#~ msgstr "HMAC 認証は無効です。"
+
+#~ msgid "Missing required local IP address for static key mode."
+#~ msgstr "共通鍵モードのためにローカル IP アドレスが必要です。"
+
+#~ msgid "Missing required remote IP address for static key mode."
+#~ msgstr "共通鍵モードのためにリモート IP アドレスが必要です。"
+
+#~ msgid ""
+#~ "Could not process the request because the anyconnect connection type was "
+#~ "invalid."
+#~ msgstr ""
+#~ "anyconnect 接続のタイプが無効であるため、リクエストを処理できませんでし"
+#~ "た。"
+
+#~ msgid "Use a TA_P device"
+#~ msgstr "TAP デバイスを利用する(_P)"
+
+#~ msgid "_Password:"
+#~ msgstr "パスワード(_P):"
+
+#~ msgid "_Secondary Password:"
+#~ msgstr "第二パスワード(_S):"

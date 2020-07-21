@@ -1,0 +1,826 @@
+# Slovenian translations for network-manager-anyconnect.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the NetworkManager-anyconnect package.
+#
+# Matic Žgur <mr.zgur@gmail.com>, 2007.
+# Matej Urbančič <mateju@svn.gnome.org>, 2009-2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: network-manager-anyconnect master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-30 22:41+0100\n"
+"PO-Revision-Date: 2014-08-06 14:40+0100\n"
+"Last-Translator: Matej Urbančič <mateju@svn.gnome.org>\n"
+"Language-Team: Slovenian GNOME Translation Team <gnome-si@googlegroups.com>\n"
+"Language: sl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%100==1 ? 1 : n%100==2 ? 2 : n%100==3 || n"
+"%100==4 ? 3 : 0);\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:1
+#, fuzzy
+msgid "Anyconnect client"
+msgstr "Anyconnect"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:2
+msgid "Client for Anyconnect virtual private networks"
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:3
+msgid "Support for configuring Anyconnect virtual private network connections."
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:4
+msgid "Anyconnect is a popular and flexible free-software VPN solution."
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:5
+msgid "The NetworkManager Developers"
+msgstr ""
+
+#: ../properties/nm-anyconnect-editor-plugin.c:35
+#, fuzzy
+msgid "Cisco AnyConnect"
+msgstr "Anyconnect"
+
+#: ../properties/nm-anyconnect-editor-plugin.c:36
+msgid "Runs the proprietary Cisco AnyConnect VPN."
+msgstr ""
+
+#: ../properties/nm-anyconnect-editor.c:299
+msgid "could not load UI widget"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:946
+#, c-format
+msgid "object class '%s' has no property named '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:953
+#, c-format
+msgid "property '%s' of object class '%s' is not writable"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:960
+#, c-format
+msgid ""
+"construct property \"%s\" for object '%s' can't be set after construction"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:968
+#, c-format
+msgid "'%s::%s' is not a valid property name; '%s' is not a GObject subtype"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:977
+#, c-format
+msgid "unable to set property '%s' of type '%s' from value of type '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:988
+#, c-format
+msgid ""
+"value \"%s\" of type '%s' is invalid or out of range for property '%s' of "
+"type '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:69
+#, c-format
+msgid "unable to get editor plugin name: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:103
+#, c-format
+msgid "missing plugin file \"%s\""
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:109
+#, c-format
+msgid "cannot load editor plugin: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:118
+#, c-format
+msgid "cannot load factory %s from plugin: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:144
+msgid "unknown error creating editor instance"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:567 ../src/nm-anyconnect-service.c:682
+msgid "Could not find the anyconnect binary."
+msgstr "Programa openconnect ni mogoče najti"
+
+#: ../src/nm-anyconnect-service.c:580
+msgid ""
+"Could not process the request because the VPN connection settings were "
+"invalid."
+msgstr "Zahteve ni mogoče izvesti, ker so nastavitve povezave VPN neveljavne."
+
+#: ../src/nm-anyconnect-service.c:602
+msgid ""
+"Could not attempt connection, unable to find the setting for the gateway."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:875
+#, fuzzy
+msgid "Don’t quit when VPN connection terminates"
+msgstr "Ne končaj, ko se povezava VPN zaustavi"
+
+#: ../src/nm-anyconnect-service.c:876
+msgid "Enable verbose debug logging (may expose passwords)"
+msgstr "Omogoči podrobno beleženje razhroščevanja (lahko razkrije gesla)"
+
+#: ../src/nm-anyconnect-service.c:877
+msgid "D-Bus name to use for this instance"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:905
+#, fuzzy
+msgid ""
+"nm-anyconnect-service provides integrated proprietary Cisco AnyConnect "
+"capability to NetworkManager."
+msgstr ""
+"Storitev nm-anyconnect-service omogoča podporo Anyconnect znotraj programa "
+"NetworkManager."
+
+#: ../properties/nm-anyconnect-dialog.ui.h:1
+msgid "General"
+msgstr "Splošno"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:2
+msgid "_Gateway:"
+msgstr "_Prehod:"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:3
+msgid "VPN host to connect to"
+msgstr ""
+
+#, c-format
+#~ msgid "Authenticate VPN %s"
+#~ msgstr "Overi VPN %s"
+
+#~ msgid "Password:"
+#~ msgstr "Geslo:"
+
+#~ msgid "Certificate password:"
+#~ msgstr "Geslo potrdila:"
+
+#~ msgid "Authenticate VPN"
+#~ msgstr "Overi VPN"
+
+#~ msgid "Certificate pass_word:"
+#~ msgstr "G_eslo potrdila:"
+
+#, c-format
+#~ msgid "You need to authenticate to access the Virtual Private Network '%s'."
+#~ msgstr "Dostop do navideznega zasebnega omrežja '%s' zahteva overitev."
+
+#~ msgid "VPN Connection Manager (Anyconnect)"
+#~ msgstr "Upravitelj povezav VPN (Anyconnect)"
+
+#~ msgid "Add, Remove, and Edit VPN Connections"
+#~ msgstr "Dodajanje, odstranjevanje in urejanje povezav VPN"
+
+#~ msgid "Choose your personal certificate..."
+#~ msgstr "Izbor osebnega potrdila ..."
+
+#~ msgid "Choose your private key..."
+#~ msgstr "Izbor osebnega ključa ..."
+
+#~ msgid "Saved"
+#~ msgstr "Shranjeno"
+
+#~ msgid "Always Ask"
+#~ msgstr "Vedno vprašaj"
+
+#~ msgid "Not Required"
+#~ msgstr "Ni zahtevano"
+
+#~ msgid "Choose a Certificate Authority certificate..."
+#~ msgstr "Izbor pooblastitelja potrdila ..."
+
+#~ msgid "Choose an Anyconnect static key..."
+#~ msgstr "Izbor Anyconnect stalnega ključa ..."
+
+#~ msgid "None"
+#~ msgstr "Brez"
+
+#~ msgid "PEM or PKCS#12 certificates (*.pem, *.crt, *.key, *.cer, *.p12)"
+#~ msgstr "PEM ali PKCS#12 potrdila (*.pem, *.crt, *.key, *.cer, *.p12)"
+
+#~ msgid "PEM certificates (*.pem, *.crt, *.key, *.cer)"
+#~ msgstr "Potrdila PEM (*.pem, *.crt, *.key, *.cer)"
+
+#~ msgid "Anyconnect Static Keys (*.key)"
+#~ msgstr "Stalni ključi Anyconnect (*.key)"
+
+#~ msgid "Default"
+#~ msgstr "Privzeto"
+
+#~ msgid "RSA MD-4"
+#~ msgstr "RSA MD-4"
+
+#~ msgid "MD-5"
+#~ msgstr "MD-5"
+
+#~ msgid "SHA-1"
+#~ msgstr "SHA-1"
+
+#~ msgid "SHA-224"
+#~ msgstr "SHA-224"
+
+#~ msgid "SHA-256"
+#~ msgstr "SHA-256"
+
+#~ msgid "SHA-384"
+#~ msgstr "SHA-384"
+
+#~ msgid "SHA-512"
+#~ msgstr "SHA-512"
+
+#~ msgid "RIPEMD-160"
+#~ msgstr "RIPEMD-160"
+
+#~ msgid "Server"
+#~ msgstr "Strežnik"
+
+#~ msgid "Client"
+#~ msgstr "Odjemalec"
+
+#~ msgid "Not required"
+#~ msgstr "Ni zahtevano"
+
+#~ msgid "HTTP"
+#~ msgstr "HTTP"
+
+#~ msgid "SOCKS"
+#~ msgstr "SOCKS"
+
+#~ msgid "TUN"
+#~ msgstr "TUN"
+
+#~ msgid "TAP"
+#~ msgstr "TAP"
+
+#~ msgid "(automatic)"
+#~ msgstr "(samodejno)"
+
+#~ msgid "Compatible with the Anyconnect server."
+#~ msgstr "Združljivo s strežnikom Anyconnect."
+
+#~ msgid "Certificates (TLS)"
+#~ msgstr "Potrdila (TLS)"
+
+#~ msgid "Password"
+#~ msgstr "Geslo"
+
+#~ msgid "Password with Certificates (TLS)"
+#~ msgstr "Geslo s potrdilom (TLS)"
+
+#~ msgid "Static Key"
+#~ msgstr "Stalni ključ"
+
+#, fuzzy
+#~ msgid "could not create anyconnect object"
+#~ msgstr "Programa openconnect ni mogoče najti"
+
+#, fuzzy
+#~ msgid "not a valid Anyconnect configuration file"
+#~ msgstr "Ni možnosti nastavitev VPN"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "<b>General</b>"
+#~ msgstr "<b>Splošno</b>"
+
+#~ msgid "<b>Authentication</b>"
+#~ msgstr "<b>Overitev</b>"
+
+#~ msgid "_Show passwords"
+#~ msgstr "_Pokaži gesla"
+
+#~ msgid "Password for private key"
+#~ msgstr "Geslo za osebni ključ"
+
+#~ msgid "Private Key Password:"
+#~ msgstr "Geslo osebnega ključa:"
+
+#~ msgid ""
+#~ "Local peer's private key in .pem format.\n"
+#~ "config: key"
+#~ msgstr ""
+#~ "Osebni ključ krajevnega odjemalca v zapisu .pem.\n"
+#~ "Nastavitev: key"
+
+#~ msgid "Private Key:"
+#~ msgstr "Osebni ključ:"
+
+#~ msgid ""
+#~ "Certificate authority (CA) file in .pem format.\n"
+#~ "config: ca"
+#~ msgstr ""
+#~ "Datoteka overitelja potrdil (CA) v zapisu .pem.\n"
+#~ "Nastavitev: ca"
+
+#~ msgid "CA Certificate:"
+#~ msgstr "Potrdilo CA:"
+
+#~ msgid "User Certificate:"
+#~ msgstr "Uporabniško potrdilo:"
+
+#~ msgid ""
+#~ "Local peer's signed certificate in .pem format (signed by CA of CA "
+#~ "Certificate).\n"
+#~ "config: cert"
+#~ msgstr ""
+#~ "Podpisano potrdilo krajevnega odjemalca v zapisu .pem (podpisan s CA ali "
+#~ "potrdilom CA).\n"
+#~ "Nastavitev: cert"
+
+#~ msgid ""
+#~ "Password passed to Anyconnect when prompted for it.\n"
+#~ "config: auth-user-pass"
+#~ msgstr ""
+#~ "Geslo, posredovano Anyconnect, ko je zahtevano.\n"
+#~ "Nastavitev: auth-user-pass"
+
+#~ msgid "User name:"
+#~ msgstr "Uporabniško ime:"
+
+#~ msgid ""
+#~ "Username passed to Anyconnect when prompted for it.\n"
+#~ "config: auth-user-pass"
+#~ msgstr ""
+#~ "Uporabniško ime, ki je poslano na Anyconnect ob zahtevi.\n"
+#~ "Nastavitev: auth-user-pass"
+
+#~ msgid ""
+#~ "IP address of the local VPN endpoint.\n"
+#~ "config: ifconfig <l> <rn>"
+#~ msgstr ""
+#~ "Naslov IP krajevneg končne točke VPN.\n"
+#~ "Nastavitev: ifconfig <l> <rn>"
+
+#~ msgid "Remote IP Address:"
+#~ msgstr "Oddaljeni naslov IP:"
+
+#~ msgid "Local IP Address:"
+#~ msgstr "Krajevni naslov IP:"
+
+#~ msgid ""
+#~ "IP address of the remote VPN endpoint.\n"
+#~ "config: ifconfig <l> <rn>"
+#~ msgstr ""
+#~ "Naslov IP oddaljene končne točke VPN.\n"
+#~ "Nastavitev: ifconfig <l> <rn>"
+
+#~ msgid "Key Direction:"
+#~ msgstr "Smer ključa:"
+
+#~ msgid "Static Key:"
+#~ msgstr "Stalni ključ:"
+
+#~ msgid ""
+#~ "Pre-shared file for Static Key encryption mode (non-TLS).\n"
+#~ "config: static <file>"
+#~ msgstr ""
+#~ "Souporabna datoteka za način šifriranja statičnega ključa (ne-TLS).\n"
+#~ "Nastavitev: static <datoteka>"
+
+#~ msgid ""
+#~ "Direction for Static Key encryption mode (non-TLS).\n"
+#~ "If key direction is used, it must be the opposite of that used on the VPN "
+#~ "peer.  For example, if the peer uses '1', this connection must use '0'.  "
+#~ "If you are unsure what value to use, contact your system administrator.\n"
+#~ "config: static <file> [direction]"
+#~ msgstr ""
+#~ "Smer za način šifriranja statičnega ključa (ne-TLS).\n"
+#~ "V primeru, da je uporabljena določena smer ključa, mora biti ta določena "
+#~ "nasprotno, kot je določena pri drugem odjemalcu na VPN povezavi. Primer: "
+#~ "kadar odjemalec izbere vrednost '1', mora bit ta povezava določena z "
+#~ "vrednostjo '0'.  V kolikor niste prepričani, katero vrednost uporabiti, "
+#~ "stopite v stik s skrbnikom.\n"
+#~ "Nastavitev: static <datoteka> [smer]"
+
+#~ msgid "Type:"
+#~ msgstr "Vrsta:"
+
+#~ msgid "Select an authentication mode."
+#~ msgstr "Izbor načina overitve."
+
+#~ msgid "Ad_vanced..."
+#~ msgstr "_Napredno ..."
+
+#~ msgid "Anyconnect Advanced Options"
+#~ msgstr "Napredne Anyconnect možnosti"
+
+#~ msgid "Use custom gateway p_ort:"
+#~ msgstr "Uporabi _vrata prehoda po meri:"
+
+#~ msgid ""
+#~ "TCP/UDP port number for local peer.\n"
+#~ "config: port"
+#~ msgstr ""
+#~ "Številka vrat protokola TCP/UDP za krajevnega odjemalca.\n"
+#~ "Nastavitev: vrata"
+
+#~ msgid "Use custom _renegotiation interval:"
+#~ msgstr "Uporabi časovni razmik _pogajanja po meri:"
+
+#~ msgid ""
+#~ "Renegotiate data channel key after the specified number of seconds.\n"
+#~ "config: reneg-sec"
+#~ msgstr ""
+#~ "Ponovno vzpostavi ključ kanala po določenem času v sekundah.\n"
+#~ "Nastavitev: reneg-sec"
+
+#~ msgid "Use L_ZO data compression"
+#~ msgstr "Uporabi _LZO stiskanje"
+
+#~ msgid ""
+#~ "Use fast LZO compression.\n"
+#~ "config: comp-lzo"
+#~ msgstr ""
+#~ "Uporabi hitro stiskanje podatkov LZO.\n"
+#~ "Nastavitev: comp-lzo"
+
+#~ msgid "Use a _TCP connection"
+#~ msgstr "Uporabi povezavo _TCP"
+
+#~ msgid ""
+#~ "Use TCP for communicating with remote host.\n"
+#~ "config: proto tcp-client | udp"
+#~ msgstr ""
+#~ "Uporabi protokol TCP za sporočanje z oddaljenim gostiteljem.\n"
+#~ "Nastavitev: proto tcp-client | udp"
+
+#~ msgid "Set virtual _device type:"
+#~ msgstr "Nastavi vrsto navidezne _naprave:"
+
+#~ msgid "Explicitly set virtual device type and name (TUN/TAP)."
+#~ msgstr "Nastavi vrsto in ime navidezne omrežne naprave (TAP/TUN)."
+
+#~ msgid ""
+#~ "Explicitly set virtual device type (TUN/TAP).\n"
+#~ "config: dev-type tun | tap"
+#~ msgstr "Nastavitev: dev-type tap | tun"
+
+#~ msgid " and _name:"
+#~ msgstr "in _ime:"
+
+#~ msgid ""
+#~ "Use custom name for TUN/TAP virtual device (instead of default \"tun\" or "
+#~ "\"tap\").\n"
+#~ "config: dev <name>"
+#~ msgstr ""
+#~ "Uporabi ime po meri za navidezne naprave TUN/TAP (namesto privzetih \"tun"
+#~ "\" ali \"tap\").\n"
+#~ "Nastavitev: dev <ime>"
+
+#~ msgid "Use custom tunnel Maximum Transmission _Unit (MTU):"
+#~ msgstr "Uporabi enoto največjega _prenosa tuneliranja (MTU):"
+
+#~ msgid ""
+#~ "Take the TUN device MTU to be the specified value and derive the link MTU "
+#~ "from it.\n"
+#~ "config: tun-mtu"
+#~ msgstr ""
+#~ "Nastavite MTU naprave TUN na navedeno vrednost in z nje razberite "
+#~ "povezavo MTU.\n"
+#~ "Nastavitev: tun-mtu"
+
+#~ msgid "Use custom UDP _fragment size:"
+#~ msgstr "Uporabi velikost paketov UDP po meri:"
+
+#~ msgid ""
+#~ "Enable internal datagram fragmentation with this maximum size.\n"
+#~ "config: fragment"
+#~ msgstr ""
+#~ "Omogoči notranje razčlenjevanje podatkovnih paketov z največjo "
+#~ "velikostjo.\n"
+#~ "Nastavitev: fragment"
+
+#~ msgid "Restrict tunnel TCP Maximum _Segment Size (MSS)"
+#~ msgstr "Omeji velikost _paketa tuneliranja TCP (MSS)"
+
+#~ msgid ""
+#~ "Restrict tunnel TCP MSS.\n"
+#~ "config: mssfix"
+#~ msgstr ""
+#~ "Omeji tuneliranje TCP MSS.\n"
+#~ "Nastavitev: mssfix"
+
+#~ msgid "Rando_mize remote hosts"
+#~ msgstr "Poišči naključne _oddaljene gostitelje"
+
+#~ msgid ""
+#~ "Randomize the order of gateways list (remote) as a kind of basic load-"
+#~ "balancing measure.\n"
+#~ "config: remote-random"
+#~ msgstr ""
+#~ "Naključno razvrščanje seznama prehodov (oddaljenih) kot osnovni način "
+#~ "prerazporejanja obremenitve.\n"
+#~ "Nastavitev: remote-random"
+
+#~ msgid ""
+#~ "Encrypt packets with cipher algorithm. The default is BF-CBC (Blowfish in "
+#~ "Cipher Block Chaining mode).\n"
+#~ "config: cipher"
+#~ msgstr ""
+#~ "Šifriraj pakete z algoritmom cipher. Privzeto je določen način BF-CBC "
+#~ "(Blowfish in Cipher Block Chaining mode).\n"
+#~ "Nastavitev: cipher"
+
+#~ msgid "Use custom _size of cipher key:"
+#~ msgstr "Uporabi veli_kost šifrirnega ključa po meri:"
+
+#~ msgid ""
+#~ "Set cipher key size to a custom value. If unspecified, it defaults to "
+#~ "cipher-specific size.\n"
+#~ "config: keysize <n>"
+#~ msgstr ""
+#~ "Določite šifrirni ključ na vrednost po meri. Če ni določen, se uporabi "
+#~ "privzeta velikost glede na cifre.\n"
+#~ "Nastavitev: velikost ključa <n>"
+
+#~ msgid ""
+#~ "Authenticate packets with HMAC using message digest algorithm. The "
+#~ "default is SHA1.\n"
+#~ "config: auth"
+#~ msgstr ""
+#~ "Overi pakete z HMAC z uporabo algoritma izvlekča sporočila. Privzeta "
+#~ "vrednost je SHA1.\n"
+#~ "Nastavitev: auth"
+
+#~ msgid "Ci_pher:"
+#~ msgstr "_Cifra:"
+
+#~ msgid "_HMAC Authentication:"
+#~ msgstr "Overitev _HMAC:"
+
+#~ msgid "Security"
+#~ msgstr "Varnost"
+
+#~ msgid "_Subject Match:"
+#~ msgstr "Skladnost _zadeve:"
+
+#~ msgid ""
+#~ "<i>Connect only to servers whose certificate matches the given subject.\n"
+#~ "Example: /CN=myvpn.company.com</i>"
+#~ msgstr ""
+#~ "<i>Povezavo je varno ustvariti le s strežniki, katerih potrdila se "
+#~ "skladajo s predmetom.\n"
+#~ "Primer: /CN=mojevpn.podjetje.si</i>"
+
+#~ msgid ""
+#~ "Accept connections only from a host with X509 name or common name equal "
+#~ "to the specified one.\n"
+#~ "config: tls-remote"
+#~ msgstr ""
+#~ "Sprejmi le povezave z gostitelji z imeni X509 ali pa s splošnim imenom, "
+#~ "ki je enako določenemu.\n"
+#~ "Nastavitev: tls-remote"
+
+#~ msgid "_Verify peer (server) certificate usage signature"
+#~ msgstr "_Overi podpis uporabe potrdila soležnika (strežniško)"
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit key usage and "
+#~ "extended key usage based on RFC3280 TLS rules."
+#~ msgstr ""
+#~ "Zahtevaj, da je potrdilo soležnika podpisano izrecno z uporabo ključa na "
+#~ "osnovi pravil RFC3280 TLS."
+
+#~ msgid "_Remote peer certificate TLS type:"
+#~ msgstr "Vrsta _oddaljenega potrdila TLS soležnika:"
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit key usage and "
+#~ "extended key usage based on RFC3280 TLS rules.\n"
+#~ "config: remote-cert-tls client|server"
+#~ msgstr ""
+#~ "Zahtevaj, da je potrdilo soležnika podpisano izrecno z uporabo ključa na "
+#~ "osnovi pravil RFC3280 TLS.\n"
+#~ "Nastavitev: remote-cert-tls client|server"
+
+#~ msgid "Use additional _TLS authentication"
+#~ msgstr "Uporabi dodatno overjanje _TLS"
+
+#~ msgid "Add an additional layer of HMAC authentication."
+#~ msgstr "Dodaj dodatno  zaščito z overjanjem HMAC."
+
+#~ msgid "Key _Direction:"
+#~ msgstr "_Smer ključa:"
+
+#~ msgid ""
+#~ "Add an additional layer of HMAC authentication on top of the TLS control "
+#~ "channel to protect against DoS attacks.\n"
+#~ "config: tls-auth <file> [direction]"
+#~ msgstr ""
+#~ "Dodajte dodatno raven overjanja HMAC na vrh nadzornega kanala TLS, s "
+#~ "čimer se zaščitite pred napadi DoS.\n"
+#~ "Nastavitev: tls-auth <datoteka> [smer]"
+
+#~ msgid ""
+#~ "Direction parameter for static key mode.\n"
+#~ "If key direction is used, it must be the opposite of that used on the VPN "
+#~ "peer.  For example, if the peer uses '1', this connection must use '0'.  "
+#~ "If you are unsure what value to use, contact your system administrator.\n"
+#~ "config: tls-auth <file> [direction]"
+#~ msgstr ""
+#~ "Parameter smeri za način statičnega ključa.\n"
+#~ "V primeru, da je uporabljena določena smer ključa, mora biti ta določena "
+#~ "nasprotno, kot je določena pri drugem odjemalcu na VPN povezavi. Primer: "
+#~ "kadar odjemalec izbere vrednost '1', mora bit ta povezava določena z "
+#~ "vrednostjo '0'.  V kolikor niste prepričani, katero vrednost uporabiti, "
+#~ "stopite v stik s skrbnikom.\n"
+#~ "Nastavitev: tls-auth <datoteka> [smer]"
+
+#~ msgid "Key _File:"
+#~ msgstr "Datoteka _ključa:"
+
+#~ msgid "TLS Authentication"
+#~ msgstr "Overitev TLS"
+
+#~ msgid ""
+#~ "Proxy type: HTTP or Socks.\n"
+#~ "config: http-proxy or socks-proxy"
+#~ msgstr ""
+#~ "Vrsta posredniškega strežnika: HTTP ali SOCKS.\n"
+#~ "Nastavitev: http-proxy ali socks-proxy"
+
+#~ msgid "Proxy _Type:"
+#~ msgstr "_Vrsta posredniškega strežnika:"
+
+#~ msgid ""
+#~ "<i>Select this option if your organization requires the use of a proxy "
+#~ "server to access the Internet.</i>"
+#~ msgstr ""
+#~ "<i>Možnost je treba izbrati, če je za dostop do medmrežja zahtevana "
+#~ "uporaba posredniškega strežnika.</i>"
+
+#~ msgid "Server _Address:"
+#~ msgstr "Naslov _strežnika:"
+
+#~ msgid ""
+#~ "Connect to remote host through a proxy with this address.\n"
+#~ "config: http-proxy or socks-proxy"
+#~ msgstr ""
+#~ "Poveže se z oddaljenim gostiteljem prek posredovalnega strežnika s tem "
+#~ "naslovom.\n"
+#~ "Nastavitev: http-proxy ali socks-proxy"
+
+#~ msgid "_Port:"
+#~ msgstr "_Vrata:"
+
+#~ msgid ""
+#~ "Connect to remote host through a proxy with this port.\n"
+#~ "config: http-proxy or socks-proxy"
+#~ msgstr ""
+#~ "Poveže se z oddaljenim gostiteljem prek posredovalnega strežnika s temi "
+#~ "vrati.\n"
+#~ "Nastvitev: http-proxy ali socks-proxy"
+
+#~ msgid "_Retry indefinitely when errors occur"
+#~ msgstr "Ob napakah poskušaj dejanje ponoviti v _nedogled"
+
+#~ msgid ""
+#~ "Retry indefinitely on proxy errors. It simulates a SIGUSR1 reset.\n"
+#~ "config: http-proxy-retry or socks-proxy-retry"
+#~ msgstr ""
+#~ "Ob napakah posredovalnega strežnika poskušaj brez konca. Izvede navidezno "
+#~ "ponastavitev SIGUSR1.\n"
+#~ "Nastavitev: http-proxy-retry ali socks-proxy-retry"
+
+#~ msgid "Proxy _Username:"
+#~ msgstr "_Uporabniško ime posredniškega strežnika:"
+
+#~ msgid "Proxy Passwor_d:"
+#~ msgstr "Geslo _posredniškega strežnika:"
+
+#~ msgid "HTTP/Socks proxy username passed to Anyconnect when prompted for it."
+#~ msgstr ""
+#~ "Uporabniško ime posredniškega stražnika HTTP/SOCKS za Anyconnect ob "
+#~ "zahtevi."
+
+#~ msgid "HTTP/Socks proxy password passed to Anyconnect when prompted for it."
+#~ msgstr ""
+#~ "Geslo posredovalnega strežnika HTTP/Socks, posredovano Anyconnect, ko je "
+#~ "zahtevano."
+
+#~ msgid "_Show password"
+#~ msgstr "_Pokaži geslo"
+
+#~ msgid "Proxies"
+#~ msgstr "Posredniški strežniki"
+
+#, c-format
+#~ msgid "invalid address '%s'"
+#~ msgstr "neveljaven naslov '%s'"
+
+#, c-format
+#~ msgid "invalid integer property '%s' or out of range [%d -> %d]"
+#~ msgstr ""
+#~ "neveljavna lastnost celega števila '%s', ki je izven območja [%d -> %d]"
+
+#, c-format
+#~ msgid "invalid boolean property '%s' (not yes or no)"
+#~ msgstr "neveljavna logična lastnost '%s' (ni vrednost da oziroma ne)"
+
+#, c-format
+#~ msgid "unhandled property '%s' type %s"
+#~ msgstr "neupravljana lastnost  '%s' vrste %s"
+
+#, c-format
+#~ msgid "property '%s' invalid or not supported"
+#~ msgstr "lastnost  '%s' ni veljavna ali pa ni podprta"
+
+#~ msgid "No VPN configuration options."
+#~ msgstr "Ni možnosti nastavitev VPN"
+
+#~ msgid "A username is required."
+#~ msgstr "Uporabniško ime je obvezno."
+
+#~ msgid "A password is required."
+#~ msgstr "Geslo je obvezno."
+
+#~ msgid "A username and password are required."
+#~ msgstr "Uporabniško ime in geslo sta obvezna."
+
+#~ msgid "A private key password is required."
+#~ msgstr "Zahtevano je geslo zasebnega ključa."
+
+#~ msgid "An HTTP Proxy username is required."
+#~ msgstr "Zahtevano je uporabniško ime posredovalnega strežnika HTTP."
+
+#~ msgid "An HTTP Proxy password is required."
+#~ msgstr "Zahtevano je geslo posredovalnega strežnika HTTP."
+
+#~ msgid "An HTTP Proxy username and password are required."
+#~ msgstr ""
+#~ "Zahtevana sta uporabniško ime in geslo posredovalnega strežnika HTTP."
+
+#~ msgid "Invalid HMAC auth."
+#~ msgstr "Neveljavna overitev HMAC."
+
+#~ msgid "Invalid connection type."
+#~ msgstr "Neveljavna vrsta povezave"
+
+#, c-format
+#~ msgid "Invalid port number '%s'."
+#~ msgstr "Neveljavna številka vrat '%s'."
+
+#, fuzzy, c-format
+#~ msgid "Invalid proto '%s'."
+#~ msgstr "Neveljavna vrsta posredniškega strežnika '%s'."
+
+#, c-format
+#~ msgid "Invalid proxy type '%s'."
+#~ msgstr "Neveljavna vrsta posredniškega strežnika '%s'."
+
+#, c-format
+#~ msgid "Invalid keysize '%s'."
+#~ msgstr "Neveljavna velikost ključa '%s'."
+
+#, c-format
+#~ msgid "Invalid reneg seconds '%s'."
+#~ msgstr "Neveljavna časovna vrednost obnovitve '%s'."
+
+#, c-format
+#~ msgid "Invalid TUN MTU size '%s'."
+#~ msgstr "Neveljavna velikost TUN MTU '%s'."
+
+#, c-format
+#~ msgid "Invalid fragment size '%s'."
+#~ msgstr "Neveljavna velikost delčkov '%s'."
+
+#~ msgid "Missing required local IP address for static key mode."
+#~ msgstr "Manjka zahtevan naslov IP za statični način ključa."
+
+#~ msgid "Missing required remote IP address for static key mode."
+#~ msgstr "Manjka zahtevan oddaljen naslov IP za statični način ključa."
+
+#, c-format
+#~ msgid "Unknown connection type '%s'."
+#~ msgstr "Neznana vrsta povezave '%s'."
+
+#~ msgid ""
+#~ "Could not process the request because the anyconnect connection type was "
+#~ "invalid."
+#~ msgstr ""
+#~ "Zahteve ni mogoče izvesti, ker so nastavitve povezave Anyconnect "
+#~ "neveljavne."
+
+#~ msgid "Unhandled pending authentication."
+#~ msgstr "Neobravnavana overitev na čakanju."
+
+#~ msgid "Use a TA_P device"
+#~ msgstr "Uporabi napravo _TAP"

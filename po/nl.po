@@ -1,0 +1,1384 @@
+# Dutch translation of NetworkManager-vpnc
+#
+# This file is distributed under the same license as the NetworkManager
+# package.
+#
+# Tino Meinen <a.t.meinen@chello.nl>, 2006, 2007.
+# Wouter Bolsterlee <wbolster@gnome.org>, 2008, 2011.
+# Rachid BM <rachidbm@ubuntu.com>, 2011.
+# Nathan Follens <nthn@unseen.is>, 2019-2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: NetworkManager-vpnc\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-30 22:41+0100\n"
+"PO-Revision-Date: 2020-03-07 23:25+0100\n"
+"Last-Translator: Nathan Follens <nthn@unseen.is>\n"
+"Language-Team: Dutch <vertaling@vrijschrift.org>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.3\n"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:1
+msgid "Anyconnect client"
+msgstr "Anyconnect-cliënt"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:2
+msgid "Client for Anyconnect virtual private networks"
+msgstr "Cliënt voor Anyconnect-virtuele privénetwerken"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:3
+msgid "Support for configuring Anyconnect virtual private network connections."
+msgstr ""
+"Ondersteuning voor configuratie van Anyconnect-"
+"virtueleprivénetwerkverbindingen."
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:4
+msgid "Anyconnect is a popular and flexible free-software VPN solution."
+msgstr "Anyconnect is een populaire, flexibele en vrije VPN-oplossing."
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:5
+msgid "The NetworkManager Developers"
+msgstr "De Netwerkbeheer-ontwikkelaars"
+
+#: ../properties/nm-anyconnect-editor-plugin.c:35
+#, fuzzy
+msgid "Cisco AnyConnect"
+msgstr "Anyconnect"
+
+#: ../properties/nm-anyconnect-editor-plugin.c:36
+msgid "Runs the proprietary Cisco AnyConnect VPN."
+msgstr ""
+
+#: ../properties/nm-anyconnect-editor.c:299
+msgid "could not load UI widget"
+msgstr "kon UI-widget niet laden"
+
+#: ../shared/nm-utils/nm-shared-utils.c:946
+#, c-format
+msgid "object class '%s' has no property named '%s'"
+msgstr "objectklasse ‘%s’ heeft geen eigenschap met de naam ‘%s’"
+
+#: ../shared/nm-utils/nm-shared-utils.c:953
+#, c-format
+msgid "property '%s' of object class '%s' is not writable"
+msgstr "eigenschap ‘%s’ van objectklasse ‘%s’ is niet beschrijfbaar"
+
+#: ../shared/nm-utils/nm-shared-utils.c:960
+#, c-format
+msgid ""
+"construct property \"%s\" for object '%s' can't be set after construction"
+msgstr ""
+"bouweigenschap ‘%s’ voor object ‘%s’ kan niet worden ingesteld na de bouw"
+
+#: ../shared/nm-utils/nm-shared-utils.c:968
+#, c-format
+msgid "'%s::%s' is not a valid property name; '%s' is not a GObject subtype"
+msgstr ""
+"‘%s::%s’ is geen geldige eigenschapnaam; ‘%s’ is niet van het subtype GObject"
+
+#: ../shared/nm-utils/nm-shared-utils.c:977
+#, c-format
+msgid "unable to set property '%s' of type '%s' from value of type '%s'"
+msgstr ""
+"instellen van eigenschap ‘%s’ type ‘%s’ van waarde van type ‘%s’ is niet "
+"mogelijk"
+
+#: ../shared/nm-utils/nm-shared-utils.c:988
+#, c-format
+msgid ""
+"value \"%s\" of type '%s' is invalid or out of range for property '%s' of "
+"type '%s'"
+msgstr ""
+"waarde ‘%s’ van type ‘%s’ is ongeldig of buiten bereik voor eigenschap ‘%s’ "
+"type ‘%s’"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:69
+#, c-format
+msgid "unable to get editor plugin name: %s"
+msgstr "verkrijgen van naam van verwerkersplug-in mislukt: %s"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:103
+#, c-format
+msgid "missing plugin file \"%s\""
+msgstr "plug-inbestand ‘%s’ ontbreekt"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:109
+#, c-format
+msgid "cannot load editor plugin: %s"
+msgstr "laden van verwerkersplug-in mislukt: %s"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:118
+#, c-format
+msgid "cannot load factory %s from plugin: %s"
+msgstr "laden van factory %s uit plug-in %s mislukt"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:144
+msgid "unknown error creating editor instance"
+msgstr "onbekende fout bij aanmaken van verwerkersinstantie"
+
+#: ../src/nm-anyconnect-service.c:567 ../src/nm-anyconnect-service.c:682
+msgid "Could not find the anyconnect binary."
+msgstr "Kon de binary ‘anyconnect’ niet vinden."
+
+#: ../src/nm-anyconnect-service.c:580
+msgid ""
+"Could not process the request because the VPN connection settings were "
+"invalid."
+msgstr ""
+"De aanvraag kon niet in behandeling genomen worden, omdat de "
+"verbindingsinstellingen van het VPN ongeldig waren."
+
+#: ../src/nm-anyconnect-service.c:602
+msgid ""
+"Could not attempt connection, unable to find the setting for the gateway."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:875
+msgid "Don’t quit when VPN connection terminates"
+msgstr "Niet afsluiten wanneer VPN-verbinding beëindigt"
+
+#: ../src/nm-anyconnect-service.c:876
+msgid "Enable verbose debug logging (may expose passwords)"
+msgstr "Uitgebreide debug-logging inschakelen (kan wachtwoorden blootleggen)"
+
+#: ../src/nm-anyconnect-service.c:877
+msgid "D-Bus name to use for this instance"
+msgstr "D-Bus-naam voor deze instantie"
+
+#: ../src/nm-anyconnect-service.c:905
+#, fuzzy
+msgid ""
+"nm-anyconnect-service provides integrated proprietary Cisco AnyConnect "
+"capability to NetworkManager."
+msgstr ""
+"nm-anyconnect-service biedt geïntegreerde Cisco Legacy IPSec VPN-"
+"mogelijkheden aan NetworkManager."
+
+#: ../properties/nm-anyconnect-dialog.ui.h:1
+msgid "General"
+msgstr "Algemeen"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:2
+msgid "_Gateway:"
+msgstr "_Gateway:"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:3
+msgid "VPN host to connect to"
+msgstr ""
+
+#, c-format
+#~ msgid "Authentication required"
+#~ msgstr "Aanmelding vereist"
+
+#~ msgid "Password"
+#~ msgstr "Wachtwoord"
+
+#~ msgid "Certificate password"
+#~ msgstr "Certificaatwachtwoord"
+
+#~ msgid "HTTP proxy password"
+#~ msgstr "Wachtwoord voor HTTP-proxy"
+
+#~ msgid "Authenticate VPN"
+#~ msgstr "VPN aanmeldingscontrole"
+
+#~ msgid "Certificate pass_word:"
+#~ msgstr "Certificaat_wachtwoord:"
+
+#~ msgid "_HTTP proxy password:"
+#~ msgstr "Wachtwoord voor _HTTP-proxy:"
+
+# eigenlijk: moet er een aanmeldingscontrole worden uitgevoerd,
+# maar het gaat erom dat er een wachtwoord moet worden gegeven
+#, c-format
+#~ msgid "You need to authenticate to access the Virtual Private Network “%s”."
+#~ msgstr ""
+#~ "Om toegang te krijgen tot het virtuele privénetwerk ‘%s’ moet u zich "
+#~ "aanmelden."
+
+#, c-format
+#~ msgid "option %s expects between %u and %u argument"
+#~ msgid_plural "option %s expects between %u and %u arguments"
+#~ msgstr[0] "optie %s verwacht tussen %u en %u parameter"
+#~ msgstr[1] "optie %s verwacht tussen %u en %u parameters"
+
+#, c-format
+#~ msgid "option %s expects no arguments"
+#~ msgstr "optie %s verwacht geen argumenten"
+
+#, c-format
+#~ msgid "option %s expects exactly one argument"
+#~ msgid_plural "option %s expects exactly %u arguments"
+#~ msgstr[0] "optie %s verwacht precies één parameter"
+#~ msgstr[1] "optie %s verwacht precies %u parameters"
+
+#, c-format
+#~ msgid "argument %s of “%s” can not be empty"
+#~ msgstr "argument %s van ‘%s’ kan niet leeg zijn"
+
+#, c-format
+#~ msgid "argument of “%s” can not be empty"
+#~ msgstr "argument van ‘%s’ kan niet leeg zijn"
+
+#, c-format
+#~ msgid "argument %s of “%s” must be UTF-8 encoded"
+#~ msgstr "argument %s van ‘%s’ moet in UTF-8 gecodeerd zijn"
+
+#, c-format
+#~ msgid "argument of “%s” must be UTF-8 encoded"
+#~ msgstr "argument van ‘%s’ moet in UTF-8 gecodeerd zijn"
+
+#, c-format
+#~ msgid "invalid %uth argument to “%s” where number expected"
+#~ msgstr "ongeldige %ue argument voor ‘%s’ waar getal verwacht werd"
+
+#, c-format
+#~ msgid "unsupported %uth argument %s to “%s”"
+#~ msgstr "niet-ondersteunde %uth-parameter %s voor ‘%s’"
+
+# ???????????????????????????? - Nathan
+#, c-format
+#~ msgid ""
+#~ "unsupported %uth argument to “%s” which looks like a FQDN but only IPv4 "
+#~ "address supported"
+#~ msgstr ""
+#~ "niet-ondersteunde %uth-parameter voor ‘%s’, die lijkt op een FQDN, maar "
+#~ "enkel IPv4-adressen worden ondersteund"
+
+#, c-format
+#~ msgid "invalid %uth argument to “%s” where IPv4 address expected"
+#~ msgstr "ongeldige %uth-parameter voor ‘%s’ waar IPv4-adres verwacht werd"
+
+#, c-format
+#~ msgid "invalid %uth key-direction argument to “%s”"
+#~ msgstr "ongeldige %uth-key-direction-parameter voor ‘%s’"
+
+#, c-format
+#~ msgid "invalid %uth argument to “%s”"
+#~ msgstr "ongeldige %uth-parameter voor ‘%s’"
+
+#, c-format
+#~ msgid "unterminated %s at position %lld"
+#~ msgstr "niet-beëindigde %s op positie %lld"
+
+#~ msgid "double quote"
+#~ msgstr "dubbel aanhalingsteken"
+
+#~ msgid "single quote"
+#~ msgstr "enkel aanhalingsteken"
+
+# 'trailing escaping' zou wel nog een vertaling kunnen gebruiken - Nathan
+#, c-format
+#~ msgid "trailing escaping backslash at position %lld"
+#~ msgstr "trailing escaping backslash op positie %lld"
+
+#, c-format
+#~ msgid "unable to read HTTP proxy auth file"
+#~ msgstr "kan HTTP-proxyauthenticatiebestand niet lezen"
+
+#, c-format
+#~ msgid "cannot read user/password from HTTP proxy auth file"
+#~ msgstr ""
+#~ "kan gebruiker/wachtwoord niet lezen uit HTTP-proxyauthenticatiebestand"
+
+#, c-format
+#~ msgid "user/password from HTTP proxy auth file must be UTF-8 encoded"
+#~ msgstr ""
+#~ "gebruikersnaam/wachtwoord voor HTTP-proxy-authenticatiebestand moet "
+#~ "gecodeerd zijn in UTF-8"
+
+#, c-format
+#~ msgid "“%s” is not a directory"
+#~ msgstr "‘%s’ is geen map"
+
+#, c-format
+#~ msgid "cannot create “%s” directory"
+#~ msgstr "kan de map ‘%s’ niet aanmaken"
+
+#, c-format
+#~ msgid "cannot write <%s> blob from line %ld to file (%s)"
+#~ msgstr "kan <%s> blob uit regel %ld niet schrijven naar bestand (%s)"
+
+#, c-format
+#~ msgid "cannot write <%s> blob from line %ld to file “%s”"
+#~ msgstr "kan <%s> blob uit regel %ld niet schrijven naar bestand ‘%s’"
+
+#, c-format
+#~ msgid "unsupported mtu-disc argument"
+#~ msgstr "niet-ondersteunde mtu-disc-parameter"
+
+#, c-format
+#~ msgid "unsupported crl-verify argument"
+#~ msgstr "niet-ondersteunde crl-verify-parameter"
+
+#, c-format
+#~ msgid "invalid option"
+#~ msgstr "ongeldige optie"
+
+#, c-format
+#~ msgid "unsupported comp-lzo argument"
+#~ msgstr "niet-ondersteunde comp-lzo-parameter"
+
+#, c-format
+#~ msgid "unsupported compress argument"
+#~ msgstr "niet-ondersteunde compressieparameter"
+
+#, c-format
+#~ msgid "remote cannot contain space"
+#~ msgstr "extern mag geen spaties bevatten"
+
+#, c-format
+#~ msgid "remote cannot contain comma"
+#~ msgstr "extern mag geen komma’s bevatten"
+
+#, c-format
+#~ msgid "remote expects protocol type like “udp” or “tcp”"
+#~ msgstr "extern verwacht protocoltype zoals ‘udp’ of ‘tcp’"
+
+#, c-format
+#~ msgid "invalid verify-x509-name type"
+#~ msgstr "ongeldig type verify-x509-name"
+
+#, c-format
+#~ msgid "unsupported blob/xml element"
+#~ msgstr "niet-ondersteund blob/xml-element"
+
+#, c-format
+#~ msgid "unterminated blob element <%s>"
+#~ msgstr "niet-beëindigd blob-element <%s>"
+
+#, c-format
+#~ msgid "configuration error: %s (line %ld)"
+#~ msgstr "configuratiefout: %s (regel %ld)"
+
+#~ msgid "unknown or unsupported option"
+#~ msgstr "optie is onbekend of wordt niet ondersteund"
+
+#~ msgid "The file to import wasn’t a valid Anyconnect client configuration"
+#~ msgstr ""
+#~ "Het te importeren bestand is geen geldige Anyconnect-cliëntconfiguratie"
+
+#~ msgid "The file to import wasn’t a valid Anyconnect configure (no remote)"
+#~ msgstr ""
+#~ "Het te importeren bestand is geen geldige Anyconnect-configuratie (geen "
+#~ "extern)"
+
+#~ msgid "missing path argument"
+#~ msgstr "padargument ontbreekt"
+
+#~ msgid "connection is not a valid Anyconnect connection"
+#~ msgstr "verbinding is geen geldige Anyconnect-verbinding"
+
+#~ msgid "connection was incomplete (missing gateway)"
+#~ msgstr "verbinding is onvolledig (gateway ontbreekt)"
+
+#, c-format
+#~ msgid "failed to write file: %s"
+#~ msgstr "schrijven naar bestand mislukt: %s"
+
+#~ msgid "Compatible with the Anyconnect server."
+#~ msgstr "Geschikt voor Anyconnect-servers."
+
+#~ msgid "Choose an Anyconnect static key…"
+#~ msgstr "Kies een statische Anyconnect-sleutel…"
+
+#~ msgid "None"
+#~ msgstr "Geen"
+
+#~ msgid "Anyconnect Static Keys (*.key)"
+#~ msgstr "Statische Anyconnect-sleutels (*.key)"
+
+#~ msgid "Default"
+#~ msgstr "Standaard"
+
+#~ msgid "RSA MD-4"
+#~ msgstr "RSA MD-4"
+
+#~ msgid "MD-5"
+#~ msgstr "MD-5"
+
+#~ msgid "SHA-1"
+#~ msgstr "SHA-1"
+
+#~ msgid "SHA-224"
+#~ msgstr "SHA-224"
+
+#~ msgid "SHA-256"
+#~ msgstr "SHA-256"
+
+#~ msgid "SHA-384"
+#~ msgstr "SHA-384"
+
+#~ msgid "SHA-512"
+#~ msgstr "SHA-512"
+
+#~ msgid "RIPEMD-160"
+#~ msgstr "RIPEMD-160"
+
+#~ msgid "Don’t verify certificate identification"
+#~ msgstr "Certificaatidentificatie niet verifiëren"
+
+#~ msgid "Verify whole subject exactly"
+#~ msgstr "Volledig onderwerp precies verifiëren"
+
+#~ msgid "Verify name exactly"
+#~ msgstr "Naam precies verifiëren"
+
+#~ msgid "Verify name by prefix"
+#~ msgstr "Naam verifiëren op voorvoegsel"
+
+#~ msgid "Verify subject partially (legacy mode, strongly discouraged)"
+#~ msgstr ""
+#~ "Onderwerp deels verifiëren (verouderde modus, dit wordt ten zeerste "
+#~ "afgeraden)"
+
+#~ msgid "Server"
+#~ msgstr "Server"
+
+#~ msgid "Client"
+#~ msgstr "Cliënt"
+
+#~ msgid "Not required"
+#~ msgstr "Niet vereist"
+
+#~ msgid "HTTP"
+#~ msgstr "HTTP"
+
+#~ msgid "SOCKS"
+#~ msgstr "SOCKS"
+
+#~ msgid "TUN"
+#~ msgstr "TUN"
+
+#~ msgid "TAP"
+#~ msgstr "TAP"
+
+#~ msgid "(automatic)"
+#~ msgstr "(automatisch)"
+
+#~ msgid "ping-exit"
+#~ msgstr "ping-exit"
+
+#~ msgid "ping-restart"
+#~ msgstr "ping-restart"
+
+#~ msgid "Certificates (TLS)"
+#~ msgstr "Certificaten (TLS)"
+
+#~ msgid "Password with Certificates (TLS)"
+#~ msgstr "Wachtwoord met certificaten (TLS)"
+
+#~ msgid "Static Key"
+#~ msgstr "Vaste sleutel"
+
+#, c-format
+#~ msgid "invalid delimiter character '%c'"
+#~ msgstr "ongeldig delimiter-teken ‘%c’"
+
+#, c-format
+#~ msgid "invalid non-utf-8 character"
+#~ msgstr "ongeldig non-utf-8-teken"
+
+#, c-format
+#~ msgid "empty host"
+#~ msgstr "lege host"
+
+#, c-format
+#~ msgid "invalid port"
+#~ msgstr "ongeldige poort"
+
+#, c-format
+#~ msgid "invalid protocol"
+#~ msgstr "ongeldig protocol"
+
+#, c-format
+#~ msgid "invalid address “%s”"
+#~ msgstr "ongeldig adres ‘%s’"
+
+#, c-format
+#~ msgid "invalid integer property “%s” or out of range [%d -> %d]"
+#~ msgstr "eigenschap ‘%s’ is geen geheel getal of buiten bereik [%d -> %d]"
+
+#, c-format
+#~ msgid "invalid boolean property “%s” (not yes or no)"
+#~ msgstr "ongeldige booleaanse waarde voor eigenschap ‘%s’ (geen ja of nee)"
+
+#, c-format
+#~ msgid "unhandled property “%s” type %s"
+#~ msgstr "onbehandelde eigenschap ‘%s’ type %s"
+
+#, c-format
+#~ msgid "property “%s” invalid or not supported"
+#~ msgstr "eigenschap ‘%s’ is ongeldig of wordt niet ondersteund"
+
+#~ msgid "No VPN configuration options."
+#~ msgstr "Geen VPN-configuratieopties."
+
+#~ msgid "A username is required."
+#~ msgstr "Een gebruikersnaam is vereist."
+
+#~ msgid "A password is required."
+#~ msgstr "Een wachtwoord is vereist."
+
+#~ msgid "A username and password are required."
+#~ msgstr "Een gebruikersnaam en wachtwoord zijn vereist."
+
+#~ msgid "A private key password is required."
+#~ msgstr "Een privésleutelwachtwoord is vereist."
+
+#~ msgid "An HTTP Proxy username is required."
+#~ msgstr "Een HTTP-proxy-gebruikersnaam is vereist."
+
+#~ msgid "An HTTP Proxy password is required."
+#~ msgstr "Een HTTP-proxy-wachtwoord is vereist."
+
+#~ msgid "An HTTP Proxy username and password are required."
+#~ msgstr "Een HTTP-proxy-gebruikersnaam en -wachtwoord zijn vereist."
+
+#~ msgid "Invalid connection type."
+#~ msgstr "Ongeldig verbindingstype."
+
+#, c-format
+#~ msgid "Invalid port number “%s”."
+#~ msgstr "Ongeldig poortnummer ‘%s’."
+
+#, c-format
+#~ msgid "Invalid proto “%s”."
+#~ msgstr "Ongeldige proto ‘%s’."
+
+#, c-format
+#~ msgid "Invalid proxy type “%s”."
+#~ msgstr "Ongeldig proxytype ‘%s’."
+
+#, c-format
+#~ msgid "Invalid ping duration “%s”."
+#~ msgstr "Ongeldige pingduur ‘%s’."
+
+#, c-format
+#~ msgid "Invalid ping-exit duration “%s”."
+#~ msgstr "Ongeldige ping-exitduur ‘%s’."
+
+#, c-format
+#~ msgid "Invalid ping-restart duration “%s”."
+#~ msgstr "Ongeldige ping-restartduur ‘%s’."
+
+#, c-format
+#~ msgid "Invalid connect timeout “%s”."
+#~ msgstr "Ongeldige verbindingstime-out ‘%s’."
+
+#, c-format
+#~ msgid "Invalid max-routes argument “%s”."
+#~ msgstr "Ongeldige max-routes-parameter ‘%s’."
+
+#, c-format
+#~ msgid "Invalid keysize “%s”."
+#~ msgstr "Ongeldige sleutelgrootte ‘%s’."
+
+#, c-format
+#~ msgid "Invalid configuration with tls-remote and verify-x509-name."
+#~ msgstr "Ongeldige configuratie met tls-remote en verify-x509-name."
+
+#, c-format
+#~ msgid "Invalid verify-x509-name."
+#~ msgstr "Ongeldige verify-x509-name."
+
+#, c-format
+#~ msgid "Invalid reneg seconds “%s”."
+#~ msgstr "Ongeldige (heronderhandelings)seconden ‘%s’."
+
+#, c-format
+#~ msgid "Invalid TUN MTU size “%s”."
+#~ msgstr "Ongeldige TUN MTU-grootte ‘%s’."
+
+#, c-format
+#~ msgid "Invalid fragment size “%s”."
+#~ msgstr "Ongeldige fragmentgrootte ‘%s’."
+
+#, c-format
+#~ msgid "Unknown connection type “%s”."
+#~ msgstr "Onbekend verbindingstype ‘%s’."
+
+#, c-format
+#~ msgid "User “%s” not found, check NM_ANYCONNECT_USER."
+#~ msgstr "Gebruiker ‘%s’ niet gevonden, controleer NM_ANYCONNECT_USER."
+
+#, c-format
+#~ msgid "Group “%s” not found, check NM_ANYCONNECT_GROUP."
+#~ msgstr "Groep ‘%s’ niet gevonden, controleer NM_ANYCONNECT_GROUP."
+
+#~ msgid "Unhandled pending authentication."
+#~ msgstr "Lopende aanmeldingscontrole niet verwerkt."
+
+#~ msgid "LZO"
+#~ msgstr "LZO"
+
+#~ msgid "LZ4"
+#~ msgstr "LZ4"
+
+#~ msgid "LZ4 v2"
+#~ msgstr "LZ4 v2"
+
+#~ msgid "Automatic"
+#~ msgstr "Automatisch"
+
+#~ msgid "LZO disabled (legacy)"
+#~ msgstr "LZO uitgeschakeld (verouderd)"
+
+#~ msgid "LZO adaptive (legacy)"
+#~ msgstr "LZO adaptief (verouderd)"
+
+#~ msgid "TLS-Auth"
+#~ msgstr "TLS-Auth"
+
+#~ msgid "TLS-Crypt"
+#~ msgstr "TLS-Crypt"
+
+#~ msgid "Maybe"
+#~ msgstr "Misschien"
+
+#~ msgid "Yes"
+#~ msgstr "Ja"
+
+#~ msgid "Authentication"
+#~ msgstr "Aanmeldingscontrole"
+
+#~ msgid "CA"
+#~ msgstr "CA"
+
+#~ msgid "User"
+#~ msgstr "Gebruiker"
+
+#~ msgid "Password:"
+#~ msgstr "Wachtwoord:"
+
+#~ msgid "User name:"
+#~ msgstr "Gebruikersnaam:"
+
+#~ msgid ""
+#~ "Password passed to Anyconnect when prompted for it.\n"
+#~ "config: auth-user-pass"
+#~ msgstr ""
+#~ "Wachtwoord voor Anyconnect wanneer daar om gevraagd wordt.\n"
+#~ "configuratie: auth-user-pass"
+
+#~ msgid ""
+#~ "Username passed to Anyconnect when prompted for it. If omitted, use the "
+#~ "name of the system user that activates the connection.\n"
+#~ "config: auth-user-pass"
+#~ msgstr ""
+#~ "Gebruikersnaam voor Anyconnect wanneer daar om gevraagd wordt. Gebruikt "
+#~ "de naam van de systeemgebruiker die de verbinding activeert indien geen "
+#~ "andere naam opgegeven wordt.\n"
+#~ "config: auth-user-pass"
+
+#~ msgid "Remote IP Address:"
+#~ msgstr "IP-adres op afstand:"
+
+#~ msgid "Local IP Address:"
+#~ msgstr "Lokaal IP-adres:"
+
+#~ msgid "Key Direction:"
+#~ msgstr "Sleutelrichting:"
+
+#~ msgid "Static Key:"
+#~ msgstr "Statische sleutel:"
+
+#~ msgid ""
+#~ "Pre-shared file for Static Key encryption mode (non-TLS).\n"
+#~ "config: static <file>"
+#~ msgstr ""
+#~ "Vooraf gedeeld bestand voor versleutelingsmodus van statische sleutel "
+#~ "(non-TLS).\n"
+#~ "configuratie: static <bestand>"
+
+#~ msgid ""
+#~ "IP address of the remote VPN endpoint.\n"
+#~ "config: ifconfig <l> <rn>"
+#~ msgstr ""
+#~ "IP-adres van extern VPN-eindpunt.\n"
+#~ "configuratie: ifconfig <l> <rn>"
+
+#~ msgid ""
+#~ "IP address of the local VPN endpoint.\n"
+#~ "config: ifconfig <l> <rn>"
+#~ msgstr ""
+#~ "IP-adres van lokaal VPN-eindpunt.\n"
+#~ "configuratie: ifconfig <l> <rn>"
+
+#~ msgid ""
+#~ "Direction for Static Key encryption mode (non-TLS).\n"
+#~ "If key direction is used, it must be the opposite of that used on the VPN "
+#~ "peer. For example, if the peer uses “1”, this connection must use “0”. If "
+#~ "you are unsure what value to use, contact your system administrator.\n"
+#~ "config: static <file> [direction]"
+#~ msgstr ""
+#~ "Richting voor versleutelingsmodus voor statische sleutel (non-TLS).\n"
+#~ "Als een sleutelrichting wordt gebruikt, moet deze tegenovergesteld zijn "
+#~ "aan die van de VPN-peer. Bijvoorbeeld: als de andere machine ‘1’ "
+#~ "gebruikt, moet deze verbinding ‘0’ gebruiken. Neem contact op met uw "
+#~ "systeembeheerder als u niet weet welke waarde te gebruiken.\n"
+#~ "configuratie: static <bestand> [richting]"
+
+#~ msgid "Type:"
+#~ msgstr "Type:"
+
+#~ msgid "Select an authentication mode."
+#~ msgstr "Kies een modus voor aanmeldingscontrole."
+
+#~ msgid "Ad_vanced…"
+#~ msgstr "Gea_vanceerd…"
+
+#~ msgid "Anyconnect Advanced Options"
+#~ msgstr "Geavanceerde opties voor Anyconnect"
+
+#~ msgid "Use custom gateway p_ort:"
+#~ msgstr "Aangepaste gateway-_poort:"
+
+#~ msgid ""
+#~ "TCP/UDP port number for peer. (Default value when there is no port for "
+#~ "gateway).\n"
+#~ "config: port"
+#~ msgstr ""
+#~ "TCP/UDP-poortnummer voor peer. (Standaardwaarde zonder poort voor "
+#~ "gateway).\n"
+#~ "configuratie: port"
+
+#~ msgid "Use custom _renegotiation interval:"
+#~ msgstr "Aangepast interval voor _heronderhandeling gebruiken:"
+
+#~ msgid ""
+#~ "Renegotiate data channel key after the specified number of seconds.\n"
+#~ "config: reneg-sec"
+#~ msgstr ""
+#~ "Heronderhandel datakanaal na opgegeven aantal seconden.\n"
+#~ "configuratie: reneg-sec"
+
+#~ msgid "Data _compression:"
+#~ msgstr "Data_compressie gebruiken:"
+
+#~ msgid ""
+#~ "Use fast LZO compression.\n"
+#~ "config: comp-lzo"
+#~ msgstr ""
+#~ "Snelle LZO-compressie gebruiken.\n"
+#~ "config: comp-lzo"
+
+#~ msgid "Use a _TCP connection"
+#~ msgstr "_TCP-verbinding gebruiken"
+
+#~ msgid ""
+#~ "Use TCP for communicating with remote host.\n"
+#~ "(This is a default setting only used when no protocol is specified for "
+#~ "the gateway.)\n"
+#~ "config: proto tcp-client | udp"
+#~ msgstr ""
+#~ "Gebruik TCP voor communicatie met externe host.\n"
+#~ "(Dit is een standaardinstelling, die enkel wordt gebruikt indien er geen "
+#~ "protocol is opgegeven voor de gateway.)\n"
+#~ "configuratie: proto tcp-client | udp"
+
+#~ msgid "Set virtual _device type:"
+#~ msgstr "Stel virtueel a_pparaatstype in:"
+
+#~ msgid "Explicitly set virtual device type and name (TUN/TAP)."
+#~ msgstr ""
+#~ "Stel naam en type van het virtuele apparaat uitdrukkelijk in (TUN/TAP)."
+
+#~ msgid ""
+#~ "Explicitly set virtual device type (TUN/TAP).\n"
+#~ "config: dev-type tun | tap"
+#~ msgstr ""
+#~ "Stel uitdrukkelijk het virtueel apparaatstype in (TUN/TAP).\n"
+#~ "config: dev-type tun | tap"
+
+#~ msgid " and _name:"
+#~ msgstr " en _naam:"
+
+#~ msgid ""
+#~ "Use custom name for TUN/TAP virtual device (instead of default “tun” or "
+#~ "“tap”).\n"
+#~ "config: dev <name>"
+#~ msgstr ""
+#~ "Gebruik een aangepaste naam voor TUN/TAP-virtueel apparaat (in plaats van "
+#~ "standaard ‘tun’ of ‘tap’).\n"
+#~ "configuratie: dev <naam>"
+
+#~ msgid "Use custom tunnel Maximum Transmission _Unit (MTU):"
+#~ msgstr ""
+#~ "Aangepaste MT_U (maximale transmissie-eenheid) voor de tunnel gebruiken:"
+
+#~ msgid ""
+#~ "Take the TUN device MTU to be the specified value and derive the link MTU "
+#~ "from it.\n"
+#~ "config: tun-mtu"
+#~ msgstr ""
+#~ "Stel de TUN-apparaats-MTU in als de opgegeven waarde en leid er de link-"
+#~ "MTU uit af.\n"
+#~ "configuratie: tun-mtu"
+
+#~ msgid "Use custom UDP _fragment size:"
+#~ msgstr "Aangepaste UDP-_fragmentgrootte gebruiken:"
+
+#~ msgid ""
+#~ "Enable internal datagram fragmentation with this maximum size.\n"
+#~ "config: fragment"
+#~ msgstr ""
+#~ "Schakel interne datagramfragmentatie met deze maximale grootte in.\n"
+#~ "configuratie: fragment"
+
+#~ msgid "Restrict tunnel TCP Maximum _Segment Size (MSS)"
+#~ msgstr "Maximale TCP-_segmentgrootte (MSS) van tunnel beperken"
+
+#~ msgid ""
+#~ "Restrict tunnel TCP MSS.\n"
+#~ "config: mssfix"
+#~ msgstr ""
+#~ "Beperkt tunnel-TCP-MSS.\n"
+#~ "configuratie: mssfix"
+
+#~ msgid "Rando_mize remote hosts"
+#~ msgstr "Externe hosts rando_miseren"
+
+#~ msgid ""
+#~ "Randomize the order of gateways list (remote) as a kind of basic load-"
+#~ "balancing measure.\n"
+#~ "config: remote-random"
+#~ msgstr ""
+#~ "Randomiseer de volgorde van de lijst met gateways (extern) als een "
+#~ "eenvoudige taakverdelingsmaatregel.\n"
+#~ "configuratie: remote-random"
+
+#~ msgid "IPv6 tun link"
+#~ msgstr "IPv6-tun-link"
+
+#~ msgid ""
+#~ "Build a tun link capable of forwarding IPv6 traffic\n"
+#~ "config: tun-ipv6"
+#~ msgstr ""
+#~ "Stel een tun-link in die IPv6-verkeer kan doorsturen\n"
+#~ "configuratie: tun-ipv6"
+
+#~ msgid "Specify _exit or restart ping:"
+#~ msgstr "Geef ping van afsluit_en of herstarten op:"
+
+#~ msgid ""
+#~ "Exit or restart after n seconds pass without reception of a ping or other "
+#~ "packet from remote.\n"
+#~ "config: ping-exit | ping-restart <n>"
+#~ msgstr ""
+#~ "Sluit af of herstart na n seconden zonder ontvangst van ping of ander "
+#~ "pakket van extern.\n"
+#~ "configuratie: ping-exit | ping-restart <n>"
+
+#~ msgid "Specify pin_g interval:"
+#~ msgstr "Geef pin_ginterval op:"
+
+#~ msgid ""
+#~ "Ping remote over the TCP/UDP control channel if no packets have been sent "
+#~ "for at least n seconds.\n"
+#~ "config: ping <n>"
+#~ msgstr ""
+#~ "Ping extern via TCP/UDP-controlekanaal indien geen pakketten verzonden "
+#~ "zijn voor minstens n seconden.\n"
+#~ "configuratie: ping <n>"
+
+#~ msgid "Accept authenticated packets from any address (F_loat)"
+#~ msgstr "Aanvaard geauthenticeerde pakketten van elk adres (F_loat)"
+
+#~ msgid ""
+#~ "Allow remote peer to change its IP address and/or port number, such as "
+#~ "due to DHCP (this is the default if --remote is not used). --float when "
+#~ "specified with --remote allows an Anyconnect session to initially connect "
+#~ "to a peer at a known address, however if packets arrive from a new "
+#~ "address and pass all authentication tests, the new address will take "
+#~ "control of the session. This is useful when you are connecting to a peer "
+#~ "which holds a dynamic address such as a dial-in user or DHCP client.\n"
+#~ "\n"
+#~ "Essentially, --float tells Anyconnect to accept authenticated packets "
+#~ "from any address, not only the address which was specified in the --"
+#~ "remote option.\n"
+#~ "\n"
+#~ "config: float"
+#~ msgstr ""
+#~ "Sta externe peer toe zijn IP-adres en/of poortnummer te wijzigen, zoals "
+#~ "door DHCP (dit is de standaard indien --remote niet wordt gebruikt). --"
+#~ "float indien opgegeven met --remote staat een Anyconnect-sessie toe "
+#~ "initieel te verbinden met een peer op een gekend adres, maar als "
+#~ "pakketten toekomen van een nieuw adres en voor alle authenticatietests "
+#~ "slagen, zal het nieuwe adres de controle over de sessie overneme. Dit is "
+#~ "nuttig indien u verbinding maakt met een peer met een dynamisch adres, "
+#~ "zoals een inbel-gebruiker of DHCP-cliënt.\n"
+#~ "\n"
+#~ "Eigenlijk zegt --float aan Anyconnect dat deze geauthenticeerde pakketten "
+#~ "van elk adres moet aanvaarden, niet enkel van het adres opgegeven in de "
+#~ "optie --remote.\n"
+#~ "\n"
+#~ "configuratie: float"
+
+#~ msgid "Specify max routes:"
+#~ msgstr "Geef maximaal aantal routes op:"
+
+#~ msgid ""
+#~ "Specify the maximum number of routes the server is allowed to specify.\n"
+#~ "config: max-routes <n>"
+#~ msgstr ""
+#~ "Geef het maximale aantal routes op dat de server kan opgeven.\n"
+#~ "configuratie: max-routes <n>"
+
+#~ msgid ""
+#~ "Encrypt packets with cipher algorithm. The default is BF-CBC (Blowfish in "
+#~ "Cipher Block Chaining mode).\n"
+#~ "config: cipher"
+#~ msgstr ""
+#~ "Versleutel pakketten met cipheralgoritme. Standaard is BF-CBC (Blowfish "
+#~ "in cipherblokkettingsmodus).\n"
+#~ "configuratie: cipher"
+
+#~ msgid "Use custom _size of cipher key:"
+#~ msgstr "Aangepa_ste grootte van ciphersleutel gebruiken:"
+
+#~ msgid ""
+#~ "Set cipher key size to a custom value. If unspecified, it defaults to "
+#~ "cipher-specific size.\n"
+#~ "config: keysize <n>"
+#~ msgstr ""
+#~ "Stel de grootte van de ciphersleutel in op een aangepaste waarde. Indien "
+#~ "niet ingesteld, wordt de waarde standaard ingesteld op een cipher-"
+#~ "specifieke grootte.\n"
+#~ "configuratie: keysize <n>"
+
+#~ msgid ""
+#~ "Authenticate packets with HMAC using message digest algorithm. The "
+#~ "default is SHA1.\n"
+#~ "config: auth"
+#~ msgstr ""
+#~ "Authenticeer pakketten met HMAC aan de hand van het message-digest-"
+#~ "algoritme. Standaard is SHA1.\n"
+#~ "configuratie: auth"
+
+#~ msgid "Ci_pher:"
+#~ msgstr "Ver_cijfering:"
+
+#~ msgid "_HMAC Authentication:"
+#~ msgstr "_HMAC-authenticatie:"
+
+#~ msgid "Disable cipher _negotiation"
+#~ msgstr "Ciphero_nderhandeling uitschakelen"
+
+#~ msgid ""
+#~ "Disable cipher negotiation between client and server.\n"
+#~ "config: ncp-disable"
+#~ msgstr ""
+#~ "Schakel cipheronderhandeling tussen cliënt en server uit.\n"
+#~ "configuratie: ncp-disable"
+
+#~ msgid "Verify CRL from file"
+#~ msgstr "CRL verifiëren uit bestand"
+
+#~ msgid ""
+#~ "Check peer certificate against the specified file in PEM format. A CRL "
+#~ "(certificate revocation list) is used when a particular key is "
+#~ "compromised but when the overall PKI is still intact."
+#~ msgstr ""
+#~ "Controleer peercertificaat tegen opgegeven bestand in PEM-formaat. Een "
+#~ "CRL (certificaatintrekkingslijst) wordt gebruikt wanneer een bepaalde "
+#~ "sleutel gecompromitteerd is maar de algemene PKI nog intact is."
+
+#~ msgid "Verify CRL from directory"
+#~ msgstr "CRL verifiëren uit map"
+
+#~ msgid ""
+#~ "Check peer certificate by looking at files in the specified directory. "
+#~ "The directory must contain files named as revoked serial numbers (the "
+#~ "files may be empty, the contents are never read)."
+#~ msgstr ""
+#~ "Controleer peercertificaat door te kijken naar bestanden in de opgegeven "
+#~ "map. De map moet bestanden bevatten genaamd als ingetrokken serienummers "
+#~ "(de bestanden mogen leeg zijn, de inhoud ervan wordt niet gelezen)."
+
+#~ msgid "Choose CRL file"
+#~ msgstr "CRL-bestand kiezen"
+
+#~ msgid "Choose CRL directory"
+#~ msgstr "CRL-map kiezen"
+
+#~ msgid "Security"
+#~ msgstr "Beveiliging"
+
+#~ msgid "_Subject Match:"
+#~ msgstr "Overeenkom_st met onderwerp:"
+
+#~ msgid ""
+#~ "Subject or Common Name to verify server certificate information against.\n"
+#~ "\n"
+#~ "config: verify-x509-name subject-or-name [mode]\n"
+#~ "config (legacy mode): tls-remote subject-or-name"
+#~ msgstr ""
+#~ "Onderwerp of Algemene Naam om servercertificaatsinformatie tegen te "
+#~ "verifiëren.\n"
+#~ "\n"
+#~ "configuratie: verify-x509-name onderwerp-of-naam [modus]\n"
+#~ "configuratie (legacy-modus): tls-remote onderwerp-of-naam"
+
+#~ msgid "Server _Certificate Check:"
+#~ msgstr "Server_certificaatcontrole:"
+
+#~ msgid ""
+#~ "Verify server certificate identification.\n"
+#~ "\n"
+#~ "When enabled, connection will only succeed if the server certificate "
+#~ "matches some expected properties.\n"
+#~ "Matching can either apply to the whole certificate subject (all the "
+#~ "fields),\n"
+#~ "or just the Common Name (CN field).\n"
+#~ "\n"
+#~ "The legacy option tls-remote is deprecated and removed from Anyconnect "
+#~ "2.4 and newer. Do not use it anymore.\n"
+#~ "\n"
+#~ "config: verify-x509-name subject-or-name [mode]\n"
+#~ "config (legacy mode): tls-remote subject-or-name"
+#~ msgstr ""
+#~ "Verifieer servercertificaatsidentificatie.\n"
+#~ "\n"
+#~ "Indien ingeschakeld, zal een verbinding enkel slagen als het "
+#~ "servercertificaat overeenkomt met verwachte eigenschappen.\n"
+#~ "Overeenkomen kan worden toegepast op het volledige certificaatsonderwerp "
+#~ "(alle velden),\n"
+#~ "of enkel de Algemene Naam (CN-veld).\n"
+#~ "\n"
+#~ "De legacy-optie tls-remote is verouderd en verwijderd sinds Anyconnect "
+#~ "2.4 en recenter. Gebruik deze niet meer.\n"
+#~ "\n"
+#~ "configuratie: verify-x509-name onderwerp-of-naam [modus]\n"
+#~ "configuratie (legacy-modus): tls-remote onderwerp-of-naam"
+
+#~ msgid "_Verify peer (server) certificate usage signature"
+#~ msgstr "_Verifieer gebruikshandtekening van peer(server)certificaat"
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit key usage and "
+#~ "extended key usage based on RFC3280 TLS rules."
+#~ msgstr ""
+#~ "Vereis dat peercertificaat ondertekend werd met een uitdrukkelijk "
+#~ "sleutelgebruik en uitgebreid sleutelgebruik gebaseerd op RFC3280-TLS-"
+#~ "regels."
+
+#~ msgid "_Remote peer certificate TLS type:"
+#~ msgstr "TLS-type van certificaat van exte_rne peer:"
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit key usage and "
+#~ "extended key usage based on RFC3280 TLS rules.\n"
+#~ "config: remote-cert-tls client|server"
+#~ msgstr ""
+#~ "Vereis dat peercertificaat ondertekend werd met een uitdrukkelijk "
+#~ "sleutelgebruik en uitgebreid sleutelgebruik gebaseerd op RFC3280-TLS-"
+#~ "regels.\n"
+#~ "configuratie: remote-cert-tls client|server"
+
+#~ msgid "_Verify peer (server) certificate nsCertType designation"
+#~ msgstr "_Verifieer nsCertType-toewijzing van peer(server)certificaat"
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit nsCertType "
+#~ "designation."
+#~ msgstr ""
+#~ "Vereis dat peercertificaat ondertekend werd met een uitdrukkelijke "
+#~ "nsCertType-toewijzing."
+
+#~ msgid "_Remote peer certificate nsCert designation:"
+#~ msgstr "Exte_rne nsCert-toewijzing van peercertificaat:"
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit nsCertType "
+#~ "designation.\n"
+#~ "config: ns-cert-type client|server"
+#~ msgstr ""
+#~ "Vereis dat peercertificaat ondertekend werd met een uitdrukkelijke "
+#~ "nsCertType-toewijzing.\n"
+#~ "configuratie: ns-cert-type client|server"
+
+#~ msgid "Key _Direction:"
+#~ msgstr "Sleutel_richting:"
+
+#~ msgid ""
+#~ "Add an additional layer of HMAC authentication on top of the TLS control "
+#~ "channel to protect against DoS attacks. In case of TLS-Crypt mode, the "
+#~ "control channel is also encrypted.\n"
+#~ "config: tls-auth <file> [direction] | tls-crypt <file>"
+#~ msgstr ""
+#~ "Voeg een extra laag HMAC-authenticatie toe bovenop het TLS-"
+#~ "controlekanaal, als bescherming tegen DoS-aanvallen. Ingeval van TLS-"
+#~ "Crypt-modus, wordt het controlekanaal ook versleuteld.\n"
+#~ "configuratie: tls-auth <bestand> [richting] | tls-crypt <bestand>"
+
+#~ msgid ""
+#~ "Direction parameter for static key mode.\n"
+#~ "If key direction is used, it must be the opposite of that used on the VPN "
+#~ "peer. For example, if the peer uses “1”, this connection must use “0”. If "
+#~ "you are unsure what value to use, contact your system administrator.\n"
+#~ "config: tls-auth <file> [direction]"
+#~ msgstr ""
+#~ "Richtingsparameter voor statischesleutelmodus.\n"
+#~ "Als een sleutelrichting wordt gebruikt, moet deze tegenovergesteld zijn "
+#~ "dan die van de VPN-peer. Bijvoorbeeld: als de andere machine ‘1’ "
+#~ "gebruikt, moet deze verbinding ‘0’ gebruiken. Neem contact op met uw "
+#~ "systeembeheerder als u niet weet welke waarde te gebruiken.\n"
+#~ "configuratie: tls-auth <bestand> [richting]"
+
+#~ msgid "Key _File:"
+#~ msgstr "_Sleutelbestand:"
+
+#~ msgid "Mode:"
+#~ msgstr "Modus:"
+
+#~ msgid "Add an additional layer of encryption or HMAC authentication."
+#~ msgstr "Voeg een extra laag met versleuteling of HMAC-authenticatie toe."
+
+#~ msgid "Extra Certificates:"
+#~ msgstr "Extra certificaten:"
+
+#~ msgid ""
+#~ "Specify a file containing one or more PEM certs (concatenated together) "
+#~ "that complete the local certificate chain.\n"
+#~ "config: extra-certs <file>"
+#~ msgstr ""
+#~ "Geef een bestand op dat een of meerdere PEM-certificaten bevat "
+#~ "(samengevoegd), die de lokale certificaatsketen vervolledigen.\n"
+#~ "configuratie: extra-certs <bestand>"
+
+#~ msgid "Additional TLS authentication or encryption"
+#~ msgstr "Extra TLS-authenticatie of -versleuteling gebruiken"
+
+#~ msgid "Controls min and max version allowed for TLS."
+#~ msgstr "Bepaalt de laagste en de hoogste toegestane versie voor TLS."
+
+#~ msgid "TLS version control"
+#~ msgstr "TLS-versiebeheer"
+
+#~ msgid "TLS _min version: "
+#~ msgstr "TLS-_minimumversie: "
+
+#~ msgid ""
+#~ " Sets the minimum TLS version we will accept from the peer (default is "
+#~ "\"1.0\").  Examples for version include \"1.0\", \"1.1\", or \"1.2\".  If "
+#~ "'or-highest' is specified and version is not recognized, we will only "
+#~ "accept the highest TLS version supported by the local SSL implementation."
+#~ msgstr ""
+#~ " Bepaalt de laagste TLS-versie die we van de peer aanvaarden (standaard "
+#~ "is ‘1.0’).  De versie kan bijvoorbeeld ‘1.0’, ‘1.1’ of ‘1.2’ zijn.  Als "
+#~ "de optie ‘or-highest’ (‘of hoogste’) ingevoerd is en de versie niet "
+#~ "herkend wordt, aanvaarden we enkel de hoogst mogelijke TLS-versie die "
+#~ "door de lokale SSL-implementatie wordt ondersteund."
+
+#~ msgid "TLS ma_x version: "
+#~ msgstr "TLS-ma_ximumversie: "
+
+#~ msgid ""
+#~ "Set the maximum TLS version we will use (default is the highest version "
+#~ "supported).  Examples for version include \"1.0\", \"1.1\", or \"1.2\"."
+#~ msgstr ""
+#~ "Bepaalt de hoogste TLS-versie die we gebruiken (standaard is de hoogst "
+#~ "mogelijke ondersteunde versie).  De versie kan bijvoorbeeld ‘1.0’, ‘1.1’ "
+#~ "of ‘1.2’ zijn."
+
+#~ msgid "TLS Authentication"
+#~ msgstr "TLS-authenticatie"
+
+#~ msgid ""
+#~ "Proxy type: HTTP or Socks.\n"
+#~ "config: http-proxy or socks-proxy"
+#~ msgstr ""
+#~ "Proxytype: HTTP of Socks.\n"
+#~ "configuratie: http-proxy of socks-proxy"
+
+#~ msgid "Proxy _Type:"
+#~ msgstr "Proxy-_type:"
+
+#~ msgid ""
+#~ "<i>Select this option if your organization requires the use of a proxy "
+#~ "server to access the Internet.</i>"
+#~ msgstr ""
+#~ "<i>Gebruik deze optie als uw organisatie een proxy-server gebruikt voor "
+#~ "internettoegang.</i>"
+
+#~ msgid "Server _Address:"
+#~ msgstr "Server_adres:"
+
+#~ msgid ""
+#~ "Connect to remote host through a proxy with this address.\n"
+#~ "config: http-proxy or socks-proxy"
+#~ msgstr ""
+#~ "Maak verbinding met externe host via proxy met dit adres.\n"
+#~ "configuratie: http-proxy of socks-proxy"
+
+#~ msgid "_Port:"
+#~ msgstr "_Poort:"
+
+#~ msgid ""
+#~ "Connect to remote host through a proxy with this port.\n"
+#~ "config: http-proxy or socks-proxy"
+#~ msgstr ""
+#~ "Maak verbinding met externe host via proxy met deze poort.\n"
+#~ "configuratie: http-proxy of socks-proxy"
+
+#~ msgid "_Retry indefinitely when errors occur"
+#~ msgstr "Voo_r onbepaalde tijd herhalen wanneer er fouten optreden"
+
+#~ msgid ""
+#~ "Retry indefinitely on proxy errors. It simulates a SIGUSR1 reset.\n"
+#~ "config: http-proxy-retry or socks-proxy-retry"
+#~ msgstr ""
+#~ "Probeer eindeloos opnieuw bij proxyfouten. Dit simuleert een SIGUSR1-"
+#~ "reset.\n"
+#~ "configuratie: http-proxy-retry of socks-proxy-retry"
+
+#~ msgid "Proxy _Username:"
+#~ msgstr "Gebr_uikersnaam voor proxy:"
+
+#~ msgid "Proxy Passwor_d:"
+#~ msgstr "Proxywachtwoor_d:"
+
+#~ msgid "HTTP/Socks proxy username passed to Anyconnect when prompted for it."
+#~ msgstr ""
+#~ "HTTP/Socks-proxygebruikersnaam doorgegeven aan Anyconnect wanneer "
+#~ "gevraagd."
+
+#~ msgid "HTTP/Socks proxy password passed to Anyconnect when prompted for it."
+#~ msgstr ""
+#~ "HTTP/Socks-proxywachtwoord doorgegeven aan Anyconnect wanneer gevraagd."
+
+#~ msgid "_Show password"
+#~ msgstr "Wachtwoord t_onen"
+
+#~ msgid "Proxies"
+#~ msgstr "Proxy’s"
+
+#~ msgid "Path mtu discovery"
+#~ msgstr "Pad-MTU-ontdekking"
+
+#~ msgid "Connect timeout"
+#~ msgstr "Verbindingstime-out"
+
+#~ msgid ""
+#~ "The timeout in seconds before trying the next server. This timeout "
+#~ "includes proxy and TCP connect timeouts.\n"
+#~ "config: connect-timeout <n> | server-poll-timeout <n>"
+#~ msgstr ""
+#~ "Time-out in seconden vooraleer verbinding wordt gemaakt met de volgende "
+#~ "server. Deze time-out omvat proxy- en TCP-verbindingstime-outs.\n"
+#~ "configuratie: connect-timeout <n> | server-poll-timeout <n>"
+
+#~ msgid "Misc"
+#~ msgstr "Allerlei"
+
+#~ msgid "Authenticate VPN %s"
+#~ msgstr "Aanmeldingscontrole voor VPN %s"
+
+#~ msgid ""
+#~ "Select the LZO data compression mode.\n"
+#~ "config: comp-lzo"
+#~ msgstr ""
+#~ "Kies de LZO-datacompressiemodus.\n"
+#~ "config: comp-lzo"
+
+#~ msgid "_Password:"
+#~ msgstr "_Wachtwoord:"
+
+#~ msgid "_Secondary Password:"
+#~ msgstr "_Secondair wachtwoord:"
+
+#~ msgid "Sh_ow passwords"
+#~ msgstr "Wachtw_oorden tonen"
+
+#~ msgid "Choose your personal certificate..."
+#~ msgstr "Kies uw persoonlijke certificaat…"
+
+#~ msgid "Choose your private key..."
+#~ msgstr "Kies uw privé-sleutel…"
+
+#~ msgid "Saved"
+#~ msgstr "Opgeslagen"
+
+#~ msgid "Always Ask"
+#~ msgstr "Altijd vragen"
+
+#~ msgid "Not Required"
+#~ msgstr "Niet vereist"
+
+#~ msgid "Choose a Certificate Authority certificate..."
+#~ msgstr "Certificaat van certificaat-autoriteit (CA) kiezen…"
+
+#~ msgid "PEM or PKCS#12 certificates (*.pem, *.crt, *.key, *.cer, *.p12)"
+#~ msgstr "PEM- of PKCS#12-certificaten (*.pem, *.crt, *.key, *.cer, *.p12)"
+
+#~ msgid "PEM certificates (*.pem, *.crt, *.key, *.cer)"
+#~ msgstr "PEM-certificaten (*.pem, *.crt, *.key, *.cer)"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "<b>Authentication</b>"
+#~ msgstr "<b>Authenticatie</b>"
+
+#~ msgid "<b>General</b>"
+#~ msgstr "<b>Algemeen</b>"
+
+#~ msgid ""
+#~ "<i>Connect only to servers whose certificate matches the given subject.\n"
+#~ "Example: /CN=myvpn.company.com</i>"
+#~ msgstr ""
+#~ "<i>Alleen verbinden met server waarvan het certificaat overeenkomt met "
+#~ "het gegeven onderwerp.\n"
+#~ "Bijvoorbeeld: /CN=vpn.example.org</i>"
+
+#~ msgid "CA Certificate:"
+#~ msgstr "CA-certificaat:"
+
+#~ msgid "Password for private key"
+#~ msgstr "Wachtwoord voor privé-sleutel…"
+
+#~ msgid "Private Key:"
+#~ msgstr "Privé-sleutel:"
+
+#~ msgid "_Show passwords"
+#~ msgstr "Wachtwoorden tonen"
+
+#~ msgid "Use a TA_P device"
+#~ msgstr "T_AP-apparaat gebruiken"
+
+#~ msgid "No VPN secrets!"
+#~ msgstr "Geen VPN-geheimen!"
+
+#~ msgid "Invalid HMAC auth."
+#~ msgstr "Ongeldige HMAC-auth."
+
+#~ msgid "Missing required local IP address for static key mode."
+#~ msgstr "Het lokale IP-adres voor statische sleutelmodus ontbreekt."
+
+#~ msgid "Missing required remote IP address for static key mode."
+#~ msgstr "Het IP-adres op afstand voor statische sleutelmodus ontbreekt."
+
+#~ msgid "Could not process the request because no username was provided."
+#~ msgstr ""
+#~ "Aanmelding bij het VPN is mislukt omdat de verbindingsinstellingen van "
+#~ "het VPN ongeldig waren."
+
+#~ msgid "_Domain:"
+#~ msgstr "_Domein:"
+
+#~ msgid "Connect as _user:"
+#~ msgstr "Verbinden met _gebruikersnaam:"
+
+#, fuzzy
+#~ msgid "_Remember password for this session"
+#~ msgstr "W_achtwoorden voor deze sessie onthouden"
+
+#, fuzzy
+#~ msgid "_Save password in keyring"
+#~ msgstr "Wachtwoorden in _sleutelbos opslaan"

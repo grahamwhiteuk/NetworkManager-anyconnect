@@ -1,0 +1,14 @@
+[VPN Connection]
+name=anyconnect
+service=org.freedesktop.NetworkManager.anyconnect
+program=@LIBEXECDIR@/nm-anyconnect-service
+supports-multiple-connections=true
+
+[libnm]
+plugin=@PLUGINDIR@/libnm-vpn-plugin-anyconnect.so
+
+[GNOME]
+auth-dialog=@LIBEXECDIR@/nm-anyconnect-auth-dialog
+properties=@PLUGINDIR@/libnm-anyconnect-properties
+supports-external-ui-mode=true
+supports-hints=true

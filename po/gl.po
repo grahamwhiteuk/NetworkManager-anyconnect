@@ -1,0 +1,1340 @@
+# Galician translation of NetworkManager Applet
+# Copyright (C) -2008, The GNOME Foundation
+# This file is distributed under the same license as the NetworkManager Applet package.
+# Ignacio Casal Quinteiro <icq@cvs.gnome.org>, 2007, 2008.
+# Mancomún - Centro de Referencia e Servizos de Software Libre <g11n@mancomun.org>, 2009.
+# Francisco Diéguez <frandieguez@ubuntu.com>, 2010.
+# Fran Diéguez <frandieguez@gnome.org>, 2011.
+# Xosé M. Lamas <correo.xmgz@gmail.com>, 2011.
+# Fran Dieguez <frandieguez@gnome.org>, 2011, 2012, 2013.
+# Marcos Lans <marcoslansgarza@gmail.com>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: gl\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-30 22:41+0100\n"
+"PO-Revision-Date: 2018-03-21 22:48+0100\n"
+"Last-Translator: marcos <marcoslansgarza@gmail.com>\n"
+"Language-Team: galego\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Project-Style: gnome\n"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:1
+msgid "Anyconnect client"
+msgstr "Cliente Anyconnect"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:2
+msgid "Client for Anyconnect virtual private networks"
+msgstr "Cliente para redes privadas virtuais Anyconnect"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:3
+msgid "Support for configuring Anyconnect virtual private network connections."
+msgstr ""
+"Asistencia para configurar as conexións da rede privada virtual Anyconnect."
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:4
+msgid "Anyconnect is a popular and flexible free-software VPN solution."
+msgstr ""
+"Anyconnect é unha popular e flexíbel solución de software libre para VPN."
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:5
+msgid "The NetworkManager Developers"
+msgstr "Os desenvolvedores do NetworkManager"
+
+#: ../properties/nm-anyconnect-editor-plugin.c:35
+#, fuzzy
+msgid "Cisco AnyConnect"
+msgstr "Anyconnect"
+
+#: ../properties/nm-anyconnect-editor-plugin.c:36
+msgid "Runs the proprietary Cisco AnyConnect VPN."
+msgstr ""
+
+#: ../properties/nm-anyconnect-editor.c:299
+msgid "could not load UI widget"
+msgstr "non foi posíbel cargar o miniaplicativo da interface de usuario"
+
+#: ../shared/nm-utils/nm-shared-utils.c:946
+#, c-format
+msgid "object class '%s' has no property named '%s'"
+msgstr "a clase do obxecto «%s» non foi nomeada axeitadamente «%s»"
+
+#: ../shared/nm-utils/nm-shared-utils.c:953
+#, c-format
+msgid "property '%s' of object class '%s' is not writable"
+msgstr "a propiedade «%s» da clase do obxecto «%s» non é escribíbel"
+
+#: ../shared/nm-utils/nm-shared-utils.c:960
+#, c-format
+msgid ""
+"construct property \"%s\" for object '%s' can't be set after construction"
+msgstr ""
+"non é posíbel estabelecer despois da construción a propiedade da construción "
+"«%s» do obxecto «%s»"
+
+#: ../shared/nm-utils/nm-shared-utils.c:968
+#, c-format
+msgid "'%s::%s' is not a valid property name; '%s' is not a GObject subtype"
+msgstr ""
+"«%s::%s» non é un nome de propiedade correcto; «%s» non é un subtipo GObject"
+
+#: ../shared/nm-utils/nm-shared-utils.c:977
+#, c-format
+msgid "unable to set property '%s' of type '%s' from value of type '%s'"
+msgstr ""
+"non é posíbel estabelecer a propiedade «%s» do tipo «%s» desde o valor do "
+"tipo «%s»"
+
+#: ../shared/nm-utils/nm-shared-utils.c:988
+#, c-format
+msgid ""
+"value \"%s\" of type '%s' is invalid or out of range for property '%s' of "
+"type '%s'"
+msgstr ""
+"O valor «%s» do tipo «%s» non é válido ou está fóra do intervalo para a "
+"propiedade «%s» do tipo «%s»"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:69
+#, fuzzy, c-format
+msgid "unable to get editor plugin name: %s"
+msgstr "non foi posíbel cargar o engadido do editor: %s"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:103
+#, c-format
+msgid "missing plugin file \"%s\""
+msgstr "falta o ficheiro do engadido «%s»"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:109
+#, c-format
+msgid "cannot load editor plugin: %s"
+msgstr "non foi posíbel cargar o engadido do editor: %s"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:118
+#, c-format
+msgid "cannot load factory %s from plugin: %s"
+msgstr "non é posíbel cargar %s de fábrica desde o engadido: %s"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:144
+msgid "unknown error creating editor instance"
+msgstr "produciuse un erro descoñecido creando a instancia do editor"
+
+#: ../src/nm-anyconnect-service.c:567 ../src/nm-anyconnect-service.c:682
+msgid "Could not find the anyconnect binary."
+msgstr "Non foi posíbel atopar o binario de anyconnect."
+
+#: ../src/nm-anyconnect-service.c:580
+msgid ""
+"Could not process the request because the VPN connection settings were "
+"invalid."
+msgstr ""
+"Non foi posíbel procesar a solicitude debido a que as configuracións da "
+"conexión VPN non son válidos."
+
+#: ../src/nm-anyconnect-service.c:602
+msgid ""
+"Could not attempt connection, unable to find the setting for the gateway."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:875
+msgid "Don’t quit when VPN connection terminates"
+msgstr "Non saír cando unha conexión VPN remate"
+
+#: ../src/nm-anyconnect-service.c:876
+msgid "Enable verbose debug logging (may expose passwords)"
+msgstr ""
+"Activar o modo detallado de rexistro de depuración (pode mostrar "
+"contrasinais en claro)"
+
+#: ../src/nm-anyconnect-service.c:877
+msgid "D-Bus name to use for this instance"
+msgstr "Nome do D-Bus para usar nesta instancia"
+
+#: ../src/nm-anyconnect-service.c:905
+#, fuzzy
+msgid ""
+"nm-anyconnect-service provides integrated proprietary Cisco AnyConnect "
+"capability to NetworkManager."
+msgstr ""
+"nm-anyconnect-service fornece a capacidade de integrar Anyconnect con "
+"NetworkManager."
+
+#: ../properties/nm-anyconnect-dialog.ui.h:1
+msgid "General"
+msgstr "Xeral"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:2
+msgid "_Gateway:"
+msgstr "_Pasarela:"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:3
+msgid "VPN host to connect to"
+msgstr ""
+
+#, c-format
+#~ msgid "Authenticate VPN %s"
+#~ msgstr "Autenticar na VPN %s"
+
+#~ msgid "Password:"
+#~ msgstr "Contrasinal:"
+
+#~ msgid "Certificate password:"
+#~ msgstr "Contrasinal do certificado:"
+
+#~ msgid "HTTP proxy password:"
+#~ msgstr "Contrasinal do proxy HTTP:"
+
+#~ msgid "Authenticate VPN"
+#~ msgstr "Autenticar VPN"
+
+#~ msgid "Certificate pass_word:"
+#~ msgstr "_Contrasinal do certificado:"
+
+#~ msgid "_HTTP proxy password:"
+#~ msgstr "Contrasinal do proxy _HTTP:"
+
+#, c-format
+#~ msgid "You need to authenticate to access the Virtual Private Network “%s”."
+#~ msgstr ""
+#~ "Precisa autenticarse para acceder á rede privada virtual (VPN) «%s»."
+
+#, c-format
+#~ msgid "option %s expects between %u and %u argument"
+#~ msgid_plural "option %s expects between %u and %u arguments"
+#~ msgstr[0] "a opción %s espera un argumento entre %u e %u"
+#~ msgstr[1] "a opción %s espera uns argumentos entre %u e %u"
+
+#, c-format
+#~ msgid "option %s expects no arguments"
+#~ msgstr "opción %s non espera argumentos"
+
+#, c-format
+#~ msgid "option %s expects exactly one argument"
+#~ msgid_plural "option %s expects exactly %u arguments"
+#~ msgstr[0] "opción %s espera exactamente un argumento"
+#~ msgstr[1] "opción %s espera exactamente %u argumentos"
+
+#, c-format
+#~ msgid "argument %s of “%s” can not be empty"
+#~ msgstr "O argumento «%s» de «%s» non pode estar baleiro"
+
+#, c-format
+#~ msgid "argument of “%s” can not be empty"
+#~ msgstr "O argumento de «%s» non pode estar baleiro"
+
+#, c-format
+#~ msgid "argument %s of “%s” must be UTF-8 encoded"
+#~ msgstr "O argumento %s de «%s» debe estar codificado en UTF-8"
+
+#, c-format
+#~ msgid "argument of “%s” must be UTF-8 encoded"
+#~ msgstr "O argumento de «%s» debe estar codificado en UTF-8"
+
+#, c-format
+#~ msgid "invalid %uth argument to “%s” where number expected"
+#~ msgstr "argumento incorrecto %uth a «%s» que esperaba un número"
+
+#, c-format
+#~ msgid "unsupported %uth argument %s to “%s”"
+#~ msgstr "argumento %uth non aceptado %s a «%s»"
+
+#, c-format
+#~ msgid ""
+#~ "unsupported %uth argument to “%s” which looks like a FQDN but only IPv4 "
+#~ "address supported"
+#~ msgstr ""
+#~ "argumento %uth non aceptado a «%s» que semella un nome de dominio "
+#~ "cualificado completo (FQDN) pero só se aceptan enderezos IPv4"
+
+#, c-format
+#~ msgid "invalid %uth argument to “%s” where IPv4 address expected"
+#~ msgstr "argumento incorrecto %uth a «%s» que esperaba un enderezo IPv4"
+
+#, c-format
+#~ msgid "invalid %uth key-direction argument to “%s”"
+#~ msgstr "argumento coa dirección da clave incorrecto %uth a «%s»"
+
+#, c-format
+#~ msgid "invalid %uth argument to “%s”"
+#~ msgstr "argumento incorrecto %uth a «%s»"
+
+#, c-format
+#~ msgid "unterminated %s at position %lld"
+#~ msgstr "sen determinar %s na posición %lld"
+
+#~ msgid "double quote"
+#~ msgstr "comiña dobre"
+
+#~ msgid "single quote"
+#~ msgstr "comiña simple"
+
+#, c-format
+#~ msgid "trailing escaping backslash at position %lld"
+#~ msgstr "barra invertida de escape final na posición %lld"
+
+#, c-format
+#~ msgid "unable to read HTTP proxy auth file"
+#~ msgstr "non é posíbel ler o ficheiro de autenticación da proxy HTTP"
+
+#, c-format
+#~ msgid "cannot read user/password from HTTP proxy auth file"
+#~ msgstr ""
+#~ "non é posíbel ler o usuario/contrasinal do ficheiro de autenticación do "
+#~ "proxy HTTP"
+
+#, c-format
+#~ msgid "user/password from HTTP proxy auth file must be UTF-8 encoded"
+#~ msgstr ""
+#~ "o usuario/contrasinal do ficheiro de autenticación do proxy HTTP debe "
+#~ "estar codificado en UTF-8"
+
+#, c-format
+#~ msgid "“%s” is not a directory"
+#~ msgstr "«%s» non é un cartafol"
+
+#, c-format
+#~ msgid "cannot create “%s” directory"
+#~ msgstr "Non é posíbel crear o directorio «%s»"
+
+#, c-format
+#~ msgid "cannot write <%s> blob from line %ld to file (%s)"
+#~ msgstr "non é posíbel escribir o «BLOB» <%s> da liña %ld ao ficheiro (%s)"
+
+#, c-format
+#~ msgid "cannot write <%s> blob from line %ld to file “%s”"
+#~ msgstr "non é posíbel escribir o «BLOB» <%s> da liña %ld ao ficheiro «%s»"
+
+#, c-format
+#~ msgid "unsupported mtu-disc argument"
+#~ msgstr "argumento mtu-disc non compatíbel"
+
+#, c-format
+#~ msgid "invalid option"
+#~ msgstr "opción non válida"
+
+#, c-format
+#~ msgid "unsupported comp-lzo argument"
+#~ msgstr "argumento comp-lzo non compatíbel"
+
+#, c-format
+#~ msgid "remote cannot contain space"
+#~ msgstr "remoto non pode conter espazo"
+
+#, c-format
+#~ msgid "remote cannot contain comma"
+#~ msgstr "remoto non pode conter comas"
+
+#, c-format
+#~ msgid "remote expects protocol type like “udp” or “tcp”"
+#~ msgstr "a conexión remota espera un protocolo tipo «udp» ou «tcp»"
+
+#, c-format
+#~ msgid "invalid verify-x509-name type"
+#~ msgstr "o tipo verify-x509-name type non é válido"
+
+#, c-format
+#~ msgid "unsupported blob/xml element"
+#~ msgstr "elemento blob/xml non aceptado"
+
+#, c-format
+#~ msgid "unterminated blob element <%s>"
+#~ msgstr "elemento «BLOB» <%s> indefinido"
+
+#, c-format
+#~ msgid "configuration error: %s (line %ld)"
+#~ msgstr "erro de configuración: %s (liña %ld)"
+
+#~ msgid "unknown or unsupported option"
+#~ msgstr "opción descoñecida ou non compatíbel"
+
+#~ msgid "The file to import wasn’t a valid Anyconnect client configuration"
+#~ msgstr ""
+#~ "O ficheiro a importar non era unha configuración correcta para un cliente "
+#~ "Anyconnect"
+
+#~ msgid "The file to import wasn’t a valid Anyconnect configure (no remote)"
+#~ msgstr ""
+#~ "O ficheiro a importar non era unha configuración Anyconnect válida (non "
+#~ "remota)"
+
+#~ msgid "missing path argument"
+#~ msgstr "falta o argumento da ruta"
+
+#~ msgid "connection is not a valid Anyconnect connection"
+#~ msgstr "a conexión non é unha conexión correcta para Anyconnect"
+
+#~ msgid "connection was incomplete (missing gateway)"
+#~ msgstr "a conexión estaba incompleta (falta a pasarela)"
+
+#, c-format
+#~ msgid "failed to write file: %s"
+#~ msgstr "Produciuse un fallo ao escribir no ficheiro: %s"
+
+#~ msgid "Compatible with the Anyconnect server."
+#~ msgstr "Compatíbel co servidor Anyconnect."
+
+#~ msgid "unknown Anyconnect file extension"
+#~ msgstr "extensión descoñecida de ficheiro Anyconnect"
+
+#~ msgid "Choose an Anyconnect static key…"
+#~ msgstr "Seleccionar unha chave estática Anyconnect…"
+
+#~ msgid "None"
+#~ msgstr "Ningún"
+
+#~ msgid "Anyconnect Static Keys (*.key)"
+#~ msgstr "Chaves estáticas Anyconnect (*.key)"
+
+#~ msgid "Default"
+#~ msgstr "Predeterminado"
+
+#~ msgid "RSA MD-4"
+#~ msgstr "RSA MD-4"
+
+#~ msgid "MD-5"
+#~ msgstr "MD-5"
+
+#~ msgid "SHA-1"
+#~ msgstr "SHA-1"
+
+#~ msgid "SHA-224"
+#~ msgstr "SHA-224"
+
+#~ msgid "SHA-256"
+#~ msgstr "SHA-256"
+
+#~ msgid "SHA-384"
+#~ msgstr "SHA-384"
+
+#~ msgid "SHA-512"
+#~ msgstr "SHA-512"
+
+#~ msgid "RIPEMD-160"
+#~ msgstr "RIPEMD-160"
+
+#~ msgid "Don’t verify certificate identification"
+#~ msgstr "Non comprobar a identificación do certificado"
+
+#~ msgid "Verify whole subject exactly"
+#~ msgstr "Verificar exactamente todo o asunto"
+
+#~ msgid "Verify name exactly"
+#~ msgstr "Verificar exactamente o nome"
+
+#~ msgid "Verify name by prefix"
+#~ msgstr "Verificar nome por prefixo"
+
+#~ msgid "Verify subject partially (legacy mode, strongly discouraged)"
+#~ msgstr ""
+#~ "Verificar parcialmente o asunto (modo herdado, fortemente desaconsellado)"
+
+#~ msgid "Server"
+#~ msgstr "Servidor"
+
+#~ msgid "Client"
+#~ msgstr "Cliente"
+
+#~ msgid "Not required"
+#~ msgstr "Non requirido"
+
+#~ msgid "HTTP"
+#~ msgstr "HTTP"
+
+#~ msgid "SOCKS"
+#~ msgstr "SOCKS"
+
+#~ msgid "TUN"
+#~ msgstr "TUN"
+
+#~ msgid "TAP"
+#~ msgstr "TAP"
+
+#~ msgid "(automatic)"
+#~ msgstr "(automática)"
+
+#~ msgid "ping-exit"
+#~ msgstr "ping-exit"
+
+#~ msgid "ping-restart"
+#~ msgstr "ping-restart"
+
+#~ msgid "Certificates (TLS)"
+#~ msgstr "Certificados (TLS)"
+
+#~ msgid "Password"
+#~ msgstr "Contrasinal"
+
+#~ msgid "Password with Certificates (TLS)"
+#~ msgstr "Contrasinal con certificados (TLS)"
+
+#~ msgid "Static Key"
+#~ msgstr "Chave estática"
+
+#~ msgid "could not create anyconnect object"
+#~ msgstr "non foi posíbel crear un novo obxecto anyconnect"
+
+#, c-format
+#~ msgid "invalid delimiter character '%c'"
+#~ msgstr "carácter delimitador non válido «%c»"
+
+#, c-format
+#~ msgid "invalid non-utf-8 character"
+#~ msgstr "caracter non UTF-8 non válido"
+
+#, c-format
+#~ msgid "empty host"
+#~ msgstr "servidor baleiro"
+
+#, c-format
+#~ msgid "invalid port"
+#~ msgstr "porto incorrecto"
+
+#, c-format
+#~ msgid "invalid protocol"
+#~ msgstr "protocolo incorrecto"
+
+#, c-format
+#~ msgid "invalid address “%s”"
+#~ msgstr "enderezo «%s» non válido"
+
+#, c-format
+#~ msgid "invalid integer property “%s” or out of range [%d -> %d]"
+#~ msgstr "propiedade de enteiro non válida «%s» ou fóra de rango [%d -> %d]"
+
+#, c-format
+#~ msgid "invalid boolean property “%s” (not yes or no)"
+#~ msgstr "propiedade booleana non válida «%s» (non é «yes» ou «non»)"
+
+#, c-format
+#~ msgid "unhandled property “%s” type %s"
+#~ msgstr "propiedade «%s» do tipo %s sen xestionar"
+
+#, c-format
+#~ msgid "property “%s” invalid or not supported"
+#~ msgstr "a propiedade «%s» non é válida ou non se admite"
+
+#~ msgid "No VPN configuration options."
+#~ msgstr "Non hai opcións de configuración da VPN."
+
+#~ msgid "A username is required."
+#~ msgstr "Requírese un nome de usuario."
+
+#~ msgid "A password is required."
+#~ msgstr "Requirese un contrasinal."
+
+#~ msgid "A username and password are required."
+#~ msgstr "Requírese un nome de usuario e un contrasinal."
+
+#~ msgid "A private key password is required."
+#~ msgstr "Requírese un contrasinal de chave privada."
+
+#~ msgid "An HTTP Proxy username is required."
+#~ msgstr "Requírese un nome de usuario de proxy HTTP."
+
+#~ msgid "An HTTP Proxy password is required."
+#~ msgstr "Requírese un contrasinal de proxy HTTP."
+
+#~ msgid "An HTTP Proxy username and password are required."
+#~ msgstr "Requírese un nome de usuario e un contrasinal para o proxy HTTP."
+
+#~ msgid "Invalid connection type."
+#~ msgstr "Tipo de conexión non válido."
+
+#~ msgid "Invalid HMAC auth."
+#~ msgstr "Autenticación HMAC non válida."
+
+#, c-format
+#~ msgid "Invalid port number “%s”."
+#~ msgstr "Número de porto non válido «%s»."
+
+#, c-format
+#~ msgid "Invalid proto “%s”."
+#~ msgstr "«proto» incorrecto «%s»."
+
+#, c-format
+#~ msgid "Invalid proxy type “%s”."
+#~ msgstr "Tipo de proxy «%s» non válido."
+
+#, c-format
+#~ msgid "Invalid ping duration “%s”."
+#~ msgstr "duración non válida de ping «%s»."
+
+#, c-format
+#~ msgid "Invalid ping-exit duration “%s”."
+#~ msgstr "Duración non válida de ping-exit «%s»."
+
+#, c-format
+#~ msgid "Invalid ping-restart duration “%s”."
+#~ msgstr "duración non válida de ping-restart «%s»."
+
+#, c-format
+#~ msgid "Invalid connect timeout “%s”."
+#~ msgstr "Tempo límite da conexión incorrecto «%s»."
+
+#, c-format
+#~ msgid "Invalid max-routes argument “%s”."
+#~ msgstr "Argumento incorrecto de rutas máximas «%s»."
+
+#, c-format
+#~ msgid "Invalid keysize “%s”."
+#~ msgstr "Tamaño do chave «%s» incorrecto."
+
+#, c-format
+#~ msgid "Invalid configuration with tls-remote and verify-x509-name."
+#~ msgstr "Configuración incorrecta con tls-remtoe e verify-x509-name."
+
+#, c-format
+#~ msgid "Invalid verify-x509-name."
+#~ msgstr "verify-x509-name incorrecto."
+
+#, c-format
+#~ msgid "Invalid reneg seconds “%s”."
+#~ msgstr "Segundos de renegociación «%s» non válidos."
+
+#, c-format
+#~ msgid "Invalid TUN MTU size “%s”."
+#~ msgstr "O tamaño do TUN MTU «%s» é incorrecto."
+
+#, c-format
+#~ msgid "Invalid fragment size “%s”."
+#~ msgstr "Tamaño do fragmento «%s» incorrecto."
+
+#, c-format
+#~ msgid "Unknown connection type “%s”."
+#~ msgstr "Tipo de conexión descoñecida «%s»."
+
+#, c-format
+#~ msgid "User “%s” not found, check NM_ANYCONNECT_USER."
+#~ msgstr ""
+#~ "Non foi posíbel atopar o usuario «%s», comprobe o NM_ANYCONNECT_USER."
+
+#, c-format
+#~ msgid "Group “%s” not found, check NM_ANYCONNECT_GROUP."
+#~ msgstr ""
+#~ "Non foi posíbel atopar o grupo «%s», comprobe o NM_ANYCONNECT_GROUP."
+
+#~ msgid "Unhandled pending authentication."
+#~ msgstr "Autenticación pendente sen xestionar."
+
+#~ msgid "TLS-Auth"
+#~ msgstr "TLS-Auth"
+
+#~ msgid "TLS-Crypt"
+#~ msgstr "TLS-Crypt"
+
+#~ msgid "Maybe"
+#~ msgstr "Quizais"
+
+#~ msgid "Yes"
+#~ msgstr "Si"
+
+#~ msgid "Authentication"
+#~ msgstr "Autenticación"
+
+#~ msgid "CA"
+#~ msgstr "AC"
+
+#~ msgid "User"
+#~ msgstr "Usuario"
+
+#~ msgid "User name:"
+#~ msgstr "Nome de usuario:"
+
+#~ msgid ""
+#~ "Password passed to Anyconnect when prompted for it.\n"
+#~ "config: auth-user-pass"
+#~ msgstr ""
+#~ "Contrasinal pasada a Anyconnect cando se solicitou.\n"
+#~ "config: auth-user-pass"
+
+#~ msgid ""
+#~ "Username passed to Anyconnect when prompted for it. If omitted, use the "
+#~ "name of the system user that activates the connection.\n"
+#~ "config: auth-user-pass"
+#~ msgstr ""
+#~ "Nome do usuario indicado a Anyconnect cando se solicitou. Se se omite, "
+#~ "usar o nome do usuario do sistema que activa a conexión.\n"
+#~ "config: auth-user-pass"
+
+#~ msgid "Remote IP Address:"
+#~ msgstr "Enderezo IP remoto:"
+
+#~ msgid "Local IP Address:"
+#~ msgstr "Enderezo IP local:"
+
+#~ msgid "Key Direction:"
+#~ msgstr "Enderezo da chave:"
+
+#~ msgid "Static Key:"
+#~ msgstr "Chave estática:"
+
+#~ msgid ""
+#~ "Pre-shared file for Static Key encryption mode (non-TLS).\n"
+#~ "config: static <file>"
+#~ msgstr ""
+#~ "Ficheiro pre-compartido para o modo de cifrado de chave estática (non-"
+#~ "TLS).\n"
+#~ "config: static <file>"
+
+#~ msgid ""
+#~ "IP address of the remote VPN endpoint.\n"
+#~ "config: ifconfig <l> <rn>"
+#~ msgstr ""
+#~ "Enderezo IP do servidor VPN.\n"
+#~ "config: ifconfig <l> <rn>"
+
+#~ msgid ""
+#~ "IP address of the local VPN endpoint.\n"
+#~ "config: ifconfig <l> <rn>"
+#~ msgstr ""
+#~ "Enderezo IP do cliente VPN.\n"
+#~ "config: ifconfig <l> <rn>"
+
+#~ msgid ""
+#~ "Direction for Static Key encryption mode (non-TLS).\n"
+#~ "If key direction is used, it must be the opposite of that used on the VPN "
+#~ "peer. For example, if the peer uses “1”, this connection must use “0”. If "
+#~ "you are unsure what value to use, contact your system administrator.\n"
+#~ "config: static <file> [direction]"
+#~ msgstr ""
+#~ "Enderezo para o modo de cifrado de chave estática (non TLS).\n"
+#~ "Se se utiliza o enderezo da chave, esta debe ser oposta á da utilizada no "
+#~ "par VPN. Por exemplo, se o par usa «1», esta conexión debe utilizar «0». "
+#~ "Se non está seguro de que valor utilizar, contacte co seu administrador "
+#~ "do sistema.\n"
+#~ "config: static <file> [direction]"
+
+#~ msgid "Type:"
+#~ msgstr "Tipo:"
+
+#~ msgid "Select an authentication mode."
+#~ msgstr "Seleccionar un modo de autenticación."
+
+#~ msgid "Ad_vanced…"
+#~ msgstr "A_vanzado..."
+
+#~ msgid "Anyconnect Advanced Options"
+#~ msgstr "Opcións avanzadas de Anyconnect"
+
+#~ msgid "Use custom gateway p_ort:"
+#~ msgstr "Usar un p_orto personalizado de pasarela:"
+
+#~ msgid ""
+#~ "TCP/UDP port number for peer. (Default value when there is no port for "
+#~ "gateway).\n"
+#~ "config: port"
+#~ msgstr ""
+#~ "O número de porto TCP/UDP para o par (valor predeterminado cando non hai "
+#~ "porto para a pasarela)\n"
+#~ "config: port"
+
+#~ msgid "Use custom _renegotiation interval:"
+#~ msgstr "Usar un intervalo de _renegociación personalizado:"
+
+#~ msgid ""
+#~ "Renegotiate data channel key after the specified number of seconds.\n"
+#~ "config: reneg-sec"
+#~ msgstr ""
+#~ "Renegociar achave do canle de datos despois do número de segundos "
+#~ "espcificado \n"
+#~ "config: reneg-sec"
+
+#~ msgid "Use L_ZO data compression"
+#~ msgstr "Usar a compresión de datos L_ZO"
+
+#~ msgid ""
+#~ "Use fast LZO compression.\n"
+#~ "config: comp-lzo"
+#~ msgstr ""
+#~ "Usar compresión LZO rápida \n"
+#~ "config: comp-lzo"
+
+#~ msgid ""
+#~ "Select the LZO data compression mode.\n"
+#~ "config: comp-lzo"
+#~ msgstr ""
+#~ "Seleccionar o modo de compresión de datos LZO.\n"
+#~ "config: comp-lzo"
+
+#~ msgid "Use a _TCP connection"
+#~ msgstr "Usar unha conexión _TCP"
+
+#~ msgid ""
+#~ "Use TCP for communicating with remote host.\n"
+#~ "(This is a default setting only used when no protocol is specified for "
+#~ "the gateway.)\n"
+#~ "config: proto tcp-client | udp"
+#~ msgstr ""
+#~ "Usar TCP para comunicarse co equipo remoto \n"
+#~ "(Este é un axuste predeterminado usado cando non se especificou ningún "
+#~ "protocolo para a pasarela.)\n"
+#~ "opción: proto tcp-client | udp"
+
+#~ msgid "Set virtual _device type:"
+#~ msgstr "Estabelecer o tipo de _dispositivo virtual:"
+
+#~ msgid "Explicitly set virtual device type and name (TUN/TAP)."
+#~ msgstr ""
+#~ "Estabelecer explicitamente o tipo e nome do dispositivo virtual (TUN/TAP)."
+
+#~ msgid ""
+#~ "Explicitly set virtual device type (TUN/TAP).\n"
+#~ "config: dev-type tun | tap"
+#~ msgstr ""
+#~ "Estabelecer explicitamente un tipo de dispositivo virtual (TUN/TAP).\n"
+#~ "config: dev-type tun | tap"
+
+#~ msgid " and _name:"
+#~ msgstr " e _nome:"
+
+#~ msgid ""
+#~ "Use custom name for TUN/TAP virtual device (instead of default “tun” or "
+#~ "“tap”).\n"
+#~ "config: dev <name>"
+#~ msgstr ""
+#~ "Usar un nome personalizado para o dispositivo virtual TUN/TAP (en lugar "
+#~ "do predeterminado «tun» ou «tap»).\n"
+#~ "config: dev <name>"
+
+#~ msgid "Use custom tunnel Maximum Transmission _Unit (MTU):"
+#~ msgstr ""
+#~ "Usar unha Unidade de Transmisión Máxima de _túnel personalizada (MTU):"
+
+#~ msgid ""
+#~ "Take the TUN device MTU to be the specified value and derive the link MTU "
+#~ "from it.\n"
+#~ "config: tun-mtu"
+#~ msgstr ""
+#~ "Tomar a MTU do dispositivo TUN para que sexa o valor especificado e obter "
+#~ "a MTU da ligazón deste valor \n"
+#~ "config: tun-mtu"
+
+#~ msgid "Use custom UDP _fragment size:"
+#~ msgstr "Usar un tamaño de _fragmento UDP personalizado:"
+
+#~ msgid ""
+#~ "Enable internal datagram fragmentation with this maximum size.\n"
+#~ "config: fragment"
+#~ msgstr ""
+#~ "Activar a fragmentación interna de datos con este tamaño máximo.\n"
+#~ "config: fragment"
+
+#~ msgid "Restrict tunnel TCP Maximum _Segment Size (MSS)"
+#~ msgstr "Re_strinxir o tamaño do segmento máximo do túnel TCP (MSS)"
+
+#~ msgid ""
+#~ "Restrict tunnel TCP MSS.\n"
+#~ "config: mssfix"
+#~ msgstr ""
+#~ "Restrinxir túnel TCP MSS.\n"
+#~ "config: mssfix"
+
+#~ msgid "Rando_mize remote hosts"
+#~ msgstr "Aleatori_zar os equipos remotos"
+
+#~ msgid ""
+#~ "Randomize the order of gateways list (remote) as a kind of basic load-"
+#~ "balancing measure.\n"
+#~ "config: remote-random"
+#~ msgstr ""
+#~ "Aleatorizar a orde da lista de portas de enlace (remotas) como un tipo de "
+#~ "medida de balanceo de carga básica.\n"
+#~ "config: remote-random"
+
+#~ msgid "IPv6 tun link"
+#~ msgstr "Ligazón ao túnel para IPv6"
+
+#~ msgid ""
+#~ "Build a tun link capable of forwarding IPv6 traffic\n"
+#~ "config: tun-ipv6"
+#~ msgstr ""
+#~ "Construír unha ligazón ao túnel capaz de reencamiñar o tráfico IPv6\n"
+#~ "config: tun-ipv6"
+
+#~ msgid "Specify _exit or restart ping:"
+#~ msgstr "Especificar s_aír ou reiniciar ping:"
+
+#~ msgid ""
+#~ "Exit or restart after n seconds pass without reception of a ping or other "
+#~ "packet from remote.\n"
+#~ "config: ping-exit | ping-restart <n>"
+#~ msgstr ""
+#~ "Saír ou reiniciar despois de n segundos sen recibir ping nin outro "
+#~ "paquete do equipo remoto.\n"
+#~ "config: ping-exit | ping-restart <n>"
+
+#~ msgid "Specify pin_g interval:"
+#~ msgstr "Especificar o intervalo de pin_g:"
+
+#~ msgid ""
+#~ "Ping remote over the TCP/UDP control channel if no packets have been sent "
+#~ "for at least n seconds.\n"
+#~ "config: ping <n>"
+#~ msgstr ""
+#~ "Facer ping remoto pola canle de control TCP/UDP se non se enviou ningún "
+#~ "paquete durante n segundos.\n"
+#~ "config: ping <n>"
+
+#~ msgid "Accept authenticated packets from any address (F_loat)"
+#~ msgstr "Aceptar paquetes autenticados de calquer enderezo (F_loat)"
+
+#~ msgid ""
+#~ "Allow remote peer to change its IP address and/or port number, such as "
+#~ "due to DHCP (this is the default if --remote is not used). --float when "
+#~ "specified with --remote allows an Anyconnect session to initially connect "
+#~ "to a peer at a known address, however if packets arrive from a new "
+#~ "address and pass all authentication tests, the new address will take "
+#~ "control of the session. This is useful when you are connecting to a peer "
+#~ "which holds a dynamic address such as a dial-in user or DHCP client.\n"
+#~ "\n"
+#~ "Essentially, --float tells Anyconnect to accept authenticated packets "
+#~ "from any address, not only the address which was specified in the --"
+#~ "remote option.\n"
+#~ "\n"
+#~ "config: float"
+#~ msgstr ""
+#~ "Permitir a un par remoto cambiar o seu enderezo IP e/ou o número de porto "
+#~ "como os debidos a DHCP (este é o predeterminado se non se usou --remote). "
+#~ "--float cando se especificou con --remote permite a unha sesión de "
+#~ "Anyconnect conectarse inicialmente a un par cun enderezo coñecido, con "
+#~ "todo se chegan paquetes desde un novo enderezo e pasan as probas de "
+#~ "autenticación, o novo enderezo tomará o control da sesión. Isto é útil "
+#~ "cando vostede está conectando a un par que mantén un enderezo dinámico "
+#~ "tal como un usuario telefónico ou un cliente DHCP.\n"
+#~ "\n"
+#~ "Esencialmente, --float dille ao Anyconnect que acepte paquetes "
+#~ "autenticados desde calquer enderezo, non só desde o enderezo que se "
+#~ "especificou na opción --remote.\n"
+#~ "\n"
+#~ "config: float"
+
+#~ msgid "Specify max routes:"
+#~ msgstr "Especificar o número máximo de rutas:"
+
+#~ msgid ""
+#~ "Specify the maximum number of routes the server is allowed to specify.\n"
+#~ "config: max-routes <n>"
+#~ msgstr ""
+#~ "Especificar o número máximo de rutas que se lle permite indicar ao "
+#~ "servidor.\n"
+#~ "config: max-routes <n>"
+
+#~ msgid ""
+#~ "Encrypt packets with cipher algorithm. The default is BF-CBC (Blowfish in "
+#~ "Cipher Block Chaining mode).\n"
+#~ "config: cipher"
+#~ msgstr ""
+#~ "Cifrar paquetes cun algoritmo de cifrado. O predeterminado é BF-CBC "
+#~ "(Blowfish in Cipher Block Chaining mode).\n"
+#~ "config: cipher"
+
+#~ msgid "Use custom _size of cipher key:"
+#~ msgstr "Usar _tamaño de chave de cifrado personalizada:"
+
+#~ msgid ""
+#~ "Set cipher key size to a custom value. If unspecified, it defaults to "
+#~ "cipher-specific size.\n"
+#~ "config: keysize <n>"
+#~ msgstr ""
+#~ "Estabelecer o tamaño da chave de cifrado a un valor personalizado. Se non "
+#~ "se especifica usarase o tamaño especificado polo cifrador.\n"
+#~ "config: keysize <n>"
+
+#~ msgid ""
+#~ "Authenticate packets with HMAC using message digest algorithm. The "
+#~ "default is SHA1.\n"
+#~ "config: auth"
+#~ msgstr ""
+#~ "Autenticar paquetes con HMAC usando un algoritmo de resumo de mensaxe. O "
+#~ "predeterminado é SHA1.\n"
+#~ "config: auth"
+
+#~ msgid "Ci_pher:"
+#~ msgstr "_Cifrado:"
+
+#~ msgid "_HMAC Authentication:"
+#~ msgstr "Autenticación _HMAC:"
+
+#~ msgid "Security"
+#~ msgstr "Seguranza"
+
+#~ msgid "_Subject Match:"
+#~ msgstr "_Coincidir o asunto:"
+
+#~ msgid ""
+#~ "Subject or Common Name to verify server certificate information against.\n"
+#~ "\n"
+#~ "config: verify-x509-name subject-or-name [mode]\n"
+#~ "config (legacy mode): tls-remote subject-or-name"
+#~ msgstr ""
+#~ "Asunto ou nome común contra o que verificar a información do certificado "
+#~ "do servidor.\n"
+#~ "\n"
+#~ "config: verify-x509-name subject-or-name [mode]\n"
+#~ "config (legacy mode): tls-remote subject-or-name"
+
+#~ msgid "Server _Certificate Check:"
+#~ msgstr "Comprobación do _certificado do servidor:"
+
+#~ msgid ""
+#~ "Verify server certificate identification.\n"
+#~ "\n"
+#~ "When enabled, connection will only succeed if the server certificate "
+#~ "matches some expected properties.\n"
+#~ "Matching can either apply to the whole certificate subject (all the "
+#~ "fields),\n"
+#~ "or just the Common Name (CN field).\n"
+#~ "\n"
+#~ "The legacy option tls-remote is deprecated and removed from Anyconnect "
+#~ "2.4 and newer. Do not use it anymore.\n"
+#~ "\n"
+#~ "config: verify-x509-name subject-or-name [mode]\n"
+#~ "config (legacy mode): tls-remote subject-or-name"
+#~ msgstr ""
+#~ "Comprobar a identificación do certificado do servidor.\n"
+#~ "\n"
+#~ "Cando está activada, a conexión só progresará se o certificado do "
+#~ "servidor coincide con algunhas propiedades esperadas.\n"
+#~ "A coincidencia pode aplicarse a todo o asunto do certificado (todos os "
+#~ "campos),\n"
+#~ "ou só ao nome común (campo NC).\n"
+#~ "\n"
+#~ "A opción herdada tls-remote está obsoleta e foi retirada do Anyconnect "
+#~ "2.4 e seguintes. Xa no a use.\n"
+#~ "\n"
+#~ "\n"
+#~ "config: verify-x509-name asunto-ou-nome [mode]\n"
+#~ "config (modo herdado): tls-remote asunto-ou-nome"
+
+#~ msgid "_Verify peer (server) certificate usage signature"
+#~ msgstr "_Comprobar uso da sinatura do certificado do par (servidor)"
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit key usage and "
+#~ "extended key usage based on RFC3280 TLS rules."
+#~ msgstr ""
+#~ "Requirir que o certificado do par fose asinado cun uso de chave explícito "
+#~ "e uso de chave estentido baseado nas regras de TLS RFC3280."
+
+#~ msgid "_Remote peer certificate TLS type:"
+#~ msgstr "_Tipo de certificado de par remoto TLS:"
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit key usage and "
+#~ "extended key usage based on RFC3280 TLS rules.\n"
+#~ "config: remote-cert-tls client|server"
+#~ msgstr ""
+#~ "Require que o certificado do par fose asinado cun uso de chave explícito "
+#~ "e un uso de chave estendido baseado nas regras de TLS RFC3280.\n"
+#~ "config: remote-cert-tls client|server"
+
+#~ msgid "_Verify peer (server) certificate nsCertType designation"
+#~ msgstr ""
+#~ "_Comprobar a designación nsCertType do certificado do par (servidor)"
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit nsCertType "
+#~ "designation."
+#~ msgstr ""
+#~ "Requirir que o certificado do par fose asinado cunha designación "
+#~ "nsCerType explícita."
+
+#~ msgid "_Remote peer certificate nsCert designation:"
+#~ msgstr "Designación nsCert do ce_rtificado do par remoto:"
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit nsCertType "
+#~ "designation.\n"
+#~ "config: ns-cert-type client|server"
+#~ msgstr ""
+#~ "Requirir que o certificado do par fose asinado cun uso de chave explícito "
+#~ "e uso de chave estentido baseado nas regras de TLS RFC3280.\n"
+#~ "config: remote-cert-tls client|server"
+
+#~ msgid "Key _Direction:"
+#~ msgstr "_Dirección da chave:"
+
+#~ msgid ""
+#~ "Add an additional layer of HMAC authentication on top of the TLS control "
+#~ "channel to protect against DoS attacks. In case of TLS-Crypt mode, the "
+#~ "control channel is also encrypted.\n"
+#~ "config: tls-auth <file> [direction] | tls-crypt <file>"
+#~ msgstr ""
+#~ "Engadir unha capa de autenticación HMAC adicional enriba da canle TLS de "
+#~ "control para protexerse de ataques de DoS. No caso do modo TLS-Crypt, a "
+#~ "canle de control está tamén cifrada.\n"
+#~ "config: tls-auth <file> [direction] | tls-crypt <file>"
+
+#~ msgid ""
+#~ "Direction parameter for static key mode.\n"
+#~ "If key direction is used, it must be the opposite of that used on the VPN "
+#~ "peer. For example, if the peer uses “1”, this connection must use “0”. If "
+#~ "you are unsure what value to use, contact your system administrator.\n"
+#~ "config: tls-auth <file> [direction]"
+#~ msgstr ""
+#~ "Parámetro de dirección para o modo de chave estática.\n"
+#~ "Se se utiliza a dirección da chave, esta debe ser oposta á da utilizada "
+#~ "no par VPN. Por exemplo, se o par usa «1», esta conexión debe utilizar "
+#~ "«0». Se non está seguro de que valor utilizar, contacte co seu "
+#~ "administrador do sistema.\n"
+#~ "config: tls-auth <file> [direction]"
+
+#~ msgid "Key _File:"
+#~ msgstr "_Ficheiro de chave:"
+
+#~ msgid "Mode:"
+#~ msgstr "Modo:"
+
+#~ msgid "Add an additional layer of encryption or HMAC authentication."
+#~ msgstr "Engadir unha capa adicional de cifrado ou de autenticación HMAC."
+
+#~ msgid "Extra Certificates:"
+#~ msgstr "Certificados adicionais:"
+
+#~ msgid ""
+#~ "Specify a file containing one or more PEM certs (concatenated together) "
+#~ "that complete the local certificate chain.\n"
+#~ "config: extra-certs <file>"
+#~ msgstr ""
+#~ "Especificar un ficheiro contendo un ou máis certificados PEM  "
+#~ "(concatenados) que completen a cadea do certificado local.\n"
+#~ "config: extra-certs <file>"
+
+#~ msgid "Additional TLS authentication or encryption"
+#~ msgstr "Autenticación adicional TLS ou cifrado"
+
+#~ msgid "TLS Authentication"
+#~ msgstr "Autenticación TLS"
+
+#~ msgid ""
+#~ "Proxy type: HTTP or Socks.\n"
+#~ "config: http-proxy or socks-proxy"
+#~ msgstr ""
+#~ "Tipo de proxy: HTTP ou Socks..\n"
+#~ "config: http-proxy ou socks-proxy"
+
+#~ msgid "Proxy _Type:"
+#~ msgstr "_Tipo de proxy:"
+
+#~ msgid ""
+#~ "<i>Select this option if your organization requires the use of a proxy "
+#~ "server to access the Internet.</i>"
+#~ msgstr ""
+#~ "<i>Seleccione esta opción se a súa organización lle obriga a usar un "
+#~ "servidor proxy para acceder a Internet.</i>"
+
+#~ msgid "Server _Address:"
+#~ msgstr "_Enderezo do servidor:"
+
+#~ msgid ""
+#~ "Connect to remote host through a proxy with this address.\n"
+#~ "config: http-proxy or socks-proxy"
+#~ msgstr ""
+#~ "Conectar a un equipo remoto a través dun proxy con este enderezo.\n"
+#~ "config: http-proxy ou socks-proxy"
+
+#~ msgid "_Port:"
+#~ msgstr "_Porto:"
+
+#~ msgid ""
+#~ "Connect to remote host through a proxy with this port.\n"
+#~ "config: http-proxy or socks-proxy"
+#~ msgstr ""
+#~ "Conectar a un equipo remoto a través dun proxy con este porto.\n"
+#~ "config: http-proxy ou socks-proxy"
+
+#~ msgid "_Retry indefinitely when errors occur"
+#~ msgstr "_Reintentar indefinidamente cando se produzan erros"
+
+#~ msgid ""
+#~ "Retry indefinitely on proxy errors. It simulates a SIGUSR1 reset.\n"
+#~ "config: http-proxy-retry or socks-proxy-retry"
+#~ msgstr ""
+#~ "Reintentar de forma indefinida ante erros do proxy. Simula un reinicio "
+#~ "SIGUSR1.\n"
+#~ "config: http-proxy-retry ou socks-proxy-retry"
+
+#~ msgid "Proxy _Username:"
+#~ msgstr "_Usuario do proxy:"
+
+#~ msgid "Proxy Passwor_d:"
+#~ msgstr "Contrasinal _do proxy:"
+
+#~ msgid "HTTP/Socks proxy username passed to Anyconnect when prompted for it."
+#~ msgstr ""
+#~ "Nome de usuario do proxy HTTP/Socks pasado a Anyconnect cando se solicita."
+
+#~ msgid "HTTP/Socks proxy password passed to Anyconnect when prompted for it."
+#~ msgstr ""
+#~ "Contrasinal do proxy HTTP/Socks pasada a Anyconnect cando se solicita."
+
+#~ msgid "_Show password"
+#~ msgstr "Mo_strar contrasinal"
+
+#~ msgid "Proxies"
+#~ msgstr "Proxies"
+
+#~ msgid "Path mtu discovery"
+#~ msgstr "Path mtu discovery"
+
+#~ msgid "Connect timeout"
+#~ msgstr "Tempo límite da conexión"
+
+#~ msgid ""
+#~ "The timeout in seconds before trying the next server. This timeout "
+#~ "includes proxy and TCP connect timeouts.\n"
+#~ "config: connect-timeout <n> | server-poll-timeout <n>"
+#~ msgstr ""
+#~ "Tempo límite en segundos antes de tentar co próximo servidor. Este tempo "
+#~ "límite inclúe límites para conectar coa proxy e co TCP.\n"
+#~ "config: connect-timeout <n> | server-poll-timeout <n>"
+
+#~ msgid "Misc"
+#~ msgstr "Varios"
+
+#~ msgid "Choose your personal certificate..."
+#~ msgstr "Seleccione o seu certificado persoal…"
+
+#~ msgid "Choose your private key..."
+#~ msgstr "Seleccione a súa chave privada…"
+
+#~ msgid "Saved"
+#~ msgstr "Gardado"
+
+#~ msgid "Always Ask"
+#~ msgstr "Preguntar Sempre"
+
+#~ msgid "Not Required"
+#~ msgstr "Non requirido"
+
+#~ msgid "Choose a Certificate Authority certificate..."
+#~ msgstr "Seleccionar un certificado de Autoridade de Certificación…"
+
+#~ msgid "PEM or PKCS#12 certificates (*.pem, *.crt, *.key, *.cer, *.p12)"
+#~ msgstr "Certificados PEM ou PKCS#12 (*.pem, *.crt, *.key, *.cer, *.p12)"
+
+#~ msgid "PEM certificates (*.pem, *.crt, *.key, *.cer)"
+#~ msgstr "Certificados PEM (*.pem, *.crt, *.key, *.cer)"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "<b>General</b>"
+#~ msgstr "<b>Xeral</b>"
+
+#~ msgid "<b>Authentication</b>"
+#~ msgstr "<b>Autenticación</b>"
+
+#~ msgid "_Show passwords"
+#~ msgstr "Mostrar os contrasinais"
+
+#~ msgid "Password for private key"
+#~ msgstr "Contrasinal para a chave privada"
+
+#~ msgid "Private Key Password:"
+#~ msgstr "Contrasinal de chave privada:"
+
+#~ msgid ""
+#~ "Local peer's private key in .pem format.\n"
+#~ "config: key"
+#~ msgstr ""
+#~ "Chave privada do par local, en formato .pem.\n"
+#~ "opción: key"
+
+#~ msgid "Private Key:"
+#~ msgstr "Chave privada:"
+
+#~ msgid ""
+#~ "Certificate authority (CA) file in .pem format.\n"
+#~ "config: ca"
+#~ msgstr ""
+#~ "Ficheiro de autoridade certificadora (CA) en formato .pem.\n"
+#~ "opción: ca"
+
+#~ msgid "CA Certificate:"
+#~ msgstr "Certificado CA:"
+
+#~ msgid ""
+#~ "Local peer's signed certificate in .pem format (signed by CA of CA "
+#~ "Certificate).\n"
+#~ "config: cert"
+#~ msgstr ""
+#~ "Certificado firmado do par local, en formato .pem (firmado polo "
+#~ "certificado dunha CA)..\n"
+#~ "opción: cert"
+
+#~ msgid ""
+#~ "<i>Connect only to servers whose certificate matches the given subject.\n"
+#~ "Example: /CN=myvpn.company.com</i>"
+#~ msgstr ""
+#~ "<i>Só conectar cos servidores cuxos certificados coincidan co asunto "
+#~ "fornecido.\n"
+#~ "Exemplo: /CN=avpnda.empresa.com</i>"
+
+#~ msgid ""
+#~ "Accept connections only from a host with X509 name or common name equal "
+#~ "to the specified one.\n"
+#~ "config: tls-remote"
+#~ msgstr ""
+#~ "Só aceptar conexións dun equipo cun nome X509 ou un nome común igual ao "
+#~ "especificado.\n"
+#~ "opción: tls-remote"
+
+#~ msgid "Missing required local IP address for static key mode."
+#~ msgstr "Falta o enderezo IP local requirido polo modo de chave estática."
+
+#~ msgid "Missing required remote IP address for static key mode."
+#~ msgstr "Falta o enderezo IP remoto requirido polo modo de chave estático."
+
+#~ msgid ""
+#~ "Could not process the request because the anyconnect connection type was "
+#~ "invalid."
+#~ msgstr ""
+#~ "Non foi posíbel procesar a solicitude debido a que o tipo de conexión "
+#~ "anyconnect non é válido."
+
+#~ msgid "Use a TA_P device"
+#~ msgstr "Usar un dispositivo TA_P"
+
+#~ msgid "_Password:"
+#~ msgstr "_Contrasinal:"
+
+#~ msgid "_Secondary Password:"
+#~ msgstr "Contrasinal _secundario:"
+
+#~ msgid "Sh_ow passwords"
+#~ msgstr "M_ostrar os contrasinais"
+
+#~ msgid "No VPN secrets!"
+#~ msgstr "Non hai segredos de VPN!"
+
+#~ msgid "Could not process the request because no username was provided."
+#~ msgstr ""
+#~ "Non foi posíbel procesar a solicitude debido a que non se forneceu un "
+#~ "nome de usuario."
+
+#~ msgid ""
+#~ "Remote host name or IP address.\n"
+#~ "config: remote"
+#~ msgstr ""
+#~ "Nome do equipo remoto ou enderezo IP.\n"
+#~ "opción: remote"
+
+#~ msgid "_Username:"
+#~ msgstr "Nome de _usuario:"
+
+#~ msgid "_Domain:"
+#~ msgstr "_Dominio:"
+
+#~ msgid "Connect as _user:"
+#~ msgstr "Conectarse como _usuario:"
+
+#~ msgid "_Remember password for this session"
+#~ msgstr "Lemb_rar o contrasinal para esta sesión"
+
+#~ msgid "_Save password in keyring"
+#~ msgstr "_Gardar o contrasinal no anel de chaves"

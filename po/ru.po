@@ -1,0 +1,1076 @@
+# translation of network-manager-anyconnect.master.ru.po to Russian
+# Russian translation of NetworkManager anyconnect
+# Copyright (C) Free Software Foundation, 2005
+# This file is distributed under the same license as the NetworkManager package.
+#
+#
+# Maxim Dziumanenko <dziumanenko@gmail.com>, 2005-2007.
+# Leonid Kanter <leon@asplinux.ru>, 2007, 2008.
+# Артём Попов <artfwo@gmail.com>, 2009.
+# Yuri Kozlov <yuray@komyakino.ru>, 2010, 2011.
+# Stas Solovey <whats_up@tut.by>, 2011.
+# Виктор <victorr2007@yandex.ru>, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: network-manager-anyconnect trunk\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-30 22:41+0100\n"
+"PO-Revision-Date: 2018-10-12 22:36+0300\n"
+"Last-Translator: Виктор <victorr2007@yandex.ru>\n"
+"Language-Team: Russian <gnome-cyr@gnome.org>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 2.0\n"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:1
+msgid "Anyconnect client"
+msgstr "Клиент Anyconnect"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:2
+msgid "Client for Anyconnect virtual private networks"
+msgstr "Клиент для виртуальных частных сетей Anyconnect"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:3
+msgid "Support for configuring Anyconnect virtual private network connections."
+msgstr "Поддержка настройки виртуальных частных сетевых соединений Anyconnect."
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:4
+msgid "Anyconnect is a popular and flexible free-software VPN solution."
+msgstr ""
+"Anyconnect — популярное и гибкое свободное программное обеспечение VPN."
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:5
+msgid "The NetworkManager Developers"
+msgstr "Разработчики NetworkManager"
+
+#: ../properties/nm-anyconnect-editor-plugin.c:35
+#, fuzzy
+msgid "Cisco AnyConnect"
+msgstr "Anyconnect"
+
+#: ../properties/nm-anyconnect-editor-plugin.c:36
+msgid "Runs the proprietary Cisco AnyConnect VPN."
+msgstr ""
+
+#: ../properties/nm-anyconnect-editor.c:299
+msgid "could not load UI widget"
+msgstr "Не удаётся загрузить виджет интерфейса пользователя"
+
+#: ../shared/nm-utils/nm-shared-utils.c:946
+#, c-format
+msgid "object class '%s' has no property named '%s'"
+msgstr "класс объекта «%s» не имеет свойства с именем «%s»"
+
+#: ../shared/nm-utils/nm-shared-utils.c:953
+#, c-format
+msgid "property '%s' of object class '%s' is not writable"
+msgstr "свойство «%s» класса объекта «%s» не доступно для записи"
+
+#: ../shared/nm-utils/nm-shared-utils.c:960
+#, c-format
+msgid ""
+"construct property \"%s\" for object '%s' can't be set after construction"
+msgstr ""
+"свойство построения «%s» для объекта «%s» не может быть установлено после "
+"построения"
+
+#: ../shared/nm-utils/nm-shared-utils.c:968
+#, c-format
+msgid "'%s::%s' is not a valid property name; '%s' is not a GObject subtype"
+msgstr ""
+"«%s::%s» не является допустимым именем свойства; «%s» не является подтипом "
+"GObject"
+
+#: ../shared/nm-utils/nm-shared-utils.c:977
+#, c-format
+msgid "unable to set property '%s' of type '%s' from value of type '%s'"
+msgstr "не удалось установить свойство «%s» типа «%s» из значения типа «%s»"
+
+#: ../shared/nm-utils/nm-shared-utils.c:988
+#, c-format
+msgid ""
+"value \"%s\" of type '%s' is invalid or out of range for property '%s' of "
+"type '%s'"
+msgstr ""
+"значение «%s» типа «%s» недействительно или вне диапазона для свойства «%s» "
+"типа «%s»"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:69
+#, fuzzy, c-format
+msgid "unable to get editor plugin name: %s"
+msgstr "Не удалось загрузить модуль редактора: %s"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:103
+#, c-format
+msgid "missing plugin file \"%s\""
+msgstr "Отсутствует файл модуля «%s»"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:109
+#, c-format
+msgid "cannot load editor plugin: %s"
+msgstr "Не удалось загрузить модуль редактора: %s"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:118
+#, c-format
+msgid "cannot load factory %s from plugin: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:144
+msgid "unknown error creating editor instance"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:567 ../src/nm-anyconnect-service.c:682
+msgid "Could not find the anyconnect binary."
+msgstr "Не удалось найти исполняемый файл anyconnect."
+
+#: ../src/nm-anyconnect-service.c:580
+msgid ""
+"Could not process the request because the VPN connection settings were "
+"invalid."
+msgstr ""
+"Не удалось обработать запрос, так как настройки подключения VPN некорректны."
+
+#: ../src/nm-anyconnect-service.c:602
+msgid ""
+"Could not attempt connection, unable to find the setting for the gateway."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:875
+msgid "Don’t quit when VPN connection terminates"
+msgstr "Не завершать работу при отключении VPN"
+
+#: ../src/nm-anyconnect-service.c:876
+msgid "Enable verbose debug logging (may expose passwords)"
+msgstr "Включить подробный режим отладки (могут отображаться пароли)"
+
+#: ../src/nm-anyconnect-service.c:877
+msgid "D-Bus name to use for this instance"
+msgstr "Имя D-Bus для использования в этом экземпляре"
+
+#: ../src/nm-anyconnect-service.c:905
+#, fuzzy
+msgid ""
+"nm-anyconnect-service provides integrated proprietary Cisco AnyConnect "
+"capability to NetworkManager."
+msgstr ""
+"nm-anyconnect-service предоставляет интегрированные возможности Anyconnect "
+"для NetworkManager."
+
+#: ../properties/nm-anyconnect-dialog.ui.h:1
+msgid "General"
+msgstr "Общие"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:2
+msgid "_Gateway:"
+msgstr "_Шлюз:"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:3
+msgid "VPN host to connect to"
+msgstr ""
+
+#, c-format
+#~ msgid "Authenticate VPN %s"
+#~ msgstr "Авторизовать VPN %s"
+
+#~ msgid "Password:"
+#~ msgstr "Пароль:"
+
+#~ msgid "Certificate password:"
+#~ msgstr "Пароль сертификата:"
+
+#~ msgid "HTTP proxy password:"
+#~ msgstr "Пароль прокси HTTP:"
+
+#~ msgid "Authenticate VPN"
+#~ msgstr "Аутентификация VPN"
+
+#~ msgid "Certificate pass_word:"
+#~ msgstr "_Пароль сертификата:"
+
+#~ msgid "_HTTP proxy password:"
+#~ msgstr "Пароль п_рокси HTTP:"
+
+#, c-format
+#~ msgid "You need to authenticate to access the Virtual Private Network “%s”."
+#~ msgstr ""
+#~ "Для доступа к виртуальной частной сети «%s» требуется аутентификация."
+
+#~ msgid "double quote"
+#~ msgstr "Двойная кавычка"
+
+#~ msgid "single quote"
+#~ msgstr "Одинарная кавычка"
+
+#, c-format
+#~ msgid "unable to read HTTP proxy auth file"
+#~ msgstr "Не удаётся прочитать файл аутентификации HTTP-прокси"
+
+#, c-format
+#~ msgid "cannot read user/password from HTTP proxy auth file"
+#~ msgstr ""
+#~ "Не удалось прочитать пользователя / пароль из файла аутентификации HTTP-"
+#~ "прокси"
+
+#, c-format
+#~ msgid "user/password from HTTP proxy auth file must be UTF-8 encoded"
+#~ msgstr ""
+#~ "Пользователь / пароль из файла аутентификации HTTP-прокси должен быть в "
+#~ "кодировке UTF-8"
+
+#, c-format
+#~ msgid "“%s” is not a directory"
+#~ msgstr "«%s» не является каталогом"
+
+#, c-format
+#~ msgid "cannot create “%s” directory"
+#~ msgstr "невозможно создать каталог «%s»"
+
+#, c-format
+#~ msgid "invalid option"
+#~ msgstr "недопустимый параметр"
+
+#, c-format
+#~ msgid "configuration error: %s (line %ld)"
+#~ msgstr "Ошибка конфигурации: %s (строка %ld)"
+
+#~ msgid "unknown or unsupported option"
+#~ msgstr "Неизвестный или не поддерживаемый параметр"
+
+#~ msgid "The file to import wasn’t a valid Anyconnect client configuration"
+#~ msgstr ""
+#~ "Импортируемый файл не является корректной конфигурацией клиента Anyconnect"
+
+#~ msgid "missing path argument"
+#~ msgstr "Пропущен аргумент пути"
+
+#~ msgid "connection is not a valid Anyconnect connection"
+#~ msgstr "соединение не является корректным соединением Anyconnect"
+
+#~ msgid "connection was incomplete (missing gateway)"
+#~ msgstr "соединение было неполным (отсутствует шлюз)"
+
+#, c-format
+#~ msgid "failed to write file: %s"
+#~ msgstr "не удалось записать файл: %s"
+
+#~ msgid "Compatible with the Anyconnect server."
+#~ msgstr "Совместим с сервером Anyconnect."
+
+#~ msgid "unknown Anyconnect file extension"
+#~ msgstr "неизвестное расширение файла Anyconnect"
+
+#~ msgid "Choose an Anyconnect static key…"
+#~ msgstr "Выберите статический ключ Anyconnect…"
+
+#~ msgid "None"
+#~ msgstr "Нет"
+
+#~ msgid "Anyconnect Static Keys (*.key)"
+#~ msgstr "Статические ключи Anyconnect (*.key)"
+
+#~ msgid "Default"
+#~ msgstr "По умолчанию"
+
+#~ msgid "RSA MD-4"
+#~ msgstr "RSA MD-4"
+
+#~ msgid "MD-5"
+#~ msgstr "MD-5"
+
+#~ msgid "SHA-1"
+#~ msgstr "SHA-1"
+
+#~ msgid "SHA-224"
+#~ msgstr "SHA-224"
+
+#~ msgid "SHA-256"
+#~ msgstr "SHA-256"
+
+#~ msgid "SHA-384"
+#~ msgstr "SHA-384"
+
+#~ msgid "SHA-512"
+#~ msgstr "SHA-512"
+
+#~ msgid "RIPEMD-160"
+#~ msgstr "RIPEMD-160"
+
+#~ msgid "Don’t verify certificate identification"
+#~ msgstr "Не проверять идентификацию сертификата"
+
+#~ msgid "Verify whole subject exactly"
+#~ msgstr "Точно проверять весь объект"
+
+#~ msgid "Verify name exactly"
+#~ msgstr "Точно проверять имя"
+
+#~ msgid "Verify name by prefix"
+#~ msgstr "Проверять имя по префиксу"
+
+#~ msgid "Verify subject partially (legacy mode, strongly discouraged)"
+#~ msgstr ""
+#~ "Проверять объект частично (устаревший режим, убедительно не советуем)"
+
+#~ msgid "Server"
+#~ msgstr "Сервер"
+
+#~ msgid "Client"
+#~ msgstr "Клиент"
+
+#~ msgid "Not required"
+#~ msgstr "Не требуется"
+
+#~ msgid "HTTP"
+#~ msgstr "HTTP"
+
+#~ msgid "SOCKS"
+#~ msgstr "SOCKS"
+
+#~ msgid "TUN"
+#~ msgstr "TUN"
+
+#~ msgid "TAP"
+#~ msgstr "TAP"
+
+#~ msgid "(automatic)"
+#~ msgstr "(автоматический)"
+
+#, fuzzy
+#~ msgid "ping-restart"
+#~ msgstr "Перезапустить ping"
+
+#~ msgid "Certificates (TLS)"
+#~ msgstr "Сертификаты (TLS)"
+
+#~ msgid "Password"
+#~ msgstr "Пароль"
+
+#~ msgid "Password with Certificates (TLS)"
+#~ msgstr "Пароль с сертификатами (TLS)"
+
+#~ msgid "Static Key"
+#~ msgstr "Статический ключ"
+
+#, c-format
+#~ msgid "empty host"
+#~ msgstr "Хост пустой"
+
+#, c-format
+#~ msgid "invalid port"
+#~ msgstr "некорректный порт"
+
+#, c-format
+#~ msgid "invalid protocol"
+#~ msgstr "некорректный протокол"
+
+#, c-format
+#~ msgid "invalid address “%s”"
+#~ msgstr "некорректный адрес «%s»"
+
+#, c-format
+#~ msgid "invalid integer property “%s” or out of range [%d -> %d]"
+#~ msgstr ""
+#~ "недопустимое целочисленное свойство «%s» или вне диапазона [%d ->%d]"
+
+#, c-format
+#~ msgid "invalid boolean property “%s” (not yes or no)"
+#~ msgstr "некорректное логическое свойство «%s» (не «yes» или «no»)"
+
+#, c-format
+#~ msgid "unhandled property “%s” type %s"
+#~ msgstr "необработанное свойство «%s» типа %s"
+
+#, c-format
+#~ msgid "property “%s” invalid or not supported"
+#~ msgstr "свойство «%s» некорректно или не поддерживается"
+
+#~ msgid "No VPN configuration options."
+#~ msgstr "Нет параметров настройки VPN."
+
+#~ msgid "A username is required."
+#~ msgstr "Требуется имя пользователя."
+
+#~ msgid "A password is required."
+#~ msgstr "Требуется пароль."
+
+#~ msgid "A username and password are required."
+#~ msgstr "Требуется имя пользователя и пароль."
+
+#~ msgid "A private key password is required."
+#~ msgstr "Требуется пароль личного ключа."
+
+#~ msgid "An HTTP Proxy username is required."
+#~ msgstr "Требуется имя пользователя прокси HTTP."
+
+#~ msgid "An HTTP Proxy password is required."
+#~ msgstr "Требуется пароль прокси HTTP."
+
+#~ msgid "An HTTP Proxy username and password are required."
+#~ msgstr "Требуется имя пользователя и пароль прокси HTTP."
+
+#~ msgid "Invalid connection type."
+#~ msgstr "Некорректный тип подключения."
+
+#, c-format
+#~ msgid "Invalid port number “%s”."
+#~ msgstr "Некорректный номер порта «%s»."
+
+#, c-format
+#~ msgid "Invalid proto “%s”."
+#~ msgstr "Некорректный proto «%s»."
+
+#, c-format
+#~ msgid "Invalid proxy type “%s”."
+#~ msgstr "Некорректный тип прокси «%s»."
+
+#, c-format
+#~ msgid "Invalid ping duration “%s”."
+#~ msgstr "Некорректная длительность пинга «%s»."
+
+#, c-format
+#~ msgid "Invalid connect timeout “%s”."
+#~ msgstr "Некорректный тайм-аут подключения «%s»."
+
+#, c-format
+#~ msgid "Invalid keysize “%s”."
+#~ msgstr "Некорректный размер ключа «%s»."
+
+#, c-format
+#~ msgid "Invalid reneg seconds “%s”."
+#~ msgstr "Некорректное число секунд «%s» для пересогласования."
+
+#, c-format
+#~ msgid "Invalid TUN MTU size “%s”."
+#~ msgstr "Некорректный размер TUN MTU «%s»."
+
+#, c-format
+#~ msgid "Invalid fragment size “%s”."
+#~ msgstr "Некорректный размер фрагмента «%s»."
+
+#, c-format
+#~ msgid "Unknown connection type “%s”."
+#~ msgstr "Неизвестный тип подключения «%s»."
+
+#, c-format
+#~ msgid "User “%s” not found, check NM_ANYCONNECT_USER."
+#~ msgstr "Пользователь «%s» не найден, проверьте NM_ANYCONNECT_USER."
+
+#, c-format
+#~ msgid "Group “%s” not found, check NM_ANYCONNECT_GROUP."
+#~ msgstr "Группа «%s» не найдена, проверьте NM_ANYCONNECT_GROUP."
+
+#~ msgid "Unhandled pending authentication."
+#~ msgstr "Необработанное ожидающее аутентификации."
+
+#~ msgid "TLS-Auth"
+#~ msgstr "TLS-Auth"
+
+#~ msgid "TLS-Crypt"
+#~ msgstr "TLS-Crypt"
+
+#~ msgid "Maybe"
+#~ msgstr "Возможно"
+
+#~ msgid "Yes"
+#~ msgstr "Да"
+
+#~ msgid "Authentication"
+#~ msgstr "Аутентификация"
+
+#~ msgid "CA"
+#~ msgstr "CA"
+
+#~ msgid "User"
+#~ msgstr "Пользователь"
+
+#~ msgid "User name:"
+#~ msgstr "Имя пользователя:"
+
+#~ msgid ""
+#~ "Password passed to Anyconnect when prompted for it.\n"
+#~ "config: auth-user-pass"
+#~ msgstr ""
+#~ "Пароль, который будет передан Anyconnect.\n"
+#~ "config: ifconfig <l> <rn>"
+
+#~ msgid ""
+#~ "Username passed to Anyconnect when prompted for it. If omitted, use the "
+#~ "name of the system user that activates the connection.\n"
+#~ "config: auth-user-pass"
+#~ msgstr ""
+#~ "Имя пользователя, которое будет передано Anyconnect. Если этот параметр "
+#~ "опущен, используйте имя пользователя системы, который активирует "
+#~ "соединение.\n"
+#~ "config: auth-user-pass"
+
+#~ msgid "Remote IP Address:"
+#~ msgstr "Удалённый IP-адрес:"
+
+#~ msgid "Local IP Address:"
+#~ msgstr "Локальный IP-адрес:"
+
+#~ msgid "Key Direction:"
+#~ msgstr "Направление ключа:"
+
+#~ msgid "Static Key:"
+#~ msgstr "Статический ключ:"
+
+#~ msgid ""
+#~ "Pre-shared file for Static Key encryption mode (non-TLS).\n"
+#~ "config: static <file>"
+#~ msgstr ""
+#~ "Общий файл ключа для режима шифрования со статическим ключом (не TLS).\n"
+#~ "config: static <file>"
+
+#~ msgid ""
+#~ "IP address of the remote VPN endpoint.\n"
+#~ "config: ifconfig <l> <rn>"
+#~ msgstr ""
+#~ "IP-адрес удаленной конечной точки VPN.\n"
+#~ "config: ifconfig <l> <rn>"
+
+#~ msgid ""
+#~ "IP address of the local VPN endpoint.\n"
+#~ "config: ifconfig <l> <rn>"
+#~ msgstr ""
+#~ "IP-адрес локального хоста в VPN.\n"
+#~ "config: ifconfig <l> <rn>"
+
+#~ msgid ""
+#~ "Direction for Static Key encryption mode (non-TLS).\n"
+#~ "If key direction is used, it must be the opposite of that used on the VPN "
+#~ "peer. For example, if the peer uses “1”, this connection must use “0”. If "
+#~ "you are unsure what value to use, contact your system administrator.\n"
+#~ "config: static <file> [direction]"
+#~ msgstr ""
+#~ "Направление для режима шифрования статического ключа (не TLS).\n"
+#~ "Если используется направление ключа, оно должно быть противоположно "
+#~ "направлению, которое использует вторая сторона. Например, если вторая "
+#~ "сторона использует «1», это соединение должно использовать «0». Если вы "
+#~ "не уверены, какое значение использовать, свяжитесь с системным "
+#~ "администратором.\n"
+#~ "config: static <file> [direction]"
+
+#~ msgid "Type:"
+#~ msgstr "Тип:"
+
+#~ msgid "Select an authentication mode."
+#~ msgstr "Выберите режим аутентификации."
+
+#~ msgid "Ad_vanced…"
+#~ msgstr "_Дополнительно…"
+
+#~ msgid "Anyconnect Advanced Options"
+#~ msgstr "Дополнительные параметры Anyconnect"
+
+#~ msgid "Use custom gateway p_ort:"
+#~ msgstr "Использовать другой _порт шлюза:"
+
+#~ msgid ""
+#~ "TCP/UDP port number for peer. (Default value when there is no port for "
+#~ "gateway).\n"
+#~ "config: port"
+#~ msgstr ""
+#~ "Номер порта TCP или UDP для подключения. Это значение будет "
+#~ "использоваться по умолчанию, если для шлюза не указан порт.\n"
+#~ "config: port"
+
+#~ msgid "Use custom _renegotiation interval:"
+#~ msgstr "Использовать нестандартный интервал _пересогласования:"
+
+#~ msgid ""
+#~ "Renegotiate data channel key after the specified number of seconds.\n"
+#~ "config: reneg-sec"
+#~ msgstr ""
+#~ "Создавать новый ключ канала данных с указанной периодичностью (в "
+#~ "секундах).\n"
+#~ "config: reneg-sec"
+
+#~ msgid "Use L_ZO data compression"
+#~ msgstr "Использовать для данных сжатие L_ZO"
+
+#~ msgid ""
+#~ "Use fast LZO compression.\n"
+#~ "config: comp-lzo"
+#~ msgstr ""
+#~ "Использовать быстрое сжатие LZO.\n"
+#~ "config: comp-lzo"
+
+#~ msgid ""
+#~ "Select the LZO data compression mode.\n"
+#~ "config: comp-lzo"
+#~ msgstr ""
+#~ "Выбрать режим сжатия данных LZO.\n"
+#~ "config: comp-lzo"
+
+#~ msgid "Use a _TCP connection"
+#~ msgstr "Использовать соединение _TCP"
+
+#~ msgid ""
+#~ "Use TCP for communicating with remote host.\n"
+#~ "(This is a default setting only used when no protocol is specified for "
+#~ "the gateway.)\n"
+#~ "config: proto tcp-client | udp"
+#~ msgstr ""
+#~ "Использовать протокол TCP для связи с другим сервером.\n"
+#~ "(Это значение по умолчанию используется только тогда, когда не указан "
+#~ "протокол для шлюза.\n"
+#~ "config: proto tcp-client | udp"
+
+#~ msgid "Set virtual _device type:"
+#~ msgstr "Задать тип виртуального _устройства:"
+
+#~ msgid "Explicitly set virtual device type and name (TUN/TAP)."
+#~ msgstr ""
+#~ "Явным образом задать тип виртуального устройства и имя (TUN или TAP)."
+
+#~ msgid ""
+#~ "Explicitly set virtual device type (TUN/TAP).\n"
+#~ "config: dev-type tun | tap"
+#~ msgstr ""
+#~ "Явным образом задать тип виртуального устройства (TUN или TAP).\n"
+#~ "config: dev-type tun | tap"
+
+#~ msgid ""
+#~ "Use custom name for TUN/TAP virtual device (instead of default “tun” or "
+#~ "“tap”).\n"
+#~ "config: dev <name>"
+#~ msgstr ""
+#~ "Использовать нестандартное имя для виртуального устройства TUN/TAP "
+#~ "(вместо «tun» или «tap»).\n"
+#~ "config: dev <name>"
+
+#~ msgid "Use custom tunnel Maximum Transmission _Unit (MTU):"
+#~ msgstr ""
+#~ "Использовать нестандартный максимальный размер элемента передачи (MTU):"
+
+#~ msgid ""
+#~ "Take the TUN device MTU to be the specified value and derive the link MTU "
+#~ "from it.\n"
+#~ "config: tun-mtu"
+#~ msgstr ""
+#~ "Использовать указанное значение в качестве MTU для устройства TUN.\n"
+#~ "config: tun-mtu"
+
+#~ msgid "Use custom UDP _fragment size:"
+#~ msgstr "Использовать нестандартный размер _фрагмента UDP:"
+
+#~ msgid ""
+#~ "Enable internal datagram fragmentation with this maximum size.\n"
+#~ "config: fragment"
+#~ msgstr ""
+#~ "Включить принудительную фрагментацию датаграмм в протоколе UDP, "
+#~ "ограничивая их размер указанным максимальным значением.\n"
+#~ "config: fragment"
+
+#~ msgid "Restrict tunnel TCP Maximum _Segment Size (MSS)"
+#~ msgstr "Ограничить максимальный размер сегмента TCP (MSS) туннеля"
+
+#~ msgid ""
+#~ "Restrict tunnel TCP MSS.\n"
+#~ "config: mssfix"
+#~ msgstr ""
+#~ "Ограничить максимальный размер сегмента (MSS) для TCP-соединения туннеля\n"
+#~ "config: mssfix"
+
+#~ msgid "Rando_mize remote hosts"
+#~ msgstr "Выбирать удаленные хосты случайно"
+
+#~ msgid ""
+#~ "Randomize the order of gateways list (remote) as a kind of basic load-"
+#~ "balancing measure.\n"
+#~ "config: remote-random"
+#~ msgstr ""
+#~ "Использовать случайный порядок списка шлюзов (удалённых) как своего рода "
+#~ "базовую меру балансировки нагрузки.\n"
+#~ "параметр: remote-random"
+
+#~ msgid "IPv6 tun link"
+#~ msgstr "Сетевой интерфейс tun IPv6"
+
+#~ msgid ""
+#~ "Build a tun link capable of forwarding IPv6 traffic\n"
+#~ "config: tun-ipv6"
+#~ msgstr ""
+#~ "Создать сетевой интерфейс tun, способный передавать трафик IPv6\n"
+#~ "config: tun-ipv6"
+
+#~ msgid "Specify _exit or restart ping:"
+#~ msgstr "Выход или перезапуск по ping:"
+
+#~ msgid ""
+#~ "Exit or restart after n seconds pass without reception of a ping or other "
+#~ "packet from remote.\n"
+#~ "config: ping-exit | ping-restart <n>"
+#~ msgstr ""
+#~ "Завершить работу (ping-exit) или перезапустить соединение (ping-"
+#~ "restart),\n"
+#~ "если за последние N секунд не пришло ни одного пакета, включая ping,\n"
+#~ "от удалённого хоста.\n"
+#~ "config: ping-exit | ping-restart <n>"
+
+#~ msgid "Specify pin_g interval:"
+#~ msgstr "Периодичность проверочных пакетов (ping):"
+
+#~ msgid ""
+#~ "Ping remote over the TCP/UDP control channel if no packets have been sent "
+#~ "for at least n seconds.\n"
+#~ "config: ping <n>"
+#~ msgstr ""
+#~ "Отправлять проверочные пакеты (ping) по управляющему каналу TCP/UDP,\n"
+#~ "не было отправлено ни одного пакета за последние N секунд.\n"
+#~ "config: ping <n>"
+
+#~ msgid "Accept authenticated packets from any address (F_loat)"
+#~ msgstr "Принимать подлинные пакеты с любого адреса (float)"
+
+#~ msgid "Specify max routes:"
+#~ msgstr "Максимальное число маршрутов:"
+
+#~ msgid ""
+#~ "Specify the maximum number of routes the server is allowed to specify.\n"
+#~ "config: max-routes <n>"
+#~ msgstr ""
+#~ "Серверу разрешено задать не более указанного здесь числа маршрутов.\n"
+#~ "config: max-routes <n>"
+
+#~ msgid ""
+#~ "Encrypt packets with cipher algorithm. The default is BF-CBC (Blowfish in "
+#~ "Cipher Block Chaining mode).\n"
+#~ "config: cipher"
+#~ msgstr ""
+#~ "Шифровать пакеты указанным алгоритмом. По умолчанию используется BF-CBC.\n"
+#~ "config: cipher"
+
+#~ msgid "Use custom _size of cipher key:"
+#~ msgstr "Задать _длину ключа:"
+
+#~ msgid ""
+#~ "Set cipher key size to a custom value. If unspecified, it defaults to "
+#~ "cipher-specific size.\n"
+#~ "config: keysize <n>"
+#~ msgstr ""
+#~ "Использовать указанную длину ключа шифрования. Если не указано, "
+#~ "используется стандартная для выбранного шифра длина ключа.\n"
+#~ "config: keysize <n>"
+
+#~ msgid ""
+#~ "Authenticate packets with HMAC using message digest algorithm. The "
+#~ "default is SHA1.\n"
+#~ "config: auth"
+#~ msgstr ""
+#~ "Хеш-функция, используемая в алгоритме HMAC проверки подлинности "
+#~ "сообщений. По умолчанию используется SHA-1.\n"
+#~ "config: auth"
+
+#~ msgid "Ci_pher:"
+#~ msgstr "Шифр:"
+
+#~ msgid "_HMAC Authentication:"
+#~ msgstr "Ау_тентификация HMAC:"
+
+#~ msgid "Verify CRL from file"
+#~ msgstr "Проверять CRL из файла"
+
+#~ msgid "Verify CRL from directory"
+#~ msgstr "Проверять CRL из каталога"
+
+#~ msgid "Choose CRL file"
+#~ msgstr "Выберите файл CRL"
+
+#~ msgid "Choose CRL directory"
+#~ msgstr "Выберите каталог CRL"
+
+#~ msgid "Security"
+#~ msgstr "Безопасность"
+
+#~ msgid "_Subject Match:"
+#~ msgstr "Совпадение _объекта:"
+
+#~ msgid ""
+#~ "Subject or Common Name to verify server certificate information against.\n"
+#~ "\n"
+#~ "config: verify-x509-name subject-or-name [mode]\n"
+#~ "config (legacy mode): tls-remote subject-or-name"
+#~ msgstr ""
+#~ "Субъект или общее имя (CN), с которым будет сверяться сертификат "
+#~ "сервера.\n"
+#~ "\n"
+#~ "onfig: verify-x509-name subject-or-name [mode]\n"
+#~ "config (legacy mode): tls-remote subject-or-name"
+
+#~ msgid "Server _Certificate Check:"
+#~ msgstr "Проверка _сертификата сервера:"
+
+#~ msgid "_Verify peer (server) certificate usage signature"
+#~ msgstr "_Проверять назначение сертификата удалённого хоста (сервера)"
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit key usage and "
+#~ "extended key usage based on RFC3280 TLS rules."
+#~ msgstr ""
+#~ "Требовать, чтобы сертификат удалённого хоста имел указанное явно "
+#~ "назначение ключа и расширенное назначение ключа согласно RFC 3280."
+
+#~ msgid "_Remote peer certificate TLS type:"
+#~ msgstr "Тип TLS сертификата _удалённого хоста:"
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit key usage and "
+#~ "extended key usage based on RFC3280 TLS rules.\n"
+#~ "config: remote-cert-tls client|server"
+#~ msgstr ""
+#~ "Требовать, чтобы сертификат удалённого хоста имел указанное явно "
+#~ "назначение ключа и расширенное назначение ключа согласно RFC 3280.\n"
+#~ "config: remote-cert-tls client|server"
+
+#~ msgid "_Verify peer (server) certificate nsCertType designation"
+#~ msgstr "_Проверять явное указание nsCertType у сертификата удалённого хоста"
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit nsCertType "
+#~ "designation."
+#~ msgstr ""
+#~ "Требовать, чтобы у сертификата удалённого хоста было явно указано "
+#~ "значение nsCertType."
+
+#~ msgid "_Remote peer certificate nsCert designation:"
+#~ msgstr "nsCert у сертификата _удалённого хоста:"
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit nsCertType "
+#~ "designation.\n"
+#~ "config: ns-cert-type client|server"
+#~ msgstr ""
+#~ "Требовать, чтобы у сертификата удалённого хоста было явно указано\n"
+#~ "значение nsCertType.\n"
+#~ "config: ns-cert-type client|server"
+
+#~ msgid "Key _Direction:"
+#~ msgstr "_Направление ключа:"
+
+#~ msgid ""
+#~ "Add an additional layer of HMAC authentication on top of the TLS control "
+#~ "channel to protect against DoS attacks. In case of TLS-Crypt mode, the "
+#~ "control channel is also encrypted.\n"
+#~ "config: tls-auth <file> [direction] | tls-crypt <file>"
+#~ msgstr ""
+#~ "Добавить ещё одну проверку подлинности по механизму HMAC для управляющего "
+#~ "канала TLS, чтобы защититься от DoS-атак. В случае режима TLS-Crypt канал "
+#~ "управления также зашифровывается..\n"
+#~ "config: tls-auth <file> [direction] | tls-crypt <file>"
+
+#~ msgid ""
+#~ "Direction parameter for static key mode.\n"
+#~ "If key direction is used, it must be the opposite of that used on the VPN "
+#~ "peer. For example, if the peer uses “1”, this connection must use “0”. If "
+#~ "you are unsure what value to use, contact your system administrator.\n"
+#~ "config: tls-auth <file> [direction]"
+#~ msgstr ""
+#~ "Параметр направления для режима статического ключа.Если используется "
+#~ "направление ключа, оно должно быть противоположно направлению, которое "
+#~ "использует вторая сторона. Например, если вторая сторона использует «1», "
+#~ "это соединение должно использовать «0». Если вы не уверены, какое "
+#~ "значение использовать, свяжитесь с системным администратором.\n"
+#~ "config: tls-auth <file> [direction]"
+
+#~ msgid "Key _File:"
+#~ msgstr "Файл ключа:"
+
+#~ msgid "Mode:"
+#~ msgstr "Режим:"
+
+#~ msgid "Add an additional layer of encryption or HMAC authentication."
+#~ msgstr ""
+#~ "Добавить дополнительный уровень шифрования или проверку подлинности HMAC."
+
+#~ msgid "Extra Certificates:"
+#~ msgstr "Дополнительные сертификаты:"
+
+#~ msgid "Additional TLS authentication or encryption"
+#~ msgstr "Дополнительная аутентификация или шифрование TLS"
+
+#~ msgid "TLS Authentication"
+#~ msgstr "Аутентификация TLS"
+
+#~ msgid ""
+#~ "Proxy type: HTTP or Socks.\n"
+#~ "config: http-proxy or socks-proxy"
+#~ msgstr ""
+#~ "Тип прокси: HTTP или Socks.\n"
+#~ "config: http-proxy or socks-proxy"
+
+#~ msgid "Proxy _Type:"
+#~ msgstr "_Тип прокси:"
+
+#~ msgid ""
+#~ "<i>Select this option if your organization requires the use of a proxy "
+#~ "server to access the Internet.</i>"
+#~ msgstr ""
+#~ "<i>Выберите этот параметр, если в вашей организации требуется "
+#~ "использовать прокси-сервер для доступа к Интернет.</i>"
+
+#~ msgid "Server _Address:"
+#~ msgstr "_Адрес сервера:"
+
+#~ msgid ""
+#~ "Connect to remote host through a proxy with this address.\n"
+#~ "config: http-proxy or socks-proxy"
+#~ msgstr ""
+#~ "Подключаться к удаленному хосту через прокси-сервер на этом адресе.\n"
+#~ "config: http-proxy or socks-proxy"
+
+#~ msgid "_Port:"
+#~ msgstr "_Порт:"
+
+#~ msgid ""
+#~ "Connect to remote host through a proxy with this port.\n"
+#~ "config: http-proxy or socks-proxy"
+#~ msgstr ""
+#~ "Подключаться к удаленному хосту через прокси-сервер на этом порте.\n"
+#~ "config: http-proxy or socks-proxy"
+
+#~ msgid "_Retry indefinitely when errors occur"
+#~ msgstr "Повторять попытку при возникновении ошибок"
+
+#~ msgid ""
+#~ "Retry indefinitely on proxy errors. It simulates a SIGUSR1 reset.\n"
+#~ "config: http-proxy-retry or socks-proxy-retry"
+#~ msgstr ""
+#~ "Пытаться подключиться заново при ошибках прокси. Имитируется перезапуск "
+#~ "как по сигналу SIGUSR1.\n"
+#~ "config: http-proxy-retry or socks-proxy-retry"
+
+#~ msgid "Proxy _Username:"
+#~ msgstr "_Имя пользователя прокси:"
+
+#~ msgid "Proxy Passwor_d:"
+#~ msgstr "П_ароль прокси:"
+
+#~ msgid "HTTP/Socks proxy username passed to Anyconnect when prompted for it."
+#~ msgstr ""
+#~ "Имя пользователя для прокси-сервера HTTP/SOCKS, через который будет\n"
+#~ "подключаться Anyconnect."
+
+#~ msgid "HTTP/Socks proxy password passed to Anyconnect when prompted for it."
+#~ msgstr ""
+#~ "Пароль для прокси-сервера HTTP/SOCKS, через который будет\n"
+#~ "подключаться Anyconnect."
+
+#~ msgid "_Show password"
+#~ msgstr "По_казать пароль"
+
+#~ msgid "Proxies"
+#~ msgstr "Прокси"
+
+#~ msgid "Path mtu discovery"
+#~ msgstr "Открытие пути mtu"
+
+#~ msgid "Connect timeout"
+#~ msgstr "Время ожидания подключения"
+
+#~ msgid "Misc"
+#~ msgstr "Прочие"
+
+#~ msgid "could not create anyconnect object"
+#~ msgstr "не удалось создать объект anyconnect"
+
+#~ msgid "Invalid HMAC auth."
+#~ msgstr "Некорректная аутентификация HMAC."
+
+#~ msgid "Choose your personal certificate..."
+#~ msgstr "Выберите свой персональный сертификат…"
+
+#~ msgid "Choose your private key..."
+#~ msgstr "Выберите свой личный ключ…"
+
+#~ msgid "Saved"
+#~ msgstr "Сохранённые"
+
+#~ msgid "Always Ask"
+#~ msgstr "Всегда спрашивать"
+
+#~ msgid "Not Required"
+#~ msgstr "Не требуется"
+
+#~ msgid "Choose a Certificate Authority certificate..."
+#~ msgstr "Выберите сертификат центра сертификации…"
+
+#~ msgid "PEM or PKCS#12 certificates (*.pem, *.crt, *.key, *.cer, *.p12)"
+#~ msgstr "Сертификаты PEM или PKCS#12 (*.pem, *.crt, *.key, *.cer, *.p12)"
+
+#~ msgid "PEM certificates (*.pem, *.crt, *.key, *.cer)"
+#~ msgstr "Сертификаты PEM (*.pem, *.crt, *.key, *.cer)"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "<b>General</b>"
+#~ msgstr "<b>Общие</b>"
+
+#~ msgid "<b>Authentication</b>"
+#~ msgstr "<b>Аутентификация</b>"
+
+#~ msgid "_Show passwords"
+#~ msgstr "Показать пароли"
+
+#, fuzzy
+#~ msgid "Password for private key"
+#~ msgstr "Выберите свой личный ключ…"
+
+#~ msgid "Private Key Password:"
+#~ msgstr "Пароль к личному ключу:"
+
+#~ msgid "Private Key:"
+#~ msgstr "Личный ключ:"
+
+#~ msgid "CA Certificate:"
+#~ msgstr "Сертификат ЦС:"
+
+#~ msgid ""
+#~ "<i>Connect only to servers whose certificate matches the given subject.\n"
+#~ "Example: /CN=myvpn.company.com</i>"
+#~ msgstr ""
+#~ "<i>Подключаться только к серверам, чьи сертификаты совпадают с заданным "
+#~ "объектом.\n"
+#~ "Пример: /CN=myvpn.company.com</i>"
+
+#~ msgid "Missing required local IP address for static key mode."
+#~ msgstr ""
+#~ "Отсутствует необходимый локальный IP-адрес для режима со статическим "
+#~ "ключом."
+
+#~ msgid "Missing required remote IP address for static key mode."
+#~ msgstr ""
+#~ "Отсутствует необходимый удалённый IP-адрес для режима со статическим "
+#~ "ключом."
+
+#, fuzzy
+#~ msgid ""
+#~ "Could not process the request because the anyconnect connection type was "
+#~ "invalid."
+#~ msgstr ""
+#~ "Не удалось обработать запрос, так как настройки подключения VPN "
+#~ "некорректны."
+
+#~ msgid "_Password:"
+#~ msgstr "_Пароль:"
+
+#~ msgid "_Secondary Password:"
+#~ msgstr "_Вторичный пароль:"
+
+#~ msgid "Sh_ow passwords"
+#~ msgstr "Показ_ывать пароли"
+
+#~ msgid "Use a TA_P device"
+#~ msgstr "Использовать устройство TA_P"
+
+#~ msgid "No VPN secrets!"
+#~ msgstr "Нет VPN-ключей!"
+
+#~ msgid "Could not process the request because no username was provided."
+#~ msgstr "Не удалось обработать запрос, так как не указано имя пользователя."

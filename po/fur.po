@@ -1,0 +1,959 @@
+# Friulian translation for NetworkManager-anyconnect.
+# Copyright (C) 2019 NetworkManager-anyconnect's COPYRIGHT HOLDER
+# This file is distributed under the same license as the NetworkManager-anyconnect package.
+# Fabio Tomat <f.t.public@gmail.com>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: NetworkManager-anyconnect master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-30 22:41+0100\n"
+"PO-Revision-Date: 2019-02-12 11:23+0100\n"
+"Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
+"Language-Team: Friulian <fur@li.org>\n"
+"Language: fur\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2\n"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:1
+msgid "Anyconnect client"
+msgstr "Client Anyconnect"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:2
+msgid "Client for Anyconnect virtual private networks"
+msgstr "Client pes rêts privadis virtuâls Anyconnect"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:3
+msgid "Support for configuring Anyconnect virtual private network connections."
+msgstr ""
+"Supuart par configurâ lis conessions di rêt privade virtuâl Anyconnect."
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:4
+msgid "Anyconnect is a popular and flexible free-software VPN solution."
+msgstr ""
+"Anyconnect e je une famose e flessibile soluzion VPN di software libar."
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:5
+msgid "The NetworkManager Developers"
+msgstr "I svilupadôrs di NetworkManager"
+
+#: ../properties/nm-anyconnect-editor-plugin.c:35
+#, fuzzy
+msgid "Cisco AnyConnect"
+msgstr "Anyconnect"
+
+#: ../properties/nm-anyconnect-editor-plugin.c:36
+msgid "Runs the proprietary Cisco AnyConnect VPN."
+msgstr ""
+
+#: ../properties/nm-anyconnect-editor.c:299
+msgid "could not load UI widget"
+msgstr "impussibil cjariâ il widget de IU"
+
+#: ../shared/nm-utils/nm-shared-utils.c:946
+#, c-format
+msgid "object class '%s' has no property named '%s'"
+msgstr "la classe dal ogjet '%s' no à une proprietât clamade '%s'"
+
+#: ../shared/nm-utils/nm-shared-utils.c:953
+#, c-format
+msgid "property '%s' of object class '%s' is not writable"
+msgstr "no si pues scrivi la proprietât '%s' de classe dal ogjet '%s'"
+
+#: ../shared/nm-utils/nm-shared-utils.c:960
+#, c-format
+msgid ""
+"construct property \"%s\" for object '%s' can't be set after construction"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:968
+#, c-format
+msgid "'%s::%s' is not a valid property name; '%s' is not a GObject subtype"
+msgstr ""
+"'%s::%s' nol è un non di proprietât valit; '%s' nol è un sot-gjenar GObject"
+
+#: ../shared/nm-utils/nm-shared-utils.c:977
+#, c-format
+msgid "unable to set property '%s' of type '%s' from value of type '%s'"
+msgstr ""
+"impussibil stabilî la proprietât '%s' di gjenar '%s' dal valôr di gjenar '%s'"
+
+#: ../shared/nm-utils/nm-shared-utils.c:988
+#, c-format
+msgid ""
+"value \"%s\" of type '%s' is invalid or out of range for property '%s' of "
+"type '%s'"
+msgstr ""
+"valôr \"%s\" di gjenar '%s' nol è valit o fûr dai limits pe proprietât '%s' "
+"di gjenar '%s'"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:69
+#, c-format
+msgid "unable to get editor plugin name: %s"
+msgstr "impussibil otignî il non dal plugin dal editôr: %s"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:103
+#, c-format
+msgid "missing plugin file \"%s\""
+msgstr "al mancje il file plugin \"%s\""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:109
+#, c-format
+msgid "cannot load editor plugin: %s"
+msgstr "impussibil cjariâ il plugin dal editôr: %s"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:118
+#, c-format
+msgid "cannot load factory %s from plugin: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:144
+msgid "unknown error creating editor instance"
+msgstr "erôr no cognossût tal creâ la istance dal editôr"
+
+#: ../src/nm-anyconnect-service.c:567 ../src/nm-anyconnect-service.c:682
+msgid "Could not find the anyconnect binary."
+msgstr "Impussibil cjatâ l'eseguibil di anyconnect."
+
+#: ../src/nm-anyconnect-service.c:580
+msgid ""
+"Could not process the request because the VPN connection settings were "
+"invalid."
+msgstr ""
+"Impussibil processâ la richieste par vie che lis impostazions de conession "
+"VPN no jerin validis."
+
+#: ../src/nm-anyconnect-service.c:602
+msgid ""
+"Could not attempt connection, unable to find the setting for the gateway."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:875
+msgid "Don’t quit when VPN connection terminates"
+msgstr "No sta jessî cuant che e finìs la conession VPN"
+
+#: ../src/nm-anyconnect-service.c:876
+msgid "Enable verbose debug logging (may expose passwords)"
+msgstr ""
+"Abilite la regjistrazion dal debug prolìs (al pues palesâ lis password)"
+
+#: ../src/nm-anyconnect-service.c:877
+msgid "D-Bus name to use for this instance"
+msgstr "Non di D-Bus di doprâ par cheste istance"
+
+#: ../src/nm-anyconnect-service.c:905
+#, fuzzy
+msgid ""
+"nm-anyconnect-service provides integrated proprietary Cisco AnyConnect "
+"capability to NetworkManager."
+msgstr ""
+"nm-anyconnect-service al furnìs lis funzionalitâts di Anyconnect integradis "
+"a NetworkManager."
+
+#: ../properties/nm-anyconnect-dialog.ui.h:1
+msgid "General"
+msgstr "Gjenerâl"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:2
+msgid "_Gateway:"
+msgstr "_Gateway:"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:3
+msgid "VPN host to connect to"
+msgstr ""
+
+#, c-format
+#~ msgid "Authenticate VPN %s"
+#~ msgstr "Autenticâ VPN %s"
+
+#~ msgid "Password:"
+#~ msgstr "Password:"
+
+#~ msgid "Certificate password:"
+#~ msgstr "Password dal certificât:"
+
+#~ msgid "HTTP proxy password:"
+#~ msgstr "Password dal proxy HTTP:"
+
+#~ msgid "Authenticate VPN"
+#~ msgstr "Autenticazion VPN"
+
+#~ msgid "Certificate pass_word:"
+#~ msgstr "Pass_word dal certificât:"
+
+#~ msgid "_HTTP proxy password:"
+#~ msgstr "Password dal proxy _HTTP:"
+
+#, c-format
+#~ msgid "You need to authenticate to access the Virtual Private Network “%s”."
+#~ msgstr "Si scugne autenticâsi par jentrâ te Rêt Privade Virtuâl “%s”."
+
+#, c-format
+#~ msgid "option %s expects between %u and %u argument"
+#~ msgid_plural "option %s expects between %u and %u arguments"
+#~ msgstr[0] "la opzion %s si spietave tra %u e %u argoment"
+#~ msgstr[1] "la opzion %s si spietave tra %u e %u argoments"
+
+#, c-format
+#~ msgid "option %s expects no arguments"
+#~ msgstr "la opzion %s no si spietave argoments"
+
+#, c-format
+#~ msgid "option %s expects exactly one argument"
+#~ msgid_plural "option %s expects exactly %u arguments"
+#~ msgstr[0] "la opzion %s si spiete juste un argoment"
+#~ msgstr[1] "la opzion %s si spiete juste %u argoments"
+
+#, c-format
+#~ msgid "argument %s of “%s” can not be empty"
+#~ msgstr "l'argoment %s di “%s” nol pues jessi vueit"
+
+#, c-format
+#~ msgid "argument of “%s” can not be empty"
+#~ msgstr "l'argoment di “%s” nol pues jessi vueit"
+
+#, c-format
+#~ msgid "argument %s of “%s” must be UTF-8 encoded"
+#~ msgstr "l'argoment %s di “%s” al scugne jessi codificât in UTF-8"
+
+#, c-format
+#~ msgid "argument of “%s” must be UTF-8 encoded"
+#~ msgstr "l'argoment di “%s” al scugne jessi codificât in UTF-8"
+
+#, c-format
+#~ msgid "unable to read HTTP proxy auth file"
+#~ msgstr "impussibil lei il file di autenticazion dal proxy HTTP"
+
+#, c-format
+#~ msgid "cannot read user/password from HTTP proxy auth file"
+#~ msgstr ""
+#~ "impussibil lei utent/password dal file di autenticazion dal proxy HTTP"
+
+#, c-format
+#~ msgid "user/password from HTTP proxy auth file must be UTF-8 encoded"
+#~ msgstr ""
+#~ "l'utent/password dal file di autenticazion dal proxy HTTP a scugnin jessi "
+#~ "codificâts in UTF-8"
+
+#, c-format
+#~ msgid "“%s” is not a directory"
+#~ msgstr "“%s” nol è une cartele"
+
+#, c-format
+#~ msgid "cannot create “%s” directory"
+#~ msgstr "impussibil creâ la cartele “%s”"
+
+#, c-format
+#~ msgid "cannot write <%s> blob from line %ld to file (%s)"
+#~ msgstr "impussibil scrivi i dâts binaris <%s> de rie %ld sul file (%s)"
+
+#, c-format
+#~ msgid "cannot write <%s> blob from line %ld to file “%s”"
+#~ msgstr "impussibil scrivi i dâts binaris <%s> de rie %ld sul file “%s”"
+
+#, c-format
+#~ msgid "unsupported mtu-disc argument"
+#~ msgstr "argoment mtu-disc no supuartât"
+
+#, c-format
+#~ msgid "unsupported crl-verify argument"
+#~ msgstr "argoment crl-verify no supuartât"
+
+#, c-format
+#~ msgid "invalid option"
+#~ msgstr "opzion no valide"
+
+#, c-format
+#~ msgid "unsupported comp-lzo argument"
+#~ msgstr "argoment comp-lzo no supuartât"
+
+#, c-format
+#~ msgid "remote cannot contain space"
+#~ msgstr "il rimot nol pues contignî spazis"
+
+#, c-format
+#~ msgid "remote cannot contain comma"
+#~ msgstr "il rimot nol pues contignî virgulis"
+
+#, c-format
+#~ msgid "remote expects protocol type like “udp” or “tcp”"
+#~ msgstr "il rimot si spiete un gjenar di protocol come “udp” o “tcp”"
+
+#, c-format
+#~ msgid "invalid verify-x509-name type"
+#~ msgstr "gjenar verify-x509-name no valit"
+
+#, c-format
+#~ msgid "unsupported blob/xml element"
+#~ msgstr "element blob/xml no supuartât"
+
+#, c-format
+#~ msgid "configuration error: %s (line %ld)"
+#~ msgstr "erôr di configurazion: %s (rie %ld)"
+
+#~ msgid "unknown or unsupported option"
+#~ msgstr "opzion no cognossude o no supuartade"
+
+#~ msgid "The file to import wasn’t a valid Anyconnect client configuration"
+#~ msgstr ""
+#~ "Il file di impuartâ no jere une configurazion di client Anyconnect valide"
+
+#~ msgid "missing path argument"
+#~ msgstr "argoment di percors mancjant"
+
+#~ msgid "connection is not a valid Anyconnect connection"
+#~ msgstr "la conession no je une conession Anyconnect valide"
+
+#~ msgid "connection was incomplete (missing gateway)"
+#~ msgstr "la conession e jere incomplete (al mancjave il gateway)"
+
+#, c-format
+#~ msgid "failed to write file: %s"
+#~ msgstr "no si è rivâts a scrivi il file: %s"
+
+#~ msgid "Compatible with the Anyconnect server."
+#~ msgstr "Compatibil cul servidôr Anyconnect."
+
+#~ msgid "Choose an Anyconnect static key…"
+#~ msgstr "Sielç une clâf statiche Anyconnect…"
+
+#~ msgid "None"
+#~ msgstr "Nissun"
+
+#~ msgid "Anyconnect Static Keys (*.key)"
+#~ msgstr "Clâfs statichis Anyconnect (*.key)"
+
+#~ msgid "Default"
+#~ msgstr "Predefinît"
+
+#~ msgid "RSA MD-4"
+#~ msgstr "RSA MD-4"
+
+#~ msgid "MD-5"
+#~ msgstr "MD5"
+
+#~ msgid "SHA-1"
+#~ msgstr "SHA-1"
+
+#~ msgid "SHA-224"
+#~ msgstr "SHA-224"
+
+#~ msgid "SHA-256"
+#~ msgstr "SHA-256"
+
+#~ msgid "SHA-384"
+#~ msgstr "SHA-384"
+
+#~ msgid "SHA-512"
+#~ msgstr "SHA-512"
+
+#~ msgid "RIPEMD-160"
+#~ msgstr "RIPEMD-160"
+
+#~ msgid "Don’t verify certificate identification"
+#~ msgstr "No sta verificâ la identificazion dal certificât"
+
+#~ msgid "Server"
+#~ msgstr "Servidôr"
+
+#~ msgid "Client"
+#~ msgstr "Client"
+
+#~ msgid "Not required"
+#~ msgstr "No necessari"
+
+#~ msgid "HTTP"
+#~ msgstr "HTTP"
+
+#~ msgid "SOCKS"
+#~ msgstr "SOCKS"
+
+#~ msgid "TUN"
+#~ msgstr "TUN"
+
+#~ msgid "TAP"
+#~ msgstr "TAP"
+
+#~ msgid "(automatic)"
+#~ msgstr "(automatic)"
+
+#~ msgid "ping-exit"
+#~ msgstr "ping-exit"
+
+#~ msgid "ping-restart"
+#~ msgstr "ping-restart"
+
+#~ msgid "Certificates (TLS)"
+#~ msgstr "Certificâts (TLS)"
+
+#~ msgid "Password"
+#~ msgstr "Password"
+
+#~ msgid "Password with Certificates (TLS)"
+#~ msgstr "Password cun certificâts (TLS)"
+
+#~ msgid "Static Key"
+#~ msgstr "Clâf statiche"
+
+#, c-format
+#~ msgid "invalid delimiter character '%c'"
+#~ msgstr "caratar di separazion '%c' no valit"
+
+#, c-format
+#~ msgid "invalid non-utf-8 character"
+#~ msgstr "caratar non-utf-8 no valit"
+
+#, c-format
+#~ msgid "empty host"
+#~ msgstr "servidôr vueit"
+
+#, c-format
+#~ msgid "invalid port"
+#~ msgstr "puarte no valide"
+
+#, c-format
+#~ msgid "invalid protocol"
+#~ msgstr "protocol no valit"
+
+#, c-format
+#~ msgid "invalid address “%s”"
+#~ msgstr "direzion “%s” no valide"
+
+#, c-format
+#~ msgid "invalid integer property “%s” or out of range [%d -> %d]"
+#~ msgstr "proprietât “%s” dal intîr no valide o fûr dai limits [%d -> %d]"
+
+#, c-format
+#~ msgid "invalid boolean property “%s” (not yes or no)"
+#~ msgstr "proprietât “%s” dal boolean no valide (no je yes o no)"
+
+#, c-format
+#~ msgid "unhandled property “%s” type %s"
+#~ msgstr "proprietât “%s” di gjenar %s no gjestide"
+
+#, c-format
+#~ msgid "property “%s” invalid or not supported"
+#~ msgstr "proprietât “%s” no valide o no supuartade"
+
+#~ msgid "No VPN configuration options."
+#~ msgstr "Nissune opzion di configurazion VPN."
+
+#~ msgid "A username is required."
+#~ msgstr "Al covente un non utent."
+
+#~ msgid "A password is required."
+#~ msgstr "E covente une password."
+
+#~ msgid "A username and password are required."
+#~ msgstr "A coventin non utent e password."
+
+#~ msgid "A private key password is required."
+#~ msgstr "E covente un password di clâf privade."
+
+#~ msgid "An HTTP Proxy username is required."
+#~ msgstr "Al covente un non utent di proxy HTTP."
+
+#~ msgid "An HTTP Proxy password is required."
+#~ msgstr "E covente une password di proxy HTTP."
+
+#~ msgid "An HTTP Proxy username and password are required."
+#~ msgstr "A coventin non utent e password dal proxy HTTP."
+
+#~ msgid "Invalid connection type."
+#~ msgstr "Gjenar di conession no valide."
+
+#, c-format
+#~ msgid "Invalid port number “%s”."
+#~ msgstr "Numar di puarte “%s” no valit."
+
+#, c-format
+#~ msgid "Invalid proto “%s”."
+#~ msgstr "Protocol “%s” no valit."
+
+#, c-format
+#~ msgid "Invalid proxy type “%s”."
+#~ msgstr "Gjenar di proxy “%s” no valit."
+
+#, c-format
+#~ msgid "Invalid ping duration “%s”."
+#~ msgstr "Durade dal ping “%s” no valide."
+
+#, c-format
+#~ msgid "Invalid ping-exit duration “%s”."
+#~ msgstr "Durade dal ping-exit “%s” no valide."
+
+#, c-format
+#~ msgid "Invalid ping-restart duration “%s”."
+#~ msgstr "Durade dal ping-restart “%s” no valide."
+
+#, c-format
+#~ msgid "Invalid connect timeout “%s”."
+#~ msgstr "Scjadence de conession “%s” no valide."
+
+#, c-format
+#~ msgid "Invalid max-routes argument “%s”."
+#~ msgstr "Argoment “%s” di max-routes no valit."
+
+#, c-format
+#~ msgid "Invalid keysize “%s”."
+#~ msgstr "Dimension de clâf “%s” no valide."
+
+#, c-format
+#~ msgid "Invalid configuration with tls-remote and verify-x509-name."
+#~ msgstr "Configurazion cun tls-remote e verify-x509-name no valide."
+
+#, c-format
+#~ msgid "Invalid verify-x509-name."
+#~ msgstr "verify-x509-name no valit."
+
+#, c-format
+#~ msgid "Invalid reneg seconds “%s”."
+#~ msgstr "Seconts di rinegoziazion “%s” no valits."
+
+#, c-format
+#~ msgid "Invalid TUN MTU size “%s”."
+#~ msgstr "Dimension “%s” dal MTU TUN no valide."
+
+#, c-format
+#~ msgid "Invalid fragment size “%s”."
+#~ msgstr "Dimension dal frament “%s” no valide."
+
+#, c-format
+#~ msgid "Unknown connection type “%s”."
+#~ msgstr "Gjenar di conession “%s” no cognossude."
+
+#, c-format
+#~ msgid "User “%s” not found, check NM_ANYCONNECT_USER."
+#~ msgstr "Utent “%s” no cjatât, controle NM_ANYCONNECT_USER."
+
+#, c-format
+#~ msgid "Group “%s” not found, check NM_ANYCONNECT_GROUP."
+#~ msgstr "Grup “%s” no cjatât, controle NM_ANYCONNECT_GROUP."
+
+#~ msgid "Unhandled pending authentication."
+#~ msgstr "Autenticazion in spiete no gjestide."
+
+#, fuzzy
+#~ msgid "TLS-Auth"
+#~ msgstr "TLS-Auth"
+
+#, fuzzy
+#~ msgid "TLS-Crypt"
+#~ msgstr "TLS-Crypt"
+
+#~ msgid "Maybe"
+#~ msgstr "Forsit"
+
+#~ msgid "Yes"
+#~ msgstr "Sì"
+
+#~ msgid "Authentication"
+#~ msgstr "Autenticazion"
+
+#~ msgid "CA"
+#~ msgstr "CA"
+
+#~ msgid "User"
+#~ msgstr "Utent"
+
+#~ msgid "User name:"
+#~ msgstr "Non utent:"
+
+#~ msgid ""
+#~ "Password passed to Anyconnect when prompted for it.\n"
+#~ "config: auth-user-pass"
+#~ msgstr ""
+#~ "Password passade a Anyconnect cuant che e je stade domandade.\n"
+#~ "config: auth-user-pass"
+
+#~ msgid ""
+#~ "Username passed to Anyconnect when prompted for it. If omitted, use the "
+#~ "name of the system user that activates the connection.\n"
+#~ "config: auth-user-pass"
+#~ msgstr ""
+#~ "Non utent passât a Anyconnect cuant che al è stât domandât. Se ometût, "
+#~ "dopre il non dal utent di sisteme che al ative la conession.\n"
+#~ "config: auth-user-pass"
+
+#~ msgid "Remote IP Address:"
+#~ msgstr "Direzion IP rimote:"
+
+#~ msgid "Local IP Address:"
+#~ msgstr "Direzion IP locâl:"
+
+#~ msgid "Key Direction:"
+#~ msgstr "Direzion de clâf:"
+
+#~ msgid "Static Key:"
+#~ msgstr "Clâf statiche:"
+
+#~ msgid ""
+#~ "Pre-shared file for Static Key encryption mode (non-TLS).\n"
+#~ "config: static <file>"
+#~ msgstr ""
+#~ "File pre-condividût pe modalitât di cifradure a clâf statiche (no-TLS).\n"
+#~ "config: static <file>"
+
+#~ msgid ""
+#~ "IP address of the remote VPN endpoint.\n"
+#~ "config: ifconfig <l> <rn>"
+#~ msgstr ""
+#~ "Direzion IP dal servidôr VPN rimot.\n"
+#~ "config: ifconfig <l> <rn>"
+
+#~ msgid ""
+#~ "IP address of the local VPN endpoint.\n"
+#~ "config: ifconfig <l> <rn>"
+#~ msgstr ""
+#~ "Direzion IP dal servidôr VPN locâl.\n"
+#~ "config: ifconfig <l> <rn>"
+
+#~ msgid ""
+#~ "Direction for Static Key encryption mode (non-TLS).\n"
+#~ "If key direction is used, it must be the opposite of that used on the VPN "
+#~ "peer. For example, if the peer uses “1”, this connection must use “0”. If "
+#~ "you are unsure what value to use, contact your system administrator.\n"
+#~ "config: static <file> [direction]"
+#~ msgstr ""
+#~ "Direzion pe modalitât di cifradure a clâf statiche (no-TLS).\n"
+#~ "Se la direzion de clâf e je doprade, e scugne jessi il contrari di chê "
+#~ "doprade sul grop VPN. Par esempli, se il grop al dopre “1”, cheste "
+#~ "conession e scugne doprâ “0”. Se no si è sigûrs di ce valôr doprâ, "
+#~ "contatâ l'aministradôr di sisteme.\n"
+#~ "config: static <file> [direzion]"
+
+#~ msgid "Type:"
+#~ msgstr "Gjenar:"
+
+#~ msgid "Select an authentication mode."
+#~ msgstr "Selezione un metodi di autenticazion."
+
+#~ msgid "Ad_vanced…"
+#~ msgstr "A_vanzadis…"
+
+#~ msgid "Anyconnect Advanced Options"
+#~ msgstr "Opzions avanzadis di Anyconnect"
+
+#~ msgid "Use custom gateway p_ort:"
+#~ msgstr "Dopre p_uarte gateway personalizade:"
+
+#~ msgid ""
+#~ "TCP/UDP port number for peer. (Default value when there is no port for "
+#~ "gateway).\n"
+#~ "config: port"
+#~ msgstr ""
+#~ "Numar de puarte TCP/UDP pal grop. (Il valôr predefinît cuant che no ven "
+#~ "specificade nissune puarte pal gateway).\n"
+#~ "config: port"
+
+#~ msgid "Use custom _renegotiation interval:"
+#~ msgstr "Doprâ un interval di _rinegoziazion personalizât:"
+
+#~ msgid ""
+#~ "Renegotiate data channel key after the specified number of seconds.\n"
+#~ "config: reneg-sec"
+#~ msgstr ""
+#~ "Domande la clâf dal canâl dai dâts passâts i seconts specificâts.\n"
+#~ "config: reneg-sec"
+
+#~ msgid "Use L_ZO data compression"
+#~ msgstr "Dopre la compression dai dâts L_ZO"
+
+#~ msgid ""
+#~ "Use fast LZO compression.\n"
+#~ "config: comp-lzo"
+#~ msgstr ""
+#~ "Dopre la compression LZO veloce.\n"
+#~ "config: comp-lzo"
+
+#~ msgid ""
+#~ "Select the LZO data compression mode.\n"
+#~ "config: comp-lzo"
+#~ msgstr ""
+#~ "Selezione la modalitât di compression dai dâts LZO.\n"
+#~ "config: comp-lzo"
+
+#~ msgid "Use a _TCP connection"
+#~ msgstr "Dopre une conession _TCP"
+
+#~ msgid ""
+#~ "Use TCP for communicating with remote host.\n"
+#~ "(This is a default setting only used when no protocol is specified for "
+#~ "the gateway.)\n"
+#~ "config: proto tcp-client | udp"
+#~ msgstr ""
+#~ "Dopre TCP par comunicâ cul host rimot.\n"
+#~ "(Cheste e je dome une impostazion predefinide doprade cuant che nol ven "
+#~ "specificât nissun protocol pal gateway.)\n"
+#~ "config: proto tcp-client | udp"
+
+#~ msgid "Set virtual _device type:"
+#~ msgstr "Stabilìs gjenar di _dispositîf virtuâl:"
+
+#~ msgid "Explicitly set virtual device type and name (TUN/TAP)."
+#~ msgstr ""
+#~ "Stabilî in maniere esplicite il gjenar e il non dal dispositîf (TUN/TAP)."
+
+#~ msgid ""
+#~ "Explicitly set virtual device type (TUN/TAP).\n"
+#~ "config: dev-type tun | tap"
+#~ msgstr ""
+#~ "Stabilìs in maniere esplicite il gjenar di dispositîf virtuâl (TUN/TAP).\n"
+#~ "config: dev-type tun | tap"
+
+#~ msgid " and _name:"
+#~ msgstr " e _non:"
+
+#~ msgid ""
+#~ "Use custom name for TUN/TAP virtual device (instead of default “tun” or "
+#~ "“tap”).\n"
+#~ "config: dev <name>"
+#~ msgstr ""
+#~ "Dopre un non personalizât pal dispositîf virtuâl TUN/TAP (al puest di "
+#~ "chel predefinît “tun” o “tap”).\n"
+#~ "config: dev <non>"
+
+#~ msgid "Use custom tunnel Maximum Transmission _Unit (MTU):"
+#~ msgstr ""
+#~ "Doprâ un MTU (_Unitât di Trasmission Massime) personalizade pal tunnel:"
+
+#~ msgid ""
+#~ "Take the TUN device MTU to be the specified value and derive the link MTU "
+#~ "from it.\n"
+#~ "config: tun-mtu"
+#~ msgstr ""
+#~ "Da il valôr specificât ae MTU dal dispositîf TUN e tire fûr di lì il "
+#~ "colegament MTU.\n"
+#~ "config: tun-mtu"
+
+#~ msgid "Use custom UDP _fragment size:"
+#~ msgstr "Doprâ une dimension di _frament UDP personalizade:"
+
+#~ msgid ""
+#~ "Enable internal datagram fragmentation with this maximum size.\n"
+#~ "config: fragment"
+#~ msgstr ""
+#~ "Abilite la framentazion interne dal datagram cun cheste dimension "
+#~ "massime.\n"
+#~ "config: fragment"
+
+#~ msgid "Restrict tunnel TCP Maximum _Segment Size (MSS)"
+#~ msgstr "Limitâ il MSS (dimension dal _segment massim) TCP dal tunnel"
+
+#~ msgid ""
+#~ "Restrict tunnel TCP MSS.\n"
+#~ "config: mssfix"
+#~ msgstr ""
+#~ "Limite il MSS TCP dal tunnel.\n"
+#~ "config: mssfix"
+
+#~ msgid "Rando_mize remote hosts"
+#~ msgstr "_Host rimots casuâi"
+
+#~ msgid ""
+#~ "Randomize the order of gateways list (remote) as a kind of basic load-"
+#~ "balancing measure.\n"
+#~ "config: remote-random"
+#~ msgstr ""
+#~ "Come forme di belançament dal caric, gjenere un ordin casuâl de liste di "
+#~ "gateway (rimote).\n"
+#~ "config: remote-random"
+
+#~ msgid "IPv6 tun link"
+#~ msgstr "Colegament tun IPV6"
+
+#~ msgid ""
+#~ "Build a tun link capable of forwarding IPv6 traffic\n"
+#~ "config: tun-ipv6"
+#~ msgstr ""
+#~ "Costruìs un colegament tun che al rive a mandâ indenant il traffic IPV6\n"
+#~ "config: tun-ipv6"
+
+#~ msgid "Specify _exit or restart ping:"
+#~ msgstr "Specifiche se ping _exit o restart:"
+
+#~ msgid ""
+#~ "Exit or restart after n seconds pass without reception of a ping or other "
+#~ "packet from remote.\n"
+#~ "config: ping-exit | ping-restart <n>"
+#~ msgstr ""
+#~ "Jes o torne invie daspò N seconts cence vê vût la ricezion di un ping o "
+#~ "altris pachets dal rimot.\n"
+#~ "config: ping-exit | ping-restart <N>"
+
+#~ msgid "Specify pin_g interval:"
+#~ msgstr "Specifiche l'interval di pin_g:"
+
+#~ msgid ""
+#~ "Ping remote over the TCP/UDP control channel if no packets have been sent "
+#~ "for at least n seconds.\n"
+#~ "config: ping <n>"
+#~ msgstr ""
+#~ "Invie ping al grop rimot sul canâl di control TCP/UDP se no son stâts "
+#~ "inviâts pachets intai ultins N seconts.\n"
+#~ "config: ping <N>"
+
+#~ msgid "Accept authenticated packets from any address (F_loat)"
+#~ msgstr "Acetâ i pachets autenticâts di cualsisei direzion (F_loat)"
+
+#~ msgid "Use custom _size of cipher key:"
+#~ msgstr "Doprâ _dimension personalizade de clâf dal cifrari:"
+
+#~ msgid ""
+#~ "Set cipher key size to a custom value. If unspecified, it defaults to "
+#~ "cipher-specific size.\n"
+#~ "config: keysize <n>"
+#~ msgstr ""
+#~ "Stabilìs la clâf dal cifrari a un valôr personalizât. Se nol ven "
+#~ "specificât, e ven doprade la dimension specificade dal cifrari.\n"
+#~ "config: keysize <n>"
+
+#~ msgid ""
+#~ "Authenticate packets with HMAC using message digest algorithm. The "
+#~ "default is SHA1.\n"
+#~ "config: auth"
+#~ msgstr ""
+#~ "Autentiche i pachets cun HMAC doprant l'algoritmi digest dal messaç. Il "
+#~ "predefinît al è SHA1.\n"
+#~ "config: auth"
+
+#~ msgid "Ci_pher:"
+#~ msgstr "Ci_frari:"
+
+#~ msgid "_HMAC Authentication:"
+#~ msgstr "Autenticazion _HMAC:"
+
+#~ msgid "Disable cipher _negotiation"
+#~ msgstr "Disabilitâ la _negoziazion dal cifrari"
+
+#~ msgid ""
+#~ "Disable cipher negotiation between client and server.\n"
+#~ "config: ncp-disable"
+#~ msgstr ""
+#~ "Disabilite la negoziazion tra client e servidôr.\n"
+#~ "config: ncp-disable"
+
+#~ msgid "Verify CRL from file"
+#~ msgstr "Verifiche CRL di file"
+
+#~ msgid ""
+#~ "Check peer certificate against the specified file in PEM format. A CRL "
+#~ "(certificate revocation list) is used when a particular key is "
+#~ "compromised but when the overall PKI is still intact."
+#~ msgstr ""
+#~ "Controle il certificât dal grop cul file specificât in formât PEM. Un CRL "
+#~ "(liste di revochis dai certificâts) al ven doprât cuant che une clâf "
+#~ "particolâr e je comprometude ma il PKI al è ancjemò intat."
+
+#~ msgid "Verify CRL from directory"
+#~ msgstr "Verifiche CRL di cartele"
+
+#~ msgid ""
+#~ "Check peer certificate by looking at files in the specified directory. "
+#~ "The directory must contain files named as revoked serial numbers (the "
+#~ "files may be empty, the contents are never read)."
+#~ msgstr ""
+#~ "Controle il certificât dal grop cirint tai file de cartele specificade. "
+#~ "La cartele e scugne contignî file che par non a àn il numar seriâl "
+#~ "revocât (i file a puedin jessi vueits, i contignûts no vignaran mai lets)."
+
+#~ msgid "Choose CRL file"
+#~ msgstr "Sielç file CRL"
+
+#~ msgid "Choose CRL directory"
+#~ msgstr "Sielç cartele CRL"
+
+#~ msgid "Security"
+#~ msgstr "Sigurece"
+
+#~ msgid "_Subject Match:"
+#~ msgstr "Corispondence _ogjet:"
+
+#~ msgid ""
+#~ "Subject or Common Name to verify server certificate information against.\n"
+#~ "\n"
+#~ "config: verify-x509-name subject-or-name [mode]\n"
+#~ "config (legacy mode): tls-remote subject-or-name"
+#~ msgstr ""
+#~ "Ogjet o Non Comun che cun chel verificâ lis informazions dal certificât "
+#~ "dal servidôr.\n"
+#~ "\n"
+#~ "config: verify-x509-name subject-or-name [modalitât]\n"
+#~ "config (vecje maniere): tls-remote subject-or-name"
+
+#~ msgid "Server _Certificate Check:"
+#~ msgstr "Verifiche _certificât servidôr:"
+
+#~ msgid ""
+#~ "Verify server certificate identification.\n"
+#~ "\n"
+#~ "When enabled, connection will only succeed if the server certificate "
+#~ "matches some expected properties.\n"
+#~ "Matching can either apply to the whole certificate subject (all the "
+#~ "fields),\n"
+#~ "or just the Common Name (CN field).\n"
+#~ "\n"
+#~ "The legacy option tls-remote is deprecated and removed from Anyconnect "
+#~ "2.4 and newer. Do not use it anymore.\n"
+#~ "\n"
+#~ "config: verify-x509-name subject-or-name [mode]\n"
+#~ "config (legacy mode): tls-remote subject-or-name"
+#~ msgstr ""
+#~ "Verifiche la identificazion dal certificât dal servidôr.\n"
+#~ "\n"
+#~ "Cuant che al è abilitât, la conession e ven stabilide dome se il "
+#~ "certificât dal servidôr al corispuint a determinadis proprietâts.\n"
+#~ "La corispondence e pues jessi ancje sul intîr ogjet dal certificât (ducj "
+#~ "i cjamps),\n"
+#~ "o juste sul Non Comun (cjamp CN).\n"
+#~ "\n"
+#~ "La opzion vecje maniere tls-remote e je deplorade e gjavade di Anyconnect "
+#~ "2.4 e resints. No sta doprâle plui.\n"
+#~ "\n"
+#~ "config: verify-x509-name subject-or-name [modalitât]\n"
+#~ "config (vecje maniere): tls-remote subject-or-name"
+
+#~ msgid "Key _Direction:"
+#~ msgstr "_Direzion de clâf:"
+
+#~ msgid "Key _File:"
+#~ msgstr "_File clâf:"
+
+#~ msgid "Mode:"
+#~ msgstr "Modalitât:"
+
+#~ msgid "Extra Certificates:"
+#~ msgstr "Certificâts adizionâi:"
+
+#~ msgid "TLS Authentication"
+#~ msgstr "Autenticazion TLS"
+
+#~ msgid "Proxy _Type:"
+#~ msgstr "_Gjenar di proxy:"
+
+#~ msgid "Server _Address:"
+#~ msgstr "_Direzion servidôr:"
+
+#~ msgid "_Port:"
+#~ msgstr "_Puarte:"
+
+#~ msgid "Proxy _Username:"
+#~ msgstr "_Non utent dal proxy:"
+
+#~ msgid "Proxy Passwor_d:"
+#~ msgstr "_Password dal proxy:"
+
+#~ msgid "_Show password"
+#~ msgstr "_Mostre password"
+
+#~ msgid "Proxies"
+#~ msgstr "Proxy"
+
+#~ msgid "Connect timeout"
+#~ msgstr "Timp massim conession"
+
+#~ msgid "Misc"
+#~ msgstr "Altris"

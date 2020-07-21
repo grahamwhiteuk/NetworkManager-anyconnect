@@ -1,0 +1,533 @@
+# Punjabi translation of network-manager-openconnect.
+# Copyright (C) 2009 network-manager-openconnect's COPYRIGHT HOLDER
+# This file is distributed under the same license as the network-manager-openconnect package.
+#
+# A S Alam <aalam@users.sf.net>, 2009, 2010, 2012.
+msgid ""
+msgstr ""
+"Project-Id-Version: network-manager-openconnect master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-30 22:41+0100\n"
+"PO-Revision-Date: 2012-08-19 15:58+0530\n"
+"Last-Translator: A S Alam <aalam@users.sf.net>\n"
+"Language-Team: Punjabi/Panjabi <kde-i18n-doc@kde.org>\n"
+"Language: pa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.4\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:1
+#, fuzzy
+msgid "Anyconnect client"
+msgstr "Anyconnect"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:2
+msgid "Client for Anyconnect virtual private networks"
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:3
+msgid "Support for configuring Anyconnect virtual private network connections."
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:4
+msgid "Anyconnect is a popular and flexible free-software VPN solution."
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:5
+msgid "The NetworkManager Developers"
+msgstr ""
+
+#: ../properties/nm-anyconnect-editor-plugin.c:35
+#, fuzzy
+msgid "Cisco AnyConnect"
+msgstr "Anyconnect"
+
+#: ../properties/nm-anyconnect-editor-plugin.c:36
+#, fuzzy
+msgid "Runs the proprietary Cisco AnyConnect VPN."
+msgstr "Cisco AnyConnect SSL VPN ਨਾਲ ਅਨੁਕੂਲ।"
+
+#: ../properties/nm-anyconnect-editor.c:299
+msgid "could not load UI widget"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:946
+#, c-format
+msgid "object class '%s' has no property named '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:953
+#, c-format
+msgid "property '%s' of object class '%s' is not writable"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:960
+#, c-format
+msgid ""
+"construct property \"%s\" for object '%s' can't be set after construction"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:968
+#, c-format
+msgid "'%s::%s' is not a valid property name; '%s' is not a GObject subtype"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:977
+#, c-format
+msgid "unable to set property '%s' of type '%s' from value of type '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:988
+#, c-format
+msgid ""
+"value \"%s\" of type '%s' is invalid or out of range for property '%s' of "
+"type '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:69
+#, c-format
+msgid "unable to get editor plugin name: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:103
+#, c-format
+msgid "missing plugin file \"%s\""
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:109
+#, c-format
+msgid "cannot load editor plugin: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:118
+#, c-format
+msgid "cannot load factory %s from plugin: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:144
+msgid "unknown error creating editor instance"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:567 ../src/nm-anyconnect-service.c:682
+msgid "Could not find the anyconnect binary."
+msgstr "anyconnect ਬਾਈਨਰੀ ਨਹੀਂ ਲੱਭੀ ਨਹੀਂ ਜਾ ਸਕੀ।"
+
+#: ../src/nm-anyconnect-service.c:580
+msgid ""
+"Could not process the request because the VPN connection settings were "
+"invalid."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:602
+msgid ""
+"Could not attempt connection, unable to find the setting for the gateway."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:875
+#, fuzzy
+msgid "Don’t quit when VPN connection terminates"
+msgstr "ਜਦੋਂ VPN ਕੁਨੈਕਸ਼ਨ ਖਤਮ ਹੋਵੇ ਤਾਂ ਬੰਦ ਨਾ ਕਰੋ"
+
+#: ../src/nm-anyconnect-service.c:876
+msgid "Enable verbose debug logging (may expose passwords)"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:877
+msgid "D-Bus name to use for this instance"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:905
+#, fuzzy
+msgid ""
+"nm-anyconnect-service provides integrated proprietary Cisco AnyConnect "
+"capability to NetworkManager."
+msgstr ""
+"nm-anyconnect-service NetworkManager ਲਈ ਵਿਚੇ-ਉਪਲੱਬਧ ਓਪਨਵੀਪੀਐਨ (Anyconnect) "
+"ਸਮੱਰਥਾ ਦਿੰਦਾ ਹੈ।"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:1
+msgid "General"
+msgstr "ਆਮ"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:2
+msgid "_Gateway:"
+msgstr "ਗੇਟਵੇ(_G):"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:3
+msgid "VPN host to connect to"
+msgstr ""
+
+#~ msgid "_Password:"
+#~ msgstr "ਪਾਸਵਰਡ(_P):"
+
+#~ msgid "_Secondary Password:"
+#~ msgstr "ਸੈਕੰਡਰੀ ਪਾਸਵਰਡ(_S):"
+
+#~ msgid "Sh_ow passwords"
+#~ msgstr "ਪਾਸਵਰਡ ਵੇਖੋ(_o)"
+
+#, c-format
+#~ msgid "You need to authenticate to access the Virtual Private Network '%s'."
+#~ msgstr "ਤੁਹਾਨੂੰ ਵੁਰਚੁਅਲ ਪ੍ਰਾਈਵੇਟ ਨੈੱਟਵਰਕ (VPN) '%s' ਦੀ ਵਰਤੋਂ ਵਾਸਤੇ ਪਰਮਾਣਿਤ ਹੋਣ ਦੀ ਲੋੜ ਹੈ।"
+
+#~ msgid "Authenticate VPN"
+#~ msgstr "ਪਰਮਾਣਿਤ VPN"
+
+#~ msgid "Password:"
+#~ msgstr "ਪਾਸਵਰਡ:"
+
+#~| msgid "_CA Certificate:"
+#~ msgid "Certificate password:"
+#~ msgstr "ਸਰਟੀਫਿਕੇਟ ਪਾਸਵਰਡ:"
+
+#~| msgid "_CA Certificate:"
+#~ msgid "Certificate pass_word:"
+#~ msgstr "ਸਰਟੀਫਿਕੇਟ ਪਾਸਵਰਡ(_w):"
+
+#~ msgid "Choose your personal certificate..."
+#~ msgstr "ਆਪਣਾ ਨਿੱਜੀ ਸਰਟੀਫਿਕੇਟ ਚੁਣੋ।"
+
+#~ msgid "Choose your private key..."
+#~ msgstr "ਆਪਣੀ ਪ੍ਰਾਈਵੇਟ ਕੁੰਜੀ ਚੁਣੋ..."
+
+#~ msgid "Saved"
+#~ msgstr "ਸੰਭਾਲਿਆ"
+
+#~ msgid "Always Ask"
+#~ msgstr "ਹਮੇਸ਼ਾ ਪੁੱਛੋ"
+
+#~ msgid "Not Required"
+#~ msgstr "ਲੋੜੀਦਾ ਨਹੀਂ"
+
+#~ msgid "Choose a Certificate Authority certificate..."
+#~ msgstr "ਸਰਟੀਫਿਕੇਟ ਅਥਾਰਟੀ ਸਰਫੀਟਿਕੇਟ ਚੁਣੋ।"
+
+#~| msgid "Choose your private key..."
+#~ msgid "Choose an Anyconnect static key..."
+#~ msgstr "Anyconnect ਸਟੇਟਿਕ ਕੁੰਜੀ ਚੁਣੋ..."
+
+#~ msgid "None"
+#~ msgstr "ਕੋਈ ਨਹੀਂ"
+
+#~| msgid "PEM certificates (*.pem, *.crt, *.key)"
+#~ msgid "PEM or PKCS#12 certificates (*.pem, *.crt, *.key, *.cer, *.p12)"
+#~ msgstr "PEM ਜਾਂ PKCS#12 ਸਰਟੀਫਿਕੇਟ (*.pem, *.crt, *.key, *.cer, *.p12)"
+
+#~| msgid "PEM certificates (*.pem, *.crt, *.key)"
+#~ msgid "PEM certificates (*.pem, *.crt, *.key, *.cer)"
+#~ msgstr "PEM ਸਰਟੀਫਿਕੇਟ (*.pem, *.crt, *.key, *.cer)"
+
+#~ msgid "Anyconnect Static Keys (*.key)"
+#~ msgstr "Anyconnect ਸਟੇਟਿਕ ਕੁੰਜੀਆਂ (*.key)"
+
+#~ msgid "Default"
+#~ msgstr "ਡਿਫਾਲਟ"
+
+#~ msgid "RSA MD-4"
+#~ msgstr "RSA MD-4"
+
+#~ msgid "MD-5"
+#~ msgstr "MD-5"
+
+#~ msgid "SHA-1"
+#~ msgstr "SHA-1"
+
+#~ msgid "SHA-224"
+#~ msgstr "SHA-੨੨੪"
+
+#~ msgid "SHA-256"
+#~ msgstr "SHA-੨੫੬"
+
+#~ msgid "SHA-384"
+#~ msgstr "SHA-੩੮੪"
+
+#~ msgid "SHA-512"
+#~ msgstr "SHA-੫੧੨"
+
+#~ msgid "RIPEMD-160"
+#~ msgstr "RIPEMD-੧੬੦"
+
+#~ msgid "Not required"
+#~ msgstr "ਲੋੜੀਦਾ ਨਹੀਂ"
+
+#~ msgid "HTTP"
+#~ msgstr "HTTP"
+
+#~ msgid "SOCKS"
+#~ msgstr "SOCKS"
+
+#~ msgid "Compatible with the Anyconnect server."
+#~ msgstr "Anyconnect ਸਰਵਰ ਨਾਲ ਅਨੁਕੂਲ"
+
+#~| msgid "Certificate (TLS)"
+#~ msgid "Certificates (TLS)"
+#~ msgstr "ਸਰਟੀਫਿਕੇਟ (TLS)"
+
+#~| msgid "Password / SecurID"
+#~ msgid "Password"
+#~ msgstr "ਪਾਸਵਰਡ"
+
+#~| msgid "Certificate (TLS)"
+#~ msgid "Password with Certificates (TLS)"
+#~ msgstr "ਸਰਟੀਫਿਕੇਟ (TLS) ਨਾਲ ਪਾਸਵਰਡ"
+
+#~ msgid "Static Key"
+#~ msgstr "ਸਟੇਟਿਕ ਕੁੰਜੀ"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "Anyconnect Advanced Options"
+#~ msgstr "Anyconnect ਮਾਹਰ ਚੋਣਾਂ"
+
+#~ msgid "Use custom gateway p_ort:"
+#~ msgstr "ਕਸਟਮ ਗੇਟਵੇ ਪੋਰਟ ਵਰਤੋਂ(_o):"
+
+#~ msgid "Use custom _renegotiation interval:"
+#~ msgstr "ਪਸੰਦੀਦਾ ਰੀਨੈਗੋਸ਼ੀਏਸ਼ਨ ਅੰਤਰਾਲ ਵਰਤੋਂ(_r):"
+
+#~ msgid "Use L_ZO data compression"
+#~ msgstr "L_ZO ਡਾਟਾ ਕੰਪਰੈਸ਼ਨ ਵਰਤੋਂ"
+
+#~ msgid "Use a _TCP connection"
+#~ msgstr "_TCP ਕੁਨੈਕਸ਼ਨ ਵਰਤੋਂ"
+
+#~ msgid "Use a TA_P device"
+#~ msgstr "TA_P ਜੰਤਰ ਵਰਤੋਂ"
+
+#~ msgid "Use custom UDP _fragment size:"
+#~ msgstr "ਪਸੰਦੀਦਾ ਰੀਨੈਗੋਸ਼ੀਏਸ਼ਨ ਅੰਤਰਾਲ ਵਰਤੋਂ(_r):"
+
+#~ msgid "Ci_pher:"
+#~ msgstr "ਸੀਫ਼ਰ(_p):"
+
+#~ msgid "_HMAC Authentication:"
+#~ msgstr "_HMAC ਪਰਮਾਣਕਿਤਾ:"
+
+#~ msgid "Security"
+#~ msgstr "ਸੁਰੱਖਿਆ"
+
+#~ msgid "_Subject Match:"
+#~ msgstr "ਵਿਸ਼ਾ ਮੇਲ(_S):"
+
+#~ msgid ""
+#~ "<i>Connect only to servers whose certificate matches the given subject.\n"
+#~ "Example: /CN=myvpn.company.com</i>"
+#~ msgstr ""
+#~ "<i>ਕੇਵਲ ਸਰਵਰਾਂ ਨਾਲ ਕੁਨੈਕਟ ਕਰੋ, ਜਿਸ ਦੇ ਸਰਟੀਫਿਕੇਟ ਨਾਲ ਦਿੱਤਾ ਵਿਸ਼ਾ ਮਿਲਦਾ ਹੋਵੇ।\n"
+#~ "ਜਿਵੇਂ: /CN=myvpn.company.com</i>"
+
+#~ msgid ""
+#~ "<i>If key direction is used, it must be the opposite of that used on the "
+#~ "VPN peer.  For example, if the peer uses '1', this connection must use "
+#~ "'0'.  If you are unsure what value to use, contact your system "
+#~ "administrator.</i>"
+#~ msgstr ""
+#~ "<i>ਜੇ ਕੁੰਜੀ ਦਿਸ਼ਾ ਵਰਤੀ ਗਈ ਤਾਂ ਇਹ VPN ਪੀਅਰ ਲਈ ਵਰਤੋਂ ਦੇ ਉਲਟ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ। ਜਿਵੇਂ ਕਿ, ਜੇ "
+#~ "ਪੀਅਰ '1' ਵਰਤਦਾ ਹੈ ਤਾਂ ਇਹ ਕੁਨੈਕਸ਼ਨ '0' ਵਰਤਦਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ। ਜੇ ਤੁਸੀਂ ਇਸ ਦੇ ਮੁੱਲ ਵਰਤਣ "
+#~ "ਬਾਰੇ ਯਕੀਨੀ ਨਹੀਂ ਹੋ ਤਾਂ ਆਪਣੇ ਪਰਸ਼ਾਸ਼ਕ ਨਾਲ ਸੰਪਰਕ ਕਰੋ।</i>"
+
+#~ msgid "Key _File:"
+#~ msgstr "ਕੁੰਜੀ ਫਾਇਲ(_F):"
+
+#~ msgid "TLS Authentication"
+#~ msgstr "TLS ਪਰਮਾਣਕਿਤਾ"
+
+#~| msgid "_Proxy:"
+#~ msgid "Proxy _Type:"
+#~ msgstr "ਪਰਾਕਸੀ ਕਿਸਮ(_t):"
+
+#~ msgid ""
+#~ "<i>Select this option if your organization requires the use of a proxy "
+#~ "server to access the Internet.</i>"
+#~ msgstr ""
+#~ "<i>ਇਹ ਚੋਣ ਕਰੋ, ਜੇ ਤੁਹਾਡੇ ਸੰਗਠਨ ਵਿੱਚ ਇੰਟਰਨੈੱਟ ਵਰਤਣ ਲਈ ਪਰਾਕਸੀ ਸਰਵਰ ਵਰਤਣ ਦੀ ਲੋੜ ਹੈ।</i>"
+
+#~ msgid "Server _Address:"
+#~ msgstr "ਸਰਵਰ ਐਡਰੈੱਸ(_A):"
+
+#~ msgid "_Port:"
+#~ msgstr "ਪੋਰਟ(_P):"
+
+#~| msgid "User name:"
+#~ msgid "Proxy _Username:"
+#~ msgstr "ਪਰਾਕਸੀ ਯੂਜ਼ਰ ਨਾਂ(_U):"
+
+#~ msgid "Proxy Passwor_d:"
+#~ msgstr "ਪਰਾਸਕੀ ਪਾਸਵਰਡ(_d):"
+
+#~ msgid "_Show password"
+#~ msgstr "ਪਾਸਵਰਡ ਵੇਖੋ(_S)"
+
+#~ msgid "Proxies"
+#~ msgstr "ਪਰਾਕਸੀ"
+
+#~ msgid "<b>General</b>"
+#~ msgstr "<b>ਆਮ</b>"
+
+#~| msgid "<b>Certificate Authentication</b>"
+#~ msgid "<b>Authentication</b>"
+#~ msgstr "<b>ਪਰਮਾਣਕਿਤਾ</b>"
+
+#~ msgid "_Show passwords"
+#~ msgstr "ਪਾਸਵਰਡ ਵੇਖੋ(_S)"
+
+#~| msgid "Choose your private key..."
+#~ msgid "Password for private key"
+#~ msgstr "ਪ੍ਰਾਈਵੇਟ ਕੁੰਜੀ ਲਈ ਪਾਸਵਰਡ"
+
+#~| msgid "Private _Key:"
+#~ msgid "Private Key Password:"
+#~ msgstr "ਪ੍ਰਾਈਵੇਟ ਕੁੰਜੀ ਪਾਸਵਰਡ:"
+
+#~| msgid "Private _Key:"
+#~ msgid "Private Key:"
+#~ msgstr "ਪ੍ਰਾਈਵੇਟ ਕੁੰਜੀ:"
+
+#~| msgid "_CA Certificate:"
+#~ msgid "CA Certificate:"
+#~ msgstr "CA ਸਰਟੀਫਕੇਟ:"
+
+#~| msgid "_User Certificate:"
+#~ msgid "User Certificate:"
+#~ msgstr "ਯੂਜ਼ਰ ਸਰਟੀਫਿਕੇਟ:"
+
+#~ msgid ""
+#~ "Password passed to Anyconnect when prompted for it.\n"
+#~ "config: auth-user-pass"
+#~ msgstr ""
+#~ "ਜਦੋਂ ਪੁੱਛਿਆ ਜਾਵੇ ਤਾਂ Anyconnect ਲਈ ਪਾਸਵਰਡ ਦਿਉ।\n"
+#~ "ਸੰਰਚਨਾ: auth-user-pass"
+
+#~ msgid "User name:"
+#~ msgstr "ਯੂਜ਼ਰ ਨਾਂ:"
+
+#~ msgid ""
+#~ "Username passed to Anyconnect when prompted for it.\n"
+#~ "config: auth-user-pass"
+#~ msgstr ""
+#~ "ਜਦੋਂ ਪੁੱਛਿਆ ਜਾਵੇ ਤਾਂ Anyconnect ਲਈ ਯੂਜ਼ਰ-ਨਾਂ ਦਿਉ।\n"
+#~ "ਸੰਰਚਨਾ: auth-user-pass"
+
+#~ msgid "Remote IP Address:"
+#~ msgstr "ਰਿਮੋਟ IP ਐਡਰੈੱਸ:"
+
+#~ msgid "Local IP Address:"
+#~ msgstr "ਲੋਕਲ IP ਐਡਰੈੱਸ:"
+
+#~ msgid ""
+#~ "IP address of the remote VPN endpoint.\n"
+#~ "config: ifconfig <l> <rn>"
+#~ msgstr ""
+#~ "ਰਿਮੋਟ VPN ਐਂਡ-ਪੁਆਇੰਟ ਲਈ IP ਐਡਰੈਸ।\n"
+#~ "ਸੰਰਚਨਾ: ifconfig <l> <rn>"
+
+#~ msgid "Key Direction:"
+#~ msgstr "ਕੁੰਜੀ ਦਿਸ਼ਾ:"
+
+#~ msgid "Static Key:"
+#~ msgstr "ਸਟੇਟਿਕ ਕੁੰਜੀ:"
+
+#~ msgid "Type:"
+#~ msgstr "ਟਾਈਪ:"
+
+#~ msgid "Select an authentication mode."
+#~ msgstr "ਪਰਮਾਣਕਿਤਾ ਢੰਗ ਚੁਣੋ।"
+
+#~ msgid "Ad_vanced..."
+#~ msgstr "...ਮਾਹਰ(_v)"
+
+#, c-format
+#~ msgid "invalid address '%s'"
+#~ msgstr "ਗਲਤ ਐਡਰੈੱਸ '%s'"
+
+#, c-format
+#~ msgid "invalid integer property '%s' or out of range [%d -> %d]"
+#~ msgstr "ਗਲਤ ਪੂਰਨ-ਅੰਕ ਵਿਸ਼ੇਸ਼ਤਾ '%s' ਜਾਂ [%d -> %d] ਹੱਦ ਤੋਂ ਬਾਹਰ"
+
+#, c-format
+#~ msgid "invalid boolean property '%s' (not yes or no)"
+#~ msgstr "ਗਲਤ ਬੁਲੀਅਨ ਵਿਸ਼ੇਸ਼ਤਾ '%s' (ਹਾਂ ਜਾਂ ਨਹੀਂ ਨਹੀਂ)"
+
+#, c-format
+#~ msgid "unhandled property '%s' type %s"
+#~ msgstr "ਨਾ-ਹੈਂਡਲ ਵਿਸ਼ੇਸ਼ਤਾ '%s' ਕਿਸਮ %s"
+
+#, c-format
+#~ msgid "property '%s' invalid or not supported"
+#~ msgstr "ਵਿਸ਼ੇਸ਼ਤਾ '%s' ਗਲਤ ਹੈ ਜਾਂ ਸਹਾਇਕ ਨਹੀਂ ਹੈ"
+
+#~ msgid "No VPN configuration options."
+#~ msgstr "ਕੋਈ VPN ਸੰਰਚਨਾ ਚੋਣਾਂ ਨਹੀਂ।"
+
+#~ msgid "No VPN secrets!"
+#~ msgstr "ਕੋਈ VPN ਭੇਦ ਨਹੀਂ!"
+
+#~ msgid "Invalid connection type."
+#~ msgstr "ਗਲਤ ਕੁਨੈਕਸ਼ਨ ਕਿਸਮ ਹੈ।"
+
+#, c-format
+#~| msgid "unhandled property '%s' type %s"
+#~ msgid "Invalid proxy type '%s'."
+#~ msgstr "ਗਲਤ ਪਰਾਕਸੀ ਕਿਸਮ '%s' ਹੈ।"
+
+#, c-format
+#~ msgid "Invalid port number '%s'."
+#~ msgstr "ਗਲਤ ਪੋਰਟ ਨੰਬਰ '%s'।"
+
+#, c-format
+#~ msgid "Unknown connection type '%s'."
+#~ msgstr "ਅਣਜਾਣ ਕੁਨੈਕਸ਼ਨ ਕਿਸਮ '%s'"
+
+#~ msgid ""
+#~ "Certificate from VPN server \"%s\" failed verification.\n"
+#~ "Reason: %s\n"
+#~ "Do you want to accept it?"
+#~ msgstr ""
+#~ "VPN ਸਰਵਰ \"%s\" ਤੋਂ ਸਰਟੀਫਿਕੇਟ ਦੀ ਜਾਂਚ ਫੇਲ੍ਹ ਹੋਈ।\n"
+#~ "ਕਾਰਨ: %s\n"
+#~ "ਕੀ ਤੁਸੀਂ ਇਹ ਮਨਜ਼ੂਰ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#~ msgid "VPN host"
+#~ msgstr "VPN ਹੋਸਟ"
+
+#~ msgid "Automatically start connecting next time"
+#~ msgstr "ਅਗਲੀ ਵਾਰ ਆਪਣੇ-ਆਪ ਹੀ ਕੁਨੈਕਟ ਕਰਨਾ ਸ਼ੁਰੂ ਕਰੋ"
+
+#~ msgid "Select a host to fetch the login form"
+#~ msgstr "ਲਾਗ ਫਾਰਮ ਲੈਣ ਲਈ ਹੋਸਟ ਚੁਣੋ"
+
+#~ msgid "Contacting host, please wait..."
+#~ msgstr "ਹੋਸਟ ਨਾਲ ਸੰਪਰਕ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ, ਉਡੀਕੋ ਜੀ..."
+
+#~ msgid "_Login"
+#~ msgstr "ਲਾਗਇਨ(_L)"
+
+#~ msgid "Log"
+#~ msgstr "ਲਾਗ"
+
+#~ msgid "Cisco AnyConnect Compatible VPN (openconnect)"
+#~ msgstr "Cisco ਐਨੀ-ਕੁਨੈਕਟ ਅਨੁਕੂਲ VPN (openconnect)"
+
+#~ msgid "Allow Cisco Secure Desktop _trojan"
+#~ msgstr "ਸਿਸਕੋ ਸੁਰੱਖਿਅਤ ਡੈਸਕਟਾਪ ਟਰੋਜਨ ਮਨਜ਼ੂਰ(_t)"
+
+#~ msgid "CSD _Wrapper Script:"
+#~ msgstr "CSD _Wrapper ਸਕ੍ਰਿਪਟ:"
+
+#~ msgid "Select A File"
+#~ msgstr "ਫਾਇਲ ਚੁਣੋ"
+
+#~ msgid "Use _FSID for key passphrase"
+#~ msgstr "ਕੁੰਜੀ ਪ੍ਹੈਰੇ ਲਈ _FSID ਵਰਤੋਂ"
+
+#~ msgid "No VPN gateway specified."
+#~ msgstr "ਕੋਈ VPN ਗੇਟਵੇ ਦਿੱਤਾ ਗਿਆ ਹੈ।"
+
+#~ msgid "No WebVPN cookie provided."
+#~ msgstr "ਕੋਈ WebVPN ਕੂਕੀਜ਼ ਨਹੀਂ ਦਿੱਤਾ।"
+
+#~ msgid "Certificate (TLS) with TPM"
+#~ msgstr "TPM ਨਾਲ ਸਰਟੀਫਿਕੇਟ (TLS)"

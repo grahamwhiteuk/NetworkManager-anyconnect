@@ -1,0 +1,508 @@
+# Vietnamese translation for Network Manager Open VPN.
+# Copyright © 2008 Free Software Foundation, Inc.
+# Clytie Siddall <clytie@riverland.net.au>, 2006-2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: NetworkManager-anyconnect GNOME TRUNK\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-30 22:41+0100\n"
+"PO-Revision-Date: 2008-06-06 14:34+0930\n"
+"Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
+"Language-Team: Vietnamese <vi-VN@googlegroups.com>\n"
+"Language: vi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: LocFactoryEditor 1.7b3\n"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:1
+#, fuzzy
+msgid "Anyconnect client"
+msgstr "Ứng dụng khách Anyconnect"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:2
+msgid "Client for Anyconnect virtual private networks"
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:3
+msgid "Support for configuring Anyconnect virtual private network connections."
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:4
+msgid "Anyconnect is a popular and flexible free-software VPN solution."
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:5
+msgid "The NetworkManager Developers"
+msgstr ""
+
+#: ../properties/nm-anyconnect-editor-plugin.c:35
+#, fuzzy
+msgid "Cisco AnyConnect"
+msgstr "Ứng dụng khách Anyconnect"
+
+#: ../properties/nm-anyconnect-editor-plugin.c:36
+msgid "Runs the proprietary Cisco AnyConnect VPN."
+msgstr ""
+
+#: ../properties/nm-anyconnect-editor.c:299
+msgid "could not load UI widget"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:946
+#, c-format
+msgid "object class '%s' has no property named '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:953
+#, c-format
+msgid "property '%s' of object class '%s' is not writable"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:960
+#, c-format
+msgid ""
+"construct property \"%s\" for object '%s' can't be set after construction"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:968
+#, c-format
+msgid "'%s::%s' is not a valid property name; '%s' is not a GObject subtype"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:977
+#, c-format
+msgid "unable to set property '%s' of type '%s' from value of type '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:988
+#, c-format
+msgid ""
+"value \"%s\" of type '%s' is invalid or out of range for property '%s' of "
+"type '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:69
+#, c-format
+msgid "unable to get editor plugin name: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:103
+#, c-format
+msgid "missing plugin file \"%s\""
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:109
+#, c-format
+msgid "cannot load editor plugin: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:118
+#, c-format
+msgid "cannot load factory %s from plugin: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:144
+msgid "unknown error creating editor instance"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:567 ../src/nm-anyconnect-service.c:682
+msgid "Could not find the anyconnect binary."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:580
+msgid ""
+"Could not process the request because the VPN connection settings were "
+"invalid."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:602
+msgid ""
+"Could not attempt connection, unable to find the setting for the gateway."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:875
+msgid "Don’t quit when VPN connection terminates"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:876
+msgid "Enable verbose debug logging (may expose passwords)"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:877
+msgid "D-Bus name to use for this instance"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:905
+msgid ""
+"nm-anyconnect-service provides integrated proprietary Cisco AnyConnect "
+"capability to NetworkManager."
+msgstr ""
+
+#: ../properties/nm-anyconnect-dialog.ui.h:1
+msgid "General"
+msgstr ""
+
+#: ../properties/nm-anyconnect-dialog.ui.h:2
+#, fuzzy
+msgid "_Gateway:"
+msgstr "Cổn_g là cổng ra:"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:3
+msgid "VPN host to connect to"
+msgstr ""
+
+#, fuzzy, c-format
+#~ msgid "Authenticate VPN %s"
+#~ msgstr "Xác thực VPN"
+
+#, fuzzy
+#~ msgid "Password:"
+#~ msgstr "_Mật khẩu :"
+
+#~ msgid "Certificate password:"
+#~ msgstr "Mật khẩu chứng nhận:"
+
+#~ msgid "Authenticate VPN"
+#~ msgstr "Xác thực VPN"
+
+#~ msgid "Certificate pass_word:"
+#~ msgstr "Mật _khẩu chứng nhận:"
+
+#, c-format
+#~ msgid "You need to authenticate to access the Virtual Private Network '%s'."
+#~ msgstr "Bạn cần phải xác thực để truy cập Mạng Riêng Ảo (VPN) « %s »."
+
+#, fuzzy
+#~ msgid "Default"
+#~ msgstr "(Mặc định: 1194)"
+
+#, fuzzy
+#~ msgid "Client"
+#~ msgstr "Ứng dụng khách Anyconnect"
+
+#~ msgid "TUN"
+#~ msgstr "TUN"
+
+#~ msgid "TAP"
+#~ msgstr "TAP"
+
+#, fuzzy
+#~ msgid "Certificates (TLS)"
+#~ msgstr "C_hứng nhận:"
+
+#, fuzzy
+#~ msgid "Password"
+#~ msgstr "_Mật khẩu :"
+
+#, fuzzy
+#~ msgid "not a valid Anyconnect configuration file"
+#~ msgstr "Cấu hình Anyconnect"
+
+#, fuzzy
+#~ msgid "_Show passwords"
+#~ msgstr "_Mật khẩu :"
+
+#, fuzzy
+#~ msgid "Private Key Password:"
+#~ msgstr "Mật khẩu chứng nhận:"
+
+#, fuzzy
+#~ msgid "CA Certificate:"
+#~ msgstr "C_hứng nhận:"
+
+#, fuzzy
+#~ msgid "User Certificate:"
+#~ msgstr "C_hứng nhận:"
+
+#, fuzzy
+#~ msgid "User name:"
+#~ msgstr "_Tên người dùng:"
+
+#, fuzzy
+#~ msgid "Remote IP Address:"
+#~ msgstr "IP ở _xa:"
+
+#, fuzzy
+#~ msgid "Local IP Address:"
+#~ msgstr "IP cục bộ : %s"
+
+#, fuzzy
+#~ msgid "Key Direction:"
+#~ msgstr "Hướng:"
+
+#, fuzzy
+#~ msgid "Ad_vanced..."
+#~ msgstr "Cấp ca_o"
+
+#~ msgid "Anyconnect Advanced Options"
+#~ msgstr "Tùy chọn cấp cao Anyconnect"
+
+#, fuzzy
+#~ msgid "Use custom gateway p_ort:"
+#~ msgstr "Cổn_g là cổng ra:"
+
+#, fuzzy
+#~ msgid "Use L_ZO data compression"
+#~ msgstr "Nén bằng L_ZO"
+
+#, fuzzy
+#~ msgid ""
+#~ "Use fast LZO compression.\n"
+#~ "config: comp-lzo"
+#~ msgstr "Nén bằng LZO: %s"
+
+#, fuzzy
+#~ msgid "Use a _TCP connection"
+#~ msgstr "Dùng kết nối _TCP"
+
+#, fuzzy
+#~ msgid "Ci_pher:"
+#~ msgstr "Mật mã: %s"
+
+#, fuzzy
+#~ msgid "Key _Direction:"
+#~ msgstr "Hướng:"
+
+#, fuzzy
+#~ msgid "TLS Authentication"
+#~ msgstr "Xác thực VPN"
+
+#, fuzzy
+#~ msgid "_Port:"
+#~ msgstr "Cổng: %s"
+
+#, fuzzy
+#~ msgid "Proxy _Username:"
+#~ msgstr "_Tên người dùng:"
+
+#, fuzzy
+#~ msgid "Proxy Passwor_d:"
+#~ msgstr "_Mật khẩu :"
+
+#, fuzzy
+#~ msgid "_Show password"
+#~ msgstr "_Mật khẩu :"
+
+#, fuzzy
+#~ msgid "No VPN configuration options."
+#~ msgstr "Cấu hình Anyconnect"
+
+#, fuzzy
+#~ msgid "Invalid connection type."
+#~ msgstr "Kiểu kết _nối:"
+
+#, fuzzy, c-format
+#~ msgid "Unknown connection type '%s'."
+#~ msgstr "Kiểu kết _nối:"
+
+#~ msgid "_Secondary Password:"
+#~ msgstr "Mật khẩu _phụ :"
+
+#~ msgid "_Domain:"
+#~ msgstr "_Miền:"
+
+#~ msgid "Connect _anonymously"
+#~ msgstr "Kết nối nặc d_anh"
+
+#~ msgid "Connect as _user:"
+#~ msgstr "Kết nối _với tư cách người dùng:"
+
+#~ msgid "_Remember password for this session"
+#~ msgstr "Nhớ mật khẩu cho _buổi hợp này"
+
+#~ msgid "_Save password in keyring"
+#~ msgstr "_Lưu mật khẩu trong vòng khoá"
+
+#~ msgid "The following Anyconnect connection will be created:"
+#~ msgstr "Kết nối Anyconnect này sẽ được tạo :"
+
+#~ msgid "Name:  %s"
+#~ msgstr "Tên: %s"
+
+#~ msgid "Connection Type: X.509 Certificates"
+#~ msgstr "Kiểu kết nối: chứng nhận X.509"
+
+#~ msgid "CA:  %s"
+#~ msgstr "Nhà cầm quyền chứng nhận: %s"
+
+#~ msgid "Cert:  %s"
+#~ msgstr "Chứng nhận: %s"
+
+#~ msgid "Key:  %s"
+#~ msgstr "Khoá: %s"
+
+#~ msgid "Connection Type: Shared Key"
+#~ msgstr "Kiểu kết nối: khoá chia sẻ"
+
+#~ msgid "Shared Key:  %s"
+#~ msgstr "Khoá chia sẻ: %s"
+
+#~ msgid "Remote IP:  %s"
+#~ msgstr "IP ở xa: %s"
+
+#~ msgid "Connection Type: Password"
+#~ msgstr "Kiểu kết nối: mật khẩu"
+
+#~ msgid "Username:  %s"
+#~ msgstr "Tên người dùng: %s"
+
+#~ msgid "Connection Type: X.509 with Password Authentication"
+#~ msgstr "Kiểu kết nối: X.509 và xác thực mật khẩu"
+
+#~ msgid "Remote:  %s"
+#~ msgstr "Ở xa: %s"
+
+#~ msgid "Device: %s"
+#~ msgstr "Thiết bị: %s"
+
+#~ msgid "Protocol: %s"
+#~ msgstr "Giao thức: %s"
+
+#~ msgid "TCP"
+#~ msgstr "TCP"
+
+#~ msgid "UDP"
+#~ msgstr "UDP"
+
+#~ msgid "Routes:  %s"
+#~ msgstr "Tuyến: %s"
+
+#~ msgid "Yes"
+#~ msgstr "Có"
+
+#~ msgid "No"
+#~ msgstr "Không"
+
+#~ msgid "TLS auth:  %s %s"
+#~ msgstr "Xác thực TLS: %s %s"
+
+#~ msgid "The connection details can be changed using the \"Edit\" button."
+#~ msgstr "Chi tiết kết nối có thể được sửa đổi dùng nút « Sửa »."
+
+#~ msgid "Cannot import settings"
+#~ msgstr "Không thể nhập thiết lập"
+
+#~ msgid "The VPN settings file '%s' does not contain valid data."
+#~ msgstr "Tập tin thiết lập VPN « %s » không chứa dữ liệu hợp lệ."
+
+#~ msgid "Select file to import"
+#~ msgstr "Chọn tập tin cần nhập vào"
+
+#~ msgid "Select CA to use"
+#~ msgstr "Chọn nhà cầm quyền chứng nhận (CA) cần dùng"
+
+#~ msgid "Select certificate to use"
+#~ msgstr "Chọn chứng nhận cần dùng"
+
+#~ msgid "Select key to use"
+#~ msgstr "Chọn khoá cần dùng"
+
+#~ msgid "Select shared key to use"
+#~ msgstr "Chọn khoá chia sẻ cần dùng"
+
+#~ msgid "Select TA to use"
+#~ msgstr "Chọn TA cần dùng"
+
+#~ msgid "Save as..."
+#~ msgstr "Lưu dạng..."
+
+#~ msgid "A file named \"%s\" already exists."
+#~ msgstr "Một tập tin tên « %s » đã có."
+
+#~ msgid "Do you want to replace it with the one you are saving?"
+#~ msgstr "Bạn có muốn thay thế nó bằng tập tin đang lưu không?"
+
+#~ msgid "Failed to export configuration"
+#~ msgstr "Lỗi xuất cấu hình"
+
+#~ msgid "Failed to save file %s"
+#~ msgstr "Lỗi lưu tập tin %s"
+
+#~ msgid "65536"
+#~ msgstr "65536"
+
+#~ msgid "<i>example: 172.16.0.0/16 10.11.12.0/24</i>"
+#~ msgstr "<i>v.d.: 172.16.0.0/16 10.11.12.0/24</i>"
+
+#~ msgid "C_A file:"
+#~ msgstr "Tập tin nhà cầm _quyền chứng nhận:"
+
+#~ msgid "Connection na_me:"
+#~ msgstr "Tên _kết nối:"
+
+#~ msgid "Import _Saved Configuration..."
+#~ msgstr "Nhập cấu hình đã _lưu..."
+
+#~ msgid ""
+#~ "Name used to identify the connection to the private network, e.g. "
+#~ "\"Campus VPN\" or \"Corporate Network\""
+#~ msgstr ""
+#~ "Tên dùng để nhận diện kết nối cho mạng riêng, v.d. « VPN đại học » hay « "
+#~ "Mạng công ty »."
+
+#~ msgid "Network"
+#~ msgstr "Mạng"
+
+#~ msgid "Only use _VPN connection for these addresses:"
+#~ msgstr "Chỉ dùng kết nối _VPN cho những địa chỉ này:"
+
+#~ msgid ""
+#~ "Please enter the information provided by your system administrator below. "
+#~ "Do not enter your password here as you will be prompted when connecting."
+#~ msgstr ""
+#~ "Hãy gõ dưới đây thông tin được cung cấp bởi nhà quản trị hệ thống. Đừng "
+#~ "gõ mật khẩu vào đây: bạn sẽ được nhắc gõ nó trong khi kết nối."
+
+#~ msgid ""
+#~ "Please note that the file you import is not an Anyconnect configuration "
+#~ "file. Ask your administrator for the file."
+#~ msgstr ""
+#~ "Ghi chú : tập tin nhập vào không phải là tập tin cấu hình Anyconnect. Hãy "
+#~ "xin nhà quản trị hệ thống cung cấp tập tin đó."
+
+#~ msgid "Shared _key:"
+#~ msgstr "_Khoá chia sẻ:"
+
+#~ msgid "TLS-Auth"
+#~ msgstr "XácT-TLS"
+
+#~ msgid "Use TA_P device"
+#~ msgstr "Dùng thiết bị TA_P"
+
+#~ msgid "Use _TLS auth:"
+#~ msgstr "Dùng xác thực ĐTLS:"
+
+#~ msgid "Use cip_her:"
+#~ msgstr "Dùng _mật mã:"
+
+#~ msgid ""
+#~ "X.509 Certificates\n"
+#~ "Pre-shared key\n"
+#~ "Password Authentication\n"
+#~ "X.509 with Password Authentication"
+#~ msgstr ""
+#~ "Chứng nhận X.509\n"
+#~ "Khoá chia sẻ sẵn\n"
+#~ "Xác thực bằng mật khẩu\n"
+#~ "X.509 và xác thực bằng mật khẩu"
+
+#~ msgid "_0"
+#~ msgstr "_0"
+
+#~ msgid "_1"
+#~ msgstr "_1"
+
+#~ msgid "_Gateway address:"
+#~ msgstr "Địa chỉ cổn_g ra:"
+
+#~ msgid "_Key:"
+#~ msgstr "_Phím:"
+
+#~ msgid "_Local IP:"
+#~ msgstr "IP cục _bộ :"
+
+#~ msgid "_none"
+#~ msgstr "khô_ng có"

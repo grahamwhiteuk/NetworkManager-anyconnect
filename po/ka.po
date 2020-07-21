@@ -1,0 +1,545 @@
+# translation of NetworkManager-anyconnect.HEAD.po to Georgian
+# Vladimer Sichinava ვლადიმერ სიჭინავა <vsichi@gnome.org>, 2007.
+# Malkhaz Barkalaya მალზახ ბარკალაია <malxaz@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: NetworkManager-anyconnect.HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-30 22:41+0100\n"
+"PO-Revision-Date: 2007-03-07 01:02+0100\n"
+"Last-Translator: Vladimer Sichinava ვლადიმერ სიჭინავა <vsichi@gnome.org>\n"
+"Language-Team: Georgian <http://mail.gnome.org/mailman/listinfo/gnome-ge-"
+"list>\n"
+"Language: ka\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:1
+#, fuzzy
+msgid "Anyconnect client"
+msgstr "Anyconnect-კლიენტი"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:2
+msgid "Client for Anyconnect virtual private networks"
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:3
+msgid "Support for configuring Anyconnect virtual private network connections."
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:4
+msgid "Anyconnect is a popular and flexible free-software VPN solution."
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:5
+msgid "The NetworkManager Developers"
+msgstr ""
+
+#: ../properties/nm-anyconnect-editor-plugin.c:35
+#, fuzzy
+msgid "Cisco AnyConnect"
+msgstr "Anyconnect-კლიენტი"
+
+#: ../properties/nm-anyconnect-editor-plugin.c:36
+msgid "Runs the proprietary Cisco AnyConnect VPN."
+msgstr ""
+
+#: ../properties/nm-anyconnect-editor.c:299
+msgid "could not load UI widget"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:946
+#, c-format
+msgid "object class '%s' has no property named '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:953
+#, c-format
+msgid "property '%s' of object class '%s' is not writable"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:960
+#, c-format
+msgid ""
+"construct property \"%s\" for object '%s' can't be set after construction"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:968
+#, c-format
+msgid "'%s::%s' is not a valid property name; '%s' is not a GObject subtype"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:977
+#, c-format
+msgid "unable to set property '%s' of type '%s' from value of type '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:988
+#, c-format
+msgid ""
+"value \"%s\" of type '%s' is invalid or out of range for property '%s' of "
+"type '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:69
+#, c-format
+msgid "unable to get editor plugin name: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:103
+#, c-format
+msgid "missing plugin file \"%s\""
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:109
+#, c-format
+msgid "cannot load editor plugin: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:118
+#, c-format
+msgid "cannot load factory %s from plugin: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:144
+msgid "unknown error creating editor instance"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:567 ../src/nm-anyconnect-service.c:682
+msgid "Could not find the anyconnect binary."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:580
+#, fuzzy
+msgid ""
+"Could not process the request because the VPN connection settings were "
+"invalid."
+msgstr "VPN-ში შესვლა ვერ მოხერხდა - არასწორია VPN-კონფიგურაციის პარამეტრები."
+
+#: ../src/nm-anyconnect-service.c:602
+msgid ""
+"Could not attempt connection, unable to find the setting for the gateway."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:875
+msgid "Don’t quit when VPN connection terminates"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:876
+msgid "Enable verbose debug logging (may expose passwords)"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:877
+msgid "D-Bus name to use for this instance"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:905
+msgid ""
+"nm-anyconnect-service provides integrated proprietary Cisco AnyConnect "
+"capability to NetworkManager."
+msgstr ""
+
+#: ../properties/nm-anyconnect-dialog.ui.h:1
+msgid "General"
+msgstr ""
+
+#: ../properties/nm-anyconnect-dialog.ui.h:2
+#, fuzzy
+msgid "_Gateway:"
+msgstr "_რაბის პორტი:"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:3
+msgid "VPN host to connect to"
+msgstr ""
+
+#, fuzzy, c-format
+#~ msgid "Authenticate VPN %s"
+#~ msgstr "VPN-ავტორიზაცია"
+
+#, fuzzy
+#~ msgid "Password:"
+#~ msgstr "_პაროლი:"
+
+#~ msgid "Certificate password:"
+#~ msgstr "სერტიფიკატის პაროლი:"
+
+#~ msgid "Authenticate VPN"
+#~ msgstr "VPN-ავტორიზაცია"
+
+#~ msgid "Certificate pass_word:"
+#~ msgstr "_სერტიფიკატის პაროლი:"
+
+#, c-format
+#~ msgid "You need to authenticate to access the Virtual Private Network '%s'."
+#~ msgstr "VPN '%s' ითხოვს ავტორიზაციას."
+
+#~ msgid "VPN Connection Manager (Anyconnect)"
+#~ msgstr "VPN-შეერთებების მენეჯერი (Anyconnect)"
+
+#~ msgid "Add, Remove, and Edit VPN Connections"
+#~ msgstr "VPN-შეერთების დამატება, მოხსნა და რედაქტირება"
+
+#, fuzzy
+#~ msgid "Default"
+#~ msgstr "(ნაგულისხმევი: 1194)"
+
+#, fuzzy
+#~ msgid "Client"
+#~ msgstr "Anyconnect-კლიენტი"
+
+#~ msgid "TUN"
+#~ msgstr "TUN"
+
+#~ msgid "TAP"
+#~ msgstr "TAP"
+
+#, fuzzy
+#~ msgid "Certificates (TLS)"
+#~ msgstr "სერტიფიკატი:"
+
+#~ msgid "Password"
+#~ msgstr "პაროლი"
+
+#, fuzzy
+#~ msgid "<b>General</b>"
+#~ msgstr "<b>საჭიროა</b>"
+
+#, fuzzy
+#~ msgid "<b>Authentication</b>"
+#~ msgstr "<b>შეერთების სახელი</b>"
+
+#, fuzzy
+#~ msgid "_Show passwords"
+#~ msgstr "_პაროლი:"
+
+#, fuzzy
+#~ msgid "Private Key Password:"
+#~ msgstr "სერტიფიკატის პაროლი:"
+
+#, fuzzy
+#~ msgid "Private Key:"
+#~ msgstr "ზიარი გასაღები:"
+
+#, fuzzy
+#~ msgid "CA Certificate:"
+#~ msgstr "სერტიფიკატი:"
+
+#, fuzzy
+#~ msgid "User Certificate:"
+#~ msgstr "სერტიფიკატი:"
+
+#, fuzzy
+#~ msgid "User name:"
+#~ msgstr "მომხმარებლის სახელი:"
+
+#, fuzzy
+#~ msgid "Remote IP Address:"
+#~ msgstr "დისტანციური IP:"
+
+#, fuzzy
+#~ msgid "Local IP Address:"
+#~ msgstr "ლოკალური IP:"
+
+#, fuzzy
+#~ msgid "Key Direction:"
+#~ msgstr "მიმართულება:"
+
+#, fuzzy
+#~ msgid "Static Key:"
+#~ msgstr "ზიარი გასაღები:"
+
+#, fuzzy
+#~ msgid "Use custom gateway p_ort:"
+#~ msgstr "_რაბის პორტი:"
+
+#, fuzzy
+#~ msgid "Use L_ZO data compression"
+#~ msgstr "LZO-კუმშვის გამოყენება"
+
+#, fuzzy
+#~ msgid ""
+#~ "Use fast LZO compression.\n"
+#~ "config: comp-lzo"
+#~ msgstr "LZO-კუმშვის გამოყენება"
+
+#, fuzzy
+#~ msgid "Use a _TCP connection"
+#~ msgstr "TCP შეერთების გამოყენება"
+
+#, fuzzy
+#~ msgid "Ci_pher:"
+#~ msgstr "ციფრი: %s"
+
+#, fuzzy
+#~ msgid "Key _Direction:"
+#~ msgstr "მიმართულება:"
+
+#, fuzzy
+#~ msgid "TLS Authentication"
+#~ msgstr "VPN-ავტორიზაცია"
+
+#, fuzzy
+#~ msgid "Server _Address:"
+#~ msgstr "_რაბის მისამართი"
+
+#, fuzzy
+#~ msgid "_Port:"
+#~ msgstr "პორტი: %s"
+
+#, fuzzy
+#~ msgid "Proxy _Username:"
+#~ msgstr "_მომხმარებელი:"
+
+#, fuzzy
+#~ msgid "Proxy Passwor_d:"
+#~ msgstr "_პაროლი:"
+
+#, fuzzy
+#~ msgid "_Show password"
+#~ msgstr "_პაროლი:"
+
+#, fuzzy
+#~ msgid "Invalid connection type."
+#~ msgstr "შეერთების ტიპი:"
+
+#~ msgid "_Secondary Password:"
+#~ msgstr "_მეორადი პაროლი:"
+
+#~ msgid "_Domain:"
+#~ msgstr "_დომენი:"
+
+#~ msgid "Connect _anonymously"
+#~ msgstr "_ანონიმური დაკავშირება"
+
+#~ msgid "Connect as _user:"
+#~ msgstr "_სახელი, რომლითაც ვუკავშირდებით:"
+
+#~ msgid "_Remember password for this session"
+#~ msgstr "_მიმდინარე სესიის პაროლის დამახსოვრება"
+
+#~ msgid "_Save password in keyring"
+#~ msgstr "_გასაღების შენახვა აცმაში"
+
+#~ msgid "The following Anyconnect connection will be created:"
+#~ msgstr "იხსნება Anyconnect-შეერთება:"
+
+#~ msgid "Name:  %s"
+#~ msgstr "სახელი: %s"
+
+#~ msgid "Connection Type: X.509 Certificates"
+#~ msgstr "შეერთების ტიპი: X.509 სერტიფიკატები"
+
+#~ msgid "CA:  %s"
+#~ msgstr "CA: %s"
+
+#~ msgid "Cert:  %s"
+#~ msgstr "სერტ: %s"
+
+#~ msgid "Key:  %s"
+#~ msgstr "გასაღები: %s"
+
+#~ msgid "Connection Type: Shared Key"
+#~ msgstr "შეერთების ტიპი:ზიარი გასაღები"
+
+#~ msgid "Shared Key:  %s"
+#~ msgstr "ზიარი გასაღები: %s"
+
+#~ msgid "Local IP:  %s"
+#~ msgstr "ლოკალური IP: %s"
+
+#~ msgid "Remote IP:  %s"
+#~ msgstr "დისტანციური IP: %s"
+
+#~ msgid "Connection Type: Password"
+#~ msgstr "შეერთების ტიპი: პაროლი"
+
+#~ msgid "Username:  %s"
+#~ msgstr "მომხმარებელი: %s"
+
+#~ msgid "Connection Type: X.509 with Password Authentication"
+#~ msgstr "შეერთების ტიპი: X.509 პაროლის ავტორიზაციით"
+
+#~ msgid "Remote:  %s"
+#~ msgstr "დისტანციური: %s"
+
+#~ msgid "Device: %s"
+#~ msgstr "მოწყობილობა: %s"
+
+#~ msgid "Protocol: %s"
+#~ msgstr "პროტოკოლი: %s"
+
+#~ msgid "TCP"
+#~ msgstr "TCP"
+
+#~ msgid "UDP"
+#~ msgstr "UDP"
+
+#~ msgid "Routes:  %s"
+#~ msgstr "მარშრუტები: %s"
+
+#~ msgid "Use LZO Compression: %s"
+#~ msgstr "LZO კუმშვის მეთოდი: %s"
+
+#~ msgid "Yes"
+#~ msgstr "დიახ"
+
+#~ msgid "No"
+#~ msgstr "არა"
+
+#~ msgid "TLS auth:  %s %s"
+#~ msgstr "TLS ავტ: %s %s"
+
+#~ msgid "The connection details can be changed using the \"Edit\" button."
+#~ msgstr "შეერთების დეტალების შეცვლა შეიძლება \"Edit\" ღილაკით."
+
+#~ msgid "Cannot import settings"
+#~ msgstr "ვერ ხერხდება პარამეტრების იმპორტი"
+
+#~ msgid "The VPN settings file '%s' does not contain valid data."
+#~ msgstr "VPN პარამეტრების ფაილი '%s' არ შეიცავს საჭირო მონაცემებს."
+
+#~ msgid "Select file to import"
+#~ msgstr "მიუთითეთ ფაილი იმპორტისათვის"
+
+#~ msgid "Select CA to use"
+#~ msgstr "მიუთითეთ CA"
+
+#~ msgid "Select certificate to use"
+#~ msgstr "მიუთითეთ სერტიფიკატი"
+
+#~ msgid "Select key to use"
+#~ msgstr "მიუთითეთ გასაღები"
+
+#~ msgid "Select shared key to use"
+#~ msgstr "მიუთითეთ ზიარი გასაღები"
+
+#~ msgid "Select TA to use"
+#~ msgstr "მიუთითეთ TA"
+
+#~ msgid "Save as..."
+#~ msgstr "შეინახე როგორც..."
+
+#~ msgid "A file named \"%s\" already exists."
+#~ msgstr "ფაილი \"%s\" უკვე არსებობს."
+
+#~ msgid "Do you want to replace it with the one you are saving?"
+#~ msgstr "შევცვალოთ თქვენი ფაილით?"
+
+#~ msgid "Failed to export configuration"
+#~ msgstr "კონფიგურაციის ექსპორტი ვერ მოხერხდა"
+
+#~ msgid "Failed to save file %s"
+#~ msgstr "ვერ მოხერხდა %s ფაილის შენახვა"
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "1"
+#~ msgstr "1"
+
+#~ msgid "<b>Connection Information</b>"
+#~ msgstr "<b>ინფორმაცია შეერთების შესახებ</b>"
+
+#~ msgid "<i>example: 172.16.0.0/16 10.11.12.0/24</i>"
+#~ msgstr "<i>მაგალითი: 172.16.0.0/16 10.11.12.0/24</i>"
+
+#~ msgid "CA  file:"
+#~ msgstr "CA ფაილი:"
+
+#~ msgid "CA file:"
+#~ msgstr "CA ფაილი:"
+
+#~ msgid "Connection Name"
+#~ msgstr "შეერთების სახელი"
+
+#~ msgid "Key:"
+#~ msgstr "გასაღები:"
+
+#~ msgid ""
+#~ "Name used to identify the connection to the private network, e.g. "
+#~ "\"Campus VPN\" or \"Corporate Network\""
+#~ msgstr "VPN-იდენტიფიკატორი, მაგ.: \"Campus VPN\" ან \"Corporate Network\""
+
+#~ msgid "Optional"
+#~ msgstr "არ არის სავალდებულო"
+
+#~ msgid ""
+#~ "Please enter the information provided by your system administrator below. "
+#~ "Do not enter your password here as you will be prompted when connecting."
+#~ msgstr ""
+#~ "შეიყვანეთ სისტემური ადმინისტრატორისაგან მიღებული ინფორმაცია. შეერთებისას "
+#~ "აქ ნუ შეიყვანთ თქვენს პაროლს."
+
+#~ msgid ""
+#~ "Please note that the file you import is not an Anyconnect configuration "
+#~ "file. Ask your adminstrator for the file."
+#~ msgstr ""
+#~ "თქვენს მიერ იმპორტირებული ფაილი არ არის Anyconnect კონფიგურაციის ფაილი. "
+#~ "მოსთხოვეთ ფაილი თქვენს ადმინისტრატორს."
+
+#~ msgid "Shared key"
+#~ msgstr "ზიარი გასაღები"
+
+#~ msgid "Use TAP device"
+#~ msgstr "TAP მოწყობილობის გამოყენება"
+
+#~ msgid "Use TLS auth:"
+#~ msgstr "TLS ავტ:"
+
+#~ msgid "Use cipher:"
+#~ msgstr "ციფრი:"
+
+#~ msgid "X.509"
+#~ msgstr "X.509"
+
+#~ msgid ""
+#~ "X.509 Certificates\n"
+#~ "Pre-shared key\n"
+#~ "Password Authentication\n"
+#~ "X.509 with Password Authentication"
+#~ msgstr ""
+#~ "X.509 სერტიფიკატები\n"
+#~ "წინასწარგაზიარებული გასაღები\n"
+#~ "პაროლით ავტორიზება\n"
+#~ "X.509 პაროლით ავტორიზებით"
+
+#~ msgid "X.509/Pass"
+#~ msgstr "X.509/პარ"
+
+#~ msgid "_Import Saved Configuration..."
+#~ msgstr "_შენახული კონფიგურაციის იმპორტი..."
+
+#~ msgid "_Only use VPN connection for these addresses"
+#~ msgstr "_ამ მისამართებისათვის მხოლოდ VPN-შეერთება"
+
+#~ msgid "none"
+#~ msgstr "არა"
+
+#~ msgid ""
+#~ "The VPN login failed because the user name and password were not accepted "
+#~ "or the certificate password was wrong."
+#~ msgstr ""
+#~ "VPN-ში შესვლა ვერ მოხერხდა - არასწორია მომხმარებლის სახელი/პაროლი ან "
+#~ "სერტიფიკატის პაროლი."
+
+#~ msgid "The VPN login failed because the VPN program could not be started."
+#~ msgstr "VPN-ში შესვლა ვერ მოხერხდა - პროგრამა ვერ გაიშვა."
+
+#~ msgid ""
+#~ "The VPN login failed because the VPN program could not connect to the VPN "
+#~ "server."
+#~ msgstr ""
+#~ "VPN-ში შესვლა ვერ მოხერხდა - VPN-პროგრამა ვერ დაუკავშირდა VPN-სერვერს."
+
+#~ msgid ""
+#~ "The VPN login failed because the VPN program received an invalid "
+#~ "configuration from the VPN server."
+#~ msgstr ""
+#~ "VPN-ში შესვლა ვერ მოხერხდა - VPN-პროგრამამ ვერ მიიღო სწორი კონფიგურაცია "
+#~ "VPN-სერვერისაგან."
+
+#~ msgid "VPN connection failed"
+#~ msgstr "VPN-თან შეერთება ვერ მოხერხდა"

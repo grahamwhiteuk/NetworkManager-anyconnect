@@ -1,0 +1,688 @@
+# Catalan translations for NetworkManager package
+# Traduccions al català del paquet «NetworkManager».
+# Copyright © 2006 The Free Software Foundaton, Inc.
+# This file is distributed under the same license as the
+# NetworkManager package.
+# Josep Puigdemont Casamajó <josep.puigdemont@gmail.com>, 2006.
+# Gil Forcada <gilforcada@guifi.net>, 2006, 2007, 2008.
+# David Planella <david.planella@gmail.com>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: NetworkManager VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-30 22:41+0100\n"
+"PO-Revision-Date: 2009-05-10 12:43+0200\n"
+"Last-Translator: David Planella <david.planella@gmail.com>\n"
+"Language-Team: Catalan <tradgnome@softcatala.org>\n"
+"Language: ca@valencia\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:1
+#, fuzzy
+msgid "Anyconnect client"
+msgstr "Anyconnect"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:2
+msgid "Client for Anyconnect virtual private networks"
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:3
+msgid "Support for configuring Anyconnect virtual private network connections."
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:4
+msgid "Anyconnect is a popular and flexible free-software VPN solution."
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:5
+msgid "The NetworkManager Developers"
+msgstr ""
+
+#: ../properties/nm-anyconnect-editor-plugin.c:35
+#, fuzzy
+msgid "Cisco AnyConnect"
+msgstr "Anyconnect"
+
+#: ../properties/nm-anyconnect-editor-plugin.c:36
+msgid "Runs the proprietary Cisco AnyConnect VPN."
+msgstr ""
+
+#: ../properties/nm-anyconnect-editor.c:299
+msgid "could not load UI widget"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:946
+#, c-format
+msgid "object class '%s' has no property named '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:953
+#, c-format
+msgid "property '%s' of object class '%s' is not writable"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:960
+#, c-format
+msgid ""
+"construct property \"%s\" for object '%s' can't be set after construction"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:968
+#, c-format
+msgid "'%s::%s' is not a valid property name; '%s' is not a GObject subtype"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:977
+#, c-format
+msgid "unable to set property '%s' of type '%s' from value of type '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:988
+#, c-format
+msgid ""
+"value \"%s\" of type '%s' is invalid or out of range for property '%s' of "
+"type '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:69
+#, c-format
+msgid "unable to get editor plugin name: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:103
+#, c-format
+msgid "missing plugin file \"%s\""
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:109
+#, c-format
+msgid "cannot load editor plugin: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:118
+#, c-format
+msgid "cannot load factory %s from plugin: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:144
+msgid "unknown error creating editor instance"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:567 ../src/nm-anyconnect-service.c:682
+msgid "Could not find the anyconnect binary."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:580
+#, fuzzy
+msgid ""
+"Could not process the request because the VPN connection settings were "
+"invalid."
+msgstr ""
+"No s'ha pogut connectar a la VPN perquè les opcions de configuració de la "
+"VPN eren erronis."
+
+#: ../src/nm-anyconnect-service.c:602
+msgid ""
+"Could not attempt connection, unable to find the setting for the gateway."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:875
+msgid "Don’t quit when VPN connection terminates"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:876
+msgid "Enable verbose debug logging (may expose passwords)"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:877
+msgid "D-Bus name to use for this instance"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:905
+msgid ""
+"nm-anyconnect-service provides integrated proprietary Cisco AnyConnect "
+"capability to NetworkManager."
+msgstr ""
+
+#: ../properties/nm-anyconnect-dialog.ui.h:1
+msgid "General"
+msgstr "General"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:2
+msgid "_Gateway:"
+msgstr "Pas_sarel·la:"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:3
+msgid "VPN host to connect to"
+msgstr ""
+
+#, fuzzy, c-format
+#~ msgid "Authenticate VPN %s"
+#~ msgstr "Autentica la VPN"
+
+#~ msgid "Password:"
+#~ msgstr "Contrasenya:"
+
+#~ msgid "Certificate password:"
+#~ msgstr "Contrasenya del certificat:"
+
+#~ msgid "Authenticate VPN"
+#~ msgstr "Autentica la VPN"
+
+#~ msgid "Certificate pass_word:"
+#~ msgstr "Contrasenya del _certificat:"
+
+#, c-format
+#~ msgid "You need to authenticate to access the Virtual Private Network '%s'."
+#~ msgstr ""
+#~ "Vos heu d'autenticar per poder accedir a la xarxa privada virtual «%s»."
+
+#~ msgid "VPN Connection Manager (Anyconnect)"
+#~ msgstr "Gestor de connexions VPN (Anyconnect)"
+
+#~ msgid "Add, Remove, and Edit VPN Connections"
+#~ msgstr "Afegiu, suprimiu, i editeu connexions VPN"
+
+#~ msgid "Choose your personal certificate..."
+#~ msgstr "Trieu el vostre certificat personal..."
+
+#~ msgid "Choose your private key..."
+#~ msgstr "Trieu la vostra clau privada..."
+
+#~ msgid "Choose a Certificate Authority certificate..."
+#~ msgstr "Trieu un certificat d'autoritat de certificació..."
+
+#~ msgid "Choose an Anyconnect static key..."
+#~ msgstr "Trieu una clau estàtica Anyconnect..."
+
+#~ msgid "None"
+#~ msgstr "Cap"
+
+#, fuzzy
+#~ msgid "PEM or PKCS#12 certificates (*.pem, *.crt, *.key, *.cer, *.p12)"
+#~ msgstr "Certificats PEM (*.pem, *.crt, *.key, *.cer)"
+
+#~ msgid "PEM certificates (*.pem, *.crt, *.key, *.cer)"
+#~ msgstr "Certificats PEM (*.pem, *.crt, *.key, *.cer)"
+
+#~ msgid "Anyconnect Static Keys (*.key)"
+#~ msgstr "Claus estàtiques Anyconnect (*.key)"
+
+#~ msgid "Default"
+#~ msgstr "Predeterminat"
+
+#~ msgid "MD-5"
+#~ msgstr "MD-5"
+
+#~ msgid "SHA-1"
+#~ msgstr "SHA-1"
+
+#, fuzzy
+#~ msgid "SHA-224"
+#~ msgstr "SHA-1"
+
+#, fuzzy
+#~ msgid "SHA-256"
+#~ msgstr "SHA-1"
+
+#, fuzzy
+#~ msgid "SHA-384"
+#~ msgstr "SHA-1"
+
+#, fuzzy
+#~ msgid "SHA-512"
+#~ msgstr "SHA-1"
+
+#~ msgid "TUN"
+#~ msgstr "TUN"
+
+#~ msgid "TAP"
+#~ msgstr "TAP"
+
+#~ msgid "Compatible with the Anyconnect server."
+#~ msgstr "Compatible amb el servidor Anyconnect."
+
+#~ msgid "Certificates (TLS)"
+#~ msgstr "Certificats (TLS)"
+
+#~ msgid "Password"
+#~ msgstr "Contrasenya"
+
+#~ msgid "Password with Certificates (TLS)"
+#~ msgstr "Contrasenya amb certificats (TLS)"
+
+#~ msgid "Static Key"
+#~ msgstr "Clau estàtica"
+
+#, fuzzy
+#~ msgid "not a valid Anyconnect configuration file"
+#~ msgstr "Configuració de l'Anyconnect"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "<b>General</b>"
+#~ msgstr "<b>General</b>"
+
+#~ msgid "<b>Authentication</b>"
+#~ msgstr "<b>Autenticació</b>"
+
+#~ msgid "_Show passwords"
+#~ msgstr "Mostra les contrasenyes"
+
+#, fuzzy
+#~ msgid "Password for private key"
+#~ msgstr "Trieu la vostra clau privada..."
+
+#~ msgid "Private Key Password:"
+#~ msgstr "Contrasenya de la clau privada:"
+
+#~ msgid "Private Key:"
+#~ msgstr "Clau privada:"
+
+#~ msgid "CA Certificate:"
+#~ msgstr "Certificat d'autoritat de certificació:"
+
+#~ msgid "User Certificate:"
+#~ msgstr "Certificat d'usuari:"
+
+#~ msgid "User name:"
+#~ msgstr "Nom d'usuari:"
+
+#~ msgid "Remote IP Address:"
+#~ msgstr "Adreça IP remota:"
+
+#~ msgid "Local IP Address:"
+#~ msgstr "Adreça IP local:"
+
+#, fuzzy
+#~ msgid "Key Direction:"
+#~ msgstr "Direcció de la clau:"
+
+#~ msgid "Static Key:"
+#~ msgstr "Clau estàtica:"
+
+#, fuzzy
+#~ msgid ""
+#~ "Direction for Static Key encryption mode (non-TLS).\n"
+#~ "If key direction is used, it must be the opposite of that used on the VPN "
+#~ "peer.  For example, if the peer uses '1', this connection must use '0'.  "
+#~ "If you are unsure what value to use, contact your system administrator.\n"
+#~ "config: static <file> [direction]"
+#~ msgstr ""
+#~ "<i>Si s'utilitza una direcció de clau, ha de ser l'oposada que la de "
+#~ "l'homòleg de la VPN. Per exemple, si l'homòleg utilitza «1», esta "
+#~ "connexió ha d'utilitzar «0». Si no esteu segurs de quin valor heu "
+#~ "d'utilitzar, contacteu amb l'administrador del sistema.</i>"
+
+#~ msgid "Type:"
+#~ msgstr "Tipus:"
+
+#, fuzzy
+#~ msgid "Select an authentication mode."
+#~ msgstr "Autenticació TLS"
+
+#~ msgid "Ad_vanced..."
+#~ msgstr "A_vançat..."
+
+#~ msgid "Anyconnect Advanced Options"
+#~ msgstr "Opcions avançades de l'Anyconnect"
+
+#~ msgid "Use custom gateway p_ort:"
+#~ msgstr "Utilitza un _port de passarel·la personalitzat:"
+
+#~ msgid "Use L_ZO data compression"
+#~ msgstr "Utilitza la compressió de dades L_ZO"
+
+#, fuzzy
+#~ msgid ""
+#~ "Use fast LZO compression.\n"
+#~ "config: comp-lzo"
+#~ msgstr "Utilitza compressió LZO: %s"
+
+#~ msgid "Use a _TCP connection"
+#~ msgstr "Utilitza una connexió _TCP"
+
+#~ msgid "Ci_pher:"
+#~ msgstr "Criptògraf:"
+
+#~ msgid "_HMAC Authentication:"
+#~ msgstr "Autenticació HMAC:"
+
+#~ msgid "Security"
+#~ msgstr "Seguretat"
+
+#~ msgid "Use additional _TLS authentication"
+#~ msgstr "Utilitza autenticació TLS addicional"
+
+#, fuzzy
+#~ msgid "Add an additional layer of HMAC authentication."
+#~ msgstr "Utilitza autenticació TLS addicional"
+
+#~ msgid "Key _Direction:"
+#~ msgstr "Direcció de la clau:"
+
+#, fuzzy
+#~ msgid ""
+#~ "Direction parameter for static key mode.\n"
+#~ "If key direction is used, it must be the opposite of that used on the VPN "
+#~ "peer.  For example, if the peer uses '1', this connection must use '0'.  "
+#~ "If you are unsure what value to use, contact your system administrator.\n"
+#~ "config: tls-auth <file> [direction]"
+#~ msgstr ""
+#~ "<i>Si s'utilitza una direcció de clau, ha de ser l'oposada que la de "
+#~ "l'homòleg de la VPN. Per exemple, si l'homòleg utilitza «1», esta "
+#~ "connexió ha d'utilitzar «0». Si no esteu segurs de quin valor heu "
+#~ "d'utilitzar, contacteu amb l'administrador del sistema.</i>"
+
+#~ msgid "Key _File:"
+#~ msgstr "Fitxer de clau:"
+
+#~ msgid "TLS Authentication"
+#~ msgstr "Autenticació TLS"
+
+#, fuzzy
+#~ msgid "Proxy _Type:"
+#~ msgstr "Tipus:"
+
+#, fuzzy
+#~ msgid "Server _Address:"
+#~ msgstr "Adreça IP remota:"
+
+#, fuzzy
+#~ msgid "_Port:"
+#~ msgstr "Port:  %s"
+
+#, fuzzy
+#~ msgid "Proxy _Username:"
+#~ msgstr "Nom d'usuari:"
+
+#, fuzzy
+#~ msgid "Proxy Passwor_d:"
+#~ msgstr "Contrasenya:"
+
+#, fuzzy
+#~ msgid "_Show password"
+#~ msgstr "Mostra les contrasenyes"
+
+#, fuzzy
+#~ msgid "No VPN configuration options."
+#~ msgstr "Configuració de l'Anyconnect"
+
+#, fuzzy
+#~ msgid "A private key password is required."
+#~ msgstr "Contrasenya de la clau privada:"
+
+#, fuzzy
+#~ msgid "Invalid connection type."
+#~ msgstr "Tipus de co_nnexió:"
+
+#, fuzzy, c-format
+#~ msgid "Unknown connection type '%s'."
+#~ msgstr "Tipus de co_nnexió:"
+
+#, fuzzy
+#~ msgid "Unhandled pending authentication."
+#~ msgstr "Utilitza autenticació TLS addicional"
+
+#~ msgid "_Password:"
+#~ msgstr "_Contrasenya:"
+
+#~ msgid "_Secondary Password:"
+#~ msgstr "Contrasenya _secundària:"
+
+#~ msgid "_Username:"
+#~ msgstr "Nom d'_usuari:"
+
+#~ msgid "_Domain:"
+#~ msgstr "_Domini:"
+
+#~ msgid "Connect _anonymously"
+#~ msgstr "Connecta _anònimament"
+
+#~ msgid "Connect as _user:"
+#~ msgstr "Connecta com a _usuari:"
+
+#~ msgid "_Remember password for this session"
+#~ msgstr "_Recorda la contrasenya per esta sessió"
+
+#~ msgid "_Save password in keyring"
+#~ msgstr "Al_ça la contrasenya a l'anell de claus"
+
+#~ msgid "Use a TA_P device"
+#~ msgstr "Utilitza un dispositiu TA_P"
+
+#~ msgid "The following Anyconnect connection will be created:"
+#~ msgstr "Es crearà la següent connexió Anyconnect:"
+
+#~ msgid "Name:  %s"
+#~ msgstr "Nom:  %s"
+
+#~ msgid "Connection Type: X.509 Certificates"
+#~ msgstr "Tipus de connexió: Certifcats X.509"
+
+#~ msgid "CA:  %s"
+#~ msgstr "CA:  %s"
+
+#~ msgid "Cert:  %s"
+#~ msgstr "Certificat:  %s"
+
+#~ msgid "Key:  %s"
+#~ msgstr "Clau:  %s"
+
+#~ msgid "Connection Type: Shared Key"
+#~ msgstr "Tipus de connexió: Clau compartida"
+
+#~ msgid "Shared Key:  %s"
+#~ msgstr "Clau compartida:  %s"
+
+#~ msgid "Remote IP:  %s"
+#~ msgstr "IP remota:  %s"
+
+#~ msgid "Connection Type: Password"
+#~ msgstr "Tipus de connexió: Contrasenya"
+
+#~ msgid "Username:  %s"
+#~ msgstr "Nom d'usuari:  %s"
+
+#~ msgid "Connection Type: X.509 with Password Authentication"
+#~ msgstr "Tipus de connexió: X.509 amb autenticació de contrasenya"
+
+#~ msgid "Remote:  %s"
+#~ msgstr "Remot:  %s"
+
+#~ msgid "Device: %s"
+#~ msgstr "Dispositiu: %s"
+
+#~ msgid "Protocol: %s"
+#~ msgstr "Protocol: %s"
+
+#~ msgid "TCP"
+#~ msgstr "TCP"
+
+#~ msgid "UDP"
+#~ msgstr "UDP"
+
+#~ msgid "Routes:  %s"
+#~ msgstr "Rutes:  %s"
+
+#~ msgid "Yes"
+#~ msgstr "Sí"
+
+#~ msgid "TLS auth:  %s %s"
+#~ msgstr "Autenticació TLS:  %s %s"
+
+#~ msgid "The connection details can be changed using the \"Edit\" button."
+#~ msgstr "Els detalls de la connexió es poden canviar amb el botó «Edita»."
+
+#~ msgid "Cannot import settings"
+#~ msgstr "No s'han pogut importar els paràmetres"
+
+#~ msgid "The VPN settings file '%s' does not contain valid data."
+#~ msgstr "El fitxer de paràmetres VPN «%s», no conté dades vàlides."
+
+#~ msgid "Select file to import"
+#~ msgstr "Seleccioneu el fitxer a importar"
+
+#~ msgid "Select CA to use"
+#~ msgstr "Seleccioneu la CA a utilitzar"
+
+#~ msgid "Select certificate to use"
+#~ msgstr "Seleccioneu el certificat a utilitzar"
+
+#~ msgid "Select key to use"
+#~ msgstr "Seleccioneu la clau a utilitzar"
+
+#~ msgid "Select shared key to use"
+#~ msgstr "Seleccioneu la clau compartida a utilitzar"
+
+#~ msgid "Select TA to use"
+#~ msgstr "Seleccioneu la TA a utilitzar"
+
+#~ msgid "Save as..."
+#~ msgstr "Anomena i desa..."
+
+#~ msgid "A file named \"%s\" already exists."
+#~ msgstr "Ja existeix un fitxer anomenat «%s»."
+
+#~ msgid "Do you want to replace it with the one you are saving?"
+#~ msgstr "Voleu reemplaçar-lo pel que voleu desar?"
+
+#~ msgid "Failed to export configuration"
+#~ msgstr "No s'ha pogut exportar la configuració"
+
+#~ msgid "Failed to save file %s"
+#~ msgstr "No s'ha pogut desar el fitxer %s"
+
+#~ msgid "65536"
+#~ msgstr "65536"
+
+#~ msgid "<i>example: 172.16.0.0/16 10.11.12.0/24</i>"
+#~ msgstr "<i>exemple: 172.16.0.0/16 10.11.12.0/24</i>"
+
+#~ msgid "C_A file:"
+#~ msgstr "Fitxer C_A:"
+
+#~ msgid "Connection na_me:"
+#~ msgstr "No_m de la connexió:"
+
+#~ msgid "Import _Saved Configuration..."
+#~ msgstr "Importa una configuració de_sada..."
+
+#~ msgid ""
+#~ "Name used to identify the connection to the private network, e.g. "
+#~ "\"Campus VPN\" or \"Corporate Network\""
+#~ msgstr ""
+#~ "_Nom utilitzat per identificar la connexió a la xarxa privada, per "
+#~ "exemple «VPN del Campus» o «Xarxa Corporativa»"
+
+#~ msgid "Network"
+#~ msgstr "Xarxa"
+
+#~ msgid "Only use _VPN connection for these addresses:"
+#~ msgstr "_Fes servir només la connexió VPN per a aquestes adreces:"
+
+#~ msgid ""
+#~ "Please enter the information provided by your system administrator below. "
+#~ "Do not enter your password here as you will be prompted when connecting."
+#~ msgstr ""
+#~ "Entreu la informació proporcionada pel vostre administrador de sistema. "
+#~ "No hi entreu la vostra contrasenya, ja es demanarà en connectar."
+
+#~ msgid ""
+#~ "Please note that the file you import is not an Anyconnect configuration "
+#~ "file. Ask your administrator for the file."
+#~ msgstr ""
+#~ "El fitxer que heu importat no és un fitxer de configuració Anyconnect. "
+#~ "Demaneu-li el fitxer a l'administrador."
+
+#~ msgid "Shared _key:"
+#~ msgstr "_Clau compartida:"
+
+#~ msgid "TLS-Auth"
+#~ msgstr "Autenticació TLS"
+
+#~ msgid "Use _TLS auth:"
+#~ msgstr "Utilitza autenticació _TLS:"
+
+#~ msgid "Use cip_her:"
+#~ msgstr "Utilitza _xifratge:"
+
+#~ msgid ""
+#~ "X.509 Certificates\n"
+#~ "Pre-shared key\n"
+#~ "Password Authentication\n"
+#~ "X.509 with Password Authentication"
+#~ msgstr ""
+#~ "Certificats X.509\n"
+#~ "Clau pre-compartida\n"
+#~ "Autenticació de contrasenya\n"
+#~ "X.509 amb autenticació de contrasenya"
+
+#~ msgid "_0"
+#~ msgstr "_0"
+
+#~ msgid "_1"
+#~ msgstr "_1"
+
+#~ msgid "_Gateway address:"
+#~ msgstr "A_dreça de la passarel·la:"
+
+#~ msgid "_Key:"
+#~ msgstr "_Clau:"
+
+#~ msgid "_Local IP:"
+#~ msgstr "IP _local:"
+
+#~ msgid "_Remote IP:"
+#~ msgstr "IP _remota:"
+
+#~ msgid "_none"
+#~ msgstr "_cap"
+
+#~ msgid ""
+#~ "The VPN login failed because the user name and password were not accepted "
+#~ "or the certificate password was wrong."
+#~ msgstr ""
+#~ "No s'ha pogut connectar a la VPN perquè no s'han acceptat el nom "
+#~ "d'usuari, o la contrasenya o la contrasenya certificada és errònia.\""
+
+#~ msgid "The VPN login failed because the VPN program could not be started."
+#~ msgstr ""
+#~ "No s'ha pogut connectar a la VPN perquè no s'ha pogut iniciar l'aplicació "
+#~ "VPN."
+
+#~ msgid ""
+#~ "The VPN login failed because the VPN program could not connect to the VPN "
+#~ "server."
+#~ msgstr ""
+#~ "No s'ha pogut connectar a la VPN perquè l'aplicació VPN no s'ha pogut "
+#~ "connectar al servidor VPN."
+
+#~ msgid ""
+#~ "The VPN login failed because the VPN program received an invalid "
+#~ "configuration from the VPN server."
+#~ msgstr ""
+#~ "No s'ha pogut connectar a la VPN perquè l'aplicació VPN ha rebut una "
+#~ "configuració errònia del servidor VPN."
+
+#~ msgid "VPN connection failed"
+#~ msgstr "Ha fallat la connexió VPN"
+
+#~ msgid "<b>Connection Information</b>"
+#~ msgstr "<b>Informació de la connexió</b>"
+
+#~ msgid "X.509"
+#~ msgstr "X.509"
+
+#~ msgid "X.509/Pass"
+#~ msgstr "X.509/Contrasenya"
+
+#~ msgid "CA  file:"
+#~ msgstr "Fitxer CA:"
+
+#~ msgid "Optional"
+#~ msgstr "Opcional"

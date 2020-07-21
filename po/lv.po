@@ -1,0 +1,1242 @@
+# Latvian translation for NetworkManager-anyconnect
+# Copyright (C) 2006 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the NetworkManager-anyconnect package.
+#
+# Rudofls Mazurs <rudolfs.mazurs@gmail.com>, 2010, 2011, 2012, 2013, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: NetworkManager Anyconnect plugin\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-30 22:41+0100\n"
+"PO-Revision-Date: 2018-03-25 20:16+0200\n"
+"Last-Translator: Rudolfs Mazurs <rudolfs.mazurs@gmail.com>\n"
+"Language-Team: Latvian <lata-l10n@googlegroups.com>\n"
+"Language: lv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : "
+"2);\n"
+"X-Poedit-Language: Latvian\n"
+"X-Poedit-Country: LATVIA\n"
+"X-Generator: Lokalize 2.0\n"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:1
+msgid "Anyconnect client"
+msgstr "Anyconnect klients"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:2
+msgid "Client for Anyconnect virtual private networks"
+msgstr "Anyconnect virtuālā privātā tīkla klients"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:3
+msgid "Support for configuring Anyconnect virtual private network connections."
+msgstr "Atbalsts Anyconnect virtuālo privāto tīklu savienojumu konfigurēšanai."
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:4
+msgid "Anyconnect is a popular and flexible free-software VPN solution."
+msgstr ""
+"Anyconnect ir populārs un elastīgs brīvās programmatūras VPN risinājums."
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:5
+msgid "The NetworkManager Developers"
+msgstr "NetworkManager izstrādātāji"
+
+#: ../properties/nm-anyconnect-editor-plugin.c:35
+#, fuzzy
+msgid "Cisco AnyConnect"
+msgstr "Anyconnect"
+
+#: ../properties/nm-anyconnect-editor-plugin.c:36
+msgid "Runs the proprietary Cisco AnyConnect VPN."
+msgstr ""
+
+#: ../properties/nm-anyconnect-editor.c:299
+msgid "could not load UI widget"
+msgstr "nevarēja ielādēt UI sīkrīku"
+
+#: ../shared/nm-utils/nm-shared-utils.c:946
+#, c-format
+msgid "object class '%s' has no property named '%s'"
+msgstr "objektu klasei “%s” nav īpašības ar nosaukumu “%s”"
+
+#: ../shared/nm-utils/nm-shared-utils.c:953
+#, c-format
+msgid "property '%s' of object class '%s' is not writable"
+msgstr "objektu klases “%2$s” īpašība “%1$s” nav rakstāma"
+
+#: ../shared/nm-utils/nm-shared-utils.c:960
+#, c-format
+msgid ""
+"construct property \"%s\" for object '%s' can't be set after construction"
+msgstr ""
+"objekta “%2$s” konstrukcijas īpašību “%1$s” nevar iestatīt pēc "
+"uzkonstruēšanas"
+
+#: ../shared/nm-utils/nm-shared-utils.c:968
+#, c-format
+msgid "'%s::%s' is not a valid property name; '%s' is not a GObject subtype"
+msgstr "“%s::%s” nav derīgs īpašības nosaukums; “%s” nav GObject apakštips"
+
+#: ../shared/nm-utils/nm-shared-utils.c:977
+#, c-format
+msgid "unable to set property '%s' of type '%s' from value of type '%s'"
+msgstr "nevar iestatīt īpašību “%s” ar tipu “%s” no tipa “%s” vērtības"
+
+#: ../shared/nm-utils/nm-shared-utils.c:988
+#, c-format
+msgid ""
+"value \"%s\" of type '%s' is invalid or out of range for property '%s' of "
+"type '%s'"
+msgstr ""
+"tipa “%2$s” vērtība “%1$s” nav derīga vai ir ārpus tipa “%4$s” īpašības "
+"“%3$s” apgabala"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:69
+#, fuzzy, c-format
+msgid "unable to get editor plugin name: %s"
+msgstr "nevar ielādēt redaktora spraudni: %s"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:103
+#, c-format
+msgid "missing plugin file \"%s\""
+msgstr "datnei “%s” trūkst spraudņa"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:109
+#, c-format
+msgid "cannot load editor plugin: %s"
+msgstr "nevar ielādēt redaktora spraudni: %s"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:118
+#, c-format
+msgid "cannot load factory %s from plugin: %s"
+msgstr "nevar ielādēt ražotni %s no spraudņa: %s"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:144
+msgid "unknown error creating editor instance"
+msgstr "nezināma kļūda, veidojot redaktora instanci"
+
+#: ../src/nm-anyconnect-service.c:567 ../src/nm-anyconnect-service.c:682
+msgid "Could not find the anyconnect binary."
+msgstr "Nevarēja atrast anyconnect bināro datni."
+
+#: ../src/nm-anyconnect-service.c:580
+msgid ""
+"Could not process the request because the VPN connection settings were "
+"invalid."
+msgstr ""
+"Neizdevās apstrādāt pieprasījumu, jo VPN savienojuma iestatījumi bija "
+"nederīgi."
+
+#: ../src/nm-anyconnect-service.c:602
+msgid ""
+"Could not attempt connection, unable to find the setting for the gateway."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:875
+msgid "Don’t quit when VPN connection terminates"
+msgstr "Neiziet, kad tiek pārtraukts VPN savienojums"
+
+#: ../src/nm-anyconnect-service.c:876
+msgid "Enable verbose debug logging (may expose passwords)"
+msgstr "Aktivēt detalizētu atkļūdošanas reģistrēšanu (var atklāt paroles)"
+
+#: ../src/nm-anyconnect-service.c:877
+msgid "D-Bus name to use for this instance"
+msgstr "D-Bus nosaukums, ko izmantot šai instancei"
+
+#: ../src/nm-anyconnect-service.c:905
+#, fuzzy
+msgid ""
+"nm-anyconnect-service provides integrated proprietary Cisco AnyConnect "
+"capability to NetworkManager."
+msgstr ""
+"nm-anyconnect-service nodrošina NetworkManager integrētu Anyconnect iespēju."
+
+#: ../properties/nm-anyconnect-dialog.ui.h:1
+msgid "General"
+msgstr "Vispārējs"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:2
+msgid "_Gateway:"
+msgstr "_Vārteja:"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:3
+msgid "VPN host to connect to"
+msgstr ""
+
+#, c-format
+#~ msgid "Authenticate VPN %s"
+#~ msgstr "Autentificēt VPN %s"
+
+#~ msgid "Password:"
+#~ msgstr "Parole:"
+
+#~ msgid "Certificate password:"
+#~ msgstr "Sertifikāta parole:"
+
+#~| msgid "Proxy Passwor_d:"
+#~ msgid "HTTP proxy password:"
+#~ msgstr "HTTP starpnieka parole"
+
+#~ msgid "Authenticate VPN"
+#~ msgstr "Autentificēt VPN"
+
+#~ msgid "Certificate pass_word:"
+#~ msgstr "Sertifikāta _parole:"
+
+#~| msgid "Proxy Passwor_d:"
+#~ msgid "_HTTP proxy password:"
+#~ msgstr "_HTTP starpnieka parole:"
+
+#, c-format
+#~| msgid ""
+#~| "You need to authenticate to access the Virtual Private Network '%s'."
+#~ msgid "You need to authenticate to access the Virtual Private Network “%s”."
+#~ msgstr ""
+#~ "Jums ir jāautentificējas, lai piekļūtu virtuālajiem privātajiem tīkliem "
+#~ "“%s”."
+
+#, c-format
+#~ msgid "option %s expects between %u and %u argument"
+#~ msgid_plural "option %s expects between %u and %u arguments"
+#~ msgstr[0] "opcija %s sagaida starp %u un %u argumentu"
+#~ msgstr[1] "opcija %s sagaida starp %u un %u argumentus"
+#~ msgstr[2] "opcija %s sagaida starp %u un %u argumentus"
+
+#, c-format
+#~ msgid "option %s expects no arguments"
+#~ msgstr "opcija %s negaida argumentus"
+
+#, c-format
+#~ msgid "option %s expects exactly one argument"
+#~ msgid_plural "option %s expects exactly %u arguments"
+#~ msgstr[0] "opcija %s sagaida %u argumentu"
+#~ msgstr[1] "opcija %s sagaida %u argumentus"
+#~ msgstr[2] "opcija %s sagaida %u argumentu"
+
+#, c-format
+#~ msgid "argument %s of “%s” can not be empty"
+#~ msgstr "“%2$s” arguments %1$s nevar būt tukšs"
+
+#, c-format
+#~ msgid "argument of “%s” can not be empty"
+#~ msgstr "arguments “%s” nevar būt tukšs"
+
+#, c-format
+#~ msgid "argument %s of “%s” must be UTF-8 encoded"
+#~ msgstr "“%2$s” argumentam %1$s ir jābūt ar UTF-8 kodējumu"
+
+#, c-format
+#~ msgid "argument of “%s” must be UTF-8 encoded"
+#~ msgstr "argumentam “%s” ir jābūt ar UTF-8 kodējumu"
+
+#, c-format
+#~ msgid "invalid %uth argument to “%s” where number expected"
+#~ msgstr "“%2$s” nederīgs %1$u. arguments, kur bija gaidīts skaitlis"
+
+#, c-format
+#~ msgid "unsupported %uth argument %s to “%s”"
+#~ msgstr "neatbalstīts “%3$s” %1$u arguments %2$s"
+
+#, c-format
+#~ msgid ""
+#~ "unsupported %uth argument to “%s” which looks like a FQDN but only IPv4 "
+#~ "address supported"
+#~ msgstr ""
+#~ "neatbalstīts “%2$s” %1$u. arguments, kas izskatās kā FQDN, bet ir "
+#~ "atbalstītas tikai IPv4 adreses"
+
+#, c-format
+#~ msgid "invalid %uth argument to “%s” where IPv4 address expected"
+#~ msgstr "“%2$s” nederīgs %1$u. arguments, kur bija gaidīta IPv4 adrese"
+
+#, c-format
+#~ msgid "invalid %uth key-direction argument to “%s”"
+#~ msgstr "nederīgs %u. atslēgas virziena arguments uz “%s”"
+
+#, c-format
+#~ msgid "invalid %uth argument to “%s”"
+#~ msgstr "nederīgs %u. arguments uz “%s”"
+
+#, c-format
+#~ msgid "unterminated %s at position %lld"
+#~ msgstr "neterminēts %s pozīcijā %lld"
+
+#~ msgid "double quote"
+#~ msgstr "atverošās pēdiņas"
+
+#~ msgid "single quote"
+#~ msgstr "atverošās vienpēdiņas"
+
+#, c-format
+#~ msgid "trailing escaping backslash at position %lld"
+#~ msgstr "rindas beigās ir atsoļa slīpsvītras, pozīcija %lld"
+
+#, c-format
+#~ msgid "unable to read HTTP proxy auth file"
+#~ msgstr "nevar nolasīt HTTP starpnieka autentifikācijas datni"
+
+#, c-format
+#~ msgid "cannot read user/password from HTTP proxy auth file"
+#~ msgstr ""
+#~ "nevar nolasīt lietotāju / paroli no HTTP starpnieka autentifikācijas datni"
+
+#, c-format
+#~ msgid "user/password from HTTP proxy auth file must be UTF-8 encoded"
+#~ msgstr ""
+#~ "lietotājam / parolei no HTTP starpnieka autentifikācijas datnes ir jābūt "
+#~ "UTF-8 kodējumā"
+
+#, c-format
+#~ msgid "“%s” is not a directory"
+#~ msgstr "“%s” nav direktorija"
+
+#, c-format
+#~ msgid "cannot create “%s” directory"
+#~ msgstr "nevar izveidot “%s” direktoriju"
+
+#, c-format
+#~ msgid "cannot write <%s> blob from line %ld to file (%s)"
+#~ msgstr "nevar rakstīt <%s> bināro datni no rindas %ld uz datni (%s)"
+
+#, c-format
+#~ msgid "cannot write <%s> blob from line %ld to file “%s”"
+#~ msgstr "nevar rakstīt <“%s> bināro datni no rindas %ld uz datni “%s”"
+
+#, c-format
+#~ msgid "unsupported mtu-disc argument"
+#~ msgstr "neatbalstīts mtu-disc arguments"
+
+#, c-format
+#~| msgid "Invalid connection type."
+#~ msgid "invalid option"
+#~ msgstr "nederīga opcija"
+
+#, c-format
+#~ msgid "unsupported comp-lzo argument"
+#~ msgstr "neatbalstīts comp-lzo arguments"
+
+#, c-format
+#~ msgid "remote cannot contain space"
+#~ msgstr "attālinātais nevar saturēt atstarpes"
+
+#, c-format
+#~ msgid "remote cannot contain comma"
+#~ msgstr "attālinātais nevar saturēt komatus"
+
+#, c-format
+#~ msgid "remote expects protocol type like “udp” or “tcp”"
+#~ msgstr "attālinātais sagaida protokola tipu, piemēram, “udp” vai “tcp”"
+
+#, c-format
+#~ msgid "invalid verify-x509-name type"
+#~ msgstr "nederīgs verify-x509-name tips"
+
+#, c-format
+#~ msgid "unsupported blob/xml element"
+#~ msgstr "neatbalstīts binārās datnes / xml elements"
+
+#, c-format
+#~ msgid "unterminated blob element <%s>"
+#~ msgstr "neterminēts binārās datnes elements <%s>"
+
+#, c-format
+#~ msgid "configuration error: %s (line %ld)"
+#~ msgstr "konfigurācijas kļūda: %s (rinda %ld)"
+
+#~ msgid "unknown or unsupported option"
+#~ msgstr "nezināma vai neatbalstīta opcija"
+
+#~ msgid "The file to import wasn’t a valid Anyconnect client configuration"
+#~ msgstr "Importējamā datne nebija derīga Anyconnect klienta konfigurācija"
+
+#~ msgid "The file to import wasn’t a valid Anyconnect configure (no remote)"
+#~ msgstr ""
+#~ "Importējamā datne nebija derīga Anyconnect konfigurācija (ne attālināta)"
+
+#~ msgid "missing path argument"
+#~ msgstr "trūkst ceļa arguments"
+
+#~ msgid "connection is not a valid Anyconnect connection"
+#~ msgstr "savienojums nav derīgs VPN savienojums"
+
+#~ msgid "connection was incomplete (missing gateway)"
+#~ msgstr "savienojums bija nepilnīgs (tūkst vārtejas)"
+
+#, c-format
+#~| msgid "Failed to save file %s"
+#~ msgid "failed to write file: %s"
+#~ msgstr "neizdevās rakstīt datnē — %s"
+
+#~ msgid "Compatible with the Anyconnect server."
+#~ msgstr "Savietojams ar Anyconnect serveri."
+
+#~ msgid "unknown Anyconnect file extension"
+#~ msgstr "nezināms Anyconnect datnes paplašinājums"
+
+#~| msgid "Choose an Anyconnect static key..."
+#~ msgid "Choose an Anyconnect static key…"
+#~ msgstr "Izvēlieties Anyconnect statisko atslēgu…"
+
+#~ msgid "None"
+#~ msgstr "Nav"
+
+#~ msgid "Anyconnect Static Keys (*.key)"
+#~ msgstr "Anyconnect statiskās atslēgas (*.key)"
+
+#~ msgid "Default"
+#~ msgstr "Noklusētais"
+
+#~ msgid "RSA MD-4"
+#~ msgstr "RSA MD-4"
+
+#~ msgid "MD-5"
+#~ msgstr "MD-5"
+
+#~ msgid "SHA-1"
+#~ msgstr "SHA-1"
+
+#~ msgid "SHA-224"
+#~ msgstr "SHA-224"
+
+#~ msgid "SHA-256"
+#~ msgstr "SHA-256"
+
+#~ msgid "SHA-384"
+#~ msgstr "SHA-384"
+
+#~ msgid "SHA-512"
+#~ msgstr "SHA-512"
+
+#~ msgid "RIPEMD-160"
+#~ msgstr "RIPEMD-160"
+
+#~ msgid "Don’t verify certificate identification"
+#~ msgstr "Nepārbaudīt sertifikāta identifikāciju"
+
+#~ msgid "Verify whole subject exactly"
+#~ msgstr "Pārbaudīt visu subjektu precīzi"
+
+#~ msgid "Verify name exactly"
+#~ msgstr "Pārbaudīt nosaukumu precīzi"
+
+#~ msgid "Verify name by prefix"
+#~ msgstr "Pārbaudīt nosaukumu pēc prefiksa"
+
+#~ msgid "Verify subject partially (legacy mode, strongly discouraged)"
+#~ msgstr "Pārbaudīt subjektu daļēji (novecojis režīms, ļoti neieteicams)"
+
+#~ msgid "Server"
+#~ msgstr "Serveris"
+
+#~ msgid "Client"
+#~ msgstr "Klients"
+
+#~ msgid "Not required"
+#~ msgstr "Nav nepieciešams"
+
+#~ msgid "HTTP"
+#~ msgstr "HTTP"
+
+#~ msgid "SOCKS"
+#~ msgstr "SOCKS"
+
+#~ msgid "TUN"
+#~ msgstr "TUN"
+
+#~ msgid "TAP"
+#~ msgstr "TAP"
+
+#~ msgid "(automatic)"
+#~ msgstr "(automātiski)"
+
+#~ msgid "ping-exit"
+#~ msgstr "ping-exit"
+
+#~ msgid "ping-restart"
+#~ msgstr "ping-restart"
+
+#~ msgid "Certificates (TLS)"
+#~ msgstr "Sertifikāti (TLS)"
+
+#~ msgid "Password"
+#~ msgstr "Parole"
+
+#~ msgid "Password with Certificates (TLS)"
+#~ msgstr "Parole ar sertifikātu (TLS)"
+
+#~ msgid "Static Key"
+#~ msgstr "Statiskā atslēga"
+
+#~ msgid "could not create anyconnect object"
+#~ msgstr "nevarēja izveidot anyconnect objektu"
+
+#, c-format
+#~ msgid "invalid delimiter character '%c'"
+#~ msgstr "nederīga atdalītāja rakstzīme “%c”"
+
+#, c-format
+#~ msgid "invalid non-utf-8 character"
+#~ msgstr "nederīga ne-utf-8 rakstzīme"
+
+#, c-format
+#~ msgid "empty host"
+#~ msgstr "tukšs resursdators"
+
+#, c-format
+#~ msgid "invalid port"
+#~ msgstr "nederīgs ports"
+
+#, c-format
+#~ msgid "invalid protocol"
+#~ msgstr "nederīgs protokols"
+
+#, c-format
+#~| msgid "invalid address '%s'"
+#~ msgid "invalid address “%s”"
+#~ msgstr "nederīga adrese “%s”"
+
+#, c-format
+#~| msgid "invalid integer property '%s' or out of range [%d -> %d]"
+#~ msgid "invalid integer property “%s” or out of range [%d -> %d]"
+#~ msgstr "nederīga veselā skaitļa īpašība “%s” vai ārpus apgabala [%d -> %d]"
+
+#, c-format
+#~| msgid "invalid boolean property '%s' (not yes or no)"
+#~ msgid "invalid boolean property “%s” (not yes or no)"
+#~ msgstr "nederīga būla īpašība “%s” (nav jā vai nē)"
+
+#, c-format
+#~| msgid "unhandled property '%s' type %s"
+#~ msgid "unhandled property “%s” type %s"
+#~ msgstr "neapstrādāts īpašības “%s” tips %s"
+
+#, c-format
+#~| msgid "property '%s' invalid or not supported"
+#~ msgid "property “%s” invalid or not supported"
+#~ msgstr "īpašība “%s” nederīga vai nav atbalstīta"
+
+#~ msgid "No VPN configuration options."
+#~ msgstr "Nav VPN konfigurācijas opciju."
+
+#~ msgid "A username is required."
+#~ msgstr "Nepieciešams lietotājvārds."
+
+#~ msgid "A password is required."
+#~ msgstr "Nepieciešama parole."
+
+#~ msgid "A username and password are required."
+#~ msgstr "Nepieciešams lietotājvārds un parole."
+
+#~ msgid "A private key password is required."
+#~ msgstr "Nepieciešama privātās atslēgas parole."
+
+#~ msgid "An HTTP Proxy username is required."
+#~ msgstr "Nepieciešams HTTP starpnieka lietotājvārds."
+
+#~ msgid "An HTTP Proxy password is required."
+#~ msgstr "Nepieciešama HTTP starpnieka parole."
+
+#~ msgid "An HTTP Proxy username and password are required."
+#~ msgstr "Nepieciešams HTTP starpnieka lietotājvārds un parole."
+
+#~ msgid "Invalid connection type."
+#~ msgstr "Nederīgs savienojuma tips."
+
+#~ msgid "Invalid HMAC auth."
+#~ msgstr "Nederīgs HMAC auth."
+
+#, c-format
+#~| msgid "Invalid port number '%s'."
+#~ msgid "Invalid port number “%s”."
+#~ msgstr "Nederīgs porta numurs “%s”."
+
+#, c-format
+#~ msgid "Invalid proto “%s”."
+#~ msgstr "Nederīgs protokols “%s”."
+
+#, c-format
+#~| msgid "Invalid proxy type '%s'."
+#~ msgid "Invalid proxy type “%s”."
+#~ msgstr "Nederīgs starpnieka tips “%s”."
+
+#, c-format
+#~ msgid "Invalid ping duration “%s”."
+#~ msgstr "Nederīgs ping ilgums “%s”."
+
+#, c-format
+#~ msgid "Invalid ping-exit duration “%s”."
+#~ msgstr "Nederīgs ping-exit ilgums “%s”."
+
+#, c-format
+#~ msgid "Invalid ping-restart duration “%s”."
+#~ msgstr "Nederīgs ping-restart ilgums “%s”."
+
+#, c-format
+#~| msgid "Invalid connection type."
+#~ msgid "Invalid connect timeout “%s”."
+#~ msgstr "Nederīga savienojuma noildze “%s”."
+
+#, c-format
+#~ msgid "Invalid max-routes argument “%s”."
+#~ msgstr "Nederīgs max-routes arguments “%s”."
+
+#, c-format
+#~| msgid "Invalid keysize '%s'."
+#~ msgid "Invalid keysize “%s”."
+#~ msgstr "Nederīgs atslēgas izmērs “%s”."
+
+#, c-format
+#~ msgid "Invalid configuration with tls-remote and verify-x509-name."
+#~ msgstr "Nederīga konfigurācija ar tls-remote un verify-x509-name."
+
+#, c-format
+#~ msgid "Invalid verify-x509-name."
+#~ msgstr "Nederīgs verify-x509-name."
+
+#, c-format
+#~| msgid "Invalid reneg seconds '%s'."
+#~ msgid "Invalid reneg seconds “%s”."
+#~ msgstr "Nederīgas reneg sekundes “%s”."
+
+#, c-format
+#~| msgid "Invalid TUN MTU size '%s'."
+#~ msgid "Invalid TUN MTU size “%s”."
+#~ msgstr "Nederīgs TUN MTU izmērs “%s”."
+
+#, c-format
+#~| msgid "Invalid fragment size '%s'."
+#~ msgid "Invalid fragment size “%s”."
+#~ msgstr "Nederīgs fragmenta izmērs “%s”."
+
+#, c-format
+#~| msgid "Unknown connection type '%s'."
+#~ msgid "Unknown connection type “%s”."
+#~ msgstr "Nezināms savienojuma tips “%s”."
+
+#, c-format
+#~ msgid "User “%s” not found, check NM_ANYCONNECT_USER."
+#~ msgstr "Lietotājs “%s” nav atrasts, pārbaudiet NM_ANYCONNECT_USER."
+
+#, c-format
+#~ msgid "Group “%s” not found, check NM_ANYCONNECT_GROUP."
+#~ msgstr "Grupa “%s” nav atrasta, pārbaudiet NM_ANYCONNECT_GROUP."
+
+#~ msgid "Unhandled pending authentication."
+#~ msgstr "Nepastrādāta gaidoša autentifikācija."
+
+#~ msgid "TLS-Auth"
+#~ msgstr "TLS-Auth"
+
+#~ msgid "TLS-Crypt"
+#~ msgstr "TLS-Crypt"
+
+#~ msgid "Maybe"
+#~ msgstr "Varbūt"
+
+#~ msgid "Yes"
+#~ msgstr "Jā"
+
+#~| msgid "TLS Authentication"
+#~ msgid "Authentication"
+#~ msgstr "Autentifikācija"
+
+#~ msgid "CA"
+#~ msgstr "CA"
+
+#~ msgid "User"
+#~ msgstr "Lietotājs"
+
+#~ msgid "User name:"
+#~ msgstr "Lietotājvārds:"
+
+#~ msgid ""
+#~ "Password passed to Anyconnect when prompted for it.\n"
+#~ "config: auth-user-pass"
+#~ msgstr ""
+#~ "Parole, kas ir padota Anyconnect, kad tā tiek prasīta.\n"
+#~ "config: auth-user-pass"
+
+#~| msgid ""
+#~| "Username passed to Anyconnect when prompted for it.\n"
+#~| "config: auth-user-pass"
+#~ msgid ""
+#~ "Username passed to Anyconnect when prompted for it. If omitted, use the "
+#~ "name of the system user that activates the connection.\n"
+#~ "config: auth-user-pass"
+#~ msgstr ""
+#~ "Lietotājvārds, kas ir padots Anyconnect, kad tas tiek prasīts. Ja nav "
+#~ "norādīts, izmantot sistēmas lietotāju, kas ir aktivējis savienojumu.\n"
+#~ "config: auth-user-pass"
+
+#~ msgid "Remote IP Address:"
+#~ msgstr "Attālinātā IP adrese:"
+
+#~ msgid "Local IP Address:"
+#~ msgstr "Lokālā IP adrese:"
+
+#~ msgid "Key Direction:"
+#~ msgstr "Atslēgas virziens:"
+
+#~ msgid "Static Key:"
+#~ msgstr "Statiskās atslēgas:"
+
+#~ msgid ""
+#~ "Pre-shared file for Static Key encryption mode (non-TLS).\n"
+#~ "config: static <file>"
+#~ msgstr ""
+#~ "Kopīgas lietošanas datne statiskās atslēgas šifrēšanas režīmam (nav "
+#~ "TLS).\n"
+#~ "config: static <datne>"
+
+#~ msgid ""
+#~ "IP address of the remote VPN endpoint.\n"
+#~ "config: ifconfig <l> <rn>"
+#~ msgstr ""
+#~ "IP adrese attālinātajam VPN galapunktam.\n"
+#~ "config: ifconfig <l> <rn>"
+
+#~ msgid ""
+#~ "IP address of the local VPN endpoint.\n"
+#~ "config: ifconfig <l> <rn>"
+#~ msgstr ""
+#~ "IP adrese lokālajam VPN galapunktam.\n"
+#~ "config: ifconfig <l> <rn>"
+
+#~| msgid ""
+#~| "Direction for Static Key encryption mode (non-TLS).\n"
+#~| "If key direction is used, it must be the opposite of that used on the "
+#~| "VPN peer.  For example, if the peer uses '1', this connection must use "
+#~| "'0'.  If you are unsure what value to use, contact your system "
+#~| "administrator.\n"
+#~| "config: static <file> [direction]"
+#~ msgid ""
+#~ "Direction for Static Key encryption mode (non-TLS).\n"
+#~ "If key direction is used, it must be the opposite of that used on the VPN "
+#~ "peer. For example, if the peer uses “1”, this connection must use “0”. If "
+#~ "you are unsure what value to use, contact your system administrator.\n"
+#~ "config: static <file> [direction]"
+#~ msgstr ""
+#~ "Virziens statiskās atslēgas šifrēšanas režīmam (nav TLS).\n"
+#~ "Ja tiek izmantota virziena atslēga, tai ir jābūt pretējai, nekā otram "
+#~ "dalībniekam VPN. Piemēram, ja dalībnieks izmanto “1”, tad šim "
+#~ "savienojumam jāizmanto “0”. Ja nezināt, kādu vērtību izmantot, "
+#~ "sazinieties ar sistēmas administratoru.\n"
+#~ "config: static <datne> [virziens]"
+
+#~ msgid "Type:"
+#~ msgstr "Tips:"
+
+#~ msgid "Select an authentication mode."
+#~ msgstr "Izvēlieties autentificēšanās režīmu."
+
+#~| msgid "Ad_vanced..."
+#~ msgid "Ad_vanced…"
+#~ msgstr "_Paplašināts…"
+
+#~ msgid "Anyconnect Advanced Options"
+#~ msgstr "Anyconnect paplašinātās opcijas"
+
+#~ msgid "Use custom gateway p_ort:"
+#~ msgstr "Izmantot pielāgotu vārtejas p_ortu: "
+
+#~| msgid ""
+#~| "TCP/UDP port number for local peer.\n"
+#~| "config: port"
+#~ msgid ""
+#~ "TCP/UDP port number for peer. (Default value when there is no port for "
+#~ "gateway).\n"
+#~ "config: port"
+#~ msgstr ""
+#~ "TCP/UDP porta numurs dalībniekam (noklusējuma vērtība, kad vārtejai nav "
+#~ "porta).\n"
+#~ "config: port"
+
+#~ msgid "Use custom _renegotiation interval:"
+#~ msgstr "Izmantot pielāgotu atkā_rtotās vienošanās intervālu:"
+
+#~ msgid ""
+#~ "Renegotiate data channel key after the specified number of seconds.\n"
+#~ "config: reneg-sec"
+#~ msgstr ""
+#~ "Atkal vienoties par kanāla atslēgu pēc noteikta sekunžu laika.\n"
+#~ "config: reneg-sec"
+
+#~ msgid "Use L_ZO data compression"
+#~ msgstr "Lietot L_ZO datu kompresiju"
+
+#~ msgid ""
+#~ "Use fast LZO compression.\n"
+#~ "config: comp-lzo"
+#~ msgstr ""
+#~ "Lietot ātro LZO saspiešanu.\n"
+#~ "config: comp-lzo"
+
+#~| msgid ""
+#~| "Use fast LZO compression.\n"
+#~| "config: comp-lzo"
+#~ msgid ""
+#~ "Select the LZO data compression mode.\n"
+#~ "config: comp-lzo"
+#~ msgstr ""
+#~ "Izvēlēties LZO saspiešanas režīmu.\n"
+#~ "config: comp-lzo"
+
+#~ msgid "Use a _TCP connection"
+#~ msgstr "Lietot _TCP savienojumu"
+
+#~| msgid ""
+#~| "Use TCP for communicating with remote host.\n"
+#~| "config: proto tcp-client | udp"
+#~ msgid ""
+#~ "Use TCP for communicating with remote host.\n"
+#~ "(This is a default setting only used when no protocol is specified for "
+#~ "the gateway.)\n"
+#~ "config: proto tcp-client | udp"
+#~ msgstr ""
+#~ "Lietot TCP, lai sazinātos ar attālināto datoru (šis ir noklusējuma "
+#~ "iestatījums, kuru izmantot tikai, kad nav norādīts vārtejas protokols).\n"
+#~ "config: proto tcp-client | udp"
+
+#~ msgid "Set virtual _device type:"
+#~ msgstr "Iestatīt virtuālās _ierīces tipu:"
+
+#~ msgid "Explicitly set virtual device type and name (TUN/TAP)."
+#~ msgstr "Eksplicīti iestatīt virtuālās ierīces veidu un nosaukumu (TUN/TAP)."
+
+#~ msgid ""
+#~ "Explicitly set virtual device type (TUN/TAP).\n"
+#~ "config: dev-type tun | tap"
+#~ msgstr ""
+#~ "Eksplicīti iestatīt virtuālās ierīces veidu(TUN/TAP).\n"
+#~ "config: dev-type tun | tap"
+
+#~ msgid " and _name:"
+#~ msgstr " un _nosaukums:"
+
+#~ msgid ""
+#~ "Use custom name for TUN/TAP virtual device (instead of default “tun” or "
+#~ "“tap”).\n"
+#~ "config: dev <name>"
+#~ msgstr ""
+#~ "Izmantot pielāgotu nosaukumu TUN/TAP virtuālajai ierīcei (nevis "
+#~ "noklusējuma “tun” vai “tap”).\n"
+#~ "config: dev <nosaukums>"
+
+#~ msgid "Use custom tunnel Maximum Transmission _Unit (MTU):"
+#~ msgstr "Izmantot pielāgotu _tuneļa maksimālo pārraides bloku (MTU):"
+
+#~ msgid ""
+#~ "Take the TUN device MTU to be the specified value and derive the link MTU "
+#~ "from it.\n"
+#~ "config: tun-mtu"
+#~ msgstr ""
+#~ "Likt TUN ierīces MTU pieņemt noteiktu vērtību un no tā atvasināt saites "
+#~ "MTU.\n"
+#~ "config: tun-mtu"
+
+#~ msgid "Use custom UDP _fragment size:"
+#~ msgstr "Lietot pielāgotu UDP _fragmenta izmēru:"
+
+#~ msgid ""
+#~ "Enable internal datagram fragmentation with this maximum size.\n"
+#~ "config: fragment"
+#~ msgstr ""
+#~ "Aktivēt iekšējo datagrammu fragmentēšanu ar šo maksimālo izmēru.\n"
+#~ "config: fragment"
+
+#~ msgid "Restrict tunnel TCP Maximum _Segment Size (MSS)"
+#~ msgstr "Ierobežot tuneļa TCP maksimālo segmenta izmēru (MSS)"
+
+#~ msgid ""
+#~ "Restrict tunnel TCP MSS.\n"
+#~ "config: mssfix"
+#~ msgstr ""
+#~ "Ierobežot tuneļa TCP MSS.\n"
+#~ "config: mssfix"
+
+#~ msgid "Rando_mize remote hosts"
+#~ msgstr "Nejauši _izvēlēties attālinātos serverus"
+
+#~ msgid ""
+#~ "Randomize the order of gateways list (remote) as a kind of basic load-"
+#~ "balancing measure.\n"
+#~ "config: remote-random"
+#~ msgstr ""
+#~ "Nejauši izvēlēties attālināto vārteju saraksta  secību, kā vienkāršu "
+#~ "slodzes izlīdzināšanas veidu.\n"
+#~ "config: remote-random"
+
+#~ msgid "IPv6 tun link"
+#~ msgstr "IPv6 tun saite"
+
+#~ msgid ""
+#~ "Build a tun link capable of forwarding IPv6 traffic\n"
+#~ "config: tun-ipv6"
+#~ msgstr ""
+#~ "Uzbūvēt tun saiti, kas var pārsūtīt IPv6 datplūsmu\n"
+#~ "config: tun-ipv6"
+
+#~ msgid "Specify _exit or restart ping:"
+#~ msgstr "Norādīt iziešanas vai pārstartēšanas ping:"
+
+#~ msgid ""
+#~ "Exit or restart after n seconds pass without reception of a ping or other "
+#~ "packet from remote.\n"
+#~ "config: ping-exit | ping-restart <n>"
+#~ msgstr ""
+#~ "Iziet vai pārstartēt pēc tam, kad ir pagājušas n sekundes, nesaņemot ping "
+#~ "vai kādu citu paketi no attālinātā.\n"
+#~ "config: ping-exit | ping-restart <n>"
+
+#~ msgid "Specify pin_g interval:"
+#~ msgstr "Norādīt pin_g intervālu:"
+
+#~ msgid ""
+#~ "Ping remote over the TCP/UDP control channel if no packets have been sent "
+#~ "for at least n seconds.\n"
+#~ "config: ping <n>"
+#~ msgstr ""
+#~ "Sūtīt ping uz attālināto cauri TCP/UDP vadības kanāliem, ja nav sūtītas "
+#~ "paketes vismaz n sekundes.\n"
+#~ "config: ping <n>"
+
+#~ msgid "Accept authenticated packets from any address (F_loat)"
+#~ msgstr "Pieņemt autentificētās paketes no jebkuras adreses (F_loat)"
+
+#~ msgid ""
+#~ "Allow remote peer to change its IP address and/or port number, such as "
+#~ "due to DHCP (this is the default if --remote is not used). --float when "
+#~ "specified with --remote allows an Anyconnect session to initially connect "
+#~ "to a peer at a known address, however if packets arrive from a new "
+#~ "address and pass all authentication tests, the new address will take "
+#~ "control of the session. This is useful when you are connecting to a peer "
+#~ "which holds a dynamic address such as a dial-in user or DHCP client.\n"
+#~ "\n"
+#~ "Essentially, --float tells Anyconnect to accept authenticated packets "
+#~ "from any address, not only the address which was specified in the --"
+#~ "remote option.\n"
+#~ "\n"
+#~ "config: float"
+#~ msgstr ""
+#~ "Atļaut attālinātajiem biedriem mainīt to IP adreses un portus, piemēram, "
+#~ "dēļ DHCP (tas ir noklusējuma, ja netiek lietots --remote). Opcija --"
+#~ "float, kad ir norādīts kopā ar --remote, ļauj Anyconnect sesijai "
+#~ "sākotnēji savienoties ar biedru zināmā adresē, bet, ja pienāk pakete no "
+#~ "jaunas adreses un tā iztur visus autentifikācijas testus, jaunā adrese "
+#~ "pārņems sesijas vadību. Tas noder, ja jūs savienojaties ar biedru, kuram "
+#~ "ir dinamiska adrese, piemēram, iezvanpieejas lietotāji vai DHCP klienti.\n"
+#~ "\n"
+#~ "Praktiski, --float saka Anyconnect pieņemt autentificētās paketes no "
+#~ "jebkuras adreses, ne tikai no adreses, kas ir norādīta --remote opcijā.\n"
+#~ "\n"
+#~ "config: float"
+
+#~ msgid "Specify max routes:"
+#~ msgstr "Norādīt maksimālos maršrutus:"
+
+#~ msgid ""
+#~ "Specify the maximum number of routes the server is allowed to specify.\n"
+#~ "config: max-routes <n>"
+#~ msgstr ""
+#~ "Norādiet maksimālo maršrutu skaitu, ko serveris drīkst norādīt.\n"
+#~ "config: max-routes <n>"
+
+#~ msgid ""
+#~ "Encrypt packets with cipher algorithm. The default is BF-CBC (Blowfish in "
+#~ "Cipher Block Chaining mode).\n"
+#~ "config: cipher"
+#~ msgstr ""
+#~ "Šifrēt pakotnes ar cipher algoritmu. Noklusējuma ir BF-CBC (Blowfish "
+#~ "Cipher Block Chaining režīmā).\n"
+#~ "config: cipher"
+
+#~ msgid "Use custom _size of cipher key:"
+#~ msgstr "Izmantot pielāgotu šifrētāja at_slēgas garumu:"
+
+#~ msgid ""
+#~ "Set cipher key size to a custom value. If unspecified, it defaults to "
+#~ "cipher-specific size.\n"
+#~ "config: keysize <n>"
+#~ msgstr ""
+#~ "Iestatiet šifrētāja atslēgas izmēru uz pielāgotu vērtību. Ja nav "
+#~ "norādīts, tā izmantos šifrētājam specifisku izmēru.\n"
+#~ "config: keysize <n>"
+
+#~ msgid ""
+#~ "Authenticate packets with HMAC using message digest algorithm. The "
+#~ "default is SHA1.\n"
+#~ "config: auth"
+#~ msgstr ""
+#~ "Autentificēt pakotnes ar HMAC izmantojot ziņojumu sagremošanas algoritmu. "
+#~ "Noklusētais ir SHA1.\n"
+#~ "config: auth"
+
+#~ msgid "Ci_pher:"
+#~ msgstr "Šifrs:"
+
+#~ msgid "_HMAC Authentication:"
+#~ msgstr "HMAC autentifikācija:"
+
+#~ msgid "Security"
+#~ msgstr "Drošība"
+
+#~ msgid "_Subject Match:"
+#~ msgstr "Subjekta atbilstība:"
+
+#~ msgid ""
+#~ "Subject or Common Name to verify server certificate information against.\n"
+#~ "\n"
+#~ "config: verify-x509-name subject-or-name [mode]\n"
+#~ "config (legacy mode): tls-remote subject-or-name"
+#~ msgstr ""
+#~ "Subjekts vai nosaukums, pret kuru pārbaudīt servera sertifikāta "
+#~ "informāciju.\n"
+#~ "\n"
+#~ "config: verify-x509-name subject-or-name [režīms]\n"
+#~ "config (mantojuma režīms): tls-remote subject-or-name"
+
+#~| msgid "User Certificate:"
+#~ msgid "Server _Certificate Check:"
+#~ msgstr "Servera _sertifikāta pārbaude:"
+
+#~ msgid ""
+#~ "Verify server certificate identification.\n"
+#~ "\n"
+#~ "When enabled, connection will only succeed if the server certificate "
+#~ "matches some expected properties.\n"
+#~ "Matching can either apply to the whole certificate subject (all the "
+#~ "fields),\n"
+#~ "or just the Common Name (CN field).\n"
+#~ "\n"
+#~ "The legacy option tls-remote is deprecated and removed from Anyconnect "
+#~ "2.4 and newer. Do not use it anymore.\n"
+#~ "\n"
+#~ "config: verify-x509-name subject-or-name [mode]\n"
+#~ "config (legacy mode): tls-remote subject-or-name"
+#~ msgstr ""
+#~ "Pārbaudīt servera sertifikātu identifikāciju.\n"
+#~ "\n"
+#~ "Kad ieslēgts, savienojums būs sekmīgs tikai tad, ja servera sertifikāts "
+#~ "atbildīs kādām no sagaidītajām īpašībām.\n"
+#~ "Atbilstība var attiekties uz visu sertifikāta subjektu (visi lauki),\n"
+#~ "vai tikai uz nosaukumu (CN lauks).\n"
+#~ "\n"
+#~ "Mantotā opcija tls-remote ir novecojusi un izņemta no Anyconnect versijas "
+#~ "2.4 un jaunākām. To vairs nevajag izmantot.\n"
+#~ "\n"
+#~ "config: verify-x509-name subject-or-name [režīms]\n"
+#~ "config (mantojuma režīms): tls-remote subject-or-name"
+
+#~ msgid "_Verify peer (server) certificate usage signature"
+#~ msgstr "Pārbaudīt dalībnieka (ser_vera) sertifikātu, izmantojot parakstu"
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit key usage and "
+#~ "extended key usage based on RFC3280 TLS rules."
+#~ msgstr ""
+#~ "Prasa, lai dalībnieka sertifikāts tiku parakstīts ar eksplicītu atslēgas "
+#~ "izmantošanu un paplašināt atslēgas izmantošanu, balstoties uz RFC3280 TLS "
+#~ "noteikumiem."
+
+#~ msgid "_Remote peer certificate TLS type:"
+#~ msgstr "Attālinātais dalībnieku se_rtifikāta TLS tips:"
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit key usage and "
+#~ "extended key usage based on RFC3280 TLS rules.\n"
+#~ "config: remote-cert-tls client|server"
+#~ msgstr ""
+#~ "Prasa, lai dalībnieka sertifikāts tiku parakstīts ar eksplicītu atslēgas "
+#~ "izmantošanu un paplašināt atslēgas izmantošanu, balstoties uz RFC3280 TLS "
+#~ "noteikumiem.\n"
+#~ "config: remote-cert-tls client|server"
+
+#~| msgid "_Verify peer (server) certificate usage signature"
+#~ msgid "_Verify peer (server) certificate nsCertType designation"
+#~ msgstr "Pārbaudīt dalībnieka (servera) sertifikāta nsCertType apzīmējumu"
+
+#~| msgid ""
+#~| "Require that peer certificate was signed with an explicit key usage and "
+#~| "extended key usage based on RFC3280 TLS rules."
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit nsCertType "
+#~ "designation."
+#~ msgstr ""
+#~ "Prasa, lai dalībnieka sertifikāts tiku parakstīts ar eksplicītu "
+#~ "nsCertType apzīmējumu"
+
+#~| msgid "_Remote peer certificate TLS type:"
+#~ msgid "_Remote peer certificate nsCert designation:"
+#~ msgstr "Attālinātais dalībnieku se_rtifikāta nsCert apzīmējums:"
+
+#~| msgid ""
+#~| "Require that peer certificate was signed with an explicit key usage and "
+#~| "extended key usage based on RFC3280 TLS rules.\n"
+#~| "config: remote-cert-tls client|server"
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit nsCertType "
+#~ "designation.\n"
+#~ "config: ns-cert-type client|server"
+#~ msgstr ""
+#~ "Prasa, lai dalībnieka sertifikāts tiku parakstīts ar eksplicītu "
+#~ "nsCertType apzīmējumu.\n"
+#~ "config: ns-cert-type client|server"
+
+#~ msgid "Key _Direction:"
+#~ msgstr "Atslēgas virziens:"
+
+#~| msgid ""
+#~| "Add an additional layer of HMAC authentication on top of the TLS control "
+#~| "channel to protect against DoS attacks.\n"
+#~| "config: tls-auth <file> [direction]"
+#~ msgid ""
+#~ "Add an additional layer of HMAC authentication on top of the TLS control "
+#~ "channel to protect against DoS attacks. In case of TLS-Crypt mode, the "
+#~ "control channel is also encrypted.\n"
+#~ "config: tls-auth <file> [direction] | tls-crypt <file>"
+#~ msgstr ""
+#~ "Pievienot papildu HMAC autentifikācijas slāni uz TLS vadības kanāla, lai "
+#~ "aizsargātos pret DoS uzbrukumiem. TLS-Crypt režīmā vadības kanāls ari "
+#~ "tiek šifrēts.\n"
+#~ "config: tls-auth <datne> [virziens] | tls-crypt <datne>"
+
+#~| msgid ""
+#~| "Direction parameter for static key mode.\n"
+#~| "If key direction is used, it must be the opposite of that used on the "
+#~| "VPN peer.  For example, if the peer uses '1', this connection must use "
+#~| "'0'.  If you are unsure what value to use, contact your system "
+#~| "administrator.\n"
+#~| "config: tls-auth <file> [direction]"
+#~ msgid ""
+#~ "Direction parameter for static key mode.\n"
+#~ "If key direction is used, it must be the opposite of that used on the VPN "
+#~ "peer. For example, if the peer uses “1”, this connection must use “0”. If "
+#~ "you are unsure what value to use, contact your system administrator.\n"
+#~ "config: tls-auth <file> [direction]"
+#~ msgstr ""
+#~ "Virziena parametrs statiskās atslēgas režīmam.\n"
+#~ "Ja tiek izmantota virziena atslēga, tai ir jābūt pretējai, nekā otram "
+#~ "dalībniekam VPN. Piemēram, ja dalībnieks izmanto “1”, tad šim "
+#~ "savienojumam jāizmanto “0”. Ja nezināt, kādu vērtību izmantot, "
+#~ "sazinieties ar sistēmas administratoru.\n"
+#~ "config: tls-auth <datne> [virziens]"
+
+#~ msgid "Key _File:"
+#~ msgstr "Atslēgas _datne:"
+
+#~ msgid "Mode:"
+#~ msgstr "Režīms:"
+
+#~| msgid "Add an additional layer of HMAC authentication."
+#~ msgid "Add an additional layer of encryption or HMAC authentication."
+#~ msgstr "Lietot papildu šifrēšanas slāni vai HMAC autentifikāciju."
+
+#~| msgid "User Certificate:"
+#~ msgid "Extra Certificates:"
+#~ msgstr "Papildu sertifikāti:"
+
+#~ msgid ""
+#~ "Specify a file containing one or more PEM certs (concatenated together) "
+#~ "that complete the local certificate chain.\n"
+#~ "config: extra-certs <file>"
+#~ msgstr ""
+#~ "Norādiet datni, kas satur vienu vai vairākus PEM sertifikātus (salīmēti "
+#~ "kopā), kas pabeidz lokālo sertifikātu ķēdi.\n"
+#~ "config: extra-certs <datne>"
+
+#~| msgid "Use additional _TLS authentication"
+#~ msgid "Additional TLS authentication or encryption"
+#~ msgstr "Papildu TLS autentifikācija vai šifrēšana"
+
+#~ msgid "TLS Authentication"
+#~ msgstr "TLS autentifikācija"
+
+#~ msgid ""
+#~ "Proxy type: HTTP or Socks.\n"
+#~ "config: http-proxy or socks-proxy"
+#~ msgstr ""
+#~ "Starpnieka tips: HTTP vai Socks.\n"
+#~ "config: http-proxy vai socks-proxy"
+
+#~ msgid "Proxy _Type:"
+#~ msgstr "Starpnieka tips:"
+
+#~ msgid ""
+#~ "<i>Select this option if your organization requires the use of a proxy "
+#~ "server to access the Internet.</i>"
+#~ msgstr ""
+#~ "<i>Izvēlieties šo opciju, ja jūsu organizācija izmanto starpnieka "
+#~ "serveri, lai piekļūtu Internetam.</i>"
+
+#~ msgid "Server _Address:"
+#~ msgstr "Servera adrese:"
+
+#~ msgid ""
+#~ "Connect to remote host through a proxy with this address.\n"
+#~ "config: http-proxy or socks-proxy"
+#~ msgstr ""
+#~ "Savienoties ar attālināto datoru caur starpnieku ar šādu adresi.\n"
+#~ "config: http-proxy vai socks-proxy"
+
+#~ msgid "_Port:"
+#~ msgstr "Ports:"
+
+#~ msgid ""
+#~ "Connect to remote host through a proxy with this port.\n"
+#~ "config: http-proxy or socks-proxy"
+#~ msgstr ""
+#~ "Savienoties ar attālināto datoru caur starpnieku ar šādu portu.\n"
+#~ "config: http-proxy vai socks-proxy"
+
+#~ msgid "_Retry indefinitely when errors occur"
+#~ msgstr "_Mēģināt atkal nebeidzami ilgi, ja gadās kļūda"
+
+#~ msgid ""
+#~ "Retry indefinitely on proxy errors. It simulates a SIGUSR1 reset.\n"
+#~ "config: http-proxy-retry or socks-proxy-retry"
+#~ msgstr ""
+#~ "Mēģināt atkal nebeidzami ilgi, ja starpnieks met kļūdu. Tas imitē SIGUSR1 "
+#~ "atstatīšanu.\n"
+#~ "config: http-proxy-retry vai socks-proxy-retry"
+
+#~ msgid "Proxy _Username:"
+#~ msgstr "Starpnieka lietotājvārds:"
+
+#~ msgid "Proxy Passwor_d:"
+#~ msgstr "Starpnieka parole:"
+
+#~ msgid "HTTP/Socks proxy username passed to Anyconnect when prompted for it."
+#~ msgstr ""
+#~ "HTTP/Socks starpnieka lietotājvārds, ko padod Anyconnect, kad tas tiek "
+#~ "prasīts."
+
+#~ msgid "HTTP/Socks proxy password passed to Anyconnect when prompted for it."
+#~ msgstr ""
+#~ "HTTP/Socks starpnieka parole, ko padod Anyconnect, kad tā tiek prasīta."
+
+#~ msgid "_Show password"
+#~ msgstr "Rādīt paroli"
+
+#~ msgid "Proxies"
+#~ msgstr "Starpnieki"
+
+#~ msgid "Path mtu discovery"
+#~ msgstr "Ceļa mtu atklāšana"
+
+#~| msgid "Connect _anonymously"
+#~ msgid "Connect timeout"
+#~ msgstr "Savienojuma noildze"
+
+#~ msgid ""
+#~ "The timeout in seconds before trying the next server. This timeout "
+#~ "includes proxy and TCP connect timeouts.\n"
+#~ "config: connect-timeout <n> | server-poll-timeout <n>"
+#~ msgstr ""
+#~ "Noildze, izteikta sekundēs, pirms mēģināt nākamo serveri. Šī noildze "
+#~ "iekļauj starpnieka un TCP savienojuma noildzes.\n"
+#~ "config: connect-timeout <n> | server-poll-timeout <n>"
+
+#~ msgid "Misc"
+#~ msgstr "Dažādi"

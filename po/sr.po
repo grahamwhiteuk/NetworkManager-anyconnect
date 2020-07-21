@@ -1,0 +1,1341 @@
+# Serbian translation for network-manager-anyconnect.
+# Courtesy of Prevod.org team (http://prevod.org/) -- 2013—2018.
+# Copyright © 2013 network-manager-anyconnect's COPYRIGHT HOLDER
+# This file is distributed under the same license as the network-manager-anyconnect package.
+# Translators:
+# Мирослав Николић <miroslavnikolic@rocketmail.com>, 2013—2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: network-manager-anyconnect master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-30 22:41+0100\n"
+"PO-Revision-Date: 2019-09-16 08:47+0200\n"
+"Last-Translator: Марко М. Костић <marko.m.kostic@gmail.com>\n"
+"Language-Team: српски <gnome-sr@googlegroups.org>\n"
+"Language: sr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Project-Style: gnome\n"
+"X-Generator: Poedit 2.2.3\n"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:1
+msgid "Anyconnect client"
+msgstr "ОпенВПН клијент"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:2
+msgid "Client for Anyconnect virtual private networks"
+msgstr "Клијент за виртуелне приватне мреже кроз ОпенВПН"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:3
+msgid "Support for configuring Anyconnect virtual private network connections."
+msgstr ""
+"Подршка за подешавање повезивања у виртуелним приватним мрежама кроз ОпенВПН."
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:4
+msgid "Anyconnect is a popular and flexible free-software VPN solution."
+msgstr "ОпенВПН је популаран, прилагодљив и слободан програм за ВПН."
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:5
+msgid "The NetworkManager Developers"
+msgstr "Развојни тим Управника мреже"
+
+#: ../properties/nm-anyconnect-editor-plugin.c:35
+#, fuzzy
+msgid "Cisco AnyConnect"
+msgstr "ОпенВПН"
+
+#: ../properties/nm-anyconnect-editor-plugin.c:36
+msgid "Runs the proprietary Cisco AnyConnect VPN."
+msgstr ""
+
+#: ../properties/nm-anyconnect-editor.c:299
+msgid "could not load UI widget"
+msgstr "не могу да учитам елемент сучеља"
+
+#: ../shared/nm-utils/nm-shared-utils.c:946
+#, c-format
+msgid "object class '%s' has no property named '%s'"
+msgstr "класа објекта „%s“ нема својство са називом „%s“"
+
+#: ../shared/nm-utils/nm-shared-utils.c:953
+#, c-format
+msgid "property '%s' of object class '%s' is not writable"
+msgstr "својство „%s“ класе објекта „%s“ није уписиво"
+
+#: ../shared/nm-utils/nm-shared-utils.c:960
+#, c-format
+msgid ""
+"construct property \"%s\" for object '%s' can't be set after construction"
+msgstr "својство творбе „%s“ за објекат „%s“ се не може поставити након творбе"
+
+#: ../shared/nm-utils/nm-shared-utils.c:968
+#, c-format
+msgid "'%s::%s' is not a valid property name; '%s' is not a GObject subtype"
+msgstr "„%s::%s“ није исправан назив својства; „%s“ није подврста Гобјекта"
+
+#: ../shared/nm-utils/nm-shared-utils.c:977
+#, c-format
+msgid "unable to set property '%s' of type '%s' from value of type '%s'"
+msgstr "не могу да поставим својство „%s“ врсте „%s“ из вредности врсте „%s“"
+
+#: ../shared/nm-utils/nm-shared-utils.c:988
+#, c-format
+msgid ""
+"value \"%s\" of type '%s' is invalid or out of range for property '%s' of "
+"type '%s'"
+msgstr ""
+"вредност „%s“ врсте „%s“ није исправна или је ван опсега за својство „%s“ "
+"врсте „%s“"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:69
+#, c-format
+msgid "unable to get editor plugin name: %s"
+msgstr "не могу да добавим назив прикључка уређивача: %s"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:103
+#, c-format
+msgid "missing plugin file \"%s\""
+msgstr "недостаје датотека прикључка „%s“"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:109
+#, c-format
+msgid "cannot load editor plugin: %s"
+msgstr "не могу да учитам прикључак уређивача: %s"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:118
+#, c-format
+msgid "cannot load factory %s from plugin: %s"
+msgstr "не могу да учитам погон „%s“ из прикључка: %s"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:144
+msgid "unknown error creating editor instance"
+msgstr "непозната грешка приликом стварања примерка уређивача"
+
+#: ../src/nm-anyconnect-service.c:567 ../src/nm-anyconnect-service.c:682
+msgid "Could not find the anyconnect binary."
+msgstr "Не могу да пронађем опенвпн извршни."
+
+#: ../src/nm-anyconnect-service.c:580
+msgid ""
+"Could not process the request because the VPN connection settings were "
+"invalid."
+msgstr "Не могу да обрадим захтев због неисправних подешавања ВПН везе."
+
+#: ../src/nm-anyconnect-service.c:602
+msgid ""
+"Could not attempt connection, unable to find the setting for the gateway."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:875
+msgid "Don’t quit when VPN connection terminates"
+msgstr "Не прекида када се завршава ВПН веза"
+
+#: ../src/nm-anyconnect-service.c:876
+msgid "Enable verbose debug logging (may expose passwords)"
+msgstr ""
+"Укључује опширно записивање зарад исправљања грешака (може да изложи лозинке)"
+
+#: ../src/nm-anyconnect-service.c:877
+msgid "D-Bus name to use for this instance"
+msgstr "Назив Д-сабирнице који ће се користити за овај примерак"
+
+#: ../src/nm-anyconnect-service.c:905
+#, fuzzy
+msgid ""
+"nm-anyconnect-service provides integrated proprietary Cisco AnyConnect "
+"capability to NetworkManager."
+msgstr ""
+"нм-опенвпн-услуга обезбеђује Управнику мреже обједињену ОпенВПН могућност."
+
+#: ../properties/nm-anyconnect-dialog.ui.h:1
+msgid "General"
+msgstr "Опште"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:2
+msgid "_Gateway:"
+msgstr "_Мрежни пролаз:"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:3
+msgid "VPN host to connect to"
+msgstr ""
+
+#, c-format
+#~ msgid "Authenticate VPN %s"
+#~ msgstr "Потврди ВПН %s"
+
+#~ msgid "Password:"
+#~ msgstr "Лозинка:"
+
+#~ msgid "Certificate password:"
+#~ msgstr "Лозинка уверења:"
+
+#~ msgid "HTTP proxy password:"
+#~ msgstr "Лозинка ХТТП посредника:"
+
+#~ msgid "Authenticate VPN"
+#~ msgstr "Потврди ВПН"
+
+#~ msgid "Certificate pass_word:"
+#~ msgstr "Лозинка _уверења:"
+
+#~ msgid "_HTTP proxy password:"
+#~ msgstr "Лозинка _ХТТП посредника:"
+
+#, c-format
+#~ msgid "You need to authenticate to access the Virtual Private Network “%s”."
+#~ msgstr ""
+#~ "Морате да потврдите идентитет да бисте могли да приступите виртуелној "
+#~ "приватној мрежи „%s“."
+
+#, c-format
+#~ msgid "option %s expects between %u and %u argument"
+#~ msgid_plural "option %s expects between %u and %u arguments"
+#~ msgstr[0] "опција „%s“ очекује између %u и %u аргумента"
+#~ msgstr[1] "опција „%s“ очекује између %u и %u аргумента"
+#~ msgstr[2] "опција „%s“ очекује између %u и %u аргуменaта"
+#~ msgstr[3] "опција „%s“ очекује између %u и %u аргумента"
+
+#, c-format
+#~ msgid "option %s expects no arguments"
+#~ msgstr "опција „%s“ не очекује аргументе"
+
+#, c-format
+#~ msgid "option %s expects exactly one argument"
+#~ msgid_plural "option %s expects exactly %u arguments"
+#~ msgstr[0] "опција „%s“ очекује тачно %u аргумент"
+#~ msgstr[1] "опција „%s“ очекује тачно %u аргументa"
+#~ msgstr[2] "опција „%s“ очекује тачно %u аргуменaтa"
+#~ msgstr[3] "опција „%s“ очекује тачно један аргумент"
+
+#, c-format
+#~ msgid "argument %s of “%s” can not be empty"
+#~ msgstr "аргумент „%s“ за „%s“ не може бити празан"
+
+#, c-format
+#~ msgid "argument of “%s” can not be empty"
+#~ msgstr "аргумент за „%s“ не може бити празан"
+
+#, c-format
+#~ msgid "argument %s of “%s” must be UTF-8 encoded"
+#~ msgstr "аргумент „%s“ за „%s“ мора бити у УТФ-8 кодирању"
+
+#, c-format
+#~ msgid "argument of “%s” must be UTF-8 encoded"
+#~ msgstr "аргумент за „%s“ мора бити у УТФ-8 кодирању"
+
+#, c-format
+#~ msgid "invalid %uth argument to “%s” where number expected"
+#~ msgstr "неисправан %u. аргумент за „%s“ где је очекиван број"
+
+#, c-format
+#~ msgid "unsupported %uth argument %s to “%s”"
+#~ msgstr "неподржан %u. аргумент „%s“ за „%s“"
+
+#, c-format
+#~ msgid ""
+#~ "unsupported %uth argument to “%s” which looks like a FQDN but only IPv4 "
+#~ "address supported"
+#~ msgstr ""
+#~ "неподржан %u. аргумент за „%s“ који изгледа као ФКуДН али је подржана "
+#~ "само ИПв4 адреса"
+
+#, c-format
+#~ msgid "invalid %uth argument to “%s” where IPv4 address expected"
+#~ msgstr "неисправан %u. аргумент за „%s“ где је очекивана ИПв4 адреса"
+
+#, c-format
+#~ msgid "invalid %uth key-direction argument to “%s”"
+#~ msgstr "неисправан %u. аргумент правца кључа за „%s“"
+
+#, c-format
+#~ msgid "invalid %uth argument to “%s”"
+#~ msgstr "неисправан %u. аргумент за „%s“"
+
+#, c-format
+#~ msgid "unterminated %s at position %lld"
+#~ msgstr "неокончано „%s“ на %lld. положају"
+
+#~ msgid "double quote"
+#~ msgstr "двоструки наводници"
+
+#~ msgid "single quote"
+#~ msgstr "једноструки наводник"
+
+#, c-format
+#~ msgid "trailing escaping backslash at position %lld"
+#~ msgstr "пратећа контра коса црта краја реда на %lld. положају"
+
+#, c-format
+#~ msgid "unable to read HTTP proxy auth file"
+#~ msgstr "не могу да прочитам датотеку овлашћења ХТТП посредника"
+
+#, c-format
+#~ msgid "cannot read user/password from HTTP proxy auth file"
+#~ msgstr ""
+#~ "не могу да прочитам корисника/лозинку из датотеке овлашћења ХТТП "
+#~ "посредника"
+
+#, c-format
+#~ msgid "user/password from HTTP proxy auth file must be UTF-8 encoded"
+#~ msgstr ""
+#~ "корисник/лозинка из датотеке овлашћења ХТТП посредника мора бити у УТФ-8 "
+#~ "кодирању"
+
+#, c-format
+#~ msgid "“%s” is not a directory"
+#~ msgstr "„%s“ није директоријум"
+
+#, c-format
+#~ msgid "cannot create “%s” directory"
+#~ msgstr "не могу да направим „%s“ директоријум"
+
+#, c-format
+#~ msgid "cannot write <%s> blob from line %ld to file (%s)"
+#~ msgstr "не могу да запишем <%s> блоб из %ld. реда у датотеку (%s)"
+
+#, c-format
+#~ msgid "cannot write <%s> blob from line %ld to file “%s”"
+#~ msgstr "не могу да запишем <%s> блоб из %ld. реда у датотеку (%s)"
+
+#, c-format
+#~ msgid "unsupported mtu-disc argument"
+#~ msgstr "неподржан аргумент „mtu-disc“"
+
+#, c-format
+#~ msgid "unsupported crl-verify argument"
+#~ msgstr "неподржан аргумент „crl-verify“"
+
+#, c-format
+#~ msgid "invalid option"
+#~ msgstr "неисправна опција"
+
+#, c-format
+#~ msgid "unsupported comp-lzo argument"
+#~ msgstr "неподржан аргумент „comp-lzo“"
+
+#, c-format
+#~ msgid "remote cannot contain space"
+#~ msgstr "удаљени не може да садржи размак"
+
+#, c-format
+#~ msgid "remote cannot contain comma"
+#~ msgstr "удаљени не може да садржи зарез"
+
+#, c-format
+#~ msgid "remote expects protocol type like “udp” or “tcp”"
+#~ msgstr "удаљени очекује врсту протокола као „udp“ или „tcp“"
+
+#, c-format
+#~ msgid "invalid verify-x509-name type"
+#~ msgstr "неисправна врста провере-x509-назива"
+
+#, c-format
+#~ msgid "unsupported blob/xml element"
+#~ msgstr "неподржани елемент блоб/иксмл"
+
+#, c-format
+#~ msgid "unterminated blob element <%s>"
+#~ msgstr "неокончани елемент блоба <%s>"
+
+#, c-format
+#~ msgid "configuration error: %s (line %ld)"
+#~ msgstr "грешка подешавања: %s (%ld. ред)"
+
+#~ msgid "unknown or unsupported option"
+#~ msgstr "непозната или неподржана опција"
+
+#~ msgid "The file to import wasn’t a valid Anyconnect client configuration"
+#~ msgstr "Датотека за увоз није исправно подешавање ОпенВПН клијента"
+
+#~ msgid "The file to import wasn’t a valid Anyconnect configure (no remote)"
+#~ msgstr "Датотека за увоз није исправно ОпенВПН подешавање (нема удаљеног)"
+
+#~ msgid "missing path argument"
+#~ msgstr "недостаје аргумент са путањом"
+
+#~ msgid "connection is not a valid Anyconnect connection"
+#~ msgstr "веза није исправна ОпенВПН веза"
+
+#~ msgid "connection was incomplete (missing gateway)"
+#~ msgstr "веза беше непотпуна (недостаје мрежни пролаз)"
+
+#, c-format
+#~ msgid "failed to write file: %s"
+#~ msgstr "нисам успео да упишем датотеку: %s"
+
+#~ msgid "Compatible with the Anyconnect server."
+#~ msgstr "Сагласно са ОпенВПН сервером."
+
+#~ msgid "Choose an Anyconnect static key…"
+#~ msgstr "Изаберите ОпенВПН статички кључ…"
+
+#~ msgid "None"
+#~ msgstr "Ништа"
+
+#~ msgid "Anyconnect Static Keys (*.key)"
+#~ msgstr "ОпенВПН статички кључ (*.key)"
+
+#~ msgid "Default"
+#~ msgstr "Основно"
+
+#~ msgid "RSA MD-4"
+#~ msgstr "РСА-МД-4"
+
+#~ msgid "MD-5"
+#~ msgstr "МД-5"
+
+#~ msgid "SHA-1"
+#~ msgstr "СХА-1"
+
+#~ msgid "SHA-224"
+#~ msgstr "СХА‑224"
+
+#~ msgid "SHA-256"
+#~ msgstr "СХА‑256"
+
+#~ msgid "SHA-384"
+#~ msgstr "СХА‑384"
+
+#~ msgid "SHA-512"
+#~ msgstr "СХА‑512"
+
+#~ msgid "RIPEMD-160"
+#~ msgstr "РИПЕМД‑160"
+
+#~ msgid "Don’t verify certificate identification"
+#~ msgstr "Не проверавај препознавање уверења"
+
+#~ msgid "Verify whole subject exactly"
+#~ msgstr "Провери читав субјекат тачно"
+
+#~ msgid "Verify name exactly"
+#~ msgstr "Провери назив тачно"
+
+#~ msgid "Verify name by prefix"
+#~ msgstr "Провери име према префиксу"
+
+#~ msgid "Verify subject partially (legacy mode, strongly discouraged)"
+#~ msgstr "Провери субјекат делимично (стари режим, не препоручује се никако)"
+
+#~ msgid "Server"
+#~ msgstr "Сервер"
+
+#~ msgid "Client"
+#~ msgstr "Клијент"
+
+#~ msgid "Not required"
+#~ msgstr "Непотребно"
+
+#~ msgid "HTTP"
+#~ msgstr "ХТТП"
+
+#~ msgid "SOCKS"
+#~ msgstr "СОЦКС"
+
+#~ msgid "TUN"
+#~ msgstr "ТУН"
+
+#~ msgid "TAP"
+#~ msgstr "ТАП"
+
+#~ msgid "(automatic)"
+#~ msgstr "(самостално)"
+
+#~ msgid "ping-exit"
+#~ msgstr "излаз пинга"
+
+#~ msgid "ping-restart"
+#~ msgstr "поновно покретање пинга"
+
+#~ msgid "Certificates (TLS)"
+#~ msgstr "Уверења (ТЛС)"
+
+#~ msgid "Password"
+#~ msgstr "Лозинка"
+
+#~ msgid "Password with Certificates (TLS)"
+#~ msgstr "Лозинка са уверењима (ТЛС)"
+
+#~ msgid "Static Key"
+#~ msgstr "Статички кључ"
+
+#, c-format
+#~ msgid "invalid delimiter character '%c'"
+#~ msgstr "неисправан знак раздвојника „%c“"
+
+#, c-format
+#~ msgid "invalid non-utf-8 character"
+#~ msgstr "неисправан не-утф-8 знак"
+
+#, c-format
+#~ msgid "empty host"
+#~ msgstr "празан домаћин"
+
+#, c-format
+#~ msgid "invalid port"
+#~ msgstr "неисправан порт"
+
+#, c-format
+#~ msgid "invalid protocol"
+#~ msgstr "неисправан протокол"
+
+#, c-format
+#~ msgid "invalid address “%s”"
+#~ msgstr "неисправна адреса „%s“"
+
+#, c-format
+#~ msgid "invalid integer property “%s” or out of range [%d -> %d]"
+#~ msgstr "неисправно својство целог броја „%s“ или је ван опсега [%d → %d]"
+
+#, c-format
+#~ msgid "invalid boolean property “%s” (not yes or no)"
+#~ msgstr "неисправно логичко својство „%s“ (није „yes“ (да) или „no“ (не))"
+
+#, c-format
+#~ msgid "unhandled property “%s” type %s"
+#~ msgstr "неруковано својство „%s“ врсте %s"
+
+#, c-format
+#~ msgid "property “%s” invalid or not supported"
+#~ msgstr "својство „%s“ је неисправно или није подржано"
+
+#~ msgid "No VPN configuration options."
+#~ msgstr "Нема опција ВПН подешавања."
+
+#~ msgid "A username is required."
+#~ msgstr "Потребно је корисничко име."
+
+#~ msgid "A password is required."
+#~ msgstr "Потребна је лозинка."
+
+#~ msgid "A username and password are required."
+#~ msgstr "Потребни су корисничко име и лозинка."
+
+#~ msgid "A private key password is required."
+#~ msgstr "Потребна је лозинка приватног кључа."
+
+#~ msgid "An HTTP Proxy username is required."
+#~ msgstr "Потребно је корисничко име ХТТП посредника."
+
+#~ msgid "An HTTP Proxy password is required."
+#~ msgstr "Потребна је лозинка ХТТП посредника."
+
+#~ msgid "An HTTP Proxy username and password are required."
+#~ msgstr "Потребни су корисничко име и лозинка ХТТП посредника."
+
+#~ msgid "Invalid connection type."
+#~ msgstr "Неисправна врста везе."
+
+#, c-format
+#~ msgid "Invalid port number “%s”."
+#~ msgstr "Неисправан број прикључника „%s“."
+
+#, c-format
+#~ msgid "Invalid proto “%s”."
+#~ msgstr "Неисправан протокол „%s“."
+
+#, c-format
+#~ msgid "Invalid proxy type “%s”."
+#~ msgstr "Неисправна врста посредника „%s“."
+
+#, c-format
+#~ msgid "Invalid ping duration “%s”."
+#~ msgstr "Неисправно трајање пинга „%s“."
+
+#, c-format
+#~ msgid "Invalid ping-exit duration “%s”."
+#~ msgstr "Неисправно трајање изласка пинга „%s“."
+
+#, c-format
+#~ msgid "Invalid ping-restart duration “%s”."
+#~ msgstr "Неисправно трајање поновног покретања пинга „%s“."
+
+#, c-format
+#~ msgid "Invalid connect timeout “%s”."
+#~ msgstr "Неисправно време истека везе „%s“."
+
+#, c-format
+#~ msgid "Invalid max-routes argument “%s”."
+#~ msgstr "Неисправан аргумент највише рута „%s“."
+
+#, c-format
+#~ msgid "Invalid keysize “%s”."
+#~ msgstr "Неисправна величина кључа „%s“."
+
+#, c-format
+#~ msgid "Invalid configuration with tls-remote and verify-x509-name."
+#~ msgstr "Неисправно подешавање са „tls-remote“ и „verify-x509-name“."
+
+#, c-format
+#~ msgid "Invalid verify-x509-name."
+#~ msgstr "Није исправна провера-x509-назива."
+
+#, c-format
+#~ msgid "Invalid reneg seconds “%s”."
+#~ msgstr "Неисправан број секунди поновног преговарања „%s“."
+
+#, c-format
+#~ msgid "Invalid TUN MTU size “%s”."
+#~ msgstr "Неисправна ТУН МТУ величина „%s“."
+
+#, c-format
+#~ msgid "Invalid fragment size “%s”."
+#~ msgstr "Неисправна величина одломка „%s“."
+
+#, c-format
+#~ msgid "Unknown connection type “%s”."
+#~ msgstr "Непозната врста везе „%s“."
+
+#, c-format
+#~ msgid "User “%s” not found, check NM_ANYCONNECT_USER."
+#~ msgstr "Нисам нашао корисника „%s“, проверите „NM_ANYCONNECT_USER“."
+
+#, c-format
+#~ msgid "Group “%s” not found, check NM_ANYCONNECT_GROUP."
+#~ msgstr "Нисам нашао групу „%s“, проверите „NM_ANYCONNECT_GROUP“."
+
+#~ msgid "Unhandled pending authentication."
+#~ msgstr "Непознато потврђивање идентитета на чекању."
+
+#~ msgid "TLS-Auth"
+#~ msgstr "ТЛС-потврда"
+
+#~ msgid "TLS-Crypt"
+#~ msgstr "ТЛС-шифровање"
+
+#~ msgid "Maybe"
+#~ msgstr "Можда"
+
+#~ msgid "Yes"
+#~ msgstr "Да"
+
+#~ msgid "Authentication"
+#~ msgstr "Потврђивање идентитета"
+
+#~ msgid "CA"
+#~ msgstr "Издавач уверења"
+
+#~ msgid "User"
+#~ msgstr "Корисник"
+
+#~ msgid "User name:"
+#~ msgstr "Корисничко име:"
+
+#~ msgid ""
+#~ "Password passed to Anyconnect when prompted for it.\n"
+#~ "config: auth-user-pass"
+#~ msgstr ""
+#~ "Лозинка прослеђена ОпенВПН-у када је затражена.\n"
+#~ "подешавање: „auth-user-pass“"
+
+#~ msgid ""
+#~ "Username passed to Anyconnect when prompted for it. If omitted, use the "
+#~ "name of the system user that activates the connection.\n"
+#~ "config: auth-user-pass"
+#~ msgstr ""
+#~ "Корисничко име прослеђено ОпенВПН-у када је затражено. Ако је "
+#~ "изостављено, користи име системског корисника који је покренуо везу.\n"
+#~ "подешавање: „auth-user-pass“"
+
+#~ msgid "Remote IP Address:"
+#~ msgstr "Удаљена ИП адреса:"
+
+#~ msgid "Local IP Address:"
+#~ msgstr "Месна ИП адреса:"
+
+#~ msgid "Key Direction:"
+#~ msgstr "Усмерење кључа:"
+
+#~ msgid "Static Key:"
+#~ msgstr "Статички кључ:"
+
+#~ msgid ""
+#~ "Pre-shared file for Static Key encryption mode (non-TLS).\n"
+#~ "config: static <file>"
+#~ msgstr ""
+#~ "Пред-дељена датотека за режим шифровања статичког кључа (не-ТЛС).\n"
+#~ "подешавање: „static <датотека>“"
+
+#~ msgid ""
+#~ "IP address of the remote VPN endpoint.\n"
+#~ "config: ifconfig <l> <rn>"
+#~ msgstr ""
+#~ "ИП адреса крајње тачке удаљеног ВПН-а.\n"
+#~ "подешавање: „ifconfig <l> <rn>“"
+
+#~ msgid ""
+#~ "IP address of the local VPN endpoint.\n"
+#~ "config: ifconfig <l> <rn>"
+#~ msgstr ""
+#~ "ИП адреса крајње тачке месног ВПН-а.\n"
+#~ "подешавање: „ifconfig <l> <rn>“"
+
+#~ msgid ""
+#~ "Direction for Static Key encryption mode (non-TLS).\n"
+#~ "If key direction is used, it must be the opposite of that used on the VPN "
+#~ "peer. For example, if the peer uses “1”, this connection must use “0”. If "
+#~ "you are unsure what value to use, contact your system administrator.\n"
+#~ "config: static <file> [direction]"
+#~ msgstr ""
+#~ "Усмерење за режим шифровања статичког кључа (не-ТЛС).\n"
+#~ "Ако користите усмерење кључа, мора бити супротно од оног коришћеног на "
+#~ "ВПН парњаку. На пример, ако парњак користи „1“, ова веза мора да користи "
+#~ "„0“. Ако нисте сигурни коју вредност да користите, посавејтујте се са "
+#~ "администратором система.\n"
+#~ "подешавање: „static <датотека> [усмерење]“"
+
+#~ msgid "Type:"
+#~ msgstr "Врста:"
+
+#~ msgid "Select an authentication mode."
+#~ msgstr "Изаберите режим потврђивања идентитета."
+
+#~ msgid "Ad_vanced…"
+#~ msgstr "_Напредно…"
+
+#~ msgid "Anyconnect Advanced Options"
+#~ msgstr "Напредне опције за ОпенВПН"
+
+#~ msgid "Use custom gateway p_ort:"
+#~ msgstr "Користи произвољни _прикључник мрежног пролаза:"
+
+#~ msgid ""
+#~ "TCP/UDP port number for peer. (Default value when there is no port for "
+#~ "gateway).\n"
+#~ "config: port"
+#~ msgstr ""
+#~ "Број ТЦП/УДП прикључника за парњака. (Основна вредност када нема "
+#~ "прикључника за мрежни пролаз).\n"
+#~ "подешавање: „port“"
+
+#~ msgid "Use custom _renegotiation interval:"
+#~ msgstr "Користи произвољан период поновног _преговарања:"
+
+#~ msgid ""
+#~ "Renegotiate data channel key after the specified number of seconds.\n"
+#~ "config: reneg-sec"
+#~ msgstr ""
+#~ "Поново преговарајте кључ канала података након наведеног броја секунди.\n"
+#~ "подешавање: „reneg-sec“"
+
+#~ msgid "Use L_ZO data compression"
+#~ msgstr "Користи _ЛЗО сажимање података"
+
+#~ msgid ""
+#~ "Use fast LZO compression.\n"
+#~ "config: comp-lzo"
+#~ msgstr ""
+#~ "Користите брзо ЛЗО сажимање.\n"
+#~ "подешавање: „comp-lzo“"
+
+#~ msgid ""
+#~ "Select the LZO data compression mode.\n"
+#~ "config: comp-lzo"
+#~ msgstr ""
+#~ "Изаберите ЛЗО режим паковања података.\n"
+#~ "подешавање: „comp-lzo“"
+
+#~ msgid "Use a _TCP connection"
+#~ msgstr "Користи _ТЦП везу"
+
+#~ msgid ""
+#~ "Use TCP for communicating with remote host.\n"
+#~ "(This is a default setting only used when no protocol is specified for "
+#~ "the gateway.)\n"
+#~ "config: proto tcp-client | udp"
+#~ msgstr ""
+#~ "Користите ТЦП за комуницирање са удаљеним домаћином.\n"
+#~ "(Ово је основно подешавање које се користи само када није наведен "
+#~ "протокол за мрежни пролаз.)\n"
+#~ "подешавање: „proto tcp-client | udp“"
+
+#~ msgid "Set virtual _device type:"
+#~ msgstr "Подеси врсту виртуелног _уређаја:"
+
+#~ msgid "Explicitly set virtual device type and name (TUN/TAP)."
+#~ msgstr "Изричито подесите врсту виртуелног уређаја и назив (ТУН/ТАП)."
+
+#~ msgid ""
+#~ "Explicitly set virtual device type (TUN/TAP).\n"
+#~ "config: dev-type tun | tap"
+#~ msgstr ""
+#~ "Изричито подесите врсту виртуелног уређаја (ТУН/ТАП).\n"
+#~ "подешавање: „dev-type tun | tap“"
+
+#~ msgid " and _name:"
+#~ msgstr " и _назив:"
+
+#~ msgid ""
+#~ "Use custom name for TUN/TAP virtual device (instead of default “tun” or "
+#~ "“tap”).\n"
+#~ "config: dev <name>"
+#~ msgstr ""
+#~ "Користите произвољан назив за ТУН/ТАП виртуелни уређај (уместо основног "
+#~ "„tun“ или „tap“).\n"
+#~ "подешавање: dev „<назив>“"
+
+#~ msgid "Use custom tunnel Maximum Transmission _Unit (MTU):"
+#~ msgstr "Користи _јединицу највећег преноса (МТУ) произвољног канала:"
+
+#~ msgid ""
+#~ "Take the TUN device MTU to be the specified value and derive the link MTU "
+#~ "from it.\n"
+#~ "config: tun-mtu"
+#~ msgstr ""
+#~ "Поставите МТУ ТУН уређаја да буде наведена вредност и изведите МТУ везе "
+#~ "из ње.\n"
+#~ "подешавање: „tun-mtu“"
+
+#~ msgid "Use custom UDP _fragment size:"
+#~ msgstr "Користи величину _одломка произвољног УДП-а:"
+
+#~ msgid ""
+#~ "Enable internal datagram fragmentation with this maximum size.\n"
+#~ "config: fragment"
+#~ msgstr ""
+#~ "Укључите подељеност унутрашњег датограма са овом највећом величином.\n"
+#~ "подешавање: „fragment“"
+
+#~ msgid "Restrict tunnel TCP Maximum _Segment Size (MSS)"
+#~ msgstr "Ограничи највећу величину _одсечка ТЦП тунела (МСС)"
+
+#~ msgid ""
+#~ "Restrict tunnel TCP MSS.\n"
+#~ "config: mssfix"
+#~ msgstr ""
+#~ "Ограничите ТЦП МСС тунела.\n"
+#~ "подешавање: „mssfix“"
+
+#~ msgid "Rando_mize remote hosts"
+#~ msgstr "_Измешај удаљене домаћине"
+
+#~ msgid ""
+#~ "Randomize the order of gateways list (remote) as a kind of basic load-"
+#~ "balancing measure.\n"
+#~ "config: remote-random"
+#~ msgstr ""
+#~ "Измешајте редослед списка мрежних пролаза (удаљено) као врсту мере "
+#~ "основног уравнотежења отпремања.\n"
+#~ "подешавање: „remote-random“"
+
+#~ msgid "IPv6 tun link"
+#~ msgstr "Веза ИПв6 тун-а"
+
+#~ msgid ""
+#~ "Build a tun link capable of forwarding IPv6 traffic\n"
+#~ "config: tun-ipv6"
+#~ msgstr ""
+#~ "Изгради тун везу која може да проследи ИПв6 саобраћај\n"
+#~ "подешавање: tun-ipv6"
+
+#~ msgid "Specify _exit or restart ping:"
+#~ msgstr "Наведи пинг _изласка или поновног покретања:"
+
+#~ msgid ""
+#~ "Exit or restart after n seconds pass without reception of a ping or other "
+#~ "packet from remote.\n"
+#~ "config: ping-exit | ping-restart <n>"
+#~ msgstr ""
+#~ "Излази или поново покреће након n секунде протекле без пријема пинга или "
+#~ "другог пакета са удаљеног.\n"
+#~ "подешавање: „ping-exit | ping-restart <n>“"
+
+#~ msgid "Specify pin_g interval:"
+#~ msgstr "Наведи интервал _пинга:"
+
+#~ msgid ""
+#~ "Ping remote over the TCP/UDP control channel if no packets have been sent "
+#~ "for at least n seconds.\n"
+#~ "config: ping <n>"
+#~ msgstr ""
+#~ "Пингује удаљеног преко ТЦП/УДП контролног канала ако ниједан пакет није "
+#~ "послат за најмање n секунде.\n"
+#~ "подешавање: „ping <n>“"
+
+#~ msgid "Accept authenticated packets from any address (F_loat)"
+#~ msgstr "Прихвати проверене пакете са било које адресе (F_loat)"
+
+#~ msgid ""
+#~ "Allow remote peer to change its IP address and/or port number, such as "
+#~ "due to DHCP (this is the default if --remote is not used). --float when "
+#~ "specified with --remote allows an Anyconnect session to initially connect "
+#~ "to a peer at a known address, however if packets arrive from a new "
+#~ "address and pass all authentication tests, the new address will take "
+#~ "control of the session. This is useful when you are connecting to a peer "
+#~ "which holds a dynamic address such as a dial-in user or DHCP client.\n"
+#~ "\n"
+#~ "Essentially, --float tells Anyconnect to accept authenticated packets "
+#~ "from any address, not only the address which was specified in the --"
+#~ "remote option.\n"
+#~ "\n"
+#~ "config: float"
+#~ msgstr ""
+#~ "Омогућава удаљеном парњаку да промени своју ИП адресу и/или број "
+#~ "прикључника, као услед ДХЦП-а (ово је основно ако се не користи „--"
+#~ "remote“). „--float“ када је наведено са „--remote“ омогућава ОпенВПН "
+#~ "сесији да се прво повеже са парњаком на познатој адреси, међутим ако "
+#~ "пакети стижу са нове адресе и прођу све тестове потврђивања идентитета, "
+#~ "нова адреса ће преузети контролу над сесијом. Овоје корисно када се "
+#~ "повезујете са парњаком који држи динамичку адресу као што је корисник "
+#~ "двојне парице или ДХЦП клијент.\n"
+#~ "\n"
+#~ "У основи, „--float“ говори ОпенВПН-у да прихвати проверене пакете са било "
+#~ "које адресе, а не само са адресе која је наведена у опцији „--remote“.\n"
+#~ "\n"
+#~ "подешавање: „float“"
+
+#~ msgid "Specify max routes:"
+#~ msgstr "Наведите највише руте:"
+
+#~ msgid ""
+#~ "Specify the maximum number of routes the server is allowed to specify.\n"
+#~ "config: max-routes <n>"
+#~ msgstr ""
+#~ "Наведите највећи број рута које сервер може да наведе.\n"
+#~ "подешавање: max-routes <n>"
+
+#~ msgid ""
+#~ "Encrypt packets with cipher algorithm. The default is BF-CBC (Blowfish in "
+#~ "Cipher Block Chaining mode).\n"
+#~ "config: cipher"
+#~ msgstr ""
+#~ "Шифрујте пакете алгоритмом шифровања. Основни је БФ-ЦБЦ (Блауфиш у режиму "
+#~ "уланчавања блока шифре).\n"
+#~ "подешавање: „cipher“"
+
+#~ msgid "Use custom _size of cipher key:"
+#~ msgstr "Користи произвољну _величину кључа шифровања:"
+
+#~ msgid ""
+#~ "Set cipher key size to a custom value. If unspecified, it defaults to "
+#~ "cipher-specific size.\n"
+#~ "config: keysize <n>"
+#~ msgstr ""
+#~ "Подесите величину кључа шифровања на произвољну вредност. Ако није "
+#~ "наведено, подразумева посебну величину шифровања.\n"
+#~ "подешавања: keysize <n>"
+
+#~ msgid ""
+#~ "Authenticate packets with HMAC using message digest algorithm. The "
+#~ "default is SHA1.\n"
+#~ "config: auth"
+#~ msgstr ""
+#~ "Потврдите идентитет пакета ХМАЦ-ом користећи алгоритам извода поруке. "
+#~ "Основни је СХА1.\n"
+#~ "подешавање: „auth“"
+
+#~ msgid "Ci_pher:"
+#~ msgstr "_Шифра:"
+
+#~ msgid "_HMAC Authentication:"
+#~ msgstr "_ХМАЦ потврђивање идентитета:"
+
+#~ msgid "Disable cipher _negotiation"
+#~ msgstr "О_немогући преговарање шифарника"
+
+#~ msgid ""
+#~ "Disable cipher negotiation between client and server.\n"
+#~ "config: ncp-disable"
+#~ msgstr ""
+#~ "Онемогућава преговарање шифарника између клијента и сервера.\n"
+#~ "подешавање: ncp-disable"
+
+#~ msgid "Verify CRL from file"
+#~ msgstr "Потврди ЦРЛ из датотеке"
+
+#~ msgid ""
+#~ "Check peer certificate against the specified file in PEM format. A CRL "
+#~ "(certificate revocation list) is used when a particular key is "
+#~ "compromised but when the overall PKI is still intact."
+#~ msgstr ""
+#~ "Провери сертификат парњака против наведене датотеке у ПЕМ формату. ЦРЛ "
+#~ "(списак опозваних сертификата) се користи када је одређени кључ украден а "
+#~ "целокупна инфраструктура јавних кључева (PKI) нетакнута."
+
+#~ msgid "Verify CRL from directory"
+#~ msgstr "Потврди ЦРЛ из фасцикле"
+
+#~ msgid ""
+#~ "Check peer certificate by looking at files in the specified directory. "
+#~ "The directory must contain files named as revoked serial numbers (the "
+#~ "files may be empty, the contents are never read)."
+#~ msgstr ""
+#~ "Провери сертификат парњака проучавањем датотека из наведене фасцикле. "
+#~ "Фасцикла мора садржати датотеке које су назване као серијски бројеви "
+#~ "опозивања (датотеке могу бити празне, садржај тада неће бити читан)."
+
+#~ msgid "Choose CRL file"
+#~ msgstr "Изабери ЦРЛ датотеку"
+
+#~ msgid "Choose CRL directory"
+#~ msgstr "Изабери ЦРЛ фасциклу"
+
+#~ msgid "Security"
+#~ msgstr "Безбедност"
+
+#~ msgid "_Subject Match:"
+#~ msgstr "_Поклапање наслова:"
+
+#~ msgid ""
+#~ "Subject or Common Name to verify server certificate information against.\n"
+#~ "\n"
+#~ "config: verify-x509-name subject-or-name [mode]\n"
+#~ "config (legacy mode): tls-remote subject-or-name"
+#~ msgstr ""
+#~ "Субјекат или општи назив за проверу података о уверењу сервера.\n"
+#~ "\n"
+#~ "подешавање: verify-x509-name субјекат-или-назив [режим]\n"
+#~ "подешавање (стари режим): tls-remote субјекат-или-назив"
+
+#~ msgid "Server _Certificate Check:"
+#~ msgstr "Провера _уверења сервера:"
+
+#~ msgid ""
+#~ "Verify server certificate identification.\n"
+#~ "\n"
+#~ "When enabled, connection will only succeed if the server certificate "
+#~ "matches some expected properties.\n"
+#~ "Matching can either apply to the whole certificate subject (all the "
+#~ "fields),\n"
+#~ "or just the Common Name (CN field).\n"
+#~ "\n"
+#~ "The legacy option tls-remote is deprecated and removed from Anyconnect "
+#~ "2.4 and newer. Do not use it anymore.\n"
+#~ "\n"
+#~ "config: verify-x509-name subject-or-name [mode]\n"
+#~ "config (legacy mode): tls-remote subject-or-name"
+#~ msgstr ""
+#~ "Проверите препознавање уверења сервера.\n"
+#~ "\n"
+#~ "Када је укључено, повезивање ће успети само ако уверење сервера одговара "
+#~ "неким очекиваним својствима.\n"
+#~ "Упоређивање се може применити на читав субјекат уверења (сва поља),\n"
+#~ "или само на општи назив (ЦН поље).\n"
+#~ "\n"
+#~ "Стара опција „tls-remote“ је застарела и уклоњена из ОпенВПН-а 2.4 и "
+#~ "новијег. Не користите је више.\n"
+#~ "\n"
+#~ "подешавање: verify-x509-name субјекат-или-назив [режим]\n"
+#~ "подешавање (стари режим): tls-remote субјекат-или-назив"
+
+#~ msgid "_Verify peer (server) certificate usage signature"
+#~ msgstr "_Провери потпис коришћења уверења парњака (сервера)"
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit key usage and "
+#~ "extended key usage based on RFC3280 TLS rules."
+#~ msgstr ""
+#~ "Захтевајте да уверење парњака буде потписано коришћењем изричитог кључа и "
+#~ "коришћењем проширеног кључа заснованог на РФЦ3280 ТЛС правилима."
+
+#~ msgid "_Remote peer certificate TLS type:"
+#~ msgstr "_Врста ТЛС уверења удаљеног парњака:"
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit key usage and "
+#~ "extended key usage based on RFC3280 TLS rules.\n"
+#~ "config: remote-cert-tls client|server"
+#~ msgstr ""
+#~ "Захтевајте да уверење парњака буде потписано коришћењем изричитог кључа и "
+#~ "коришћењем проширеног кључа заснованог на РФЦ3280 ТЛС правилима.\n"
+#~ "подешавање: „remote-cert-tls client|server“"
+
+#~ msgid "_Verify peer (server) certificate nsCertType designation"
+#~ msgstr "_Провери ознаку nsCertType уверења парњака (сервера)"
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit nsCertType "
+#~ "designation."
+#~ msgstr ""
+#~ "Захтевај да уверење парњака буде потписан са изричитом nsCertType ознаком."
+
+#~ msgid "_Remote peer certificate nsCert designation:"
+#~ msgstr "Ознака nsCert уве_рења удаљеног парњака:"
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit nsCertType "
+#~ "designation.\n"
+#~ "config: ns-cert-type client|server"
+#~ msgstr ""
+#~ "Захтевајте да уверење парњака буде потписано са изричитом nsCertType "
+#~ "ознаком.\n"
+#~ "подешавање: „ns-cert-type client|server“"
+
+#~ msgid "Key _Direction:"
+#~ msgstr "_Усмерење кључа:"
+
+#~ msgid ""
+#~ "Add an additional layer of HMAC authentication on top of the TLS control "
+#~ "channel to protect against DoS attacks. In case of TLS-Crypt mode, the "
+#~ "control channel is also encrypted.\n"
+#~ "config: tls-auth <file> [direction] | tls-crypt <file>"
+#~ msgstr ""
+#~ "Додајте допунски слој ХМАЦ потврде идентитета на врх ТЛС управљачког "
+#~ "канала да се заштитите од ДоС напада. У режиму ТЛС-крипт, управљачки "
+#~ "канал је такође шифрован.\n"
+#~ "подешавање: „tls-auth <датотека> [усмерење] tls-crypt <датотека>“"
+
+#~ msgid ""
+#~ "Direction parameter for static key mode.\n"
+#~ "If key direction is used, it must be the opposite of that used on the VPN "
+#~ "peer. For example, if the peer uses “1”, this connection must use “0”. If "
+#~ "you are unsure what value to use, contact your system administrator.\n"
+#~ "config: tls-auth <file> [direction]"
+#~ msgstr ""
+#~ "Параметри усмерења за режим статичког кључа.\n"
+#~ "Ако користите усмерење кључа, мора бити супротно од оног коришћеног на "
+#~ "ВПН парњаку. На пример, ако парњак користи „1“, ова веза мора да користи "
+#~ "„0“. Ако нисте сигурни коју вредност да користите, посавејтујте се са "
+#~ "администратором система.\n"
+#~ "подешавање: „tls-auth <датотека> [усмерење]“"
+
+#~ msgid "Key _File:"
+#~ msgstr "_Датотека кључа:"
+
+#~ msgid "Mode:"
+#~ msgstr "Режим:"
+
+#~ msgid "Add an additional layer of encryption or HMAC authentication."
+#~ msgstr "Додајте допунски слој шифровања или ХМАЦ потврде идентитета."
+
+#~ msgid "Extra Certificates:"
+#~ msgstr "Додатни сертификати:"
+
+#~ msgid ""
+#~ "Specify a file containing one or more PEM certs (concatenated together) "
+#~ "that complete the local certificate chain.\n"
+#~ "config: extra-certs <file>"
+#~ msgstr ""
+#~ "Наводи датотеку која садржи један или више ПЕМ сертификата (који су "
+#~ "спојени) где је довршен локални ланац сертификата.\n"
+#~ "подешавање: extra-certs <датотека>"
+
+#~ msgid "Additional TLS authentication or encryption"
+#~ msgstr "Допунско ТЛС потврђивање идентитета или шифровање"
+
+#~ msgid "TLS Authentication"
+#~ msgstr "ТЛС потврђивање идентитета"
+
+#~ msgid ""
+#~ "Proxy type: HTTP or Socks.\n"
+#~ "config: http-proxy or socks-proxy"
+#~ msgstr ""
+#~ "Врста посредника: ХТТП или Соцкс.\n"
+#~ "подешавање: „http-proxy“ или „socks-proxy“"
+
+#~ msgid "Proxy _Type:"
+#~ msgstr "Врста _посредника:"
+
+#~ msgid ""
+#~ "<i>Select this option if your organization requires the use of a proxy "
+#~ "server to access the Internet.</i>"
+#~ msgstr ""
+#~ "<i>Изаберите ову опцију ако ваше удружење захтева употребу посредничког "
+#~ "сервера за приступање Интернету.</i>"
+
+#~ msgid "Server _Address:"
+#~ msgstr "_Адреса сервера:"
+
+#~ msgid ""
+#~ "Connect to remote host through a proxy with this address.\n"
+#~ "config: http-proxy or socks-proxy"
+#~ msgstr ""
+#~ "Повежите се на удаљеног домаћина путем посредника са овом адресом.\n"
+#~ "подешавање: „http-proxy“ или „socks-proxy“"
+
+#~ msgid "_Port:"
+#~ msgstr "_Прикључник:"
+
+#~ msgid ""
+#~ "Connect to remote host through a proxy with this port.\n"
+#~ "config: http-proxy or socks-proxy"
+#~ msgstr ""
+#~ "Повежите се на удаљеног домаћина путем посредника са овим прикључником.\n"
+#~ "подешавање: „http-proxy“ или „socks-proxy“"
+
+#~ msgid "_Retry indefinitely when errors occur"
+#~ msgstr "_Непрекидно покушавај кад дође до грешака"
+
+#~ msgid ""
+#~ "Retry indefinitely on proxy errors. It simulates a SIGUSR1 reset.\n"
+#~ "config: http-proxy-retry or socks-proxy-retry"
+#~ msgstr ""
+#~ "Покушавајте непрекидно при грешкама посредника. Ово симулира СИГУСР1 "
+#~ "поновно постављање.\n"
+#~ "подешавање: „http-proxy-retry“ или „socks-proxy-retry“"
+
+#~ msgid "Proxy _Username:"
+#~ msgstr "Корисничко _име за посредника:"
+
+#~ msgid "Proxy Passwor_d:"
+#~ msgstr "Лозинка _посредника:"
+
+#~ msgid "HTTP/Socks proxy username passed to Anyconnect when prompted for it."
+#~ msgstr ""
+#~ "Корисничко име ХТТП/Соцкс посредника прослеђено ОпенВПН-у када је "
+#~ "затражено."
+
+#~ msgid "HTTP/Socks proxy password passed to Anyconnect when prompted for it."
+#~ msgstr ""
+#~ "Лозинка ХТТП/Соцкс посредника прослеђена ОпенВПН-у када је затражено."
+
+#~ msgid "_Show password"
+#~ msgstr "_Прикажи лозинку"
+
+#~ msgid "Proxies"
+#~ msgstr "Посредници"
+
+#~ msgid "Path mtu discovery"
+#~ msgstr "Откривање мту путање"
+
+#~ msgid "Connect timeout"
+#~ msgstr "Време везе"
+
+#~ msgid ""
+#~ "The timeout in seconds before trying the next server. This timeout "
+#~ "includes proxy and TCP connect timeouts.\n"
+#~ "config: connect-timeout <n> | server-poll-timeout <n>"
+#~ msgstr ""
+#~ "Време истека у секундама пре пробања следећег сервера. Ово време истека "
+#~ "укључује времена истека посредника и ТЦП везе.\n"
+#~ "подешавање: connect-timeout <n> | server-poll-timeout <n>"
+
+#~ msgid "Misc"
+#~ msgstr "Разно"
+
+#~ msgid "unknown Anyconnect file extension"
+#~ msgstr "непознато проширење ОпенВПН датотеке"
+
+#~ msgid "could not create anyconnect object"
+#~ msgstr "не могу да направим опенвпн објекат"
+
+#~ msgid "Invalid HMAC auth."
+#~ msgstr "Неисправно ХМАЦ потврђивање идентитета."
+
+#~ msgid "Choose your personal certificate…"
+#~ msgstr "Изаберите лично уверење…"
+
+#~ msgid "Choose your private key…"
+#~ msgstr "Изаберите лични кључ…"
+
+#~ msgid "Choose a Certificate Authority certificate…"
+#~ msgstr "Изаберите уверење издавача овлашћења…"
+
+#~ msgid "PEM or PKCS#12 certificates (*.pem, *.crt, *.key, *.cer, *.p12)"
+#~ msgstr "ПЕМ или ПКЦС#12 уверења (*.pem, *.crt, *.key, *.cer, *.p12)"
+
+#~ msgid "PEM certificates (*.pem, *.crt, *.key, *.cer)"
+#~ msgstr "ПЕМ уверења (*.pem, *.crt, *.key, *.cer)"
+
+#~ msgid "Missing required local IP address for static key mode."
+#~ msgstr "Недостаје захтевана месна ИП адреса за режим статичког кључа."
+
+#~ msgid "Missing required remote IP address for static key mode."
+#~ msgstr "Недостаје захтевана удаљена ИП адреса за режим статичког кључа."
+
+#~ msgid "_Show passwords"
+#~ msgstr "_Прикажи лозинке"
+
+#~ msgid "Password for private key"
+#~ msgstr "Лозинка личног кључа"
+
+#~ msgid "Private Key Password:"
+#~ msgstr "Лозинка приватног кључа:"
+
+#~ msgid ""
+#~ "Local peer’s private key in .pem format.\n"
+#~ "config: key"
+#~ msgstr ""
+#~ "Лични кључ месног парњака у „.pem“ облику.\n"
+#~ "подешавање: „key“"
+
+#~ msgid "Private Key:"
+#~ msgstr "Лични кључ:"
+
+#~ msgid ""
+#~ "Certificate authority (CA) file in .pem format.\n"
+#~ "config: ca"
+#~ msgstr ""
+#~ "Датотека издавача уверења (CA) у „.pem“ облику.\n"
+#~ "подешавање: „ca“"
+
+#~ msgid "CA Certificate:"
+#~ msgstr "Уверење издавача уверења:"
+
+#~ msgid ""
+#~ "Local peer’s signed certificate in .pem format (signed by CA of CA "
+#~ "Certificate).\n"
+#~ "config: cert"
+#~ msgstr ""
+#~ "Потписано уверење месног парњака у „.pem“ облику (које потписује издавач "
+#~ "уверења уверења издавача уверења).\n"
+#~ "подешавање: „cert“"
+
+#~ msgid "cannot write <%s> blob from line %ld to file '%s'"
+#~ msgstr "не могу да запишем <%s> блоб из %ld. реда у датотеку „%s“"
+
+#~ msgid ""
+#~ "Could not process the request because the anyconnect connection type was "
+#~ "invalid."
+#~ msgstr "Не могу да обрадим захтев због неисправне врсте везе опенвпн-а."
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "<b>General</b>"
+#~ msgstr "<b>Опште</b>"
+
+#~ msgid "<b>Authentication</b>"
+#~ msgstr "<b>Потврда идентитета</b>"
+
+#~ msgid ""
+#~ "<i>Connect only to servers whose certificate matches the given subject.\n"
+#~ "Example: /CN=myvpn.company.com</i>"
+#~ msgstr ""
+#~ "<i>Повежите се само са серверима чија уверења одговарају датом наслову.\n"
+#~ "Пример: /CN=myvpn.company.com</i>"
+
+#~ msgid ""
+#~ "Accept connections only from a host with X509 name or common name equal "
+#~ "to the specified one.\n"
+#~ "config: tls-remote"
+#~ msgstr ""
+#~ "Прихватите везе само са домаћина са називом Икс509 или са општим називом "
+#~ "који је исти са оним наведеним.\n"
+#~ "подешавање: „tls-remote“"
+
+#~ msgid "could not open file for writing"
+#~ msgstr "не могу да отворим датотеку за писање"
+
+#~ msgid "option %s expects exactly %u arguments"
+#~ msgstr "опција „%s“ очекује тачно %u аргумента"
+
+#~ msgid "empty %s service argument"
+#~ msgstr "празан аргумент „%s“ услуге"
+
+#~ msgid "missing certificate file name"
+#~ msgstr "недостаје назив датотеке уверења"
+
+#~ msgid "empty tls-remote argument"
+#~ msgstr "празан аргумент тлс-удаљеног"
+
+#~ msgid "VPN Connection Manager (Anyconnect)"
+#~ msgstr "Управник ВПН веза (Anyconnect)"
+
+#~ msgid "Add, Remove, and Edit VPN Connections"
+#~ msgstr "Додајте, уклањајте и уређујте ВПН везе"
+
+#~ msgid "Saved"
+#~ msgstr "Сачувано"
+
+#~ msgid "Always Ask"
+#~ msgstr "Питај увек"
+
+#~ msgid "Not Required"
+#~ msgstr "Није неопходно"
+
+#~ msgid "Use a TA_P device"
+#~ msgstr "Користи ТА_П уређај"

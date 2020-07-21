@@ -1,0 +1,521 @@
+# translation of NetworkManager-anyconnect.HEAD.po to Macedonian
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Jovan Naumovski <jovan@lugola.net>, 2007.
+# Arangel Angov <arangel@linux.net.mk>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: NetworkManager-anyconnect.HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-30 22:41+0100\n"
+"PO-Revision-Date: 2007-12-02 18:53+0100\n"
+"Last-Translator: Arangel Angov <arangel@linux.net.mk>\n"
+"Language-Team: Macedonian <ossm-members@hedona.on.net.mk>\n"
+"Language: mk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:1
+#, fuzzy
+msgid "Anyconnect client"
+msgstr "Anyconnect клиент"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:2
+msgid "Client for Anyconnect virtual private networks"
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:3
+msgid "Support for configuring Anyconnect virtual private network connections."
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:4
+msgid "Anyconnect is a popular and flexible free-software VPN solution."
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:5
+msgid "The NetworkManager Developers"
+msgstr ""
+
+#: ../properties/nm-anyconnect-editor-plugin.c:35
+#, fuzzy
+msgid "Cisco AnyConnect"
+msgstr "Anyconnect клиент"
+
+#: ../properties/nm-anyconnect-editor-plugin.c:36
+msgid "Runs the proprietary Cisco AnyConnect VPN."
+msgstr ""
+
+#: ../properties/nm-anyconnect-editor.c:299
+msgid "could not load UI widget"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:946
+#, c-format
+msgid "object class '%s' has no property named '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:953
+#, c-format
+msgid "property '%s' of object class '%s' is not writable"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:960
+#, c-format
+msgid ""
+"construct property \"%s\" for object '%s' can't be set after construction"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:968
+#, c-format
+msgid "'%s::%s' is not a valid property name; '%s' is not a GObject subtype"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:977
+#, c-format
+msgid "unable to set property '%s' of type '%s' from value of type '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:988
+#, c-format
+msgid ""
+"value \"%s\" of type '%s' is invalid or out of range for property '%s' of "
+"type '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:69
+#, c-format
+msgid "unable to get editor plugin name: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:103
+#, c-format
+msgid "missing plugin file \"%s\""
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:109
+#, c-format
+msgid "cannot load editor plugin: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:118
+#, c-format
+msgid "cannot load factory %s from plugin: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:144
+msgid "unknown error creating editor instance"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:567 ../src/nm-anyconnect-service.c:682
+msgid "Could not find the anyconnect binary."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:580
+msgid ""
+"Could not process the request because the VPN connection settings were "
+"invalid."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:602
+msgid ""
+"Could not attempt connection, unable to find the setting for the gateway."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:875
+msgid "Don’t quit when VPN connection terminates"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:876
+msgid "Enable verbose debug logging (may expose passwords)"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:877
+msgid "D-Bus name to use for this instance"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:905
+msgid ""
+"nm-anyconnect-service provides integrated proprietary Cisco AnyConnect "
+"capability to NetworkManager."
+msgstr ""
+
+#: ../properties/nm-anyconnect-dialog.ui.h:1
+msgid "General"
+msgstr ""
+
+#: ../properties/nm-anyconnect-dialog.ui.h:2
+#, fuzzy
+msgid "_Gateway:"
+msgstr "_Порта на премин:"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:3
+msgid "VPN host to connect to"
+msgstr ""
+
+#, fuzzy, c-format
+#~ msgid "Authenticate VPN %s"
+#~ msgstr "Потврди автентичност за виртуелна приватна мрежа"
+
+#, fuzzy
+#~ msgid "Password:"
+#~ msgstr "_Лозинка:"
+
+#~ msgid "Certificate password:"
+#~ msgstr "Лозинка на сертификат:"
+
+#~ msgid "Authenticate VPN"
+#~ msgstr "Потврди автентичност за виртуелна приватна мрежа"
+
+#~ msgid "Certificate pass_word:"
+#~ msgstr "Лозин_ка на сертификат:"
+
+#, c-format
+#~ msgid "You need to authenticate to access the Virtual Private Network '%s'."
+#~ msgstr ""
+#~ "Треба да ја потврдите автентичноста за да пристапите кон виртуелната "
+#~ "приватна мрежа „%s“."
+
+#~ msgid "VPN Connection Manager (Anyconnect)"
+#~ msgstr "Менаџер за VPN врски (Anyconnect)"
+
+#~ msgid "Add, Remove, and Edit VPN Connections"
+#~ msgstr "Додавајте, отстранувајте и уредувајте VPN врски"
+
+#, fuzzy
+#~ msgid "Default"
+#~ msgstr "(Стандардна: 1194)"
+
+#, fuzzy
+#~ msgid "Client"
+#~ msgstr "Anyconnect клиент"
+
+#~ msgid "TUN"
+#~ msgstr "TUN"
+
+#~ msgid "TAP"
+#~ msgstr "TAP"
+
+#, fuzzy
+#~ msgid "Certificates (TLS)"
+#~ msgstr "С_ертификат:"
+
+#, fuzzy
+#~ msgid "Password"
+#~ msgstr "_Лозинка:"
+
+#, fuzzy
+#~ msgid "not a valid Anyconnect configuration file"
+#~ msgstr "Конфигурација на Anyconnect"
+
+#, fuzzy
+#~ msgid "_Show passwords"
+#~ msgstr "_Лозинка:"
+
+#, fuzzy
+#~ msgid "Private Key Password:"
+#~ msgstr "Лозинка на сертификат:"
+
+#, fuzzy
+#~ msgid "CA Certificate:"
+#~ msgstr "С_ертификат:"
+
+#, fuzzy
+#~ msgid "User Certificate:"
+#~ msgstr "С_ертификат:"
+
+#, fuzzy
+#~ msgid "User name:"
+#~ msgstr "_Корисничко име:"
+
+#, fuzzy
+#~ msgid "Remote IP Address:"
+#~ msgstr "_Оддалечена IP:"
+
+#, fuzzy
+#~ msgid "Local IP Address:"
+#~ msgstr "Локална IP:  %s"
+
+#, fuzzy
+#~ msgid "Key Direction:"
+#~ msgstr "Насока:"
+
+#, fuzzy
+#~ msgid "Ad_vanced..."
+#~ msgstr "На_предно"
+
+#~ msgid "Anyconnect Advanced Options"
+#~ msgstr "Напредни опции за Anyconnect"
+
+#, fuzzy
+#~ msgid "Use custom gateway p_ort:"
+#~ msgstr "_Порта на премин:"
+
+#, fuzzy
+#~ msgid "Use L_ZO data compression"
+#~ msgstr "Користи L_ZO компресија"
+
+#, fuzzy
+#~ msgid ""
+#~ "Use fast LZO compression.\n"
+#~ "config: comp-lzo"
+#~ msgstr "Користи LZO компресија: %s"
+
+#, fuzzy
+#~ msgid "Use a _TCP connection"
+#~ msgstr "Користи _TCP врска"
+
+#, fuzzy
+#~ msgid "Ci_pher:"
+#~ msgstr "Шифра:  %s"
+
+#, fuzzy
+#~ msgid "Key _Direction:"
+#~ msgstr "Насока:"
+
+#, fuzzy
+#~ msgid "TLS Authentication"
+#~ msgstr "Потврди автентичност за виртуелна приватна мрежа"
+
+#, fuzzy
+#~ msgid "_Port:"
+#~ msgstr "Порта:  %s"
+
+#, fuzzy
+#~ msgid "Proxy _Username:"
+#~ msgstr "_Корисничко име:"
+
+#, fuzzy
+#~ msgid "Proxy Passwor_d:"
+#~ msgstr "_Лозинка:"
+
+#, fuzzy
+#~ msgid "_Show password"
+#~ msgstr "_Лозинка:"
+
+#, fuzzy
+#~ msgid "No VPN configuration options."
+#~ msgstr "Конфигурација на Anyconnect"
+
+#, fuzzy
+#~ msgid "Invalid connection type."
+#~ msgstr "Ти_п на врска:"
+
+#, fuzzy, c-format
+#~ msgid "Unknown connection type '%s'."
+#~ msgstr "Ти_п на врска:"
+
+#~ msgid "_Secondary Password:"
+#~ msgstr "_Втора лозинка:"
+
+#~ msgid "_Domain:"
+#~ msgstr "_Домен:"
+
+#~ msgid "Connect _anonymously"
+#~ msgstr "Поврзи се _анонимно"
+
+#~ msgid "Connect as _user:"
+#~ msgstr "Поврзи се како _корисник:"
+
+#~ msgid "_Remember password for this session"
+#~ msgstr "_Запамети ја лозинката за оваа сесија"
+
+#~ msgid "_Save password in keyring"
+#~ msgstr "_Зачувај ја лозинката во приврзок"
+
+#~ msgid "The following Anyconnect connection will be created:"
+#~ msgstr "Следната Anyconnect врска ќе биде креирана:"
+
+#~ msgid "Name:  %s"
+#~ msgstr "Име:  %s"
+
+#~ msgid "Connection Type: X.509 Certificates"
+#~ msgstr "Тип на врска: X.509 сертификати"
+
+#~ msgid "CA:  %s"
+#~ msgstr "CA:  %s"
+
+#~ msgid "Cert:  %s"
+#~ msgstr "Серт.:  %s"
+
+#~ msgid "Key:  %s"
+#~ msgstr "Клуч:  %s"
+
+#~ msgid "Connection Type: Shared Key"
+#~ msgstr "Тип на врска: Споделен клуч"
+
+#~ msgid "Shared Key:  %s"
+#~ msgstr "Споделен клуч:  %s"
+
+#~ msgid "Remote IP:  %s"
+#~ msgstr "Оддалечена IP:  %s"
+
+#~ msgid "Connection Type: Password"
+#~ msgstr "Тип на врска: лозинка"
+
+#~ msgid "Username:  %s"
+#~ msgstr "Корисничко име:  %s"
+
+#~ msgid "Connection Type: X.509 with Password Authentication"
+#~ msgstr "Тип на врска: X.509 со автентикација на лозинка"
+
+#~ msgid "Remote:  %s"
+#~ msgstr "Оддалечено:  %s"
+
+#~ msgid "Device: %s"
+#~ msgstr "Уред: %s"
+
+#~ msgid "Protocol: %s"
+#~ msgstr "Протокол: %s"
+
+#~ msgid "TCP"
+#~ msgstr "TCP"
+
+#~ msgid "UDP"
+#~ msgstr "UDP"
+
+#~ msgid "Routes:  %s"
+#~ msgstr "Рутирања:  %s"
+
+#~ msgid "Yes"
+#~ msgstr "Да"
+
+#~ msgid "No"
+#~ msgstr "Не"
+
+#~ msgid "TLS auth:  %s %s"
+#~ msgstr "TLS авт.:  %s %s"
+
+#~ msgid "The connection details can be changed using the \"Edit\" button."
+#~ msgstr ""
+#~ "Деталите за врската можат да се променат со користење на копчето \"Уреди"
+#~ "\"."
+
+#~ msgid "Cannot import settings"
+#~ msgstr "Не можам да ги увезам поставувањата"
+
+#~ msgid "The VPN settings file '%s' does not contain valid data."
+#~ msgstr "Датотеката со VPN поставувања '%s' не содржи валидни податоци."
+
+#~ msgid "Select file to import"
+#~ msgstr "Изберете датотека за увоз"
+
+#~ msgid "Select CA to use"
+#~ msgstr "Одберете сертификат кој ќе се употребува"
+
+#~ msgid "Select certificate to use"
+#~ msgstr "Одберете сертификат кој ќе се употребува"
+
+#~ msgid "Select key to use"
+#~ msgstr "Одберете клуч кој ќе се употребува"
+
+#~ msgid "Select shared key to use"
+#~ msgstr "Одберете споделен клуч кој ќе се употребува"
+
+#~ msgid "Select TA to use"
+#~ msgstr "Одберте TA кое  ќе се употребува"
+
+#~ msgid "Save as..."
+#~ msgstr "Зачувај како..."
+
+#~ msgid "A file named \"%s\" already exists."
+#~ msgstr "Датотеката со името \"%s\" веќе постои."
+
+#~ msgid "Do you want to replace it with the one you are saving?"
+#~ msgstr "Дали сакате да ја замените со онаа која ја зачувувате?"
+
+#~ msgid "Failed to export configuration"
+#~ msgstr "Не успеав да ја извезам конфигурацијата"
+
+#~ msgid "Failed to save file %s"
+#~ msgstr "Не можам да ја зачувам датотеката %s"
+
+#~ msgid "65536"
+#~ msgstr "65536"
+
+#~ msgid "<i>example: 172.16.0.0/16 10.11.12.0/24</i>"
+#~ msgstr "<i>пример: 172.16.0.0/16 10.11.12.0/24</i>"
+
+#~ msgid "C_A file:"
+#~ msgstr "C_A датотека:"
+
+#~ msgid "Connection na_me:"
+#~ msgstr "Тип на вр_ска:"
+
+#~ msgid "Import _Saved Configuration..."
+#~ msgstr "Увези _зачувана конфигурација..."
+
+#~ msgid ""
+#~ "Name used to identify the connection to the private network, e.g. "
+#~ "\"Campus VPN\" or \"Corporate Network\""
+#~ msgstr ""
+#~ "Име кое ќе се користи за идентификација на врската до приватната мрежа, "
+#~ "на пр. \"VPN на универзитетот\" или \"Мрежа на здружението\""
+
+#~ msgid "Network"
+#~ msgstr "Мрежа"
+
+#~ msgid "Only use _VPN connection for these addresses:"
+#~ msgstr "Користи _VPN врски само за овие адреси:"
+
+#~ msgid ""
+#~ "Please enter the information provided by your system administrator below. "
+#~ "Do not enter your password here as you will be prompted when connecting."
+#~ msgstr ""
+#~ "Ве молам, внесете ги информациите добиени од Вашиот администратор на "
+#~ "системот. Не ја внесувајте Вашата лозинка овде, бидејќи ќе Ви биде "
+#~ "побарана при поврзување."
+
+#~ msgid ""
+#~ "Please note that the file you import is not an Anyconnect configuration "
+#~ "file. Ask your administrator for the file."
+#~ msgstr ""
+#~ "Забележете дека датотеката која ја увезувате не е Anyconnect "
+#~ "конфигурациска датотека. Датотеката побарајте ја кај Вашиот администратор "
+#~ "на системот."
+
+#~ msgid "Shared _key:"
+#~ msgstr "Споделен _клуч:"
+
+#~ msgid "TLS-Auth"
+#~ msgstr "TLS проверка"
+
+#~ msgid "Use TA_P device"
+#~ msgstr "Користи TA_P уред"
+
+#~ msgid "Use _TLS auth:"
+#~ msgstr "Користи _TLS авторизација:"
+
+#~ msgid "Use cip_her:"
+#~ msgstr "Користи cip_her:"
+
+#~ msgid ""
+#~ "X.509 Certificates\n"
+#~ "Pre-shared key\n"
+#~ "Password Authentication\n"
+#~ "X.509 with Password Authentication"
+#~ msgstr ""
+#~ "X.509 сертификати\n"
+#~ "Однапред споделен клуч\n"
+#~ "Автентикација на лозинка\n"
+#~ "X.509 со автентикација на лозинка"
+
+#~ msgid "_0"
+#~ msgstr "_0"
+
+#~ msgid "_1"
+#~ msgstr "_1"
+
+#~ msgid "_Gateway address:"
+#~ msgstr "_Адреса за премин:"
+
+#~ msgid "_Key:"
+#~ msgstr "_Клуч:"
+
+#~ msgid "_Local IP:"
+#~ msgstr "_Локална IP:"
+
+#~ msgid "_none"
+#~ msgstr "_ништо"

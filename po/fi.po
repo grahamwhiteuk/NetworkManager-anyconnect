@@ -1,0 +1,925 @@
+# Finnish messages for NetworkManager-anyconnect.
+# Copyright (C) 2006-2008 Free Software Foundation.
+#
+# Suomennos: https://l10n.gnome.org/teams/fi/
+#
+# Ilkka Tuohela <hile@iki.fi>, 2006-2008.
+# Jiri Grönroos <jiri.gronroos+l10n@iki.fi>, 2012, 2013, 2015.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: NetworkManager-anyconnect\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-30 22:41+0100\n"
+"PO-Revision-Date: 2018-04-03 23:10+0300\n"
+"Last-Translator: Jiri Grönroos <jiri.gronroos+l10n@iki.fi>\n"
+"Language-Team: suomi <gnome-fi-laatu@lists.sourceforge.net>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.6\n"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:1
+msgid "Anyconnect client"
+msgstr "Anyconnect-asiakasohjelmisto"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:2
+msgid "Client for Anyconnect virtual private networks"
+msgstr "Asiakasohjelmisto Anyconnect-erillisverkkoihin"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:3
+msgid "Support for configuring Anyconnect virtual private network connections."
+msgstr "Tuki Anyconnect-erillisverkkoyhteyksien määrittämiseen."
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:4
+msgid "Anyconnect is a popular and flexible free-software VPN solution."
+msgstr "Anyconnect on suosittu ja monipuolinen sekä avoin VPN-ratkaisu."
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:5
+msgid "The NetworkManager Developers"
+msgstr "NetworkManagerin kehittäjät"
+
+#: ../properties/nm-anyconnect-editor-plugin.c:35
+#, fuzzy
+msgid "Cisco AnyConnect"
+msgstr "Anyconnect"
+
+#: ../properties/nm-anyconnect-editor-plugin.c:36
+msgid "Runs the proprietary Cisco AnyConnect VPN."
+msgstr ""
+
+#: ../properties/nm-anyconnect-editor.c:299
+msgid "could not load UI widget"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:946
+#, c-format
+msgid "object class '%s' has no property named '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:953
+#, c-format
+msgid "property '%s' of object class '%s' is not writable"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:960
+#, c-format
+msgid ""
+"construct property \"%s\" for object '%s' can't be set after construction"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:968
+#, c-format
+msgid "'%s::%s' is not a valid property name; '%s' is not a GObject subtype"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:977
+#, c-format
+msgid "unable to set property '%s' of type '%s' from value of type '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:988
+#, c-format
+msgid ""
+"value \"%s\" of type '%s' is invalid or out of range for property '%s' of "
+"type '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:69
+#, c-format
+msgid "unable to get editor plugin name: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:103
+#, c-format
+msgid "missing plugin file \"%s\""
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:109
+#, c-format
+msgid "cannot load editor plugin: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:118
+#, c-format
+msgid "cannot load factory %s from plugin: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:144
+msgid "unknown error creating editor instance"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:567 ../src/nm-anyconnect-service.c:682
+msgid "Could not find the anyconnect binary."
+msgstr "anyconnect-binääriohjelmaa ei löytynyt."
+
+#: ../src/nm-anyconnect-service.c:580
+msgid ""
+"Could not process the request because the VPN connection settings were "
+"invalid."
+msgstr ""
+"Pyynnön käsittely ei onnistunut, koska VPN-yhteyden asetukset olivat "
+"virheelliset."
+
+#: ../src/nm-anyconnect-service.c:602
+msgid ""
+"Could not attempt connection, unable to find the setting for the gateway."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:875
+msgid "Don’t quit when VPN connection terminates"
+msgstr "Älä lopeta VPN-yhteyden päättyessä"
+
+#: ../src/nm-anyconnect-service.c:876
+msgid "Enable verbose debug logging (may expose passwords)"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:877
+msgid "D-Bus name to use for this instance"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:905
+#, fuzzy
+msgid ""
+"nm-anyconnect-service provides integrated proprietary Cisco AnyConnect "
+"capability to NetworkManager."
+msgstr ""
+"nm-anyconnect-service tarjoaa integroidun Anyconnect-toiminnon "
+"NetworkManageriin."
+
+#: ../properties/nm-anyconnect-dialog.ui.h:1
+msgid "General"
+msgstr "Yleisasetukset"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:2
+msgid "_Gateway:"
+msgstr "_Yhdyskäytävä:"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:3
+msgid "VPN host to connect to"
+msgstr ""
+
+#, c-format
+#~ msgid "Authenticate VPN %s"
+#~ msgstr "Todenna VPN-yhteyden %s avaus"
+
+#~ msgid "Password:"
+#~ msgstr "Salasana:"
+
+#~ msgid "Certificate password:"
+#~ msgstr "Varmenteen salasana:"
+
+#~ msgid "HTTP proxy password:"
+#~ msgstr "HTTP-välityspalvelimen salasana:"
+
+#~ msgid "Authenticate VPN"
+#~ msgstr "Todenna VPN-yhteyden avaus"
+
+#~ msgid "Certificate pass_word:"
+#~ msgstr "Varmenteen _salasana:"
+
+#~ msgid "_HTTP proxy password:"
+#~ msgstr "HTTP-välityspalvelimen _salasana:"
+
+#, c-format
+#~ msgid "You need to authenticate to access the Virtual Private Network “%s”."
+#~ msgstr "Yhteydenotto VPN-verkkoon “%s” vaatii tunnistautumisen."
+
+#, c-format
+#~ msgid "“%s” is not a directory"
+#~ msgstr "“%s” ei ole hakemisto"
+
+#, c-format
+#~ msgid "invalid option"
+#~ msgstr "virheellinen valinta"
+
+#, c-format
+#~ msgid "configuration error: %s (line %ld)"
+#~ msgstr "määritysvirhe: %s (rivi %ld)"
+
+#~ msgid "unknown or unsupported option"
+#~ msgstr "tuntematon tai ei-tuettu valinta"
+
+#~ msgid "The file to import wasn’t a valid Anyconnect client configuration"
+#~ msgstr "Tuotava tiedosto ei ollut kelvollinen Anyconnect-asetustiedosto"
+
+#~ msgid "connection is not a valid Anyconnect connection"
+#~ msgstr "yhteys ei kelvollinen Anyconnect-yhteys"
+
+#, fuzzy, c-format
+#~| msgid "Failed to save file %s"
+#~ msgid "failed to write file: %s"
+#~ msgstr "Tiedostoa \"%s\" ei voitu tallentaa"
+
+#~ msgid "Compatible with the Anyconnect server."
+#~ msgstr "Yhteensopiva Anyconnect-palvelimen kanssa."
+
+#~ msgid "unknown Anyconnect file extension"
+#~ msgstr "tuntematon Anyconnect-tiedostopääte"
+
+#~ msgid "Choose an Anyconnect static key…"
+#~ msgstr "Valitse OpenPVN:n kiinteä avain…"
+
+#~ msgid "None"
+#~ msgstr "Ei mitään"
+
+#~ msgid "Anyconnect Static Keys (*.key)"
+#~ msgstr "Kiinteät Anyconnect-avaimet (*.key)"
+
+#~ msgid "Default"
+#~ msgstr "Oletus"
+
+#~ msgid "RSA MD-4"
+#~ msgstr "RSA MD-4"
+
+#~ msgid "MD-5"
+#~ msgstr "MD-5"
+
+#~ msgid "SHA-1"
+#~ msgstr "SHA-1"
+
+#~ msgid "SHA-224"
+#~ msgstr "SHA-224"
+
+#~ msgid "SHA-256"
+#~ msgstr "SHA-256"
+
+#~ msgid "SHA-384"
+#~ msgstr "SHA-384"
+
+#~ msgid "SHA-512"
+#~ msgstr "SHA-512"
+
+#~ msgid "RIPEMD-160"
+#~ msgstr "RIPEMD-160"
+
+#~ msgid "Server"
+#~ msgstr "Palvelin"
+
+#~ msgid "Client"
+#~ msgstr "Asiakas"
+
+#~ msgid "Not required"
+#~ msgstr "Ei vaadittu"
+
+#~ msgid "HTTP"
+#~ msgstr "HTTP"
+
+#~ msgid "SOCKS"
+#~ msgstr "SOCKS"
+
+#~ msgid "TUN"
+#~ msgstr "TUN"
+
+#~ msgid "TAP"
+#~ msgstr "TAP"
+
+#~ msgid "(automatic)"
+#~ msgstr "(automaattinen)"
+
+#~ msgid "Certificates (TLS)"
+#~ msgstr "Varmenteet (TLS)"
+
+#~ msgid "Password"
+#~ msgstr "Salasana"
+
+#~ msgid "Password with Certificates (TLS)"
+#~ msgstr "Salasana varmenteiden kanssa (TLS)"
+
+#~ msgid "Static Key"
+#~ msgstr "Kiinteä avain"
+
+#~ msgid "could not create anyconnect object"
+#~ msgstr "anyconnect-objektia ei voitu luoda"
+
+#, c-format
+#~ msgid "invalid port"
+#~ msgstr "virheellinen portti"
+
+#, c-format
+#~ msgid "invalid protocol"
+#~ msgstr "virheellinen protokolla"
+
+#, c-format
+#~ msgid "invalid address “%s”"
+#~ msgstr "virheellinen osoite “%s”"
+
+#, c-format
+#~ msgid "property “%s” invalid or not supported"
+#~ msgstr "ominaisuus “%s” on virheellinen tai se ei ole tuettu"
+
+#, fuzzy
+#~ msgid "No VPN configuration options."
+#~ msgstr "Anyconnect-määrittely"
+
+#~ msgid "A username is required."
+#~ msgstr "Käyttäjätunnus vaaditaan."
+
+#~ msgid "A password is required."
+#~ msgstr "Salasana vaaditaan."
+
+#~ msgid "A username and password are required."
+#~ msgstr "Käyttäjätunnus ja salasana vaaditaan."
+
+#~ msgid "A private key password is required."
+#~ msgstr "Yksityisen avaimen salasana vaaditaan."
+
+#~ msgid "An HTTP Proxy username is required."
+#~ msgstr "HTTP-välityspalvelimen käyttäjätunnus vaaditaan."
+
+#~ msgid "An HTTP Proxy password is required."
+#~ msgstr "HTTP-välityspalvelimen salasana vaaditaan."
+
+#~ msgid "An HTTP Proxy username and password are required."
+#~ msgstr "HTTP-välityspalvelimen käyttäjätunnus ja salasana vaaditaan."
+
+#~ msgid "Invalid connection type."
+#~ msgstr "Virheellinen yhteyden tyyppi."
+
+#, c-format
+#~ msgid "Invalid port number “%s”."
+#~ msgstr "Virheellinen porttinumero “%s”."
+
+#, fuzzy, c-format
+#~ msgid "Invalid proto “%s”."
+#~ msgstr "Virheellinen välityspalvelimen tyyppi \"%s\"."
+
+#, c-format
+#~ msgid "Invalid proxy type “%s”."
+#~ msgstr "Virheellinen välityspalvelimen tyyppi “%s”."
+
+#, fuzzy, c-format
+#~ msgid "Invalid ping duration “%s”."
+#~ msgstr "Virheellinen välityspalvelimen tyyppi \"%s\"."
+
+#, fuzzy, c-format
+#~ msgid "Invalid ping-exit duration “%s”."
+#~ msgstr "Virheellinen välityspalvelimen tyyppi \"%s\"."
+
+#, fuzzy, c-format
+#~| msgid "Invalid port number '%s'."
+#~ msgid "Invalid ping-restart duration “%s”."
+#~ msgstr "Virheellinen porttinumero \"%s\"."
+
+#, fuzzy, c-format
+#~ msgid "Invalid connect timeout “%s”."
+#~ msgstr "Virheellinen välityspalvelimen tyyppi \"%s\"."
+
+#, c-format
+#~ msgid "Invalid keysize “%s”."
+#~ msgstr "Virheellinen avainkoko  “%s”."
+
+#, c-format
+#~ msgid "Invalid TUN MTU size “%s”."
+#~ msgstr "Virheellinen TUN MTU -koko “%s”."
+
+#, fuzzy, c-format
+#~ msgid "Invalid fragment size “%s”."
+#~ msgstr "Virheellinen välityspalvelimen tyyppi \"%s\"."
+
+#, c-format
+#~ msgid "Unknown connection type “%s”."
+#~ msgstr "Tuntematon yhteyden tyyppi “%s”."
+
+#, c-format
+#~ msgid "User “%s” not found, check NM_ANYCONNECT_USER."
+#~ msgstr "Käyttäjää “%s” ei löytynyt, tarkista NM_ANYCONNECT_USER."
+
+#, c-format
+#~ msgid "Group “%s” not found, check NM_ANYCONNECT_GROUP."
+#~ msgstr "Ryhmää “%s” ei löytynyt, tarkista NM_ANYCONNECT_GROUP."
+
+#, fuzzy
+#~ msgid "Unhandled pending authentication."
+#~ msgstr "Valitse tunnistautumistapa."
+
+#~ msgid "TLS-Auth"
+#~ msgstr "TLS-todentaminen"
+
+#~ msgid "Maybe"
+#~ msgstr "Ehkä"
+
+#~ msgid "Yes"
+#~ msgstr "Kyllä"
+
+#~ msgid "Authentication"
+#~ msgstr "Tunnistautuminen"
+
+#~ msgid "CA"
+#~ msgstr "CA"
+
+#~ msgid "User"
+#~ msgstr "Käyttäjä"
+
+#~ msgid "User name:"
+#~ msgstr "Käyttäjätunnus:"
+
+#~ msgid "Remote IP Address:"
+#~ msgstr "Etä-IP-osoite:"
+
+#~ msgid "Local IP Address:"
+#~ msgstr "Paikallinen IP-osoite:"
+
+#~ msgid "Key Direction:"
+#~ msgstr "Avaimen suunta:"
+
+#~ msgid "Static Key:"
+#~ msgstr "Kiinteä avain:"
+
+#, fuzzy
+#~| msgid ""
+#~| "Direction for Static Key encryption mode (non-TLS).\n"
+#~| "If key direction is used, it must be the opposite of that used on the "
+#~| "VPN peer.  For example, if the peer uses '1', this connection must use "
+#~| "'0'.  If you are unsure what value to use, contact your system "
+#~| "administrator.\n"
+#~| "config: static <file> [direction]"
+#~ msgid ""
+#~ "Direction for Static Key encryption mode (non-TLS).\n"
+#~ "If key direction is used, it must be the opposite of that used on the VPN "
+#~ "peer. For example, if the peer uses “1”, this connection must use “0”. If "
+#~ "you are unsure what value to use, contact your system administrator.\n"
+#~ "config: static <file> [direction]"
+#~ msgstr ""
+#~ "Kiinteän avaimen salaustilan suunta (ei-TLS).\n"
+#~ "Jos avaimen suuntaa käytetään, täytyy annetun arvon olla vastakkainen "
+#~ "kuin VPN-yhteyden toisessa päässä. Jos esimerkiksi vastapäässä on arvo 1, "
+#~ "tämän täytyy olla 0. Jos et tiedä mitä tässä pitäisi olla, kysy VPN-"
+#~ "yhteytesi ylläpitäjältä lisätietoja.\n"
+#~ "config: static <tiedosto> [suunta]"
+
+#~ msgid "Type:"
+#~ msgstr "Tyyppi:"
+
+#~ msgid "Select an authentication mode."
+#~ msgstr "Valitse tunnistautumistapa."
+
+#~ msgid "Ad_vanced…"
+#~ msgstr "_Lisäasetukset…"
+
+#~ msgid "Anyconnect Advanced Options"
+#~ msgstr "Anyconnect-lisäasetukset"
+
+#~ msgid "Use custom gateway p_ort:"
+#~ msgstr "Käytä _mukautettua yhdyskäytävän porttia:"
+
+#~ msgid "Use custom _renegotiation interval:"
+#~ msgstr "Käytä mukautettua _uudelleenneuvotteluväliä:"
+
+#~ msgid "Use L_ZO data compression"
+#~ msgstr "Käytä L_ZO-pakkausta"
+
+#, fuzzy
+#~ msgid ""
+#~ "Use fast LZO compression.\n"
+#~ "config: comp-lzo"
+#~ msgstr "Käytä LZO-pakkausta: %s"
+
+#, fuzzy
+#~ msgid ""
+#~ "Select the LZO data compression mode.\n"
+#~ "config: comp-lzo"
+#~ msgstr "Käytä LZO-pakkausta: %s"
+
+#~ msgid "Use a _TCP connection"
+#~ msgstr "Käytä _TCP-yhteyttä"
+
+#~ msgid "Set virtual _device type:"
+#~ msgstr "Aseta virtuaali_laitteen tyyppi:"
+
+#~ msgid " and _name:"
+#~ msgstr " ja _nimi:"
+
+#~ msgid "Use custom UDP _fragment size:"
+#~ msgstr "Käytä omavalintaisia _UDP-osien kokoa:"
+
+#~ msgid "Specify max routes:"
+#~ msgstr "Määritä enimmäisreitit:"
+
+#~ msgid "Ci_pher:"
+#~ msgstr "Salausmenetelmä:"
+
+#~ msgid "_HMAC Authentication:"
+#~ msgstr "_HMAC-tunnistautuminen:"
+
+#~ msgid "Verify CRL from file"
+#~ msgstr "Vahvista CRL tiedostosta"
+
+#~ msgid "Choose CRL file"
+#~ msgstr "Valitse CRL-tiedosto"
+
+#~ msgid "Choose CRL directory"
+#~ msgstr "Valitse CRL-hakemisto"
+
+#~ msgid "Security"
+#~ msgstr "Salaus"
+
+#, fuzzy
+#~| msgid "User Certificate:"
+#~ msgid "Server _Certificate Check:"
+#~ msgstr "Käyttäjän varmenne:"
+
+#~ msgid "Key _Direction:"
+#~ msgstr "Avai_men suunta:"
+
+#, fuzzy
+#~| msgid ""
+#~| "Direction parameter for static key mode.\n"
+#~| "If key direction is used, it must be the opposite of that used on the "
+#~| "VPN peer.  For example, if the peer uses '1', this connection must use "
+#~| "'0'.  If you are unsure what value to use, contact your system "
+#~| "administrator.\n"
+#~| "config: tls-auth <file> [direction]"
+#~ msgid ""
+#~ "Direction parameter for static key mode.\n"
+#~ "If key direction is used, it must be the opposite of that used on the VPN "
+#~ "peer. For example, if the peer uses “1”, this connection must use “0”. If "
+#~ "you are unsure what value to use, contact your system administrator.\n"
+#~ "config: tls-auth <file> [direction]"
+#~ msgstr ""
+#~ "Suunta-arvo kiinteän avaimen tilalle\n"
+#~ "Jos avaimen suuntaa käytetään, täytyy annetun arvon olla vastakkainen "
+#~ "kuin VPN-yhteyden toisessa päässä. Jos esimerkiksi vastapäässä on arvo 1, "
+#~ "tämän täytyy olla 0. Jos et tiedä mitä tässä pitäisi olla, kysy VPN-"
+#~ "yhteytesi ylläpitäjältä lisätietoja.\n"
+#~ "config: static <tiedosto> [suunta]"
+
+#~ msgid "Key _File:"
+#~ msgstr "_Avaintiedosto:"
+
+#, fuzzy
+#~ msgid "Add an additional layer of encryption or HMAC authentication."
+#~ msgstr "Käytä lisäksi TLS-tunnistatumista"
+
+#~ msgid "Extra Certificates:"
+#~ msgstr "Lisävarmenteet:"
+
+#, fuzzy
+#~| msgid "Use additional _TLS authentication"
+#~ msgid "Additional TLS authentication or encryption"
+#~ msgstr "Käytä lisäksi TLS-tunnistatumista"
+
+#~ msgid "TLS Authentication"
+#~ msgstr "TLS-tunnistautuminen"
+
+#~ msgid "Proxy _Type:"
+#~ msgstr "_Välityspalvelimen tyyppi:"
+
+#~ msgid "Server _Address:"
+#~ msgstr "_Palvelimen osoite:"
+
+#~ msgid "_Port:"
+#~ msgstr "P_ortti:"
+
+#~ msgid "_Retry indefinitely when errors occur"
+#~ msgstr "_Yritä jatkuvasti uudelleen virheen tapahtuessa"
+
+#~ msgid "Proxy _Username:"
+#~ msgstr "Välityspalvelimen _käyttäjätunnus:"
+
+#~ msgid "Proxy Passwor_d:"
+#~ msgstr "Välityspalvelimen _salasana:"
+
+#~ msgid "_Show password"
+#~ msgstr "Näyt_ä salasana"
+
+#~ msgid "Proxies"
+#~ msgstr "Välityspalvelimet"
+
+#, fuzzy
+#~| msgid "Connect _anonymously"
+#~ msgid "Connect timeout"
+#~ msgstr "Yhdistä _anonyymisti"
+
+#~ msgid "Choose your personal certificate..."
+#~ msgstr "Valitse oma varmenteesi..."
+
+#~ msgid "Choose your private key..."
+#~ msgstr "Valitse yksityinen avaimesi..."
+
+#~ msgid "Choose a Certificate Authority certificate..."
+#~ msgstr "Valitse CA-varmenne..."
+
+#~ msgid "PEM or PKCS#12 certificates (*.pem, *.crt, *.key, *.cer, *.p12)"
+#~ msgstr "PEM- tai PKCS#12-varmenteet (*.pem, *.crt, *.key, *.cer, *.p12)"
+
+#~ msgid "PEM certificates (*.pem, *.crt, *.key, *.cer)"
+#~ msgstr "PEM-varmenteet (*.pem, *.crt, *.key tai *.cer)"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "<b>General</b>"
+#~ msgstr "<b>Yleisasetukset</b>"
+
+#~ msgid "<b>Authentication</b>"
+#~ msgstr "<b>Tunnistautuminen</b>"
+
+#~ msgid "_Show passwords"
+#~ msgstr "_Näytä salasanat"
+
+#~ msgid "Password for private key"
+#~ msgstr "Yksityisen avaimen salasana"
+
+#~ msgid "Private Key Password:"
+#~ msgstr "Yksityisen avaimen salasana:"
+
+#~ msgid "Private Key:"
+#~ msgstr "Yksityinen avain:"
+
+#, fuzzy
+#~ msgid ""
+#~ "Could not process the request because the anyconnect connection type was "
+#~ "invalid."
+#~ msgstr ""
+#~ "Pyynnön käsittely ei onnistunut, koska VPN-yhteyden asetukset olivat "
+#~ "virheelliset."
+
+#~ msgid "VPN Connection Manager (Anyconnect)"
+#~ msgstr "VPN-yhteyksien hallinta (Anyconnect)"
+
+#~ msgid "Add, Remove, and Edit VPN Connections"
+#~ msgstr "Lisää, poista tai muokkaa VPN-yhteyksiä"
+
+#~ msgid "Saved"
+#~ msgstr "Tallennettu"
+
+#~ msgid "Always Ask"
+#~ msgstr "Kysy aina"
+
+#~ msgid "Not Required"
+#~ msgstr "Ei vaadittu"
+
+#~ msgid "Use a TA_P device"
+#~ msgstr "Käytä TA_P-laitetta"
+
+#~ msgid "_Password:"
+#~ msgstr "_Salasana:"
+
+#~ msgid "_Secondary Password:"
+#~ msgstr "_Toissijainen salasana:"
+
+#~| msgid "_Show passwords"
+#~ msgid "Sh_ow passwords"
+#~ msgstr "_Näytä salasanat"
+
+#~ msgid "Could not process the request because no username was provided."
+#~ msgstr ""
+#~ "Pyynnön käsittely ei onnistunut, koska käyttäjätunnusta ei määritelty."
+
+#~ msgid "_Domain:"
+#~ msgstr "_Toimialue:"
+
+#~ msgid "Connect as _user:"
+#~ msgstr "Yhdistä _käyttäjänä:"
+
+#~ msgid "_Remember password for this session"
+#~ msgstr "_Muista salasana istunnon ajan"
+
+#~ msgid "_Save password in keyring"
+#~ msgstr "_Tallenna salasana avainrenkaaseen"
+
+#~ msgid "Certificate Password:"
+#~ msgstr "Varmenteen salasana:"
+
+#~ msgid "Select A File"
+#~ msgstr "Valitse tiedosto"
+
+#~ msgid "gtk-cancel"
+#~ msgstr "gtk-cancel"
+
+#~ msgid "gtk-ok"
+#~ msgstr "gtk-ok"
+
+#~ msgid "page 1"
+#~ msgstr "sivu 1"
+
+#~ msgid "page 2"
+#~ msgstr "sivu 2"
+
+#~ msgid "page 3"
+#~ msgstr "sivu 3"
+
+#~ msgid "page 4"
+#~ msgstr "sivu 4"
+
+#~ msgid "The following Anyconnect connection will be created:"
+#~ msgstr "Seuraava Anyconnect-yhteys luodaan:"
+
+#~ msgid "Name:  %s"
+#~ msgstr "Nimi:  %s"
+
+#~ msgid "Connection Type: X.509 Certificates"
+#~ msgstr "Yhteyden tyyppi: X.509-varmenteet"
+
+#~ msgid "CA:  %s"
+#~ msgstr "CA:  %s"
+
+#~ msgid "Cert:  %s"
+#~ msgstr "Varmenne:  %s"
+
+#~ msgid "Key:  %s"
+#~ msgstr "Avain:  %s"
+
+#~ msgid "Connection Type: Shared Key"
+#~ msgstr "Yhteyden tyyppi: jaettu avain"
+
+#~ msgid "Shared Key:  %s"
+#~ msgstr "Jaettu avain:  %s"
+
+#~ msgid "Remote IP:  %s"
+#~ msgstr "Palvelimen IP-osoite:  %s"
+
+#~ msgid "Connection Type: Password"
+#~ msgstr "Yhteyden tyyppi: Salasana"
+
+#~ msgid "Username:  %s"
+#~ msgstr "Käyttäjätunnus: %s"
+
+#~ msgid "Connection Type: X.509 with Password Authentication"
+#~ msgstr "Yhteyden tyyppi: X.509 salasanalla todennuksella"
+
+#~ msgid "Remote:  %s"
+#~ msgstr "Palvelin: %s"
+
+#~ msgid "Device: %s"
+#~ msgstr "Laite: %s"
+
+#~ msgid "Protocol: %s"
+#~ msgstr "Protokolla: %s"
+
+#~ msgid "TCP"
+#~ msgstr "TCP"
+
+#~ msgid "UDP"
+#~ msgstr "UDP"
+
+#~ msgid "Routes:  %s"
+#~ msgstr "Reitit:  %s"
+
+#~ msgid "TLS auth:  %s %s"
+#~ msgstr "TLS-todentaminen: %s %s"
+
+#~ msgid "The connection details can be changed using the \"Edit\" button."
+#~ msgstr "Yhteyden yksityiskohtia voi muuttaa valitsemalla \"Muokkaa\"."
+
+#~ msgid "Cannot import settings"
+#~ msgstr "Asetuksia ei voi tuoda"
+
+#~ msgid "The VPN settings file '%s' does not contain valid data."
+#~ msgstr "VPN-asetustiedosto \"%s\" ei sisällä kelvollisia tietoja."
+
+#~ msgid "Select file to import"
+#~ msgstr "Valitse tuotava tiedosto"
+
+#~ msgid "Select certificate to use"
+#~ msgstr "Valitse käytettävä varmenne"
+
+#~ msgid "Select key to use"
+#~ msgstr "Valitse käytettävä avain"
+
+#~ msgid "Select shared key to use"
+#~ msgstr "Valitse käytettävä jaettu avain"
+
+#~ msgid "Select TA to use"
+#~ msgstr "Valitse käytettävä TA"
+
+#~ msgid "Save as..."
+#~ msgstr "Tallenna nimellä..."
+
+#~ msgid "A file named \"%s\" already exists."
+#~ msgstr "Tiedosto \"%s\" on jo olemassa."
+
+#~ msgid "Do you want to replace it with the one you are saving?"
+#~ msgstr "Haluatko korvata sen tiedostolla jota olet tallentamassa?"
+
+#~ msgid "Failed to export configuration"
+#~ msgstr "Asetuksia ei voitu viedä"
+
+#~ msgid "65536"
+#~ msgstr "65536"
+
+#~ msgid "<i>example: 172.16.0.0/16 10.11.12.0/24</i>"
+#~ msgstr "<i>esimerkki: 172.16.0.0/16 10.11.12.0/24</i>"
+
+#~ msgid "C_A file:"
+#~ msgstr "C_A-tiedosto:"
+
+#~ msgid "Connection na_me:"
+#~ msgstr "Yhteyden _nimi:"
+
+#~ msgid "Import _Saved Configuration..."
+#~ msgstr "Tuo _tallennettu määrittely..."
+
+#~ msgid ""
+#~ "Name used to identify the connection to the private network, e.g. "
+#~ "\"Campus VPN\" or \"Corporate Network\""
+#~ msgstr ""
+#~ "Yksilöllinen VPN-verkon nimi, esimerkiksi \"Kampusverkko\" tai "
+#~ "\"Työpaikan verkko\"."
+
+#~ msgid "Network"
+#~ msgstr "Verkko"
+
+#~ msgid "Only use _VPN connection for these addresses:"
+#~ msgstr "_Käytä VPN-yhteyttä seuraaville osoitteille"
+
+#~ msgid ""
+#~ "Please enter the information provided by your system administrator below. "
+#~ "Do not enter your password here as you will be prompted when connecting."
+#~ msgstr ""
+#~ "Syötä järjestelmän ylläpitäjältä saamasi tiedot alla oleviin kohtiin. Älä "
+#~ "syötä tähän salasanaasi, sillä se kysytään vasta otettaessa yhteyttä."
+
+#~ msgid ""
+#~ "Please note that the file you import is not an Anyconnect configuration "
+#~ "file. Ask your administrator for the file."
+#~ msgstr ""
+#~ "Huomaa, että tuotava tiedosto ei ole Anyconnect-asetustiedosto. Kysy "
+#~ "ylläpitäjältäsi oikeaa tiedostoa."
+
+#~ msgid "Shared _key:"
+#~ msgstr "_Jaettu avain:"
+
+#~ msgid "Use _TLS auth:"
+#~ msgstr "Käytä _TLS-todentamista:"
+
+#~ msgid "Use cip_her:"
+#~ msgstr "Salaus_menetelmä:"
+
+#~ msgid ""
+#~ "X.509 Certificates\n"
+#~ "Pre-shared key\n"
+#~ "Password Authentication\n"
+#~ "X.509 with Password Authentication"
+#~ msgstr ""
+#~ "X.509-varmenteet\n"
+#~ "Jaettu avain\n"
+#~ "Salasanalla todentaminen\n"
+#~ "X.509 salasanatodennuksella"
+
+#~ msgid "_0"
+#~ msgstr "_0"
+
+#~ msgid "_1"
+#~ msgstr "_1"
+
+#~ msgid "_Gateway address:"
+#~ msgstr "_Yhdyskäytävän osoite:"
+
+#~ msgid "_Key:"
+#~ msgstr "_Avain:"
+
+#~ msgid "_Local IP:"
+#~ msgstr "_Paikallinen IP-osoite:"
+
+#~ msgid "_Remote IP:"
+#~ msgstr "_Palvelimen IP-osoite:"
+
+#~ msgid "_none"
+#~ msgstr "_ei mitään"
+
+#~ msgid ""
+#~ "The VPN login failed because the user name and password were not accepted "
+#~ "or the certificate password was wrong."
+#~ msgstr ""
+#~ "VPN-kirjautuminen epäonnistui, koska käyttäjätunnusta ja salasanaa ei "
+#~ "hyväsytty, tai varmenteen salasana oli väärin."
+
+#~ msgid "The VPN login failed because the VPN program could not be started."
+#~ msgstr ""
+#~ "VPN-kirjautuminen epäonnistui, koska VPN-ohjelmaa ei voitu käynnistää."
+
+#~ msgid ""
+#~ "The VPN login failed because the VPN program could not connect to the VPN "
+#~ "server."
+#~ msgstr ""
+#~ "VPN-kirjatuminen epäonnistui, koska VPN-ohjelma ei saanut yhteyttä VPN-"
+#~ "palvelimeen."
+
+#~ msgid ""
+#~ "The VPN login failed because the VPN program received an invalid "
+#~ "configuration from the VPN server."
+#~ msgstr ""
+#~ "VPN-kirjautuminen epäonnistui, koska VPN-ohjelma sai epäyhteensopivat "
+#~ "asetukset VPN-palvelimelta."
+
+#~ msgid "VPN connection failed"
+#~ msgstr "VPN-yhteyden avaus epäonnistui"
+
+#~ msgid "<b>Connection Information</b>"
+#~ msgstr "<b>Tietoja yhteydestä</b>"
+
+#~ msgid "CA  file:"
+#~ msgstr "CA-tiedosto:"
+
+#~ msgid "Optional"
+#~ msgstr "Valinnaiset tiedot"
+
+#~ msgid "X.509"
+#~ msgstr "X.509"
+
+#~ msgid "X.509/Pass"
+#~ msgstr "X.509/salasana"

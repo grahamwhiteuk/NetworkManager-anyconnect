@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright Lubomir Rintel 2016 -->
+<component type="addon">
+  <id>network-manager-anyconnect</id>
+  <project_license>GPL-2.0+</project_license>
+  <metadata_license>CC0-1.0</metadata_license>
+  <extends>nm-connection-editor.desktop</extends>
+  <extends>gnome-control-center.desktop</extends>
+  <_name>Anyconnect client</_name>
+  <_summary>Client for Anyconnect virtual private networks</_summary>
+
+  <keywords>
+    <keyword>network</keyword>
+    <keyword>manager</keyword>
+    <keyword>NetworkManager</keyword>
+    <keyword>connection</keyword>
+    <keyword>VPN</keyword>
+    <keyword>Anyconnect</keyword>
+    <keyword>Cisco</keyword>
+  </keywords>
+
+  <description>
+    <_p>Support for configuring proprietary Cisco AnyConnect virtual private network connections.</_p>
+  </description>
+
+  <screenshots>
+    <screenshot type="default">
+      <caption>Configuring AnyConnect VPN</caption>
+      <image width="544" height="571">https://gitlab.gnome.org/GNOME/NetworkManager-anyconnect/raw/master/appdata/anyconnect.png</image>
+    </screenshot>
+  </screenshots>
+
+  <url type="homepage">https://github.com/grahamwhiteuk/Networkmanager-anyconnect</url>
+  <url type="bugtracker">https://github.com/grahamwhiteuk/Networkmanager-anyconnect/issues</url>
+  <translation type="gettext">NetworkManager-anyconnect</translation>
+  <_developer_name>Graham White</_developer_name>
+</component>

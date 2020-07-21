@@ -1,0 +1,403 @@
+# translation of network-manager-anyconnect.master.mr.po to marathi
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Sandeep Shedmake <sandeep.shedmake@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: network-manager-anyconnect.master.mr\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-30 22:41+0100\n"
+"PO-Revision-Date: 2009-06-09 14:53+0530\n"
+"Last-Translator: Sandeep Shedmake <sandeep.shedmake@gmail.com>\n"
+"Language-Team: marathi\n"
+"Language: mr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:1
+#, fuzzy
+msgid "Anyconnect client"
+msgstr "Anyconnect"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:2
+msgid "Client for Anyconnect virtual private networks"
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:3
+msgid "Support for configuring Anyconnect virtual private network connections."
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:4
+msgid "Anyconnect is a popular and flexible free-software VPN solution."
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:5
+msgid "The NetworkManager Developers"
+msgstr ""
+
+#: ../properties/nm-anyconnect-editor-plugin.c:35
+#, fuzzy
+msgid "Cisco AnyConnect"
+msgstr "Anyconnect"
+
+#: ../properties/nm-anyconnect-editor-plugin.c:36
+msgid "Runs the proprietary Cisco AnyConnect VPN."
+msgstr ""
+
+#: ../properties/nm-anyconnect-editor.c:299
+msgid "could not load UI widget"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:946
+#, c-format
+msgid "object class '%s' has no property named '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:953
+#, c-format
+msgid "property '%s' of object class '%s' is not writable"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:960
+#, c-format
+msgid ""
+"construct property \"%s\" for object '%s' can't be set after construction"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:968
+#, c-format
+msgid "'%s::%s' is not a valid property name; '%s' is not a GObject subtype"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:977
+#, c-format
+msgid "unable to set property '%s' of type '%s' from value of type '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:988
+#, c-format
+msgid ""
+"value \"%s\" of type '%s' is invalid or out of range for property '%s' of "
+"type '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:69
+#, c-format
+msgid "unable to get editor plugin name: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:103
+#, c-format
+msgid "missing plugin file \"%s\""
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:109
+#, c-format
+msgid "cannot load editor plugin: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:118
+#, c-format
+msgid "cannot load factory %s from plugin: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:144
+msgid "unknown error creating editor instance"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:567 ../src/nm-anyconnect-service.c:682
+msgid "Could not find the anyconnect binary."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:580
+msgid ""
+"Could not process the request because the VPN connection settings were "
+"invalid."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:602
+msgid ""
+"Could not attempt connection, unable to find the setting for the gateway."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:875
+msgid "Don’t quit when VPN connection terminates"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:876
+msgid "Enable verbose debug logging (may expose passwords)"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:877
+msgid "D-Bus name to use for this instance"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:905
+msgid ""
+"nm-anyconnect-service provides integrated proprietary Cisco AnyConnect "
+"capability to NetworkManager."
+msgstr ""
+
+#: ../properties/nm-anyconnect-dialog.ui.h:1
+msgid "General"
+msgstr "सर्वसाधारण"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:2
+msgid "_Gateway:"
+msgstr "गेटवे (_G):"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:3
+msgid "VPN host to connect to"
+msgstr ""
+
+#, fuzzy, c-format
+#~ msgid "Authenticate VPN %s"
+#~ msgstr "VPN करीता ओळख पटवा"
+
+#~ msgid "Password:"
+#~ msgstr "परवलीचा शब्द:"
+
+#~ msgid "Certificate password:"
+#~ msgstr "प्रमाणपत्र परवलीचा शब्द:"
+
+#~ msgid "Authenticate VPN"
+#~ msgstr "VPN करीता ओळख पटवा"
+
+#~ msgid "Certificate pass_word:"
+#~ msgstr "प्रमाणपत्र परवलीचा शब्द (_w):"
+
+#, c-format
+#~ msgid "You need to authenticate to access the Virtual Private Network '%s'."
+#~ msgstr "Virtual Private Network '%s' करीता प्रवेशसाठी तुम्हाला ओळख पटवावी लागेल."
+
+#~ msgid "Choose your personal certificate..."
+#~ msgstr "खाजगी प्रमाणपत्र निवडा..."
+
+#~ msgid "Choose your private key..."
+#~ msgstr "वैयक्तिक कि निवडा..."
+
+#~ msgid "Choose a Certificate Authority certificate..."
+#~ msgstr "Certificate Authority प्रमाणपत्र निवडा..."
+
+#~ msgid "Choose an Anyconnect static key..."
+#~ msgstr "Anyconnect स्टॅटीक कि निवडा..."
+
+#~ msgid "None"
+#~ msgstr "काहिच नाही"
+
+#, fuzzy
+#~ msgid "PEM or PKCS#12 certificates (*.pem, *.crt, *.key, *.cer, *.p12)"
+#~ msgstr "PEM प्रमाणपत्रं (*.pem, *.crt, *.key, *.cer)"
+
+#~ msgid "PEM certificates (*.pem, *.crt, *.key, *.cer)"
+#~ msgstr "PEM प्रमाणपत्रं (*.pem, *.crt, *.key, *.cer)"
+
+#~ msgid "Anyconnect Static Keys (*.key)"
+#~ msgstr "Anyconnect स्टॅटीक किज (*.key)"
+
+#~ msgid "Default"
+#~ msgstr "मुलभूत"
+
+#~ msgid "MD-5"
+#~ msgstr "MD-5"
+
+#~ msgid "SHA-1"
+#~ msgstr "SHA-1"
+
+#, fuzzy
+#~ msgid "SHA-224"
+#~ msgstr "SHA-1"
+
+#, fuzzy
+#~ msgid "SHA-256"
+#~ msgstr "SHA-1"
+
+#, fuzzy
+#~ msgid "SHA-384"
+#~ msgstr "SHA-1"
+
+#, fuzzy
+#~ msgid "SHA-512"
+#~ msgstr "SHA-1"
+
+#~ msgid "Compatible with the Anyconnect server."
+#~ msgstr "Anyconnect सर्वरशी सहत्व."
+
+#~ msgid "Certificates (TLS)"
+#~ msgstr "प्रमाणपत्रं (TLS)"
+
+#~ msgid "Password"
+#~ msgstr "परवलीचा शब्द"
+
+#~ msgid "Password with Certificates (TLS)"
+#~ msgstr "प्रमाणपत्र सह परवलीचा शब्द (TLS)"
+
+#~ msgid "Static Key"
+#~ msgstr "Static Key"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "<b>General</b>"
+#~ msgstr "<b>सर्वसाधारण</b>"
+
+#~ msgid "<b>Authentication</b>"
+#~ msgstr "<b>ओळख पटवा</b>"
+
+#~ msgid "_Show passwords"
+#~ msgstr "परवलीचा शब्द दाखवा"
+
+#, fuzzy
+#~ msgid "Password for private key"
+#~ msgstr "वैयक्तिक कि निवडा..."
+
+#~ msgid "Private Key Password:"
+#~ msgstr "वैयक्तिक कि परवलीचा शब्द:"
+
+#~ msgid "Private Key:"
+#~ msgstr "वैयक्तिक कि:"
+
+#~ msgid "CA Certificate:"
+#~ msgstr "CA प्रमाणपत्र:"
+
+#~ msgid "User Certificate:"
+#~ msgstr "वापरकर्ता प्रमाणपत्र:"
+
+#~ msgid "User name:"
+#~ msgstr "वापरकर्ता नाव:"
+
+#~ msgid "Remote IP Address:"
+#~ msgstr "दूरस्थ IP पत्ता:"
+
+#~ msgid "Local IP Address:"
+#~ msgstr "स्थानीय IP पत्ता:"
+
+#, fuzzy
+#~ msgid "Key Direction:"
+#~ msgstr "कि दिशा:"
+
+#~ msgid "Static Key:"
+#~ msgstr "स्टॅटीक कि:"
+
+#, fuzzy
+#~ msgid ""
+#~ "Direction for Static Key encryption mode (non-TLS).\n"
+#~ "If key direction is used, it must be the opposite of that used on the VPN "
+#~ "peer.  For example, if the peer uses '1', this connection must use '0'.  "
+#~ "If you are unsure what value to use, contact your system administrator.\n"
+#~ "config: static <file> [direction]"
+#~ msgstr ""
+#~ "<i>कि दिशा वापरल्यास, ते VPN सम गटाच्या विरूद्ध वापरलेले असायला हवे.  उदाहरणार्थ, "
+#~ "सम गटाच्य विरूद्ध '1' चा वापर केल्यास, जुळवणीने '0' वापरायला हवे.  कुठले मुल्य "
+#~ "वापरायचे हे निश्चित नसल्यास, तुमच्या प्रणाली प्रशासकाशी संपर्क करा.</i>"
+
+#~ msgid "Type:"
+#~ msgstr "प्रकार:"
+
+#, fuzzy
+#~ msgid "Select an authentication mode."
+#~ msgstr "TLS ओळख पटवा"
+
+#~ msgid "Ad_vanced..."
+#~ msgstr "प्रगत (_v)..."
+
+#~ msgid "Anyconnect Advanced Options"
+#~ msgstr "Anyconnect प्रगत पर्याय"
+
+#~ msgid "Use custom gateway p_ort:"
+#~ msgstr "स्वपसंत गेटवे पोर्ट वापरा (_o):"
+
+#~ msgid "Use L_ZO data compression"
+#~ msgstr "LZO माहिती संकोचन वापरा (_Z)"
+
+#~ msgid "Use a _TCP connection"
+#~ msgstr "TCP जुळवणीचा वापरा (_T)"
+
+#~ msgid "Ci_pher:"
+#~ msgstr "सिफर:"
+
+#~ msgid "_HMAC Authentication:"
+#~ msgstr "HMAC ओळख पटवा:"
+
+#~ msgid "Security"
+#~ msgstr "सुरक्षा"
+
+#~ msgid "Use additional _TLS authentication"
+#~ msgstr "अगाऊ TLS ओळख पटवा वापरा"
+
+#, fuzzy
+#~ msgid "Add an additional layer of HMAC authentication."
+#~ msgstr "अगाऊ TLS ओळख पटवा वापरा"
+
+#~ msgid "Key _Direction:"
+#~ msgstr "कि दिशा:"
+
+#, fuzzy
+#~ msgid ""
+#~ "Direction parameter for static key mode.\n"
+#~ "If key direction is used, it must be the opposite of that used on the VPN "
+#~ "peer.  For example, if the peer uses '1', this connection must use '0'.  "
+#~ "If you are unsure what value to use, contact your system administrator.\n"
+#~ "config: tls-auth <file> [direction]"
+#~ msgstr ""
+#~ "<i>कि दिशा वापरल्यास, ते VPN सम गटाच्या विरूद्ध वापरलेले असायला हवे.  उदाहरणार्थ, "
+#~ "सम गटाच्य विरूद्ध '1' चा वापर केल्यास, जुळवणीने '0' वापरायला हवे.  कुठले मुल्य "
+#~ "वापरायचे हे निश्चित नसल्यास, तुमच्या प्रणाली प्रशासकाशी संपर्क करा.</i>"
+
+#~ msgid "Key _File:"
+#~ msgstr "कि फाइल:"
+
+#~ msgid "TLS Authentication"
+#~ msgstr "TLS ओळख पटवा"
+
+#, fuzzy
+#~ msgid "Server _Address:"
+#~ msgstr "दूरस्थ IP पत्ता:"
+
+#, fuzzy
+#~ msgid "Proxy _Username:"
+#~ msgstr "वापरकर्ता नाव (_U):"
+
+#, fuzzy
+#~ msgid "Proxy Passwor_d:"
+#~ msgstr "परवलीचा शब्द:"
+
+#, fuzzy
+#~ msgid "_Show password"
+#~ msgstr "परवलीचा शब्द दाखवा"
+
+#, fuzzy
+#~ msgid "A private key password is required."
+#~ msgstr "वैयक्तिक कि परवलीचा शब्द:"
+
+#, fuzzy
+#~ msgid "Unhandled pending authentication."
+#~ msgstr "अगाऊ TLS ओळख पटवा वापरा"
+
+#~ msgid "_Password:"
+#~ msgstr "परवलीचा शब्द (_P):"
+
+#~ msgid "_Secondary Password:"
+#~ msgstr "दुय्यम परवलीचा शब्द (_S):"
+
+#~ msgid "_Domain:"
+#~ msgstr "क्षेत्र (_D):"
+
+#~ msgid "Connect _anonymously"
+#~ msgstr "निनावी नुरूप जुळवा (_a)"
+
+#~ msgid "Connect as _user:"
+#~ msgstr "वापरकर्ता नुरूप जुळवा (_u):"
+
+#~ msgid "_Remember password for this session"
+#~ msgstr "या सत्र करीता परवलीचा शब्द लक्षात ठेवा (_R)"
+
+#~ msgid "_Save password in keyring"
+#~ msgstr "किरींग अंतर्गत परवलीचा शब्द साठवा (_S)"
+
+#~ msgid "Use a TA_P device"
+#~ msgstr "TAP साधनाचा वापरा (_P)"

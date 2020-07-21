@@ -1,0 +1,1359 @@
+# Danish translation of NetworkManager-anyconnect
+# Copyright (C) 2005-2020
+# This file is distributed under the same license as the NetworkManager-anyconnect package.
+# David Zeuthen <davidz@redhat.com>, 2005.
+# Lasse Bang Mikkelsen <lbm@fatalerror.dk>, 2006, 07.
+# Mads Bille Lundby <lundbymads@gmail.com>, 2009.
+# Alan Mortensen <alanmortensen.am@gmail.com>, 2017-20.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: NetworkManager-anyconnect\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-30 22:41+0100\n"
+"PO-Revision-Date: 2020-03-29 14:28+0200\n"
+"Last-Translator: Alan Mortensen <alanmortensen.am@gmail.com>\n"
+"Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.6\n"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:1
+msgid "Anyconnect client"
+msgstr "Anyconnect-klient"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:2
+msgid "Client for Anyconnect virtual private networks"
+msgstr "Klient til virtuelle private Anyconnect-netværk"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:3
+msgid "Support for configuring Anyconnect virtual private network connections."
+msgstr ""
+"Understøttelse af konfigurering af virtuelle private Anyconnect-"
+"netværksforbindelser."
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:4
+msgid "Anyconnect is a popular and flexible free-software VPN solution."
+msgstr "Anyconnect er en fri, populær og fleksibel VPN-løsning."
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:5
+msgid "The NetworkManager Developers"
+msgstr "Udviklerne af Netværkshåndtering"
+
+#: ../properties/nm-anyconnect-editor-plugin.c:35
+#, fuzzy
+msgid "Cisco AnyConnect"
+msgstr "Anyconnect"
+
+#: ../properties/nm-anyconnect-editor-plugin.c:36
+msgid "Runs the proprietary Cisco AnyConnect VPN."
+msgstr ""
+
+#: ../properties/nm-anyconnect-editor.c:299
+msgid "could not load UI widget"
+msgstr "kunne ikke indlæse UI-kontrol"
+
+# streng findes også i applet
+#: ../shared/nm-utils/nm-shared-utils.c:946
+#, c-format
+msgid "object class '%s' has no property named '%s'"
+msgstr "objektklassen “%s” har ingen egenskab ved navn “%s”"
+
+# streng findes også i applet
+#: ../shared/nm-utils/nm-shared-utils.c:953
+#, c-format
+msgid "property '%s' of object class '%s' is not writable"
+msgstr "egenskaben “%s” for objektklassen “%s” er skrivebeskyttet"
+
+# streng findes også i applet
+#: ../shared/nm-utils/nm-shared-utils.c:960
+#, c-format
+msgid ""
+"construct property \"%s\" for object '%s' can't be set after construction"
+msgstr ""
+"construct-egenskaben “%s” for objektet “%s” kan ikke angives efter "
+"konstruktion"
+
+# streng findes også i applet
+#: ../shared/nm-utils/nm-shared-utils.c:968
+#, c-format
+msgid "'%s::%s' is not a valid property name; '%s' is not a GObject subtype"
+msgstr ""
+"“%s::%s” er ikke et gyldigt egenskabsnavn; “%s” er ikke en GObjekt-undertype"
+
+# streng findes også i applet
+#: ../shared/nm-utils/nm-shared-utils.c:977
+#, c-format
+msgid "unable to set property '%s' of type '%s' from value of type '%s'"
+msgstr ""
+"kan ikke angive egenskaben “%s” af type “%s” ud fra værdien af typen “%s”"
+
+# streng findes også i applet
+#: ../shared/nm-utils/nm-shared-utils.c:988
+#, c-format
+msgid ""
+"value \"%s\" of type '%s' is invalid or out of range for property '%s' of "
+"type '%s'"
+msgstr ""
+"værdien “%s” af typen “%s” er ugyldig eller uden for intervallet for "
+"egenskaben “%s” af typen “%s”"
+
+# streng findes også i vpnc
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:69
+#, c-format
+msgid "unable to get editor plugin name: %s"
+msgstr "kan ikke finde navnet på udvidelsesmodul til redigering: %s"
+
+# streng findes også i vpnc
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:103
+#, c-format
+msgid "missing plugin file \"%s\""
+msgstr "manglende udvidelsesmodulfil “%s”"
+
+# streng findes også i vpnc
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:109
+#, c-format
+msgid "cannot load editor plugin: %s"
+msgstr "kan ikke indlæse udvidelsesmodul til redigering: %s"
+
+# streng findes også i vpnc
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:118
+#, c-format
+msgid "cannot load factory %s from plugin: %s"
+msgstr "kan ikke indlæse fabrikken %s fra udvidelsesmodul: %s"
+
+# streng findes også i vpnc
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:144
+msgid "unknown error creating editor instance"
+msgstr "ukendt fejl i forsøget på at danne redigeringsinstans"
+
+#: ../src/nm-anyconnect-service.c:567 ../src/nm-anyconnect-service.c:682
+msgid "Could not find the anyconnect binary."
+msgstr "Kunne ikke finde binærfil for anyconnect."
+
+# streng også i vpnc
+#: ../src/nm-anyconnect-service.c:580
+msgid ""
+"Could not process the request because the VPN connection settings were "
+"invalid."
+msgstr ""
+"Kunne ikke behandle forespørgslen, da forbindelsesindstillingerne for VPN "
+"var ugyldige."
+
+#: ../src/nm-anyconnect-service.c:602
+msgid ""
+"Could not attempt connection, unable to find the setting for the gateway."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:875
+msgid "Don’t quit when VPN connection terminates"
+msgstr "Afslut ikke, når VPN-forbindelsen lukkes"
+
+#: ../src/nm-anyconnect-service.c:876
+msgid "Enable verbose debug logging (may expose passwords)"
+msgstr "Aktivér udførlig fejlsøgningslogning (kan afsløre adgangskoder)"
+
+# streng findes også i vpnc
+#: ../src/nm-anyconnect-service.c:877
+msgid "D-Bus name to use for this instance"
+msgstr "Navn på D-Bus der skal bruges i dette tilfælde"
+
+#: ../src/nm-anyconnect-service.c:905
+#, fuzzy
+msgid ""
+"nm-anyconnect-service provides integrated proprietary Cisco AnyConnect "
+"capability to NetworkManager."
+msgstr ""
+"nm-anyconnect-service tilbyder integreret Anyconnect-understøttelse til "
+"Netværkshåndtering."
+
+#: ../properties/nm-anyconnect-dialog.ui.h:1
+msgid "General"
+msgstr "Generelt"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:2
+msgid "_Gateway:"
+msgstr "_Gateway:"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:3
+msgid "VPN host to connect to"
+msgstr ""
+
+#, c-format
+#~ msgid "Authentication required"
+#~ msgstr "Godkendelse krævet"
+
+#~ msgid "Password"
+#~ msgstr "Adgangskode"
+
+#~ msgid "Certificate password"
+#~ msgstr "Adgangskode til certifikat"
+
+#~ msgid "HTTP proxy password"
+#~ msgstr "Adgangskode til HTTP-proxy"
+
+#~ msgid "Authenticate VPN"
+#~ msgstr "VPN-godkendelse"
+
+#~ msgid "Certificate pass_word:"
+#~ msgstr "Ad_gangskode til certifikat:"
+
+#~ msgid "_HTTP proxy password:"
+#~ msgstr "Adgangskode til _HTTP-proxy:"
+
+#, c-format
+#~ msgid "You need to authenticate to access the Virtual Private Network “%s”."
+#~ msgstr ""
+#~ "Du skal opnå godkendelse for at tilgå det virtuelle private netværk “%s”."
+
+#, c-format
+#~ msgid "option %s expects between %u and %u argument"
+#~ msgid_plural "option %s expects between %u and %u arguments"
+#~ msgstr[0] "valgmuligheden %s forventer mellem %u og %u argument"
+#~ msgstr[1] "valgmuligheden %s forventer mellem %u og %u argumenter"
+
+#, c-format
+#~ msgid "option %s expects no arguments"
+#~ msgstr "valgmuligheden %s forventer ingen argumenter"
+
+#, c-format
+#~ msgid "option %s expects exactly one argument"
+#~ msgid_plural "option %s expects exactly %u arguments"
+#~ msgstr[0] "valgmuligheden %s forventer nøjagtigt %u argument"
+#~ msgstr[1] "valgmuligheden %s forventer nøjagtigt %u argumenter"
+
+#, c-format
+#~ msgid "argument %s of “%s” can not be empty"
+#~ msgstr "argumentet %s til “%s” kan ikke være tomt"
+
+#, c-format
+#~ msgid "argument of “%s” can not be empty"
+#~ msgstr "argumentet til “%s” kan ikke være tomt"
+
+#, c-format
+#~ msgid "argument %s of “%s” must be UTF-8 encoded"
+#~ msgstr "argumentet %s til “%s” skal være kodet i UTF-8"
+
+#, c-format
+#~ msgid "argument of “%s” must be UTF-8 encoded"
+#~ msgstr "argumentet til “%s” skal være kodet i UTF-8"
+
+# betyder %uth et ordenstal (f.eks. 4th) - og i givet fald hvad så med første, anden og tredje?
+#, c-format
+#~ msgid "invalid %uth argument to “%s” where number expected"
+#~ msgstr "ugyldigt %u. argument til “%s” hvor tal blev forventet"
+
+#, c-format
+#~ msgid "unsupported %uth argument %s to “%s”"
+#~ msgstr "ikke-understøttet %u. argument %s til “%s”"
+
+#, c-format
+#~ msgid ""
+#~ "unsupported %uth argument to “%s” which looks like a FQDN but only IPv4 "
+#~ "address supported"
+#~ msgstr ""
+#~ "argument %u til “%s” understøttes ikke; det ser ud som en FQDN, men kun "
+#~ "IPv4-adresser understøttes"
+
+#, c-format
+#~ msgid "invalid %uth argument to “%s” where IPv4 address expected"
+#~ msgstr "ugyldigt %u. argument til “%s”, hvor IPv4-adresse blev forventet"
+
+#, c-format
+#~ msgid "invalid %uth key-direction argument to “%s”"
+#~ msgstr "ugyldig %u. nøgleretningsargument til “%s”"
+
+#, c-format
+#~ msgid "invalid %uth argument to “%s”"
+#~ msgstr "ugyldigt %u. argument til “%s”"
+
+#, c-format
+#~ msgid "unterminated %s at position %lld"
+#~ msgstr "uafsluttet %s ved position %lld"
+
+#~ msgid "double quote"
+#~ msgstr "dobbelt anførselstegn"
+
+#~ msgid "single quote"
+#~ msgstr "enkelt anførselstegn"
+
+#, c-format
+#~ msgid "trailing escaping backslash at position %lld"
+#~ msgstr "afsluttende undvige-backslash ved position %lld"
+
+#, c-format
+#~ msgid "unable to read HTTP proxy auth file"
+#~ msgstr "ikke i stand til at læse auth-fil til HTTP-proxy"
+
+#, c-format
+#~ msgid "cannot read user/password from HTTP proxy auth file"
+#~ msgstr "kan ikke læse bruger/adgangskode fra auth-fil til HTTP-proxy"
+
+#, c-format
+#~ msgid "user/password from HTTP proxy auth file must be UTF-8 encoded"
+#~ msgstr ""
+#~ "bruger/adgangskode fra auth-fil til HTTP-proxy skal være kodet i UTF-8"
+
+#, c-format
+#~ msgid "“%s” is not a directory"
+#~ msgstr "“%s” er ikke en mappe"
+
+#, c-format
+#~ msgid "cannot create “%s” directory"
+#~ msgstr "kan ikke oprette mappen “%s”"
+
+#, c-format
+#~ msgid "cannot write <%s> blob from line %ld to file (%s)"
+#~ msgstr "kan ikke skrive blobben  <%s> fra linje %ld til fil (%s)"
+
+#, c-format
+#~ msgid "cannot write <%s> blob from line %ld to file “%s”"
+#~ msgstr "kan ikke skrive blobben <%s> fra linje %ld til fil \"%s\""
+
+#, c-format
+#~ msgid "unsupported mtu-disc argument"
+#~ msgstr "ikke-understøttet argument til mtu-disc"
+
+#, c-format
+#~ msgid "unsupported crl-verify argument"
+#~ msgstr "ikke-understøttet argument til crl-verify"
+
+#, c-format
+#~ msgid "invalid option"
+#~ msgstr "ugyldigt tilvalg"
+
+#, c-format
+#~ msgid "unsupported comp-lzo argument"
+#~ msgstr "ikke-understøttet argument til comp-lzo"
+
+#, c-format
+#~ msgid "unsupported compress argument"
+#~ msgstr "ikke-understøttet argument til compress"
+
+#, c-format
+#~ msgid "remote cannot contain space"
+#~ msgstr "fjernsted kan ikke indeholde mellemrum"
+
+#, c-format
+#~ msgid "remote cannot contain comma"
+#~ msgstr "fjernsted kan ikke indeholde komma"
+
+#, c-format
+#~ msgid "remote expects protocol type like “udp” or “tcp”"
+#~ msgstr "fjernsted forventer protokoltype som “udp” eller “tcp”"
+
+#, c-format
+#~ msgid "invalid verify-x509-name type"
+#~ msgstr "ugyldig type af verify-x509-name"
+
+#, c-format
+#~ msgid "unsupported blob/xml element"
+#~ msgstr "ikke-understøttet blob-/xml-element"
+
+#, c-format
+#~ msgid "unterminated blob element <%s>"
+#~ msgstr "uafsluttet blob-element <%s>"
+
+#, c-format
+#~ msgid "configuration error: %s (line %ld)"
+#~ msgstr "konfigurationsfejl: %s (linje %ld)"
+
+#~ msgid "unknown or unsupported option"
+#~ msgstr "ukendt eller ikke-understøttet tilvalg"
+
+#~ msgid "The file to import wasn’t a valid Anyconnect client configuration"
+#~ msgstr ""
+#~ "Filen, der skulle importeres, var ikke en gyldig Anyconnect-"
+#~ "klientkonfiguration"
+
+#~ msgid "The file to import wasn’t a valid Anyconnect configure (no remote)"
+#~ msgstr ""
+#~ "Filen, der skulle importeres, var ikke en gyldig Anyconnect-"
+#~ "klientkonfiguration (ingen remote)"
+
+#~ msgid "missing path argument"
+#~ msgstr "manglende stiargument"
+
+#~ msgid "connection is not a valid Anyconnect connection"
+#~ msgstr "forbindelsen er ikke en gyldig Anyconnect-forbindelse"
+
+#~ msgid "connection was incomplete (missing gateway)"
+#~ msgstr "forbindelsen var ufuldstændig (manglende gateway)"
+
+#, c-format
+#~ msgid "failed to write file: %s"
+#~ msgstr "kunne ikke skrive fil: %s"
+
+#~ msgid "Compatible with the Anyconnect server."
+#~ msgstr "Kompatibel med Anyconnect-serveren."
+
+#~ msgid "Choose an Anyconnect static key…"
+#~ msgstr "Vælg en statisk Anyconnect-nøgle …"
+
+#~ msgid "None"
+#~ msgstr "Ingen"
+
+#~ msgid "Anyconnect Static Keys (*.key)"
+#~ msgstr "Statiske Anyconnect-nøgler (*.key)"
+
+#~ msgid "Default"
+#~ msgstr "Standard"
+
+#~ msgid "RSA MD-4"
+#~ msgstr "RSA MD-4"
+
+#~ msgid "MD-5"
+#~ msgstr "MD-5"
+
+#~ msgid "SHA-1"
+#~ msgstr "SHA-1"
+
+#~ msgid "SHA-224"
+#~ msgstr "SHA-224"
+
+#~ msgid "SHA-256"
+#~ msgstr "SHA-256"
+
+#~ msgid "SHA-384"
+#~ msgstr "SHA-384"
+
+#~ msgid "SHA-512"
+#~ msgstr "SHA-512"
+
+#~ msgid "RIPEMD-160"
+#~ msgstr "RIPEMD-160"
+
+#~ msgid "Don’t verify certificate identification"
+#~ msgstr "Bekræft ikke certifikatidentifikation"
+
+# https://technet.microsoft.com/en-us/library/cc753994(v=ws.11).aspx
+# Vælger ikke at forsøge at finde et dansk ord
+#~ msgid "Verify whole subject exactly"
+#~ msgstr "Bekræft hele subjektet præcist"
+
+#~ msgid "Verify name exactly"
+#~ msgstr "Bekræft navn præcist"
+
+#~ msgid "Verify name by prefix"
+#~ msgstr "Bekræft navn efter præfiks"
+
+#~ msgid "Verify subject partially (legacy mode, strongly discouraged)"
+#~ msgstr ""
+#~ "Bekræft subjektet delvist (ældre tilstand, frarådes på det kraftigste)"
+
+#~ msgid "Server"
+#~ msgstr "Server"
+
+#~ msgid "Client"
+#~ msgstr "Klient"
+
+#~ msgid "Not required"
+#~ msgstr "Ikke krævet"
+
+#~ msgid "HTTP"
+#~ msgstr "HTTP"
+
+#~ msgid "SOCKS"
+#~ msgstr "SOCKS"
+
+#~ msgid "TUN"
+#~ msgstr "TUN"
+
+#~ msgid "TAP"
+#~ msgstr "TAP"
+
+#~ msgid "(automatic)"
+#~ msgstr "(automatisk)"
+
+#~ msgid "ping-exit"
+#~ msgstr "ping-exit"
+
+#~ msgid "ping-restart"
+#~ msgstr "ping-restart"
+
+#~ msgid "Certificates (TLS)"
+#~ msgstr "Certifikater (TLS)"
+
+#~ msgid "Password with Certificates (TLS)"
+#~ msgstr "Adgangskode med certifikater (TLS)"
+
+#~ msgid "Static Key"
+#~ msgstr "Statisk nøgle"
+
+#, c-format
+#~ msgid "invalid delimiter character '%c'"
+#~ msgstr "ugyldigt afgrænsningstegn “%c”"
+
+#, c-format
+#~ msgid "invalid non-utf-8 character"
+#~ msgstr "ugyldigt ikke-utf-8-tegn"
+
+#, c-format
+#~ msgid "empty host"
+#~ msgstr "tom vært"
+
+#, c-format
+#~ msgid "invalid port"
+#~ msgstr "ugyldig port"
+
+#, c-format
+#~ msgid "invalid protocol"
+#~ msgstr "ugyldig protokol"
+
+#, c-format
+#~ msgid "invalid address “%s”"
+#~ msgstr "ugyldig adresse “%s”"
+
+# streng findes også i vpnc
+#, c-format
+#~ msgid "invalid integer property “%s” or out of range [%d -> %d]"
+#~ msgstr "ugyldig heltalsegenskab “%s” eller uden for interval [%d -> %d]"
+
+# streng findes også i vpnc
+#, c-format
+#~ msgid "invalid boolean property “%s” (not yes or no)"
+#~ msgstr "ugyldig boolesk egenskab “%s” (ikke ja eller nej)"
+
+# streng findes også i vpnc
+#, c-format
+#~ msgid "unhandled property “%s” type %s"
+#~ msgstr "uhåndteret egenskab “%s” type %s"
+
+# streng findes også i vpnc
+#, c-format
+#~ msgid "property “%s” invalid or not supported"
+#~ msgstr "egenskaben “%s” er ugyldig eller ikke understøttet"
+
+# streng findes også i vpnc
+#~ msgid "No VPN configuration options."
+#~ msgstr "Ingen indstillinger for VPN-konfiguration."
+
+#~ msgid "A username is required."
+#~ msgstr "Brugernavn er krævet."
+
+#~ msgid "A password is required."
+#~ msgstr "Adgangskode er krævet."
+
+#~ msgid "A username and password are required."
+#~ msgstr "Både brugernavn og adgangskode er krævet."
+
+#~ msgid "A private key password is required."
+#~ msgstr "Adgangskode til privat nøgle er krævet."
+
+#~ msgid "An HTTP Proxy username is required."
+#~ msgstr "Brugernavn til HTTP-proxy er krævet."
+
+#~ msgid "An HTTP Proxy password is required."
+#~ msgstr "Adgangskode til HTTP-proxy er krævet."
+
+#~ msgid "An HTTP Proxy username and password are required."
+#~ msgstr "Både brugernavn og adgangskode til HTTP-proxy er krævet."
+
+#~ msgid "Invalid connection type."
+#~ msgstr "Ugyldig forbindelsestype."
+
+#, c-format
+#~ msgid "Invalid port number “%s”."
+#~ msgstr "Portnummeret “%s” er ugyldigt."
+
+#, c-format
+#~ msgid "Invalid proto “%s”."
+#~ msgstr "Ugyldig proto “%s”."
+
+#, c-format
+#~ msgid "Invalid proxy type “%s”."
+#~ msgstr "Proxytypen “%s” er ugyldig."
+
+#, c-format
+#~ msgid "Invalid ping duration “%s”."
+#~ msgstr "Varigheden “%s” af ping er ugyldig."
+
+#, c-format
+#~ msgid "Invalid ping-exit duration “%s”."
+#~ msgstr "Varigheden “%s” af ping-exit er ugyldig."
+
+#, c-format
+#~ msgid "Invalid ping-restart duration “%s”."
+#~ msgstr "Varigheden “%s” af ping-restart er ugyldig."
+
+#, c-format
+#~ msgid "Invalid connect timeout “%s”."
+#~ msgstr "Ugyldig forbindelsestidsudløb “%s”."
+
+#, c-format
+#~ msgid "Invalid max-routes argument “%s”."
+#~ msgstr "Argumentet “%s” for max-routes er ugyldigt."
+
+#, c-format
+#~ msgid "Invalid keysize “%s”."
+#~ msgstr "Nøglestørrelsen “%s” er ugyldig."
+
+#, c-format
+#~ msgid "Invalid configuration with tls-remote and verify-x509-name."
+#~ msgstr "Ugyldig konfiguration med tls-remote og verify-x509-name."
+
+#, c-format
+#~ msgid "Invalid verify-x509-name."
+#~ msgstr "Ugyldigt verify-x509-name."
+
+#, c-format
+#~ msgid "Invalid reneg seconds “%s”."
+#~ msgstr "Ugyldigt antal sekunder “%s” for reneg."
+
+#, c-format
+#~ msgid "Invalid TUN MTU size “%s”."
+#~ msgstr "TUN MTU-størrelsen “%s” er ugyldig."
+
+#, c-format
+#~ msgid "Invalid fragment size “%s”."
+#~ msgstr "Fragmentstørrelsen “%s” er ugyldig."
+
+#, c-format
+#~ msgid "Unknown connection type “%s”."
+#~ msgstr "Forbindelsestypen “%s” er ukendt."
+
+#, c-format
+#~ msgid "User “%s” not found, check NM_ANYCONNECT_USER."
+#~ msgstr "Brugeren “%s” blev ikke fundet; tjek NM_ANYCONNECT_USER."
+
+#, c-format
+#~ msgid "Group “%s” not found, check NM_ANYCONNECT_GROUP."
+#~ msgstr "Gruppen “%s” blev ikke fundet; tjek NM_ANYCONNECT_USER."
+
+#~ msgid "Unhandled pending authentication."
+#~ msgstr "Uhåndteret afventende godkendelse."
+
+#~ msgid "LZO"
+#~ msgstr "LZO"
+
+#~ msgid "LZ4"
+#~ msgstr "LZ4"
+
+#~ msgid "LZ4 v2"
+#~ msgstr "LZ4 v2"
+
+#~ msgid "Automatic"
+#~ msgstr "Automatisk"
+
+#~ msgid "LZO disabled (legacy)"
+#~ msgstr "LZO deaktiveret (forældet)"
+
+#~ msgid "LZO adaptive (legacy)"
+#~ msgstr "LZO adaptiv (forældet)"
+
+#~ msgid "TLS-Auth"
+#~ msgstr "TLS-Auth"
+
+#~ msgid "TLS-Crypt"
+#~ msgstr "TLS-Crypt"
+
+#~ msgid "Maybe"
+#~ msgstr "Måske"
+
+#~ msgid "Yes"
+#~ msgstr "Ja"
+
+#~ msgid "Authentication"
+#~ msgstr "Godkendelse"
+
+#~ msgid "CA"
+#~ msgstr "CA"
+
+#~ msgid "User"
+#~ msgstr "Bruger"
+
+#~ msgid "Password:"
+#~ msgstr "Adgangskode:"
+
+#~ msgid "User name:"
+#~ msgstr "Brugernavn:"
+
+#~ msgid ""
+#~ "Password passed to Anyconnect when prompted for it.\n"
+#~ "config: auth-user-pass"
+#~ msgstr ""
+#~ "Adgangskode sendes til Anyconnect, når der spørges efter den.\n"
+#~ "Konfiguration: auth-user-pass"
+
+#~ msgid ""
+#~ "Username passed to Anyconnect when prompted for it. If omitted, use the "
+#~ "name of the system user that activates the connection.\n"
+#~ "config: auth-user-pass"
+#~ msgstr ""
+#~ "Brugernavn sendes til Anyconnect, når der spørges efter det. Hvis udeladt "
+#~ "bruges navnet på systembrugeren, som aktiverer forbindelsen.\n"
+#~ "Konfiguration: auth-user-pass"
+
+#~ msgid "Remote IP Address:"
+#~ msgstr "Fjernsteds IP-adresse:"
+
+#~ msgid "Local IP Address:"
+#~ msgstr "Lokal IP-adresse:"
+
+#~ msgid "Key Direction:"
+#~ msgstr "Nøgleretning:"
+
+#~ msgid "Static Key:"
+#~ msgstr "Statisk nøgle:"
+
+#~ msgid ""
+#~ "Pre-shared file for Static Key encryption mode (non-TLS).\n"
+#~ "config: static <file>"
+#~ msgstr ""
+#~ "Forhåndsdelt fil til statisk nøglekrypteringstilstand (ikke-TLS).\n"
+#~ "Konfiguration: static <fil>"
+
+#~ msgid ""
+#~ "IP address of the remote VPN endpoint.\n"
+#~ "config: ifconfig <l> <rn>"
+#~ msgstr ""
+#~ "Fjernsteds VPN-slutpunkts IP-adresse.\n"
+#~ "Konfiguration: ifconfig <l> <rn>"
+
+#~ msgid ""
+#~ "IP address of the local VPN endpoint.\n"
+#~ "config: ifconfig <l> <rn>"
+#~ msgstr ""
+#~ "Det lokale VPN-slutpunkts IP-adresse.\n"
+#~ "Konfiguration: ifconfig <l> <rn>"
+
+#~ msgid ""
+#~ "Direction for Static Key encryption mode (non-TLS).\n"
+#~ "If key direction is used, it must be the opposite of that used on the VPN "
+#~ "peer. For example, if the peer uses “1”, this connection must use “0”. If "
+#~ "you are unsure what value to use, contact your system administrator.\n"
+#~ "config: static <file> [direction]"
+#~ msgstr ""
+#~ "Retning for statisk nøglekrypteringstilstand (ikke-TLS).\n"
+#~ "Hvis nøgleretning anvendes, skal den være den modsatte af den "
+#~ "nøgleretning, som VPN-peer bruger. Hvis peer f.eks. bruger \"1\", skal "
+#~ "denne forbindelse bruge \"0\". Hvis du ikke er sikker på, hvilken værdi "
+#~ "du skal bruge, bør du kontakte din systemadministrator.\n"
+#~ "Konfiguration: static <fil> [retning]"
+
+#~ msgid "Type:"
+#~ msgstr "Type:"
+
+#~ msgid "Select an authentication mode."
+#~ msgstr "Vælg en godkendelsestilstand."
+
+#~ msgid "Ad_vanced…"
+#~ msgstr "A_vanceret …"
+
+#~ msgid "Anyconnect Advanced Options"
+#~ msgstr "Avancerede indstillinger til Anyconnect"
+
+#~ msgid "Use custom gateway p_ort:"
+#~ msgstr "A_nvend tilpasset port til gateway:"
+
+#~ msgid ""
+#~ "TCP/UDP port number for peer. (Default value when there is no port for "
+#~ "gateway).\n"
+#~ "config: port"
+#~ msgstr ""
+#~ "TCP/UDP-portnummer til peer. (Standardværdi når der ikke er nogen port "
+#~ "til gatewayen).\n"
+#~ "Konfiguration: port"
+
+#~ msgid "Use custom _renegotiation interval:"
+#~ msgstr "Brug tilpasset _genforhandlingsinterval:"
+
+#~ msgid ""
+#~ "Renegotiate data channel key after the specified number of seconds.\n"
+#~ "config: reneg-sec"
+#~ msgstr ""
+#~ "Genforhandl datakanalnøgle efter det angive antal sekunder.\n"
+#~ "Konfiguration: reneg-sec"
+
+#~ msgid "Data _compression:"
+#~ msgstr "Data_komprimering:"
+
+#~ msgid ""
+#~ "Use fast LZO compression.\n"
+#~ "config: comp-lzo"
+#~ msgstr ""
+#~ "Anvend hurtig LZO-komprimering.\n"
+#~ "Konfiguration: comp-lzo"
+
+#~ msgid "Use a _TCP connection"
+#~ msgstr "Anvend en _TCP-forbindelse"
+
+#~ msgid ""
+#~ "Use TCP for communicating with remote host.\n"
+#~ "(This is a default setting only used when no protocol is specified for "
+#~ "the gateway.)\n"
+#~ "config: proto tcp-client | udp"
+#~ msgstr ""
+#~ "Anvend TCP til kommunikation med fjernvært.\n"
+#~ "(Dette er en standardindstilling, som kun anvendes, når der ikke er "
+#~ "angivet en protokol til gatewayen.)\n"
+#~ "Konfiguration: proto tcp-client | udp"
+
+#~ msgid "Set virtual _device type:"
+#~ msgstr "Angiv virtuel enhedst_ype:"
+
+#~ msgid "Explicitly set virtual device type and name (TUN/TAP)."
+#~ msgstr "Angiv eksplicit virtuel enhedstype og -navn (TUN/TAP)."
+
+#~ msgid ""
+#~ "Explicitly set virtual device type (TUN/TAP).\n"
+#~ "config: dev-type tun | tap"
+#~ msgstr ""
+#~ "Angiv eksplicit virtuel enhedstype og -navn (TUN/TAP).\n"
+#~ "Konfiguration: dev-type tun | tap"
+
+#~ msgid " and _name:"
+#~ msgstr " og na_vn:"
+
+#~ msgid ""
+#~ "Use custom name for TUN/TAP virtual device (instead of default “tun” or "
+#~ "“tap”).\n"
+#~ "config: dev <name>"
+#~ msgstr ""
+#~ "Anvend tilpasset navn for virtuel TUN/TAP-enhed (i stedet for \"tun\" "
+#~ "eller \"tap\" som standard).\n"
+#~ "Konfiguration: dev <navn>"
+
+#~ msgid "Use custom tunnel Maximum Transmission _Unit (MTU):"
+#~ msgstr "Anvend tilpasset maksimal transmissionsenhed (MTU) for t_unnel:"
+
+#~ msgid ""
+#~ "Take the TUN device MTU to be the specified value and derive the link MTU "
+#~ "from it.\n"
+#~ "config: tun-mtu"
+#~ msgstr ""
+#~ "Lad TUN-enhedens MTU være den angivne værdi og afled link-MTU'en fra "
+#~ "den.\n"
+#~ "Konfiguration: tun-mtu"
+
+#~ msgid "Use custom UDP _fragment size:"
+#~ msgstr "Anvend tilpasset UDP-_fragmentstørrelse:"
+
+#~ msgid ""
+#~ "Enable internal datagram fragmentation with this maximum size.\n"
+#~ "config: fragment"
+#~ msgstr ""
+#~ "Aktivér intern datagramfragmentering med denne maksimale størrelse.\n"
+#~ "Konfiguration: fragment"
+
+#~ msgid "Restrict tunnel TCP Maximum _Segment Size (MSS)"
+#~ msgstr "Begræns den maksimale _segmentstørrelse (MSS) for tunnel-TCP"
+
+#~ msgid ""
+#~ "Restrict tunnel TCP MSS.\n"
+#~ "config: mssfix"
+#~ msgstr ""
+#~ "Begræns TCP-MSS for tunnel.\n"
+#~ "Konfiguration: mssfix"
+
+#~ msgid "Rando_mize remote hosts"
+#~ msgstr "_Bland fjernværter"
+
+#~ msgid ""
+#~ "Randomize the order of gateways list (remote) as a kind of basic load-"
+#~ "balancing measure.\n"
+#~ "config: remote-random"
+#~ msgstr ""
+#~ "Bland rækkefølgen af gatewaylisten (remote) som en slags basal "
+#~ "foranstaltning til justering af belastning.\n"
+#~ "Konfiguration: remote-random"
+
+#~ msgid "IPv6 tun link"
+#~ msgstr "IPv6-tun-link"
+
+# Sat punktum, fordi det er i alle lignende strenge
+#~ msgid ""
+#~ "Build a tun link capable of forwarding IPv6 traffic\n"
+#~ "config: tun-ipv6"
+#~ msgstr ""
+#~ "Byg et tun-link, som er i stand til at videresende IPv6-trafik.\n"
+#~ "Konfiguration: tun-ipv6"
+
+#~ msgid "Specify _exit or restart ping:"
+#~ msgstr "Angiv afslutning _eller genstart ifølge ping:"
+
+#~ msgid ""
+#~ "Exit or restart after n seconds pass without reception of a ping or other "
+#~ "packet from remote.\n"
+#~ "config: ping-exit | ping-restart <n>"
+#~ msgstr ""
+#~ "Afslut eller genstart efter n sekunder uden modtagelse af et ping eller "
+#~ "en anden pakke fra fjernsted.\n"
+#~ "Konfiguration: ping-exit | ping-restart <n>"
+
+#~ msgid "Specify pin_g interval:"
+#~ msgstr "Angiv _ping-interval:"
+
+#~ msgid ""
+#~ "Ping remote over the TCP/UDP control channel if no packets have been sent "
+#~ "for at least n seconds.\n"
+#~ "config: ping <n>"
+#~ msgstr ""
+#~ "Ping fjernserver over TCP/UDP-kontrolkanalen, hvis der ikke er blevet "
+#~ "sendt nogen pakker i mindst n sekunder.\n"
+#~ "Konfiguration: ping <n>"
+
+#~ msgid "Accept authenticated packets from any address (F_loat)"
+#~ msgstr "Acceptér godkendte pakker fra alle adresser (F_loat)"
+
+#~ msgid ""
+#~ "Allow remote peer to change its IP address and/or port number, such as "
+#~ "due to DHCP (this is the default if --remote is not used). --float when "
+#~ "specified with --remote allows an Anyconnect session to initially connect "
+#~ "to a peer at a known address, however if packets arrive from a new "
+#~ "address and pass all authentication tests, the new address will take "
+#~ "control of the session. This is useful when you are connecting to a peer "
+#~ "which holds a dynamic address such as a dial-in user or DHCP client.\n"
+#~ "\n"
+#~ "Essentially, --float tells Anyconnect to accept authenticated packets "
+#~ "from any address, not only the address which was specified in the --"
+#~ "remote option.\n"
+#~ "\n"
+#~ "config: float"
+#~ msgstr ""
+#~ "Tillad at fjernpeer ændrer sin IP-adresse og/eller portnummer f.eks. pga. "
+#~ "DHCP (dette er standard, hvis --remote ikke anvendes). Når --float "
+#~ "angives med --remote, tillader det, at en Anyconnect-session kan forbinde "
+#~ "til en peer på en kendt adresse, men hvis pakker ankommer fra en ny "
+#~ "adresse og består alle godkendelsestest, vil den nye adresse overtage "
+#~ "sessionen. Dette er nyttigt, når du forbinder til en peer, som har en "
+#~ "dynamsisk adresse som f.eks. en opkaldsbruger eller en DHCP-klient.\n"
+#~ "\n"
+#~ "Alt i alt får --float Anyconnect til at acceptere godkendte pakker fra "
+#~ "alle adresser og ikke kun adressen angivet med tilvalget --remote.\n"
+#~ "\n"
+#~ "Konfiguration: float"
+
+#~ msgid "Specify max routes:"
+#~ msgstr "Angiv maks. antal ruter:"
+
+#~ msgid ""
+#~ "Specify the maximum number of routes the server is allowed to specify.\n"
+#~ "config: max-routes <n>"
+#~ msgstr ""
+#~ "Angiv det maksimale antal ruter, serveren må angive.\n"
+#~ "Konfiguration: max-routes <n>"
+
+#~ msgid ""
+#~ "Encrypt packets with cipher algorithm. The default is BF-CBC (Blowfish in "
+#~ "Cipher Block Chaining mode).\n"
+#~ "config: cipher"
+#~ msgstr ""
+#~ "Kryptér pakker med krypteringsalgoritme. Standarden er BF-CBC (Blowfish i "
+#~ "Cipher Block Chaining-tilstand).\n"
+#~ "Konfiguration: cipher"
+
+#~ msgid "Use custom _size of cipher key:"
+#~ msgstr "Brug tilpasset _størrelse på krypteringsalgoritmenøgle:"
+
+#~ msgid ""
+#~ "Set cipher key size to a custom value. If unspecified, it defaults to "
+#~ "cipher-specific size.\n"
+#~ "config: keysize <n>"
+#~ msgstr ""
+#~ "Angiv krypteringsalgoritmens nøglestørrelse til en tilpasset værdi. Hvis "
+#~ "ikke angivet, er størrelsen specifik for krypteringsalgoritmen.\n"
+#~ "Konfiguration: keysize <n>"
+
+#~ msgid ""
+#~ "Authenticate packets with HMAC using message digest algorithm. The "
+#~ "default is SHA1.\n"
+#~ "config: auth"
+#~ msgstr ""
+#~ "Godkend pakker med HMAC med brug af “message digest”-algoritme. "
+#~ "Standarden er SHA1.\n"
+#~ "Konfiguration: auth"
+
+#~ msgid "Ci_pher:"
+#~ msgstr "_Krypteringsalgoritme:"
+
+#~ msgid "_HMAC Authentication:"
+#~ msgstr "_HMAC-godkendelse:"
+
+#~ msgid "Disable cipher _negotiation"
+#~ msgstr "Deaktivér _forhandling af krypteringsalgoritmen"
+
+#~ msgid ""
+#~ "Disable cipher negotiation between client and server.\n"
+#~ "config: ncp-disable"
+#~ msgstr ""
+#~ "Deaktivér forhandling af krypteringsalgoritmen mellem klient og server.\n"
+#~ "Konfiguration: ncp-disable"
+
+#~ msgid "Verify CRL from file"
+#~ msgstr "Bekræft CRL fra fil"
+
+#~ msgid ""
+#~ "Check peer certificate against the specified file in PEM format. A CRL "
+#~ "(certificate revocation list) is used when a particular key is "
+#~ "compromised but when the overall PKI is still intact."
+#~ msgstr ""
+#~ "Tjek peercertifikat mod den angivne fil i PEM-format. En CRL (certificate "
+#~ "revocation list) bruges, når en særskilt nøgle er kompromitteret, men PKI "
+#~ "(Public Key Infrastructure) overordnet set er intakt."
+
+#~ msgid "Verify CRL from directory"
+#~ msgstr "Bekræft CRL fra mappe"
+
+#~ msgid ""
+#~ "Check peer certificate by looking at files in the specified directory. "
+#~ "The directory must contain files named as revoked serial numbers (the "
+#~ "files may be empty, the contents are never read)."
+#~ msgstr ""
+#~ "Tjek peercertifikat ved at kigge på filer i den angivne mappe. Mappen "
+#~ "skal indeholde filnavne som er tilbagekaldte serienumre (filerne kan være "
+#~ "tomme, da indholdet aldrig læses)."
+
+#~ msgid "Choose CRL file"
+#~ msgstr "Vælg CRL-fil"
+
+#~ msgid "Choose CRL directory"
+#~ msgstr "Vælg CRL-mappe"
+
+#~ msgid "Security"
+#~ msgstr "Sikkerhed"
+
+#~ msgid "_Subject Match:"
+#~ msgstr "_Subjektmatch:"
+
+#~ msgid ""
+#~ "Subject or Common Name to verify server certificate information against.\n"
+#~ "\n"
+#~ "config: verify-x509-name subject-or-name [mode]\n"
+#~ "config (legacy mode): tls-remote subject-or-name"
+#~ msgstr ""
+#~ "Subjekt eller fælles navn til bekræftelse af serverens "
+#~ "certifikatinformation.\n"
+#~ "\n"
+#~ "Konfiguration: verify-x509-name subjekt-eller-navn [tilstand]\n"
+#~ "Konfiguration (ældre): tls-remote subjekt-eller-navn"
+
+#~ msgid "Server _Certificate Check:"
+#~ msgstr "Server_certifikatkontrol:"
+
+#~ msgid ""
+#~ "Verify server certificate identification.\n"
+#~ "\n"
+#~ "When enabled, connection will only succeed if the server certificate "
+#~ "matches some expected properties.\n"
+#~ "Matching can either apply to the whole certificate subject (all the "
+#~ "fields),\n"
+#~ "or just the Common Name (CN field).\n"
+#~ "\n"
+#~ "The legacy option tls-remote is deprecated and removed from Anyconnect "
+#~ "2.4 and newer. Do not use it anymore.\n"
+#~ "\n"
+#~ "config: verify-x509-name subject-or-name [mode]\n"
+#~ "config (legacy mode): tls-remote subject-or-name"
+#~ msgstr ""
+#~ "Bekræft identifikation af servercertifikat.\n"
+#~ "\n"
+#~ "Når aktiveret vil forbindelse kun kunne lykkes, hvis serverens certifikat "
+#~ "har nogle forventede egenskaber.\n"
+#~ "Dette kan enten omfatte hele certifikatsubjektet (alle felter)\n"
+#~ "eller kun fælles navn (CN-feltet).\n"
+#~ "\n"
+#~ "Det ældre tilvalg tls-remote frarådes og er fjernet i Anyconnect 2.4 og "
+#~ "nyere. Lad være med at bruge det.\n"
+#~ "\n"
+#~ "Konfiguration: verify-x509-name subjekt-eller-navn [tilstand]\n"
+#~ "Konfiguration (ældre): tls-remote subjekt-eller-navn"
+
+#~ msgid "_Verify peer (server) certificate usage signature"
+#~ msgstr "_Bekræft brugssignatur for certifikat fra peer (server)"
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit key usage and "
+#~ "extended key usage based on RFC3280 TLS rules."
+#~ msgstr ""
+#~ "Kræv at peercertifikatet blev signeret med en eksplicit nøglebrug og "
+#~ "udvidet nøglebrug baseret på TLS-reglerne fra RFC3280."
+
+#~ msgid "_Remote peer certificate TLS type:"
+#~ msgstr "TLS-type af fje_rnpeers certifikat:"
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit key usage and "
+#~ "extended key usage based on RFC3280 TLS rules.\n"
+#~ "config: remote-cert-tls client|server"
+#~ msgstr ""
+#~ "Kræv at peercertifikatet blev signeret med en eksplicit nøglebrug og "
+#~ "udvidet nøglebrug baseret på TLS-reglerne fra RFC3280.\n"
+#~ "Konfiguration: remote-cert-tls client|server"
+
+#~ msgid "_Verify peer (server) certificate nsCertType designation"
+#~ msgstr "_Bekræft nsCertType-betegnelse for certifikat fra peer (server)"
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit nsCertType "
+#~ "designation."
+#~ msgstr ""
+#~ "Kræv at peercertifikatet blev signeret med en eksplicit nsCertType-"
+#~ "betegnelse."
+
+#~ msgid "_Remote peer certificate nsCert designation:"
+#~ msgstr "nsCertType-betegnelse for certifikat fra _fjernpeer :"
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit nsCertType "
+#~ "designation.\n"
+#~ "config: ns-cert-type client|server"
+#~ msgstr ""
+#~ "Kræv at peercertifikatet blev signeret med en eksplicit nsCertType-"
+#~ "betegnelse.\n"
+#~ "Konfiguration: ns-cert-type client|server"
+
+#~ msgid "Key _Direction:"
+#~ msgstr "N_øgleretning:"
+
+#~ msgid ""
+#~ "Add an additional layer of HMAC authentication on top of the TLS control "
+#~ "channel to protect against DoS attacks. In case of TLS-Crypt mode, the "
+#~ "control channel is also encrypted.\n"
+#~ "config: tls-auth <file> [direction] | tls-crypt <file>"
+#~ msgstr ""
+#~ "Tilføj yderligere et lag af HMAC-godkendelse oven på TLS-kontrolkanalen "
+#~ "for at beskytte mod DoS-angreb. I tilfælde af TLS-Crypt-tilstand "
+#~ "krypteres kontrolkanalen også.\n"
+#~ "Konfiguration: tls-auth <fil> [retning] | tls-crypt <fil>"
+
+#~ msgid ""
+#~ "Direction parameter for static key mode.\n"
+#~ "If key direction is used, it must be the opposite of that used on the VPN "
+#~ "peer. For example, if the peer uses “1”, this connection must use “0”. If "
+#~ "you are unsure what value to use, contact your system administrator.\n"
+#~ "config: tls-auth <file> [direction]"
+#~ msgstr ""
+#~ "Retningsparameter for statisk nøgle-tilstand.\n"
+#~ "Hvis nøgleretning anvendes, skal den være den modsatte af den "
+#~ "nøgleretning, som VPN-peer bruger. Hvis peer f.eks. bruger \"1\", skal "
+#~ "denne forbindelse bruge \"0\". Hvis du ikke er sikker på, hvilken værdi "
+#~ "du skal bruge, bør du kontakte din systemadministrator.\n"
+#~ "Konfiguration: tls-auth <fil> [retning]"
+
+#~ msgid "Key _File:"
+#~ msgstr "Nø_glefil:"
+
+#~ msgid "Mode:"
+#~ msgstr "Tilstand:"
+
+#~ msgid "Add an additional layer of encryption or HMAC authentication."
+#~ msgstr "Tilføj yderligere et lag af kryptering eller HMAC-godkendelse."
+
+#~ msgid "Extra Certificates:"
+#~ msgstr "Ekstra certifikater:"
+
+#~ msgid ""
+#~ "Specify a file containing one or more PEM certs (concatenated together) "
+#~ "that complete the local certificate chain.\n"
+#~ "config: extra-certs <file>"
+#~ msgstr ""
+#~ "Angiv en fil som indeholder et eller flere PEM-certifikater (kædet "
+#~ "sammen), der fuldender den lokale certifikatkæde.\n"
+#~ "Konfiguration: extra-certs <fil>"
+
+#~ msgid "Additional TLS authentication or encryption"
+#~ msgstr "Yderligere TLS-godkendelse eller -kryptering"
+
+#~ msgid "Controls min and max version allowed for TLS."
+#~ msgstr "Styrer den laveste og højeste version tilladt til TLS."
+
+#~ msgid "TLS version control"
+#~ msgstr "Styring af TLS-version"
+
+#~ msgid "TLS _min version: "
+#~ msgstr "_Laveste TLS-version: "
+
+#~ msgid ""
+#~ " Sets the minimum TLS version we will accept from the peer (default is "
+#~ "\"1.0\").  Examples for version include \"1.0\", \"1.1\", or \"1.2\".  If "
+#~ "'or-highest' is specified and version is not recognized, we will only "
+#~ "accept the highest TLS version supported by the local SSL implementation."
+#~ msgstr ""
+#~ " Indstiller den laveste TLS-version, vi vil acceptere fra peer'en "
+#~ "(standard er “1.0”). Eksempler på versioner er “1.0”, “1.1” eller “1.2”. "
+#~ "Hvis “or-highest” er angivet og versionen ikke genkendes, vil vi kun "
+#~ "acceptere den højeste TLS-version, som understøttes af den lokale "
+#~ "implementering af SSL."
+
+#~ msgid "TLS ma_x version: "
+#~ msgstr "_Højeste TLS-version: "
+
+#~ msgid ""
+#~ "Set the maximum TLS version we will use (default is the highest version "
+#~ "supported).  Examples for version include \"1.0\", \"1.1\", or \"1.2\"."
+#~ msgstr ""
+#~ "Indstiller den højeste TLS-version, vi vil bruge (standard er den højeste "
+#~ "understøttet version). Eksempler på versioner er “1.0”, “1.1” eller “1.2”."
+
+#~ msgid "TLS Authentication"
+#~ msgstr "TLS-godkendelse"
+
+#~ msgid ""
+#~ "Proxy type: HTTP or Socks.\n"
+#~ "config: http-proxy or socks-proxy"
+#~ msgstr ""
+#~ "Proxytype: HTTP eller socks.\n"
+#~ "Konfiguration: http-proxy eller socks-proxy"
+
+#~ msgid "Proxy _Type:"
+#~ msgstr "_Proxytype:"
+
+#~ msgid ""
+#~ "<i>Select this option if your organization requires the use of a proxy "
+#~ "server to access the Internet.</i>"
+#~ msgstr ""
+#~ "<i>Vælg denne indstilling, hvis din organisation kræver brug af en "
+#~ "proxyserver for at få adgang til internettet.</i>"
+
+#~ msgid "Server _Address:"
+#~ msgstr "_Serveradresse:"
+
+#~ msgid ""
+#~ "Connect to remote host through a proxy with this address.\n"
+#~ "config: http-proxy or socks-proxy"
+#~ msgstr ""
+#~ "Forbind til en fjernvært gennem en proxy med denne adresse.\n"
+#~ "Konfiguration: http-proxy eller socks-proxy"
+
+#~ msgid "_Port:"
+#~ msgstr "Po_rt:"
+
+#~ msgid ""
+#~ "Connect to remote host through a proxy with this port.\n"
+#~ "config: http-proxy or socks-proxy"
+#~ msgstr ""
+#~ "Forbind til en fjernvært gennem en proxy med denne port.\n"
+#~ "Konfiguration: http-proxy eller socks-proxy"
+
+#~ msgid "_Retry indefinitely when errors occur"
+#~ msgstr "Pr_øv igen i det uendelige, når der opstår fejl"
+
+#~ msgid ""
+#~ "Retry indefinitely on proxy errors. It simulates a SIGUSR1 reset.\n"
+#~ "config: http-proxy-retry or socks-proxy-retry"
+#~ msgstr ""
+#~ "Prøv igen i det uendelige ved proxyfejl. Det simulerer en SIGUSR1-"
+#~ "nulstilling.\n"
+#~ "Konfiguration: http-proxy-retry eller socks-proxy-retry"
+
+#~ msgid "Proxy _Username:"
+#~ msgstr "Proxybr_ugernavn:"
+
+#~ msgid "Proxy Passwor_d:"
+#~ msgstr "Proxyad_gangskode:"
+
+#~ msgid "HTTP/Socks proxy username passed to Anyconnect when prompted for it."
+#~ msgstr ""
+#~ "HTTP/socks-proxybrugernavn sendes til Anyconnect, når der spørges efter "
+#~ "det."
+
+#~ msgid "HTTP/Socks proxy password passed to Anyconnect when prompted for it."
+#~ msgstr ""
+#~ "HTTP/socks-proxyadgangskode sendes til Anyconnect, når der spørges efter "
+#~ "den."
+
+#~ msgid "_Show password"
+#~ msgstr "_Vis adgangskode"
+
+#~ msgid "Proxies"
+#~ msgstr "Proxyer"
+
+#~ msgid "Path mtu discovery"
+#~ msgstr "Sti til mtu-opdagelse"
+
+#~ msgid "Connect timeout"
+#~ msgstr "Forbindelsestidsudløb"
+
+#~ msgid ""
+#~ "The timeout in seconds before trying the next server. This timeout "
+#~ "includes proxy and TCP connect timeouts.\n"
+#~ "config: connect-timeout <n> | server-poll-timeout <n>"
+#~ msgstr ""
+#~ "Tidsudløb i sekunder før den næste server forsøges nået. Tidsudløbet "
+#~ "inkluderer proxy- og TCP-forbindelsestidsudløb.\n"
+#~ "Konfiguration: connect-timeout <n> | server-poll-timeout <n>"
+
+#~ msgid "Misc"
+#~ msgstr "Div."
+
+#~ msgid "Authenticate VPN %s"
+#~ msgstr "Godkend VPN %s"
+
+#~ msgid ""
+#~ "Select the LZO data compression mode.\n"
+#~ "config: comp-lzo"
+#~ msgstr ""
+#~ "Vælg tilstanden for LZO-datakomprimering.\n"
+#~ "Konfiguration: comp-lzo"
+
+#~ msgid "unknown Anyconnect file extension"
+#~ msgstr "ukendt Anyconnect-filendelse"
+
+#~ msgid "could not create anyconnect object"
+#~ msgstr "kunne ikke oprette anyconnect-objekt"
+
+#~ msgid "Invalid HMAC auth."
+#~ msgstr "Ugyldig HMAC-godkendelse."
+
+#~ msgid "Choose your personal certificate…"
+#~ msgstr "Vælg dit personlige certifikat …"
+
+#~ msgid "Choose your private key…"
+#~ msgstr "Vælg din private nøgle …"
+
+#~ msgid "Choose a Certificate Authority certificate…"
+#~ msgstr "Vælg et certifikat fra certifikatautoritet …"
+
+#~ msgid "PEM or PKCS#12 certificates (*.pem, *.crt, *.key, *.cer, *.p12)"
+#~ msgstr "PEM- eller PKCS#12-certifikater (*.pem, *.crt, *.key, *.cer, *.p12)"
+
+#~ msgid "PEM certificates (*.pem, *.crt, *.key, *.cer)"
+#~ msgstr "PEM-certifikater (*.pem, *.crt, *.key, *.cer)"
+
+#~ msgid "Missing required local IP address for static key mode."
+#~ msgstr "Mangler krævet lokal IP-adresse til statisk nøgletilstand."
+
+#~ msgid "Missing required remote IP address for static key mode."
+#~ msgstr "Mangler krævet fjern IP-adresse til statisk nøgletilstand."
+
+#~ msgid "_Show passwords"
+#~ msgstr "_Vis adgangskoder"
+
+#~ msgid "Password for private key"
+#~ msgstr "Adgangskode til privat nøgle"
+
+#~ msgid "Private Key Password:"
+#~ msgstr "Adgangskode til privat nøgle:"
+
+#~ msgid ""
+#~ "Local peer’s private key in .pem format.\n"
+#~ "config: key"
+#~ msgstr ""
+#~ "Lokal peers private nøgle i .pem-format.\n"
+#~ "Konfiguration: key"
+
+#~ msgid "Private Key:"
+#~ msgstr "Privat nøgle:"
+
+#~ msgid ""
+#~ "Certificate authority (CA) file in .pem format.\n"
+#~ "config: ca"
+#~ msgstr ""
+#~ "Certifikatautoritet-fil (CA) i .pem-format.\n"
+#~ "Konfiguration: ca"
+
+#~ msgid "CA Certificate:"
+#~ msgstr "CA-certifikat:"
+
+#~ msgid ""
+#~ "Local peer’s signed certificate in .pem format (signed by CA of CA "
+#~ "Certificate).\n"
+#~ "config: cert"
+#~ msgstr ""
+#~ "Lokal peers signerede certifikat i .pem-format (signeret af CA fra CA-"
+#~ "certifikat).\n"
+#~ "Konfiguration: cert"

@@ -1,0 +1,1411 @@
+# Swedish messages for NetworkManager anyconnect.
+# Copyright © 2004-2020 Free Software Foundation, Inc.
+# Christian Rose <menthos@menthos.com>, 2004, 2005, 2006.
+# Daniel Nylander <po@danielnylander.se>, 2006, 2007, 2008, 2009, 2010, 2011, 2012.
+# Josef Andersson <l10nl18nsweja@gmail.com>, 2014, 2016, 2017, 2018.
+# Anders Jonsson <anders.jonsson@norsjovallen.se>, 2019, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: NetworkManager-anyconnect\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-30 22:41+0100\n"
+"PO-Revision-Date: 2020-04-11 22:11+0200\n"
+"Last-Translator: Anders Jonsson <anders.jonsson@norsjovallen.se>\n"
+"Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.3\n"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:1
+msgid "Anyconnect client"
+msgstr "Anyconnect-klient"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:2
+msgid "Client for Anyconnect virtual private networks"
+msgstr "Klient för Anyconnect virtuella privata nätverk"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:3
+msgid "Support for configuring Anyconnect virtual private network connections."
+msgstr ""
+"Stöd för att konfigurera Anyconnect virtuella privata nätverksanslutningar."
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:4
+msgid "Anyconnect is a popular and flexible free-software VPN solution."
+msgstr ""
+"Anyconnect är en populär och flexibel VPN-lösning som är fri programvara."
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:5
+msgid "The NetworkManager Developers"
+msgstr "Utvecklarna av Nätverkshanteraren"
+
+#: ../properties/nm-anyconnect-editor-plugin.c:35
+#, fuzzy
+msgid "Cisco AnyConnect"
+msgstr "Anyconnect"
+
+#: ../properties/nm-anyconnect-editor-plugin.c:36
+msgid "Runs the proprietary Cisco AnyConnect VPN."
+msgstr ""
+
+#: ../properties/nm-anyconnect-editor.c:299
+msgid "could not load UI widget"
+msgstr "kunde inte läsa in UI-komponent"
+
+#: ../shared/nm-utils/nm-shared-utils.c:946
+#, c-format
+msgid "object class '%s' has no property named '%s'"
+msgstr "objektklassen ”%s” har ingen egenskap med namnet ”%s”"
+
+#: ../shared/nm-utils/nm-shared-utils.c:953
+#, c-format
+msgid "property '%s' of object class '%s' is not writable"
+msgstr "egenskapen ”%s” för objektklassen ”%s” är inte skrivbar"
+
+#: ../shared/nm-utils/nm-shared-utils.c:960
+#, c-format
+msgid ""
+"construct property \"%s\" for object '%s' can't be set after construction"
+msgstr ""
+"konstruktionsegenskap ”%s” för objektet ”%s” kan inte ställas in efter att "
+"det skapats"
+
+#: ../shared/nm-utils/nm-shared-utils.c:968
+#, c-format
+msgid "'%s::%s' is not a valid property name; '%s' is not a GObject subtype"
+msgstr ""
+"”%s::%s” är inte ett giltigt egenskapsnamn; ”%s” är inte en undertyp till "
+"GObject"
+
+#: ../shared/nm-utils/nm-shared-utils.c:977
+#, c-format
+msgid "unable to set property '%s' of type '%s' from value of type '%s'"
+msgstr "kan inte sätta egenskapen ”%s” av typen ”%s” från värdet av typen ”%s”"
+
+#: ../shared/nm-utils/nm-shared-utils.c:988
+#, c-format
+msgid ""
+"value \"%s\" of type '%s' is invalid or out of range for property '%s' of "
+"type '%s'"
+msgstr ""
+"värdet ”%s” av typ ”%s” är ogiltigt eller utanför intervallet för egenskapen "
+"”%s” av typ ”%s”"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:69
+#, c-format
+msgid "unable to get editor plugin name: %s"
+msgstr "kan inte erhålla namn för redigerarinstick: %s"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:103
+#, c-format
+msgid "missing plugin file \"%s\""
+msgstr "saknar insticksmodulfilen ”%s”"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:109
+#, c-format
+msgid "cannot load editor plugin: %s"
+msgstr "kan inte öppna redigerarinsticket: %s"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:118
+#, c-format
+msgid "cannot load factory %s from plugin: %s"
+msgstr "kan inte öppna fabriken %s från insticksmodulen: %s"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:144
+msgid "unknown error creating editor instance"
+msgstr "okänt fel vid skapande av redigeringsinstans"
+
+#: ../src/nm-anyconnect-service.c:567 ../src/nm-anyconnect-service.c:682
+msgid "Could not find the anyconnect binary."
+msgstr "Kunde inte hitta binärfilen anyconnect."
+
+#: ../src/nm-anyconnect-service.c:580
+msgid ""
+"Could not process the request because the VPN connection settings were "
+"invalid."
+msgstr ""
+"Kunde inte behandla begäran eftersom inställningar i VPN-konfigurationen var "
+"ogiltiga."
+
+#: ../src/nm-anyconnect-service.c:602
+msgid ""
+"Could not attempt connection, unable to find the setting for the gateway."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:875
+msgid "Don’t quit when VPN connection terminates"
+msgstr "Avsluta inte när VPN-anslutningen avslutas"
+
+#: ../src/nm-anyconnect-service.c:876
+msgid "Enable verbose debug logging (may expose passwords)"
+msgstr "Aktivera informativ felsökningsloggning (kan exponera lösenord)"
+
+#: ../src/nm-anyconnect-service.c:877
+msgid "D-Bus name to use for this instance"
+msgstr "D-Bus-namn att använda för denna instans"
+
+#: ../src/nm-anyconnect-service.c:905
+#, fuzzy
+msgid ""
+"nm-anyconnect-service provides integrated proprietary Cisco AnyConnect "
+"capability to NetworkManager."
+msgstr ""
+"nm-anyconnect-service tillhandahåller integrerade Anyconnect-förmågor till "
+"Nätverkshanterare."
+
+#: ../properties/nm-anyconnect-dialog.ui.h:1
+msgid "General"
+msgstr "Allmänt"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:2
+msgid "_Gateway:"
+msgstr "_Gateway:"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:3
+msgid "VPN host to connect to"
+msgstr ""
+
+#, c-format
+#~ msgid "Authentication required"
+#~ msgstr "Autentisering krävs"
+
+#~ msgid "Password"
+#~ msgstr "Lösenord"
+
+#~ msgid "Certificate password"
+#~ msgstr "Certifikatlösenord"
+
+#~ msgid "HTTP proxy password"
+#~ msgstr "Lösenord för HTTP-proxy"
+
+#~ msgid "Authenticate VPN"
+#~ msgstr "Autentisera VPN"
+
+#~ msgid "Certificate pass_word:"
+#~ msgstr "Certifikatlöse_nord:"
+
+#~ msgid "_HTTP proxy password:"
+#~ msgstr "Lösenord för _HTTP-proxy:"
+
+#, c-format
+#~ msgid "You need to authenticate to access the Virtual Private Network “%s”."
+#~ msgstr ""
+#~ "Du måste autentisera dig för att komma åt det virtuella privata nätverket "
+#~ "”%s”."
+
+#, c-format
+#~ msgid "option %s expects between %u and %u argument"
+#~ msgid_plural "option %s expects between %u and %u arguments"
+#~ msgstr[0] "flaggan %s förväntar sig mellan %u och %u argument"
+#~ msgstr[1] "flaggan %s förväntar sig mellan %u och %u argument"
+
+#, c-format
+#~ msgid "option %s expects no arguments"
+#~ msgstr "flaggan %s förväntar sig inga argument"
+
+#, c-format
+#~ msgid "option %s expects exactly one argument"
+#~ msgid_plural "option %s expects exactly %u arguments"
+#~ msgstr[0] "flaggan %s förväntar sig precis ett argument"
+#~ msgstr[1] "flaggan %s förväntar sig precis %u argument"
+
+#, c-format
+#~ msgid "argument %s of “%s” can not be empty"
+#~ msgstr "argumentet %s för ”%s” kan inte vara tomt"
+
+#, c-format
+#~ msgid "argument of “%s” can not be empty"
+#~ msgstr "argumentet för ”%s” kan inte vara tomt"
+
+#, c-format
+#~ msgid "argument %s of “%s” must be UTF-8 encoded"
+#~ msgstr "argumentet %s för ”%s” måste vara UTF-8-kodat"
+
+#, c-format
+#~ msgid "argument of “%s” must be UTF-8 encoded"
+#~ msgstr "argumentet för ”%s” måste vara UTF-8-kodat"
+
+# TODO: ev felrapport. Vad om u motsvarar ett tal som slutar på 1 eller 2?
+#, c-format
+#~ msgid "invalid %uth argument to “%s” where number expected"
+#~ msgstr "ogiltigt %u:e argument till ”%s” där tal förväntas"
+
+#, c-format
+#~ msgid "unsupported %uth argument %s to “%s”"
+#~ msgstr "ogiltigt %u:e argument %s till ”%s”"
+
+#, c-format
+#~ msgid ""
+#~ "unsupported %uth argument to “%s” which looks like a FQDN but only IPv4 "
+#~ "address supported"
+#~ msgstr ""
+#~ "%u:e argument till ”%s” som ej stöds vilket ser ut som en FQDN men endast "
+#~ "IPv4-adresser stöds"
+
+#, c-format
+#~ msgid "invalid %uth argument to “%s” where IPv4 address expected"
+#~ msgstr "ogiltigt %u:e argument till ”%s” där IPv4-adress förväntas"
+
+#, c-format
+#~ msgid "invalid %uth key-direction argument to “%s”"
+#~ msgstr "ogiltigt %u:e key-direction-argument till ”%s”"
+
+#, c-format
+#~ msgid "invalid %uth argument to “%s”"
+#~ msgstr "ogiltigt %u:e argument till ”%s”"
+
+#, c-format
+#~ msgid "unterminated %s at position %lld"
+#~ msgstr "ej avslutat %s vid position %lld"
+
+#~ msgid "double quote"
+#~ msgstr "dubbelt citattecken"
+
+#~ msgid "single quote"
+#~ msgstr "enkelt citattecken"
+
+#, c-format
+#~ msgid "trailing escaping backslash at position %lld"
+#~ msgstr "eftersläpande bakstreck vid positionen %lld"
+
+#, c-format
+#~ msgid "unable to read HTTP proxy auth file"
+#~ msgstr "kunde inte läsa HTTP-proxy auth-fil"
+
+#, c-format
+#~ msgid "cannot read user/password from HTTP proxy auth file"
+#~ msgstr "kan inte läsa användare/lösenord från HTTP-proxy auth-fil"
+
+#, c-format
+#~ msgid "user/password from HTTP proxy auth file must be UTF-8 encoded"
+#~ msgstr ""
+#~ "användarnamn/lösenord från HTTP-proxy auth-fil måste vara UTF-8-kodat"
+
+#, c-format
+#~ msgid "“%s” is not a directory"
+#~ msgstr "”%s” är inte en katalog"
+
+#, c-format
+#~ msgid "cannot create “%s” directory"
+#~ msgstr "kan inte skapa katalogen ”%s”"
+
+#, c-format
+#~ msgid "cannot write <%s> blob from line %ld to file (%s)"
+#~ msgstr "kan inte skriva <%s>-blob från raden %ld till filen (%s)"
+
+#, c-format
+#~ msgid "cannot write <%s> blob from line %ld to file “%s”"
+#~ msgstr "kan inte skriva <%s>-blob från raden %ld till filen ”%s”"
+
+#, c-format
+#~ msgid "unsupported mtu-disc argument"
+#~ msgstr "argument till mtu-disc som ej stöds"
+
+#, c-format
+#~ msgid "unsupported crl-verify argument"
+#~ msgstr "argument till crl-verify som ej stöds"
+
+#, c-format
+#~ msgid "invalid option"
+#~ msgstr "ogiltig flagga"
+
+#, c-format
+#~ msgid "unsupported comp-lzo argument"
+#~ msgstr "argument till comp-lzo som ej stöds"
+
+#, c-format
+#~ msgid "unsupported compress argument"
+#~ msgstr "komprimeringsargument som ej stöds"
+
+#, c-format
+#~ msgid "remote cannot contain space"
+#~ msgstr "fjärr kan inte innehålla blanksteg"
+
+#, c-format
+#~ msgid "remote cannot contain comma"
+#~ msgstr "fjärr kan inte innehålla komma"
+
+#, c-format
+#~ msgid "remote expects protocol type like “udp” or “tcp”"
+#~ msgstr "fjärr förväntar sig ett protokoll som ”udp” eller ”tcp”"
+
+#, c-format
+#~ msgid "invalid verify-x509-name type"
+#~ msgstr "ogiltig verify-x509-name-typ"
+
+#, c-format
+#~ msgid "unsupported blob/xml element"
+#~ msgstr "blob/xml-element stöds ej"
+
+#, c-format
+#~ msgid "unterminated blob element <%s>"
+#~ msgstr "oavslutat blob-element <%s>"
+
+#, c-format
+#~ msgid "configuration error: %s (line %ld)"
+#~ msgstr "konfigurationsfel: %s (rad %ld)"
+
+#~ msgid "unknown or unsupported option"
+#~ msgstr "flaggan stöds ej eller är okänd"
+
+#~ msgid "The file to import wasn’t a valid Anyconnect client configuration"
+#~ msgstr "Importfilen var inte en giltig Anyconnect-klientkonfiguration"
+
+#~ msgid "The file to import wasn’t a valid Anyconnect configure (no remote)"
+#~ msgstr ""
+#~ "Importfilen var inte en giltig Anyconnect-konfiguration (ingen fjärr)"
+
+#~ msgid "missing path argument"
+#~ msgstr "sökvägsargument saknas"
+
+#~ msgid "connection is not a valid Anyconnect connection"
+#~ msgstr "anslutningen är inte en giltig Anyconnect-anslutning"
+
+#~ msgid "connection was incomplete (missing gateway)"
+#~ msgstr "anslutningen var ofullständig (saknar gateway)"
+
+#, c-format
+#~ msgid "failed to write file: %s"
+#~ msgstr "misslyckades med att skriva fil: %s"
+
+#~ msgid "Compatible with the Anyconnect server."
+#~ msgstr "Kompatibel med Anyconnect-servern."
+
+#~ msgid "Choose an Anyconnect static key…"
+#~ msgstr "Välj en statisk Anyconnect-nyckel…"
+
+#~ msgid "None"
+#~ msgstr "Ingen"
+
+#~ msgid "Anyconnect Static Keys (*.key)"
+#~ msgstr "Statiska Anyconnect-nycklar (*.key)"
+
+#~ msgid "Default"
+#~ msgstr "Standard"
+
+#~ msgid "RSA MD-4"
+#~ msgstr "RSA MD-4"
+
+#~ msgid "MD-5"
+#~ msgstr "MD-5"
+
+#~ msgid "SHA-1"
+#~ msgstr "SHA-1"
+
+#~ msgid "SHA-224"
+#~ msgstr "SHA-224"
+
+#~ msgid "SHA-256"
+#~ msgstr "SHA-256"
+
+#~ msgid "SHA-384"
+#~ msgstr "SHA-384"
+
+#~ msgid "SHA-512"
+#~ msgstr "SHA-512"
+
+#~ msgid "RIPEMD-160"
+#~ msgstr "RIPEMD-160"
+
+#~ msgid "Don’t verify certificate identification"
+#~ msgstr "Verifiera inte certifikatsidentifiering"
+
+#~ msgid "Verify whole subject exactly"
+#~ msgstr "Verifiera hela ämnet exakt"
+
+#~ msgid "Verify name exactly"
+#~ msgstr "Verifiera namnet exakt"
+
+#~ msgid "Verify name by prefix"
+#~ msgstr "Verifiera namnet efter prefix"
+
+#~ msgid "Verify subject partially (legacy mode, strongly discouraged)"
+#~ msgstr "Verifiera ämnet delvis (föråldrat läge, avrådes starkt)"
+
+#~ msgid "Server"
+#~ msgstr "Server"
+
+#~ msgid "Client"
+#~ msgstr "Klient"
+
+#~ msgid "Not required"
+#~ msgstr "Krävs inte"
+
+#~ msgid "HTTP"
+#~ msgstr "HTTP"
+
+#~ msgid "SOCKS"
+#~ msgstr "SOCKS"
+
+#~ msgid "TUN"
+#~ msgstr "TUN"
+
+#~ msgid "TAP"
+#~ msgstr "TAP"
+
+#~ msgid "(automatic)"
+#~ msgstr "(automatisk)"
+
+#~ msgid "ping-exit"
+#~ msgstr "ping-exit"
+
+#~ msgid "ping-restart"
+#~ msgstr "ping-restart"
+
+#~ msgid "Certificates (TLS)"
+#~ msgstr "Certifikat (TLS)"
+
+#~ msgid "Password with Certificates (TLS)"
+#~ msgstr "Lösenord med certifikat (TLS)"
+
+#~ msgid "Static Key"
+#~ msgstr "Statisk nyckel"
+
+#, c-format
+#~ msgid "invalid delimiter character '%c'"
+#~ msgstr "ogiltigt separatortecken ”%c”"
+
+#, c-format
+#~ msgid "invalid non-utf-8 character"
+#~ msgstr "ogiltigt icke-utf-8-tecken"
+
+#, c-format
+#~ msgid "empty host"
+#~ msgstr "tom värd"
+
+#, c-format
+#~ msgid "invalid port"
+#~ msgstr "ogiltig port"
+
+#, c-format
+#~ msgid "invalid protocol"
+#~ msgstr "ogiltigt protokoll"
+
+#, c-format
+#~ msgid "invalid address “%s”"
+#~ msgstr "ogiltig adress ”%s”"
+
+#, c-format
+#~ msgid "invalid integer property “%s” or out of range [%d -> %d]"
+#~ msgstr "ogiltig heltalsegenskap ”%s” eller utanför intervallet [%d -> %d]"
+
+#, c-format
+#~ msgid "invalid boolean property “%s” (not yes or no)"
+#~ msgstr "ogiltig boolesk egenskap ”%s” (inte yes eller no)"
+
+#, c-format
+#~ msgid "unhandled property “%s” type %s"
+#~ msgstr "ej hanterad egenskap ”%s” typ %s"
+
+#, c-format
+#~ msgid "property “%s” invalid or not supported"
+#~ msgstr "egenskapen ”%s” är ogiltig eller stöds inte"
+
+#~ msgid "No VPN configuration options."
+#~ msgstr "Inga VPN-konfigurationsalternativ."
+
+#~ msgid "A username is required."
+#~ msgstr "Ett användarnamn krävs."
+
+#~ msgid "A password is required."
+#~ msgstr "Ett lösenord krävs."
+
+#~ msgid "A username and password are required."
+#~ msgstr "Användarnamn och lösenord krävs."
+
+#~ msgid "A private key password is required."
+#~ msgstr "Ett lösenord för privat nyckel krävs."
+
+#~ msgid "An HTTP Proxy username is required."
+#~ msgstr "Användarnamn för HTTP-proxy krävs."
+
+#~ msgid "An HTTP Proxy password is required."
+#~ msgstr "Lösenord för HTTP-proxy krävs."
+
+#~ msgid "An HTTP Proxy username and password are required."
+#~ msgstr "Användarnamn och lösenord för HTTP-proxy krävs."
+
+#~ msgid "Invalid connection type."
+#~ msgstr "Ogiltig anslutningstyp."
+
+#, c-format
+#~ msgid "Invalid port number “%s”."
+#~ msgstr "Ogiltigt portnummer ”%s”."
+
+#, c-format
+#~ msgid "Invalid proto “%s”."
+#~ msgstr "Ogiltigt proto ”%s”."
+
+#, c-format
+#~ msgid "Invalid proxy type “%s”."
+#~ msgstr "Ogiltig proxytyp ”%s”."
+
+#, c-format
+#~ msgid "Invalid ping duration “%s”."
+#~ msgstr "Ogiltig ping-längd ”%s”."
+
+#, c-format
+#~ msgid "Invalid ping-exit duration “%s”."
+#~ msgstr "Ogiltig ping-exit-längd ”%s”."
+
+#, c-format
+#~ msgid "Invalid ping-restart duration “%s”."
+#~ msgstr "Ogiltig ping-restart-längd ”%s”."
+
+#, c-format
+#~ msgid "Invalid connect timeout “%s”."
+#~ msgstr "Ogiltig anslutningstidsgräns ”%s”."
+
+#, c-format
+#~ msgid "Invalid max-routes argument “%s”."
+#~ msgstr "Ogiltigt max-routes-argument ”%s”."
+
+#, c-format
+#~ msgid "Invalid keysize “%s”."
+#~ msgstr "Ogiltig nyckelstorlek ”%s”."
+
+#, c-format
+#~ msgid "Invalid configuration with tls-remote and verify-x509-name."
+#~ msgstr "Ogiltig konfiguration med tls-remote och verify-x509-name."
+
+#, c-format
+#~ msgid "Invalid verify-x509-name."
+#~ msgstr "Ogiltigt verify-x509-name."
+
+#, c-format
+#~ msgid "Invalid reneg seconds “%s”."
+#~ msgstr "Ogiltigt antal sekunder för omförhandling ”%s”."
+
+#, c-format
+#~ msgid "Invalid TUN MTU size “%s”."
+#~ msgstr "Ogiltig TUN MTU-storlek ”%s”."
+
+#, c-format
+#~ msgid "Invalid fragment size “%s”."
+#~ msgstr "Ogiltig fragmenteringsstorlek ”%s”."
+
+#, c-format
+#~ msgid "Unknown connection type “%s”."
+#~ msgstr "Okänd anslutningstyp ”%s”."
+
+#, c-format
+#~ msgid "User “%s” not found, check NM_ANYCONNECT_USER."
+#~ msgstr "Användaren ”%s” inte funnen, kontrollera NM_ANYCONNECT_USER."
+
+#, c-format
+#~ msgid "Group “%s” not found, check NM_ANYCONNECT_GROUP."
+#~ msgstr "Gruppen ”%s” inte funnen, kontrollera NM_ANYCONNECT_GROUP."
+
+#~ msgid "Unhandled pending authentication."
+#~ msgstr "Ej hanterad väntande autentisering."
+
+#~ msgid "LZO"
+#~ msgstr "LZO"
+
+#~ msgid "LZ4"
+#~ msgstr "LZ4"
+
+#~ msgid "LZ4 v2"
+#~ msgstr "LZ4 v2"
+
+#~ msgid "Automatic"
+#~ msgstr "Automatisk"
+
+#~ msgid "LZO disabled (legacy)"
+#~ msgstr "LZO inaktiverad (föråldrad)"
+
+#~ msgid "LZO adaptive (legacy)"
+#~ msgstr "LZO adaptiv (föråldrad)"
+
+#~ msgid "TLS-Auth"
+#~ msgstr "TLS-Auth"
+
+#~ msgid "TLS-Crypt"
+#~ msgstr "TLS-Crypt"
+
+#~ msgid "Maybe"
+#~ msgstr "Kanske"
+
+#~ msgid "Yes"
+#~ msgstr "Ja"
+
+#~ msgid "Authentication"
+#~ msgstr "Autentisering"
+
+#~ msgid "CA"
+#~ msgstr "CA"
+
+#~ msgid "User"
+#~ msgstr "Användare"
+
+#~ msgid "Password:"
+#~ msgstr "Lösenord:"
+
+#~ msgid "User name:"
+#~ msgstr "Användarnamn:"
+
+#~ msgid ""
+#~ "Password passed to Anyconnect when prompted for it.\n"
+#~ "config: auth-user-pass"
+#~ msgstr ""
+#~ "Lösenord skickas till Anyconnect när det efterfrågas.\n"
+#~ "config: auth-user-pass"
+
+#~ msgid ""
+#~ "Username passed to Anyconnect when prompted for it. If omitted, use the "
+#~ "name of the system user that activates the connection.\n"
+#~ "config: auth-user-pass"
+#~ msgstr ""
+#~ "Användarnamn skickas till Anyconnect när det efterfrågas. Om det "
+#~ "utelämnas används namnet för systemanvändaren som aktiverar "
+#~ "anslutningen.\n"
+#~ "config: auth-user-pass"
+
+#~ msgid "Remote IP Address:"
+#~ msgstr "Fjärr-IP-adress:"
+
+#~ msgid "Local IP Address:"
+#~ msgstr "Lokal IP-adress:"
+
+#~ msgid "Key Direction:"
+#~ msgstr "Nyckelriktning:"
+
+#~ msgid "Static Key:"
+#~ msgstr "Statisk nyckel:"
+
+#~ msgid ""
+#~ "Pre-shared file for Static Key encryption mode (non-TLS).\n"
+#~ "config: static <file>"
+#~ msgstr ""
+#~ "Förutdelad fil för krypteringsläge med statisk nyckel (icke-TLS).\n"
+#~ "config: static <fil>"
+
+#~ msgid ""
+#~ "IP address of the remote VPN endpoint.\n"
+#~ "config: ifconfig <l> <rn>"
+#~ msgstr ""
+#~ "IP-adress för fjärr-VPN-ändpunkten.\n"
+#~ "config: ifconfig <l> <rn>"
+
+#~ msgid ""
+#~ "IP address of the local VPN endpoint.\n"
+#~ "config: ifconfig <l> <rn>"
+#~ msgstr ""
+#~ "IP-adress för den lokala VPN-ändpunkten.\n"
+#~ "config: ifconfig <l> <rn>"
+
+#~ msgid ""
+#~ "Direction for Static Key encryption mode (non-TLS).\n"
+#~ "If key direction is used, it must be the opposite of that used on the VPN "
+#~ "peer. For example, if the peer uses “1”, this connection must use “0”. If "
+#~ "you are unsure what value to use, contact your system administrator.\n"
+#~ "config: static <file> [direction]"
+#~ msgstr ""
+#~ "Riktning för krypteringsläge med statisk nyckel (icke-TLS).\n"
+#~ "Om nyckelriktning används så måste den vara motsatsen till den som "
+#~ "används på VPN-motparten.  Till exempel om motparten använder ”1” måste "
+#~ "denna anslutning vara ”0”.  Om du är osäker vilket värde du ska använda "
+#~ "kan du kontakta din systemadministratör.\n"
+#~ "config: static <fil> [riktning]"
+
+#~ msgid "Type:"
+#~ msgstr "Typ:"
+
+#~ msgid "Select an authentication mode."
+#~ msgstr "Välj ett autentiseringsläge."
+
+#~ msgid "Ad_vanced…"
+#~ msgstr "A_vancerat…"
+
+#~ msgid "Anyconnect Advanced Options"
+#~ msgstr "Avancerade alternativ för Anyconnect"
+
+#~ msgid "Use custom gateway p_ort:"
+#~ msgstr "Använd anpassad gatewayp_ort:"
+
+#~ msgid ""
+#~ "TCP/UDP port number for peer. (Default value when there is no port for "
+#~ "gateway).\n"
+#~ "config: port"
+#~ msgstr ""
+#~ "TCP/UDP-portnummer för motpart. (Standardvärde för när det inte finns en "
+#~ "port för gateway).\n"
+#~ "config: port"
+
+#~ msgid "Use custom _renegotiation interval:"
+#~ msgstr "Använd anpassat intervall för _omförhandling:"
+
+#~ msgid ""
+#~ "Renegotiate data channel key after the specified number of seconds.\n"
+#~ "config: reneg-sec"
+#~ msgstr ""
+#~ "Omförhandla nyckel för datakanal efter angivet antal sekunder.\n"
+#~ "config: reneg-sec"
+
+#~ msgid "Data _compression:"
+#~ msgstr "Data_komprimering:"
+
+#~ msgid ""
+#~ "Use fast LZO compression.\n"
+#~ "config: comp-lzo"
+#~ msgstr ""
+#~ "Använd snabb LZO-komprimering.\n"
+#~ "config: comp-lzo"
+
+#~ msgid "Use a _TCP connection"
+#~ msgstr "Använd en _TCP-anslutning"
+
+#~ msgid ""
+#~ "Use TCP for communicating with remote host.\n"
+#~ "(This is a default setting only used when no protocol is specified for "
+#~ "the gateway.)\n"
+#~ "config: proto tcp-client | udp"
+#~ msgstr ""
+#~ "Använd TCP för kommunikation med fjärrvärd.\n"
+#~ "(Standardinställning som endast används när inget protokoll är angivet "
+#~ "för gateway.)\n"
+#~ "config: proto tcp-client | udp"
+
+#~ msgid "Set virtual _device type:"
+#~ msgstr "Sätt virtuell _enhetstyp:"
+
+#~ msgid "Explicitly set virtual device type and name (TUN/TAP)."
+#~ msgstr "Sätt explicit virtuell enhetstyp och namn (TUN/TAP)."
+
+#~ msgid ""
+#~ "Explicitly set virtual device type (TUN/TAP).\n"
+#~ "config: dev-type tun | tap"
+#~ msgstr ""
+#~ "Sätt explicit virtuell enhetstyp (TUN/TAP).\n"
+#~ "config: dev-type tun | tap"
+
+#~ msgid " and _name:"
+#~ msgstr " och _namn:"
+
+#~ msgid ""
+#~ "Use custom name for TUN/TAP virtual device (instead of default “tun” or "
+#~ "“tap”).\n"
+#~ "config: dev <name>"
+#~ msgstr ""
+#~ "Använd anpassat namn för virtuell TUN/TAP-enhet (istället för standard "
+#~ "”tun” eller ”tap”).\n"
+#~ "config: dev <namn>"
+
+#~ msgid "Use custom tunnel Maximum Transmission _Unit (MTU):"
+#~ msgstr "Använd anpassad Maximum Transmission Unit (MTU) för _tunneln:"
+
+#~ msgid ""
+#~ "Take the TUN device MTU to be the specified value and derive the link MTU "
+#~ "from it.\n"
+#~ "config: tun-mtu"
+#~ msgstr ""
+#~ "Sätt TUN-enhetens MTU till det specificerade värdet och härled länk-MTU "
+#~ "från det.\n"
+#~ "config: tun-mtu"
+
+#~ msgid "Use custom UDP _fragment size:"
+#~ msgstr "Använd anpassad storlek på UDP-_fragment:"
+
+#~ msgid ""
+#~ "Enable internal datagram fragmentation with this maximum size.\n"
+#~ "config: fragment"
+#~ msgstr ""
+#~ "Aktivera intern datagramfragmentering med denna maximala storlek.\n"
+#~ "config: fragment"
+
+#~ msgid "Restrict tunnel TCP Maximum _Segment Size (MSS)"
+#~ msgstr "Begränsa TCP Maximum _Segment Size (MSS) för tunneln"
+
+#~ msgid ""
+#~ "Restrict tunnel TCP MSS.\n"
+#~ "config: mssfix"
+#~ msgstr ""
+#~ "Begränsa tunnel TCP MSS.\n"
+#~ "config: mssfix"
+
+#~ msgid "Rando_mize remote hosts"
+#~ msgstr "Slump_a fjärrvärdar"
+
+#~ msgid ""
+#~ "Randomize the order of gateways list (remote) as a kind of basic load-"
+#~ "balancing measure.\n"
+#~ "config: remote-random"
+#~ msgstr ""
+#~ "Gör sorteringen för listan över (fjärr)gateways slumpmässiga som en typ "
+#~ "av grundläggande lastbalanseringsåtgärd.\n"
+#~ "config: remote-random"
+
+#~ msgid "IPv6 tun link"
+#~ msgstr "IPv6-tun-länk"
+
+#~ msgid ""
+#~ "Build a tun link capable of forwarding IPv6 traffic\n"
+#~ "config: tun-ipv6"
+#~ msgstr ""
+#~ "Bygg en tun-länk kapabel att vidarebefordra IPv6-trafik\n"
+#~ "config: tun-ipv6"
+
+#~ msgid "Specify pin_g interval:"
+#~ msgstr "Ange pin_g-intervall:"
+
+#~ msgid ""
+#~ "Ping remote over the TCP/UDP control channel if no packets have been sent "
+#~ "for at least n seconds.\n"
+#~ "config: ping <n>"
+#~ msgstr ""
+#~ "Skicka ping till mottagaren över TCP/UDP-kontrollkanalen om inga paket "
+#~ "har skickats under minst de senaste n sekunderna.\n"
+#~ "config: ping <n>"
+
+#~ msgid "Specify _exit or restart ping:"
+#~ msgstr "Ange _exit eller starta om ping:"
+
+#~ msgid ""
+#~ "Exit or restart after n seconds pass without reception of a ping or other "
+#~ "packet from remote.\n"
+#~ "config: ping-exit | ping-restart <n>"
+#~ msgstr ""
+#~ "Avsluta eller starta om efter att n sekunder passerat utan att ha tagit "
+#~ "emot en ping eller ett annat paket från fjärr.\n"
+#~ "config: ping-exit | ping-restart <n>"
+
+#~ msgid "Accept authenticated packets from any address (F_loat)"
+#~ msgstr "Acceptera autentiserade paket från alla adresser (F_loat)"
+
+#~ msgid ""
+#~ "Allow remote peer to change its IP address and/or port number, such as "
+#~ "due to DHCP (this is the default if --remote is not used). --float when "
+#~ "specified with --remote allows an Anyconnect session to initially connect "
+#~ "to a peer at a known address, however if packets arrive from a new "
+#~ "address and pass all authentication tests, the new address will take "
+#~ "control of the session. This is useful when you are connecting to a peer "
+#~ "which holds a dynamic address such as a dial-in user or DHCP client.\n"
+#~ "\n"
+#~ "Essentially, --float tells Anyconnect to accept authenticated packets "
+#~ "from any address, not only the address which was specified in the --"
+#~ "remote option.\n"
+#~ "\n"
+#~ "config: float"
+#~ msgstr ""
+#~ "Tillåt fjärrmotpart att ändra dess IP-adress och/eller portnummer, som "
+#~ "till exempel beroende på DHCP (standard om inte  --remote används). Då --"
+#~ "float anges med --remote möjliggörs för en Anyconnect-session att "
+#~ "initialt ansluta till en motpart på en känd adress, men om paket inkommer "
+#~ "från en ny adress och klarar alla autentiseringstester kommer den nya "
+#~ "adressen att ta kontroll över sessionen. Detta är användbart när du "
+#~ "ansluter till en motpart som håller en dynamisk adress så som en uppringd "
+#~ "klient eller DHCP-klient.\n"
+#~ "\n"
+#~ "I princip gör --float att Anyconnect accepterar autentiserade paket från "
+#~ "alla adresser, inte bara den adress som angavs i flaggan --remote.\n"
+#~ "\n"
+#~ "config: float"
+
+#~ msgid "Specify max routes:"
+#~ msgstr "Ange högsta antal rutter:"
+
+#~ msgid ""
+#~ "Specify the maximum number of routes the server is allowed to specify.\n"
+#~ "config: max-routes <n>"
+#~ msgstr ""
+#~ "Ange högsta antal rutter servern får specificera.\n"
+#~ "config: max-routes <n>"
+
+#~ msgid ""
+#~ "Encrypt packets with cipher algorithm. The default is BF-CBC (Blowfish in "
+#~ "Cipher Block Chaining mode).\n"
+#~ "config: cipher"
+#~ msgstr ""
+#~ "Kryptera paket med chifferalgoritm. Standard är BF-CBC (Blowfish i Cipher "
+#~ "Block Chaining-läge).\n"
+#~ "config: cipher"
+
+#~ msgid "Use custom _size of cipher key:"
+#~ msgstr "Använd anpassad _storlek på chiffernyckel:"
+
+#~ msgid ""
+#~ "Set cipher key size to a custom value. If unspecified, it defaults to "
+#~ "cipher-specific size.\n"
+#~ "config: keysize <n>"
+#~ msgstr ""
+#~ "Sätt chiffernyckel till ett anpassat värde. Om ospecificerat, är standard "
+#~ "chifferspecifik storlek\n"
+#~ "config: keysize <n>"
+
+#~ msgid ""
+#~ "Authenticate packets with HMAC using message digest algorithm. The "
+#~ "default is SHA1.\n"
+#~ "config: auth"
+#~ msgstr ""
+#~ "Autentisera paket med HMAC tillsammans med message digest-algoritm. "
+#~ "Standard är SHA1.\n"
+#~ "config: auth"
+
+#~ msgid "Ci_pher:"
+#~ msgstr "Chi_ffer:"
+
+#~ msgid "_HMAC Authentication:"
+#~ msgstr "_HMAC-autentisering:"
+
+#~ msgid "Disable cipher _negotiation"
+#~ msgstr "Inaktivera chiffer_förhandling"
+
+#~ msgid ""
+#~ "Disable cipher negotiation between client and server.\n"
+#~ "config: ncp-disable"
+#~ msgstr ""
+#~ "Inaktivera chifferförhandling mellan klient och server.\n"
+#~ "config: ncp-disable"
+
+#~ msgid "Verify CRL from file"
+#~ msgstr "Verifiera CRL från fil"
+
+#~ msgid ""
+#~ "Check peer certificate against the specified file in PEM format. A CRL "
+#~ "(certificate revocation list) is used when a particular key is "
+#~ "compromised but when the overall PKI is still intact."
+#~ msgstr ""
+#~ "Kontrollera motpartscertifikat mot den specificerade filen i PEM-format. "
+#~ "En CRL (certificate revocation list) används när en specifik nyckel är "
+#~ "komprometterad men när PKI fortfarande är intakt."
+
+#~ msgid "Verify CRL from directory"
+#~ msgstr "Verifiera CRL från katalog"
+
+#~ msgid ""
+#~ "Check peer certificate by looking at files in the specified directory. "
+#~ "The directory must contain files named as revoked serial numbers (the "
+#~ "files may be empty, the contents are never read)."
+#~ msgstr ""
+#~ "Kontrollera motpartscertifikat genom att titta på filer i den angivna "
+#~ "katalogen. Katalogen måste innehålla filer namngivna som indragna "
+#~ "serienummer (filerna kan vara tomma, innehållet läses aldrig)."
+
+#~ msgid "Choose CRL file"
+#~ msgstr "Välj CRL-fil"
+
+#~ msgid "Choose CRL directory"
+#~ msgstr "Välj CRL-katalog"
+
+#~ msgid "Security"
+#~ msgstr "Säkerhet"
+
+#~ msgid "_Subject Match:"
+#~ msgstr "Matc_ha följande:"
+
+# TODO: ev. <> kring ämne-eller-namn
+#~ msgid ""
+#~ "Subject or Common Name to verify server certificate information against.\n"
+#~ "\n"
+#~ "config: verify-x509-name subject-or-name [mode]\n"
+#~ "config (legacy mode): tls-remote subject-or-name"
+#~ msgstr ""
+#~ "Ämne eller vanligt namn att verifiera servercertifikatsinformationen "
+#~ "mot.\n"
+#~ "\n"
+#~ "config: verify-x509-name ämne-eller-namn [läge]\n"
+#~ "config (föråldrat läge): tls-remote ämne-eller-namn"
+
+#~ msgid "Server _Certificate Check:"
+#~ msgstr "Server_certifikatkontroll:"
+
+# TODO: ev. <> kring ämne-eller-namn
+#~ msgid ""
+#~ "Verify server certificate identification.\n"
+#~ "\n"
+#~ "When enabled, connection will only succeed if the server certificate "
+#~ "matches some expected properties.\n"
+#~ "Matching can either apply to the whole certificate subject (all the "
+#~ "fields),\n"
+#~ "or just the Common Name (CN field).\n"
+#~ "\n"
+#~ "The legacy option tls-remote is deprecated and removed from Anyconnect "
+#~ "2.4 and newer. Do not use it anymore.\n"
+#~ "\n"
+#~ "config: verify-x509-name subject-or-name [mode]\n"
+#~ "config (legacy mode): tls-remote subject-or-name"
+#~ msgstr ""
+#~ "Verifiera servercertifikatsinformation.\n"
+#~ "\n"
+#~ "När aktiverad kommer anslutningen endast att lyckas om servercertifikatet "
+#~ "matchar några förväntade egenskaper.\n"
+#~ "Matchning kan antingen tillämpas på hela certifikatet (alla fält),\n"
+#~ "eller bara vanligt namn (CN-fältet).\n"
+#~ "\n"
+#~ "Flaggan tls-remote är föråldrat och borttagen från Anyconnect 2.4 och "
+#~ "nyare. Använd den inte.\n"
+#~ "\n"
+#~ "config: verify-x509-name ämne-eller-namn [läge]\n"
+#~ "config (föråldrat läge): tls-remote ämne-eller-namn"
+
+#~ msgid "_Verify peer (server) certificate usage signature"
+#~ msgstr "_Verifiera certifikatanvändningssignatur för motpart (server)"
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit key usage and "
+#~ "extended key usage based on RFC3280 TLS rules."
+#~ msgstr ""
+#~ "Begär att motpartscertifikatet var signerat med en explicit "
+#~ "nyckelanvändning och en utökad nyckelanvändning baserad på regler för "
+#~ "RFC3280 TLS."
+
+#~ msgid "_Remote peer certificate TLS type:"
+#~ msgstr "_Avlägsen TLS-typ för motpartscertifikat:"
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit key usage and "
+#~ "extended key usage based on RFC3280 TLS rules.\n"
+#~ "config: remote-cert-tls client|server"
+#~ msgstr ""
+#~ "Begär att motpartscertifikatet var signerat med en explicit "
+#~ "nyckelanvändning och en utökad nyckel baserade på RFC3280 TLS-regler.\n"
+#~ "config: remote-cert-tls client|server"
+
+#~ msgid "_Verify peer (server) certificate nsCertType designation"
+#~ msgstr "_Verifiera nsCertType-angivning för certifikat för motpart (server)"
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit nsCertType "
+#~ "designation."
+#~ msgstr ""
+#~ "Begär att motpartscertifikatet var signerat med en explicit nsCertType-"
+#~ "angivning."
+
+#~ msgid "_Remote peer certificate nsCert designation:"
+#~ msgstr "nsCert-angivning fö_r avlägset motpartscertifikat:"
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit nsCertType "
+#~ "designation.\n"
+#~ "config: ns-cert-type client|server"
+#~ msgstr ""
+#~ "Begär att motpartscertifikatet var signerat med en explicit nsCertType-"
+#~ "angivning.\n"
+#~ "config: ns-cert-type client|server"
+
+#~ msgid "Key _Direction:"
+#~ msgstr "Nyckel_riktning:"
+
+#~ msgid ""
+#~ "Add an additional layer of HMAC authentication on top of the TLS control "
+#~ "channel to protect against DoS attacks. In case of TLS-Crypt mode, the "
+#~ "control channel is also encrypted.\n"
+#~ "config: tls-auth <file> [direction] | tls-crypt <file>"
+#~ msgstr ""
+#~ "Lägg till ett ytterligare lager med HMAC-autentisering ovanpå TLS-"
+#~ "kontrollkanalen som skydd mot DoS-attacker. Vad gäller TLS-Crypt-läge så "
+#~ "krypteras också kontrollkanalen.\n"
+#~ "config: tls-auth <fil> [riktning] | tls-crypt <fil>"
+
+#~ msgid ""
+#~ "Direction parameter for static key mode.\n"
+#~ "If key direction is used, it must be the opposite of that used on the VPN "
+#~ "peer. For example, if the peer uses “1”, this connection must use “0”. If "
+#~ "you are unsure what value to use, contact your system administrator.\n"
+#~ "config: tls-auth <file> [direction]"
+#~ msgstr ""
+#~ "Riktningsparameter för statiskt nyckelläge.\n"
+#~ "Om nyckelriktning används så måste den vara motsatsen till den som "
+#~ "används på VPN-motparten.  Till exempel om parten använder ”1” måste "
+#~ "denna anslutning vara ”0”.  Om du är osäker vilket värde du ska använda "
+#~ "kan du kontakta din systemadministratör.\n"
+#~ "config: tls-auth <fil> [direction]"
+
+#~ msgid "Key _File:"
+#~ msgstr "Nyckel_fil:"
+
+#~ msgid "Mode:"
+#~ msgstr "Läge:"
+
+#~ msgid "Add an additional layer of encryption or HMAC authentication."
+#~ msgstr ""
+#~ "Lägg till ett ytterligare lager av kryptering eller HMAC-autentisering."
+
+#~ msgid "Extra Certificates:"
+#~ msgstr "Extracertifikat:"
+
+#~ msgid ""
+#~ "Specify a file containing one or more PEM certs (concatenated together) "
+#~ "that complete the local certificate chain.\n"
+#~ "config: extra-certs <file>"
+#~ msgstr ""
+#~ "Specificera en fil innehållandes en eller flera PEM-certifikat "
+#~ "(konkatenerade tillsammans) för att färdigställa den lokala "
+#~ "certifikatskedjan.\n"
+#~ "config: extra-certs <fil>"
+
+#~ msgid "Additional TLS authentication or encryption"
+#~ msgstr "Använd ytterligare TLS-autentisering eller kryptering"
+
+#~ msgid "Controls min and max version allowed for TLS."
+#~ msgstr "Styr lägsta och högsta version som tillåts för TLS."
+
+#~ msgid "TLS version control"
+#~ msgstr "TLS-versionskontroll"
+
+#~ msgid "TLS _min version: "
+#~ msgstr "_Lägsta TLS-version: "
+
+#~ msgid ""
+#~ " Sets the minimum TLS version we will accept from the peer (default is "
+#~ "\"1.0\").  Examples for version include \"1.0\", \"1.1\", or \"1.2\".  If "
+#~ "'or-highest' is specified and version is not recognized, we will only "
+#~ "accept the highest TLS version supported by the local SSL implementation."
+#~ msgstr ""
+#~ " Ställer in den lägsta TLS-version vi kommer acceptera från motparten "
+#~ "(standard är ”1.0”). Version kan exempelvis vara ”1.0”, ”1.1” eller "
+#~ "”1.2”. Om ”or-highest” anges och versionen inte känns igen kommer vi bara "
+#~ "acceptera den högsta TLS-versionen som stöds av den lokala SSL-"
+#~ "implementationen."
+
+#~ msgid "TLS ma_x version: "
+#~ msgstr "_Högsta TLS-version: "
+
+#~ msgid ""
+#~ "Set the maximum TLS version we will use (default is the highest version "
+#~ "supported).  Examples for version include \"1.0\", \"1.1\", or \"1.2\"."
+#~ msgstr ""
+#~ "Ställer in den högsta TLS-version vi kommer att använda (standard är den "
+#~ "högsta versionen som stöds). Version kan exempelvis vara ”1.0”, ”1.1” "
+#~ "eller ”1.2”."
+
+#~ msgid "TLS Authentication"
+#~ msgstr "TLS-autentisering"
+
+#~ msgid ""
+#~ "Proxy type: HTTP or Socks.\n"
+#~ "config: http-proxy or socks-proxy"
+#~ msgstr ""
+#~ "Proxytyp: HTTP eller Socks.\n"
+#~ "config: http-proxy eller socks-proxy"
+
+#~ msgid "Proxy _Type:"
+#~ msgstr "Proxy_typ:"
+
+#~ msgid ""
+#~ "<i>Select this option if your organization requires the use of a proxy "
+#~ "server to access the Internet.</i>"
+#~ msgstr ""
+#~ "<i>Välj detta alternativ om din organisation kräver att en proxyserver "
+#~ "används för att komma åt internet.</i>"
+
+#~ msgid "Server _Address:"
+#~ msgstr "Server_adress:"
+
+#~ msgid ""
+#~ "Connect to remote host through a proxy with this address.\n"
+#~ "config: http-proxy or socks-proxy"
+#~ msgstr ""
+#~ "Anslut till fjärrvärd genom en proxy med denna adress.\n"
+#~ "config: http-proxy eller socks-proxy"
+
+#~ msgid "_Port:"
+#~ msgstr "_Port:"
+
+#~ msgid ""
+#~ "Connect to remote host through a proxy with this port.\n"
+#~ "config: http-proxy or socks-proxy"
+#~ msgstr ""
+#~ "Anslut till fjärrvärd genom en proxy med denna port.\n"
+#~ "config: http-proxy eller socks-proxy"
+
+#~ msgid "_Retry indefinitely when errors occur"
+#~ msgstr "_Försök oändligt antal gånger när fel uppstår"
+
+#~ msgid ""
+#~ "Retry indefinitely on proxy errors. It simulates a SIGUSR1 reset.\n"
+#~ "config: http-proxy-retry or socks-proxy-retry"
+#~ msgstr ""
+#~ "Prova igen oändligt antal gånger vid proxyfel. Det simulerar en SIGUSR1-"
+#~ "återställning.\n"
+#~ "config: http-proxy-retry eller socks-proxy-retry"
+
+#~ msgid "Proxy _Username:"
+#~ msgstr "Använda_rnamn för proxy:"
+
+#~ msgid "Proxy Passwor_d:"
+#~ msgstr "Lösenor_d för proxy:"
+
+#~ msgid "HTTP/Socks proxy username passed to Anyconnect when prompted for it."
+#~ msgstr ""
+#~ "Användarnamn för HTTP/Socks-proxy skickas till Anyconnect när det "
+#~ "efterfrågas."
+
+#~ msgid "HTTP/Socks proxy password passed to Anyconnect when prompted for it."
+#~ msgstr ""
+#~ "Lösenord för HTTP/Socks-proxy skickas till Anyconnect när det efterfrågas."
+
+#~ msgid "_Show password"
+#~ msgstr "Vi_sa lösenord"
+
+#~ msgid "Proxies"
+#~ msgstr "Proxyservrar"
+
+#~ msgid "Path mtu discovery"
+#~ msgstr "Path mtu discovery"
+
+#~ msgid "Connect timeout"
+#~ msgstr "Anslutningstidsgräns överskriden"
+
+#~ msgid ""
+#~ "The timeout in seconds before trying the next server. This timeout "
+#~ "includes proxy and TCP connect timeouts.\n"
+#~ "config: connect-timeout <n> | server-poll-timeout <n>"
+#~ msgstr ""
+#~ "Tidsgräns i sekunder innan nästa server prövas. Denna tidsgräns "
+#~ "inkluderar tidsgränserna för proxy och TCP-anslutning.\n"
+#~ "config: connect-timeout <n> | server-poll-timeout <n>"
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "Push peer info"
+#~ msgstr "Sänd motpartsinfo"
+
+#~ msgid ""
+#~ "Push additional information about the client to server.\n"
+#~ "config: push-peer-info"
+#~ msgstr ""
+#~ "Sänd ytterligare information om klienten till servern.\n"
+#~ "config: push-peer-info"
+
+#~ msgid "Misc"
+#~ msgstr "Övrigt"
+
+#~ msgid "Authenticate VPN %s"
+#~ msgstr "Autentisera VPN %s"
+
+#~ msgid ""
+#~ "Select the LZO data compression mode.\n"
+#~ "config: comp-lzo"
+#~ msgstr ""
+#~ "Välj  LZO-datakomprimeringsläge.\n"
+#~ "config: comp-lzo"
+
+#~ msgid "unknown Anyconnect file extension"
+#~ msgstr "okänd filändelse för Anyconnect"
+
+#~ msgid "could not create anyconnect object"
+#~ msgstr "kunde inte skapa anyconnect-objekt"
+
+#~ msgid "Invalid HMAC auth."
+#~ msgstr "Ogiltig HMAC-autentisering."
+
+#~ msgid "Choose your personal certificate…"
+#~ msgstr "Välj ditt personliga certifikat…"
+
+#~ msgid "Choose your private key…"
+#~ msgstr "Välj din privata nyckel…"
+
+#~ msgid "Choose a Certificate Authority certificate…"
+#~ msgstr "Välj ett CA-certifikat (Certifikatutfärdare)…"
+
+#~ msgid "PEM or PKCS#12 certificates (*.pem, *.crt, *.key, *.cer, *.p12)"
+#~ msgstr "PEM eller PKCS#12-certifikat (*.pem, *.crt, *.key, *.cer, *.p12)"
+
+#~ msgid "PEM certificates (*.pem, *.crt, *.key, *.cer)"
+#~ msgstr "PEM-certifikat (*.pem, *.crt, *.key, *.cer)"
+
+#~ msgid "Missing required local IP address for static key mode."
+#~ msgstr "Saknar nödvändig lokal IP-adress för statisk nyckelläge."
+
+#~ msgid "Missing required remote IP address for static key mode."
+#~ msgstr "Saknar nödvändig fjärr-IP-adress för statisk nyckelläge."
+
+#~ msgid "_Show passwords"
+#~ msgstr "Vi_sa lösenord"
+
+#~ msgid "Password for private key"
+#~ msgstr "Lösenord för privat nyckel"
+
+#~ msgid "Private Key Password:"
+#~ msgstr "Lösenord för privat nyckel:"
+
+#~ msgid ""
+#~ "Local peer’s private key in .pem format.\n"
+#~ "config: key"
+#~ msgstr ""
+#~ "Lokala peers privata nycklar i .pem-format.\n"
+#~ "config: key"
+
+#~ msgid "Private Key:"
+#~ msgstr "Privat nyckel:"
+
+#~ msgid ""
+#~ "Certificate authority (CA) file in .pem format.\n"
+#~ "config: ca"
+#~ msgstr ""
+#~ "Certifikatutfärdarfil (CA) i .pem-format.\n"
+#~ "config: ca"
+
+#~ msgid "CA Certificate:"
+#~ msgstr "CA-certifikat:"
+
+#~ msgid ""
+#~ "Local peer’s signed certificate in .pem format (signed by CA of CA "
+#~ "Certificate).\n"
+#~ "config: cert"
+#~ msgstr ""
+#~ "Lokal peers signerade certifikat i .pem-format (signerat av CA från CA-"
+#~ "certifikat).\n"
+#~ "config: cert"
+
+#~ msgid "cannot write <%s> blob from line %ld to file '%s'"
+#~ msgstr "kan inte skriva <%s>-blob från raden %ld till filen ”%s”"
+
+#~ msgid ""
+#~ "Could not process the request because the anyconnect connection type was "
+#~ "invalid."
+#~ msgstr ""
+#~ "Kunde inte behandla begäran eftersom anyconnect-anslutningstypen var "
+#~ "ogiltig."
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "<b>General</b>"
+#~ msgstr "<b>Allmänt</b>"
+
+#~ msgid "<b>Authentication</b>"
+#~ msgstr "<b>Autentisering</b>"
+
+#~ msgid ""
+#~ "<i>Connect only to servers whose certificate matches the given subject.\n"
+#~ "Example: /CN=myvpn.company.com</i>"
+#~ msgstr ""
+#~ "<i>Anslut endast till servrar vars certifikat matchar angiven "
+#~ "information.\n"
+#~ "Exempel: /CN=mittvpn.företag.se</i>"
+
+#~ msgid ""
+#~ "Accept connections only from a host with X509 name or common name equal "
+#~ "to the specified one.\n"
+#~ "config: tls-remote"
+#~ msgstr ""
+#~ "Acceptera endast anslutningar från en värd med X509-namn eller vanligt "
+#~ "namn som är lika med det angivna.\n"
+#~ "config: tls-remote"
+
+#~ msgid "option %s expects exactly %u arguments"
+#~ msgstr "flaggan %s förväntar sig precis %u argument"
+
+#~ msgid "could not open file for writing"
+#~ msgstr "kan inte öppna fil för skrivning"
+
+#~ msgid "VPN Connection Manager (Anyconnect)"
+#~ msgstr "VPN-anslutningshanterare (Anyconnect)"
+
+#~ msgid "Add, Remove, and Edit VPN Connections"
+#~ msgstr "Lägg till, ta bort och redigera VPN-anslutningar"
+
+#~ msgid "Saved"
+#~ msgstr "Sparad"
+
+#~ msgid "Always Ask"
+#~ msgstr "Fråga alltid"
+
+#~ msgid "Not Required"
+#~ msgstr "Krävs inte"

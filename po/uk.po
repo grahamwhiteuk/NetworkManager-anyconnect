@@ -1,0 +1,1315 @@
+# Ukrainian translation of NetworkManager anyconnect
+# Copyright (C) Free Software Foundation, 2005
+# This file is distributed under the same license as the NetworkManager package.
+# Maxim Dziumanenko <dziumanenko@gmail.com>, 2005-2007.
+# Korostil Daniel <ted.korostiled@gmail.com>, 2011.
+# Yuri Chornoivan <yurchor@ukr.net>, 2020.
+msgid ""
+msgstr ""
+"Project-Id-Version: NetworkManager anyconnect\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-30 22:41+0100\n"
+"PO-Revision-Date: 2020-03-31 09:06+0300\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Lokalize 20.07.70\n"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:1
+msgid "Anyconnect client"
+msgstr "Клієнт Anyconnect"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:2
+msgid "Client for Anyconnect virtual private networks"
+msgstr "Клієнт для віртуальних приватних мереж Anyconnect"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:3
+msgid "Support for configuring Anyconnect virtual private network connections."
+msgstr ""
+"Підтримка налаштовування з'єднань із віртуальними приватними мережами "
+"Anyconnect."
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:4
+msgid "Anyconnect is a popular and flexible free-software VPN solution."
+msgstr "Anyconnect — популярне і гнучке вільне рішення для VPN."
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:5
+msgid "The NetworkManager Developers"
+msgstr "Розробники NetworkManager"
+
+#: ../properties/nm-anyconnect-editor-plugin.c:35
+#, fuzzy
+msgid "Cisco AnyConnect"
+msgstr "Anyconnect"
+
+#: ../properties/nm-anyconnect-editor-plugin.c:36
+msgid "Runs the proprietary Cisco AnyConnect VPN."
+msgstr ""
+
+#: ../properties/nm-anyconnect-editor.c:299
+msgid "could not load UI widget"
+msgstr "не вдалося завантажити віджет інтерфейсу користувача"
+
+#: ../shared/nm-utils/nm-shared-utils.c:946
+#, c-format
+msgid "object class '%s' has no property named '%s'"
+msgstr "у класі об'єктів «%s» немає властивості із назвою «%s»"
+
+#: ../shared/nm-utils/nm-shared-utils.c:953
+#, c-format
+msgid "property '%s' of object class '%s' is not writable"
+msgstr "властивість «%s» класу об'єктів «%s» є непридатною до запису"
+
+#: ../shared/nm-utils/nm-shared-utils.c:960
+#, c-format
+msgid ""
+"construct property \"%s\" for object '%s' can't be set after construction"
+msgstr ""
+"властивість construct «%s» об'єкта «%s» не можна встановлювати після побудови"
+
+#: ../shared/nm-utils/nm-shared-utils.c:968
+#, c-format
+msgid "'%s::%s' is not a valid property name; '%s' is not a GObject subtype"
+msgstr "«%s::%s» не є коректною назвою властивості; «%s» не є підтипом GObject"
+
+#: ../shared/nm-utils/nm-shared-utils.c:977
+#, c-format
+msgid "unable to set property '%s' of type '%s' from value of type '%s'"
+msgstr ""
+"не вдалося встановити значення властивості «%s» типу «%s» на основі значення "
+"типу «%s»"
+
+#: ../shared/nm-utils/nm-shared-utils.c:988
+#, c-format
+msgid ""
+"value \"%s\" of type '%s' is invalid or out of range for property '%s' of "
+"type '%s'"
+msgstr ""
+"значення «%s» типу «%s» є некоректним для властивості «%s» типу «%s» або не "
+"належить до припустимого діапазону значень"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:69
+#, c-format
+msgid "unable to get editor plugin name: %s"
+msgstr "не вдалося отримати назву додатка до редактора: %s"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:103
+#, c-format
+msgid "missing plugin file \"%s\""
+msgstr "не вистачає файла додатка «%s»"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:109
+#, c-format
+msgid "cannot load editor plugin: %s"
+msgstr "не вдалося завантажити додаток до редактора: %s"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:118
+#, c-format
+msgid "cannot load factory %s from plugin: %s"
+msgstr "не вдалося завантажити обробник %s з додатка: %s"
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:144
+msgid "unknown error creating editor instance"
+msgstr "невідома помилка під час створення екземпляра редактора"
+
+#: ../src/nm-anyconnect-service.c:567 ../src/nm-anyconnect-service.c:682
+msgid "Could not find the anyconnect binary."
+msgstr "Не вдалося знайти виконуваний файл anyconnect."
+
+#: ../src/nm-anyconnect-service.c:580
+msgid ""
+"Could not process the request because the VPN connection settings were "
+"invalid."
+msgstr ""
+"Не вдалося обробити запит, оскільки параметри з'єднання VPN є некоректними."
+
+#: ../src/nm-anyconnect-service.c:602
+msgid ""
+"Could not attempt connection, unable to find the setting for the gateway."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:875
+msgid "Don’t quit when VPN connection terminates"
+msgstr "Не виходити, якщо розірвано з'єднання VPN"
+
+#: ../src/nm-anyconnect-service.c:876
+msgid "Enable verbose debug logging (may expose passwords)"
+msgstr "Увімкнути докладний журнал діагностики (можливе виведення паролів)"
+
+#: ../src/nm-anyconnect-service.c:877
+msgid "D-Bus name to use for this instance"
+msgstr "Назва D-Bus для використання для цього екземпляра"
+
+#: ../src/nm-anyconnect-service.c:905
+#, fuzzy
+msgid ""
+"nm-anyconnect-service provides integrated proprietary Cisco AnyConnect "
+"capability to NetworkManager."
+msgstr ""
+"nm-anyconnect-service надає NetworkManager доступ до інтегрованих "
+"можливостей Anyconnect."
+
+#: ../properties/nm-anyconnect-dialog.ui.h:1
+msgid "General"
+msgstr "Загальне"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:2
+msgid "_Gateway:"
+msgstr "_Шлюз:"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:3
+msgid "VPN host to connect to"
+msgstr ""
+
+#, c-format
+#~ msgid "Authentication required"
+#~ msgstr "Слід пройти розпізнавання"
+
+#~ msgid "Password"
+#~ msgstr "Пароль"
+
+#~ msgid "Certificate password"
+#~ msgstr "Пароль сертифіката"
+
+#~ msgid "HTTP proxy password"
+#~ msgstr "Пароль для розпізнавання за HTTP"
+
+#~ msgid "Authenticate VPN"
+#~ msgstr "Розпізнавання у VPN"
+
+#~ msgid "Certificate pass_word:"
+#~ msgstr "Па_роль сертифіката:"
+
+#~ msgid "_HTTP proxy password:"
+#~ msgstr "П_ароль проксі-сервера HTTP:"
+
+#, c-format
+#~ msgid "You need to authenticate to access the Virtual Private Network “%s”."
+#~ msgstr ""
+#~ "Вам слід пройти розпізнавання для отримання доступу до віртуальної "
+#~ "приватної мережі «%s»."
+
+#, c-format
+#~ msgid "option %s expects between %u and %u argument"
+#~ msgid_plural "option %s expects between %u and %u arguments"
+#~ msgstr[0] "параметру %s має бути передано від %u до %u аргументу"
+#~ msgstr[1] "параметру %s має бути передано від %u до %u аргументів"
+#~ msgstr[2] "параметру %s має бути передано від %u до %u аргументів"
+#~ msgstr[3] "параметру %s має бути передано від %u до %u аргументу"
+
+#, c-format
+#~ msgid "option %s expects no arguments"
+#~ msgstr "для параметра %s передавання аргументів не передбачено"
+
+#, c-format
+#~ msgid "option %s expects exactly one argument"
+#~ msgid_plural "option %s expects exactly %u arguments"
+#~ msgstr[0] "параметру %s має бути передано точно %u аргумент"
+#~ msgstr[1] "параметру %s має бути передано точно %u аргументи"
+#~ msgstr[2] "параметру %s має бути передано точно %u аргументів"
+#~ msgstr[3] "параметру %s має бути передано точно один аргумент"
+
+#, c-format
+#~ msgid "argument %s of “%s” can not be empty"
+#~ msgstr "аргумент %s «%s» не може бути порожнім"
+
+#, c-format
+#~ msgid "argument of “%s” can not be empty"
+#~ msgstr "аргумент «%s» не може бути порожнім"
+
+#, c-format
+#~ msgid "argument %s of “%s” must be UTF-8 encoded"
+#~ msgstr "аргумент %s «%s» має бути закодовано в UTF-8"
+
+#, c-format
+#~ msgid "argument of “%s” must be UTF-8 encoded"
+#~ msgstr "аргумент «%s» має бути закодовано в UTF-8"
+
+#, c-format
+#~ msgid "invalid %uth argument to “%s” where number expected"
+#~ msgstr "некоректний аргумент %u «%s», де мало бути вказано число"
+
+#, c-format
+#~ msgid "unsupported %uth argument %s to “%s”"
+#~ msgstr "непідтримуваний аргумент %u %s «%s»"
+
+#, c-format
+#~ msgid ""
+#~ "unsupported %uth argument to “%s” which looks like a FQDN but only IPv4 "
+#~ "address supported"
+#~ msgstr ""
+#~ "непідтримуваний %u-й аргумент «%s», який виглядає як FQDN, але "
+#~ "передбачено підтримку лише адрес IPv4"
+
+#, c-format
+#~ msgid "invalid %uth argument to “%s” where IPv4 address expected"
+#~ msgstr "некоректний аргумент %u «%s», де мало бути вказано адресу IPv4"
+
+#, c-format
+#~ msgid "invalid %uth key-direction argument to “%s”"
+#~ msgstr "некоректний аргумент напрямку ключа %u «%s»"
+
+#, c-format
+#~ msgid "invalid %uth argument to “%s”"
+#~ msgstr "некоректний аргумент %u «%s»"
+
+#, c-format
+#~ msgid "unterminated %s at position %lld"
+#~ msgstr "незавершений %s у позиції %lld"
+
+#~ msgid "double quote"
+#~ msgstr "подвійні лапки"
+
+#~ msgid "single quote"
+#~ msgstr "одинарні лапки"
+
+#, c-format
+#~ msgid "trailing escaping backslash at position %lld"
+#~ msgstr "кінцевий символ похилої риски для екранування у позиції %lld"
+
+#, c-format
+#~ msgid "unable to read HTTP proxy auth file"
+#~ msgstr "не вдалося прочитати файл розпізнавання на проксі-сервері HTTP"
+
+#, c-format
+#~ msgid "cannot read user/password from HTTP proxy auth file"
+#~ msgstr ""
+#~ "не вдалося прочитати запис користувача і пароля із файла розпізнавання на "
+#~ "проксі-сервері HTTP"
+
+#, c-format
+#~ msgid "user/password from HTTP proxy auth file must be UTF-8 encoded"
+#~ msgstr ""
+#~ "запис користувача і пароля із файла розпізнавання на проксі-сервері HTTP "
+#~ "має бути вказано у кодуванні UTF-8"
+
+#, c-format
+#~ msgid "“%s” is not a directory"
+#~ msgstr "«%s» не є каталогом"
+
+#, c-format
+#~ msgid "cannot create “%s” directory"
+#~ msgstr "не вдалося створити каталог «%s»"
+
+#, c-format
+#~ msgid "cannot write <%s> blob from line %ld to file (%s)"
+#~ msgstr "не вдалося записати двійкові дані <(%s> з рядка %ld до файла (%s)"
+
+#, c-format
+#~ msgid "cannot write <%s> blob from line %ld to file “%s”"
+#~ msgstr "не вдалося записати двійкові дані <%s> з рядка %ld до файла «%s»"
+
+#, c-format
+#~ msgid "unsupported mtu-disc argument"
+#~ msgstr "непідтримуваний аргумент mtu-disc"
+
+#, c-format
+#~ msgid "unsupported crl-verify argument"
+#~ msgstr "непідтримуваний аргумент crl-verify"
+
+#, c-format
+#~ msgid "invalid option"
+#~ msgstr "некоректний параметр"
+
+#, c-format
+#~ msgid "unsupported comp-lzo argument"
+#~ msgstr "непідтримуваний аргумент comp-lzo"
+
+#, c-format
+#~ msgid "unsupported compress argument"
+#~ msgstr "непідтримуваний аргумент стискання"
+
+#, c-format
+#~ msgid "remote cannot contain space"
+#~ msgstr "запис віддаленого вузла не може містити пробілів"
+
+#, c-format
+#~ msgid "remote cannot contain comma"
+#~ msgstr "запис віддаленого вузла не може містити коми"
+
+#, c-format
+#~ msgid "remote expects protocol type like “udp” or “tcp”"
+#~ msgstr "віддалений вузол очікує на тип протоколу, наприклад «udp» або «tcp»"
+
+#, c-format
+#~ msgid "invalid verify-x509-name type"
+#~ msgstr "некоректний тип verify-x509-name"
+
+#, c-format
+#~ msgid "unsupported blob/xml element"
+#~ msgstr "непідтримуваний елемент blob/xml"
+
+#, c-format
+#~ msgid "unterminated blob element <%s>"
+#~ msgstr "незавершений елемент із бінарним кодом — <%s>"
+
+#, c-format
+#~ msgid "configuration error: %s (line %ld)"
+#~ msgstr "помилка у налаштуваннях: %s (рядок %ld)"
+
+#~ msgid "unknown or unsupported option"
+#~ msgstr "невідомий або непідтримуваний параметр"
+
+#~ msgid "The file to import wasn’t a valid Anyconnect client configuration"
+#~ msgstr ""
+#~ "Імпортований файл не є коректним файлом налаштувань клієнта Anyconnect"
+
+#~ msgid "The file to import wasn’t a valid Anyconnect configure (no remote)"
+#~ msgstr ""
+#~ "Імпортований файл не є коректним файлом налаштувань Anyconnect (немає "
+#~ "віддаленого вузла)"
+
+#~ msgid "missing path argument"
+#~ msgstr "пропущено аргумент шляху"
+
+#~ msgid "connection is not a valid Anyconnect connection"
+#~ msgstr "запис з'єднання не є коректним записом з'єднання Anyconnect"
+
+#~ msgid "connection was incomplete (missing gateway)"
+#~ msgstr "запис з'єднання є неповним (не вказано шлюзу)"
+
+#, c-format
+#~ msgid "failed to write file: %s"
+#~ msgstr "не вдалося виконати запис до файла: %s"
+
+#~ msgid "Compatible with the Anyconnect server."
+#~ msgstr "Сумісний з сервером Anyconnect."
+
+#~ msgid "Choose an Anyconnect static key…"
+#~ msgstr "Виберіть статичний ключ Anyconnect…"
+
+#~ msgid "None"
+#~ msgstr "Немає"
+
+#~ msgid "Anyconnect Static Keys (*.key)"
+#~ msgstr "Статичні ключі Anyconnect (*.key)"
+
+#~ msgid "Default"
+#~ msgstr "Типово"
+
+#~ msgid "RSA MD-4"
+#~ msgstr "RSA MD-4"
+
+#~ msgid "MD-5"
+#~ msgstr "MD-5"
+
+#~ msgid "SHA-1"
+#~ msgstr "SHA-1"
+
+#~ msgid "SHA-224"
+#~ msgstr "SHA-224"
+
+#~ msgid "SHA-256"
+#~ msgstr "SHA-256"
+
+#~ msgid "SHA-384"
+#~ msgstr "SHA-384"
+
+#~ msgid "SHA-512"
+#~ msgstr "SHA-512"
+
+#~ msgid "RIPEMD-160"
+#~ msgstr "RIPEMD-160"
+
+#~ msgid "Don’t verify certificate identification"
+#~ msgstr "Не перевіряти ідентифікацію сертифіката"
+
+#~ msgid "Verify whole subject exactly"
+#~ msgstr "Перевіряти усі дані призначення точно"
+
+#~ msgid "Verify name exactly"
+#~ msgstr "Перевіряти назву точно"
+
+#~ msgid "Verify name by prefix"
+#~ msgstr "Перевіряти назву за префіксом"
+
+#~ msgid "Verify subject partially (legacy mode, strongly discouraged)"
+#~ msgstr ""
+#~ "Частково перевіряти призначення (застарілий режим, наполегливо не "
+#~ "рекомендуємо)"
+
+#~ msgid "Server"
+#~ msgstr "Сервер"
+
+#~ msgid "Client"
+#~ msgstr "Клієнт"
+
+#~ msgid "Not required"
+#~ msgstr "Не потрібно"
+
+#~ msgid "HTTP"
+#~ msgstr "HTTP"
+
+#~ msgid "SOCKS"
+#~ msgstr "SOCKS"
+
+#~ msgid "TUN"
+#~ msgstr "TUN"
+
+#~ msgid "TAP"
+#~ msgstr "TAP"
+
+#~ msgid "(automatic)"
+#~ msgstr "(автоматично)"
+
+#~ msgid "ping-exit"
+#~ msgstr "ping-exit"
+
+#~ msgid "ping-restart"
+#~ msgstr "ping-restart"
+
+#~ msgid "Certificates (TLS)"
+#~ msgstr "Сертифікати (TLS)"
+
+#~ msgid "Password with Certificates (TLS)"
+#~ msgstr "Пароль з сертифікатами (TLS)"
+
+#~ msgid "Static Key"
+#~ msgstr "Статичний ключ"
+
+#, c-format
+#~ msgid "invalid delimiter character '%c'"
+#~ msgstr "некоректний символ-роздільник «%c»"
+
+#, c-format
+#~ msgid "invalid non-utf-8 character"
+#~ msgstr "некоректний символ, який не є символом utf-8"
+
+#, c-format
+#~ msgid "empty host"
+#~ msgstr "порожній вузол"
+
+#, c-format
+#~ msgid "invalid port"
+#~ msgstr "некоректний порт"
+
+#, c-format
+#~ msgid "invalid protocol"
+#~ msgstr "некоректний протокол"
+
+#, c-format
+#~ msgid "invalid address “%s”"
+#~ msgstr "некоректна адреса «%s»"
+
+#, c-format
+#~ msgid "invalid integer property “%s” or out of range [%d -> %d]"
+#~ msgstr ""
+#~ "некоректна цілочисельна властивість «%s» або має значення поза "
+#~ "припустимим діапазоном [%d -> %d]"
+
+#, c-format
+#~ msgid "invalid boolean property “%s” (not yes or no)"
+#~ msgstr ""
+#~ "некоректна булева властивість «%s» (має значення, яке відрізняється від "
+#~ "«yes» або «no»)"
+
+#, c-format
+#~ msgid "unhandled property “%s” type %s"
+#~ msgstr "непридатна до обробки властивість «%s» типу %s"
+
+#, c-format
+#~ msgid "property “%s” invalid or not supported"
+#~ msgstr "властивість «%s» є некоректною або її підтримки не передбачено"
+
+#~ msgid "No VPN configuration options."
+#~ msgstr "Немає параметрів налаштування VPN."
+
+#~ msgid "A username is required."
+#~ msgstr "Слід вказати ім'я користувача."
+
+#~ msgid "A password is required."
+#~ msgstr "Потрібен пароль."
+
+#~ msgid "A username and password are required."
+#~ msgstr "Слід вказати ім'я користувача і пароль."
+
+#~ msgid "A private key password is required."
+#~ msgstr "Слід вказати пароль закритого ключа."
+
+#~ msgid "An HTTP Proxy username is required."
+#~ msgstr "Мало бути вказано ім'я користувача проксі-сервера HTTP."
+
+#~ msgid "An HTTP Proxy password is required."
+#~ msgstr "Мало бути вказано пароль до проксі-сервера HTTP."
+
+#~ msgid "An HTTP Proxy username and password are required."
+#~ msgstr "Слід вказати ім'я користувача і пароль до проксі-сервера HTTP."
+
+#~ msgid "Invalid connection type."
+#~ msgstr "Некоректний тип з'єднання"
+
+#, c-format
+#~ msgid "Invalid port number “%s”."
+#~ msgstr "Некоректний номер порту — «%s»."
+
+#, c-format
+#~ msgid "Invalid proto “%s”."
+#~ msgstr "Некоректне значення proto «%s»."
+
+#, c-format
+#~ msgid "Invalid proxy type “%s”."
+#~ msgstr "Некоректний тип проксі-сервера — «%s»."
+
+#, c-format
+#~ msgid "Invalid ping duration “%s”."
+#~ msgstr "Некоректна тривалість луна-імпульсу — «%s»."
+
+#, c-format
+#~ msgid "Invalid ping-exit duration “%s”."
+#~ msgstr "Некоректна тривалість ping-exit — «%s»."
+
+#, c-format
+#~ msgid "Invalid ping-restart duration “%s”."
+#~ msgstr "Некоректна тривалість ping-restart — «%s»."
+
+#, c-format
+#~ msgid "Invalid connect timeout “%s”."
+#~ msgstr "Некоректне значення часу очікування на з'єднання — «%s»."
+
+#, c-format
+#~ msgid "Invalid max-routes argument “%s”."
+#~ msgstr "Некоректне значення аргументу max-routes «%s»."
+
+#, c-format
+#~ msgid "Invalid keysize “%s”."
+#~ msgstr "Некоректний розмір ключа — «%s»."
+
+#, c-format
+#~ msgid "Invalid configuration with tls-remote and verify-x509-name."
+#~ msgstr "Некоректні налаштування з tls-remote і verify-x509-name."
+
+#, c-format
+#~ msgid "Invalid verify-x509-name."
+#~ msgstr "Некоректне значення verify-x509-name."
+
+#, c-format
+#~ msgid "Invalid reneg seconds “%s”."
+#~ msgstr "Некоректне значення часу повторного узгодження у секундах «%s»."
+
+#, c-format
+#~ msgid "Invalid TUN MTU size “%s”."
+#~ msgstr "Некоректний розмір MTU TUN «%s»."
+
+#, c-format
+#~ msgid "Invalid fragment size “%s”."
+#~ msgstr "Некоректний розмір фрагмента «%s»."
+
+#, c-format
+#~ msgid "Unknown connection type “%s”."
+#~ msgstr "Невідомий тип з'єднання — «%s»."
+
+#, c-format
+#~ msgid "User “%s” not found, check NM_ANYCONNECT_USER."
+#~ msgstr "Не знайдено користувача «%s». Перевірте NM_ANYCONNECT_USER."
+
+#, c-format
+#~ msgid "Group “%s” not found, check NM_ANYCONNECT_GROUP."
+#~ msgstr "Не знайдено групи «%s», перевірте NM_ANYCONNECT_GROUP."
+
+#~ msgid "Unhandled pending authentication."
+#~ msgstr "Непридатне до обробки розпізнавання у черзі."
+
+#~ msgid "LZO"
+#~ msgstr "LZO"
+
+#~ msgid "LZ4"
+#~ msgstr "LZ4"
+
+#~ msgid "LZ4 v2"
+#~ msgstr "LZ4 v2"
+
+#~ msgid "Automatic"
+#~ msgstr "Автоматично"
+
+#~ msgid "LZO disabled (legacy)"
+#~ msgstr "LZO вимкнено (застарілий варіант)"
+
+#~ msgid "LZO adaptive (legacy)"
+#~ msgstr "Адаптивний LZO (застарілий варіант)"
+
+#~ msgid "TLS-Auth"
+#~ msgstr "TLS-Auth"
+
+#~ msgid "TLS-Crypt"
+#~ msgstr "TLS-Crypt"
+
+#~ msgid "Maybe"
+#~ msgstr "Можливо"
+
+#~ msgid "Yes"
+#~ msgstr "Так"
+
+#~ msgid "Authentication"
+#~ msgstr "Розпізнавання"
+
+#~ msgid "CA"
+#~ msgstr "CA"
+
+#~ msgid "User"
+#~ msgstr "Користувач"
+
+#~ msgid "Password:"
+#~ msgstr "Пароль:"
+
+#~ msgid "User name:"
+#~ msgstr "Користувач:"
+
+#~ msgid ""
+#~ "Password passed to Anyconnect when prompted for it.\n"
+#~ "config: auth-user-pass"
+#~ msgstr ""
+#~ "Пароль, який буде передано до Anyconnect, якщо надійде запит щодо "
+#~ "пароля.\n"
+#~ "Файл налаштувань: auth-user-pass"
+
+#~ msgid ""
+#~ "Username passed to Anyconnect when prompted for it. If omitted, use the "
+#~ "name of the system user that activates the connection.\n"
+#~ "config: auth-user-pass"
+#~ msgstr ""
+#~ "Ім'я користувача, яке буде передано до Anyconnect, якщо надійде запит "
+#~ "щодо імені. Якщо не вказано, буде використано ім'я користувача у системі, "
+#~ "який активує з'єднання.\n"
+#~ "Файл налаштувань: auth-user-pass"
+
+#~ msgid "Remote IP Address:"
+#~ msgstr "Віддалена адреса IP:"
+
+#~ msgid "Local IP Address:"
+#~ msgstr "Локальна адреса IP:"
+
+#~ msgid "Key Direction:"
+#~ msgstr "Напрям ключа:"
+
+#~ msgid "Static Key:"
+#~ msgstr "Статичний ключ:"
+
+#~ msgid ""
+#~ "Pre-shared file for Static Key encryption mode (non-TLS).\n"
+#~ "config: static <file>"
+#~ msgstr ""
+#~ "Попередньо розповсюджений файл режиму шифрування статичним ключем (не-"
+#~ "TLS).\n"
+#~ "Файл налаштувань: static <file>"
+
+#~ msgid ""
+#~ "IP address of the remote VPN endpoint.\n"
+#~ "config: ifconfig <l> <rn>"
+#~ msgstr ""
+#~ "IP-адреса віддаленої кінцевої точки VPN.\n"
+#~ "Файл налаштувань: ifconfig <l> <rn>"
+
+#~ msgid ""
+#~ "IP address of the local VPN endpoint.\n"
+#~ "config: ifconfig <l> <rn>"
+#~ msgstr ""
+#~ "IP-адреса локальної кінцевої точки VPN.\n"
+#~ "Файл налаштувань: ifconfig <l> <rn>"
+
+#~ msgid ""
+#~ "Direction for Static Key encryption mode (non-TLS).\n"
+#~ "If key direction is used, it must be the opposite of that used on the VPN "
+#~ "peer. For example, if the peer uses “1”, this connection must use “0”. If "
+#~ "you are unsure what value to use, contact your system administrator.\n"
+#~ "config: static <file> [direction]"
+#~ msgstr ""
+#~ "Напрямок для режиму шифрування за статичними ключами (не-TLS).\n"
+#~ "Якщо використано напрямок ключа, вказаний напрямок має бути протилежним "
+#~ "до того, який використано на вузлі VPN. Наприклад, якщо на вузлі "
+#~ "використовується «1», це з'єднання має використовувати «0». Якщо ви не "
+#~ "певні щодо значення, яким слід скористатися, попросіть допомогти вам "
+#~ "адміністратора вашої системи.\n"
+#~ "Файл налаштувань: static <file> [напрямок]"
+
+#~ msgid "Type:"
+#~ msgstr "Тип:"
+
+#~ msgid "Select an authentication mode."
+#~ msgstr "Вибрати режим розпізнавання."
+
+#~ msgid "Ad_vanced…"
+#~ msgstr "Д_одатково…"
+
+#~ msgid "Anyconnect Advanced Options"
+#~ msgstr "Додаткові параметри Anyconnect"
+
+#~ msgid "Use custom gateway p_ort:"
+#~ msgstr "Використовувати інший _порт шлюзу:"
+
+#~ msgid ""
+#~ "TCP/UDP port number for peer. (Default value when there is no port for "
+#~ "gateway).\n"
+#~ "config: port"
+#~ msgstr ""
+#~ "Номер порту TCP/UDP для вузла. (Типове значення, якщо для шлюзу немає "
+#~ "порту.)\n"
+#~ "Файл налаштувань: port"
+
+#~ msgid "Use custom _renegotiation interval:"
+#~ msgstr "Використовувати власний _повторних переговорів інтервал:"
+
+#~ msgid ""
+#~ "Renegotiate data channel key after the specified number of seconds.\n"
+#~ "config: reneg-sec"
+#~ msgstr ""
+#~ "Повторно узгоджувати ключ каналу обміну даними за вказану кількість "
+#~ "секунд.\n"
+#~ "Файл налаштувань: reneg-sec"
+
+#~ msgid "Data _compression:"
+#~ msgstr "С_тискання даних:"
+
+#~ msgid ""
+#~ "Use fast LZO compression.\n"
+#~ "config: comp-lzo"
+#~ msgstr ""
+#~ "Використовувати швидке стискання LZO.\n"
+#~ "Файл налаштувань: comp-lzo"
+
+#~ msgid "Use a _TCP connection"
+#~ msgstr "Використовувати з'єднання _TCP"
+
+#~ msgid ""
+#~ "Use TCP for communicating with remote host.\n"
+#~ "(This is a default setting only used when no protocol is specified for "
+#~ "the gateway.)\n"
+#~ "config: proto tcp-client | udp"
+#~ msgstr ""
+#~ "Використовувати TCP для обміну даними з віддаленим вузлом.\n"
+#~ "(Це типовий параметр, який використовується, лише якщо для шлюзу не "
+#~ "вказано протоколу.)\n"
+#~ "Файл налаштувань: proto tcp-client | udp"
+
+#~ msgid "Set virtual _device type:"
+#~ msgstr "Встановити тип ві_ртуального пристрою:"
+
+#~ msgid "Explicitly set virtual device type and name (TUN/TAP)."
+#~ msgstr "Явним чином встановити тип і назву віртуального пристрою (TUN/TAP)."
+
+#~ msgid ""
+#~ "Explicitly set virtual device type (TUN/TAP).\n"
+#~ "config: dev-type tun | tap"
+#~ msgstr ""
+#~ "Явним чином вказати тип віртуального пристрою (TUN/TAP).\n"
+#~ "Файл налаштувань: dev-type tun | tap"
+
+#~ msgid " and _name:"
+#~ msgstr " і _назва:"
+
+#~ msgid ""
+#~ "Use custom name for TUN/TAP virtual device (instead of default “tun” or "
+#~ "“tap”).\n"
+#~ "config: dev <name>"
+#~ msgstr ""
+#~ "Використовувати нетипову назву для віртуального пристрою TUN/TAP (замість "
+#~ "типової «tun» або «tap»).\n"
+#~ "Файл налаштувань: dev <name>"
+
+#~ msgid "Use custom tunnel Maximum Transmission _Unit (MTU):"
+#~ msgstr ""
+#~ "Використовувати нестандартний максимальний _розмір елементу передачі "
+#~ "(MTU):"
+
+#~ msgid ""
+#~ "Take the TUN device MTU to be the specified value and derive the link MTU "
+#~ "from it.\n"
+#~ "config: tun-mtu"
+#~ msgstr ""
+#~ "Встановити для MTU пристрою TUN вказане значення і зробити MTU зв'язку "
+#~ "похідним від цього значення.\n"
+#~ "Файл налаштувань: tun-mtu"
+
+#~ msgid "Use custom UDP _fragment size:"
+#~ msgstr "Використовувати нестандартний розмір _фрагменту UDP:"
+
+#~ msgid ""
+#~ "Enable internal datagram fragmentation with this maximum size.\n"
+#~ "config: fragment"
+#~ msgstr ""
+#~ "Увімкнути фрагментацію вбудованої датаграми за вказаним максимальним "
+#~ "розміром.\n"
+#~ "Файл налаштувань: fragment"
+
+#~ msgid "Restrict tunnel TCP Maximum _Segment Size (MSS)"
+#~ msgstr "Обмежувати максимальний розмір сегменту TCP (MSS) тунелю"
+
+#~ msgid ""
+#~ "Restrict tunnel TCP MSS.\n"
+#~ "config: mssfix"
+#~ msgstr ""
+#~ "Обмежити тунелювання MSS TCP.\n"
+#~ "Файл налаштувань: mssfix"
+
+#~ msgid "Rando_mize remote hosts"
+#~ msgstr "Вип_адковий порядок віддалених вузлів"
+
+#~ msgid ""
+#~ "Randomize the order of gateways list (remote) as a kind of basic load-"
+#~ "balancing measure.\n"
+#~ "config: remote-random"
+#~ msgstr ""
+#~ "Використовувати список шлюзів у випадковому порядку з метою базового "
+#~ "збалансовування навантаження.\n"
+#~ "Файл налаштувань: remote-random"
+
+#~ msgid "IPv6 tun link"
+#~ msgstr "Зв'язок tun IPv6"
+
+#~ msgid ""
+#~ "Build a tun link capable of forwarding IPv6 traffic\n"
+#~ "config: tun-ipv6"
+#~ msgstr ""
+#~ "Побудувати зв'язок tun, який буде придатним для переспрямовування даних "
+#~ "IPv6\n"
+#~ "Файл налаштувань: tun-ipv6"
+
+#~ msgid "Specify pin_g interval:"
+#~ msgstr "Вказати інтервал між і_мпульсами:"
+
+#~ msgid ""
+#~ "Ping remote over the TCP/UDP control channel if no packets have been sent "
+#~ "for at least n seconds.\n"
+#~ "config: ping <n>"
+#~ msgstr ""
+#~ "Перевіряти віддалений вузол луна-імпульсами за каналом керування TCP/UDP, "
+#~ "якщо не було надіслано жодного пакета принаймні n секунд.\n"
+#~ "Файл налаштувань: ping <n>"
+
+#~ msgid "Specify _exit or restart ping:"
+#~ msgstr "Вказати імпульс ви_ходу або перезапуску:"
+
+#~ msgid ""
+#~ "Exit or restart after n seconds pass without reception of a ping or other "
+#~ "packet from remote.\n"
+#~ "config: ping-exit | ping-restart <n>"
+#~ msgstr ""
+#~ "Вихід або перезапуск за n секунд, якщо не отримано луна-імпульсу або "
+#~ "іншого пакета від віддаленого вузла.nФайл налаштувань: ping-exit | ping-"
+#~ "restart <n>"
+
+#~ msgid "Accept authenticated packets from any address (F_loat)"
+#~ msgstr "Приймати па_кети розпізнавання з будь-яких адрес (Float)"
+
+#~ msgid ""
+#~ "Allow remote peer to change its IP address and/or port number, such as "
+#~ "due to DHCP (this is the default if --remote is not used). --float when "
+#~ "specified with --remote allows an Anyconnect session to initially connect "
+#~ "to a peer at a known address, however if packets arrive from a new "
+#~ "address and pass all authentication tests, the new address will take "
+#~ "control of the session. This is useful when you are connecting to a peer "
+#~ "which holds a dynamic address such as a dial-in user or DHCP client.\n"
+#~ "\n"
+#~ "Essentially, --float tells Anyconnect to accept authenticated packets "
+#~ "from any address, not only the address which was specified in the --"
+#~ "remote option.\n"
+#~ "\n"
+#~ "config: float"
+#~ msgstr ""
+#~ "Дозволити віддаленому вузлу змінювати його IP-адресу і/або номер пору "
+#~ "так, як це робиться\n"
+#~ "у режимі DHCP (типова поведінка, якщо не використовується --remote). --"
+#~ "float, якщо вказано разом із --remote,\n"
+#~ "дозволяє сеансу Anyconnect спочатку з'єднатися із вузлом за відомою "
+#~ "адресою,\n"
+#~ "але якщо пакети буде отримано за новою адресою і буде пройдено усі "
+#~ "перевірки, сеанс\n"
+#~ "перейде до нової адреси. Корисно, якщо ви встановлюєте з'єднання із "
+#~ "вузлом,\n"
+#~ "який має динамічну адресу, зокрема користувачем комутованого зв'язку або "
+#~ "клієнтом DHCP.\n"
+#~ "\n"
+#~ "\n"
+#~ "По суті, --float наказує Anyconnect приймати розпізнані пакети з будь-"
+#~ "якої адреси,\n"
+#~ "не лише з адреси, яку було вказано за допомогою параметра --remote.\n"
+#~ "\n"
+#~ "Файл налаштувань: float"
+
+#~ msgid "Specify max routes:"
+#~ msgstr "Вказати макс. к-ть маршрутів:"
+
+#~ msgid ""
+#~ "Specify the maximum number of routes the server is allowed to specify.\n"
+#~ "config: max-routes <n>"
+#~ msgstr ""
+#~ "Вказати максимальну кількість маршрутів, які може визначати сервер.\n"
+#~ "Файл налаштувань: max-routes <n>"
+
+#~ msgid ""
+#~ "Encrypt packets with cipher algorithm. The default is BF-CBC (Blowfish in "
+#~ "Cipher Block Chaining mode).\n"
+#~ "config: cipher"
+#~ msgstr ""
+#~ "Шифрувати вміст пакетів за допомогою певного алгоритму. Типовим є BF-CBC "
+#~ "(режим Blowfish in Cipher Block Chaining).\n"
+#~ "Файл налаштувань: cipher"
+
+#~ msgid "Use custom _size of cipher key:"
+#~ msgstr "Нетиповий _розмір ключа шифрування:"
+
+#~ msgid ""
+#~ "Set cipher key size to a custom value. If unspecified, it defaults to "
+#~ "cipher-specific size.\n"
+#~ "config: keysize <n>"
+#~ msgstr ""
+#~ "Встановити нетипове значення розміру ключа шифрування. Якщо не вказано, "
+#~ "типово використовуватиметься специфічне для шифру значення.\n"
+#~ "Файл налаштувань: keysize <n>"
+
+#~ msgid ""
+#~ "Authenticate packets with HMAC using message digest algorithm. The "
+#~ "default is SHA1.\n"
+#~ "config: auth"
+#~ msgstr ""
+#~ "Розпізнавати пакети за допомогою алгоритму контрольної суми повідомлення "
+#~ "з HMAC. Типово, використовується алгоритм SHA1.\n"
+#~ "Файл налаштувань: auth"
+
+#~ msgid "Ci_pher:"
+#~ msgstr "Шифр:"
+
+#~ msgid "_HMAC Authentication:"
+#~ msgstr "_Розпізнавання HMAC:"
+
+#~ msgid "Disable cipher _negotiation"
+#~ msgstr "Вимкнути _узгодження шифрування"
+
+#~ msgid ""
+#~ "Disable cipher negotiation between client and server.\n"
+#~ "config: ncp-disable"
+#~ msgstr ""
+#~ "Вимкнути узгодження шифрування між клієнтом і сервером.\n"
+#~ "Файл налаштувань: ncp-disable"
+
+#~ msgid "Verify CRL from file"
+#~ msgstr "Перевірити CRL з файла"
+
+#~ msgid ""
+#~ "Check peer certificate against the specified file in PEM format. A CRL "
+#~ "(certificate revocation list) is used when a particular key is "
+#~ "compromised but when the overall PKI is still intact."
+#~ msgstr ""
+#~ "Перевірити сертифікат за вказаним файлом у форматі PEM. Якщо певний ключ "
+#~ "виявиться скомпрометованим, але загальне PKI лишається незмінним, буде "
+#~ "використано CRL (список відкликання сертифікатів)."
+
+#~ msgid "Verify CRL from directory"
+#~ msgstr "Перевірити CRL з каталогу"
+
+#~ msgid ""
+#~ "Check peer certificate by looking at files in the specified directory. "
+#~ "The directory must contain files named as revoked serial numbers (the "
+#~ "files may be empty, the contents are never read)."
+#~ msgstr ""
+#~ "Перевірити сертифікат вузла за файлами у вказаному каталозі. Каталог має "
+#~ "містити файли, які названо з використанням відкликаних серійних номерів "
+#~ "(файли можуть бути порожніми, вміст файлів прочитано не буде)."
+
+#~ msgid "Choose CRL file"
+#~ msgstr "Виберіть файл CRL"
+
+#~ msgid "Choose CRL directory"
+#~ msgstr "Виберіть каталог CRL"
+
+#~ msgid "Security"
+#~ msgstr "Безпека"
+
+#~ msgid "_Subject Match:"
+#~ msgstr "Об'єкт збігу:"
+
+#~ msgid ""
+#~ "Subject or Common Name to verify server certificate information against.\n"
+#~ "\n"
+#~ "config: verify-x509-name subject-or-name [mode]\n"
+#~ "config (legacy mode): tls-remote subject-or-name"
+#~ msgstr ""
+#~ "Призначення або CN для перевірки даних сертифікації сервера.\n"
+#~ "\n"
+#~ "Файл налаштувань: verify-x509-name subject-or-name [режим]\n"
+#~ "Файл налаштувань (режим застарілого коду): tls-remote subject-or-name"
+
+#~ msgid "Server _Certificate Check:"
+#~ msgstr "Пере_вірка сертифіката сервера:"
+
+#~ msgid ""
+#~ "Verify server certificate identification.\n"
+#~ "\n"
+#~ "When enabled, connection will only succeed if the server certificate "
+#~ "matches some expected properties.\n"
+#~ "Matching can either apply to the whole certificate subject (all the "
+#~ "fields),\n"
+#~ "or just the Common Name (CN field).\n"
+#~ "\n"
+#~ "The legacy option tls-remote is deprecated and removed from Anyconnect "
+#~ "2.4 and newer. Do not use it anymore.\n"
+#~ "\n"
+#~ "config: verify-x509-name subject-or-name [mode]\n"
+#~ "config (legacy mode): tls-remote subject-or-name"
+#~ msgstr ""
+#~ "Перевірити ідентичність сертифіката сервера.\n"
+#~ "\n"
+#~ "Якщо позначено, з'єднання буде успішно встановлено, якщо сертифікат "
+#~ "сервера відповідає деяким очікуваним властивостям.\n"
+#~ "Відповідність може бути встановлено або за повним призначенням "
+#~ "сертифіката (усіма полями),\n"
+#~ "або за загальною назвою (полем CN).\n"
+#~ "\n"
+#~ "Застарілий параметр tls-remote вилучено з Anyconnect 2.4 та новіших "
+#~ "версій. Не користуйтеся ним.\n"
+#~ "\n"
+#~ "Файл налаштувань: verify-x509-name subject-or-name [режим]\n"
+#~ "Файл налаштувань (режим застарілих параметрів): tls-remote subject-or-name"
+
+#~ msgid "_Verify peer (server) certificate usage signature"
+#~ msgstr "Перевір_яти підпис щодо використання сертифіката сервера"
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit key usage and "
+#~ "extended key usage based on RFC3280 TLS rules."
+#~ msgstr ""
+#~ "Вимагати, щоб сертифікат вузла було підписано із визначенням явного "
+#~ "використання ключа та розширеного використання ключа на основі правил TLS "
+#~ "з RFC3280."
+
+#~ msgid "_Remote peer certificate TLS type:"
+#~ msgstr "Тип TLS сертифіката в_іддаленого сервера:"
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit key usage and "
+#~ "extended key usage based on RFC3280 TLS rules.\n"
+#~ "config: remote-cert-tls client|server"
+#~ msgstr ""
+#~ "Вимагати, щоб сертифікат вузла було підписано із визначенням явного "
+#~ "використання ключа та розширеного використання ключа на основі правил TLS "
+#~ "з RFC3280.\n"
+#~ "Файл налаштувань: remote-cert-tls client|server"
+
+#~ msgid "_Verify peer (server) certificate nsCertType designation"
+#~ msgstr "П_еревіряти підпис nsCertType сертифіката вузла (сервера)"
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit nsCertType "
+#~ "designation."
+#~ msgstr ""
+#~ "Вимагати, щоб сертифікат вузла було явно підписано за допомогою підпису "
+#~ "nsCertType»"
+
+#~ msgid "_Remote peer certificate nsCert designation:"
+#~ msgstr "Пі_дпис nsCert сертифіката віддаленого вузла:"
+
+#~ msgid ""
+#~ "Require that peer certificate was signed with an explicit nsCertType "
+#~ "designation.\n"
+#~ "config: ns-cert-type client|server"
+#~ msgstr ""
+#~ "Вимагати, щоб сертифікат вузла було явно підписано за допомогою підпису "
+#~ "nsCertType.\n"
+#~ "Файл налаштувань: ns-cert-type client|server"
+
+#~ msgid "Key _Direction:"
+#~ msgstr "Напрямок ключа:"
+
+#~ msgid ""
+#~ "Add an additional layer of HMAC authentication on top of the TLS control "
+#~ "channel to protect against DoS attacks. In case of TLS-Crypt mode, the "
+#~ "control channel is also encrypted.\n"
+#~ "config: tls-auth <file> [direction] | tls-crypt <file>"
+#~ msgstr ""
+#~ "Використати додатковий шар розпізнавання HMAC над шаром керування каналом "
+#~ "TLS для убезпечення від нападів з метою виведення системи з ладу (DoS). "
+#~ "Якщо використано режим TLS-Crypt, канал керування також шифрується.\n"
+#~ "Файл налаштувань: tls-auth <file> [напрямок] | tls-crypt <file>"
+
+#~ msgid ""
+#~ "Direction parameter for static key mode.\n"
+#~ "If key direction is used, it must be the opposite of that used on the VPN "
+#~ "peer. For example, if the peer uses “1”, this connection must use “0”. If "
+#~ "you are unsure what value to use, contact your system administrator.\n"
+#~ "config: tls-auth <file> [direction]"
+#~ msgstr ""
+#~ "Параметр напрямку для режиму зі статичними ключами.\n"
+#~ "Якщо використано напрямок ключа, вказаний напрямок має бути протилежним "
+#~ "до того, який використано на вузлі VPN. Наприклад, якщо на вузлі "
+#~ "використовується «1», це з'єднання має використовувати «0». Якщо ви не "
+#~ "певні щодо значення, яким слід скористатися, попросіть допомогти вам "
+#~ "адміністратора вашої системи.\n"
+#~ "Файл налаштувань: tls-auth <file> [напрямок]"
+
+#~ msgid "Key _File:"
+#~ msgstr "Файл ключа:"
+
+#~ msgid "Mode:"
+#~ msgstr "Режим:"
+
+#~ msgid "Add an additional layer of encryption or HMAC authentication."
+#~ msgstr "Додати шар шифрування або розпізнавання HMAC."
+
+#~ msgid "Extra Certificates:"
+#~ msgstr "Додаткові сертифікати:"
+
+#~ msgid ""
+#~ "Specify a file containing one or more PEM certs (concatenated together) "
+#~ "that complete the local certificate chain.\n"
+#~ "config: extra-certs <file>"
+#~ msgstr ""
+#~ "Вказати файл, який містить один або декілька сертифікатів PEM "
+#~ "(з'єднаних), який завершує ланцюжок локальної сертифікації.\n"
+#~ "Файл налаштувань: extra-certs <file>"
+
+#~ msgid "Additional TLS authentication or encryption"
+#~ msgstr "Додаткове розпізнавання або шифрування TLS"
+
+#~ msgid "Controls min and max version allowed for TLS."
+#~ msgstr ""
+#~ "Керує значеннями мінімальної і максимальної версій, які дозволено для TLS."
+
+#~ msgid "TLS version control"
+#~ msgstr "Керування версією TLS"
+
+#~ msgid "TLS _min version: "
+#~ msgstr "_Мін. версія TLS: "
+
+#~ msgid ""
+#~ " Sets the minimum TLS version we will accept from the peer (default is "
+#~ "\"1.0\").  Examples for version include \"1.0\", \"1.1\", or \"1.2\".  If "
+#~ "'or-highest' is specified and version is not recognized, we will only "
+#~ "accept the highest TLS version supported by the local SSL implementation."
+#~ msgstr ""
+#~ "Встановлює мінімальну версію TLS, яку ми прийматимемо для вузлів одного з "
+#~ "нами рівня (типовою є «1.0»). Приклади записів версій: «1.0», «1.1» або "
+#~ "«1.2». Якщо вказано «or-highest» і версія є невідомою програмі, ми "
+#~ "прийматимемо лише найвищу підтримувану версією TLS у локальній реалізації "
+#~ "SSL."
+
+#~ msgid "TLS ma_x version: "
+#~ msgstr "М_акс. версія TLS: "
+
+#~ msgid ""
+#~ "Set the maximum TLS version we will use (default is the highest version "
+#~ "supported).  Examples for version include \"1.0\", \"1.1\", or \"1.2\"."
+#~ msgstr ""
+#~ "Встановити максимальну версію TLS, якою ми користуватимемося (типовою є "
+#~ "найвища підтримувана версія). Приклади записів версії: «1.0», «1.1» або "
+#~ "«1.2»."
+
+#~ msgid "TLS Authentication"
+#~ msgstr "Розпізнавання TLS"
+
+#~ msgid ""
+#~ "Proxy type: HTTP or Socks.\n"
+#~ "config: http-proxy or socks-proxy"
+#~ msgstr ""
+#~ "Тип проксі-сервера: HTTP або Socks.\n"
+#~ "Файл налаштувань: http-proxy або socks-proxy"
+
+#~ msgid "Proxy _Type:"
+#~ msgstr "Тип проксі-сервера:"
+
+#~ msgid ""
+#~ "<i>Select this option if your organization requires the use of a proxy "
+#~ "server to access the Internet.</i>"
+#~ msgstr ""
+#~ "<i>Виберіть цей параметр, якщо для доступу до інтернет у вашій "
+#~ "організації використовується проксі-сервер.</i>"
+
+#~ msgid "Server _Address:"
+#~ msgstr "Адреса сервера:"
+
+#~ msgid ""
+#~ "Connect to remote host through a proxy with this address.\n"
+#~ "config: http-proxy or socks-proxy"
+#~ msgstr ""
+#~ "Встановити з'єднання з віддаленим вузлом через проксі із вказаною "
+#~ "адресою.\n"
+#~ "Файл налаштувань: http-proxy або socks-proxy"
+
+#~ msgid "_Port:"
+#~ msgstr "Порт:"
+
+#~ msgid ""
+#~ "Connect to remote host through a proxy with this port.\n"
+#~ "config: http-proxy or socks-proxy"
+#~ msgstr ""
+#~ "Встановити з'єднання з віддаленим вузлом через проксі із вказаним "
+#~ "портом.\n"
+#~ "Файл налаштувань: http-proxy або socks-proxy"
+
+#~ msgid "_Retry indefinitely when errors occur"
+#~ msgstr "Пов_торити незалежно від того, чи станеться помилка"
+
+#~ msgid ""
+#~ "Retry indefinitely on proxy errors. It simulates a SIGUSR1 reset.\n"
+#~ "config: http-proxy-retry or socks-proxy-retry"
+#~ msgstr ""
+#~ "Не обмежувати кількість спроб у разі помилок під час встановлення зв'язку "
+#~ "з проксі-сервером. Імітує скидання за SIGUSR1.\n"
+#~ "Файл налаштувань: http-proxy-retry або socks-proxy-retry"
+
+#~ msgid "Proxy _Username:"
+#~ msgstr "Користувач на проксі-сервері:"
+
+#~ msgid "Proxy Passwor_d:"
+#~ msgstr "Пароль проксі-сервера:"
+
+#~ msgid "HTTP/Socks proxy username passed to Anyconnect when prompted for it."
+#~ msgstr ""
+#~ "Ім'я користувача HTTP/Socks-проксі, яке буде передано до Anyconnect, якщо "
+#~ "надійде запит щодо імені."
+
+#~ msgid "HTTP/Socks proxy password passed to Anyconnect when prompted for it."
+#~ msgstr ""
+#~ "Пароль до HTTP/Socks-проксі, який буде передано до Anyconnect, якщо "
+#~ "надійде запит щодо пароля."
+
+#~ msgid "_Show password"
+#~ msgstr "Показати пароль"
+
+#~ msgid "Proxies"
+#~ msgstr "Проксі-сервери"
+
+#~ msgid "Path mtu discovery"
+#~ msgstr "Визначення шляхів MTU"
+
+#~ msgid "Connect timeout"
+#~ msgstr "Час очікування на з'єднання"
+
+#~ msgid ""
+#~ "The timeout in seconds before trying the next server. This timeout "
+#~ "includes proxy and TCP connect timeouts.\n"
+#~ "config: connect-timeout <n> | server-poll-timeout <n>"
+#~ msgstr ""
+#~ "Час очікування у секундах перед тим, якщо буде виконано спробу зв'язатися "
+#~ "із наступним сервером. До цього часу очікування буде включено часи "
+#~ "очікування на зв'язок із проксі-сервером та встановлення з'єднання TCP.\n"
+#~ "Файл налаштувань: connect-timeout <n> | server-poll-timeout <n>"
+
+#~ msgid "0"
+#~ msgstr "0"
+
+#~ msgid "Push peer info"
+#~ msgstr "Надіслати дані щодо вузла"
+
+#~ msgid ""
+#~ "Push additional information about the client to server.\n"
+#~ "config: push-peer-info"
+#~ msgstr ""
+#~ "Надіслати додаткові відомості щодо клієнта на сервер.\n"
+#~ "налаштування: push-peer-info"
+
+#~ msgid "Misc"
+#~ msgstr "Інше"
+
+#~ msgid "Authenticate VPN %s"
+#~ msgstr "Розпізнавання у %s VPN"
+
+#~ msgid ""
+#~ "Select the LZO data compression mode.\n"
+#~ "config: comp-lzo"
+#~ msgstr ""
+#~ "Вибрати режим стискання даних LZO.\n"
+#~ "Файл налаштувань: comp-lzo"

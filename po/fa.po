@@ -1,0 +1,456 @@
+# Persian translation for network-manager-anyconnect.
+# Copyright (C) 2010 IFSUG Translation Group.
+# This file is distributed under the same license as the network-manager-anyconnect package.
+# Arash Mousavi <mousavi.arash@gmail.com>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: network-manager-anyconnect master\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-30 22:41+0100\n"
+"PO-Revision-Date: 2010-10-20 23:48+0330\n"
+"Last-Translator: Arash Mousavi <mousavi.arash@gmail.com>\n"
+"Language-Team: Persian\n"
+"Language: fa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:1
+#, fuzzy
+msgid "Anyconnect client"
+msgstr "Anyconnect"
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:2
+msgid "Client for Anyconnect virtual private networks"
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:3
+msgid "Support for configuring Anyconnect virtual private network connections."
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:4
+msgid "Anyconnect is a popular and flexible free-software VPN solution."
+msgstr ""
+
+#: ../appdata/network-manager-anyconnect.metainfo.xml.in.h:5
+msgid "The NetworkManager Developers"
+msgstr ""
+
+#: ../properties/nm-anyconnect-editor-plugin.c:35
+#, fuzzy
+msgid "Cisco AnyConnect"
+msgstr "Anyconnect"
+
+#: ../properties/nm-anyconnect-editor-plugin.c:36
+msgid "Runs the proprietary Cisco AnyConnect VPN."
+msgstr ""
+
+#: ../properties/nm-anyconnect-editor.c:299
+msgid "could not load UI widget"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:946
+#, c-format
+msgid "object class '%s' has no property named '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:953
+#, c-format
+msgid "property '%s' of object class '%s' is not writable"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:960
+#, c-format
+msgid ""
+"construct property \"%s\" for object '%s' can't be set after construction"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:968
+#, c-format
+msgid "'%s::%s' is not a valid property name; '%s' is not a GObject subtype"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:977
+#, c-format
+msgid "unable to set property '%s' of type '%s' from value of type '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-shared-utils.c:988
+#, c-format
+msgid ""
+"value \"%s\" of type '%s' is invalid or out of range for property '%s' of "
+"type '%s'"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:69
+#, c-format
+msgid "unable to get editor plugin name: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:103
+#, c-format
+msgid "missing plugin file \"%s\""
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:109
+#, c-format
+msgid "cannot load editor plugin: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:118
+#, c-format
+msgid "cannot load factory %s from plugin: %s"
+msgstr ""
+
+#: ../shared/nm-utils/nm-vpn-plugin-utils.c:144
+msgid "unknown error creating editor instance"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:567 ../src/nm-anyconnect-service.c:682
+msgid "Could not find the anyconnect binary."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:580
+msgid ""
+"Could not process the request because the VPN connection settings were "
+"invalid."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:602
+msgid ""
+"Could not attempt connection, unable to find the setting for the gateway."
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:875
+msgid "Don’t quit when VPN connection terminates"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:876
+msgid "Enable verbose debug logging (may expose passwords)"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:877
+msgid "D-Bus name to use for this instance"
+msgstr ""
+
+#: ../src/nm-anyconnect-service.c:905
+msgid ""
+"nm-anyconnect-service provides integrated proprietary Cisco AnyConnect "
+"capability to NetworkManager."
+msgstr ""
+
+#: ../properties/nm-anyconnect-dialog.ui.h:1
+msgid "General"
+msgstr "عمومی"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:2
+msgid "_Gateway:"
+msgstr "_دروازه:"
+
+#: ../properties/nm-anyconnect-dialog.ui.h:3
+msgid "VPN host to connect to"
+msgstr ""
+
+#, fuzzy, c-format
+#~ msgid "Authenticate VPN %s"
+#~ msgstr "تایید هویت وی‌پی‌ان"
+
+#~ msgid "Password:"
+#~ msgstr "گذرواژه:"
+
+#~ msgid "Certificate password:"
+#~ msgstr "گذرواژه‌ی تاییدیه:"
+
+#~ msgid "Authenticate VPN"
+#~ msgstr "تایید هویت وی‌پی‌ان"
+
+#~ msgid "Certificate pass_word:"
+#~ msgstr "_گذرواژه‌ی تاییدیه:"
+
+#, c-format
+#~ msgid "You need to authenticate to access the Virtual Private Network '%s'."
+#~ msgstr "برای دسترسی به شبکه خصوصی مجازی «%s» احتیاج به تایید هویت دارید."
+
+#~ msgid "Choose your personal certificate..."
+#~ msgstr "تاییدیه شخصی خود را انتخاب کنید..."
+
+#~ msgid "Choose your private key..."
+#~ msgstr "کلید اختصاصی خود را انتخاب کنید..."
+
+#, fuzzy
+#~ msgid "Not Required"
+#~ msgstr "لازم نیست"
+
+#~ msgid "Choose a Certificate Authority certificate..."
+#~ msgstr "انتخاب یک تاییدیه صلاحیت تاییدیه..."
+
+#~ msgid "Choose an Anyconnect static key..."
+#~ msgstr "یک کلید ایستا Anyconnect انتخاب کنید..."
+
+#~ msgid "None"
+#~ msgstr "هیچ‌کدام"
+
+#~ msgid "PEM or PKCS#12 certificates (*.pem, *.crt, *.key, *.cer, *.p12)"
+#~ msgstr "تادییه‌های PEM و یا PKCS#12 شامل (*.pem, *.crt, *.key, *.cer, *.p12)"
+
+#~ msgid "PEM certificates (*.pem, *.crt, *.key, *.cer)"
+#~ msgstr "تادییه‌های PEM شامل  (*.pem, *.crt, *.key, *.cer)"
+
+#~ msgid "Anyconnect Static Keys (*.key)"
+#~ msgstr "کلیدهای ایستا Anyconnect  شامل (*.key)"
+
+#~ msgid "Default"
+#~ msgstr "پیش‌فرض"
+
+#~ msgid "MD-5"
+#~ msgstr "MD-5"
+
+#~ msgid "SHA-1"
+#~ msgstr "SHA-1"
+
+#~ msgid "SHA-224"
+#~ msgstr "SHA-224"
+
+#~ msgid "SHA-256"
+#~ msgstr "SHA-256"
+
+#~ msgid "SHA-384"
+#~ msgstr "SHA-384"
+
+#~ msgid "SHA-512"
+#~ msgstr "SHA-512"
+
+#~ msgid "RIPEMD-160"
+#~ msgstr "RIPEMD-160"
+
+#~ msgid "Not required"
+#~ msgstr "لازم نیست"
+
+#~ msgid "HTTP"
+#~ msgstr "HTTP"
+
+#~ msgid "SOCKS"
+#~ msgstr "SOCKS"
+
+#~ msgid "Compatible with the Anyconnect server."
+#~ msgstr "سازگار با کارگزار Anyconnect"
+
+#~ msgid "Certificates (TLS)"
+#~ msgstr "تاییدیه (TLS)"
+
+#~ msgid "Password"
+#~ msgstr "گذرواژه"
+
+#~ msgid "Password with Certificates (TLS)"
+#~ msgstr "گذرواژه همراه با تاییدیه (TLS)"
+
+#~ msgid "Static Key"
+#~ msgstr "کلید ایستا"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "<b>General</b>"
+#~ msgstr "<b>عمومی</b>"
+
+#~ msgid "<b>Authentication</b>"
+#~ msgstr "<b>تایید هویت</b>"
+
+#~ msgid "_Show passwords"
+#~ msgstr "نمایش گذرواژه‌ها"
+
+#, fuzzy
+#~ msgid "Password for private key"
+#~ msgstr "کلید اختصاصی خود را انتخاب کنید..."
+
+#~ msgid "Private Key Password:"
+#~ msgstr "گذرواژه کلید اختصاصی:"
+
+#~ msgid "Private Key:"
+#~ msgstr "کلید اختصاصی:"
+
+#~ msgid "CA Certificate:"
+#~ msgstr "تاییدیه CA:"
+
+#~ msgid "User Certificate:"
+#~ msgstr "تاییدیه کاربر:"
+
+#~ msgid "User name:"
+#~ msgstr "نام‌کاربری:"
+
+#~ msgid "Remote IP Address:"
+#~ msgstr "آدرس IP دوردست:"
+
+#~ msgid "Local IP Address:"
+#~ msgstr "آدرس IP محلی:"
+
+#, fuzzy
+#~ msgid "Key Direction:"
+#~ msgstr "جهت کلید:"
+
+#~ msgid "Static Key:"
+#~ msgstr "کلید ایستا:"
+
+#, fuzzy
+#~ msgid ""
+#~ "Direction for Static Key encryption mode (non-TLS).\n"
+#~ "If key direction is used, it must be the opposite of that used on the VPN "
+#~ "peer.  For example, if the peer uses '1', this connection must use '0'.  "
+#~ "If you are unsure what value to use, contact your system administrator.\n"
+#~ "config: static <file> [direction]"
+#~ msgstr ""
+#~ "<i>اگر از جهت کلید استفاده شود، باید با همتا VPN خود مخالف باشد. برای "
+#~ "مثال، اگر همتا از «۱» استفاده کند، این اتصال باید از «۰» استفاده کند. اگر "
+#~ "شما از مقداری که باید استفاده نامطمئن هستید، با مدیریت سیستم خود تماس "
+#~ "بگیرید.</i>"
+
+#~ msgid "Type:"
+#~ msgstr "نوع:"
+
+#, fuzzy
+#~ msgid "Select an authentication mode."
+#~ msgstr "تاییدیه TLS"
+
+#~ msgid "Ad_vanced..."
+#~ msgstr "_پیشرفته..."
+
+#~ msgid "Anyconnect Advanced Options"
+#~ msgstr "گزینه‌های پیشرفته‌ی Anyconnect"
+
+#~ msgid "Use custom gateway p_ort:"
+#~ msgstr "استفاده از _درگاه دروازه‌ی اختصاصی:"
+
+#~ msgid "Use custom _renegotiation interval:"
+#~ msgstr "استفاده از وقفه دلخواه در ارتباط مجدد:"
+
+#~ msgid "Use L_ZO data compression"
+#~ msgstr "استفاده از فشرده‌سازی اطلاعات _LZO"
+
+#~ msgid "Use a _TCP connection"
+#~ msgstr "استفاده از یک اتصال _TCP"
+
+#~ msgid "Use custom tunnel Maximum Transmission _Unit (MTU):"
+#~ msgstr "استفاده از _تونل بیشینه ارسال واحد دلخواه (MTU):"
+
+#~ msgid "Use custom UDP _fragment size:"
+#~ msgstr "استفاده از اندازه _قطعه USP دلخواه:"
+
+#~ msgid "Restrict tunnel TCP Maximum _Segment Size (MSS)"
+#~ msgstr "منحصر کردن تونل TCP به بیشینه اندازه قطعه (MMS)"
+
+#~ msgid "Ci_pher:"
+#~ msgstr "رمز (Cipher):"
+
+#~ msgid "_HMAC Authentication:"
+#~ msgstr "تایید هویت HMAC:"
+
+#~ msgid "Security"
+#~ msgstr "امنیت"
+
+#~ msgid "_Subject Match:"
+#~ msgstr "مطابقت با مورد:"
+
+#~ msgid ""
+#~ "<i>Connect only to servers whose certificate matches the given subject.\n"
+#~ "Example: /CN=myvpn.company.com</i>"
+#~ msgstr ""
+#~ "<i>اتصال تنها به کارگزارهایی تادییه آنها با مورد داده شده همخوان باشد.\n"
+#~ "مثال: /CN=myvpn.company.com</i>"
+
+#~ msgid "Use additional _TLS authentication"
+#~ msgstr "استفاده از تاییدیه TLS اضافی"
+
+#, fuzzy
+#~ msgid "Add an additional layer of HMAC authentication."
+#~ msgstr "استفاده از تاییدیه TLS اضافی"
+
+#~ msgid "Key _Direction:"
+#~ msgstr "جهت کلید:"
+
+#, fuzzy
+#~ msgid ""
+#~ "Direction parameter for static key mode.\n"
+#~ "If key direction is used, it must be the opposite of that used on the VPN "
+#~ "peer.  For example, if the peer uses '1', this connection must use '0'.  "
+#~ "If you are unsure what value to use, contact your system administrator.\n"
+#~ "config: tls-auth <file> [direction]"
+#~ msgstr ""
+#~ "<i>اگر از جهت کلید استفاده شود، باید با همتا VPN خود مخالف باشد. برای "
+#~ "مثال، اگر همتا از «۱» استفاده کند، این اتصال باید از «۰» استفاده کند. اگر "
+#~ "شما از مقداری که باید استفاده نامطمئن هستید، با مدیریت سیستم خود تماس "
+#~ "بگیرید.</i>"
+
+#~ msgid "Key _File:"
+#~ msgstr "پرونده‌ی کلید:"
+
+#~ msgid "TLS Authentication"
+#~ msgstr "تاییدیه TLS"
+
+#~ msgid "Proxy _Type:"
+#~ msgstr "نوع پیشکار:"
+
+#~ msgid ""
+#~ "<i>Select this option if your organization requires the use of a proxy "
+#~ "server to access the Internet.</i>"
+#~ msgstr ""
+#~ "<i>چناچه موسسه شما برای اتصال به اینترنت به پیشکار احتیاج دارد، از این "
+#~ "گزینه استفاده کنید.</i>"
+
+#~ msgid "Server _Address:"
+#~ msgstr "آدرس کارگزار:"
+
+#~ msgid "_Port:"
+#~ msgstr "درگاه:"
+
+#, fuzzy
+#~ msgid "_Retry indefinitely when errors occur"
+#~ msgstr "تلاش مجدد نامحدود در صورت بروز خطا"
+
+#~ msgid "Proxy _Username:"
+#~ msgstr "نام‌کاربری پیشکار:"
+
+#~ msgid "Proxy Passwor_d:"
+#~ msgstr "گذرواژه پیشکار:"
+
+#, fuzzy
+#~ msgid "_Show password"
+#~ msgstr "نمایش گذرواژه‌ها"
+
+#~ msgid "Proxies"
+#~ msgstr "پیشکارها:"
+
+#, fuzzy
+#~ msgid "A private key password is required."
+#~ msgstr "گذرواژه کلید اختصاصی:"
+
+#, fuzzy
+#~ msgid "Unhandled pending authentication."
+#~ msgstr "استفاده از تاییدیه TLS اضافی"
+
+#~ msgid "_Password:"
+#~ msgstr "_گذرواژه:"
+
+#~ msgid "_Secondary Password:"
+#~ msgstr "_دومین گذرواژه:"
+
+#~ msgid "_Username:"
+#~ msgstr "_نام کاربری:"
+
+#~ msgid "_Domain:"
+#~ msgstr "_دامنه:"
+
+#~ msgid "Connect _anonymously"
+#~ msgstr "اتصال _ناشناس"
+
+#~ msgid "Connect as _user:"
+#~ msgstr "اتصال با عنوان _کاربر:"
+
+#~ msgid "_Remember password for this session"
+#~ msgstr "گذرواژهٔ در طول این نشست به _خاطر سپرده شود"
+
+#~ msgid "_Save password in keyring"
+#~ msgstr "_ذخیره‌ی گذرواژه در دسته‌کلید"
+
+#~ msgid "Use a TA_P device"
+#~ msgstr "استفاده از یک _دستگاه TAP"
