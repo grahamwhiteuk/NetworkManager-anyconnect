@@ -1,0 +1,6 @@
+option('with-gnome', type: 'boolean', value: true, description: 'Build NetworkManager-anyconnect without GNOME support, e.g. vpn service only')
+option('with-libnm-glib', type: 'boolean', value: false, description: 'Build NetworkManager-anyconnect with libnm-glib compatibility (deprecated)')
+option('enable-absolute-paths', type: 'boolean', value: false, description:  'Use absolute paths to in .name files. Useful for development. (default is no)')
+option('enable-more-warnings', type: 'string', value: 'yes', description: 'Enable more warnings from compiler (possible values: no/yes/error)')
+option('enable-lto', type: 'boolean', value: false, description: 'Enable Link Time Optimization for smaller size (default: no)')
+option('enable-ld-gc', type: 'boolean', value: true, description: 'Enable garbage collection of unused symbols on linking (default: yes)')

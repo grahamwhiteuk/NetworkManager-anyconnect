@@ -14,6 +14,7 @@ Group:     System Environment/Base
 
 Source:    @PACKAGE@-@VERSION@.tar.xz
 
+BuildRequires: meson
 BuildRequires: NetworkManager-libnm-devel >= 1:1.2.0
 BuildRequires: glib2-devel
 BuildRequires: libtool intltool gettext
