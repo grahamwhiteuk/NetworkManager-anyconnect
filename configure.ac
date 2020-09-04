@@ -2,8 +2,9 @@ AC_PREREQ(2.52)
 
 AC_INIT(NetworkManager-anyconnect,
         1.2.1,
-        https://gitlab.gnome.org/GNOME/NetworkManager-anyconnect/issues,
-        NetworkManager-anyconnect)
+        https://github.com/grahamwhiteuk/Networkmanager-anyconnect/issues,
+        NetworkManager-anyconnect,
+        https://github.com/grahamwhiteuk/Networkmanager-anyconnect)
 AM_INIT_AUTOMAKE([1.9 tar-ustar no-dist-gzip dist-xz -Wno-portability])
 AM_MAINTAINER_MODE
 AM_SILENT_RULES([yes])
