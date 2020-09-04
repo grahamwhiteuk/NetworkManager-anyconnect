@@ -39,8 +39,8 @@ You will need gcc and the GNU autotools installed on your build system.  There i
 
 ```shell
 cd NetworkManager-anyconnect
-./autogen.sh
-./configure --prefix=/usr --exec-prefix=/usr --disable-static --enable-more-warnings=yes
-make -j
-sudo make install
+meson builddir
+cd builddir
+ninja
+sudo ninja install
 ```
