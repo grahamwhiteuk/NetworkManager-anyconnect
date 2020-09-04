@@ -1,4 +1,4 @@
-project('NetworkManager-anyconnect', 'c', version : '1.2.1')
+project('NetworkManager-anyconnect', 'c', license : 'GPL2', version : '1.2.1')
 
 # Directories
 prefix = get_option('prefix')
@@ -10,6 +10,12 @@ libdir = get_option('libdir')
 libexecdir = join_paths(prefix, get_option('libexecdir'))
 localedir = get_option('localedir')
 systemddir = join_paths(datadir, 'dbus-1', 'system.d')
+mandir = get_option('mandir')
+sbindir = get_option('sbindir')
+infodir = get_option('infodir')
+sysconfdir = get_option('sysconfdir')
+localstatedir = get_option('localstatedir')
+sharedstatedir = get_option('sharedstatedir')
 
 if build_machine.cpu_family() == 'x86_64'
   libdir64 = join_paths(prefix, 'lib64/')
@@ -29,7 +35,7 @@ conf.set_quoted('PACKAGE_VERSION', as_version)
 conf.set_quoted('PACKAGE_NAME', as_name)
 conf.set_quoted('PACKAGE_TARNAME', as_name)
 conf.set_quoted('PACKAGE', as_name)
-conf.set_quoted('PACKAGE_BUGREPORT', 'https://gitlab.gnome.org/GNOME/NetworkManager-anyconnect/issues')
+conf.set_quoted('PACKAGE_BUGREPORT', 'https://github.com/grahamwhiteuk/Networkmanager-anyconnect/issues')
 conf.set_quoted('PACKAGE_STRING', as_name + ' ' + as_version)
 
 glib_compile_resources = find_program('glib-compile-resources', required: true)
@@ -56,56 +62,6 @@ conf.set_quoted('G_LOG_DOMAIN', 'nm-anyconnect')
 
 cc = meson.get_compiler('c')
 
-headers = [
-  'dlfcn.h',
-  'fcntl.h',
-  'inttypes.h',
-  'locale.h',
-  'memory.h',
-  'unistd.h',
-  'paths.h',
-  'stdlib.h',
-  'stdint.h',
-  'strings.h',
-  'string.h',
-  'syslog.h',
-  'sys/ioctl.h',
-  'sys/stat.h',
-  'sys/time.h',
-  'sys/types.h',
-]
-
-foreach name : headers
-  if cc.has_header(name)
-    conf.set('HAVE_@0@'.format(name.underscorify().to_upper()), 1)
-  endif
-endforeach
-
-if cc.has_header('stdlib.h') and cc.has_header('stddef.h')
-  conf.set('STDC_HEADERS', 1)
-endif
-
-if cc.has_header('sys/time.h') and cc.has_header('time.h')
-  conf.set('TIME_WITH_SYS_TIME', 1)
-endif
-
-functions = [
-  'dcgettext',
-  'gettext',
-  'select',
-  'socket',
-  'uname',
-  'bind_textdomain_codeset',
-]
-
-foreach function : functions
-  if cc.has_function(function)
-    conf.set('HAVE_@0@'.format(function.to_upper()), 1)
-  endif
-endforeach
-
-deps = []
-
 dlopen = cc.find_library('dl', required: true)
 if not dlopen.found()
   error('Unable to find dlfcn.h')
@@ -118,7 +74,7 @@ int main () {
 '''
 r = cc.compiles(code, name : 'LC_MESSAGE check')
 if r
-  conf.set('HAVE_LC_MESSAGES', 1) 
+  conf.set('HAVE_LC_MESSAGES', 1)
 endif
 
 if get_option('with-libnm-glib') and not get_option('with_gnome')
@@ -257,23 +213,29 @@ if r.returncode() != 0
   error(r.stderr().strip())
 endif
 
-# Generating appdata
-service_name = custom_target ('nm-anyconnect-service-name',
-                              output: 'nm-anyconnect-service.name',
-                              input: 'nm-anyconnect-service.name.in',
-                              command: ['sed', '-e', 's|[@]LIBEXECDIR[@]|' + libexecdir + '|g', '-e', 's|[@]PLUGINDIR[@]/|' + plugindir + '|g', '@INPUT@'],
-                              capture: true,
-                              install: true,
-                              install_dir: join_paths(prefix, 'lib', 'NetworkManager' , 'VPN/'))
+# Generate appdata
+conf_nm_service = configuration_data()
+conf_nm_service.set('LIBEXECDIR', as_name)
+conf_nm_service.set('PLUGINDIR', libdir64)
+configure_file(input : 'nm-anyconnect-service.name.in',
+               output : 'nm-anyconnect-service.name',
+               configuration : conf_nm_service)
 
 install_data('nm-anyconnect-service.conf', install_dir: systemddir)
 install_data('appdata/network-manager-anyconnect.metainfo.xml.in', rename: 'network-manager-anyconnect.metainfo.xml', install_dir: join_paths(datadir, 'metainfo/'))
 
+# Generate the RPM spec file
+conf_rpm = configuration_data()
+conf_rpm.set('PACKAGE', as_name)
+conf_rpm.set('VERSION', as_version)
+configure_file(input : 'rpm/NetworkManager-anyconnect.spec.in',
+               output : 'NetworkManager-anyconnect.spec',
+               configuration : conf_rpm)
 
+# Compiling Network Manager Service
 configuration_inc = include_directories('.')
 shared_inc = include_directories('shared/')
 
-# Compiling Network Manager Service
 nm_anyconnect_service_src = ['src/nm-anyconnect-service.c']
 
 shared_utils_inc = include_directories('shared/nm-utils/')
