@@ -84,7 +84,7 @@ rm -f %{buildroot}%{_libdir}/NetworkManager/lib*.la
 %{_prefix}/lib/NetworkManager/VPN/nm-anyconnect-service.name
 %{_libexecdir}/nm-anyconnect-service
 %doc README.md
-%license COPYING
+%license LICENSE
 
 
 %files -n NetworkManager-anyconnect-gnome
