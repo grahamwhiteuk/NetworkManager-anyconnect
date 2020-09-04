@@ -6,8 +6,7 @@ test -z "$srcdir" && srcdir=.
 REQUIRED_AUTOMAKE_VERSION=1.9
 PKG_NAME=NetworkManager-anyconnect
 
-(test -f $srcdir/configure.ac \
-  && test -f $srcdir/auth-dialog/main.c) || {
+(test -f $srcdir/configure.ac) || {
     echo -n "**Error**: Directory "\`$srcdir\'" does not look like the"
     echo " top-level $PKG_NAME directory"
     exit 1
@@ -19,5 +18,3 @@ PKG_NAME=NetworkManager-anyconnect
     autoreconf &&
     ./configure --enable-maintainer-mode $@
 )
-
-

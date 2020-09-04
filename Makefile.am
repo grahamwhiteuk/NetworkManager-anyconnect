@@ -220,37 +220,6 @@ EXTRA_DIST += \
 
 ###############################################################################
 
-if WITH_GNOME
-libexec_PROGRAMS += auth-dialog/nm-anyconnect-auth-dialog
-endif
-
-auth_dialog_nm_anyconnect_auth_dialog_SOURCES = \
-	$(shared_sources) \
-	auth-dialog/main.c
-auth_dialog_nm_anyconnect_auth_dialog_CPPFLAGS = \
-	-DICONDIR=\""$(datadir)/pixmaps"\" \
-	-DBINDIR=\""$(bindir)"\" \
-	-DGNOMELOCALEDIR=\"$(datadir)/locale\" \
-	-DNETWORKMANAGER_COMPILATION=NM_NETWORKMANAGER_COMPILATION_DEFAULT \
-	-I$(srcdir)/shared \
-	$(GLIB_CFLAGS) \
-	$(GTK_CFLAGS) \
-	$(LIBNM_CFLAGS) \
-	$(LIBNMA_CFLAGS) \
-	$(LIBSECRET_CFLAGS)
-auth_dialog_nm_anyconnect_auth_dialog_LDFLAGS = \
-	-Wl,--version-script="$(srcdir)/linker-script-binary.ver"
-auth_dialog_nm_anyconnect_auth_dialog_LDADD = \
-	$(GLIB_LIBS) \
-	$(GTK_LIBS) \
-	$(LIBNM_LIBS) \
-	$(LIBNMA_LIBS) \
-	$(LIBSECRET_LIBS)
-EXTRA_auth_dialog_nm_anyconnect_auth_dialog_DEPENDENCIES = \
-	linker-script-binary.ver
-
-###############################################################################
-
 if WITH_LIBNM_GLIB
 # Install a file with full path to plugins for an old gnome-shell
 # https://bugzilla.gnome.org/show_bug.cgi?id=693590
