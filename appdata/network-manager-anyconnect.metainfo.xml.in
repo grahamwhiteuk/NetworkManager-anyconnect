@@ -26,7 +26,7 @@
   <screenshots>
     <screenshot type="default">
       <caption>Configuring AnyConnect VPN</caption>
-      <image width="544" height="571">https://gitlab.gnome.org/GNOME/NetworkManager-anyconnect/raw/master/appdata/anyconnect.png</image>
+      <image width="544" height="571">https://github.com/grahamwhiteuk/Networkmanager-anyconnect/raw/master/appdata/anyconnect.png</image>
     </screenshot>
   </screenshots>
 

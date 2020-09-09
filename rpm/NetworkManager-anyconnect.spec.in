@@ -88,7 +88,6 @@ rm -f %{buildroot}%{_libdir}/NetworkManager/lib*.la
 
 
 %files -n NetworkManager-anyconnect-gnome
-%{_libexecdir}/nm-anyconnect-auth-dialog
 %{_libdir}/NetworkManager/libnm-vpn-plugin-anyconnect-editor.so
 %{_datadir}/metainfo/network-manager-anyconnect.metainfo.xml
 
