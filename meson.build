@@ -214,8 +214,8 @@ endif
 
 # Generate appdata
 conf_nm_service = configuration_data()
-conf_nm_service.set('LIBEXECDIR', as_name)
-conf_nm_service.set('PLUGINDIR', libdir64)
+conf_nm_service.set('LIBEXECDIR', libexecdir)
+conf_nm_service.set('PLUGINDIR', plugindir)
 configure_file(input : 'nm-anyconnect-service.name.in',
                output : 'nm-anyconnect-service.name',
                configuration : conf_nm_service,
