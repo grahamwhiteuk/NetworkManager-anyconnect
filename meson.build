@@ -243,11 +243,6 @@ shared_utils_src = ['shared/nm-utils/nm-shared-utils.c', 'shared/nm-utils/nm-vpn
 
 nm_anyconnect_service_exe = executable('nm-anyconnect-service', sources: nm_anyconnect_service_src + shared_utils_src, dependencies: deps, include_directories: [configuration_inc, shared_inc, shared_utils_inc], install: true, install_dir: libexecdir)
 
-# Compiling auth-dialog
-nm_anyconnect_auth_dialog_src = ['auth-dialog/main.c']
-
-nm_anyconnect_auth_dialog_exe = executable('nm-anyconnect-auth-dialog', sources: nm_anyconnect_auth_dialog_src + shared_utils_src, dependencies: deps, include_directories: [configuration_inc, shared_inc, shared_utils_inc], install: true, install_dir: libexecdir)
-
 # Compiling SO libraries
 plugin_src = ['properties/nm-anyconnect-editor-plugin.c']
 
