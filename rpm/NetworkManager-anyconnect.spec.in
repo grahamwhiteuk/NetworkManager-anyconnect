@@ -14,12 +14,11 @@ Group:     System Environment/Base
 
 Source:    @PACKAGE@-@VERSION@.tar.xz
 
+BuildRequires: gcc
 BuildRequires: meson
 BuildRequires: NetworkManager-libnm-devel >= 1:1.2.0
 BuildRequires: glib2-devel
-BuildRequires: libtool intltool gettext
 BuildRequires: libnma-devel >= 1.2.0
-BuildRequires: libsecret-devel
 
 %if %with libnm_glib
 BuildRequires: NetworkManager-glib-devel >= 1:1.2.0

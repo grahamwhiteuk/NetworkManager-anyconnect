@@ -90,7 +90,6 @@ if get_option('with-gnome')
   conf.set('GDK_VERSION_MIN_REQUIRED', 'GDK_VERSION_3_4')
   gtk3 = dependency('gtk+-3.0', required: true, version: '>= 3.4')
   libnma = dependency('libnma', required: true, version: '>= 1.7.0')
-  libsecret = dependency('libsecret-1', required: true, version: '>= 0.18')
 
   if get_option('with-libnm-glib')
     libnm_gtk = dependency('libnm-gtk', required: true, version: '>= 1.7.0')
@@ -106,7 +105,7 @@ if get_option('with-gnome')
 
   endif
 
-  deps += [gtk3, libnma, libsecret]
+  deps += [gtk3, libnma]
 
 endif
 
