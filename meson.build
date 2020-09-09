@@ -219,7 +219,9 @@ conf_nm_service.set('LIBEXECDIR', as_name)
 conf_nm_service.set('PLUGINDIR', libdir64)
 configure_file(input : 'nm-anyconnect-service.name.in',
                output : 'nm-anyconnect-service.name',
-               configuration : conf_nm_service)
+               configuration : conf_nm_service,
+               install: true,
+               install_dir: join_paths(prefix, 'lib', 'NetworkManager' , 'VPN/'))
 
 install_data('nm-anyconnect-service.conf', install_dir: systemddir)
 install_data('appdata/network-manager-anyconnect.metainfo.xml.in', rename: 'network-manager-anyconnect.metainfo.xml', install_dir: join_paths(datadir, 'metainfo/'))
