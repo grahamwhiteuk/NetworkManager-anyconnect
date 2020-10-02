@@ -44,3 +44,21 @@ cd builddir
 ninja
 sudo ninja install
 ```
+
+### Building an RPM
+
+There are a few ways to achieve this so here's an example to build an installable RPM file using [mock](https://github.com/rpm-software-management/mock) to build a package for Fedora 32 on x86_64 (omit the first couple of commands if you've already run them):
+
+```shell
+cd NetworkManager-anyconnect
+meson builddir
+meson dist
+rpmbuild -bs --define "_sourcedir meson-dist" NetworkManager-anyconnect.spec  --define "_srcrpmdir ."
+mock --arch=x86_64 -r fedora-32-x86_64 --resultdir="mock/NetworkManager-anyconnect-1.2.1-1.fc32" NetworkManager-anyconnect-1.2.1-1.fc32.src.rpm
+```
+
+NOTE 1: the `meson dist` command will only build a tar file from the currently committed code i.e. if you have local changes these will **not** be added to the build.
+
+Note 2: the `rpmbuild` command will create a `.src.rpm` file in the current directory i.e. in your meson build directory
+
+Note 3: the `mock` command will write all of it's output into the `mock` sub-directory (or as specified by `--resultdir`)
