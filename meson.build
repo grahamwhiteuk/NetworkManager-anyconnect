@@ -1,4 +1,14 @@
-project('NetworkManager-anyconnect', 'c', license : 'GPL2', version : '1.2.1')
+project('NetworkManager-anyconnect', 'c',
+  license : 'GPL2',
+  version : '1.2.1',
+  default_options: ['warning_level=2']
+)
+
+# Note: according to the following issue
+# https://github.com/mesonbuild/meson/issues/3275
+# warning_level=1 adds -Wall
+# warning_level=2 adds -Wall + -Wextra
+# warning_level=3 adds -Wall + -Wextra + -Wpedantic
 
 # Directories
 prefix = get_option('prefix')
@@ -153,20 +163,6 @@ foreach arg: test_args
     add_project_arguments(arg, language : 'c')
   endif
 endforeach
-
-if get_option('enable-more-warnings') == 'yes' or get_option('enable-more-warnings') == 'error'
-  if cc.has_argument('-Wextra')
-    add_project_arguments('-Wextra', language : 'c')
-  endif
-
-  if cc.has_argument('-Wall')
-    add_project_arguments('-Wall', language : 'c')
-  endif
-
-  if get_option('enable-more-warnings') == 'error' and cc.has_argument('-Werror')
-    add_project_arguments('-Werror', language : 'c')
-  endif
-endif
 
 if get_option('enable-lto')
   if cc.has_argument('-flto')
