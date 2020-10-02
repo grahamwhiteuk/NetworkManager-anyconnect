@@ -57,7 +57,7 @@ rpmbuild -bs --define "_sourcedir meson-dist" NetworkManager-anyconnect.spec  --
 mock --arch=x86_64 -r fedora-32-x86_64 --resultdir="mock/NetworkManager-anyconnect-1.2.1-1.fc32" NetworkManager-anyconnect-1.2.1-1.fc32.src.rpm
 ```
 
-NOTE 1: the `meson dist` command will only build a tar file from the currently committed code i.e. if you have local changes these will **not** be added to the build.
+Note 1: the `meson dist` command will only build a tar file from the currently committed code i.e. if you have local changes these will **not** be added to the build.
 
 Note 2: the `rpmbuild` command will create a `.src.rpm` file in the current directory i.e. in your meson build directory
 
