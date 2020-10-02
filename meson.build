@@ -33,7 +33,7 @@ else
   libdir64 = libdir
 endif
 
-plugindir = join_paths(libdir64, 'NetworkManager/')
+plugindir = join_paths(libdir64, 'NetworkManager')
 
 conf = configuration_data()
 
@@ -67,7 +67,7 @@ endforeach
 conf.set_quoted('GETTEXT_PACKAGE', as_name)
 conf.set_quoted('LOCALEDIR', join_paths(datadir, 'locale'))
 conf.set_quoted('NM_ANYCONNECT_LOCALEDIR', join_paths(datadir, 'locale'))
-conf.set_quoted('NM_PLUGIN_DIR', join_paths(libdir, 'NetworkManager'))
+conf.set_quoted('NM_PLUGIN_DIR', plugindir)
 conf.set_quoted('G_LOG_DOMAIN', 'nm-anyconnect')
 
 cc = meson.get_compiler('c')
@@ -211,7 +211,6 @@ endif
 # Generate appdata
 conf_nm_service = configuration_data()
 conf_nm_service.set('LIBEXECDIR', libexecdir)
-conf_nm_service.set('PLUGINDIR', plugindir)
 configure_file(input : 'nm-anyconnect-service.name.in',
                output : 'nm-anyconnect-service.name',
                configuration : conf_nm_service,

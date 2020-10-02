@@ -5,4 +5,4 @@ program=@LIBEXECDIR@/nm-anyconnect-service
 supports-multiple-connections=true
 
 [libnm]
-plugin=@PLUGINDIR@/libnm-vpn-plugin-anyconnect.so
+plugin=libnm-vpn-plugin-anyconnect.so
