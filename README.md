@@ -52,6 +52,7 @@ There are a few ways to achieve this so here's an example to build an installabl
 ```shell
 cd NetworkManager-anyconnect
 meson builddir
+cd builddir
 meson dist
 rpmbuild -bs --define "_sourcedir meson-dist" NetworkManager-anyconnect.spec  --define "_srcrpmdir ."
 mock --arch=x86_64 -r fedora-32-x86_64 --resultdir="mock/NetworkManager-anyconnect-1.2.1-1.fc32" NetworkManager-anyconnect-1.2.1-1.fc32.src.rpm
