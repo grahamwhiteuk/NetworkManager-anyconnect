@@ -1,0 +1,73 @@
+#!/bin/bash
+
+# NetworkManager-anyconnect-fix-perms
+# https://github.ibm.com/GWHITE/NetworkManager-anyconnect/
+#
+# This script works around an issue with Cisco AnyConnect being started as a
+# child process of NetworkManager.  When NetworkManager is started using
+# systemd, "ProtectHome=read-only" is set and as such the home file system is
+# read-only.  In some configurations, AnyConnect will attempt to download
+# files to the user's home directory from the VPN server while establishing
+# the VPN connection.  This action will fail if the home directory is not
+# writeable, hence the connection attempt fails.
+#
+# This script maintains a workaround using a set of symolic links, as follows:
+# (1) ~/.cisco is moved to ~/.cisco2 (should contain a certificates subdir)
+# (2) /var/opt/nm-anyconnect/${username}-cisco is created (this is writeable)
+# (3) ~/.cisco is linked to /var/opt/nm-anyconnect/${username}-cisco
+# (4) /var/opt/nm-anyconnect/${username}-cisco/certificates is linked to
+# ~/.cisco2/certificates
+#
+# To run, just execute the script, no parameters required.  It will attempt
+# to create any parts of the above that are missing for each user that has
+# already configured an AnyConnect certificate under ~/.cisco/certificates.
+
+# You can change the default directories here...
+NEW_DOTCISCO_DIR=".cisco2"
+WRITEABLE_DIR="/var/opt/nm-anyconnect"
+
+if [[ $EUID -ne 0 ]]; then
+   echo "This script must be run as root"
+   exit 1
+fi
+
+if ! mkdir -vpm 0755 /var/opt/nm-anyconnect; then
+  exit 2
+fi
+
+IFS=:
+# loop over all users in /etc/passwd
+while read username _ uid gid comment homedir shell; do
+  if [[ ${uid} -ge 500 && -d ${homedir} && ${homedir} == /home/* ]]; then
+    # found a user with a home dir under /home
+
+    if [[ ! -L ${homedir}/.cisco && ! -d ${homedir}/${NEW_DOTCISCO_DIR} ]]; then
+      # user's ~/.cisco isn't already a sym link and ~/${NEW_DOTCISCO_DIR} doesn't exist
+      mv -v ${homedir}/.cisco ${homedir}/${NEW_DOTCISCO_DIR}
+    fi
+
+    if [[ ! -d ${homedir}/${NEW_DOTCISCO_DIR} ]]; then
+      # there's no cisco2 dir, so the user probably didn't set up anyconnect
+      continue
+    fi
+
+    if [[ ! -d ${WRITEABLE_DIR}/${username}-cisco ]]; then
+      # writeable dir doesn't exist
+      mkdir -vm 0700 ${WRITEABLE_DIR}/${username}-cisco
+      chown -c ${uid}:${gid} ${WRITEABLE_DIR}/${username}-cisco
+    fi
+
+    if [[ ! -L ${homedir}/.cisco ]]; then
+      # link from user's ~/.cisco to the writeable dir doesn't exist
+      ln -vs ${WRITEABLE_DIR}/${username}-cisco ${homedir}/.cisco
+    fi
+
+    if [[ ! -L ${WRITEABLE_DIR}/${username}-cisco/certificates ]]; then
+      # link from writeable dir to certificates is missing
+      ln -vs ${homedir}/${NEW_DOTCISCO_DIR}/certificates ${WRITEABLE_DIR}/${username}-cisco
+    fi
+
+  fi
+done < /etc/passwd
+
+exit 0
