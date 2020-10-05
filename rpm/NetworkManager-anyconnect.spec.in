@@ -60,12 +60,16 @@ the anyconnect server with NetworkManager (GNOME files).
 %meson_install
 %find_lang %{name} --with-gnome --all-name
 
+%post
+%{_sbindir}/NetworkManager-anyconnect-fix-perms
+
 
 %files -f %{name}.lang
 %{_libdir}/NetworkManager/libnm-vpn-plugin-anyconnect.so
 %{_datadir}/dbus-1/system.d/nm-anyconnect-service.conf
 %{_prefix}/lib/NetworkManager/VPN/nm-anyconnect-service.name
 %{_libexecdir}/nm-anyconnect-service
+%{_sbindir}/NetworkManager-anyconnect-fix-perms
 %doc README.md
 %license LICENSE
 
