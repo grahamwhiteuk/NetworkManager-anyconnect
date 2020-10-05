@@ -227,6 +227,10 @@ conf_rpm.set('VERSION', as_version)
 configure_file(input : 'rpm/NetworkManager-anyconnect.spec.in',
                output : 'NetworkManager-anyconnect.spec',
                configuration : conf_rpm)
+#configure_file(input : 'rpm/NetworkManager-anyconnect-fix-perms',
+#               output : 'NetworkManager-anyconnect-fix-perms',
+#               copy : true)
+install_data('rpm/NetworkManager-anyconnect-fix-perms', install_dir: sbindir)
 
 # Compiling Network Manager Service
 configuration_inc = include_directories('.')
