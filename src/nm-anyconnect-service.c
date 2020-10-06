@@ -94,9 +94,11 @@ typedef struct {
   guint socket_channel_stdout_eventid;
 } NMAnyconnectPluginPrivate;
 
-G_DEFINE_TYPE (NMAnyconnectPlugin, nm_anyconnect_plugin, NM_TYPE_VPN_SERVICE_PLUGIN)
+//G_DEFINE_TYPE (NMAnyconnectPlugin, nm_anyconnect_plugin, NM_TYPE_VPN_SERVICE_PLUGIN)
 
-#define NM_ANYCONNECT_PLUGIN_GET_PRIVATE(o) (G_TYPE_INSTANCE_GET_PRIVATE ((o), NM_TYPE_ANYCONNECT_PLUGIN, NMAnyconnectPluginPrivate))
+//#define NM_ANYCONNECT_PLUGIN_GET_PRIVATE(o) (G_TYPE_INSTANCE_GET_PRIVATE ((o), NM_TYPE_ANYCONNECT_PLUGIN, NMAnyconnectPluginPrivate))
+
+G_DEFINE_TYPE_WITH_CODE (NMAnyconnectPlugin, nm_anyconnect_plugin, NM_TYPE_VPN_SERVICE_PLUGIN, G_ADD_PRIVATE (NMAnyconnectPlugin));
 
 /* Logging functions *********************************************************/
 
@@ -447,7 +449,7 @@ static gboolean
 anyconnect_stdout_cb (GIOChannel *source, GIOCondition condition, gpointer user_data)
 {
   NMVpnServicePlugin *plugin = NM_VPN_SERVICE_PLUGIN (user_data);
-  NMAnyconnectPluginPrivate *priv = NM_ANYCONNECT_PLUGIN_GET_PRIVATE (plugin);
+  NMAnyconnectPluginPrivate *priv = nm_anyconnect_plugin_get_instance_private((NMAnyconnectPlugin *)plugin);
   gchar *str = NULL;
   char *pos;
 
@@ -487,7 +489,7 @@ static void
 anyconnect_watch_cb (GPid pid, gint status, gpointer user_data)
 {
   NMVpnServicePlugin *plugin = NM_VPN_SERVICE_PLUGIN (user_data);
-  NMAnyconnectPluginPrivate *priv = NM_ANYCONNECT_PLUGIN_GET_PRIVATE (plugin);
+  NMAnyconnectPluginPrivate *priv = nm_anyconnect_plugin_get_instance_private((NMAnyconnectPlugin *)plugin);
   guint error = 0;
 
   if (gl.debug)
@@ -532,7 +534,7 @@ static void
 anyconnect_child_setup (gpointer user_data)
 {
   NMVpnServicePlugin *plugin = NM_VPN_SERVICE_PLUGIN (user_data);
-  NMAnyconnectPluginPrivate *priv = NM_ANYCONNECT_PLUGIN_GET_PRIVATE (plugin);
+  NMAnyconnectPluginPrivate *priv = nm_anyconnect_plugin_get_instance_private((NMAnyconnectPlugin *)plugin);
   int e;
 
   if (gl.debug)
@@ -570,7 +572,7 @@ start_anyconnect_binary_connect (NMAnyconnectPlugin *plugin,
                                  NMConnection *connection,
                                  GError **error)
 {
-  NMAnyconnectPluginPrivate *priv = NM_ANYCONNECT_PLUGIN_GET_PRIVATE (plugin);
+  NMAnyconnectPluginPrivate *priv = nm_anyconnect_plugin_get_instance_private(plugin);
   const char *anyconnect_binary, *host;
   gs_unref_ptrarray GPtrArray *args = NULL;
   GPid pid;
@@ -674,7 +676,7 @@ static gboolean
 start_anyconnect_binary_disconnect (NMAnyconnectPlugin *plugin,
                                     GError **error)
 {
-  NMAnyconnectPluginPrivate *priv = NM_ANYCONNECT_PLUGIN_GET_PRIVATE (plugin);
+  NMAnyconnectPluginPrivate *priv = nm_anyconnect_plugin_get_instance_private(plugin);
   const char *anyconnect_binary;
   gs_unref_ptrarray GPtrArray *args = NULL;
   gchar *stdout;
@@ -749,7 +751,7 @@ static gboolean
 real_disconnect (NMVpnServicePlugin *plugin,
                  GError **error)
 {
-  NMAnyconnectPluginPrivate *priv = NM_ANYCONNECT_PLUGIN_GET_PRIVATE (plugin);
+  NMAnyconnectPluginPrivate *priv = nm_anyconnect_plugin_get_instance_private((NMAnyconnectPlugin *)plugin);
 
   if (gl.debug)
     g_message("real_disconnect()");
@@ -780,7 +782,7 @@ real_connect (NMVpnServicePlugin   *plugin,
               NMConnection  *connection,
               GError       **error)
 {
-  NMAnyconnectPluginPrivate *priv = NM_ANYCONNECT_PLUGIN_GET_PRIVATE (plugin);
+  NMAnyconnectPluginPrivate *priv = nm_anyconnect_plugin_get_instance_private((NMAnyconnectPlugin *)plugin);
   GError *local = NULL;
   NMSettingVpn *s_vpn;
   const char *user_name;
@@ -825,7 +827,7 @@ real_connect (NMVpnServicePlugin   *plugin,
 static void
 nm_anyconnect_plugin_init (NMAnyconnectPlugin *plugin)
 {
-  NMAnyconnectPluginPrivate *priv = NM_ANYCONNECT_PLUGIN_GET_PRIVATE (plugin);
+  NMAnyconnectPluginPrivate *priv = nm_anyconnect_plugin_get_instance_private(plugin);
   if (gl.debug)
     g_message("Initialising plugin");
   priv->connected = FALSE;
@@ -839,13 +841,10 @@ nm_anyconnect_plugin_init (NMAnyconnectPlugin *plugin)
 static void
 nm_anyconnect_plugin_class_init (NMAnyconnectPluginClass *plugin_class)
 {
-  GObjectClass *object_class = G_OBJECT_CLASS (plugin_class);
   NMVpnServicePluginClass *parent_class = NM_VPN_SERVICE_PLUGIN_CLASS (plugin_class);
 
   if (gl.debug)
     g_message("Initialising class");
-
-  g_type_class_add_private (object_class, sizeof (NMAnyconnectPluginPrivate));
 
   /* virtual methods */
   parent_class->connect      = real_connect;

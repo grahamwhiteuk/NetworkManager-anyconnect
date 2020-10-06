@@ -69,12 +69,6 @@ nm_find_anyconnect (void)
 
 static void anyconnect_editor_plugin_widget_interface_init (NMVpnEditorInterface *iface_class);
 
-G_DEFINE_TYPE_EXTENDED (AnyconnectEditor, anyconnect_editor_plugin_widget, G_TYPE_OBJECT, 0,
-                        G_IMPLEMENT_INTERFACE (NM_TYPE_VPN_EDITOR,
-                                               anyconnect_editor_plugin_widget_interface_init))
-
-#define ANYCONNECT_EDITOR_GET_PRIVATE(o) (G_TYPE_INSTANCE_GET_PRIVATE ((o), ANYCONNECT_TYPE_EDITOR, AnyconnectEditorPrivate))
-
 typedef struct {
 	GtkBuilder *builder;
 	GtkWidget *widget;
@@ -85,12 +79,17 @@ typedef struct {
 	GtkWidget *tls_user_cert_chooser;
 } AnyconnectEditorPrivate;
 
+G_DEFINE_TYPE_EXTENDED (AnyconnectEditor, anyconnect_editor_plugin_widget, G_TYPE_OBJECT, 0,
+                        G_ADD_PRIVATE (AnyconnectEditor)
+                        G_IMPLEMENT_INTERFACE (NM_TYPE_VPN_EDITOR,
+                                               anyconnect_editor_plugin_widget_interface_init))
+
 /*****************************************************************************/
 
 static gboolean
 check_validity (AnyconnectEditor *self, GError **error)
 {
-	AnyconnectEditorPrivate *priv = ANYCONNECT_EDITOR_GET_PRIVATE (self);
+	AnyconnectEditorPrivate *priv = anyconnect_editor_plugin_widget_get_instance_private (self);
 	GtkWidget *widget;
 
 	widget = GTK_WIDGET (gtk_builder_get_object (priv->builder, "gateway_combo"));
@@ -193,7 +192,7 @@ stuff_changed_cb (GtkWidget *widget, gpointer user_data)
 static gboolean
 init_editor_plugin (AnyconnectEditor *self, NMConnection *connection)
 {
-	AnyconnectEditorPrivate *priv = ANYCONNECT_EDITOR_GET_PRIVATE (self);
+	AnyconnectEditorPrivate *priv = anyconnect_editor_plugin_widget_get_instance_private (self);
 	GtkWidget *widget;
 
   // check we've got the gateway combo box, otherwise time to barf
@@ -211,7 +210,7 @@ static GObject *
 get_widget (NMVpnEditor *iface)
 {
 	AnyconnectEditor *self = ANYCONNECT_EDITOR (iface);
-	AnyconnectEditorPrivate *priv = ANYCONNECT_EDITOR_GET_PRIVATE (self);
+	AnyconnectEditorPrivate *priv = anyconnect_editor_plugin_widget_get_instance_private (self);
 
 	return G_OBJECT (priv->widget);
 }
@@ -222,7 +221,7 @@ update_connection (NMVpnEditor *iface,
                    GError **error)
 {
 	AnyconnectEditor *self = ANYCONNECT_EDITOR (iface);
-	AnyconnectEditorPrivate *priv = ANYCONNECT_EDITOR_GET_PRIVATE (self);
+	AnyconnectEditorPrivate *priv = anyconnect_editor_plugin_widget_get_instance_private (self);
 	NMSettingVpn *s_vpn;
 	GtkWidget *widget;
 	gs_free char *auth_type = NULL;
@@ -285,7 +284,7 @@ anyconnect_editor_new (NMConnection *connection, GError **error)
 
 	object = g_object_new (ANYCONNECT_TYPE_EDITOR, NULL);
 
-	priv = ANYCONNECT_EDITOR_GET_PRIVATE (object);
+	priv = anyconnect_editor_plugin_widget_get_instance_private ((AnyconnectEditor *) object);
 
 	priv->builder = gtk_builder_new ();
 
@@ -318,7 +317,7 @@ static void
 dispose (GObject *object)
 {
 	AnyconnectEditor *plugin = ANYCONNECT_EDITOR (object);
-	AnyconnectEditorPrivate *priv = ANYCONNECT_EDITOR_GET_PRIVATE (plugin);
+  AnyconnectEditorPrivate *priv = anyconnect_editor_plugin_widget_get_instance_private (plugin);
 
 	g_clear_object (&priv->window_group);
 
@@ -342,11 +341,7 @@ anyconnect_editor_plugin_widget_interface_init (NMVpnEditorInterface *iface_clas
 static void
 anyconnect_editor_plugin_widget_class_init (AnyconnectEditorClass *req_class)
 {
-	GObjectClass *object_class = G_OBJECT_CLASS (req_class);
 
-	g_type_class_add_private (req_class, sizeof (AnyconnectEditorPrivate));
-
-	object_class->dispose = dispose;
 }
 
 /*****************************************************************************/
