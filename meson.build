@@ -1,6 +1,6 @@
 project('NetworkManager-anyconnect', 'c',
   license : 'GPL2',
-  version : '1.2.1',
+  version : '1.2.2',
   default_options: ['warning_level=2']
 )
 
