@@ -47,7 +47,7 @@ sudo ninja install
 
 ### Building an RPM
 
-There are a few ways to achieve this so here's an example to build an installable RPM file using [mock](https://github.com/rpm-software-management/mock) to build a package for Fedora 32 on x86_64 (omit the first couple of commands if you've already run them):
+There are a few ways to achieve this so here's an example to build an installable RPM file using [mock](https://github.com/rpm-software-management/mock) to build a package (omit the first couple of commands if you've already run them):
 
 ```shell
 cd NetworkManager-anyconnect
@@ -63,3 +63,13 @@ Note 1: the `meson dist` command will only build a tar file from the currently c
 Note 2: the `rpmbuild` command will create a `.src.rpm` file in the current directory i.e. in your meson build directory
 
 Note 3: the `mock` command will write all of it's output into the `mock` sub-directory (or as specified by `--resultdir`)
+
+### Building a SELinux RPM
+
+Since the SELinux policy isn't required on all machines where NetworkManager-anyconnect could run, the policy is separate and a separate RPM can be created:
+
+```shell
+cd NetworkManager-anyconnect/rpm/selinux/
+rpmbuild -bs --define "_sourcedir ." NetworkManager-anyconnect.spec  --define "_srcrpmdir ." --undefine dist
+mock --arch=x86_64 --resultdir="mock/NetworkManager-anyconnect-selinux-1.0.0-1" NetworkManager-anyconnect-selinux-1.0.0-1.src.rpm
+```
