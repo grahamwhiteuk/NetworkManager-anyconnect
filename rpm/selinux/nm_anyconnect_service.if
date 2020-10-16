@@ -1,0 +1,40 @@
+
+## <summary>policy for nm_anyconnect_service</summary>
+
+########################################
+## <summary>
+##	Execute nm_anyconnect_service_exec_t in the nm_anyconnect_service domain.
+## </summary>
+## <param name="domain">
+## <summary>
+##	Domain allowed to transition.
+## </summary>
+## </param>
+#
+interface(`nm_anyconnect_service_domtrans',`
+	gen_require(`
+		type nm_anyconnect_service_t, nm_anyconnect_service_exec_t;
+	')
+
+	corecmd_search_bin($1)
+	domtrans_pattern($1, nm_anyconnect_service_exec_t, nm_anyconnect_service_t)
+')
+
+######################################
+## <summary>
+##	Execute nm_anyconnect_service in the caller domain.
+## </summary>
+## <param name="domain">
+##	<summary>
+##	Domain allowed access.
+##	</summary>
+## </param>
+#
+interface(`nm_anyconnect_service_exec',`
+	gen_require(`
+		type nm_anyconnect_service_exec_t;
+	')
+
+	corecmd_search_bin($1)
+	can_exec($1, nm_anyconnect_service_exec_t)
+')

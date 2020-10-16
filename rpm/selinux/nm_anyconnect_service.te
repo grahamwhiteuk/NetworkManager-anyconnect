@@ -1,0 +1,57 @@
+policy_module(nm_anyconnect_service, 1.0.0)
+
+########################################
+#
+# Declarations
+#
+
+type nm_anyconnect_service_t;
+type nm_anyconnect_service_exec_t;
+init_daemon_domain(nm_anyconnect_service_t, nm_anyconnect_service_exec_t)
+
+permissive nm_anyconnect_service_t;
+
+########################################
+#
+# nm_anyconnect_service local policy
+#
+allow nm_anyconnect_service_t self:fifo_file rw_fifo_file_perms;
+allow nm_anyconnect_service_t self:unix_stream_socket create_stream_socket_perms;
+
+domain_use_interactive_fds(nm_anyconnect_service_t)
+
+files_read_etc_files(nm_anyconnect_service_t)
+
+miscfiles_read_localization(nm_anyconnect_service_t)
+
+require {
+        type auth_cache_t;
+	type var_t;
+	type NetworkManager_t;
+	type nm_anyconnect_service_exec_t;
+	type usr_t;
+	class file { append execute execute_no_trans getattr map unlink open read write };
+	class sock_file { create getattr unlink write };
+	class cap_userns sys_ptrace;
+	class process setrlimit;
+}
+
+#============= NetworkManager_t ==============
+allow NetworkManager_t nm_anyconnect_service_exec_t:file { execute execute_no_trans map open read };
+allow NetworkManager_t self:cap_userns sys_ptrace;
+allow NetworkManager_t var_t:sock_file { create getattr unlink write };
+allow NetworkManager_t var_t:file { append execute execute_no_trans getattr map unlink write };
+allow NetworkManager_t auth_cache_t:file execute;
+allow NetworkManager_t self:process setrlimit;
+allow NetworkManager_t usr_t:sock_file write;
+files_manage_generic_tmp_dirs(NetworkManager_t)
+files_read_var_files(NetworkManager_t)
+files_write_var_dirs(NetworkManager_t)
+files_append_var_files(NetworkManager_t)
+files_exec_isid_files(NetworkManager_t)
+auth_var_filetrans_cache(NetworkManager_t)
+auth_create_cache(NetworkManager_t)
+auth_rw_cache(NetworkManager_t)
+auth_manage_cache(NetworkManager_t)
+mozilla_write_user_home_files(NetworkManager_t)
+unconfined_server_stream_connect(NetworkManager_t)
