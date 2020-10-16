@@ -54,3 +54,5 @@ properties/resources.[ch]
 /NetworkManager-anyconnect*.tar*
 /po/NetworkManager-anyconnect.pot
 rpm/NetworkManager-anyconnect.spec
+*.rpm
+rpm/selinux/mock/
