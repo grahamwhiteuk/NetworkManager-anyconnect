@@ -37,13 +37,16 @@ Summary:	SELinux policy module for NetworkManager-anyconnect
 Group:	  System Environment/Base
 License:  GPLv2+
 URL:      https://github.com/grahamwhiteuk/Networkmanager-anyconnect
-#Source0:	nm_anyconnect_service.pp
-#Source1:	nm_anyconnect_service.if
-#Source2:	nm_anyconnect_service_selinux.8
 Source0: nm_anyconnect_service.fc
 Source1: nm_anyconnect_service.if
 Source2: nm_anyconnect_service.te
-%{?selinux_requires}
+BuildRequires: pkgconfig(systemd)
+BuildRequires: selinux-policy
+BuildRequires: selinux-policy-devel
+Requires(post): selinux-policy-base >= 3.14.5-44.fc32
+Requires(post): libselinux-utils
+Requires(post): policycoreutils
+Requires(post): policycoreutils-python-utils
 BuildArch: noarch
 
 %description
