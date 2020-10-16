@@ -227,10 +227,21 @@ conf_rpm.set('VERSION', as_version)
 configure_file(input : 'rpm/NetworkManager-anyconnect.spec.in',
                output : 'NetworkManager-anyconnect.spec',
                configuration : conf_rpm)
-#configure_file(input : 'rpm/NetworkManager-anyconnect-fix-perms',
-#               output : 'NetworkManager-anyconnect-fix-perms',
-#               copy : true)
 install_data('rpm/NetworkManager-anyconnect-fix-perms', install_dir: sbindir)
+
+# SELinux
+# configure_file(input : 'rpm/selinux/NetworkManager-anyconnect-selinux.spec',
+#                output : 'NetworkManager-anyconnect-selinux.spec',
+#                copy : true)
+# configure_file(input : 'rpm/selinux/nm_anyconnect_service.fc',
+#                output : 'nm_anyconnect_service_selinux.fc',
+#                copy : true)
+# configure_file(input : 'rpm/selinux/nm_anyconnect_service.if',
+#                output : 'nm_anyconnect_service_selinux.if',
+#                copy : true)
+# configure_file(input : 'rpm/selinux/nm_anyconnect_service.te',
+#                output : 'nm_anyconnect_service_selinux.te',
+#                copy : true)
 
 # Compiling Network Manager Service
 configuration_inc = include_directories('.')
