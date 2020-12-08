@@ -37,6 +37,9 @@
 #include <pwd.h>
 #include <grp.h>
 #include <glib-unix.h>
+#ifdef HAVE_LIBNOTIFY_07
+#include <libnotify/notify.h>
+#endif
 
 #include "nm-utils/nm-shared-utils.h"
 #include "nm-utils/nm-vpn-plugin-macros.h"
@@ -125,6 +128,91 @@ typedef struct {
   int ip6mask;
 } IPAddrInfo;
 
+#ifdef HAVE_LIBNOTIFY_07
+/* attempt to show a libnotify notification to the user */
+static void
+show_notification_full(NMAnyconnectPlugin *plugin, const char *summary, const char *body, const char *icon) {
+  NMAnyconnectPluginPrivate *priv = nm_anyconnect_plugin_get_instance_private(plugin);
+  NotifyNotification *notification;
+  gboolean notificationReturn = FALSE;
+  GError *notificationError = NULL;
+  gchar *dbusPath;
+  gid_t gid;
+  uid_t uid;
+  int e;
+
+  // try to initialise libnotify
+  if (notify_init ("nm-anyconnect-service")) {
+    if (gl.debug)
+      g_message("libnotify initialised successfully");
+
+    // work out the DBUS_SESSION_BUS_ADDRESS of the user
+    dbusPath = g_strdup_printf("unix:path=/run/user/%d/bus", priv->uid);
+    if (gl.debug) {
+      g_message("DBUS_SESSION_BUS_ADDRESS for libnotify notifications is %s", dbusPath);
+      g_message("DISPLAY for libnotify notifications is :0");
+    }
+
+    // configure the DBUS_SESSION_BUS_ADDRESS and DISPLAY in the environment
+    g_setenv("DBUS_SESSION_BUS_ADDRESS", dbusPath, TRUE);
+    g_setenv("DISPLAY", ":0", TRUE);
+
+    // start setting up our notification
+    notification = notify_notification_new (summary, body, icon);
+
+    // remember which gid and uid we're currently running as (should be 0)
+    gid = getegid();
+    uid = geteuid();
+
+    // we need to execute notify_notification_show() as the user so attempt to setgid and setuid here
+    if (priv->gid != 0) {
+      setgroups(1, &priv->gid);
+
+      e = setgid (priv->gid);
+      if (e < 0)
+        g_warning("Unable to show notification as group with GID: %d", priv->gid);
+    }
+
+    if (priv->uid != 0) {
+      e = setuid (priv->uid);
+      if (e < 0)
+        g_warning("Unable to show notification as user with UID: %d", priv->uid);
+    }
+
+    // display the notification to the user
+    // The following line needs to be executed under priv->uid (and not root or other users)
+    notificationReturn = notify_notification_show (notification, &notificationError);
+
+    // return the uid and gid to their saved values
+    setgid(gid);
+    setuid(uid);
+
+    if (!notificationReturn)
+      g_warning("message not shown: %s", notificationError->message);
+
+  } else {
+    g_warning("libnotify initialisation failed");
+  }
+}
+
+static void
+show_notification(NMAnyconnectPlugin *plugin, const char *body) {
+  show_notification_full(plugin, "Cisco AnyConnect VPN", body, "network-vpn-no-route");
+}
+#endif
+
+#ifndef HAVE_LIBNOTIFY_07
+static void
+show_notification_full(NMAnyconnectPlugin *plugin, const char *summary, const char *body, const char *icon) {
+  g_message(body);
+}
+
+static void
+show_notification(NMAnyconnectPlugin *plugin, const char *body) {
+  show_notification_full(body);
+}
+#endif
+
 /* based on code from getifaddrs man page, see "man 3 getifaddrs" */
 static IPAddrInfo
 get_local_ip_address(void)
@@ -149,7 +237,7 @@ get_local_ip_address(void)
     g_message("get_local_ip_address()");
 
   if (getifaddrs(&ifaddr) == -1) {
-    g_error("getifaddrs failed to get IP address of interface %s", NM_ANYCONNECT_TUNDEVICE);
+    g_warning("getifaddrs failed to get IP address of interface %s", NM_ANYCONNECT_TUNDEVICE);
     return info;
   }
 
@@ -511,17 +599,21 @@ anyconnect_watch_cb (GPid pid, gint status, gpointer user_data)
   /* Reap child if needed. */
   waitpid (priv->pid, NULL, WNOHANG);
   priv->pid = 0;
-
   g_source_remove(priv->socket_channel_stdout_eventid);
   close (g_io_channel_unix_get_fd(priv->stdout_channel));
 
   /* if we're not now showing as disconnected, see if we can provide a bit more
   feedback in the logs as to what went wrong */
   if (!priv->connected) {
-    if (priv->last_warning != NULL)
+    if (strlen(priv->last_warning) > 0)
       g_warning("%s", priv->last_warning);
-    if (priv->last_error != NULL)
-      g_error("%s", priv->last_error);
+
+    if (strlen(priv->last_error) > 0) {
+      g_warning("%s", priv->last_error);
+      show_notification((NMAnyconnectPlugin *)plugin, priv->last_error);
+    } else if (strlen(priv->last_warning) > 0) {
+      show_notification((NMAnyconnectPlugin *)plugin, priv->last_warning);
+    }
     nm_vpn_service_plugin_failure ((NMVpnServicePlugin *) plugin, NM_VPN_PLUGIN_FAILURE_CONNECT_FAILED);
   }
 }
@@ -545,7 +637,7 @@ anyconnect_child_setup (gpointer user_data)
 
     e = setgid (priv->gid);
     if (e < 0)
-      g_warning("Unable to run as group with GID: %d", priv->uid);
+      g_warning("Unable to run as group with GID: %d", priv->gid);
 
     if (priv->uid != 0) {
       e = setuid (priv->uid);
@@ -624,8 +716,8 @@ start_anyconnect_binary_connect (NMAnyconnectPlugin *plugin,
   _LOGD ("EXEC: '%s'", (cmd_log = g_strjoinv (" ", (char **) args->pdata)));
 
   /* reset our understanding of the most recent error/warning coming from AnyConnect */
-  priv->last_error = NULL;
-  priv->last_warning = NULL;
+  priv->last_error = "";
+  priv->last_warning = "";
 
   g_message("Spawning AnyConnect: %s", (cmd_log = g_strjoinv (" ", (char **) args->pdata)));
   /* Spawn with pipes */
@@ -701,8 +793,8 @@ start_anyconnect_binary_disconnect (NMAnyconnectPlugin *plugin,
   g_ptr_array_add (args, NULL);
 
   /* reset our understanding of the most recent error/warning coming from AnyConnect */
-  priv->last_error = NULL;
-  priv->last_warning = NULL;
+  priv->last_error = "";
+  priv->last_warning = "";
 
   g_message("Spawning AnyConnect: %s", (cmd_log = g_strjoinv (" ", (char **) args->pdata)));
   if (!g_spawn_sync ("/", (char **) args->pdata, NULL, G_SPAWN_DEFAULT,
@@ -732,10 +824,15 @@ start_anyconnect_binary_disconnect (NMAnyconnectPlugin *plugin,
   }
 
   if (priv->connected) {
-    if (priv->last_warning != NULL)
+    if (strlen(priv->last_warning) > 0)
       g_warning("%s", priv->last_warning);
-    if (priv->last_error != NULL)
-      g_error("%s", priv->last_error);
+
+    if (strlen(priv->last_error) > 0) {
+      g_warning("%s", priv->last_error);
+      show_notification(plugin, priv->last_error);
+    } else if (strlen(priv->last_warning) > 0) {
+      show_notification(plugin, priv->last_warning);
+    }
     return FALSE;
   }
 
@@ -834,8 +931,8 @@ nm_anyconnect_plugin_init (NMAnyconnectPlugin *plugin)
   priv->pid = 0;
   priv->uid = 0;
   priv->gid = 0;
-  priv->last_error = NULL;
-  priv->last_warning = NULL;
+  priv->last_error = "";
+  priv->last_warning = "";
 }
 
 static void

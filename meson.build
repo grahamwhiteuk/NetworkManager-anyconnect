@@ -93,8 +93,13 @@ endif
 
 libnm = dependency('libnm', required: true)
 glib2 = dependency('glib-2.0', required: true)
+libnotify = dependency('libnotify', required: false)
 
-deps = [libnm, glib2, dlopen]
+libnotify_dep = dependency('libnotify', version: '>= 0.4.3')
+conf.set10('HAVE_LIBNOTIFY_07', libnotify_dep.found() and libnotify_dep.version().version_compare('>= 0.7'),
+           description: 'Define if you have libnotify 0.7 or later')
+
+deps = [libnm, glib2, libnotify, dlopen]
 
 if get_option('with-gnome')
   conf.set('GDK_VERSION_MIN_REQUIRED', 'GDK_VERSION_3_4')
