@@ -182,6 +182,7 @@ show_notification_full(NMAnyconnectPlugin *plugin, const char *summary, const ch
     // display the notification to the user
     // The following line needs to be executed under priv->uid (and not root or other users)
     notificationReturn = notify_notification_show (notification, &notificationError);
+    g_message(body);
 
     // return the uid and gid to their saved values
     setgid(gid);
@@ -605,11 +606,7 @@ anyconnect_watch_cb (GPid pid, gint status, gpointer user_data)
   /* if we're not now showing as disconnected, see if we can provide a bit more
   feedback in the logs as to what went wrong */
   if (!priv->connected) {
-    if (strlen(priv->last_warning) > 0)
-      g_warning("%s", priv->last_warning);
-
     if (strlen(priv->last_error) > 0) {
-      g_warning("%s", priv->last_error);
       show_notification((NMAnyconnectPlugin *)plugin, priv->last_error);
     } else if (strlen(priv->last_warning) > 0) {
       show_notification((NMAnyconnectPlugin *)plugin, priv->last_warning);
@@ -824,11 +821,7 @@ start_anyconnect_binary_disconnect (NMAnyconnectPlugin *plugin,
   }
 
   if (priv->connected) {
-    if (strlen(priv->last_warning) > 0)
-      g_warning("%s", priv->last_warning);
-
     if (strlen(priv->last_error) > 0) {
-      g_warning("%s", priv->last_error);
       show_notification(plugin, priv->last_error);
     } else if (strlen(priv->last_warning) > 0) {
       show_notification(plugin, priv->last_warning);
