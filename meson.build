@@ -35,18 +35,18 @@ endif
 
 plugindir = join_paths(libdir64, 'NetworkManager')
 
-conf = configuration_data()
+config_h = configuration_data()
 
 as_version = meson.project_version()
 as_name = meson.project_name()
 
-conf.set_quoted('VERSION', as_version)
-conf.set_quoted('PACKAGE_VERSION', as_version)
-conf.set_quoted('PACKAGE_NAME', as_name)
-conf.set_quoted('PACKAGE_TARNAME', as_name)
-conf.set_quoted('PACKAGE', as_name)
-conf.set_quoted('PACKAGE_BUGREPORT', 'https://github.com/grahamwhiteuk/Networkmanager-anyconnect/issues')
-conf.set_quoted('PACKAGE_STRING', as_name + ' ' + as_version)
+config_h.set_quoted('VERSION', as_version, description: 'Version number of package')
+config_h.set_quoted('PACKAGE_VERSION', as_version, description: 'Define to the version of this package')
+config_h.set_quoted('PACKAGE_NAME', as_name, description: 'Define to the full name of this package')
+config_h.set_quoted('PACKAGE_TARNAME', as_name, description: 'Define to the one symbol short name of this package')
+config_h.set_quoted('PACKAGE', as_name, description: 'Name of package')
+config_h.set_quoted('PACKAGE_BUGREPORT', 'https://github.com/grahamwhiteuk/Networkmanager-anyconnect/issues', description: 'Define to the address where bug reports for this package should be sent')
+config_h.set_quoted('PACKAGE_STRING', as_name + ' ' + as_version, description: 'Define to the full name and version of this package')
 
 glib_compile_resources = find_program('glib-compile-resources', required: true)
 file_prog = find_program('file', required : true)
@@ -64,11 +64,11 @@ foreach name : gettext_progs
 #  set_variable('@0@_prog'.format(name), prog)
 endforeach
 
-conf.set_quoted('GETTEXT_PACKAGE', as_name)
-conf.set_quoted('LOCALEDIR', join_paths(datadir, 'locale'))
-conf.set_quoted('NM_ANYCONNECT_LOCALEDIR', join_paths(datadir, 'locale'))
-conf.set_quoted('NM_PLUGIN_DIR', plugindir)
-conf.set_quoted('G_LOG_DOMAIN', 'nm-anyconnect')
+config_h.set_quoted('GETTEXT_PACKAGE', as_name, description: 'Gettext package')
+config_h.set_quoted('LOCALEDIR', join_paths(datadir, 'locale'), description: 'The Locale Directory')
+config_h.set_quoted('NM_ANYCONNECT_LOCALEDIR', join_paths(datadir, 'locale'), description: 'The Locale Directory')
+config_h.set_quoted('NM_PLUGIN_DIR', plugindir, description: 'Path to the Editor Plugin')
+config_h.set_quoted('G_LOG_DOMAIN', 'nm-anyconnect', description: 'The name to use when logging')
 
 cc = meson.get_compiler('c')
 
@@ -84,7 +84,7 @@ int main () {
 '''
 r = cc.compiles(code, name : 'LC_MESSAGE check')
 if r
-  conf.set('HAVE_LC_MESSAGES', 1)
+  config_h.set('HAVE_LC_MESSAGES', 1, description: 'Define if your <locale.h> file defines LC_MESSAGES')
 endif
 
 if get_option('with-libnm-glib') and not get_option('with_gnome')
@@ -96,13 +96,13 @@ glib2 = dependency('glib-2.0', required: true)
 libnotify = dependency('libnotify', required: false)
 
 libnotify_dep = dependency('libnotify', version: '>= 0.4.3')
-conf.set10('HAVE_LIBNOTIFY_07', libnotify_dep.found() and libnotify_dep.version().version_compare('>= 0.7'),
+config_h.set10('HAVE_LIBNOTIFY_07', libnotify_dep.found() and libnotify_dep.version().version_compare('>= 0.7'),
            description: 'Define if you have libnotify 0.7 or later')
 
 deps = [libnm, glib2, libnotify, dlopen]
 
 if get_option('with-gnome')
-  conf.set('GDK_VERSION_MIN_REQUIRED', 'GDK_VERSION_3_4')
+  config_h.set('GDK_VERSION_MIN_REQUIRED', 'GDK_VERSION_3_4', description: 'The minimum required version of GDK')
   gtk3 = dependency('gtk+-3.0', required: true, version: '>= 3.4')
   libnma = dependency('libnma', required: true, version: '>= 1.7.0')
 
@@ -113,8 +113,7 @@ if get_option('with-gnome')
     libnm_glib = dependency('libnm-glib', required: true, version: '>= 1.7.0')
     libnm_glib_vpn = dependency('libnm-glib-vpn', required: true, version: '>= 1.7.0')
 
-    conf.set('NM_VERSION_MIN_REQUIRED', 'NM_VERSION_1_2')
-    conf.set('NM_VERSION_MAX_ALLOWED', 'NM_VERSION_1_2')
+    config_h.set('NM_VERSION_MAX_ALLOWED', 'NM_VERSION_1_2', description: 'Max NetworkManager version (only used in tests)')
 
     deps += [libnm_gtk, nm, libnm_util, libnm_glib, libnm_glib_vpn]
 
@@ -124,10 +123,10 @@ if get_option('with-gnome')
 
 endif
 
-conf.set('_GNU_SOURCE', 1)
+config_h.set('_GNU_SOURCE', 1, description: 'Required to get definitions of NI_MAXSERV and NI_MAXHOST')
 # Always defined to indicate that i18n is enabled
-conf.set('ENABLE_NLS', 1)
-conf.set('NETWORKMANAGER_COMPILATION', 'NM_NETWORKMANAGER_COMPILATION_DEFAULT|NM_NETWORKMANAGER_COMPILATION_LIB_EDITOR')
+config_h.set('ENABLE_NLS', 1, description: 'always defined to indicate that i18n is enabled')
+config_h.set('NETWORKMANAGER_COMPILATION', 'NM_NETWORKMANAGER_COMPILATION_DEFAULT|NM_NETWORKMANAGER_COMPILATION_LIB_EDITOR', description:'Used by the NetworkManager shared utilities')
 
 test_args = [
   '-Wunknown-warning-option',
@@ -234,7 +233,7 @@ configure_file(input : 'rpm/NetworkManager-anyconnect.spec.in',
                configuration : conf_rpm)
 install_data('rpm/NetworkManager-anyconnect-fix-perms', install_dir: sbindir)
 
-# SELinux
+# SELinux (commented out as can be built directly from the source tree)
 # configure_file(input : 'rpm/selinux/NetworkManager-anyconnect-selinux.spec',
 #                output : 'NetworkManager-anyconnect-selinux.spec',
 #                copy : true)
@@ -275,4 +274,4 @@ subdir('po/')
 
 # Generating config.h
 configure_file(output : 'config.h',
-               configuration : conf)
+               configuration : config_h)

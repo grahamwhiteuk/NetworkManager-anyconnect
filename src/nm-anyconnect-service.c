@@ -49,7 +49,6 @@
 #include <netdb.h>
 #include <ifaddrs.h>
 #include <linux/if_link.h>
-/* #define _GNU_SOURCE  To get definitions of NI_MAXSERV and NI_MAXHOST */
 
 /* Global Stuff **************************************************************/
 
