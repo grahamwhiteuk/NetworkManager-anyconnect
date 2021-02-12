@@ -181,11 +181,11 @@ show_notification_full(NMAnyconnectPlugin *plugin, const char *summary, const ch
     // display the notification to the user
     // The following line needs to be executed under priv->uid (and not root or other users)
     notificationReturn = notify_notification_show (notification, &notificationError);
-    g_message(body);
+    g_message("%s", body);
 
     // return the uid and gid to their saved values
-    setgid(gid);
-    setuid(uid);
+    gid = setgid(gid);
+    uid = setuid(uid);
 
     if (!notificationReturn)
       g_warning("message not shown: %s", notificationError->message);
