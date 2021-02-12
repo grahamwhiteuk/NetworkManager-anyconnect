@@ -84,5 +84,16 @@ the anyconnect server with NetworkManager (GNOME files).
 %endif
 
 %changelog
+* Fri Feb 12 2021 Graham White - 1.2.3-1
+- Add SELinux policy (required for permission fix script)
+- Add notifications using libnotify
+
+* Sat Oct 11 2020 Graham White - 1.2.2-1
+- Migrate from Autotools to Meson (with thanks to @jcfaracco)
+- Add permission work around script to the RPM build
+- Streamlined by removing unnecessary code
+- Clear up some compiler warnings by replacing deprecated function calls
+- Minor bug fixes
+
 * Fri Jun 26 2020 Graham White - 1.2.1-1
 - initial version
