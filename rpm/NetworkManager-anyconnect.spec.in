@@ -19,6 +19,7 @@ BuildRequires: meson
 BuildRequires: NetworkManager-libnm-devel >= 1:1.2.0
 BuildRequires: glib2-devel
 BuildRequires: libnma-devel >= 1.2.0
+BuildRequires: libnotify-devel >= 0.7.0
 
 %if %with libnm_glib
 BuildRequires: NetworkManager-glib-devel >= 1:1.2.0
@@ -28,6 +29,7 @@ BuildRequires: libnm-gtk-devel >= 1.2.0
 Requires: dbus
 Requires: NetworkManager >= 1:1.2.0
 Requires: anyconnect
+Requires: libnotify >= 0.7.0
 
 %global __provides_exclude ^libnm-.*\\.so
 
@@ -88,7 +90,7 @@ the anyconnect server with NetworkManager (GNOME files).
 - Add SELinux policy (required for permission fix script)
 - Add notifications using libnotify
 
-* Sat Oct 11 2020 Graham White - 1.2.2-1
+* Sun Oct 11 2020 Graham White - 1.2.2-1
 - Migrate from Autotools to Meson (with thanks to @jcfaracco)
 - Add permission work around script to the RPM build
 - Streamlined by removing unnecessary code
