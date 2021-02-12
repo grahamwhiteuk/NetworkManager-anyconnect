@@ -95,8 +95,7 @@ libnm = dependency('libnm', required: true)
 glib2 = dependency('glib-2.0', required: true)
 libnotify = dependency('libnotify', required: false, version: '>= 0.7.0')
 
-libnotify_dep = dependency('libnotify', version: '>= 0.4.3')
-config_h.set10('HAVE_LIBNOTIFY_07', libnotify_dep.found() and libnotify_dep.version().version_compare('>= 0.7'),
+config_h.set10('HAVE_LIBNOTIFY_07', libnotify.found() and libnotify.version().version_compare('>= 0.7'),
            description: 'Define if you have libnotify 0.7 or later')
 
 deps = [libnm, glib2, libnotify, dlopen]
