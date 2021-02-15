@@ -55,7 +55,7 @@ meson builddir
 cd builddir
 meson dist
 rpmbuild -bs --define "_sourcedir meson-dist" NetworkManager-anyconnect.spec  --define "_srcrpmdir ." --undefine dist
-mock --arch=x86_64 --resultdir="mock/NetworkManager-anyconnect-1.2.2-1" NetworkManager-anyconnect-1.2.2-1.src.rpm
+mock --arch=x86_64 --resultdir="mock/NetworkManager-anyconnect-1.2.3-1" NetworkManager-anyconnect-1.2.3-1.src.rpm
 ```
 
 Note 1: the `meson dist` command will only build a tar file from the currently committed code i.e. if you have local changes these will **not** be added to the build.
@@ -70,6 +70,6 @@ Since the SELinux policy isn't required on all machines where NetworkManager-any
 
 ```shell
 cd NetworkManager-anyconnect/rpm/selinux/
-rpmbuild -bs --define "_sourcedir ." NetworkManager-anyconnect.spec  --define "_srcrpmdir ." --undefine dist
+rpmbuild -bs --define "_sourcedir ." NetworkManager-anyconnect-selinux.spec  --define "_srcrpmdir ." --undefine dist
 mock --arch=x86_64 --resultdir="mock/NetworkManager-anyconnect-selinux-1.0.0-1" NetworkManager-anyconnect-selinux-1.0.0-1.src.rpm
 ```
