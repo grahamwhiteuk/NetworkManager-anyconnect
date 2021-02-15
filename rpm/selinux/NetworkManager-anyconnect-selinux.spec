@@ -31,7 +31,7 @@ restorecon -R /usr/libexec/nm-anyconnect-service; \
 
 Name:     NetworkManager-anyconnect-selinux
 Version:	1.0.0
-Release:	1%{?dist}
+Release:	2%{?dist}
 Summary:	SELinux policy module for NetworkManager-anyconnect
 
 Group:	  System Environment/Base
@@ -43,7 +43,7 @@ Source2: nm_anyconnect_service.te
 BuildRequires: pkgconfig(systemd)
 BuildRequires: selinux-policy
 BuildRequires: selinux-policy-devel
-Requires(post): selinux-policy-base >= 3.14.5-44.fc32
+Requires(post): selinux-policy
 Requires(post): libselinux-utils
 Requires(post): policycoreutils
 Requires(post): policycoreutils-python-utils
@@ -98,5 +98,8 @@ exit 0
 
 
 %changelog
+* Mon Feb 15 2021 Graham White - 1.0.0-2
+- Tweak requirements
+
 * Fri Oct 16 2020 Graham White - 1.0.0-1
 - initial version
