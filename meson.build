@@ -27,13 +27,7 @@ sysconfdir = get_option('sysconfdir')
 localstatedir = get_option('localstatedir')
 sharedstatedir = get_option('sharedstatedir')
 
-if build_machine.cpu_family() == 'x86_64'
-  libdir64 = join_paths(prefix, 'lib64/')
-else
-  libdir64 = libdir
-endif
-
-plugindir = join_paths(libdir64, 'NetworkManager')
+plugindir = join_paths(libdir, 'NetworkManager')
 
 config_h = configuration_data()
 
