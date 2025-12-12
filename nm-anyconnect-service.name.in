@@ -3,6 +3,7 @@ name=anyconnect
 service=org.freedesktop.NetworkManager.anyconnect
 program=@LIBEXECDIR@/nm-anyconnect-service
 supports-multiple-connections=true
+supports-safe-private-file-access=true
 
 [libnm]
 plugin=libnm-vpn-plugin-anyconnect.so

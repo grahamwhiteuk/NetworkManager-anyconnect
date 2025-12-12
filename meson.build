@@ -1,6 +1,6 @@
 project('NetworkManager-anyconnect', 'c',
   license : 'GPL2',
-  version : '1.2.3',
+  version : '1.2.4',
   default_options: ['warning_level=2']
 )
 
@@ -186,24 +186,10 @@ asresources = gnome.compile_resources(
   c_name : 'as')
 
 # glib-compile-resources
-glib_resources_path = join_paths(meson.build_root(), 'properties/')
-r = run_command('mkdir', glib_resources_path)
-if r.returncode() != 0
-  message('Could not compile glib resources:')
-  message(r.stderr().strip())
-endif
-
-r = run_command('glib-compile-resources', '--target', join_paths(glib_resources_path, 'resources.h'), '--sourcedir=properties/', '--generate-header', 'properties/gresource.xml')
-if r.returncode() != 0
-  message('Could not compile glib resources:')
-  error(r.stderr().strip())
-endif
-
-r = run_command('glib-compile-resources', '--target', join_paths(glib_resources_path, 'resources.c'), '--sourcedir=properties/', '--generate-source', 'properties/gresource.xml')
-if r.returncode() != 0
-  message('Could not compile glib resources:')
-  error(r.stderr().strip())
-endif
+glib_resources_path = join_paths(meson.project_build_root(), 'properties/')
+r = run_command('mkdir', glib_resources_path, check: true)
+r = run_command('glib-compile-resources', '--target', join_paths(glib_resources_path, 'resources.h'), '--sourcedir=properties/', '--generate-header', 'properties/gresource.xml', check: true)
+r = run_command('glib-compile-resources', '--target', join_paths(glib_resources_path, 'resources.c'), '--sourcedir=properties/', '--generate-source', 'properties/gresource.xml', check: true)
 
 # Generate appdata
 conf_nm_service = configuration_data()

@@ -14,8 +14,8 @@ i18n.gettext(
   meson.project_name(),
   args: [
     '--add-comments=TRANSLATORS:',
-    '--directory=@0@'.format(meson.source_root()),
-    '--directory=@0@'.format(meson.build_root()),
+    '--directory=@0@'.format(meson.project_source_root()),
+    '--directory=@0@'.format(meson.project_build_root()),
     '--files-from=@0@'.format(meson.current_build_dir() / 'POTFILES'),
     '--package-version=@0@'.format(meson.project_version()),
     '--sort-output',

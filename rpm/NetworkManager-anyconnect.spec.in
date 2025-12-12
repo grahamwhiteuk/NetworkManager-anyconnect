@@ -86,6 +86,10 @@ the anyconnect server with NetworkManager (GNOME files).
 %endif
 
 %changelog
+* Fri Dec 12 2025 Graham White - 1.2.4-1
+- Update the build
+- Specify supports-safe-private-file-access=true
+
 * Fri Feb 12 2021 Graham White - 1.2.3-1
 - Add SELinux policy (required for permission fix script)
 - Add notifications using libnotify
